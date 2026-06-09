@@ -15,7 +15,7 @@ const ROLE_COLORS = {
   att: '#2aab6a',
 }
 
-export default function PitchDiagram({ players, accentColor }) {
+export default function PitchDiagram({ players, accentColor, onPlayerClick, selectedName }) {
   const roleColor = (role) => {
     if (role === 'gk') return accentColor
     if (role === 'def') return darken(accentColor, 0.3)
@@ -51,6 +51,9 @@ export default function PitchDiagram({ players, accentColor }) {
       <defs>
         <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="0" dy="1" stdDeviation="2" floodColor="rgba(0,0,0,0.5)" />
+        </filter>
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+          <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="white" floodOpacity="0.9" />
         </filter>
       </defs>
 
@@ -99,8 +102,19 @@ export default function PitchDiagram({ players, accentColor }) {
       {players.map((p) => {
         const r = nodeRadius(p)
         const fill = roleColor(p.role)
+        const isClickable = p.isKeyPlayer || p.isCaptain
+        const isSelected = selectedName && (p.name === selectedName || p.shortName === selectedName)
         return (
-          <g key={p.name} filter="url(#shadow)">
+          <g
+            key={p.name}
+            filter={isSelected ? 'url(#glow)' : 'url(#shadow)'}
+            onClick={isClickable && onPlayerClick ? () => onPlayerClick(p.name) : undefined}
+            style={isClickable ? { cursor: 'pointer' } : {}}
+          >
+            {/* Selection pulse ring */}
+            {isSelected && (
+              <circle cx={p.x} cy={p.y} r={r + 9} fill="none" stroke="white" strokeWidth={2} strokeOpacity={0.6} />
+            )}
             {/* Captain: double ring */}
             {p.isCaptain && (
               <circle cx={p.x} cy={p.y} r={r + 5} fill="none" stroke="white" strokeWidth={2} />
@@ -110,7 +124,7 @@ export default function PitchDiagram({ players, accentColor }) {
               <circle cx={p.x} cy={p.y} r={r + 2} fill="none" stroke="white" strokeWidth={1.5} />
             )}
             {/* Main circle */}
-            <circle cx={p.x} cy={p.y} r={r} fill={fill} />
+            <circle cx={p.x} cy={p.y} r={r} fill={fill} fillOpacity={isSelected ? 1 : 0.92} />
             {/* Name */}
             <text
               x={p.x}
@@ -123,19 +137,34 @@ export default function PitchDiagram({ players, accentColor }) {
             >
               {p.shortName}
             </text>
-            {/* "key player" label */}
-            {(p.isKeyPlayer || p.isCaptain) && (
+            {/* "tap" hint on key players (not selected) */}
+            {(p.isKeyPlayer || p.isCaptain) && !isSelected && (
               <text
                 x={p.x}
                 y={p.y + 4}
                 textAnchor="middle"
                 fill="white"
-                fillOpacity={0.85}
+                fillOpacity={0.7}
                 fontSize={6.5}
                 fontStyle="italic"
                 fontFamily="sans-serif"
               >
-                key player
+                tap
+              </text>
+            )}
+            {/* Selected indicator */}
+            {isSelected && (
+              <text
+                x={p.x}
+                y={p.y + 4}
+                textAnchor="middle"
+                fill="white"
+                fillOpacity={1}
+                fontSize={6.5}
+                fontWeight="700"
+                fontFamily="sans-serif"
+              >
+                ▼
               </text>
             )}
             {/* Position */}
@@ -170,10 +199,21 @@ export default function PitchDiagram({ players, accentColor }) {
         </g>
       ))}
 
-      {/* Attacking end label bottom-right */}
+      {/* Tap hint bottom-right */}
       <text
         x={438}
-        y={470}
+        y={462}
+        textAnchor="end"
+        fill="white"
+        fillOpacity={0.45}
+        fontSize={8}
+        fontFamily="sans-serif"
+      >
+        tap ringed players
+      </text>
+      <text
+        x={438}
+        y={472}
         textAnchor="end"
         fill="white"
         fillOpacity={0.45}

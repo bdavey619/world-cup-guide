@@ -1,13 +1,35 @@
+import { useState } from 'react'
 import PitchDiagram from './PitchDiagram'
 
 export default function TeamPageTwo({ team }) {
   const {
     accentColor, name, nickname, meta, schedule,
-    history, allTimeRecord, pitch,
+    history, allTimeRecord, pitch, keyPlayers, tactics,
   } = team
 
   const muted = 'var(--gray-500)'
   const serif = 'var(--font-serif)'
+
+  const [selectedPitchName, setSelectedPitchName] = useState(null)
+
+  // Find the keyPlayer profile that matches a pitch player name
+  function findKeyPlayer(pitchName) {
+    if (!keyPlayers || !pitchName) return null
+    const needle = pitchName.toLowerCase()
+    return keyPlayers.find(kp => {
+      const haystack = kp.name.toLowerCase()
+      // exact match, substring either direction, or last-name match
+      if (haystack === needle || haystack.includes(needle) || needle.includes(haystack)) return true
+      const lastName = haystack.split(' ').pop()
+      return needle.includes(lastName) || lastName.includes(needle)
+    }) || null
+  }
+
+  function handlePlayerClick(pitchName) {
+    setSelectedPitchName(prev => prev === pitchName ? null : pitchName)
+  }
+
+  const selectedPlayer = findKeyPlayer(selectedPitchName)
 
   const SectionLabel = ({ label }) => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 8 }}>
@@ -158,12 +180,135 @@ export default function TeamPageTwo({ team }) {
         minHeight: 400,
       }}>
 
-        {/* LEFT — PitchDiagram */}
+        {/* LEFT — How They Play + Pitch */}
         <div className="team-left-col-p2" style={{
-          padding: '1rem 1.2rem 1rem 1.5rem',
           borderRight: '0.5px solid #e0e0e0',
+          display: 'flex',
+          flexDirection: 'column',
         }}>
-          <PitchDiagram players={pitch.players} accentColor={accentColor} />
+
+          {/* HOW THEY PLAY */}
+          <div style={{ padding: '0.9rem 1.2rem 0.8rem', borderBottom: '0.5px solid var(--gray-100)' }}>
+            <SectionLabel label="How They Play" />
+            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginBottom: 8 }}>
+              <span style={{
+                background: accentColor,
+                color: '#fff',
+                fontSize: 11,
+                fontWeight: 500,
+                padding: '3px 10px',
+                borderRadius: 4,
+                fontFamily: 'var(--font-sans)',
+              }}>
+                {meta.formation}
+              </span>
+              {tactics && tactics.styleTags && tactics.styleTags.map((tag) => (
+                <span key={tag} style={{
+                  background: 'var(--surface)',
+                  color: 'var(--gray-500)',
+                  fontSize: 11,
+                  padding: '3px 10px',
+                  borderRadius: 4,
+                  fontFamily: 'var(--font-sans)',
+                }}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+            {tactics && (
+              <>
+                <div style={{
+                  fontSize: 12,
+                  lineHeight: 1.65,
+                  color: 'var(--gray-700)',
+                  fontFamily: 'var(--font-sans)',
+                  marginBottom: 8,
+                }}>
+                  {tactics.tacticalNote}
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
+                  <div style={{ background: 'var(--green-bg)', borderRadius: 4, padding: '6px 8px' }}>
+                    <div style={{ fontSize: 9, fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--green-text)', marginBottom: 2, fontFamily: 'var(--font-sans)' }}>Strength</div>
+                    <div style={{ fontSize: 11, lineHeight: 1.5, color: 'var(--green-body)', fontFamily: 'var(--font-sans)' }}>{tactics.strength}</div>
+                  </div>
+                  <div style={{ background: 'var(--red-bg)', borderRadius: 4, padding: '6px 8px' }}>
+                    <div style={{ fontSize: 9, fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--red-text)', marginBottom: 2, fontFamily: 'var(--font-sans)' }}>Vulnerability</div>
+                    <div style={{ fontSize: 11, lineHeight: 1.5, color: 'var(--red-body)', fontFamily: 'var(--font-sans)' }}>{tactics.vulnerability}</div>
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* PITCH DIAGRAM */}
+          <div style={{ padding: '0.8rem 1.2rem 0 1.5rem', flex: 1 }}>
+            <PitchDiagram
+              players={pitch.players}
+              accentColor={accentColor}
+              onPlayerClick={handlePlayerClick}
+              selectedName={selectedPitchName}
+            />
+          </div>
+
+          {/* SELECTED PLAYER CARD */}
+          {selectedPlayer ? (
+            <div style={{
+              margin: '0 1.2rem 1rem 1.5rem',
+              background: 'var(--gray-50)',
+              borderRadius: 8,
+              borderLeft: `3px solid ${accentColor}`,
+              padding: '10px 12px',
+              position: 'relative',
+            }}>
+              {/* Dismiss */}
+              <button
+                onClick={() => setSelectedPitchName(null)}
+                style={{
+                  position: 'absolute',
+                  top: 8,
+                  right: 10,
+                  background: 'none',
+                  border: 'none',
+                  fontSize: 14,
+                  color: 'var(--gray-400)',
+                  cursor: 'pointer',
+                  lineHeight: 1,
+                  padding: 0,
+                }}
+              >×</button>
+              {/* Name + meta */}
+              <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginBottom: 3, paddingRight: 16 }}>
+                <span style={{ fontSize: 14, fontWeight: 500, fontFamily: serif, color: 'var(--gray-900)' }}>
+                  {selectedPlayer.name}
+                </span>
+                {selectedPlayer.badge && (
+                  <span style={{ background: accentColor, color: '#fff', fontSize: 8, padding: '1px 5px', borderRadius: 3, fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
+                    {selectedPlayer.badge}
+                  </span>
+                )}
+              </div>
+              <div style={{ fontSize: 11, color: muted, marginBottom: 6, fontFamily: 'var(--font-sans)' }}>
+                {selectedPlayer.club} · {selectedPlayer.position}
+              </div>
+              <div style={{ fontSize: 12, lineHeight: 1.6, color: 'var(--gray-700)', fontFamily: 'var(--font-sans)' }}>
+                {selectedPlayer.role}
+              </div>
+              {selectedPlayer.stat && (
+                <div style={{ marginTop: 7, display: 'flex', alignItems: 'baseline', gap: 5 }}>
+                  <span style={{ fontSize: 15, fontWeight: 600, color: accentColor, fontFamily: 'var(--font-sans)' }}>
+                    {selectedPlayer.stat}
+                  </span>
+                  {selectedPlayer.statLabel && (
+                    <span style={{ fontSize: 10, color: muted, fontFamily: 'var(--font-sans)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                      {selectedPlayer.statLabel}
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div style={{ height: '0.8rem' }} />
+          )}
         </div>
 
         {/* RIGHT PANEL */}
@@ -217,7 +362,7 @@ export default function TeamPageTwo({ team }) {
                       fontWeight: 500,
                       fontFamily: serif,
                     }}>
-                      {match.isAway ? `${name} vs ${match.opponent}` : `${name} vs ${match.opponent}`}
+                      {name} vs {match.opponent}
                     </span>
                     <span style={{
                       fontSize: 9,
