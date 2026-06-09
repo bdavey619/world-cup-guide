@@ -154,8 +154,8 @@
         "y": 56
       },
       {
-        "name": "Youcef Atal",
-        "shortName": "Atal",
+        "name": "Benrahma",
+        "shortName": "Benrahma",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": true,
@@ -194,8 +194,8 @@
         "y": 148
       },
       {
-        "name": "Ismaël Bennacer",
-        "shortName": "Bennacer",
+        "name": "Amoura",
+        "shortName": "Amoura",
         "position": "RCM",
         "role": "mid",
         "isKeyPlayer": true,
@@ -234,11 +234,11 @@
         "y": 362
       },
       {
-        "name": "Andy Delort",
-        "shortName": "Delort",
+        "name": "Benlamri",
+        "shortName": "Benlamri",
         "position": "ST",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
         "y": 372

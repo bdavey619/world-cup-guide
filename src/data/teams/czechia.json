@@ -163,8 +163,8 @@
   "pitch": {
     "players": [
       {
-        "name": "Hrádecký",
-        "shortName": "Hrádecký",
+        "name": "Pavlenka",
+        "shortName": "Pavlenka",
         "position": "GK",
         "role": "gk",
         "isKeyPlayer": false,

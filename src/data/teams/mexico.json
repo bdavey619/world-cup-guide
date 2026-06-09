@@ -227,7 +227,7 @@
         "position": "DM",
         "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": false,
+        "isCaptain": true,
         "x": 226,
         "y": 236
       },
@@ -242,12 +242,12 @@
         "y": 244
       },
       {
-        "name": "Lozano",
-        "shortName": "Lozano",
+        "name": "Vega",
+        "shortName": "Vega",
         "position": "RW",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
+        "isCaptain": false,
         "x": 389,
         "y": 362
       },

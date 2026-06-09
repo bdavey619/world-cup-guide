@@ -187,11 +187,11 @@
         "y": 244
       },
       {
-        "name": "Hutchinson",
-        "shortName": "Hutchinson",
+        "name": "Eustáquio",
+        "shortName": "Eustáquio",
         "position": "DM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
         "y": 236

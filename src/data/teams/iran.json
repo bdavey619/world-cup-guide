@@ -233,8 +233,8 @@
         "y": 310
       },
       {
-        "name": "Sardar Azmoun",
-        "shortName": "Azmoun",
+        "name": "Ansarifard",
+        "shortName": "Ansarifard",
         "position": "CAM",
         "role": "att",
         "isKeyPlayer": true,
@@ -243,8 +243,8 @@
         "y": 300
       },
       {
-        "name": "Ali Gholizadeh",
-        "shortName": "Gholizadeh",
+        "name": "Allahyar",
+        "shortName": "Allahyar",
         "position": "LAM",
         "role": "att",
         "isKeyPlayer": false,
