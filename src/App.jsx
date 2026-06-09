@@ -101,9 +101,8 @@ export default function App() {
   }
 
   function selectGroup(g) {
-    setActiveGroup(g)
     const first = firstInGroup(g)
-    if (first) setSelectedTeamId(first.id)
+    navigate('guide', { group: g, teamId: first ? first.id : selectedTeamId })
   }
 
   function selectTeam(team) {
@@ -333,7 +332,7 @@ export default function App() {
                 <div
                   className="team-card"
                   key={t.id}
-                  onClick={() => setSelectedTeamId(t.id)}
+                  onClick={() => navigate('guide', { teamId: t.id, group: activeGroup })}
                   style={{
                     flex: 1,
                     padding: '8px 10px',
