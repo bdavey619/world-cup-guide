@@ -7,12 +7,12 @@ const DATE_ORDER = [
 ]
 
 const DAY_NAMES = {
-  'Jun 11': 'Wednesday', 'Jun 12': 'Thursday', 'Jun 13': 'Friday',
-  'Jun 14': 'Saturday',  'Jun 15': 'Sunday',   'Jun 16': 'Monday',
-  'Jun 17': 'Tuesday',   'Jun 18': 'Wednesday', 'Jun 19': 'Thursday',
-  'Jun 20': 'Friday',    'Jun 21': 'Saturday',  'Jun 22': 'Sunday',
-  'Jun 23': 'Monday',    'Jun 24': 'Tuesday',   'Jun 25': 'Wednesday',
-  'Jun 26': 'Thursday',  'Jun 27': 'Friday',
+  'Jun 11': 'Thursday',  'Jun 12': 'Friday',    'Jun 13': 'Saturday',
+  'Jun 14': 'Sunday',    'Jun 15': 'Monday',    'Jun 16': 'Tuesday',
+  'Jun 17': 'Wednesday', 'Jun 18': 'Thursday',  'Jun 19': 'Friday',
+  'Jun 20': 'Saturday',  'Jun 21': 'Sunday',    'Jun 22': 'Monday',
+  'Jun 23': 'Tuesday',   'Jun 24': 'Wednesday', 'Jun 25': 'Thursday',
+  'Jun 26': 'Friday',    'Jun 27': 'Saturday',
 }
 
 // "Jun 11" → comparable number for today-detection
