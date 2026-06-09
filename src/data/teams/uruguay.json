@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 16,
     "group": "H",
-    "groupOpponents": ["Spain", "Saudi Arabia", "Cape Verde"],
+    "groupOpponents": [
+      "Spain",
+      "Saudi Arabia",
+      "Cape Verde"
+    ],
     "oddsToWin": "+2500",
     "impliedProbability": "~4%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["High Press", "Garra Charrúa", "Physical", "Positional"],
+    "styleTags": [
+      "High Press",
+      "Garra Charrúa",
+      "Physical",
+      "Positional"
+    ],
     "tacticalNote": "Bielsa's Uruguay is a radical departure from the defensive pragmatism of previous eras. The high press is relentless — Uruguay looks to win the ball in advanced positions and transition quickly. Valverde and Bentancur provide the engine to sustain the press across 90 minutes, while Núñez leads the line with relentless running and direct threat. Araújo and the defense push high to compress the space, trusting their pace to deal with balls in behind. It's a brave setup that either suffocates opponents or leaves space to exploit.",
     "strength": "The combination of Bielsa's intense pressing structure with Valverde's extraordinary box-to-box ability and Núñez's explosive finishing creates a team that can overpower opponents in sustained bursts.",
     "vulnerability": "Playing a high defensive line with Uruguay's center-backs means quick attackers can expose them in behind — a calculated risk Bielsa accepts in exchange for territorial dominance."
@@ -63,19 +72,80 @@
     "Uruguay's press in the opening 15 minutes — Bielsa teams often overwhelm opponents before they're settled"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "6PM ET", "opponent": "Saudi Arabia", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": false },
-    { "date": "Jun 21", "time": "6PM ET", "opponent": "Cape Verde", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": false },
-    { "date": "Jun 26", "time": "8PM ET", "opponent": "Spain", "venue": "Estadio Akron", "city": "Guadalajara", "isAway": false }
+    {
+      "date": "Jun 15",
+      "time": "6PM ET",
+      "opponent": "Saudi Arabia",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": false
+    },
+    {
+      "date": "Jun 21",
+      "time": "6PM ET",
+      "opponent": "Cape Verde",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "8PM ET",
+      "opponent": "Spain",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": false
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
-    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
-    { "year": 2010, "host": "South Africa", "result": "4th Place", "tier": "sf" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
-    { "year": 1990, "host": "Italy", "result": "R16", "tier": "deep" },
-    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "4th Place",
+      "tier": "sf"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1990,
+      "host": "Italy",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "R16",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 57,
@@ -90,17 +160,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Sergio Rochet", "shortName": "Rochet", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Guillermo Varela", "shortName": "Varela", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Ronald Araújo", "shortName": "Araújo", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "José María Giménez", "shortName": "Giménez", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Mathías Olivera", "shortName": "Olivera", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Federico Valverde", "shortName": "Valverde", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Rodrigo Bentancur", "shortName": "Bentancur", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Manuel Ugarte", "shortName": "Ugarte", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Facundo Pellistri", "shortName": "Pellistri", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Darwin Núñez", "shortName": "Núñez", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
-      { "name": "Maximiliano Araújo", "shortName": "M. Araújo", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Sergio Rochet",
+        "shortName": "Rochet",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Guillermo Varela",
+        "shortName": "Varela",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Ronald Araújo",
+        "shortName": "Araújo",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "José María Giménez",
+        "shortName": "Giménez",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Mathías Olivera",
+        "shortName": "Olivera",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Federico Valverde",
+        "shortName": "Valverde",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Rodrigo Bentancur",
+        "shortName": "Bentancur",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Manuel Ugarte",
+        "shortName": "Ugarte",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Facundo Pellistri",
+        "shortName": "Pellistri",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Darwin Núñez",
+        "shortName": "Núñez",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Maximiliano Araújo",
+        "shortName": "M. Araújo",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

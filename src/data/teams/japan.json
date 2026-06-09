@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 18,
     "group": "F",
-    "groupOpponents": ["Netherlands", "Sweden", "Tunisia"],
+    "groupOpponents": [
+      "Netherlands",
+      "Sweden",
+      "Tunisia"
+    ],
     "oddsToWin": "+3000",
     "impliedProbability": "~3.2%",
     "lastWCResult": "R16 '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["High Press", "Technical", "Collective", "Disciplined", "Counter-Attack"],
+    "styleTags": [
+      "High Press",
+      "Technical",
+      "Collective",
+      "Disciplined",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Moriyasu's 4-2-3-1 is built around collective pressing and rapid transitions. Japan sits in a mid-to-high block, hunting in coordinated packs and winning the ball in dangerous areas. Once possession is gained, the ball moves quickly to Kubo and the wide attackers, who drive at defenders in transition. Against the Netherlands, Japan will need to press aggressively and deny de Jong time on the ball — the same blueprint that worked against Germany and Spain in 2022.",
     "strength": "Coordinated team pressing and rapid counter-attacks — Japan is one of the best teams in the world at winning the ball in dangerous areas and immediately transitioning into attacks.",
     "vulnerability": "When deep-defending against sustained possession from technically superior sides, Japan can be stretched laterally and is vulnerable to patient overloads in wide areas."
@@ -89,13 +99,48 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "R16", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 28,
@@ -110,17 +155,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Shuichi Gonda", "shortName": "Gonda", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Hiroki Sakai", "shortName": "Sakai", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Ko Itakura", "shortName": "Itakura", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Maya Yoshida", "shortName": "Yoshida", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Yuto Nagatomo", "shortName": "Nagatomo", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Wataru Endo", "shortName": "Endo", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Ao Tanaka", "shortName": "Tanaka", "position": "LDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Takefusa Kubo", "shortName": "Kubo", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Takumi Minamino", "shortName": "Minamino", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 300 },
-      { "name": "Ritsu Doan", "shortName": "Doan", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Ayase Ueda", "shortName": "Ueda", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Shuichi Gonda",
+        "shortName": "Gonda",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Hiroki Sakai",
+        "shortName": "Sakai",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Ko Itakura",
+        "shortName": "Itakura",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Maya Yoshida",
+        "shortName": "Yoshida",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "shortName": "Nagatomo",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Wataru Endo",
+        "shortName": "Endo",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Ao Tanaka",
+        "shortName": "Tanaka",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Takefusa Kubo",
+        "shortName": "Kubo",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Takumi Minamino",
+        "shortName": "Minamino",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Ritsu Doan",
+        "shortName": "Doan",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Ayase Ueda",
+        "shortName": "Ueda",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

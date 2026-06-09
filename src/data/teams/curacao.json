@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 86,
     "group": "E",
-    "groupOpponents": ["Germany", "Ecuador", "Ivory Coast"],
+    "groupOpponents": [
+      "Germany",
+      "Ecuador",
+      "Ivory Coast"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "First ever appearance",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Physical", "Disciplined", "Counter-Attack", "Dutch Influence"],
+    "styleTags": [
+      "Organized",
+      "Physical",
+      "Disciplined",
+      "Counter-Attack",
+      "Dutch Influence"
+    ],
     "tacticalNote": "Bicentini sets up Curaçao in a disciplined 4-3-3 that prioritizes defensive compactness above all else. The midfield three work in coordinated shifts to deny space centrally, while the forwards press selectively to force mistakes in wide areas. Against Germany, Ecuador, and Ivory Coast, Curaçao will defend deep and compact, looking for set pieces and counter-attacks as their primary avenues to goal. Staying organized for 90 minutes is the tactical goal — not conceding 5 or 6 would be a significant achievement.",
     "strength": "Dutch footballing education gives Curaçao technical discipline that belies their ranking — they will not be passive victims, they will be organized and difficult to break down.",
     "vulnerability": "Quality and depth — after the starting eleven, the drop-off in technical level is significant, and as games stretch out against top opposition, fatigue and quality gaps will show."
@@ -102,17 +112,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Eloy Room", "shortName": "Room", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Leandro Bacuna", "shortName": "Bacuna", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 148 },
-      { "name": "Jurien Gaari", "shortName": "Gaari", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Vurnon Anita", "shortName": "Anita", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Rangelo Janga", "shortName": "Janga", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Gevero Markiet", "shortName": "Markiet", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Brandley Kuwas", "shortName": "Kuwas", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Cuco Martina", "shortName": "Martina", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Darryl Luchiano", "shortName": "Luchiano", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Quentin Bollen", "shortName": "Bollen", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Jarchinio Antonia", "shortName": "Antonia", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Eloy Room",
+        "shortName": "Room",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Leandro Bacuna",
+        "shortName": "Bacuna",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Jurien Gaari",
+        "shortName": "Gaari",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Vurnon Anita",
+        "shortName": "Anita",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Rangelo Janga",
+        "shortName": "Janga",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Gevero Markiet",
+        "shortName": "Markiet",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Brandley Kuwas",
+        "shortName": "Kuwas",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Cuco Martina",
+        "shortName": "Martina",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Darryl Luchiano",
+        "shortName": "Luchiano",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Quentin Bollen",
+        "shortName": "Bollen",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Jarchinio Antonia",
+        "shortName": "Antonia",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

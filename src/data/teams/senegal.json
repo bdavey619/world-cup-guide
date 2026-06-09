@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 20,
     "group": "I",
-    "groupOpponents": ["France", "Norway", "Iraq"],
+    "groupOpponents": [
+      "France",
+      "Norway",
+      "Iraq"
+    ],
     "oddsToWin": "+2000",
     "impliedProbability": "~5%",
     "lastWCResult": "R16 '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Direct", "Defensive Discipline", "Pace on Wings"],
+    "styleTags": [
+      "Physical",
+      "Direct",
+      "Defensive Discipline",
+      "Pace on Wings"
+    ],
     "tacticalNote": "Aliou Cissé has built Senegal into a hard-to-beat unit that is organized defensively and dangerous on the counter. The 4-3-3 uses wide forwards — Mané and the right winger — to stretch defenses and provide rapid transition options. Koulibaly and the defensive line are physically dominant and difficult to break down. In the middle, Pape Matar Sarr's energy allows the team to press forward without leaving gaps. Against France, Cissé will likely park the bus and look to hit on the break — exactly the scenario that produced the 2002 upset.",
     "strength": "Senegal's combination of elite defensive organization, pace in transition, and the individual quality of Mané means they can absorb pressure and strike decisively — a dangerous combination in knockout football.",
     "vulnerability": "If Mané is kept quiet and Senegal are forced to create chances through other means, their attacking depth is less certain — they can become predictable in sustained possession play."
@@ -63,14 +72,50 @@
     "Edouard Mendy in high-pressure moments — he's one of the world's best big-game goalkeepers"
   ],
   "schedule": [
-    { "date": "Jun 16", "time": "3PM ET", "opponent": "France", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": true },
-    { "date": "Jun 22", "time": "8PM ET", "opponent": "Norway", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": true },
-    { "date": "Jun 26", "time": "3PM ET", "opponent": "Iraq", "venue": "BMO Field", "city": "Toronto", "isAway": false }
+    {
+      "date": "Jun 16",
+      "time": "3PM ET",
+      "opponent": "France",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "isAway": true
+    },
+    {
+      "date": "Jun 22",
+      "time": "8PM ET",
+      "opponent": "Norway",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "isAway": true
+    },
+    {
+      "date": "Jun 26",
+      "time": "3PM ET",
+      "opponent": "Iraq",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": false
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "QF",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 13,
@@ -85,17 +130,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Edouard Mendy", "shortName": "Mendy", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Bouna Sarr", "shortName": "B. Sarr", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Kalidou Koulibaly", "shortName": "Koulibaly", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Abdou Diallo", "shortName": "A. Diallo", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ismail Jakobs", "shortName": "Jakobs", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Idrissa Gueye", "shortName": "Gueye", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Cheikhou Kouyaté", "shortName": "Kouyaté", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Pape Matar Sarr", "shortName": "P.M. Sarr", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Ismaïla Sarr", "shortName": "I. Sarr", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Habib Diallo", "shortName": "H. Diallo", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Sadio Mané", "shortName": "Mané", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 362 }
+      {
+        "name": "Edouard Mendy",
+        "shortName": "Mendy",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Bouna Sarr",
+        "shortName": "B. Sarr",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Kalidou Koulibaly",
+        "shortName": "Koulibaly",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Abdou Diallo",
+        "shortName": "A. Diallo",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ismail Jakobs",
+        "shortName": "Jakobs",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Idrissa Gueye",
+        "shortName": "Gueye",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Cheikhou Kouyaté",
+        "shortName": "Kouyaté",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "shortName": "P.M. Sarr",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "shortName": "I. Sarr",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Habib Diallo",
+        "shortName": "H. Diallo",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Sadio Mané",
+        "shortName": "Mané",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

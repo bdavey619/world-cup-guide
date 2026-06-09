@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 26,
     "group": "J",
-    "groupOpponents": ["Argentina", "Algeria", "Jordan"],
+    "groupOpponents": [
+      "Argentina",
+      "Algeria",
+      "Jordan"
+    ],
     "oddsToWin": "+4000",
     "impliedProbability": "~2.4%",
     "lastWCResult": "Groups '98",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["High Press", "Gegenpressing", "Energetic", "Organized", "Vertical"],
+    "styleTags": [
+      "High Press",
+      "Gegenpressing",
+      "Energetic",
+      "Organized",
+      "Vertical"
+    ],
     "tacticalNote": "Rangnick's 4-2-3-1 is built on relentless collective pressing — Austria aims to win the ball high up the pitch and punish opponents before they can reorganize. The double pivot protects the back four while allowing the attacking three and wing-backs to flood forward. Austria's press is zonal and triggered by specific cues, making it difficult to play through with short combinations. Against bigger teams, they compress quickly and look to exploit transition moments with Baumgartner's movement and Wimmer's pace on the flanks.",
     "strength": "Collective pressing intensity that can disrupt even technically superior teams and create scoring chances from turnovers in dangerous areas.",
     "vulnerability": "The high defensive line can be exposed by quick vertical passes and pacey forwards who can run in behind before the press resets."
@@ -89,13 +99,48 @@
     }
   ],
   "history": [
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1990, "host": "Italy", "result": "Groups", "tier": "early" },
-    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" },
-    { "year": 1982, "host": "Spain", "result": "R16", "tier": "deep" },
-    { "year": 1978, "host": "Argentina", "result": "QF", "tier": "deep" },
-    { "year": 1958, "host": "Sweden", "result": "SF", "tier": "sf" },
-    { "year": 1954, "host": "Switzerland", "result": "SF", "tier": "sf" }
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1990,
+      "host": "Italy",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1982,
+      "host": "Spain",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1978,
+      "host": "Argentina",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1958,
+      "host": "Sweden",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 1954,
+      "host": "Switzerland",
+      "result": "SF",
+      "tier": "sf"
+    }
   ],
   "allTimeRecord": {
     "played": 30,
@@ -110,17 +155,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Patrick Pentz", "shortName": "Pentz", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Stefan Posch", "shortName": "Posch", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Philipp Lienhart", "shortName": "Lienhart", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Kevin Danso", "shortName": "Danso", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Maximilian Wöber", "shortName": "Wöber", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Konrad Laimer", "shortName": "Laimer", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Marcel Sabitzer", "shortName": "Sabitzer", "position": "LDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 161, "y": 220 },
-      { "name": "Florian Grillitsch", "shortName": "Grillitsch", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Christoph Baumgartner", "shortName": "Baumgartner", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Patrick Wimmer", "shortName": "Wimmer", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Michael Gregoritsch", "shortName": "Gregoritsch", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Patrick Pentz",
+        "shortName": "Pentz",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Stefan Posch",
+        "shortName": "Posch",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Philipp Lienhart",
+        "shortName": "Lienhart",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Kevin Danso",
+        "shortName": "Danso",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Maximilian Wöber",
+        "shortName": "Wöber",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Konrad Laimer",
+        "shortName": "Laimer",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "shortName": "Sabitzer",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Florian Grillitsch",
+        "shortName": "Grillitsch",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "shortName": "Baumgartner",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Patrick Wimmer",
+        "shortName": "Wimmer",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "shortName": "Gregoritsch",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

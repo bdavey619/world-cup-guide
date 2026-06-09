@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 61,
     "group": "K",
-    "groupOpponents": ["Portugal", "Uzbekistan", "Colombia"],
+    "groupOpponents": [
+      "Portugal",
+      "Uzbekistan",
+      "Colombia"
+    ],
     "oddsToWin": "+8000",
     "impliedProbability": "~1.2%",
     "lastWCResult": "Groups '74 (as Zaire)",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Technical", "Wide Play", "Pace", "Counter-Attack"],
+    "styleTags": [
+      "Physical",
+      "Technical",
+      "Wide Play",
+      "Pace",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Desabre's 4-3-3 leverages the DRC's pace and physicality in wide areas — Wissa and Bongonda stretch defenses, creating space for the central striker and the midfield's late arrivals. The DRC press actively when they lose the ball, looking to win it high and transition quickly before opponents can reset. Against Portugal and Colombia they will need to defend their shape for long periods, but their counter-attacking threat is genuine enough to trouble any team. Mbemba and the defensive organization at the back is the foundation everything builds from.",
     "strength": "Explosive wide threats with genuine pace — Wissa and Bongonda can trouble any defensive pairing when they have space to run at defenders.",
     "vulnerability": "The step up from African qualification football to facing Portugal and Colombia is significant; sustained pressure from technically superior teams may expose gaps in midfield."
@@ -89,7 +99,12 @@
     }
   ],
   "history": [
-    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" }
+    {
+      "year": 1974,
+      "host": "West Germany",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 3,
@@ -104,17 +119,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Joël Kiassumbua", "shortName": "Kiassumbua", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Elia Meschack", "shortName": "Meschack", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Chancel Mbemba", "shortName": "Mbemba", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Glody Likonza", "shortName": "Likonza", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Arthur Masuaku", "shortName": "Masuaku", "position": "LB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Gaël Kakuta", "shortName": "Kakuta", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Champagne Lukoki", "shortName": "Lukoki", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Samuel Bastien", "shortName": "Bastien", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Théo Bongonda", "shortName": "Bongonda", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
-      { "name": "Cédric Bakambu", "shortName": "Bakambu", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Yoane Wissa", "shortName": "Wissa", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Joël Kiassumbua",
+        "shortName": "Kiassumbua",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Elia Meschack",
+        "shortName": "Meschack",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Chancel Mbemba",
+        "shortName": "Mbemba",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Glody Likonza",
+        "shortName": "Likonza",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Arthur Masuaku",
+        "shortName": "Masuaku",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Gaël Kakuta",
+        "shortName": "Kakuta",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Champagne Lukoki",
+        "shortName": "Lukoki",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Samuel Bastien",
+        "shortName": "Bastien",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Théo Bongonda",
+        "shortName": "Bongonda",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Cédric Bakambu",
+        "shortName": "Bakambu",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Yoane Wissa",
+        "shortName": "Wissa",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 94,
     "group": "G",
-    "groupOpponents": ["Belgium", "Iran", "Egypt"],
+    "groupOpponents": [
+      "Belgium",
+      "Iran",
+      "Egypt"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "Groups '10",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Organized", "Set Pieces", "Counter-Attack"],
+    "styleTags": [
+      "Physical",
+      "Organized",
+      "Set Pieces",
+      "Counter-Attack"
+    ],
     "tacticalNote": "New Zealand will line up in a compact 4-4-2 designed to make them difficult to break down and get the ball to Wood quickly. The shape prioritizes defensive solidity — two banks of four — with Lewis operating in the space between the lines to provide the creative spark. Set pieces are a genuine weapon with Wood's aerial threat and players willing to compete for every ball. Against Belgium and Egypt, New Zealand will likely defend deep and look to exploit any spaces left on the counter.",
     "strength": "Chris Wood's aerial ability and physicality gives New Zealand a genuine weapon from set pieces and long balls — any team can score from a corner, and New Zealand maximizes that threat.",
     "vulnerability": "Against technically superior opponents who can circulate the ball patiently, New Zealand's pressing can tire and their limited possession quality means they can struggle to relieve pressure for long periods."
@@ -63,13 +72,44 @@
     "Clayton Lewis's creativity — if he can find time on the ball, New Zealand have a player who can create chances from nothing"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "9PM ET", "opponent": "Iran", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": true },
-    { "date": "Jun 21", "time": "9PM ET", "opponent": "Egypt", "venue": "BC Place", "city": "Vancouver", "isAway": false },
-    { "date": "Jun 26", "time": "11PM ET", "opponent": "Belgium", "venue": "BC Place", "city": "Vancouver", "isAway": false }
+    {
+      "date": "Jun 15",
+      "time": "9PM ET",
+      "opponent": "Iran",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": true
+    },
+    {
+      "date": "Jun 21",
+      "time": "9PM ET",
+      "opponent": "Egypt",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "11PM ET",
+      "opponent": "Belgium",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": false
+    }
   ],
   "history": [
-    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
-    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" }
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1982,
+      "host": "Spain",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 6,
@@ -84,17 +124,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Oliver Sail", "shortName": "Sail", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Liberato Cacace", "shortName": "Cacace", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Nando de Waard", "shortName": "de Waard", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Michael Boxall", "shortName": "Boxall", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Tim Payne", "shortName": "Payne", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Marko Stamenic", "shortName": "Stamenic", "position": "RM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 260 },
-      { "name": "Joe Bell", "shortName": "Bell", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 244 },
-      { "name": "Clayton Lewis", "shortName": "Lewis", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 244 },
-      { "name": "Ben Waine", "shortName": "Waine", "position": "LM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 260 },
-      { "name": "Chris Wood", "shortName": "Wood", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 372 },
-      { "name": "Callan Elliot", "shortName": "Elliot", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+      {
+        "name": "Oliver Sail",
+        "shortName": "Sail",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Liberato Cacace",
+        "shortName": "Cacace",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Nando de Waard",
+        "shortName": "de Waard",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Michael Boxall",
+        "shortName": "Boxall",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Tim Payne",
+        "shortName": "Payne",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Marko Stamenic",
+        "shortName": "Stamenic",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 260
+      },
+      {
+        "name": "Joe Bell",
+        "shortName": "Bell",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 244
+      },
+      {
+        "name": "Clayton Lewis",
+        "shortName": "Lewis",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 161,
+        "y": 244
+      },
+      {
+        "name": "Ben Waine",
+        "shortName": "Waine",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 260
+      },
+      {
+        "name": "Chris Wood",
+        "shortName": "Wood",
+        "position": "RS",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 372
+      },
+      {
+        "name": "Callan Elliot",
+        "shortName": "Elliot",
+        "position": "LS",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 372
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

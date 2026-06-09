@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 1,
     "group": "H",
-    "groupOpponents": ["Uruguay", "Saudi Arabia", "Cape Verde"],
+    "groupOpponents": [
+      "Uruguay",
+      "Saudi Arabia",
+      "Cape Verde"
+    ],
     "oddsToWin": "+600",
     "impliedProbability": "~14%",
     "lastWCResult": "QF '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Positional Play", "High Press", "Technical", "Youth-Powered"],
+    "styleTags": [
+      "Positional Play",
+      "High Press",
+      "Technical",
+      "Youth-Powered"
+    ],
     "tacticalNote": "De la Fuente's Spain maintains the positional principles of the tiki-taka era but with considerably more directness and pace. Yamal's threat on the right creates constant width and one-on-one situations, while Pedri and Rodri control the midfield battle. The press is ferocious and well-organized — Spain aims to win the ball high and immediately transition into attacking positions. Against weaker opponents, Spain can control the ball for extended periods; against better teams, they have the individual quality to break defenses in transition.",
     "strength": "The combination of Rodri's defensive control, Pedri's creativity, and Yamal's unpredictability creates a team that is exceptionally difficult to both press and defend against simultaneously.",
     "vulnerability": "Spain can be vulnerable if Rodri is unavailable through injury or suspension — his presence is so foundational that the team's defensive balance deteriorates noticeably without him."
@@ -63,19 +72,80 @@
     "Spain's pressing triggers — they are one of the most coordinated pressing teams in the world and can suffocate opponents into mistakes in dangerous areas"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "12PM ET", "opponent": "Cape Verde", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": false },
-    { "date": "Jun 21", "time": "12PM ET", "opponent": "Saudi Arabia", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": false },
-    { "date": "Jun 26", "time": "8PM ET", "opponent": "Uruguay", "venue": "Estadio Akron", "city": "Guadalajara", "isAway": true }
+    {
+      "date": "Jun 15",
+      "time": "12PM ET",
+      "opponent": "Cape Verde",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    },
+    {
+      "date": "Jun 21",
+      "time": "12PM ET",
+      "opponent": "Saudi Arabia",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "8PM ET",
+      "opponent": "Uruguay",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "Winner", "tier": "winner" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
-    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Winner",
+      "tier": "winner"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "QF",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 71,
@@ -90,17 +160,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Unai Simón", "shortName": "U. Simón", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Dani Carvajal", "shortName": "Carvajal", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Aymeric Laporte", "shortName": "Laporte", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Robin Le Normand", "shortName": "Le Normand", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Marc Cucurella", "shortName": "Cucurella", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Rodri", "shortName": "Rodri", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 348, "y": 244 },
-      { "name": "Pedri", "shortName": "Pedri", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Dani Olmo", "shortName": "Olmo", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Lamine Yamal", "shortName": "Yamal", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Álvaro Morata", "shortName": "Morata", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Nico Williams", "shortName": "N. Williams", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Unai Simón",
+        "shortName": "U. Simón",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Dani Carvajal",
+        "shortName": "Carvajal",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Aymeric Laporte",
+        "shortName": "Laporte",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Robin Le Normand",
+        "shortName": "Le Normand",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Marc Cucurella",
+        "shortName": "Cucurella",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Rodri",
+        "shortName": "Rodri",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Pedri",
+        "shortName": "Pedri",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Dani Olmo",
+        "shortName": "Olmo",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Lamine Yamal",
+        "shortName": "Yamal",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Álvaro Morata",
+        "shortName": "Morata",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Nico Williams",
+        "shortName": "N. Williams",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

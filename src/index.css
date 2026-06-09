@@ -109,4 +109,26 @@ body {
   .team-cards-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap !important; }
   .team-cards-row::-webkit-scrollbar { display: none; }
   .team-card { min-width: 100px !important; flex: 0 0 auto !important; }
+
+  /* Tighten guide page vertical rhythm */
+  .guide-content-wrap { padding: 12px 12px !important; }
+  .guide-cards { gap: 10px !important; }
+  .team-section-header { padding: 0.6rem 1rem 0.5rem !important; }
+  .team-section { padding: 0.65rem 1rem !important; }
+  .essence-panel { font-size: 13px !important; line-height: 1.5 !important; padding: 0.6rem 1rem !important; }
+  .team-prose { line-height: 1.5 !important; }
+
+  /* Nav: match wordmark scale to compressed pill tabs */
+  .nav-wordmark { font-size: 13px !important; }
+
+  /* TeamPageOne + TeamPageTwo: shrink stat values to fit 3-col grid */
+  .team-stats-value { font-size: 16px !important; }
+
+  /* Record strip: hide label so 6 stats fit comfortably */
+  .record-strip-label { display: none !important; }
+
+  /* TeamPageTwo header: stack name above stats on mobile */
+  .team-header-p2 { flex-direction: column !important; align-items: flex-start !important; gap: 6px !important; }
+  .team-header-p2-stats { align-self: stretch; border-top: 0.5px solid var(--gray-200); padding-top: 6px; }
+  .team-header-p2-stats .team-stats-value { font-size: 14px !important; }
 }

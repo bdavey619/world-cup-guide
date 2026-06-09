@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 10,
     "group": "L",
-    "groupOpponents": ["England", "Ghana", "Panama"],
+    "groupOpponents": [
+      "England",
+      "Ghana",
+      "Panama"
+    ],
     "oddsToWin": "+2200",
     "impliedProbability": "~4.3%",
     "lastWCResult": "SF '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Midfield Control", "Organized", "Disciplined", "Technical", "Counter-Attack"],
+    "styleTags": [
+      "Midfield Control",
+      "Organized",
+      "Disciplined",
+      "Technical",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Dalić's Croatia is built around midfield dominance — Modrić, Kovačić, and Brozović (or successors) controlling possession and tempo while allowing Kramarić and the wide players to exploit the space created. Croatia defend in a compact 4-3-3 that transitions quickly into attack through the midfield's passing quality. Gvardiol brings out from the back calmly, enabling Croatia to maintain possession even under pressure. Against England in the opener, Croatia will look to control the midfield battle — if they win that area, they are dangerous against anyone.",
     "strength": "Midfield quality that can control and dominate possession for long stretches — even with Modrić at 40, the Croatian midfield remains among the best in the tournament.",
     "vulnerability": "The squad is aging at the top, and Croatia's attacking output is heavily dependent on the midfield creating opportunities — a dry spell for Modrić can leave the attack isolated."
@@ -89,12 +99,42 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "SF", "tier": "sf" },
-    { "year": 2018, "host": "Russia", "result": "Final", "tier": "final" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "SF", "tier": "sf" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "SF",
+      "tier": "sf"
+    }
   ],
   "allTimeRecord": {
     "played": 35,
@@ -109,17 +149,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Dominik Livaković", "shortName": "Livaković", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Josip Stanišić", "shortName": "Stanišić", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Josip Šutalo", "shortName": "Šutalo", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Joško Gvardiol", "shortName": "Gvardiol", "position": "LCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Borna Sosa", "shortName": "B. Sosa", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Marcelo Brozović", "shortName": "Brozović", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Luka Modrić", "shortName": "Modrić", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
-      { "name": "Mateo Kovačić", "shortName": "Kovačić", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Ivan Perišić", "shortName": "Perišić", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Andrej Kramarić", "shortName": "Kramarić", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Luka Ivanušec", "shortName": "Ivanušec", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Dominik Livaković",
+        "shortName": "Livaković",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Josip Stanišić",
+        "shortName": "Stanišić",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Josip Šutalo",
+        "shortName": "Šutalo",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Joško Gvardiol",
+        "shortName": "Gvardiol",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Borna Sosa",
+        "shortName": "B. Sosa",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Marcelo Brozović",
+        "shortName": "Brozović",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Luka Modrić",
+        "shortName": "Modrić",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Mateo Kovačić",
+        "shortName": "Kovačić",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Ivan Perišić",
+        "shortName": "Perišić",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Andrej Kramarić",
+        "shortName": "Kramarić",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Luka Ivanušec",
+        "shortName": "Ivanušec",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

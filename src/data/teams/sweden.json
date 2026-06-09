@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 27,
     "group": "F",
-    "groupOpponents": ["Netherlands", "Japan", "Tunisia"],
+    "groupOpponents": [
+      "Netherlands",
+      "Japan",
+      "Tunisia"
+    ],
     "oddsToWin": "+4000",
     "impliedProbability": "~2.4%",
     "lastWCResult": "QF '18",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Physical", "Direct", "Set Pieces", "Counter-Attack"],
+    "styleTags": [
+      "Organized",
+      "Physical",
+      "Direct",
+      "Set Pieces",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Tomasson's 4-2-3-1 is structured around protecting Isak with quality service and giving Kulusevski the freedom to create. Two holding midfielders provide the defensive foundation while fullbacks push to provide width, allowing Kulusevski to drift inside and combine with Isak centrally. Sweden are highly dangerous from set pieces — both Isak and Lindelöf are aerial threats — and transition play is organized to reach Isak quickly in space.",
     "strength": "Isak's individual quality is a match-winner against any opponent — one moment of quality in the final third and Sweden can beat anyone in Group F.",
     "vulnerability": "Over-reliance on the Isak-Kulusevski combination means that if either player is effectively nullified or injured, Sweden's attacking ideas become limited."
@@ -89,14 +99,54 @@
     }
   ],
   "history": [
-    { "year": 2018, "host": "Russia", "result": "QF", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
-    { "year": 1994, "host": "USA", "result": "SF", "tier": "sf" },
-    { "year": 1990, "host": "Italy", "result": "R16", "tier": "deep" },
-    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "early" },
-    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" },
-    { "year": 1958, "host": "Sweden", "result": "Final", "tier": "final" }
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 1990,
+      "host": "Italy",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1978,
+      "host": "Argentina",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1974,
+      "host": "West Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1958,
+      "host": "Sweden",
+      "result": "Final",
+      "tier": "final"
+    }
   ],
   "allTimeRecord": {
     "played": 51,
@@ -111,17 +161,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Robin Olsen", "shortName": "Olsen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Emil Krafth", "shortName": "Krafth", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Victor Nilsson Lindelöf", "shortName": "Lindelöf", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Carl Starfelt", "shortName": "Starfelt", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ludwig Augustinsson", "shortName": "Augustinsson", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Mattias Svanberg", "shortName": "Svanberg", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Albin Ekdal", "shortName": "Ekdal", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Dejan Kulusevski", "shortName": "Kulusevski", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Jesper Karlsson", "shortName": "Karlsson", "position": "CAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Samuel Adingra", "shortName": "Adingra", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Alexander Isak", "shortName": "Isak", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+      {
+        "name": "Robin Olsen",
+        "shortName": "Olsen",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Emil Krafth",
+        "shortName": "Krafth",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Victor Nilsson Lindelöf",
+        "shortName": "Lindelöf",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Carl Starfelt",
+        "shortName": "Starfelt",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ludwig Augustinsson",
+        "shortName": "Augustinsson",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Mattias Svanberg",
+        "shortName": "Svanberg",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Albin Ekdal",
+        "shortName": "Ekdal",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "shortName": "Kulusevski",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Jesper Karlsson",
+        "shortName": "Karlsson",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Samuel Adingra",
+        "shortName": "Adingra",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Alexander Isak",
+        "shortName": "Isak",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

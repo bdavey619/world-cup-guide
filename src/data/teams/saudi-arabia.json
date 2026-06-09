@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 56,
     "group": "H",
-    "groupOpponents": ["Spain", "Uruguay", "Cape Verde"],
+    "groupOpponents": [
+      "Spain",
+      "Uruguay",
+      "Cape Verde"
+    ],
     "oddsToWin": "+7000",
     "impliedProbability": "~1%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["High Line", "Organized", "Counter-Attack", "Capable of Upset"],
+    "styleTags": [
+      "High Line",
+      "Organized",
+      "Counter-Attack",
+      "Capable of Upset"
+    ],
     "tacticalNote": "Mancini has implemented a structured 4-2-3-1 that uses a surprisingly high defensive line — brave against quality opposition but effective when the pressing triggers are coordinated. Against Argentina in 2022, the offside trap and high line worked perfectly, catching superior players repeatedly. Al-Dawsari operates as the creative force in the attacking midfield, with Al-Buraikan running in behind. Against Spain, Mancini will need to decide whether to maintain the high line or drop deeper — each choice carries different risks.",
     "strength": "Saudi Arabia's high-pressing system combined with Al-Dawsari's technical brilliance means they are capable of destroying any team's rhythm when their gameplan works — as Argentina found in 2022.",
     "vulnerability": "The high defensive line is a calculated gamble that can be catastrophically exposed by quick forwards or long balls over the top — against Yamal and Spain's pace, this is a significant tactical risk."
@@ -63,17 +72,68 @@
     "Whether Mancini's tactical discipline can contain Spain and Uruguay while preserving enough energy to win the Cape Verde match"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "6PM ET", "opponent": "Uruguay", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": true },
-    { "date": "Jun 21", "time": "12PM ET", "opponent": "Spain", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": true },
-    { "date": "Jun 26", "time": "8PM ET", "opponent": "Cape Verde", "venue": "NRG Stadium", "city": "Houston", "isAway": false }
+    {
+      "date": "Jun 15",
+      "time": "6PM ET",
+      "opponent": "Uruguay",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": true
+    },
+    {
+      "date": "Jun 21",
+      "time": "12PM ET",
+      "opponent": "Spain",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": true
+    },
+    {
+      "date": "Jun 26",
+      "time": "8PM ET",
+      "opponent": "Cape Verde",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
-    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
-    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "R16",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 19,
@@ -88,17 +148,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Mohammed Al-Owais", "shortName": "Al-Owais", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": true, "x": 226, "y": 56 },
-      { "name": "Sami Al-Najei", "shortName": "Al-Najei", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Ali Al-Bulaihi", "shortName": "Al-Bulaihi", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Abdulelah Al-Amri", "shortName": "Al-Amri", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Yasser Al-Shahrani", "shortName": "Al-Shahrani", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Mohammed Kanno", "shortName": "Kanno", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Ali Al-Hassan", "shortName": "Al-Hassan", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Saleh Al-Shehri", "shortName": "Al-Shehri", "position": "RAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Hattan Bahebri", "shortName": "Bahebri", "position": "CAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Salem Al-Dawsari", "shortName": "Al-Dawsari", "position": "LAM", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Firas Al-Buraikan", "shortName": "Al-Buraikan", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Mohammed Al-Owais",
+        "shortName": "Al-Owais",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": true,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Sami Al-Najei",
+        "shortName": "Al-Najei",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Ali Al-Bulaihi",
+        "shortName": "Al-Bulaihi",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "shortName": "Al-Amri",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Yasser Al-Shahrani",
+        "shortName": "Al-Shahrani",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Mohammed Kanno",
+        "shortName": "Kanno",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Ali Al-Hassan",
+        "shortName": "Al-Hassan",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Saleh Al-Shehri",
+        "shortName": "Al-Shehri",
+        "position": "RAM",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Hattan Bahebri",
+        "shortName": "Bahebri",
+        "position": "CAM",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "shortName": "Al-Dawsari",
+        "position": "LAM",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "shortName": "Al-Buraikan",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 49,
     "group": "E",
-    "groupOpponents": ["Germany", "Ecuador", "Curaçao"],
+    "groupOpponents": [
+      "Germany",
+      "Ecuador",
+      "Curaçao"
+    ],
     "oddsToWin": "+5000",
     "impliedProbability": "~2%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Direct", "Wide Play", "Aggressive Pressing", "Counter-Attack"],
+    "styleTags": [
+      "Physical",
+      "Direct",
+      "Wide Play",
+      "Aggressive Pressing",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Faé's 4-3-3 is designed around wide attacking play with Adingra and Gnonto providing the width and delivering for Haller centrally. Kessié anchors the midfield and provides the defensive work rate that allows the two wide forwards to work high up the pitch. Against Germany, the Ivory Coast will need to be defensively disciplined for the first hour before their pace and directness can punish a tired defense in transition.",
     "strength": "The combination of Haller's physical presence and Adingra's pace gives the Ivory Coast an attack that can work at multiple speeds — slow buildup for Haller or fast transition through Adingra.",
     "vulnerability": "Technical teams that play between Ivory Coast's midfield lines can exploit the spaces — when forced to track multiple runners in tight areas, the defensive shape can become stretched."
@@ -89,9 +99,24 @@
     }
   ],
   "history": [
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" }
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 9,
@@ -106,17 +131,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Yahia Fofana", "shortName": "Fofana", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Serge Aurier", "shortName": "Aurier", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Willy Boly", "shortName": "Boly", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Eric Bailly", "shortName": "Bailly", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ghislain Konan", "shortName": "Konan", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Seko Fofana", "shortName": "S. Fofana", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Franck Kessié", "shortName": "Kessié", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Ibrahim Sangaré", "shortName": "Sangaré", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Simon Adingra", "shortName": "Adingra", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Sébastien Haller", "shortName": "Haller", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
-      { "name": "Wilfried Gnonto", "shortName": "Gnonto", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Yahia Fofana",
+        "shortName": "Fofana",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Serge Aurier",
+        "shortName": "Aurier",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Willy Boly",
+        "shortName": "Boly",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Eric Bailly",
+        "shortName": "Bailly",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ghislain Konan",
+        "shortName": "Konan",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Seko Fofana",
+        "shortName": "S. Fofana",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Franck Kessié",
+        "shortName": "Kessié",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "shortName": "Sangaré",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Simon Adingra",
+        "shortName": "Adingra",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Sébastien Haller",
+        "shortName": "Haller",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Wilfried Gnonto",
+        "shortName": "Gnonto",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

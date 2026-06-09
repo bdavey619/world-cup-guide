@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 52,
     "group": "L",
-    "groupOpponents": ["England", "Panama", "Croatia"],
+    "groupOpponents": [
+      "England",
+      "Panama",
+      "Croatia"
+    ],
     "oddsToWin": "+7000",
     "impliedProbability": "~1.4%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Direct", "Energetic", "Set Pieces", "Pressing"],
+    "styleTags": [
+      "Physical",
+      "Direct",
+      "Energetic",
+      "Set Pieces",
+      "Pressing"
+    ],
     "tacticalNote": "Addo's 4-2-3-1 is built around Partey's defensive midfield authority and the creative license given to Kudus behind the striker. Ghana press with energy and aggression when they lose the ball, and their wide players — Semenyo and the left winger — are direct, taking defenders on one-vs-one rather than looking for intricate combinations. Set pieces from both sides are a weapon: Ghana are dangerous from corners and free kicks delivered into Ayew and the center-backs, and they are also vulnerable to them. The double pivot behind Kudus provides the platform for Ghana's attacking players to express themselves.",
     "strength": "Wide attacking threat — Kudus and Semenyo are two of the most dangerous wide players in the tournament at their best, and both can hurt elite opponents.",
     "vulnerability": "Fitness and consistency — Ghana's squad can be inconsistent over 90 minutes, and when Partey is not at his best, the defensive cover disappears."
@@ -89,10 +99,30 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "QF", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 15,
@@ -107,17 +137,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Lawrence Ati-Zigi", "shortName": "Ati-Zigi", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Tariq Lamptey", "shortName": "Lamptey", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Daniel Amartey", "shortName": "Amartey", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Alexander Djiku", "shortName": "Djiku", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Gideon Mensah", "shortName": "G. Mensah", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Thomas Partey", "shortName": "Partey", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
-      { "name": "Iddrisu Baba", "shortName": "I. Baba", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Antoine Semenyo", "shortName": "Semenyo", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Mohammed Kudus", "shortName": "Kudus", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Osman Bukari", "shortName": "Bukari", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Jordan Ayew", "shortName": "J. Ayew", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Lawrence Ati-Zigi",
+        "shortName": "Ati-Zigi",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Tariq Lamptey",
+        "shortName": "Lamptey",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Daniel Amartey",
+        "shortName": "Amartey",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Alexander Djiku",
+        "shortName": "Djiku",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Gideon Mensah",
+        "shortName": "G. Mensah",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Thomas Partey",
+        "shortName": "Partey",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Iddrisu Baba",
+        "shortName": "I. Baba",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Antoine Semenyo",
+        "shortName": "Semenyo",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Mohammed Kudus",
+        "shortName": "Kudus",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Osman Bukari",
+        "shortName": "Bukari",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Jordan Ayew",
+        "shortName": "J. Ayew",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

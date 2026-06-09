@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 72,
     "group": "K",
-    "groupOpponents": ["Portugal", "Colombia", "DR Congo"],
+    "groupOpponents": [
+      "Portugal",
+      "Colombia",
+      "DR Congo"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "First WC",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Technical", "Compact", "Disciplined", "Improving"],
+    "styleTags": [
+      "Organized",
+      "Technical",
+      "Compact",
+      "Disciplined",
+      "Improving"
+    ],
     "tacticalNote": "Katanec's 4-2-3-1 sets up to be hard to break down — a compact shape with the double pivot providing a solid defensive platform and the attacking three working hard to create on the break. Fayzullaev's pace on the left is Uzbekistan's most direct threat in transition, while Masharipov's creativity in the 10 role creates opportunities for Shomurodov. Against Group K's opponents, Uzbekistan will need to defend intelligently for long periods and be clinical in the moments they create — a similar task to how Jordan approach Group J.",
     "strength": "Collective organization and disciplined defensive shape — Uzbekistan are genuinely difficult to break down against when their block is set.",
     "vulnerability": "Limited experience at the highest level of international football; the quality and intensity jump from AFC qualification to the World Cup group stage is significant."
@@ -102,17 +112,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Utkir Yusupov", "shortName": "Yusupov", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Sherzod Nasrullayev", "shortName": "Nasrullayev", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Sanjar Tursunov", "shortName": "Tursunov", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Rustam Ashurmatov", "shortName": "Ashurmatov", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Khurshid Makhkamov", "shortName": "Makhkamov", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Otabek Shukurov", "shortName": "Shukurov", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Ikrom Alibaev", "shortName": "Alibaev", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Dostonbek Khamdamov", "shortName": "Khamdamov", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Jaloliddin Masharipov", "shortName": "Masharipov", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Abbosbek Fayzullaev", "shortName": "Fayzullaev", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Eldor Shomurodov", "shortName": "Shomurodov", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+      {
+        "name": "Utkir Yusupov",
+        "shortName": "Yusupov",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Sherzod Nasrullayev",
+        "shortName": "Nasrullayev",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Sanjar Tursunov",
+        "shortName": "Tursunov",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Rustam Ashurmatov",
+        "shortName": "Ashurmatov",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Khurshid Makhkamov",
+        "shortName": "Makhkamov",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Otabek Shukurov",
+        "shortName": "Shukurov",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Ikrom Alibaev",
+        "shortName": "Alibaev",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Dostonbek Khamdamov",
+        "shortName": "Khamdamov",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Jaloliddin Masharipov",
+        "shortName": "Masharipov",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "shortName": "Fayzullaev",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "shortName": "Shomurodov",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -58,7 +58,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       }} />
 
       {/* 2. HEADER */}
-      <div style={{
+      <div className="team-section-header" style={{
         background: '#fff',
         padding: '1.1rem 1.5rem 0.9rem',
         display: 'flex',
@@ -117,7 +117,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
               }}>
                 {label}
               </div>
-              <div style={{
+              <div className="team-stats-value" style={{
                 fontSize: 20,
                 fontWeight: 500,
                 lineHeight: 1,
@@ -156,7 +156,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         <div className="team-left-col" style={{ borderRight: '0.5px solid var(--gray-200)' }}>
 
           {/* KEY PLAYERS */}
-          <div style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid var(--gray-200)' }}>
+          <div className="team-section" style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="Key Players" />
             <div style={{
               display: 'grid',
@@ -223,7 +223,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* HOW THEY PLAY */}
-          <div style={{ padding: '0.9rem 1.4rem 1.1rem' }}>
+          <div className="team-section" style={{ padding: '0.9rem 1.4rem 1.1rem' }}>
             <SectionLabel label="How They Play" />
             <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginBottom: 10 }}>
               <span style={{
@@ -252,7 +252,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                 </span>
               ))}
             </div>
-            <div style={{
+            <div className="team-prose" style={{
               fontSize: 13,
               lineHeight: 1.7,
               color: 'var(--gray-700)',
@@ -325,9 +325,9 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         <div className="team-right-col" style={{ display: 'flex', flexDirection: 'column' }}>
 
           {/* FOOTBALL IDENTITY */}
-          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
+          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="Football Identity" />
-            <div style={{
+            <div className="team-prose" style={{
               fontSize: 12,
               lineHeight: 1.75,
               color: muted,
@@ -339,9 +339,9 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* THE MOMENT */}
-          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
+          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="The Moment" />
-            <div style={{
+            <div className="team-prose" style={{
               fontSize: 12,
               lineHeight: 1.75,
               color: muted,
@@ -353,7 +353,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* WATCH FOR */}
-          <div style={{ flex: 1, padding: '1.1rem 1.2rem' }}>
+          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem' }}>
             <SectionLabel label="Watch For" />
             <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
               {watchFor.map((item, i) => (
@@ -455,7 +455,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         alignItems: 'center',
         justifyContent: 'space-between',
       }}>
-        <div style={{
+        <div className="record-strip-label" style={{
           fontSize: 10,
           color: muted,
           fontFamily: 'var(--font-sans)',

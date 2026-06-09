@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 12,
     "group": "E",
-    "groupOpponents": ["Ecuador", "Ivory Coast", "Curaçao"],
+    "groupOpponents": [
+      "Ecuador",
+      "Ivory Coast",
+      "Curaçao"
+    ],
     "oddsToWin": "+900",
     "impliedProbability": "~10%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Gegenpressing", "Technical", "High Line", "Tactical Flexibility", "Possession"],
+    "styleTags": [
+      "Gegenpressing",
+      "Technical",
+      "High Line",
+      "Tactical Flexibility",
+      "Possession"
+    ],
     "tacticalNote": "Nagelsmann's 4-2-3-1 gives Wirtz freedom as the ten behind Havertz, with Musiala operating from the left attacking midfield position. Two defensive midfielders protect the back four while fullbacks push aggressively, creating width that allows the three attacking midfielders to condense centrally. The press is coordinated and relentless — Germany want to win the ball high and attack in transition before defenses can reorganize.",
     "strength": "The Wirtz-Musiala combination gives Germany an almost uncounterable technical superiority in central areas — when both are on form, few teams can live with them.",
     "vulnerability": "The high defensive line can be exploited by teams with a pacey striker willing to run in behind — Germany's fullbacks are adventurous and leave space to be countered."
@@ -89,14 +99,54 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Winner", "tier": "winner" },
-    { "year": 2010, "host": "South Africa", "result": "SF", "tier": "sf" },
-    { "year": 2006, "host": "Germany", "result": "SF", "tier": "sf" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "Final", "tier": "final" },
-    { "year": 1998, "host": "France", "result": "QF", "tier": "deep" },
-    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Winner",
+      "tier": "winner"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "QF",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 109,
@@ -111,17 +161,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Manuel Neuer", "shortName": "Neuer", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Joshua Kimmich", "shortName": "Kimmich", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Antonio Rüdiger", "shortName": "Rüdiger", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Jonathan Tah", "shortName": "Tah", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Maximilian Mittelstädt", "shortName": "Mittelstädt", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Robert Andrich", "shortName": "Andrich", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Toni Kroos", "shortName": "Kroos", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Leroy Sané", "shortName": "Sané", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Florian Wirtz", "shortName": "Wirtz", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 300 },
-      { "name": "Jamal Musiala", "shortName": "Musiala", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Kai Havertz", "shortName": "Havertz", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Manuel Neuer",
+        "shortName": "Neuer",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Joshua Kimmich",
+        "shortName": "Kimmich",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "shortName": "Rüdiger",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Jonathan Tah",
+        "shortName": "Tah",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "shortName": "Mittelstädt",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Robert Andrich",
+        "shortName": "Andrich",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Toni Kroos",
+        "shortName": "Kroos",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Leroy Sané",
+        "shortName": "Sané",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Florian Wirtz",
+        "shortName": "Wirtz",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Jamal Musiala",
+        "shortName": "Musiala",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Kai Havertz",
+        "shortName": "Havertz",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

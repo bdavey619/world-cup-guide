@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 68,
     "group": "J",
-    "groupOpponents": ["Argentina", "Austria", "Algeria"],
+    "groupOpponents": [
+      "Argentina",
+      "Austria",
+      "Algeria"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "First WC",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Defensive", "Direct", "Compact", "Disciplined"],
+    "styleTags": [
+      "Organized",
+      "Defensive",
+      "Direct",
+      "Compact",
+      "Disciplined"
+    ],
     "tacticalNote": "Jordan under Ammouta sets up in a pragmatic 4-4-2 that prioritizes defensive organization and making themselves difficult to break down. The two banks of four are compact and disciplined, limiting the space between the lines. In transition, they look quickly to Al-Tamari's runs on the right flank and Lewa's hold-up play to relieve pressure. Against the group's big three, Jordan will need to defend excellently for long periods and take their chances clinically on the counter. Their Asian Cup campaign demonstrated they can execute a disciplined defensive plan and find moments of quality.",
     "strength": "Collective defensive organization — Jordan's block is disciplined and hard to break down even for technically superior opponents.",
     "vulnerability": "Limited depth of quality in the final third; if their defensive block is broken, they can struggle to recover quickly."
@@ -102,17 +112,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Yazeed Abulaila", "shortName": "Abulaila", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Mohammad Al-Dmeiri", "shortName": "Al-Dmeiri", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Badr Nizar", "shortName": "B. Nizar", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Ahmad Saleh", "shortName": "A. Saleh", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ehsan Haddad", "shortName": "Haddad", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Musa Al-Tamari", "shortName": "Al-Tamari", "position": "RM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 260 },
-      { "name": "Yazan Al-Naimat", "shortName": "Al-Naimat", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 244 },
-      { "name": "Nizar Al-Rashdan", "shortName": "Al-Rashdan", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 244 },
-      { "name": "Baha' Faisal", "shortName": "Faisal", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 260 },
-      { "name": "Hussein Lewa", "shortName": "Lewa", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 372 },
-      { "name": "Ahmad Al-Rousan", "shortName": "Al-Rousan", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+      {
+        "name": "Yazeed Abulaila",
+        "shortName": "Abulaila",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Mohammad Al-Dmeiri",
+        "shortName": "Al-Dmeiri",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Badr Nizar",
+        "shortName": "B. Nizar",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Ahmad Saleh",
+        "shortName": "A. Saleh",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ehsan Haddad",
+        "shortName": "Haddad",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Musa Al-Tamari",
+        "shortName": "Al-Tamari",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 260
+      },
+      {
+        "name": "Yazan Al-Naimat",
+        "shortName": "Al-Naimat",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 244
+      },
+      {
+        "name": "Nizar Al-Rashdan",
+        "shortName": "Al-Rashdan",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 244
+      },
+      {
+        "name": "Baha' Faisal",
+        "shortName": "Faisal",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 260
+      },
+      {
+        "name": "Hussein Lewa",
+        "shortName": "Lewa",
+        "position": "RS",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 372
+      },
+      {
+        "name": "Ahmad Al-Rousan",
+        "shortName": "Al-Rousan",
+        "position": "LS",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 372
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

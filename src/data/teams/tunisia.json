@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 36,
     "group": "F",
-    "groupOpponents": ["Netherlands", "Japan", "Sweden"],
+    "groupOpponents": [
+      "Netherlands",
+      "Japan",
+      "Sweden"
+    ],
     "oddsToWin": "+8000",
     "impliedProbability": "~1.2%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Defensive", "Organized", "Hard to Beat", "Counter-Attack", "Physical"],
+    "styleTags": [
+      "Defensive",
+      "Organized",
+      "Hard to Beat",
+      "Counter-Attack",
+      "Physical"
+    ],
     "tacticalNote": "Kadri's 4-4-2 is organized primarily around defensive solidity — Tunisia defends in two compact banks of four, denying space in central areas and forcing opponents to go wide. The defensive midfield pairing of Skhiri and Laidouni screens the back four relentlessly. On the counter, Tunisia are direct — finding wide players quickly and delivering early crosses for the second striker arriving. In a group with the Netherlands, Japan, and Sweden, the goal is maximum defensive organization in games 1 and 2 before the decisive third match.",
     "strength": "Tunisia's defensive compactness and Skhiri's midfield anchoring make them one of the most organized and difficult-to-break-down African sides — even better teams need time to find solutions.",
     "vulnerability": "Tunisia's attacking options are limited when opponents sit deep and force them to create — without Msakni at his best, the creative output in the final third drops significantly."
@@ -89,13 +99,48 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1978,
+      "host": "Argentina",
+      "result": "Groups",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 18,
@@ -110,17 +155,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Aymen Dahmen", "shortName": "Dahmen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Mohamed Drager", "shortName": "Drager", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Montassar Talbi", "shortName": "Talbi", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Yassine Meriah", "shortName": "Meriah", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ali Abdi", "shortName": "Abdi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Youssef Msakni", "shortName": "Msakni", "position": "RM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 260 },
-      { "name": "Ellyes Skhiri", "shortName": "Skhiri", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 244 },
-      { "name": "Aissa Laidouni", "shortName": "Laidouni", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 244 },
-      { "name": "Hannibal Mejbri", "shortName": "Hannibal", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 260 },
-      { "name": "Seifeddine Jaziri", "shortName": "Jaziri", "position": "RS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 372 },
-      { "name": "Issam Jebali", "shortName": "Jebali", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+      {
+        "name": "Aymen Dahmen",
+        "shortName": "Dahmen",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Mohamed Drager",
+        "shortName": "Drager",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Montassar Talbi",
+        "shortName": "Talbi",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Yassine Meriah",
+        "shortName": "Meriah",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ali Abdi",
+        "shortName": "Abdi",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Youssef Msakni",
+        "shortName": "Msakni",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 260
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "shortName": "Skhiri",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 244
+      },
+      {
+        "name": "Aissa Laidouni",
+        "shortName": "Laidouni",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 161,
+        "y": 244
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "shortName": "Hannibal",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 260
+      },
+      {
+        "name": "Seifeddine Jaziri",
+        "shortName": "Jaziri",
+        "position": "RS",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 372
+      },
+      {
+        "name": "Issam Jebali",
+        "shortName": "Jebali",
+        "position": "LS",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 372
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -2,120 +2,125 @@ export default function Overview({ teams, groups, onSelectTeam }) {
   function groupTeams(g) {
     return teams
       .filter(t => t.meta.group === g)
-      .sort((a, b) => a.meta.fifaRanking - b.meta.fifaRanking)
-  }
-
-  function keyMatch(gTeams) {
-    const [t1, t2] = gTeams
-    if (!t1 || !t2) return null
-    const entry = t1.schedule?.find(s =>
-      s.opponent.toLowerCase().includes(t2.name.split('-')[0].toLowerCase()) ||
-      t2.name.toLowerCase().includes(s.opponent.toLowerCase().split(' ')[0])
-    )
-    return { team1: t1, team2: t2, date: entry?.date ?? null }
+      .sort((a, b) => {
+        // Sort by pts desc, then goal diff, then ranking
+        const ptsDiff = (b.standings?.pts ?? 0) - (a.standings?.pts ?? 0)
+        if (ptsDiff !== 0) return ptsDiff
+        return a.meta.fifaRanking - b.meta.fifaRanking
+      })
   }
 
   return (
     <div>
-      <div style={{ textAlign: 'center', marginBottom: 32 }}>
-        <h1 style={{
-          fontFamily: 'var(--font-serif)',
-          fontSize: 32,
-          margin: '0 0 4px',
-          color: 'var(--gray-900)',
+      {/* Compact section label */}
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 7,
+        padding: '10px 12px 8px',
+      }}>
+        <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
+        <span style={{
+          fontFamily: 'var(--font-sans)',
+          fontSize: 9,
+          fontWeight: 700,
+          letterSpacing: '0.1em',
+          textTransform: 'uppercase',
+          color: 'var(--gray-500)',
         }}>
-          2026 World Cup — Group Stage
-        </h1>
-        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: 0 }}>
-          48 teams · 12 groups · June 12 – July 19
-        </p>
+          Group Stage · 48 teams · 12 groups · Jun 11 – Jul 19
+        </span>
       </div>
 
+      {/* 2-column micro-card grid */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-        gap: 16,
+        gridTemplateColumns: '1fr 1fr',
+        gap: 6,
+        padding: '0 10px 24px',
       }}>
         {groups.map(g => {
           const gTeams = groupTeams(g)
-          const topTwo = gTeams.slice(0, 2)
-          const km = keyMatch(gTeams)
 
           return (
             <div key={g} style={{
               background: 'white',
-              borderRadius: 8,
+              borderRadius: 6,
               overflow: 'hidden',
-              boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
             }}>
               {/* Card header */}
               <div style={{
                 background: 'var(--gray-900)',
-                padding: '10px 14px',
+                padding: '4px 8px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
               }}>
                 <span style={{
-                  fontSize: 11,
-                  fontWeight: 600,
-                  color: 'white',
+                  fontFamily: 'var(--font-sans)',
+                  fontSize: 10,
+                  fontWeight: 700,
                   letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  color: 'white',
                 }}>
-                  GROUP {g}
+                  Group {g}
                 </span>
+                <span style={{
+                  fontFamily: 'var(--font-sans)',
+                  fontSize: 8,
+                  fontWeight: 600,
+                  letterSpacing: '0.04em',
+                  color: 'rgba(255,255,255,0.45)',
+                  textTransform: 'uppercase',
+                }}>Pts</span>
               </div>
 
               {/* Team rows */}
-              <div style={{ padding: '0 14px' }}>
-                {gTeams.map((t, i) => {
-                  const isFav = i === 0
-                  const isLast = i === gTeams.length - 1
-                  return (
-                    <div
-                      key={t.id}
-                      onClick={() => onSelectTeam(t)}
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        padding: '8px 0',
-                        borderBottom: isLast ? 'none' : '0.5px solid #f0f0f0',
-                        cursor: 'pointer',
-                      }}
-                    >
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                        <span style={{ fontSize: 16 }}>{t.flagEmoji}</span>
-                        <span style={{
-                          fontSize: 13,
-                          fontWeight: isFav ? 600 : 400,
-                          color: 'var(--gray-900)',
-                        }}>
-                          {t.name}
-                        </span>
-                      </div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                        <span style={{ fontSize: 11, color: 'var(--gray-500)' }}>
-                          #{t.meta.fifaRanking}
-                        </span>
-                        <span style={{ fontSize: 11, color: t.accentColor }}>
-                          {t.meta.oddsToWin}
-                        </span>
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-
-              {/* Card footer */}
-              {km && (
-                <div style={{
-                  padding: '8px 14px 10px',
-                  borderTop: '1px solid #f0f0f0',
-                }}>
-                  <span style={{ fontSize: 11, fontStyle: 'italic', color: 'var(--gray-500)' }}>
-                    Key match: {km.team1.name} vs {km.team2.name}
-                    {km.date ? ` · ${km.date}` : ''}
-                  </span>
-                </div>
-              )}
+              {gTeams.map((t, i) => {
+                const s = t.standings ?? { w: 0, d: 0, l: 0, pts: 0 }
+                const isLeader = i === 0 && s.pts > 0
+                return (
+                  <div
+                    key={t.id}
+                    onClick={() => onSelectTeam(t)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: 4,
+                      padding: '4px 8px',
+                      borderBottom: i < gTeams.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
+                      cursor: 'pointer',
+                      background: isLeader ? 'var(--gray-50)' : 'white',
+                    }}
+                  >
+                    <span style={{ fontSize: 12, lineHeight: 1, flexShrink: 0 }}>{t.flagEmoji}</span>
+                    <span style={{
+                      fontFamily: 'var(--font-sans)',
+                      fontSize: 11,
+                      fontWeight: i < 2 ? 600 : 400,
+                      color: 'var(--gray-900)',
+                      flex: 1,
+                      whiteSpace: 'nowrap',
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                      minWidth: 0,
+                    }}>
+                      {t.name}
+                    </span>
+                    <span style={{
+                      fontFamily: 'var(--font-sans)',
+                      fontSize: 11,
+                      fontWeight: 600,
+                      color: s.pts > 0 ? 'var(--gray-900)' : 'var(--gray-400)',
+                      flexShrink: 0,
+                      width: 20,
+                      textAlign: 'center',
+                    }}>{s.pts}</span>
+                  </div>
+                )
+              })}
             </div>
           )
         })}

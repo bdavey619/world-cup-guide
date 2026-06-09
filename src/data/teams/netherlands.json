@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 7,
     "group": "F",
-    "groupOpponents": ["Japan", "Sweden", "Tunisia"],
+    "groupOpponents": [
+      "Japan",
+      "Sweden",
+      "Tunisia"
+    ],
     "oddsToWin": "+1000",
     "impliedProbability": "~9%",
     "lastWCResult": "QF '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Total Football Legacy", "Pressing", "Technical", "Offensive", "Possession"],
+    "styleTags": [
+      "Total Football Legacy",
+      "Pressing",
+      "Technical",
+      "Offensive",
+      "Possession"
+    ],
     "tacticalNote": "Koeman's 4-3-3 draws heavily on Dutch tradition — Van Dijk and the center backs build from the back, feeding de Jong who then orchestrates the tempo. The wide forwards in Gakpo and the right winger press high and provide the width, while Simons operates as a mobile eight who arrives in dangerous positions late. The Netherlands want to dominate possession but are equally dangerous in transition, with the pace of their forwards threatening to run in behind.",
     "strength": "The defensive security of Van Dijk combined with the creative quality of de Jong and Simons gives Netherlands both solidity and attacking sophistication — a hard combination to match.",
     "vulnerability": "When the ball is won high and the Netherlands are caught in transition, the fullbacks' attacking positions leave space behind — Japan's pace could exploit this."
@@ -89,14 +99,54 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "DNQ", "tier": "dnq" },
-    { "year": 2014, "host": "Brazil", "result": "SF", "tier": "sf" },
-    { "year": 2010, "host": "South Africa", "result": "Final", "tier": "final" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "DNQ", "tier": "dnq" },
-    { "year": 1998, "host": "France", "result": "SF", "tier": "sf" },
-    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "DNQ",
+      "tier": "dnq"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "DNQ",
+      "tier": "dnq"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "QF",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 59,
@@ -111,17 +161,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Bart Verbruggen", "shortName": "Verbruggen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Denzel Dumfries", "shortName": "Dumfries", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Virgil van Dijk", "shortName": "Van Dijk", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 148 },
-      { "name": "Stefan de Vrij", "shortName": "De Vrij", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Nathan Aké", "shortName": "Aké", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Tijjani Reijnders", "shortName": "Reijnders", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Frenkie de Jong", "shortName": "De Jong", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Xavi Simons", "shortName": "Simons", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Donyell Malen", "shortName": "Malen", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Cody Gakpo", "shortName": "Gakpo", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Steven Bergwijn", "shortName": "Bergwijn", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Bart Verbruggen",
+        "shortName": "Verbruggen",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Denzel Dumfries",
+        "shortName": "Dumfries",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Virgil van Dijk",
+        "shortName": "Van Dijk",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Stefan de Vrij",
+        "shortName": "De Vrij",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Nathan Aké",
+        "shortName": "Aké",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "shortName": "Reijnders",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Frenkie de Jong",
+        "shortName": "De Jong",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Xavi Simons",
+        "shortName": "Simons",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Donyell Malen",
+        "shortName": "Malen",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Cody Gakpo",
+        "shortName": "Gakpo",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Steven Bergwijn",
+        "shortName": "Bergwijn",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

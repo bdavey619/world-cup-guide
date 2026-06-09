@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 21,
     "group": "G",
-    "groupOpponents": ["Belgium", "Egypt", "New Zealand"],
+    "groupOpponents": [
+      "Belgium",
+      "Egypt",
+      "New Zealand"
+    ],
     "oddsToWin": "+6000",
     "impliedProbability": "~2%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Defensive", "Counter-Attack", "Disciplined"],
+    "styleTags": [
+      "Organized",
+      "Defensive",
+      "Counter-Attack",
+      "Disciplined"
+    ],
     "tacticalNote": "Iran under Ghalenoei sets up in a disciplined 4-2-3-1 designed to absorb pressure and break quickly. The double pivot shields the defense and allows the wide players and Taremi to operate on the counter. Against the ball, Iran is compact and difficult to break down — they held South Wales scoreless in 2022 for long stretches. The attacking transition relies heavily on Taremi and Azmoun's quality in the final third.",
     "strength": "Organized defensive structure makes Iran extremely difficult to break down, and Taremi's quality in transition means they're always a threat on the counter even when defending deep.",
     "vulnerability": "When forced to chase games and play open football, Iran's limited depth and relatively narrow attacking options can be exposed by teams comfortable in possession."
@@ -63,17 +72,68 @@
     "Whether political tensions affect the team's cohesion and whether the anthem moment returns"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "9PM ET", "opponent": "New Zealand", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": false },
-    { "date": "Jun 21", "time": "3PM ET", "opponent": "Belgium", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": true },
-    { "date": "Jun 26", "time": "11PM ET", "opponent": "Egypt", "venue": "Lumen Field", "city": "Seattle", "isAway": true }
+    {
+      "date": "Jun 15",
+      "time": "9PM ET",
+      "opponent": "New Zealand",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": false
+    },
+    {
+      "date": "Jun 21",
+      "time": "3PM ET",
+      "opponent": "Belgium",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": true
+    },
+    {
+      "date": "Jun 26",
+      "time": "11PM ET",
+      "opponent": "Egypt",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": true
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "early" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1978,
+      "host": "Argentina",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 18,
@@ -88,17 +148,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Alireza Beiranvand", "shortName": "Beiranvand", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Sadegh Moharrami", "shortName": "Moharrami", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Shoja Khalilzadeh", "shortName": "Khalilzadeh", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Majid Hosseini", "shortName": "Hosseini", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ehsan Hajsafi", "shortName": "Hajsafi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Saeid Ezatolahi", "shortName": "Ezatolahi", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Ahmad Nourollahi", "shortName": "Nourollahi", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Alireza Jahanbakhsh", "shortName": "Jahanbakhsh", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Sardar Azmoun", "shortName": "Azmoun", "position": "CAM", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Ali Gholizadeh", "shortName": "Gholizadeh", "position": "LAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Mehdi Taremi", "shortName": "Taremi", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+      {
+        "name": "Alireza Beiranvand",
+        "shortName": "Beiranvand",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "shortName": "Moharrami",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Shoja Khalilzadeh",
+        "shortName": "Khalilzadeh",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Majid Hosseini",
+        "shortName": "Hosseini",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ehsan Hajsafi",
+        "shortName": "Hajsafi",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "shortName": "Ezatolahi",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Ahmad Nourollahi",
+        "shortName": "Nourollahi",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "shortName": "Jahanbakhsh",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Sardar Azmoun",
+        "shortName": "Azmoun",
+        "position": "CAM",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "shortName": "Gholizadeh",
+        "position": "LAM",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Mehdi Taremi",
+        "shortName": "Taremi",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

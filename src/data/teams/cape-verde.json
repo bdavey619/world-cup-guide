@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 76,
     "group": "H",
-    "groupOpponents": ["Spain", "Uruguay", "Saudi Arabia"],
+    "groupOpponents": [
+      "Spain",
+      "Uruguay",
+      "Saudi Arabia"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "First WC",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Technical", "Attacking", "Compact", "Diaspora-Powered"],
+    "styleTags": [
+      "Technical",
+      "Attacking",
+      "Compact",
+      "Diaspora-Powered"
+    ],
     "tacticalNote": "Cape Verde play an attractive 4-3-3 that emphasizes technical quality and direct attacking play. Against Spain and Uruguay, they will need to be organized defensively and exploit counter-attacking opportunities — but Cape Verde's instinct is to play forward and take risks. The midfield three needs to work hard both to win the ball and to support the wide forwards. Against Saudi Arabia, Cape Verde will see their best opportunity to get points, and that game could define the entire tournament for them.",
     "strength": "Cape Verde's wide play and direct attacking style can create problems for teams who underestimate them — their AFCON performances showed they can compete technically with quality opposition.",
     "vulnerability": "Facing Spain and Uruguay's quality in midfield, Cape Verde will struggle to maintain possession for sustained periods, which will tire their players and expose their defense."
@@ -63,9 +72,30 @@
     "Cape Verde's defensive resilience against Spain — if they can limit the damage, the Saudi Arabia game becomes all-important"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "12PM ET", "opponent": "Spain", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": true },
-    { "date": "Jun 21", "time": "6PM ET", "opponent": "Uruguay", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": true },
-    { "date": "Jun 26", "time": "8PM ET", "opponent": "Saudi Arabia", "venue": "NRG Stadium", "city": "Houston", "isAway": false }
+    {
+      "date": "Jun 15",
+      "time": "12PM ET",
+      "opponent": "Spain",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": true
+    },
+    {
+      "date": "Jun 21",
+      "time": "6PM ET",
+      "opponent": "Uruguay",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": true
+    },
+    {
+      "date": "Jun 26",
+      "time": "8PM ET",
+      "opponent": "Saudi Arabia",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    }
   ],
   "history": [],
   "allTimeRecord": {
@@ -81,17 +111,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Vozinha", "shortName": "Vozinha", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Cruzy Duarte", "shortName": "Duarte", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Stopira", "shortName": "Stopira", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Roberto Lopes", "shortName": "R. Lopes", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Diney", "shortName": "Diney", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Garry Rodrigues", "shortName": "G. Rodrigues", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Jamiro Monteiro", "shortName": "Monteiro", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Kenny Rocha Santos", "shortName": "K. Rocha", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Ryan Mendes", "shortName": "R. Mendes", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Djaniny", "shortName": "Djaniny", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
-      { "name": "Julio Tavares", "shortName": "Tavares", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Vozinha",
+        "shortName": "Vozinha",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Cruzy Duarte",
+        "shortName": "Duarte",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Stopira",
+        "shortName": "Stopira",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Roberto Lopes",
+        "shortName": "R. Lopes",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Diney",
+        "shortName": "Diney",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Garry Rodrigues",
+        "shortName": "G. Rodrigues",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "shortName": "Monteiro",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Kenny Rocha Santos",
+        "shortName": "K. Rocha",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Ryan Mendes",
+        "shortName": "R. Mendes",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Djaniny",
+        "shortName": "Djaniny",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Julio Tavares",
+        "shortName": "Tavares",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

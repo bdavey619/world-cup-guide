@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 3,
     "group": "G",
-    "groupOpponents": ["Iran", "Egypt", "New Zealand"],
+    "groupOpponents": [
+      "Iran",
+      "Egypt",
+      "New Zealand"
+    ],
     "oddsToWin": "+1400",
     "impliedProbability": "~7%",
     "lastWCResult": "QF '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Technical", "Individual Brilliance", "Transition", "Creative"],
+    "styleTags": [
+      "Technical",
+      "Individual Brilliance",
+      "Transition",
+      "Creative"
+    ],
     "tacticalNote": "Tedesco has moved Belgium toward a more fluid 4-3-3 that allows De Bruyne to roam between the lines while Doku and Trossard provide width. The system relies heavily on individual quality — when players like De Bruyne and Lukaku are clicking, Belgium can dismantle any defense. The vulnerability has always been defensive organization and a tendency to struggle when opponents press them high and disrupt their rhythm.",
     "strength": "The creative ceiling is extraordinary — De Bruyne orchestrating, Doku dribbling, Lukaku holding up play creates a combination very few defenses can handle for 90 minutes.",
     "vulnerability": "Belgium's aging core means pressing intensity and defensive covering can break down in the second half of tight knockout matches, and they've historically struggled to control games emotionally."
@@ -63,19 +72,80 @@
     "Lukaku's movement in the box — if he's in the right headspace, he's nearly impossible to stop at this level"
   ],
   "schedule": [
-    { "date": "Jun 15", "time": "3PM ET", "opponent": "Egypt", "venue": "Lumen Field", "city": "Seattle", "isAway": false },
-    { "date": "Jun 21", "time": "3PM ET", "opponent": "Iran", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": false },
-    { "date": "Jun 26", "time": "11PM ET", "opponent": "New Zealand", "venue": "BC Place", "city": "Vancouver", "isAway": true }
+    {
+      "date": "Jun 15",
+      "time": "3PM ET",
+      "opponent": "Egypt",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": false
+    },
+    {
+      "date": "Jun 21",
+      "time": "3PM ET",
+      "opponent": "Iran",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "11PM ET",
+      "opponent": "New Zealand",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": true
+    }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "3rd Place", "tier": "sf" },
-    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
-    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "3rd Place",
+      "tier": "sf"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "R16",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 45,
@@ -90,17 +160,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Koen Casteels", "shortName": "Casteels", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Timothy Castagne", "shortName": "Castagne", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Wout Faes", "shortName": "Faes", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Jan Vertonghen", "shortName": "Vertonghen", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Arthur Theate", "shortName": "Theate", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Kevin De Bruyne", "shortName": "De Bruyne", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 348, "y": 244 },
-      { "name": "Youri Tielemans", "shortName": "Tielemans", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Leandro Trossard", "shortName": "Trossard", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Jeremy Doku", "shortName": "Doku", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Romelu Lukaku", "shortName": "Lukaku", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Lois Openda", "shortName": "Openda", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Koen Casteels",
+        "shortName": "Casteels",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Timothy Castagne",
+        "shortName": "Castagne",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Wout Faes",
+        "shortName": "Faes",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Jan Vertonghen",
+        "shortName": "Vertonghen",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Arthur Theate",
+        "shortName": "Theate",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "shortName": "De Bruyne",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Youri Tielemans",
+        "shortName": "Tielemans",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Leandro Trossard",
+        "shortName": "Trossard",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Jeremy Doku",
+        "shortName": "Doku",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Romelu Lukaku",
+        "shortName": "Lukaku",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Lois Openda",
+        "shortName": "Openda",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import TeamPageOne from './components/TeamPageOne'
 import TeamPageTwo from './components/TeamPageTwo'
 import Overview from './components/Overview'
@@ -24,11 +24,33 @@ function firstInGroup(group) {
   return teams.find(t => t.meta.group === group)
 }
 
+const PRIMARY_TABS = [
+  { id: 'schedule', label: 'Schedule' },
+  { id: 'guide', label: 'Guide' },
+  { id: 'overview', label: 'Overview' },
+]
+const MORE_TABS = [
+  { id: 'bracket', label: 'Bracket' },
+  { id: 'storylines', label: 'Storylines' },
+  { id: 'dreamteam', label: 'Dream Team' },
+]
+
 export default function App() {
   const [entered, setEntered] = useState(false)
   const [activeGroup, setActiveGroup] = useState('I')
   const [selectedTeamId, setSelectedTeamId] = useState('france')
   const [activeView, setActiveView] = useState('schedule')
+  const [moreOpen, setMoreOpen] = useState(false)
+  const moreRef = useRef(null)
+
+  useEffect(() => {
+    if (!moreOpen) return
+    function handleClick(e) {
+      if (moreRef.current && !moreRef.current.contains(e.target)) setMoreOpen(false)
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [moreOpen])
 
   const selectedTeam = teams.find(t => t.id === selectedTeamId) ?? teams[0]
   const groupTeams = teams.filter(t => t.meta.group === activeGroup)
@@ -60,13 +82,14 @@ export default function App() {
         <div style={{
           maxWidth: 680,
           margin: '0 auto',
-          padding: '10px 16px',
+          padding: '7px 16px',
           display: 'flex',
           alignItems: 'center',
-          gap: 12,
+          gap: 10,
         }}>
           <button
             onClick={() => setEntered(false)}
+            className="nav-wordmark"
             style={{
               background: 'none',
               border: 'none',
@@ -83,26 +106,19 @@ export default function App() {
           >
             2026 WC
           </button>
-          <div style={{ position: 'relative', flex: 1, minWidth: 0 }}>
-          <div className="scroll-x" style={{ display: 'flex', gap: 5 }}>
-            {[
-              { id: 'schedule', label: 'Schedule' },
-              { id: 'guide', label: 'Guide' },
-              { id: 'overview', label: 'Overview' },
-              { id: 'bracket', label: 'Bracket' },
-              { id: 'storylines', label: 'Storylines' },
-              { id: 'dreamteam', label: 'Dream Team' },
-            ].map(({ id, label }) => (
+          {/* Primary tabs — always visible, no scroll */}
+          <div style={{ display: 'flex', gap: 4, flex: 1, alignItems: 'center' }}>
+            {PRIMARY_TABS.map(({ id, label }) => (
               <button
                 key={id}
                 onClick={() => setActiveView(id)}
                 style={{
                   background: activeView === id ? 'var(--gray-900)' : 'transparent',
                   color: activeView === id ? 'white' : 'var(--gray-500)',
-                  border: activeView === id ? 'none' : '1px solid transparent',
+                  border: 'none',
                   borderRadius: 20,
-                  padding: '5px 13px',
-                  fontSize: 13,
+                  padding: '4px 10px',
+                  fontSize: 12,
                   cursor: 'pointer',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: activeView === id ? 600 : 400,
@@ -114,8 +130,66 @@ export default function App() {
                 {label}
               </button>
             ))}
-          </div>
-          <div className="nav-fade-right" />
+
+            {/* ··· overflow menu */}
+            <div ref={moreRef} style={{ position: 'relative', marginLeft: 'auto' }}>
+              <button
+                onClick={() => setMoreOpen(o => !o)}
+                style={{
+                  background: MORE_TABS.some(t => t.id === activeView) ? 'var(--gray-900)' : 'transparent',
+                  color: MORE_TABS.some(t => t.id === activeView) ? 'white' : 'var(--gray-500)',
+                  border: 'none',
+                  borderRadius: 20,
+                  padding: '4px 10px',
+                  fontSize: 13,
+                  lineHeight: 1,
+                  cursor: 'pointer',
+                  fontFamily: 'var(--font-sans)',
+                  fontWeight: 600,
+                  letterSpacing: '0.05em',
+                  transition: 'all 0.15s',
+                }}
+              >
+                ···
+              </button>
+              {moreOpen && (
+                <div style={{
+                  position: 'absolute',
+                  top: 'calc(100% + 6px)',
+                  right: 0,
+                  background: 'white',
+                  border: '1px solid var(--gray-200)',
+                  borderRadius: 8,
+                  boxShadow: '0 4px 16px rgba(0,0,0,0.12)',
+                  zIndex: 200,
+                  minWidth: 140,
+                  overflow: 'hidden',
+                }}>
+                  {MORE_TABS.map(({ id, label }) => (
+                    <button
+                      key={id}
+                      onClick={() => { setActiveView(id); setMoreOpen(false) }}
+                      style={{
+                        display: 'block',
+                        width: '100%',
+                        textAlign: 'left',
+                        background: activeView === id ? 'var(--gray-100)' : 'white',
+                        color: activeView === id ? 'var(--gray-900)' : 'var(--gray-700)',
+                        border: 'none',
+                        padding: '10px 14px',
+                        fontSize: 13,
+                        fontWeight: activeView === id ? 600 : 400,
+                        fontFamily: 'var(--font-sans)',
+                        cursor: 'pointer',
+                        borderBottom: id !== 'dreamteam' ? '1px solid var(--gray-100)' : 'none',
+                      }}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -125,13 +199,13 @@ export default function App() {
         <div style={{
           background: 'var(--gray-100)',
           borderBottom: '1px solid var(--gray-200)',
-          padding: '8px 0',
+          padding: '6px 0',
         }}>
           <div className="scroll-x" style={{
             maxWidth: 680,
             margin: '0 auto',
             display: 'flex',
-            gap: 6,
+            gap: 4,
             padding: '0 16px',
           }}>
             {GROUPS.map(g => {
@@ -141,10 +215,10 @@ export default function App() {
                   key={g}
                   onClick={() => selectGroup(g)}
                   style={{
-                    width: 32,
-                    height: 32,
+                    width: 28,
+                    height: 28,
                     borderRadius: '50%',
-                    fontSize: 13,
+                    fontSize: 11,
                     fontWeight: 500,
                     cursor: 'pointer',
                     border: isActive ? 'none' : '1px solid #d0d0d0',
@@ -174,7 +248,7 @@ export default function App() {
           <div className="team-cards-row" style={{
             maxWidth: 680,
             margin: '0 auto',
-            padding: '8px 16px',
+            padding: '6px 16px',
             display: 'flex',
             gap: 8,
           }}>
@@ -187,7 +261,7 @@ export default function App() {
                   onClick={() => setSelectedTeamId(t.id)}
                   style={{
                     flex: 1,
-                    padding: '10px 12px',
+                    padding: '8px 10px',
                     borderRadius: 6,
                     cursor: 'pointer',
                     background: isSelected ? 'var(--gray-50)' : 'white',
@@ -202,8 +276,8 @@ export default function App() {
                     if (!isSelected) e.currentTarget.style.background = 'white'
                   }}
                 >
-                  <div style={{ fontSize: 22 }}>{t.flagEmoji}</div>
-                  <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', marginTop: 4 }}>
+                  <div style={{ fontSize: 18 }}>{t.flagEmoji}</div>
+                  <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', marginTop: 4 }}>
                     {t.name}
                   </div>
                   <div style={{ fontSize: 11, color: 'var(--gray-500)', marginTop: 2 }}>
@@ -225,7 +299,7 @@ export default function App() {
           <Schedule teams={teams} onSelectTeam={selectTeam} />
         </div>
       ) : (
-      <div style={{
+      <div className="guide-content-wrap" style={{
         maxWidth: 680,
         margin: '0 auto',
         padding: '24px 16px',
@@ -233,7 +307,7 @@ export default function App() {
         minHeight: 'calc(100vh - 200px)',
       }}>
         {activeView === 'guide' ? (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <div className="guide-cards" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
               <TeamPageOne team={selectedTeam} onViewStorylines={() => setActiveView('storylines')} />
             </div>

@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 28,
     "group": "D",
-    "groupOpponents": ["United States", "Australia", "Paraguay"],
+    "groupOpponents": [
+      "United States",
+      "Australia",
+      "Paraguay"
+    ],
     "oddsToWin": "+3500",
     "impliedProbability": "~2.8%",
     "lastWCResult": "Groups '06",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Technical", "Physical", "Creative Midfield", "Set Pieces", "Counter-Attack"],
+    "styleTags": [
+      "Technical",
+      "Physical",
+      "Creative Midfield",
+      "Set Pieces",
+      "Counter-Attack"
+    ],
     "tacticalNote": "Montella's 4-2-3-1 is built around the axis of Çalhanoğlu's deep distribution and Güler's freedom to roam from the ten position. Two holding midfielders protect the back four while Güler, Aktürkoğlu, and Çelik's overlaps create width and central overloads simultaneously. Türkiye are dangerous from set pieces — both from open play crossing and from direct free kicks within Güler's range.",
     "strength": "The Çalhanoğlu-Güler axis gives Türkiye elite quality in central midfield areas — a genuine technical advantage over most Group D opponents.",
     "vulnerability": "When pressed aggressively high and forced into direct football, Türkiye lose their creative rhythm and the defensive shape can become stretched."
@@ -89,10 +99,30 @@
     }
   ],
   "history": [
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "3rd", "tier": "sf" },
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1954, "host": "Switzerland", "result": "Groups", "tier": "early" }
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "3rd",
+      "tier": "sf"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1954,
+      "host": "Switzerland",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 16,
@@ -107,17 +137,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Mert Günok", "shortName": "Günok", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Zeki Çelik", "shortName": "Çelik", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Merih Demiral", "shortName": "Demiral", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Samet Akaydın", "shortName": "Akaydın", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ferdi Kadıoğlu", "shortName": "Kadıoğlu", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Hakan Çalhanoğlu", "shortName": "Çalhanoğlu", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
-      { "name": "Salih Özcan", "shortName": "Özcan", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Kerem Aktürkoğlu", "shortName": "Aktürkoğlu", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
-      { "name": "Arda Güler", "shortName": "Güler", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Yusuf Yazıcı", "shortName": "Yazıcı", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Cenk Tosun", "shortName": "Tosun", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Mert Günok",
+        "shortName": "Günok",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Zeki Çelik",
+        "shortName": "Çelik",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Merih Demiral",
+        "shortName": "Demiral",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Samet Akaydın",
+        "shortName": "Akaydın",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "shortName": "Kadıoğlu",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "shortName": "Çalhanoğlu",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Salih Özcan",
+        "shortName": "Özcan",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "shortName": "Aktürkoğlu",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Arda Güler",
+        "shortName": "Güler",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Yusuf Yazıcı",
+        "shortName": "Yazıcı",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Cenk Tosun",
+        "shortName": "Tosun",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

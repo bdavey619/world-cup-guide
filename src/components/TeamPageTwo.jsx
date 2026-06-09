@@ -70,7 +70,7 @@ export default function TeamPageTwo({ team }) {
       }} />
 
       {/* 2. HEADER */}
-      <div style={{
+      <div className="team-header-p2" style={{
         background: '#fff',
         padding: '0.75rem 1.5rem 0.65rem',
         display: 'flex',
@@ -111,7 +111,7 @@ export default function TeamPageTwo({ team }) {
         </div>
 
         {/* Right — four stat pills with dividers */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'var(--font-sans)' }}>
+        <div className="team-header-p2-stats" style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'var(--font-sans)' }}>
           {[
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}`, colored: false },
             { label: 'ODDS TO WIN', value: meta.oddsToWin, colored: true },
@@ -137,7 +137,7 @@ export default function TeamPageTwo({ team }) {
                 }}>
                   {label}
                 </div>
-                <div style={{
+                <div className="team-stats-value" style={{
                   fontSize: 22,
                   fontWeight: 500,
                   lineHeight: 1,

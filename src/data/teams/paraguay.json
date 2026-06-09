@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 60,
     "group": "D",
-    "groupOpponents": ["United States", "Australia", "Türkiye"],
+    "groupOpponents": [
+      "United States",
+      "Australia",
+      "Türkiye"
+    ],
     "oddsToWin": "+8000",
     "impliedProbability": "~1.2%",
     "lastWCResult": "R16 '10",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Defensive Solidity", "Physical", "Counter-Attack", "Hard to Beat"],
+    "styleTags": [
+      "Defensive Solidity",
+      "Physical",
+      "Counter-Attack",
+      "Hard to Beat"
+    ],
     "tacticalNote": "Alfaro organizes Paraguay in a deep 4-2-3-1 with two holding midfielders sitting narrowly in front of the back four, eliminating central spaces. They defend in two disciplined banks before launching rapid counter-attacks through Almirón's movement on the right and Enciso's creativity centrally. Set pieces — both offensive and defensive — are meticulously prepared and represent their most reliable route to goals against elite opposition.",
     "strength": "Defensive compactness that suffocates space — even top-10 sides have historically found it extremely difficult to break down a well-organized Paraguay.",
     "vulnerability": "Sustained possession pressure from multiple angles can stretch the defensive structure, and when forced to chase a deficit they lack the individual quality to dominate open games."
@@ -89,14 +98,54 @@
     }
   ],
   "history": [
-    { "year": 2010, "host": "South Africa", "result": "QF", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
-    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" },
-    { "year": 1958, "host": "Sweden", "result": "Groups", "tier": "early" },
-    { "year": 1950, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 1930, "host": "Uruguay", "result": "Groups", "tier": "early" }
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1958,
+      "host": "Sweden",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1950,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1930,
+      "host": "Uruguay",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 31,
@@ -111,17 +160,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Antony Silva", "shortName": "Silva", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Gustavo Velázquez", "shortName": "Velázquez", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Ramiro González", "shortName": "González", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Fabián Balbuena", "shortName": "Balbuena", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Júnior Alonso", "shortName": "Alonso", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Mathías Villasanti", "shortName": "Villasanti", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
-      { "name": "Andrés Cubas", "shortName": "Cubas", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
-      { "name": "Miguel Almirón", "shortName": "Almirón", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 348, "y": 310 },
-      { "name": "Julio Enciso", "shortName": "Enciso", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
-      { "name": "Óscar Romero", "shortName": "Romero", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
-      { "name": "Antonio Sanabria", "shortName": "Sanabria", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+      {
+        "name": "Antony Silva",
+        "shortName": "Silva",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Gustavo Velázquez",
+        "shortName": "Velázquez",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Ramiro González",
+        "shortName": "González",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Fabián Balbuena",
+        "shortName": "Balbuena",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Júnior Alonso",
+        "shortName": "Alonso",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Mathías Villasanti",
+        "shortName": "Villasanti",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220
+      },
+      {
+        "name": "Andrés Cubas",
+        "shortName": "Cubas",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220
+      },
+      {
+        "name": "Miguel Almirón",
+        "shortName": "Almirón",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Julio Enciso",
+        "shortName": "Enciso",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Óscar Romero",
+        "shortName": "Romero",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Antonio Sanabria",
+        "shortName": "Sanabria",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

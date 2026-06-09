@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 35,
     "group": "J",
-    "groupOpponents": ["Argentina", "Austria", "Jordan"],
+    "groupOpponents": [
+      "Argentina",
+      "Austria",
+      "Jordan"
+    ],
     "oddsToWin": "+5000",
     "impliedProbability": "~2%",
     "lastWCResult": "R16 '14",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Counter-Attack", "Technical", "Wide Play", "Compact", "Transition"],
+    "styleTags": [
+      "Counter-Attack",
+      "Technical",
+      "Wide Play",
+      "Compact",
+      "Transition"
+    ],
     "tacticalNote": "Petkovic's Algeria set up to be difficult to break down — a compact 4-3-3 that defends in a mid-block and looks to exploit transitions through Mahrez's pace and dribbling from the right, with the left channel providing secondary outlet. Bennacer anchors the midfield and distributes efficiently, enabling Algeria to switch from defensive shape to attack quickly. Against stronger opponents they will be pragmatic and disciplined; against Jordan they will have the ball more and need to break down a defensive block.",
     "strength": "Mahrez's ability to manufacture chances from almost nothing — give him half a yard and he creates danger every time.",
     "vulnerability": "Heavily Mahrez-dependent in the final third; if opponents neutralize him, Algeria can struggle to create from other sources."
@@ -89,10 +99,30 @@
     }
   ],
   "history": [
-    { "year": 2014, "host": "Brazil", "result": "R16", "tier": "deep" },
-    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
-    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" },
-    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" }
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1982,
+      "host": "Spain",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 15,
@@ -107,17 +137,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Raïs M'Bolhi", "shortName": "M'Bolhi", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Youcef Atal", "shortName": "Atal", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Djamel Benlamri", "shortName": "Benlamri", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Ramy Bensebaini", "shortName": "Bensebaini", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Aïssa Mandi", "shortName": "Mandi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Ismaël Bennacer", "shortName": "Bennacer", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Samir Nasri", "shortName": "S. Zerrouki", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Sofiane Feghouli", "shortName": "Feghouli", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Riyad Mahrez", "shortName": "Mahrez", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
-      { "name": "Andy Delort", "shortName": "Delort", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Yacine Brahimi", "shortName": "Brahimi", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Raïs M'Bolhi",
+        "shortName": "M'Bolhi",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Youcef Atal",
+        "shortName": "Atal",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Djamel Benlamri",
+        "shortName": "Benlamri",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "shortName": "Bensebaini",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Aïssa Mandi",
+        "shortName": "Mandi",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Ismaël Bennacer",
+        "shortName": "Bennacer",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Samir Nasri",
+        "shortName": "S. Zerrouki",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Sofiane Feghouli",
+        "shortName": "Feghouli",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Riyad Mahrez",
+        "shortName": "Mahrez",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Andy Delort",
+        "shortName": "Delort",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Yacine Brahimi",
+        "shortName": "Brahimi",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

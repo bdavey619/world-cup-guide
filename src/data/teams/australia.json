@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 23,
     "group": "D",
-    "groupOpponents": ["United States", "Türkiye", "Paraguay"],
+    "groupOpponents": [
+      "United States",
+      "Türkiye",
+      "Paraguay"
+    ],
     "oddsToWin": "+5000",
     "impliedProbability": "~2%",
     "lastWCResult": "R16 '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Counter-Attack", "Organized", "Direct", "Physical", "Set Pieces"],
+    "styleTags": [
+      "Counter-Attack",
+      "Organized",
+      "Direct",
+      "Physical",
+      "Set Pieces"
+    ],
     "tacticalNote": "Popovic's 4-3-3 is built around defensive solidity and rapid transitions. Australia sits in a mid-block, denying space in the channels, and attacks primarily through wide players using pace on the counter. Leckie and Boyle provide width and the crossing threat for Duke, while the midfield trio works hard to both protect the back four and carry the ball into the final third through progressive passes.",
     "strength": "Australia's counter-attacking pace is genuinely dangerous — when they win the ball and have space in front of them, Boyle and Leckie can exploit any back line.",
     "vulnerability": "Sustained positional pressure from technically superior teams — when forced to defend for long periods, eventual individual errors creep in."
@@ -89,12 +99,42 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
-    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1974,
+      "host": "West Germany",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 18,
@@ -109,17 +149,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Mathew Ryan", "shortName": "Ryan", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Mat Leckie", "shortName": "Leckie", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 148 },
-      { "name": "Harry Souttar", "shortName": "Souttar", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Miloš Degenek", "shortName": "Degenek", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Aziz Behich", "shortName": "Behich", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Jackson Irvine", "shortName": "Irvine", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Riley McGree", "shortName": "McGree", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Aaron Mooy", "shortName": "Mooy", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Martin Boyle", "shortName": "Boyle", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Mitchell Duke", "shortName": "Duke", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Craig Goodwin", "shortName": "Goodwin", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Mathew Ryan",
+        "shortName": "Ryan",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Mat Leckie",
+        "shortName": "Leckie",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Harry Souttar",
+        "shortName": "Souttar",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Miloš Degenek",
+        "shortName": "Degenek",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Aziz Behich",
+        "shortName": "Behich",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Jackson Irvine",
+        "shortName": "Irvine",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Riley McGree",
+        "shortName": "McGree",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Aaron Mooy",
+        "shortName": "Mooy",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Martin Boyle",
+        "shortName": "Boyle",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Mitchell Duke",
+        "shortName": "Duke",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Craig Goodwin",
+        "shortName": "Goodwin",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

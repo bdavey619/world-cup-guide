@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 33,
     "group": "I",
-    "groupOpponents": ["France", "Senegal", "Iraq"],
+    "groupOpponents": [
+      "France",
+      "Senegal",
+      "Iraq"
+    ],
     "oddsToWin": "+3000",
     "impliedProbability": "~3%",
     "lastWCResult": "Groups '98",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Direct", "Haaland-Centric", "Counter-Attack", "Physical"],
+    "styleTags": [
+      "Direct",
+      "Haaland-Centric",
+      "Counter-Attack",
+      "Physical"
+    ],
     "tacticalNote": "Solbakken's Norway is built on a simple but devastatingly effective premise: get the ball to Haaland as quickly and as often as possible. Ødegaard links the midfield to the attack and provides the quality on the ball to unlock defenses. Berge and the midfield provide the defensive cover and winning of second balls. Norway is not a possession team — they are direct, physically intense, and rely on Haaland's extraordinary finishing to convert the chances they create. Against France, this becomes an interesting tactical battle between Haaland's directness and France's world-class defensive structure.",
     "strength": "Erling Haaland is the most dangerous penalty-box threat in world football — one chance, one goal is Norway's constant threat, and creating chances is exactly what Ødegaard does best.",
     "vulnerability": "Norway's attacking game is heavily centralized around Haaland; if opposing defenses commit to double-marking him and cutting his supply, Norway can struggle to create through other channels."
@@ -63,14 +72,50 @@
     "Norway vs France in the final group game — a potential winner-takes-all clash between two teams with genuine knockout ambitions"
   ],
   "schedule": [
-    { "date": "Jun 16", "time": "6PM ET", "opponent": "Iraq", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false },
-    { "date": "Jun 22", "time": "8PM ET", "opponent": "Senegal", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": false },
-    { "date": "Jun 26", "time": "3PM ET", "opponent": "France", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false }
+    {
+      "date": "Jun 16",
+      "time": "6PM ET",
+      "opponent": "Iraq",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "isAway": false
+    },
+    {
+      "date": "Jun 22",
+      "time": "8PM ET",
+      "opponent": "Senegal",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "3PM ET",
+      "opponent": "France",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "isAway": false
+    }
   ],
   "history": [
-    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
-    { "year": 1994, "host": "USA", "result": "Groups", "tier": "early" },
-    { "year": 1938, "host": "France", "result": "R16", "tier": "deep" }
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1938,
+      "host": "France",
+      "result": "R16",
+      "tier": "deep"
+    }
   ],
   "allTimeRecord": {
     "played": 9,
@@ -85,17 +130,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Ørjan Nyland", "shortName": "Nyland", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Kristoffer Ajer", "shortName": "Ajer", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Leo Østigård", "shortName": "Østigård", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Andreas Hanche-Olsen", "shortName": "Hanche-Olsen", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Birger Meling", "shortName": "Meling", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Martin Ødegaard", "shortName": "Ødegaard", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Sander Berge", "shortName": "Berge", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Fredrik Aursnes", "shortName": "Aursnes", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Antonio Nusa", "shortName": "Nusa", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Erling Haaland", "shortName": "Haaland", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
-      { "name": "Alexander Sørloth", "shortName": "Sørloth", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Ørjan Nyland",
+        "shortName": "Nyland",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "shortName": "Ajer",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Leo Østigård",
+        "shortName": "Østigård",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "shortName": "Hanche-Olsen",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Birger Meling",
+        "shortName": "Meling",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Martin Ødegaard",
+        "shortName": "Ødegaard",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Sander Berge",
+        "shortName": "Berge",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Fredrik Aursnes",
+        "shortName": "Aursnes",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Antonio Nusa",
+        "shortName": "Nusa",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Erling Haaland",
+        "shortName": "Haaland",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Alexander Sørloth",
+        "shortName": "Sørloth",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

@@ -106,30 +106,29 @@ export default function Bracket() {
   return (
     <div>
       {/* Header */}
-      <div style={{ textAlign: 'center', marginBottom: 28 }}>
-        <h1 style={{
-          fontFamily: 'var(--font-serif)',
-          fontSize: 28,
-          fontWeight: 500,
-          color: 'var(--gray-900)',
-          margin: '0 0 4px',
+      <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 16 }}>
+        <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
+        <span style={{
+          fontFamily: 'var(--font-sans)',
+          fontSize: 9,
+          fontWeight: 700,
+          letterSpacing: '0.1em',
+          textTransform: 'uppercase',
+          color: 'var(--gray-500)',
         }}>
-          Tournament Bracket
-        </h1>
-        <p style={{ fontSize: 13, color: 'var(--gray-500)', margin: 0 }}>
-          Knockout stage begins July 1 · 32 teams advance from the group stage
-        </p>
+          Knockout Stage · Round of 32 begins Jul 1
+        </span>
       </div>
 
       {/* Advance note */}
       <div style={{
         background: 'white',
         borderRadius: 8,
-        padding: '14px 18px',
-        marginBottom: 20,
+        padding: '10px 14px',
+        marginBottom: 16,
         boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
         display: 'flex',
-        gap: 24,
+        gap: 20,
         flexWrap: 'wrap',
       }}>
         {[
@@ -138,8 +137,8 @@ export default function Bracket() {
           { label: '= 32 teams', note: 'Enter the Round of 32' },
         ].map(({ label, note }) => (
           <div key={label}>
-            <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-900)' }}>{label}</div>
-            <div style={{ fontSize: 11, color: 'var(--gray-500)' }}>{note}</div>
+            <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
+            <div style={{ fontSize: 11, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>{note}</div>
           </div>
         ))}
       </div>

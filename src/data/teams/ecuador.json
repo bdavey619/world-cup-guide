@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 44,
     "group": "E",
-    "groupOpponents": ["Germany", "Ivory Coast", "Curaçao"],
+    "groupOpponents": [
+      "Germany",
+      "Ivory Coast",
+      "Curaçao"
+    ],
     "oddsToWin": "+5000",
     "impliedProbability": "~2%",
     "lastWCResult": "Groups '22",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Counter-Attack", "Physical Midfield", "Disciplined", "Wide Play"],
+    "styleTags": [
+      "Counter-Attack",
+      "Physical Midfield",
+      "Disciplined",
+      "Wide Play"
+    ],
     "tacticalNote": "Beccacece organizes Ecuador in a balanced 4-3-3 with Caicedo as the pivot and most influential figure. The wide forwards are given freedom to drive at defenders and create chances through individual play, while the back four defends deep and compact, inviting pressure before releasing quickly on the counter. Against Germany, discipline will be paramount — Ecuador's best result would come from keeping it tight for 60 minutes before the game opens up.",
     "strength": "Caicedo's midfield dominance and the width provided by Plata and Sarmiento give Ecuador a genuine attacking threat on the counter that can trouble any team.",
     "vulnerability": "Ecuador's central defense can be exposed by technical players who link quickly and play through the midfield block — against Wirtz and Musiala, they will be under constant pressure."
@@ -89,10 +98,30 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 13,
@@ -107,17 +136,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Hernán Galíndez", "shortName": "Galíndez", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Ángelo Preciado", "shortName": "Preciado", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Piero Hincapié", "shortName": "Hincapié", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Robert Arboleda", "shortName": "Arboleda", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Pervis Estupiñán", "shortName": "Estupiñán", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Romario Ibarra", "shortName": "Ibarra", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Moisés Caicedo", "shortName": "Caicedo", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
-      { "name": "Carlos Gruezo", "shortName": "Gruezo", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Gonzalo Plata", "shortName": "Plata", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Enner Valencia", "shortName": "Valencia", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Jeremy Sarmiento", "shortName": "Sarmiento", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Hernán Galíndez",
+        "shortName": "Galíndez",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Ángelo Preciado",
+        "shortName": "Preciado",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Piero Hincapié",
+        "shortName": "Hincapié",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Robert Arboleda",
+        "shortName": "Arboleda",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "shortName": "Estupiñán",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Romario Ibarra",
+        "shortName": "Ibarra",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Moisés Caicedo",
+        "shortName": "Caicedo",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Carlos Gruezo",
+        "shortName": "Gruezo",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Gonzalo Plata",
+        "shortName": "Plata",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Enner Valencia",
+        "shortName": "Valencia",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Jeremy Sarmiento",
+        "shortName": "Sarmiento",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

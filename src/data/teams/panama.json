@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 73,
     "group": "L",
-    "groupOpponents": ["England", "Ghana", "Croatia"],
+    "groupOpponents": [
+      "England",
+      "Ghana",
+      "Croatia"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "Groups '18",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Physical", "Organized", "Hard-Working", "Set Pieces", "Compact"],
+    "styleTags": [
+      "Physical",
+      "Organized",
+      "Hard-Working",
+      "Set Pieces",
+      "Compact"
+    ],
     "tacticalNote": "Christiansen's Panama set up in a disciplined 4-4-2 that prioritizes defensive organization above all else — two tight banks of four that compress space and frustrate opponents who want to play through them. In transition, they are direct: find Blackburn's hold-up play or Díaz's runs in behind, and get into the penalty area as quickly as possible. Set pieces are a significant weapon — Panama are excellent on corners and free kicks because of their physical presence and delivery. Against England and Croatia, they need to stay organized for long periods and capitalize ruthlessly on the few chances they create.",
     "strength": "Defensive resilience and set piece threat — Panama are remarkably hard to break down and dangerous from dead balls.",
     "vulnerability": "Limited quality in sustained possession against teams who press; when Panama can't get the ball forward quickly, they can be pinned back for extended periods."
@@ -89,7 +99,12 @@
     }
   ],
   "history": [
-    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" }
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 3,
@@ -104,17 +119,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Luis Mejía", "shortName": "Mejía", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Fidel Escobar", "shortName": "F. Escobar", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Erick Davis", "shortName": "E. Davis", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Harold Cummings", "shortName": "Cummings", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Édgar Yoel Bárcenas", "shortName": "Bárcenas", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Cecilio Waterman", "shortName": "Waterman", "position": "RM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 260 },
-      { "name": "Adalberto Carrasquilla", "shortName": "Carrasquilla", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 244 },
-      { "name": "Aníbal Godoy", "shortName": "Godoy", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 244 },
-      { "name": "Ismael Díaz", "shortName": "I. Díaz", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 260 },
-      { "name": "Rolando Blackburn", "shortName": "Blackburn", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 372 },
-      { "name": "Gabriel Torres", "shortName": "G. Torres", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+      {
+        "name": "Luis Mejía",
+        "shortName": "Mejía",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Fidel Escobar",
+        "shortName": "F. Escobar",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Erick Davis",
+        "shortName": "E. Davis",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Harold Cummings",
+        "shortName": "Cummings",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Édgar Yoel Bárcenas",
+        "shortName": "Bárcenas",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Cecilio Waterman",
+        "shortName": "Waterman",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 260
+      },
+      {
+        "name": "Adalberto Carrasquilla",
+        "shortName": "Carrasquilla",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 244
+      },
+      {
+        "name": "Aníbal Godoy",
+        "shortName": "Godoy",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 244
+      },
+      {
+        "name": "Ismael Díaz",
+        "shortName": "I. Díaz",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 63,
+        "y": 260
+      },
+      {
+        "name": "Rolando Blackburn",
+        "shortName": "Blackburn",
+        "position": "RS",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 293,
+        "y": 372
+      },
+      {
+        "name": "Gabriel Torres",
+        "shortName": "G. Torres",
+        "position": "LS",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 372
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }

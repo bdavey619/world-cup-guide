@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 4,
     "group": "L",
-    "groupOpponents": ["Croatia", "Ghana", "Panama"],
+    "groupOpponents": [
+      "Croatia",
+      "Ghana",
+      "Panama"
+    ],
     "oddsToWin": "+900",
     "impliedProbability": "~10%",
     "lastWCResult": "QF '22",
@@ -52,7 +56,13 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Technical", "Attacking Depth", "Set Pieces", "High Press"],
+    "styleTags": [
+      "Organized",
+      "Technical",
+      "Attacking Depth",
+      "Set Pieces",
+      "High Press"
+    ],
     "tacticalNote": "Tuchel's England play a structured 4-3-3 that provides defensive solidity while giving creative freedom to Bellingham, Saka, and Foden. The full backs — particularly Trippier and Alexander-Arnold — are key to England's width and the delivery of set pieces, where Kane is a potent aerial threat. Bellingham operates as an advanced midfielder who arrives late into the penalty area, creating a goal threat that opponents struggle to account for. England's press is organized and triggered collectively, and Tuchel has sharpened the defensive shape that Southgate built while adding more attacking intensity.",
     "strength": "Depth of attacking quality — England can hurt teams through multiple sources: Saka's dribbling, Foden's creativity, Bellingham's late runs, and Kane's finishing.",
     "vulnerability": "Penalty shootouts — England's record from the spot has been historically traumatic, though recent tournaments have shown improvement."
@@ -89,14 +99,54 @@
     }
   ],
   "history": [
-    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
-    { "year": 2018, "host": "Russia", "result": "SF", "tier": "sf" },
-    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
-    { "year": 2010, "host": "South Africa", "result": "R16", "tier": "deep" },
-    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
-    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" },
-    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
-    { "year": 1990, "host": "Italy", "result": "SF", "tier": "sf" }
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1990,
+      "host": "Italy",
+      "result": "SF",
+      "tier": "sf"
+    }
   ],
   "allTimeRecord": {
     "played": 72,
@@ -111,17 +161,122 @@
   },
   "pitch": {
     "players": [
-      { "name": "Jordan Pickford", "shortName": "Pickford", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Trent Alexander-Arnold", "shortName": "TAA", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "John Stones", "shortName": "Stones", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Harry Maguire", "shortName": "Maguire", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Kieran Trippier", "shortName": "Trippier", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Declan Rice", "shortName": "D. Rice", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Jude Bellingham", "shortName": "Bellingham", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
-      { "name": "Kobbie Mainoo", "shortName": "Mainoo", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Bukayo Saka", "shortName": "Saka", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Harry Kane", "shortName": "Kane", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
-      { "name": "Phil Foden", "shortName": "Foden", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Jordan Pickford",
+        "shortName": "Pickford",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "shortName": "TAA",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "John Stones",
+        "shortName": "Stones",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Harry Maguire",
+        "shortName": "Maguire",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Kieran Trippier",
+        "shortName": "Trippier",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Declan Rice",
+        "shortName": "D. Rice",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Jude Bellingham",
+        "shortName": "Bellingham",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Kobbie Mainoo",
+        "shortName": "Mainoo",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Bukayo Saka",
+        "shortName": "Saka",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Harry Kane",
+        "shortName": "Kane",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Phil Foden",
+        "shortName": "Foden",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
   }
 }
