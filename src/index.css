@@ -121,6 +121,10 @@ body {
   /* Nav: match wordmark scale to compressed pill tabs */
   .nav-wordmark { font-size: 13px !important; }
 
+  /* Rankings: hide group badge and key player column on narrow screens */
+  .rankings-group-col  { display: none !important; }
+  .rankings-player-col { display: none !important; }
+
   /* TeamPageOne + TeamPageTwo: shrink stat values to fit 3-col grid */
   .team-stats-value { font-size: 16px !important; }
 

@@ -6,6 +6,7 @@ import Storylines from './components/Storylines'
 import DreamTeam from './components/DreamTeam'
 import Schedule from './components/Schedule'
 import Bracket from './components/Bracket'
+import Rankings from './components/Rankings'
 import './App.css'
 
 const teamModules = import.meta.glob('./data/teams/*.json', { eager: true })
@@ -27,6 +28,7 @@ const PRIMARY_TABS = [
   { id: 'schedule', label: 'Schedule' },
   { id: 'guide', label: 'Guide' },
   { id: 'overview', label: 'Overview' },
+  { id: 'rankings', label: 'Rankings' },
 ]
 const MORE_TABS = [
   { id: 'bracket', label: 'Bracket' },
@@ -313,6 +315,8 @@ export default function App() {
           </div>
         ) : activeView === 'overview' ? (
           <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
+        ) : activeView === 'rankings' ? (
+          <Rankings teams={teams} />
         ) : activeView === 'bracket' ? (
           <Bracket />
         ) : activeView === 'storylines' ? (
