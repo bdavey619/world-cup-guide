@@ -3,6 +3,8 @@
 }
 
 :root {
+  --content-max: 960px;
+  --content-pad: clamp(16px, 4vw, 48px);
   --gray-900: #1a1a1a;
   --gray-700: #444;
   --gray-500: #888;

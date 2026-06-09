@@ -135,11 +135,11 @@ export default function Schedule({ teams, onSelectTeam }) {
         <div
           className="scroll-x"
           style={{
-            maxWidth: 680,
+            maxWidth: 'var(--content-max)',
             margin: '0 auto',
             display: 'flex',
             gap: 5,
-            padding: '8px 16px',
+            padding: '8px var(--content-pad)',
             alignItems: 'center',
           }}
         >
@@ -169,9 +169,9 @@ export default function Schedule({ teams, onSelectTeam }) {
 
       {/* "All times ET" note */}
       <div style={{
-        maxWidth: 680,
+        maxWidth: 'var(--content-max)',
         margin: '0 auto',
-        padding: '10px 16px 0',
+        padding: '10px var(--content-pad) 0',
         fontSize: 11,
         color: 'var(--gray-400)',
         fontFamily: 'var(--font-sans)',
@@ -180,7 +180,7 @@ export default function Schedule({ teams, onSelectTeam }) {
       </div>
 
       {/* Match list */}
-      <div style={{ maxWidth: 680, margin: '0 auto', padding: '10px 16px 48px' }}>
+      <div style={{ maxWidth: 'var(--content-max)', margin: '0 auto', padding: '10px var(--content-pad) 48px' }}>
         {dates.map(date => {
           const isToday = date === todayKey
           const isFuture = DATE_TO_NUM[date] > (DATE_TO_NUM[todayKey] ?? -1)

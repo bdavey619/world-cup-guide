@@ -99,9 +99,9 @@ export default function App() {
         zIndex: 100,
       }}>
         <div style={{
-          maxWidth: 680,
+          maxWidth: 'var(--content-max)',
           margin: '0 auto',
-          padding: '7px 16px',
+          padding: '7px var(--content-pad)',
           display: 'flex',
           alignItems: 'center',
           gap: 10,
@@ -221,11 +221,11 @@ export default function App() {
           padding: '6px 0',
         }}>
           <div className="scroll-x" style={{
-            maxWidth: 680,
+            maxWidth: 'var(--content-max)',
             margin: '0 auto',
             display: 'flex',
             gap: 4,
-            padding: '0 16px',
+            padding: '0 var(--content-pad)',
           }}>
             {GROUPS.map(g => {
               const isActive = g === activeGroup
@@ -265,9 +265,9 @@ export default function App() {
           borderBottom: '1px solid #e0e0e0',
         }}>
           <div className="team-cards-row" style={{
-            maxWidth: 680,
+            maxWidth: 'var(--content-max)',
             margin: '0 auto',
-            padding: '6px 16px',
+            padding: '6px var(--content-pad)',
             display: 'flex',
             gap: 8,
           }}>
@@ -319,9 +319,9 @@ export default function App() {
         </div>
       ) : (
       <div className="guide-content-wrap" style={{
-        maxWidth: 680,
+        maxWidth: 'var(--content-max)',
         margin: '0 auto',
-        padding: '24px 16px',
+        padding: '24px var(--content-pad)',
         background: 'var(--surface)',
         minHeight: 'calc(100vh - 200px)',
       }}>
