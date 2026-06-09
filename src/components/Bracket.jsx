@@ -1,131 +1,260 @@
-// 2026 World Cup knockout bracket
-// 48 teams → top 2 per group (24) + 8 best 3rd-place teams = 32 advance
-// R32 → R16 → QF → SF → Final
+// Predicted bracket — frozen at tournament start (Jun 11, 2026)
+// Winners predicted by highest Polymarket tournament win probability
 
-const TBD = { name: 'TBD', flag: '' }
+const GROUPS = ['A','B','C','D','E','F','G','H','I','J','K','L']
 
-// Pre-set bracket seedings (R32 matchups based on FIFA 2026 bracket draw)
-// Left half feeds to the top of the bracket, right half to the bottom
-const R32_MATCHES = [
-  // Left bracket
-  { id: 'r32-1',  home: '1st · Group A', away: '2nd · Group B' },
-  { id: 'r32-2',  home: '1st · Group C', away: '2nd · Group D' },
-  { id: 'r32-3',  home: '1st · Group E', away: '2nd · Group F' },
-  { id: 'r32-4',  home: '1st · Group G', away: '2nd · Group H' },
-  { id: 'r32-5',  home: '1st · Group B', away: '2nd · Group A' },
-  { id: 'r32-6',  home: '1st · Group D', away: '2nd · Group C' },
-  { id: 'r32-7',  home: '1st · Group F', away: '2nd · Group E' },
-  { id: 'r32-8',  home: '1st · Group H', away: '2nd · Group G' },
-  // Right bracket
-  { id: 'r32-9',  home: '1st · Group I', away: '2nd · Group J' },
-  { id: 'r32-10', home: '1st · Group K', away: '2nd · Group L' },
-  { id: 'r32-11', home: 'Best 3rd (A/B/C/D)', away: 'Best 3rd (E/F/G/H)' },
-  { id: 'r32-12', home: 'Best 3rd (I/J/K/L)', away: '2nd · Group L' },
-  { id: 'r32-13', home: '1st · Group J', away: '2nd · Group K' },
-  { id: 'r32-14', home: '1st · Group L', away: '2nd · Group J' },
-  { id: 'r32-15', home: 'Best 3rd (A/B/C)', away: 'Best 3rd (D/E/F)' },
-  { id: 'r32-16', home: 'Best 3rd (G/H/I)', away: 'Best 3rd (J/K/L)' },
+// Official 2026 FIFA World Cup R32 bracket draw
+// Each entry is [homeLabel, awayLabel]
+const R32_LABELS = [
+  ['1st · Group A', '2nd · Group B'],
+  ['1st · Group C', '2nd · Group D'],
+  ['1st · Group E', '2nd · Group F'],
+  ['1st · Group G', '2nd · Group H'],
+  ['1st · Group B', '2nd · Group A'],
+  ['1st · Group D', '2nd · Group C'],
+  ['1st · Group F', '2nd · Group E'],
+  ['1st · Group H', '2nd · Group G'],
+  ['1st · Group I', '2nd · Group J'],
+  ['1st · Group K', '2nd · Group L'],
+  ['Best 3rd · A/B/C/D', 'Best 3rd · E/F/G/H'],
+  ['Best 3rd · I/J/K/L', 'Best 3rd · A/B/C'],
+  ['1st · Group J', '2nd · Group K'],
+  ['1st · Group L', '2nd · Group I'],
+  ['Best 3rd · D/E/F', 'Best 3rd · G/H/I'],
+  ['Best 3rd · J/K/L', '2nd · Group L'],
 ]
 
-const ROUNDS = [
-  { id: 'r32', label: 'Round of 32', matches: 16, dates: 'Jul 1–4' },
-  { id: 'r16', label: 'Round of 16', matches: 8,  dates: 'Jul 7–10' },
-  { id: 'qf',  label: 'Quarter-finals', matches: 4, dates: 'Jul 14–15' },
-  { id: 'sf',  label: 'Semi-finals', matches: 2, dates: 'Jul 18–19' },
-  { id: 'f',   label: 'Final', matches: 1, dates: 'Jul 23' },
-]
-
-function MatchSlot({ home, away, isCompact, accentLeft }) {
-  return (
-    <div style={{
-      background: 'white',
-      borderRadius: 6,
-      overflow: 'hidden',
-      boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
-      minWidth: isCompact ? 120 : 150,
-    }}>
-      <TeamRow label={home} accentColor={accentLeft} />
-      <div style={{ height: '0.5px', background: 'var(--surface)' }} />
-      <TeamRow label={away} />
-    </div>
-  )
+function buildStandings(teams) {
+  const standings = {}
+  GROUPS.forEach(g => {
+    standings[g] = teams
+      .filter(t => t.meta.group === g)
+      .sort((a, b) => b.meta.advancePct - a.meta.advancePct)
+  })
+  return standings
 }
 
-function TeamRow({ label, accentColor }) {
-  const hasResult = false
+function resolveTeam(label, standings) {
+  const m1 = label.match(/1st · Group ([A-L])/)
+  if (m1) return standings[m1[1]]?.[0] ?? null
+
+  const m2 = label.match(/2nd · Group ([A-L])/)
+  if (m2) return standings[m2[1]]?.[1] ?? null
+
+  const m3 = label.match(/Best 3rd · ([A-L/]+)/)
+  if (m3) {
+    const groups = m3[1].split('/')
+    return groups
+      .map(g => standings[g]?.[2])
+      .filter(Boolean)
+      .sort((a, b) => b.meta.advancePct - a.meta.advancePct)[0] ?? null
+  }
+
+  return null
+}
+
+// Pick predicted winner by winPct; tiebreak by advancePct
+function predict(a, b) {
+  if (!a) return b
+  if (!b) return a
+  if (a.meta.winPct !== b.meta.winPct) return a.meta.winPct > b.meta.winPct ? a : b
+  return a.meta.advancePct >= b.meta.advancePct ? a : b
+}
+
+function winPctLabel(t) {
+  if (!t) return ''
+  return t.meta.winPct >= 1 ? `${t.meta.winPct}%` : '<1%'
+}
+
+function TeamRow({ team, isWinner }) {
+  const accent = team?.accentColor ?? 'var(--gray-200)'
+  const name = team?.name ?? 'TBD'
+  const flag = team?.flagEmoji ?? ''
+
   return (
     <div style={{
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
-      padding: '6px 9px',
-      borderLeft: accentColor ? `3px solid ${accentColor}` : '3px solid transparent',
+      padding: '5px 8px',
+      borderLeft: isWinner ? `3px solid ${accent}` : '3px solid transparent',
+      background: isWinner ? 'var(--gray-50)' : 'white',
+      gap: 6,
     }}>
-      <span style={{
-        fontSize: 11,
-        color: label.startsWith('TBD') || label.includes('·') || label.includes('Best') ? 'var(--gray-400)' : 'var(--gray-900)',
-        fontStyle: label.includes('·') || label.includes('Best') ? 'italic' : 'normal',
-        whiteSpace: 'nowrap',
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        maxWidth: 130,
-      }}>
-        {label}
-      </span>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 5, overflow: 'hidden' }}>
+        <span style={{ fontSize: 13, flexShrink: 0 }}>{flag}</span>
+        <span style={{
+          fontSize: 11,
+          fontFamily: 'var(--font-sans)',
+          fontWeight: isWinner ? 600 : 400,
+          color: team ? 'var(--gray-900)' : 'var(--gray-400)',
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          maxWidth: 90,
+        }}>
+          {name}
+        </span>
+      </div>
+      {team && (
+        <span style={{
+          fontSize: 9,
+          fontFamily: 'var(--font-sans)',
+          color: isWinner ? accent : 'var(--gray-400)',
+          fontWeight: isWinner ? 600 : 400,
+          flexShrink: 0,
+        }}>
+          {winPctLabel(team)}
+        </span>
+      )}
     </div>
   )
 }
 
-function RoundColumn({ round, leftMatches }) {
-  const placeholders = Array.from({ length: round.matches }, (_, i) => ({
-    id: `${round.id}-${i}`,
-    home: leftMatches?.[i]?.home ?? 'TBD',
-    away: leftMatches?.[i]?.away ?? 'TBD',
-  }))
-
-  const isFinal = round.id === 'f'
-
+function MatchCard({ teamA, teamB, width = 148 }) {
+  const winner = predict(teamA, teamB)
   return (
     <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      gap: isFinal ? 0 : 8,
-      justifyContent: 'space-around',
-      flex: '0 0 auto',
+      background: 'white',
+      borderRadius: 6,
+      overflow: 'hidden',
+      boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
+      width,
+      flexShrink: 0,
     }}>
-      {placeholders.map((m, i) => (
-        <div key={m.id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', flex: 1 }}>
-          <MatchSlot home={m.home} away={m.away} isCompact={round.matches > 4} />
-        </div>
-      ))}
+      <TeamRow team={teamA} isWinner={teamA && winner === teamA} />
+      <div style={{ height: 1, background: 'var(--gray-100)' }} />
+      <TeamRow team={teamB} isWinner={teamB && winner === teamB} />
     </div>
   )
 }
 
-export default function Bracket() {
+function RoundCol({ label, dates, matches, colWidth = 148 }) {
+  return (
+    <div style={{ flexShrink: 0, width: colWidth }}>
+      <div style={{
+        textAlign: 'center',
+        padding: '8px 4px',
+        borderBottom: '1px solid var(--gray-100)',
+        marginBottom: 12,
+      }}>
+        <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
+        <div style={{ fontSize: 10, color: 'var(--gray-400)', marginTop: 2, fontFamily: 'var(--font-sans)' }}>{dates}</div>
+      </div>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-around',
+        gap: 8,
+        minHeight: matches.length === 16 ? 'auto' : 520,
+      }}>
+        {matches.map((m, i) => (
+          <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flex: matches.length < 16 ? 1 : 'none' }}>
+            <MatchCard teamA={m[0]} teamB={m[1]} width={colWidth} />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+const COL_GAP = 16
+
+function Connector() {
+  return (
+    <div style={{ width: COL_GAP, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ width: 1, height: '80%', background: 'var(--gray-200)' }} />
+    </div>
+  )
+}
+
+export default function Bracket({ teams = [] }) {
+  if (!teams.length) return null
+
+  const standings = buildStandings(teams)
+
+  // R32 — resolve labels to teams
+  const r32 = R32_LABELS.map(([a, b]) => [
+    resolveTeam(a, standings),
+    resolveTeam(b, standings),
+  ])
+
+  // R16 — winners of consecutive pairs of R32 matches
+  const r16 = Array.from({ length: 8 }, (_, i) => [
+    predict(r32[i * 2][0], r32[i * 2][1]),
+    predict(r32[i * 2 + 1][0], r32[i * 2 + 1][1]),
+  ])
+
+  // QF — winners of consecutive pairs of R16 matches
+  const qf = Array.from({ length: 4 }, (_, i) => [
+    predict(r16[i * 2][0], r16[i * 2][1]),
+    predict(r16[i * 2 + 1][0], r16[i * 2 + 1][1]),
+  ])
+
+  // SF
+  const sf = Array.from({ length: 2 }, (_, i) => [
+    predict(qf[i * 2][0], qf[i * 2][1]),
+    predict(qf[i * 2 + 1][0], qf[i * 2 + 1][1]),
+  ])
+
+  // Final
+  const finalMatch = [[
+    predict(sf[0][0], sf[0][1]),
+    predict(sf[1][0], sf[1][1]),
+  ]]
+
+  const champion = predict(finalMatch[0][0], finalMatch[0][1])
+
   return (
     <div>
       {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 16 }}>
-        <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
-        <span style={{
-          fontFamily: 'var(--font-sans)',
-          fontSize: 9,
-          fontWeight: 700,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase',
-          color: 'var(--gray-500)',
-        }}>
-          Knockout Stage · Round of 32 begins Jul 1
-        </span>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flexWrap: 'wrap',
+        gap: 8,
+        marginBottom: 14,
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+          <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2 }} />
+          <span style={{
+            fontFamily: 'var(--font-sans)',
+            fontSize: 9,
+            fontWeight: 700,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            color: 'var(--gray-500)',
+          }}>
+            Predicted Bracket · Based on Polymarket odds · Jun 11, 2026
+          </span>
+        </div>
+        {champion && (
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 6,
+            background: 'white',
+            border: `1.5px solid ${champion.accentColor}`,
+            borderRadius: 20,
+            padding: '3px 10px',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
+          }}>
+            <span style={{ fontSize: 14 }}>{champion.flagEmoji}</span>
+            <span style={{ fontSize: 11, fontWeight: 600, fontFamily: 'var(--font-sans)', color: 'var(--gray-900)' }}>
+              {champion.name} · {winPctLabel(champion)} to win
+            </span>
+            <span style={{ fontSize: 12 }}>🏆</span>
+          </div>
+        )}
       </div>
 
-      {/* Advance note */}
+      {/* Format explainer */}
       <div style={{
         background: 'white',
         borderRadius: 8,
         padding: '10px 14px',
-        marginBottom: 16,
+        marginBottom: 14,
         boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
         display: 'flex',
         gap: 20,
@@ -134,173 +263,64 @@ export default function Bracket() {
         {[
           { label: '24 teams', note: 'Top 2 from each of 12 groups' },
           { label: '+ 8 teams', note: 'Best 8 third-place finishers' },
-          { label: '= 32 teams', note: 'Enter the Round of 32' },
+          { label: '= 32 teams', note: 'Enter the Round of 32 · Jul 1' },
         ].map(({ label, note }) => (
           <div key={label}>
-            <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
+            <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
             <div style={{ fontSize: 11, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>{note}</div>
           </div>
         ))}
+        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+          <div style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+            Highlighted team = predicted to advance · % = win tournament
+          </div>
+        </div>
       </div>
 
-      {/* Round headers + bracket scroll */}
+      {/* Bracket */}
       <div style={{
         background: 'white',
         borderRadius: 8,
         boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
         overflow: 'hidden',
       }}>
-        {/* Round labels */}
-        <div style={{
-          display: 'flex',
-          borderBottom: '1px solid #f0f0f0',
-          background: 'var(--gray-50)',
-        }}>
-          {ROUNDS.map(r => (
-            <div key={r.id} style={{
-              flex: 1,
-              padding: '10px 12px',
-              borderRight: '1px solid #f0f0f0',
-              textAlign: 'center',
-            }}>
-              <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)' }}>{r.label}</div>
-              <div style={{ fontSize: 10, color: 'var(--gray-400)', marginTop: 2 }}>{r.dates}</div>
-            </div>
-          ))}
-        </div>
+        <div className="scroll-x" style={{ padding: '0 12px 16px' }}>
+          <div style={{ display: 'flex', gap: 0, paddingTop: 0, alignItems: 'flex-start' }}>
 
-        {/* Scroll hint */}
-        <div style={{
-          padding: '6px 14px 4px',
-          fontSize: 10,
-          color: 'var(--gray-400)',
-          fontFamily: 'var(--font-sans)',
-          textAlign: 'right',
-          borderBottom: '1px solid var(--gray-100)',
-        }}>
-          ← scroll to see full bracket →
-        </div>
+            <RoundCol label="Round of 32" dates="Jul 1–4" matches={r32} colWidth={155} />
+            <Connector />
+            <RoundCol label="Round of 16" dates="Jul 7–10" matches={r16} colWidth={148} />
+            <Connector />
+            <RoundCol label="Quarter-finals" dates="Jul 14–15" matches={qf} colWidth={148} />
+            <Connector />
+            <RoundCol label="Semi-finals" dates="Jul 18–19" matches={sf} colWidth={148} />
+            <Connector />
+            <RoundCol label="Final" dates="Jul 23" matches={finalMatch} colWidth={148} />
 
-        {/* Bracket visual */}
-        <div className="scroll-x" style={{
-          padding: '16px 12px',
-        }}>
-          <div style={{
-            display: 'flex',
-            gap: 12,
-            minHeight: 520,
-            alignItems: 'stretch',
-          }}>
-            {/* R32 */}
-            <div style={{
-              flex: '0 0 auto',
-              width: 158,
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 8,
-            }}>
-              {R32_MATCHES.map(m => (
-                <MatchSlot key={m.id} home={m.home} away={m.away} isCompact />
-              ))}
-            </div>
-
-            {/* Connector */}
-            <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
-            </div>
-
-            {/* R16 */}
-            <div style={{
-              flex: '0 0 auto',
-              width: 158,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-around',
-            }}>
-              {Array.from({ length: 8 }, (_, i) => (
-                <MatchSlot key={i} home="TBD" away="TBD" isCompact />
-              ))}
-            </div>
-
-            <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
-            </div>
-
-            {/* QF */}
-            <div style={{
-              flex: '0 0 auto',
-              width: 158,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-around',
-            }}>
-              {Array.from({ length: 4 }, (_, i) => (
-                <MatchSlot key={i} home="TBD" away="TBD" />
-              ))}
-            </div>
-
-            <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
-            </div>
-
-            {/* SF */}
-            <div style={{
-              flex: '0 0 auto',
-              width: 158,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-around',
-            }}>
-              {Array.from({ length: 2 }, (_, i) => (
-                <MatchSlot key={i} home="TBD" away="TBD" />
-              ))}
-            </div>
-
-            <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
-            </div>
-
-            {/* Final */}
-            <div style={{
-              flex: '0 0 auto',
-              width: 158,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-            }}>
-              <div>
-                <div style={{
-                  fontSize: 9,
-                  fontWeight: 700,
-                  letterSpacing: '0.1em',
-                  textTransform: 'uppercase',
-                  color: 'var(--gray-500)',
-                  marginBottom: 6,
-                  textAlign: 'center',
-                }}>
-                  🏆 Final · Jul 23
-                </div>
-                <MatchSlot home="TBD" away="TBD" />
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
-      {/* Third place match */}
+      {/* Third place */}
       <div style={{
-        marginTop: 16,
+        marginTop: 14,
         background: 'white',
         borderRadius: 8,
-        padding: '14px 18px',
+        padding: '12px 16px',
         boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
         display: 'flex',
         alignItems: 'center',
-        gap: 16,
+        gap: 12,
       }}>
         <div>
-          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)' }}>3rd Place Match · Jul 22</div>
-          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 4, fontStyle: 'italic' }}>TBD vs TBD · MetLife Stadium, East Rutherford</div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
+            3rd Place Match · Jul 22 · MetLife Stadium
+          </div>
+          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+            {sf[0] && sf[1]
+              ? `${sf[0][0]?.flagEmoji ?? ''} ${sf[0][0]?.name ?? 'TBD'} vs ${sf[1][0]?.flagEmoji ?? ''} ${sf[1][0]?.name ?? 'TBD'} — SF losers advance to 3rd place match`
+              : 'SF losers · TBD'}
+          </div>
         </div>
       </div>
     </div>

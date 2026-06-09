@@ -394,7 +394,7 @@ export default function App() {
         ) : activeView === 'rankings' ? (
           <Rankings teams={teams} onSelectTeam={selectTeam} />
         ) : activeView === 'bracket' ? (
-          <Bracket />
+          <Bracket teams={teams} />
         ) : activeView === 'storylines' ? (
           <Storylines />
         ) : (
