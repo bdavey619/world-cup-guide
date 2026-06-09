@@ -85,7 +85,7 @@ function cardTop(N, i) {
 }
 
 // ─── Sub-components ────────────────────────────────────────────
-function TeamRow({ team, isWinner }) {
+function TeamRow({ team, isWinner, showGroup }) {
   const accent = team?.accentColor ?? 'transparent'
   return (
     <div style={{
@@ -98,6 +98,21 @@ function TeamRow({ team, isWinner }) {
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 5, overflow: 'hidden', flex: 1, minWidth: 0 }}>
         <span style={{ fontSize: 12, flexShrink: 0 }}>{team?.flagEmoji ?? ''}</span>
+        {showGroup && team && (
+          <span style={{
+            fontSize: 8,
+            fontFamily: 'var(--font-sans)',
+            fontWeight: 700,
+            color: 'white',
+            background: 'var(--gray-500)',
+            borderRadius: 3,
+            padding: '1px 3px',
+            flexShrink: 0,
+            lineHeight: 1.4,
+          }}>
+            {team.meta.group}
+          </span>
+        )}
         <span style={{
           fontSize: 10,
           fontFamily: 'var(--font-sans)',
@@ -126,7 +141,7 @@ function TeamRow({ team, isWinner }) {
   )
 }
 
-function MatchCard({ a, b, width }) {
+function MatchCard({ a, b, width, showGroup }) {
   const w = winner(a, b)
   return (
     <div style={{
@@ -137,15 +152,15 @@ function MatchCard({ a, b, width }) {
       boxShadow: '0 1px 3px rgba(0,0,0,0.09)',
       flexShrink: 0,
     }}>
-      <TeamRow team={a} isWinner={!!a && w === a} />
+      <TeamRow team={a} isWinner={!!a && w === a} showGroup={showGroup} />
       <div style={{ height: 1, background: 'var(--gray-100)' }} />
-      <TeamRow team={b} isWinner={!!b && w === b} />
+      <TeamRow team={b} isWinner={!!b && w === b} showGroup={showGroup} />
     </div>
   )
 }
 
 // A round column using absolute positioning for bracket alignment
-function RoundCol({ label, dates, matches, width }) {
+function RoundCol({ label, dates, matches, width, showGroup }) {
   const N = matches.length
   return (
     <div style={{ flexShrink: 0, width }}>
@@ -171,7 +186,7 @@ function RoundCol({ label, dates, matches, width }) {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-            <MatchCard a={a} b={b} width={width - 4} />
+            <MatchCard a={a} b={b} width={width - 4} showGroup={showGroup} />
           </div>
         ))}
       </div>
@@ -307,7 +322,7 @@ export default function Bracket({ teams = [] }) {
       }}>
         <div className="scroll-x" style={{ padding: '0 8px 16px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-            <RoundCol label="Round of 32"    dates="Jul 1–4"    matches={r32}   width={152} />
+            <RoundCol label="Round of 32"    dates="Jul 1–4"    matches={r32}   width={152} showGroup />
             <Divider />
             <RoundCol label="Round of 16"    dates="Jul 7–10"   matches={r16}   width={148} />
             <Divider />
