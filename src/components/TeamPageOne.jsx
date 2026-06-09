@@ -144,91 +144,17 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       </div>
 
       {/* 4. MAIN BODY */}
-      <div className="team-body-grid" style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr minmax(0, 240px)',
-        border: '0.5px solid var(--gray-200)',
-        borderTop: 'none',
-        borderBottom: 'none',
-      }}>
+      <div style={{ border: '0.5px solid var(--gray-200)', borderTop: 'none', borderBottom: 'none' }}>
 
-        {/* LEFT COLUMN */}
-        <div className="team-left-col" style={{ borderRight: '0.5px solid var(--gray-200)' }}>
-
-          {/* KEY PLAYERS */}
-          <div className="team-section" style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid var(--gray-200)' }}>
-            <SectionLabel label="Key Players" />
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: 7,
-            }}>
-              {keyPlayers.map((p) => (
-                <div
-                  key={p.name}
-                  style={{
-                    background: 'var(--gray-50)',
-                    borderRadius: 6,
-                    padding: '9px 11px',
-                  }}
-                >
-                  {/* Header row */}
-                  <div style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'flex-start',
-                    marginBottom: 3,
-                  }}>
-                    <span style={{ fontSize: 13, fontWeight: 500, fontFamily: serif }}>
-                      {p.name}
-                    </span>
-                    {p.badge && (
-                      <span style={{
-                        background: accentColor,
-                        color: '#fff',
-                        fontSize: 9,
-                        padding: '1px 6px',
-                        borderRadius: 3,
-                        fontFamily: 'var(--font-sans)',
-                        fontStyle: 'normal',
-                        whiteSpace: 'nowrap',
-                        marginLeft: 4,
-                        flexShrink: 0,
-                      }}>
-                        {p.badge}
-                      </span>
-                    )}
-                  </div>
-                  <div style={{
-                    fontSize: 11,
-                    color: muted,
-                    marginBottom: 5,
-                    fontFamily: 'var(--font-sans)',
-                    fontStyle: 'normal',
-                  }}>
-                    {p.club} · {p.position}
-                  </div>
-                  <div style={{
-                    fontSize: 12,
-                    lineHeight: 1.6,
-                    color: muted,
-                    fontFamily: 'var(--font-sans)',
-                    fontStyle: 'normal',
-                  }}>
-                    {p.note}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-        </div>
-
-        {/* RIGHT COLUMN */}
-        <div className="team-right-col" style={{ display: 'flex', flexDirection: 'column' }}>
+        {/* NARRATIVE ROW — 3 columns on desktop, stacked on mobile */}
+        <div className="team-body-grid" style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr 1fr',
+          borderBottom: '0.5px solid var(--gray-200)',
+        }}>
 
           {/* FOOTBALL IDENTITY */}
-          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
+          <div className="team-section team-left-col" style={{ padding: '1.1rem 1.4rem', borderRight: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="Football Identity" />
             <div className="team-prose" style={{
               fontSize: 12,
@@ -242,7 +168,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* THE MOMENT */}
-          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
+          <div className="team-section" style={{ padding: '1.1rem 1.4rem', borderRight: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="The Moment" />
             <div className="team-prose" style={{
               fontSize: 12,
@@ -256,7 +182,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* WATCH FOR */}
-          <div className="team-section" style={{ flex: 1, padding: '1.1rem 1.2rem' }}>
+          <div className="team-section" style={{ padding: '1.1rem 1.4rem' }}>
             <SectionLabel label="Watch For" />
             <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
               {watchFor.map((item, i) => (
@@ -286,6 +212,73 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             </div>
           </div>
         </div>
+
+        {/* KEY PLAYERS — full width */}
+        <div className="team-section" style={{ padding: '1.1rem 1.4rem 1rem' }}>
+          <SectionLabel label="Key Players" />
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+            gap: 7,
+          }}>
+            {keyPlayers.map((p) => (
+              <div
+                key={p.name}
+                style={{
+                  background: 'var(--gray-50)',
+                  borderRadius: 6,
+                  padding: '9px 11px',
+                }}
+              >
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'flex-start',
+                  marginBottom: 3,
+                }}>
+                  <span style={{ fontSize: 13, fontWeight: 500, fontFamily: serif }}>
+                    {p.name}
+                  </span>
+                  {p.badge && (
+                    <span style={{
+                      background: accentColor,
+                      color: '#fff',
+                      fontSize: 9,
+                      padding: '1px 6px',
+                      borderRadius: 3,
+                      fontFamily: 'var(--font-sans)',
+                      fontStyle: 'normal',
+                      whiteSpace: 'nowrap',
+                      marginLeft: 4,
+                      flexShrink: 0,
+                    }}>
+                      {p.badge}
+                    </span>
+                  )}
+                </div>
+                <div style={{
+                  fontSize: 11,
+                  color: muted,
+                  marginBottom: 5,
+                  fontFamily: 'var(--font-sans)',
+                  fontStyle: 'normal',
+                }}>
+                  {p.club} · {p.position}
+                </div>
+                <div style={{
+                  fontSize: 12,
+                  lineHeight: 1.6,
+                  color: muted,
+                  fontFamily: 'var(--font-sans)',
+                  fontStyle: 'normal',
+                }}>
+                  {p.note}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
 
       {/* 5. STORYLINE CALLOUT */}

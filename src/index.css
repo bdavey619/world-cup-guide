@@ -65,6 +65,15 @@ body {
   z-index: 1;
 }
 
+/* ─── Desktop nav: show more tabs inline, hide ··· ─── */
+.nav-more-desktop { display: none; }
+.nav-more-mobile  { display: block; }
+
+@media (min-width: 600px) {
+  .nav-more-desktop { display: inline-flex; }
+  .nav-more-mobile  { display: none; }
+}
+
 /* ─── Mobile responsive ─────────────────────────────── */
 @media (max-width: 520px) {
   /* Schedule: drop city column, stack teams vertically */
@@ -77,10 +86,10 @@ body {
   /* Schedule group badge: slightly larger */
   .grp-badge { font-size: 12px !important; padding: 2px 7px !important; }
 
-  /* Team guide: stack two-column body */
+  /* Team guide: stack narrative + key players to single column */
   .team-body-grid { grid-template-columns: 1fr !important; }
-  .team-left-col  { border-right: none !important; }
-  .team-right-col { border-top: 0.5px solid var(--gray-200); }
+  .team-left-col  { border-right: none !important; border-bottom: 0.5px solid var(--gray-200); }
+  .team-section   { border-right: none !important; border-bottom: 0.5px solid var(--gray-200); }
 
   /* Shrink oversized country name */
   .team-name-xl { font-size: 28px !important; line-height: 1.1 !important; }

@@ -26,11 +26,11 @@ function firstInGroup(group) {
 
 const PRIMARY_TABS = [
   { id: 'schedule', label: 'Schedule' },
-  { id: 'guide', label: 'Guide' },
-  { id: 'overview', label: 'Overview' },
+  { id: 'rankings', label: 'Rankings' },
+  { id: 'overview', label: 'Groups' },
 ]
 const MORE_TABS = [
-  { id: 'rankings', label: 'Rankings' },
+  { id: 'guide', label: 'Guide' },
   { id: 'bracket', label: 'Bracket' },
   { id: 'storylines', label: 'Storylines' },
   { id: 'dreamteam', label: 'Dream Team' },
@@ -125,7 +125,7 @@ export default function App() {
           >
             2026 WC
           </button>
-          {/* Primary tabs — always visible, no scroll */}
+          {/* All tabs — primary always visible; more tabs inline on desktop, dropdown on mobile */}
           <div style={{ display: 'flex', gap: 4, flex: 1, alignItems: 'center' }}>
             {PRIMARY_TABS.map(({ id, label }) => (
               <button
@@ -150,8 +150,33 @@ export default function App() {
               </button>
             ))}
 
-            {/* ··· overflow menu */}
-            <div ref={moreRef} style={{ position: 'relative', marginLeft: 'auto' }}>
+            {/* More tabs inline on desktop */}
+            {MORE_TABS.map(({ id, label }) => (
+              <button
+                key={id}
+                className="nav-more-desktop"
+                onClick={() => navigate(id)}
+                style={{
+                  background: activeView === id ? 'var(--gray-900)' : 'transparent',
+                  color: activeView === id ? 'white' : 'var(--gray-500)',
+                  border: 'none',
+                  borderRadius: 20,
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  cursor: 'pointer',
+                  fontFamily: 'var(--font-sans)',
+                  fontWeight: activeView === id ? 600 : 400,
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
+                  transition: 'all 0.15s',
+                }}
+              >
+                {label}
+              </button>
+            ))}
+
+            {/* ··· overflow menu — mobile only */}
+            <div ref={moreRef} className="nav-more-mobile" style={{ position: 'relative', marginLeft: 'auto' }}>
               <button
                 onClick={() => setMoreOpen(o => !o)}
                 style={{
