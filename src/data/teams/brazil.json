@@ -233,11 +233,11 @@
         "y": 220
       },
       {
-        "name": "Endrick",
-        "shortName": "Endrick",
+        "name": "Rodrygo",
+        "shortName": "Rodrygo",
         "position": "RAM",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
         "y": 310

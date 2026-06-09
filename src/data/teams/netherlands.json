@@ -234,11 +234,11 @@
         "y": 236
       },
       {
-        "name": "Reijnders",
-        "shortName": "Reijnders",
+        "name": "Teun Koopmeiners",
+        "shortName": "Koopmeiners",
         "position": "LCM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
         "y": 244
