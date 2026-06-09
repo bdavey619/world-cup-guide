@@ -291,7 +291,7 @@ export default function TeamPageTwo({ team }) {
                 {selectedPlayer.club} · {selectedPlayer.position}
               </div>
               <div style={{ fontSize: 12, lineHeight: 1.6, color: 'var(--gray-700)', fontFamily: 'var(--font-sans)' }}>
-                {selectedPlayer.role}
+                {selectedPlayer.role || selectedPlayer.note}
               </div>
               {selectedPlayer.stat && (
                 <div style={{ marginTop: 7, display: 'flex', alignItems: 'baseline', gap: 5 }}>
