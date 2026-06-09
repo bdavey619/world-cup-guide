@@ -166,7 +166,7 @@
         "shortName": "Ochoa",
         "position": "GK",
         "role": "gk",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
         "y": 56
@@ -246,7 +246,7 @@
         "shortName": "Vega",
         "position": "RW",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
         "y": 362

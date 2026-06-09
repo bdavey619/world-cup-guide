@@ -53,6 +53,15 @@
       "position": "Goalkeeper",
       "badge": null,
       "note": "A sweeper-keeper who reads danger early. His distribution starts France's transitions. Often the difference in tight games."
+    },
+    {
+      "name": "Antoine Griezmann",
+      "fullName": "Antoine Griezmann",
+      "position": "Second Striker / Attacking Midfielder",
+      "club": "Atlético Madrid",
+      "role": "The connective tissue of France's attack — links midfield and forwards, wins free kicks, delivers from set pieces, and scores when it matters most",
+      "stat": "France's second all-time scorer behind Mbappé",
+      "statLabel": "Record"
     }
   ],
   "tactics": {

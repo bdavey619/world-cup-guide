@@ -215,7 +215,7 @@
         "shortName": "McKennie",
         "position": "RCM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
         "y": 244
