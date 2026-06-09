@@ -5,7 +5,6 @@ import Overview from './components/Overview'
 import Storylines from './components/Storylines'
 import DreamTeam from './components/DreamTeam'
 import Schedule from './components/Schedule'
-import Homepage from './components/Homepage'
 import Bracket from './components/Bracket'
 import './App.css'
 
@@ -36,7 +35,6 @@ const MORE_TABS = [
 ]
 
 export default function App() {
-  const [entered, setEntered] = useState(false)
   const [activeGroup, setActiveGroup] = useState('I')
   const [selectedTeamId, setSelectedTeamId] = useState('france')
   const [activeView, setActiveView] = useState('schedule')
@@ -66,8 +64,6 @@ export default function App() {
     setActiveGroup(team.meta.group)
     setActiveView('guide')
   }
-
-  if (!entered) return <Homepage onEnter={() => setEntered(true)} />
 
   return (
     <div style={{ fontFamily: 'var(--font-serif)' }}>
