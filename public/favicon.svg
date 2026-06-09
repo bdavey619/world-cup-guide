@@ -1,4 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="15" fill="#1a1a1a"/>
-  <text x="16" y="21" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="white" letter-spacing="-0.5">26</text>
+  <defs>
+    <clipPath id="ball-clip">
+      <circle cx="16" cy="16" r="14.5"/>
+    </clipPath>
+  </defs>
+
+  <!-- Navy border ring -->
+  <circle cx="16" cy="16" r="16" fill="#002868"/>
+  <!-- White ball base -->
+  <circle cx="16" cy="16" r="14.5" fill="white"/>
+
+  <g clip-path="url(#ball-clip)">
+    <!-- Center pentagon (navy), pointing up, radius 5 from center -->
+    <polygon points="16,11 20.76,14.46 18.94,20.05 13.06,20.05 11.24,14.46" fill="#002868"/>
+
+    <!-- 5 arms radiating from pentagon vertices to edge -->
+    <line x1="16"     y1="11"    x2="16"    y2="-2"   stroke="#002868" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="20.76"  y1="14.46" x2="30"    y2="9"    stroke="#002868" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="18.94"  y1="20.05" x2="26.5"  y2="29"   stroke="#002868" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="13.06"  y1="20.05" x2="5.5"   y2="29"   stroke="#002868" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="11.24"  y1="14.46" x2="2"     y2="9"    stroke="#002868" stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- Edge pentagon patches — alternating red/navy, USA colors -->
+    <!-- Top (red) -->
+    <circle cx="16"   cy="0"    r="5.5" fill="#B22234"/>
+    <!-- Upper-right (navy) -->
+    <circle cx="30"   cy="8.5"  r="5.5" fill="#002868"/>
+    <!-- Lower-right (red) -->
+    <circle cx="27"   cy="29"   r="5.5" fill="#B22234"/>
+    <!-- Lower-left (navy) -->
+    <circle cx="5"    cy="29"   r="5.5" fill="#002868"/>
+    <!-- Upper-left (red) -->
+    <circle cx="2"    cy="8.5"  r="5.5" fill="#B22234"/>
+  </g>
 </svg>
