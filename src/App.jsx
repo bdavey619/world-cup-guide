@@ -43,6 +43,19 @@ export default function App() {
   const [moreOpen, setMoreOpen] = useState(false)
   const moreRef = useRef(null)
 
+  // Seed the initial history entry so the first back press restores it
+  useEffect(() => {
+    window.history.replaceState({ view: 'schedule', teamId: 'france', group: 'I' }, '')
+    function onPop(e) {
+      if (!e.state) return
+      setActiveView(e.state.view)
+      setSelectedTeamId(e.state.teamId)
+      setActiveGroup(e.state.group)
+    }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
+
   useEffect(() => {
     if (!moreOpen) return
     function handleClick(e) {
@@ -55,6 +68,16 @@ export default function App() {
   const selectedTeam = teams.find(t => t.id === selectedTeamId) ?? teams[0]
   const groupTeams = teams.filter(t => t.meta.group === activeGroup)
 
+  // All view transitions go through here so the browser back button works
+  function navigate(view, opts = {}) {
+    const teamId = opts.teamId ?? selectedTeamId
+    const group  = opts.group  ?? activeGroup
+    window.history.pushState({ view, teamId, group }, '')
+    setActiveView(view)
+    if (opts.teamId !== undefined) setSelectedTeamId(opts.teamId)
+    if (opts.group  !== undefined) setActiveGroup(opts.group)
+  }
+
   function selectGroup(g) {
     setActiveGroup(g)
     const first = firstInGroup(g)
@@ -62,9 +85,7 @@ export default function App() {
   }
 
   function selectTeam(team) {
-    setSelectedTeamId(team.id)
-    setActiveGroup(team.meta.group)
-    setActiveView('guide')
+    navigate('guide', { teamId: team.id, group: team.meta.group })
   }
 
   return (
@@ -109,7 +130,7 @@ export default function App() {
             {PRIMARY_TABS.map(({ id, label }) => (
               <button
                 key={id}
-                onClick={() => setActiveView(id)}
+                onClick={() => navigate(id)}
                 style={{
                   background: activeView === id ? 'var(--gray-900)' : 'transparent',
                   color: activeView === id ? 'white' : 'var(--gray-500)',
@@ -166,7 +187,7 @@ export default function App() {
                   {MORE_TABS.map(({ id, label }) => (
                     <button
                       key={id}
-                      onClick={() => { setActiveView(id); setMoreOpen(false) }}
+                      onClick={() => { navigate(id); setMoreOpen(false) }}
                       style={{
                         display: 'block',
                         width: '100%',
@@ -307,7 +328,7 @@ export default function App() {
         {activeView === 'guide' ? (
           <div className="guide-cards" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
-              <TeamPageOne team={selectedTeam} onViewStorylines={() => setActiveView('storylines')} />
+              <TeamPageOne team={selectedTeam} onViewStorylines={() => navigate('storylines')} />
             </div>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
               <TeamPageTwo team={selectedTeam} />
