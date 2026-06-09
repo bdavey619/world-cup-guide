@@ -56,7 +56,7 @@
       "fullName": "Djamel Benlamri",
       "position": "Centre Back",
       "club": "Al-Ittihad",
-      "role": "Captain and defensive anchor; brings World Cup experience from 2014",
+      "role": "Defensive anchor and aerial presence; brings World Cup experience from 2014",
       "stat": "47",
       "statLabel": "Caps"
     }
@@ -69,14 +69,14 @@
       "Compact",
       "Transition"
     ],
-    "tacticalNote": "Petkovic's Algeria set up to be difficult to break down — a compact 4-3-3 that defends in a mid-block and looks to exploit transitions through Mahrez's pace and dribbling from the right, with the left channel providing secondary outlet. Bennacer anchors the midfield and distributes efficiently, enabling Algeria to switch from defensive shape to attack quickly. Against stronger opponents they will be pragmatic and disciplined; against Jordan they will have the ball more and need to break down a defensive block.",
+    "tacticalNote": "Petkovic's Algeria set up to be difficult to break down — a compact 4-3-3 that defends in a mid-block and looks to exploit transitions through Mahrez's pace and dribbling from the right, with the left channel providing secondary outlet. Zerrouki anchors the midfield and distributes efficiently, enabling Algeria to switch from defensive shape to attack quickly. Against stronger opponents they will be pragmatic and disciplined; against Jordan they will have the ball more and need to break down a defensive block.",
     "strength": "Mahrez's ability to manufacture chances from almost nothing — give him half a yard and he creates danger every time.",
     "vulnerability": "Heavily Mahrez-dependent in the final third; if opponents neutralize him, Algeria can struggle to create from other sources."
   },
   "watchFor": [
     "Mahrez's movement to find space — he drifts centrally and into the left half-space to receive, not just wide right",
     "Algeria's defensive block against Argentina — their 2014 side held Germany for 120 minutes; discipline is in the DNA",
-    "Bennacer's progressive carrying from deep — he drives forward when space opens and can set the tempo entirely"
+    "Benrahma's creativity from midfield — his dribbling, set-piece delivery, and ability to find pockets of space make him Algeria's creative outlet when Mahrez is marked"
   ],
   "schedule": [
     {
@@ -144,8 +144,8 @@
   "pitch": {
     "players": [
       {
-        "name": "Raïs M'Bolhi",
-        "shortName": "M'Bolhi",
+        "name": "Alexandre Oukidja",
+        "shortName": "Oukidja",
         "position": "GK",
         "role": "gk",
         "isKeyPlayer": false,
@@ -154,11 +154,11 @@
         "y": 56
       },
       {
-        "name": "Benrahma",
-        "shortName": "Benrahma",
+        "name": "Youcef Atal",
+        "shortName": "Atal",
         "position": "RB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
         "y": 148
@@ -194,18 +194,18 @@
         "y": 148
       },
       {
-        "name": "Amoura",
-        "shortName": "Amoura",
+        "name": "Haris Belkebla",
+        "shortName": "Belkebla",
         "position": "RCM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
         "y": 244
       },
       {
-        "name": "Samir Nasri",
-        "shortName": "S. Zerrouki",
+        "name": "Ramiz Zerrouki",
+        "shortName": "Zerrouki",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -214,8 +214,8 @@
         "y": 236
       },
       {
-        "name": "Sofiane Feghouli",
-        "shortName": "Feghouli",
+        "name": "Farès Chaïbi",
+        "shortName": "Chaïbi",
         "position": "LCM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -234,21 +234,21 @@
         "y": 362
       },
       {
-        "name": "Benlamri",
-        "shortName": "Benlamri",
+        "name": "Amoura",
+        "shortName": "Amoura",
         "position": "ST",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
         "y": 372
       },
       {
-        "name": "Yacine Brahimi",
-        "shortName": "Brahimi",
+        "name": "Said Benrahma",
+        "shortName": "Benrahma",
         "position": "LW",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
         "y": 362

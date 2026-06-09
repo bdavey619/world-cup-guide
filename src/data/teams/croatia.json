@@ -28,10 +28,10 @@
   "keyPlayers": [
     {
       "name": "Luka Modrić",
-      "club": "Real Madrid",
+      "club": "AC Milan",
       "position": "Central Midfielder",
       "badge": "Legend",
-      "note": "At 40, Modrić remains one of the most technically accomplished midfielders in world football — his touch, vision, passing range, and ability to control the tempo of a match are as refined as ever even if his legs have fewer miles left. Ballon d'Or 2018. Champions League winner multiple times. The greatest midfielder of his generation plays his final World Cup in 2026."
+      "note": "At 40, Modrić remains one of the most technically accomplished midfielders in world football — his touch, vision, passing range, and ability to control the tempo of a match are as refined as ever even if his legs have fewer miles left. Ballon d'Or 2018. Champions League winner multiple times. Now at AC Milan, the greatest midfielder of his generation plays his final World Cup in 2026."
     },
     {
       "name": "Mateo Kovačić",
@@ -63,7 +63,7 @@
       "Technical",
       "Counter-Attack"
     ],
-    "tacticalNote": "Dalić's Croatia is built around midfield dominance — Modrić, Kovačić, and Brozović (or successors) controlling possession and tempo while allowing Kramarić and the wide players to exploit the space created. Croatia defend in a compact 4-3-3 that transitions quickly into attack through the midfield's passing quality. Gvardiol brings out from the back calmly, enabling Croatia to maintain possession even under pressure. Against England in the opener, Croatia will look to control the midfield battle — if they win that area, they are dangerous against anyone.",
+    "tacticalNote": "Dalić's Croatia is built around midfield dominance — Modrić, Kovačić, and Pašalić controlling possession and tempo while allowing Kramarić and the wide players to exploit the space created. Croatia defend in a compact 4-3-3 that transitions quickly into attack through the midfield's passing quality. Gvardiol brings out from the back calmly, enabling Croatia to maintain possession even under pressure. Against England in the opener, Croatia will look to control the midfield battle — if they win that area, they are dangerous against anyone.",
     "strength": "Midfield quality that can control and dominate possession for long stretches — even with Modrić at 40, the Croatian midfield remains among the best in the tournament.",
     "vulnerability": "The squad is aging at the top, and Croatia's attacking output is heavily dependent on the midfield creating opportunities — a dry spell for Modrić can leave the attack isolated."
   },
@@ -190,8 +190,8 @@
         "y": 148
       },
       {
-        "name": "Borna Sosa",
-        "shortName": "B. Sosa",
+        "name": "Josip Juranović",
+        "shortName": "Juranović",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
@@ -200,8 +200,8 @@
         "y": 148
       },
       {
-        "name": "Marcelo Brozović",
-        "shortName": "Brozović",
+        "name": "Mario Pašalić",
+        "shortName": "Pašalić",
         "position": "RCM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -230,8 +230,8 @@
         "y": 244
       },
       {
-        "name": "Ivan Perišić",
-        "shortName": "Perišić",
+        "name": "Ante Budimir",
+        "shortName": "Budimir",
         "position": "RW",
         "role": "att",
         "isKeyPlayer": false,
@@ -250,8 +250,8 @@
         "y": 372
       },
       {
-        "name": "Luka Ivanušec",
-        "shortName": "Ivanušec",
+        "name": "Josip Brekalo",
+        "shortName": "Brekalo",
         "position": "LW",
         "role": "att",
         "isKeyPlayer": false,

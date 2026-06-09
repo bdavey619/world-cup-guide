@@ -28,10 +28,10 @@
   "keyPlayers": [
     {
       "name": "Florian Wirtz",
-      "club": "Bayer Leverkusen",
+      "club": "Liverpool",
       "position": "Attacking Midfielder",
-      "badge": "Captain",
-      "note": "The most technically gifted German player since Mesut Özil, Wirtz combines exceptional close control with elite vision and a lethal shot. His performances for Leverkusen — where he was central to their unbeaten Bundesliga title — established him as one of Europe's very best. Now Germany's captain and creative fulcrum."
+      "badge": null,
+      "note": "The most technically gifted German player since Mesut Özil, Wirtz combines exceptional close control with elite vision and a lethal shot. His move to Liverpool in 2025 took his game to an even higher level, and at a World Cup he is Germany's most creative and decisive threat."
     },
     {
       "name": "Jamal Musiala",
@@ -51,7 +51,7 @@
       "name": "Joshua Kimmich",
       "club": "Bayern Munich",
       "position": "Right Back / Central Midfielder",
-      "badge": null,
+      "badge": "Captain",
       "note": "One of the most versatile elite players of his generation, Kimmich provides the defensive intelligence and technical quality that underpins everything Germany do. Whether at right back or in midfield, his positioning, passing, and pressing intensity are the invisible framework behind the team's exciting attacking play."
     }
   ],
@@ -177,7 +177,7 @@
         "position": "RB",
         "role": "def",
         "isKeyPlayer": true,
-        "isCaptain": false,
+        "isCaptain": true,
         "x": 389,
         "y": 148
       },
@@ -247,7 +247,7 @@
         "position": "CAM",
         "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": true,
+        "isCaptain": false,
         "x": 226,
         "y": 300
       },

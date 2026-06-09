@@ -55,13 +55,13 @@
       "note": "A sweeper-keeper who reads danger early. His distribution starts France's transitions. Often the difference in tight games."
     },
     {
-      "name": "Antoine Griezmann",
-      "fullName": "Antoine Griezmann",
-      "position": "Second Striker / Attacking Midfielder",
-      "club": "Atlético Madrid",
-      "role": "The connective tissue of France's attack — links midfield and forwards, wins free kicks, delivers from set pieces, and scores when it matters most",
-      "stat": "France's second all-time scorer behind Mbappé",
-      "statLabel": "Record"
+      "name": "Youssouf Fofana",
+      "fullName": "Youssouf Fofana",
+      "position": "Central Midfielder",
+      "club": "AC Milan",
+      "role": "Combative box-to-box midfielder who anchors France's midfield balance alongside Tchouaméni; motor and intensity in one",
+      "stat": "8 goal contributions (Serie A 2024–25)",
+      "statLabel": "Contributions"
     }
   ],
   "tactics": {
@@ -219,8 +219,8 @@
         "y": 148
       },
       {
-        "name": "Camavinga",
-        "shortName": "Camavinga",
+        "name": "Youssouf Fofana",
+        "shortName": "Fofana",
         "position": "RCM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -269,11 +269,11 @@
         "y": 372
       },
       {
-        "name": "Griezmann",
-        "shortName": "Griezmann",
+        "name": "Marcus Thuram",
+        "shortName": "Thuram",
         "position": "LW",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
         "y": 362

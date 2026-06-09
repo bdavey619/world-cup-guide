@@ -62,7 +62,7 @@
       "Transition",
       "Creative"
     ],
-    "tacticalNote": "Tedesco has moved Belgium toward a more fluid 4-3-3 that allows De Bruyne to roam between the lines while Doku and Trossard provide width. The system relies heavily on individual quality — when players like De Bruyne and Lukaku are clicking, Belgium can dismantle any defense. The vulnerability has always been defensive organization and a tendency to struggle when opponents press them high and disrupt their rhythm.",
+    "tacticalNote": "Garcia has moved Belgium toward a more fluid 4-3-3 that allows De Bruyne to roam between the lines while Doku and Trossard provide width. The system relies heavily on individual quality — when players like De Bruyne and Lukaku are clicking, Belgium can dismantle any defense. The vulnerability has always been defensive organization and a tendency to struggle when opponents press them high and disrupt their rhythm.",
     "strength": "The creative ceiling is extraordinary — De Bruyne orchestrating, Doku dribbling, Lukaku holding up play creates a combination very few defenses can handle for 90 minutes.",
     "vulnerability": "Belgium's aging core means pressing intensity and defensive covering can break down in the second half of tight knockout matches, and they've historically struggled to control games emotionally."
   },
@@ -191,8 +191,8 @@
         "y": 148
       },
       {
-        "name": "Jan Vertonghen",
-        "shortName": "Vertonghen",
+        "name": "Zeno Debast",
+        "shortName": "Debast",
         "position": "LCB",
         "role": "def",
         "isKeyPlayer": false,

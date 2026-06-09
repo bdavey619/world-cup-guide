@@ -64,7 +64,7 @@
       "Technical",
       "Fast transitions"
     ],
-    "tacticalNote": "Dorival's 4-2-3-1 gives Vinícius the freedom to run at defenders while Rodrygo provides technical quality on the opposite flank. Bruno Guimarães and a partner screen the defense while the number 10 connects midfield to attack. Brazil wants to control possession but can also explode in transition — the two modes are deliberately blended.",
+    "tacticalNote": "Ancelotti's 4-2-3-1 gives Vinícius the freedom to run at defenders while Savinho provides pace and directness on the opposite flank. Bruno Guimarães and a partner screen the defense while the number 10 connects midfield to attack. Brazil wants to control possession but can also explode in transition — the two modes are deliberately blended.",
     "strength": "Individual quality at every position — Brazil has arguably more stars on the field at once than any other squad in the tournament.",
     "vulnerability": "Defensive concentration in high-pressure moments — Brazil's backline can be disorganized when pressed by direct, fast opponents, as Qatar 2022 showed."
   },
@@ -233,8 +233,8 @@
         "y": 220
       },
       {
-        "name": "Rodrygo",
-        "shortName": "Rodrygo",
+        "name": "Savinho",
+        "shortName": "Savinho",
         "position": "RAM",
         "role": "att",
         "isKeyPlayer": false,
