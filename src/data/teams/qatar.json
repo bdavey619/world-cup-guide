@@ -168,8 +168,8 @@
         "y": 148
       },
       {
-        "name": "Al-Haydos",
-        "shortName": "Al-Haydos",
+        "name": "Abdulaziz Hatem",
+        "shortName": "Hatem",
         "position": "RCM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -188,8 +188,8 @@
         "y": 236
       },
       {
-        "name": "Al Haydos",
-        "shortName": "Al Haydos",
+        "name": "Ahmed Fathi",
+        "shortName": "A. Fathi",
         "position": "LCM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -218,11 +218,11 @@
         "y": 372
       },
       {
-        "name": "Ismail M.",
-        "shortName": "Ismail M.",
+        "name": "Hassan Al-Haydos",
+        "shortName": "Al-Haydos",
         "position": "LW",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
         "y": 362
