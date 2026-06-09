@@ -5,9 +5,10 @@ import Storylines from './components/Storylines'
 import DreamTeam from './components/DreamTeam'
 import Bracket from './components/Bracket'
 import TeamPage from './components/TeamPage'
+import Rankings from './components/Rankings'
 import { groups, teamData } from './data/teams'
 
-const VIEWS = { OVERVIEW: 'overview', BRACKET: 'bracket', STORYLINES: 'storylines', DREAMTEAM: 'dreamteam', TEAM: 'team' }
+const VIEWS = { OVERVIEW: 'overview', BRACKET: 'bracket', RANKINGS: 'rankings', STORYLINES: 'storylines', DREAMTEAM: 'dreamteam', TEAM: 'team' }
 
 export default function App() {
   const isMobile = useIsMobile()
@@ -45,6 +46,7 @@ export default function App() {
         <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', justifyContent: 'center' }}>
           {[
             { label: 'OVERVIEW', v: VIEWS.OVERVIEW },
+            { label: 'RANKINGS', v: VIEWS.RANKINGS },
             { label: 'BRACKET', v: VIEWS.BRACKET },
             { label: 'DREAM TEAM', v: VIEWS.DREAMTEAM },
             { label: 'STORYLINES', v: VIEWS.STORYLINES },
@@ -141,6 +143,7 @@ export default function App() {
       {/* Page content */}
       <div style={{ padding: isMobile ? '12px 8px' : '20px 20px', background: '#0a0e1a', minHeight: 'calc(100vh - 200px)' }}>
         {view === VIEWS.OVERVIEW && <Overview />}
+        {view === VIEWS.RANKINGS && <Rankings />}
         {view === VIEWS.BRACKET && <Bracket />}
         {view === VIEWS.STORYLINES && <Storylines />}
         {view === VIEWS.DREAMTEAM && <DreamTeam />}
