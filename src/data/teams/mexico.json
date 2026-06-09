@@ -27,13 +27,6 @@
   },
   "keyPlayers": [
     {
-      "name": "Hirving Lozano",
-      "club": "PSV Eindhoven",
-      "position": "Right wing",
-      "badge": "Captain",
-      "note": "'Chucky' is the electric winger who defines El Tri's attack. Quick, direct, two-footed threat who has carried this team for a decade."
-    },
-    {
       "name": "Santiago Giménez",
       "club": "AC Milan",
       "position": "Striker",
@@ -53,6 +46,15 @@
       "position": "Goalkeeper",
       "badge": null,
       "note": "The immortal. Five World Cups, iconic saves in 2014 and 2022. At 40, still the last line of Mexico's defense and its spiritual leader."
+    },
+    {
+      "name": "Henry Martín",
+      "fullName": "Henry Martín",
+      "position": "Striker",
+      "club": "Club América",
+      "role": "Liga MX's standout striker and proven scorer for El Tri; brings the clinical touch and experience to complement Giménez",
+      "stat": "20+ goals (Liga MX 2024–25)",
+      "statLabel": "Goals"
     }
   ],
   "tactics": {

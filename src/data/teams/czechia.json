@@ -15,7 +15,7 @@
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "Groups '06",
-    "manager": "Ivan Hašek",
+    "manager": "Miroslav Koubek",
     "managerTenure": "2024–present",
     "formation": "4-2-3-1"
   },
@@ -48,11 +48,13 @@
       "note": "Attacking fullback who has been central to the Czech system for years. His overlapping runs and delivery provide consistent width."
     },
     {
-      "name": "Lukáš Hrádecký",
-      "club": "Bayer Leverkusen",
+      "name": "Jiří Pavlenka",
+      "fullName": "Jiří Pavlenka",
       "position": "Goalkeeper",
-      "badge": null,
-      "note": "Champions League-level goalkeeper who won the Bundesliga with Leverkusen. His shot-stopping has bailed out the Czech defense in multiple qualifiers."
+      "club": "Werder Bremen",
+      "role": "Czech No.1 and capable shot-stopper who anchors a well-organized defensive unit",
+      "stat": "40+",
+      "statLabel": "Caps"
     }
   ],
   "tactics": {

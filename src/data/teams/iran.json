@@ -34,13 +34,6 @@
       "note": "Iran's most complete player and one of the best strikers in Serie A. Taremi's technical quality, aerial ability, and work rate make him dangerous against any defense. At Inter Milan he proved he can compete at the highest level in club football — now Iran needs him to translate that to the World Cup stage."
     },
     {
-      "name": "Sardar Azmoun",
-      "club": "Roma",
-      "position": "ST",
-      "badge": null,
-      "note": "Known as the 'Iranian Messi' by his supporters, Azmoun's technical quality and goal-scoring instinct make him one of the most talented players Asia has produced. When paired with Taremi, Iran has a genuinely dangerous attacking combination that can trouble any defense."
-    },
-    {
       "name": "Alireza Jahanbakhsh",
       "club": "Feyenoord",
       "position": "RW",
@@ -48,11 +41,22 @@
       "note": "The experienced winger with Eredivisie pedigree brings creativity and directness to Iran's attack. His ability to take on defenders and deliver from wide positions gives Iran an outlet beyond the central striking threat."
     },
     {
-      "name": "Ali Gholizadeh",
-      "club": "Charlton Athletic",
-      "position": "LW",
-      "badge": null,
-      "note": "Quick and direct, Gholizadeh provides the balance on the left side and has the pace to exploit space on the counter-attack — exactly the situation Iran's setup is designed to create."
+      "name": "Allahyar Sayyad",
+      "fullName": "Allahyar Sayyad Manesh",
+      "position": "Left Wing / Striker",
+      "club": "Al-Qadisiyah",
+      "role": "Young attacker who has emerged as Iran's new left-flank threat following squad changes",
+      "stat": "12",
+      "statLabel": "Goals"
+    },
+    {
+      "name": "Karim Ansarifard",
+      "fullName": "Karim Ansarifard",
+      "position": "Striker",
+      "club": "Persepolis",
+      "role": "Iran's all-time leading scorer and experienced veteran; lethal penalty taker and target man",
+      "stat": "Iran's all-time top scorer",
+      "statLabel": "Record"
     }
   ],
   "tactics": {

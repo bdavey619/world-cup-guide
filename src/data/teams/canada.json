@@ -5,7 +5,7 @@
   "accentColor": "#FF0000",
   "flagEmoji": "🇨🇦",
   "meta": {
-    "fifaRanking": 45,
+    "fifaRanking": 30,
     "group": "B",
     "groupOpponents": [
       "Switzerland",
@@ -48,11 +48,13 @@
       "note": "Electric winger who provides balance to Davies on the other side. Explosive, direct, and improving rapidly at elite club level."
     },
     {
-      "name": "Atiba Hutchinson",
-      "club": "Besiktas",
-      "position": "Midfield",
-      "badge": null,
-      "note": "The elder statesman who has given everything to Canadian football. At the end of his career, he's the glue in midfield and the voice in the dressing room."
+      "name": "Stephen Eustáquio",
+      "fullName": "Stephen Eustáquio",
+      "position": "Central Midfielder",
+      "club": "Porto",
+      "role": "The new heartbeat of Canadian midfield following Hutchinson's retirement; combative, box-to-box, Champions League regular",
+      "stat": "90+",
+      "statLabel": "Caps"
     }
   ],
   "tactics": {

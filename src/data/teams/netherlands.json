@@ -48,11 +48,13 @@
       "note": "The most dangerous forward in the Dutch squad — Gakpo's combination of height, pace, and technical quality makes him a nightmare for any defender to contain. His ability to play centrally or wide gives Koeman tactical flexibility, and his Champions League experience with Liverpool means the biggest stages bring out his best football."
     },
     {
-      "name": "Xavi Simons",
-      "club": "Paris Saint-Germain",
-      "position": "Attacking Midfielder / Central Midfielder",
-      "badge": null,
-      "note": "The electrifying young talent who is quickly becoming one of European football's most exciting players. Simons' dribbling, shooting from range, and ability to create from advanced midfield positions represent the future of Dutch football, and his emergence alongside the established stars gives the Netherlands a depth of quality that few groups can handle."
+      "name": "Tijjani Reijnders",
+      "fullName": "Tijjani Reijnders",
+      "position": "Central Midfielder",
+      "club": "AC Milan",
+      "role": "Technically brilliant box-to-box midfielder who dominated Serie A in 2024–25; Holland's new midfield motor",
+      "stat": "11 goals (Serie A 2024–25)",
+      "statLabel": "Goals"
     }
   ],
   "tactics": {

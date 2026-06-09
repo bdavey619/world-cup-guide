@@ -5,7 +5,7 @@
   "accentColor": "#006233",
   "flagEmoji": "🇩🇿",
   "meta": {
-    "fifaRanking": 35,
+    "fifaRanking": 28,
     "group": "J",
     "groupOpponents": [
       "Argentina",
@@ -34,25 +34,31 @@
       "note": "The 2019 AFCON Player of the Tournament and Premier League title winner is Algeria's heartbeat — a dribbler of the highest quality whose capacity to create something from nothing in the final third is unmatched in African football. At 35, Mahrez brings experience and quality that elevates everyone around him."
     },
     {
-      "name": "Ismaël Bennacer",
-      "club": "AC Milan",
-      "position": "Defensive Midfielder",
-      "badge": null,
-      "note": "One of Serie A's best holding midfielders, Bennacer combines defensive intelligence with the ability to build play from deep. His partnership with AC Milan teammates has developed him into a composed, technically excellent pivot who gives Algeria's attack a solid platform to work from."
+      "name": "Amoura",
+      "fullName": "Mohamed Amine Amoura",
+      "position": "Left Wing / Striker",
+      "club": "Wolfsburg",
+      "role": "Clinical finisher with pace who has become Algeria's most dangerous attacker",
+      "stat": "9 international goals in 2024–25",
+      "statLabel": "Goals"
     },
     {
-      "name": "Youcef Atal",
-      "club": "OGC Nice",
-      "position": "Right Back",
-      "badge": null,
-      "note": "Atal is one of Africa's most dynamic right backs — capable of bombing forward to support attacks while remaining disciplined defensively. His overlapping runs create overloads on Algeria's right side and complement Mahrez's tendency to cut inside onto his left foot."
+      "name": "Said Benrahma",
+      "fullName": "Said Benrahma",
+      "position": "Attacking Midfielder / Left Wing",
+      "club": "Lyon",
+      "role": "Silky dribbler and set-piece specialist; Algeria's creative outlet with Bennacer absent",
+      "stat": "8 goals + 6 assists (Ligue 1 2024–25)",
+      "statLabel": "Goal Contributions"
     },
     {
-      "name": "Andy Delort",
-      "club": "OGC Nice",
-      "position": "Striker",
-      "badge": null,
-      "note": "The powerful, experienced Delort gives Algeria a genuine target threat — a striker who can hold up play, bring others into the game, and finish with his head or either foot. His physicality and experience in Ligue 1 make him a handful for any central defensive pairing."
+      "name": "Djamel Benlamri",
+      "fullName": "Djamel Benlamri",
+      "position": "Centre Back",
+      "club": "Al-Ittihad",
+      "role": "Captain and defensive anchor; brings World Cup experience from 2014",
+      "stat": "47",
+      "statLabel": "Caps"
     }
   ],
   "tactics": {

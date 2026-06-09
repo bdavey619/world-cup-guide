@@ -15,7 +15,7 @@
     "oddsToWin": "+700",
     "impliedProbability": "~13%",
     "lastWCResult": "QF '22",
-    "manager": "Dorival Júnior",
+    "manager": "Carlo Ancelotti",
     "managerTenure": "2024–present",
     "formation": "4-2-3-1"
   },
@@ -34,13 +34,6 @@
       "note": "The most exciting attacker in the world right now. Explosive, creative, unstoppable in one-on-ones. This is his tournament to define his legacy."
     },
     {
-      "name": "Rodrygo",
-      "club": "Real Madrid",
-      "position": "Right wing",
-      "badge": null,
-      "note": "The big-game player. Scores in Champions League knockouts with regularity. Provides the technical complement to Vinícius' directness."
-    },
-    {
       "name": "Bruno Guimarães",
       "club": "Newcastle United",
       "position": "Central mid",
@@ -53,6 +46,15 @@
       "position": "Center-back",
       "badge": null,
       "note": "Elite center-back with over a decade of top-level experience. Leads Brazil's defensive structure with intelligence and aerial dominance."
+    },
+    {
+      "name": "Endrick",
+      "fullName": "Endrick Felipe",
+      "position": "Striker",
+      "club": "Real Madrid",
+      "role": "19-year-old prodigy already in the Real Madrid first team; electric pace and decisive finishing that excites Ancelotti",
+      "stat": "Already scored on international debut at 16",
+      "statLabel": "Debut"
     }
   ],
   "tactics": {

@@ -34,13 +34,6 @@
       "note": "The most technically gifted Japanese player of his generation — possibly ever. Kubo's dribbling, creativity, and goal threat in La Liga have established him as one of Europe's most exciting attacking players. His ability to beat defenders in one-on-one situations and deliver final-third product is the engine of Japan's attacking play."
     },
     {
-      "name": "Takumi Minamino",
-      "club": "Monaco",
-      "position": "Attacking Midfielder",
-      "badge": "Captain",
-      "note": "The captain and one of Japan's most experienced internationals, Minamino provides the tactical intelligence and pressing intensity that underpins Moriyasu's system. His ability to play in multiple positions and contribute both goals and assists makes him the connective tissue between Japan's midfield and attack."
-    },
-    {
       "name": "Ayase Ueda",
       "club": "Feyenoord",
       "position": "Striker",
@@ -53,6 +46,15 @@
       "position": "Central Midfielder",
       "badge": null,
       "note": "The midfield organizer whose discipline and work rate allow the more creative players around him to function. Tanaka's positional awareness and ability to win the ball and distribute quickly under pressure is the unsexy but essential foundation of Japan's midfield compactness."
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "fullName": "Kaoru Mitoma",
+      "position": "Left Wing",
+      "club": "Brighton",
+      "role": "One of the Premier League's most electrifying wingers; exceptional dribbling and creativity who stretches any defence",
+      "stat": "12 goals + 11 assists (2024–25)",
+      "statLabel": "Goal Contributions"
     }
   ],
   "tactics": {

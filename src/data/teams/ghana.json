@@ -15,7 +15,7 @@
     "oddsToWin": "+7000",
     "impliedProbability": "~1.4%",
     "lastWCResult": "Groups '22",
-    "manager": "Otto Addo",
+    "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
     "formation": "4-2-3-1"
   },
@@ -34,15 +34,8 @@
       "note": "One of the Premier League's best defensive midfielders when fit, Partey provides Ghana with the defensive solidity and ball-winning quality to compete against elite opposition. His ability to break up attacks and quickly transition Ghana into offense through his carrying and passing range makes him the lynchpin of everything they do in midfield."
     },
     {
-      "name": "Mohammed Kudus",
-      "club": "West Ham",
-      "position": "Attacking Midfielder / Right Wing",
-      "badge": null,
-      "note": "Kudus is Ghana's most explosive talent — a technically brilliant, fearless attacker who scored two goals against South Korea at the 2022 World Cup and has since established himself as one of the Premier League's most watchable players. His ability to beat defenders in tight spaces and arrive in the box from deep makes him genuinely unpredictable."
-    },
-    {
       "name": "Antoine Semenyo",
-      "club": "Bournemouth",
+      "club": "Manchester City",
       "position": "Right Wing / Left Wing",
       "badge": null,
       "note": "One of the most exciting wide forwards in the Premier League, Semenyo's pace, directness, and finishing give Ghana a wide threat that can trouble any full back in the tournament. His development under Bournemouth has been rapid, and he arrives at the 2026 World Cup with the confidence of a player who knows he belongs at the highest level."
@@ -53,6 +46,15 @@
       "position": "Striker / Left Wing",
       "badge": null,
       "note": "The senior figure of Ghana's attack — experienced, hardworking, and capable of providing goals and assists in critical moments. Ayew's leadership within the squad and his experience across multiple major tournaments make him valuable both as a starter and as a voice in the dressing room when the pressure is highest."
+    },
+    {
+      "name": "Abdul Fatawu",
+      "fullName": "Abdul Fatawu Issahaku",
+      "position": "Right Wing",
+      "club": "Leicester City",
+      "role": "Rapid, direct winger who filled Kudus's shoes seamlessly; Ghana's most dangerous runner in the final third",
+      "stat": "8 goals (Premier League 2024–25)",
+      "statLabel": "Goals"
     }
   ],
   "tactics": {

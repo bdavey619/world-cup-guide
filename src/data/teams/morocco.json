@@ -5,7 +5,7 @@
   "accentColor": "#C1272D",
   "flagEmoji": "🇲🇦",
   "meta": {
-    "fifaRanking": 14,
+    "fifaRanking": 7,
     "group": "C",
     "groupOpponents": [
       "Brazil",
@@ -15,7 +15,7 @@
     "oddsToWin": "+2000",
     "impliedProbability": "~5%",
     "lastWCResult": "SF '22",
-    "manager": "Walid Regragui",
+    "manager": "Mohamed Ouahbi",
     "managerTenure": "2022–present",
     "formation": "4-3-3"
   },
@@ -34,13 +34,6 @@
       "note": "The engine on the right side. One of the best fullbacks in the world — his combination of defensive positioning and attacking output is elite."
     },
     {
-      "name": "Hakim Ziyech",
-      "club": "Galatasaray",
-      "position": "Attacking mid",
-      "badge": null,
-      "note": "The magician. His left foot creates angles no one else sees. When he's on, Morocco can unlock any defense in the world."
-    },
-    {
       "name": "Yassine Bounou",
       "club": "Al-Hilal",
       "position": "Goalkeeper",
@@ -53,6 +46,15 @@
       "position": "Defensive mid",
       "badge": null,
       "note": "One of the best defensive midfielders in the world. His ground coverage and aggression in the press transformed Morocco's defensive system."
+    },
+    {
+      "name": "Eliesse Ben Seghir",
+      "fullName": "Eliesse Ben Seghir",
+      "position": "Attacking Midfielder / Right Wing",
+      "club": "Monaco",
+      "role": "18-year-old Moroccan-born talent who stepped up after Ziyech's retirement; direct, technically gifted, and fearless",
+      "stat": "9 goals (Ligue 1 2024–25)",
+      "statLabel": "Goals"
     }
   ],
   "tactics": {

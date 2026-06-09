@@ -5,7 +5,7 @@
   "accentColor": "#ED2939",
   "flagEmoji": "🇦🇹",
   "meta": {
-    "fifaRanking": 26,
+    "fifaRanking": 24,
     "group": "J",
     "groupOpponents": [
       "Argentina",
@@ -34,13 +34,6 @@
       "note": "Sabitzer is the heart of Austria's midfield — a player who embodies the Rangnick philosophy with his relentless pressing, late runs into the box, and quality on the ball. His Champions League pedigree with Dortmund brings big-game experience that Austria will need against Argentina."
     },
     {
-      "name": "Christoph Baumgartner",
-      "club": "RB Leipzig",
-      "position": "Attacking Midfielder",
-      "badge": null,
-      "note": "The Red Bull football system's finest Austrian export, Baumgartner combines technical quality with the high-energy pressing that Rangnick demands. His ability to find pockets of space between the lines makes him Austria's most creative threat in the final third."
-    },
-    {
       "name": "Konrad Laimer",
       "club": "Bayern Munich",
       "position": "Central Midfielder",
@@ -53,6 +46,15 @@
       "position": "Left Wing",
       "badge": null,
       "note": "Wimmer's pace and directness give Austria an attacking threat in transition that opponents cannot ignore. His development at Stuttgart — one of the Bundesliga's most dynamic clubs — has turned him into a reliable wide option who can beat defenders with pace and quality."
+    },
+    {
+      "name": "Romano Schmid",
+      "fullName": "Romano Schmid",
+      "position": "Attacking Midfielder",
+      "club": "Werder Bremen",
+      "role": "Creative engine who stepped up after Baumgartner's injury; direct, energetic, and decisive in tight spaces",
+      "stat": "11 goals (Bundesliga 2024–25)",
+      "statLabel": "Goals"
     }
   ],
   "tactics": {
