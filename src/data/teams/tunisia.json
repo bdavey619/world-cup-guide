@@ -12,12 +12,13 @@
       "Japan",
       "Sweden"
     ],
-    "oddsToWin": "+50000",
     "impliedProbability": "~0.2%",
     "lastWCResult": "Groups '22",
     "manager": "Jalel Kadri",
     "managerTenure": "2021–present",
-    "formation": "4-4-2"
+    "formation": "4-4-2",
+    "winPct": 0.1,
+    "advancePct": 39
   },
   "narrative": {
     "essence": "Tunisia has appeared at six World Cups and never advanced past the group stage — and yet every tournament they arrive with the organizational discipline and African pride to make themselves genuinely difficult to beat. In 1978, they became the first African team to win a World Cup match. The Eagles of Carthage always show up.",

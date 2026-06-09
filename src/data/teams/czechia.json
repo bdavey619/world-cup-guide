@@ -12,12 +12,13 @@
       "South Korea",
       "South Africa"
     ],
-    "oddsToWin": "+25000",
     "impliedProbability": "~0.4%",
     "lastWCResult": "Groups '06",
     "manager": "Miroslav Koubek",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.3,
+    "advancePct": 70
   },
   "narrative": {
     "essence": "Czechia returns to the World Cup for the first time since 2006, rebuilt around a generation that grew up watching the Czech Republic punch above its weight in Europe. This squad is technically capable and tactically disciplined — not a glamour team, but one that can make life very difficult.",

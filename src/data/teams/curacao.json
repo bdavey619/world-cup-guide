@@ -12,12 +12,13 @@
       "Ecuador",
       "Ivory Coast"
     ],
-    "oddsToWin": "+250000",
     "impliedProbability": "~0.0%",
     "lastWCResult": "First ever appearance",
     "manager": "Remko Bicentini",
     "managerTenure": "2016–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 8
   },
   "narrative": {
     "essence": "A Caribbean island nation of 150,000 people has reached the FIFA World Cup for the first time in its history. Curaçao's qualification is not just a football story — it is a story about identity, belonging, and what is possible when a tiny place decides it belongs on the world stage.",

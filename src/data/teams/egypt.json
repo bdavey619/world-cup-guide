@@ -12,12 +12,13 @@
       "Iran",
       "New Zealand"
     ],
-    "oddsToWin": "+30000",
     "impliedProbability": "~0.3%",
     "lastWCResult": "Groups '90",
     "manager": "Hossam Hassan",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.2,
+    "advancePct": 73
   },
   "narrative": {
     "essence": "Mohamed Salah is arguably the greatest player in the world right now — and he has never played at a World Cup. Egypt missed out in 2018 in heartbreaking fashion despite qualifying, and Salah's personal story with this tournament is one of football's most compelling unresolved narratives.",

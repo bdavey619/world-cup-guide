@@ -12,12 +12,13 @@
       "Norway",
       "Iraq"
     ],
-    "oddsToWin": "+9000",
     "impliedProbability": "~1.1%",
     "lastWCResult": "R16 '22",
     "manager": "Pape Thiaw",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.5,
+    "advancePct": 71
   },
   "narrative": {
     "essence": "The reigning African champions are in the same group as France — the country that colonized them, the country many of their best players left to become stars. The Lions of Teranga carry a continent's weight and a complex history into every match against Les Bleus.",

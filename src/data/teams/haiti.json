@@ -12,12 +12,13 @@
       "Morocco",
       "Scotland"
     ],
-    "oddsToWin": "+250000",
     "impliedProbability": "~0.0%",
     "lastWCResult": "Groups '74",
     "manager": "Marc Collat",
     "managerTenure": "2023–present",
-    "formation": "4-4-2"
+    "formation": "4-4-2",
+    "winPct": 0.1,
+    "advancePct": 13
   },
   "narrative": {
     "essence": "Haiti's appearance in 2026 is one of the tournament's most profound stories — a nation enduring political collapse, gang violence, and humanitarian crisis sending a football team to the world's biggest stage. Every match they play will carry impossible weight.",

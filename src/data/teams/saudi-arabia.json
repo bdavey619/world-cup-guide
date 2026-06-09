@@ -12,12 +12,13 @@
       "Uruguay",
       "Cape Verde"
     ],
-    "oddsToWin": "+100000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '22",
     "manager": "Georgios Donis",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.1,
+    "advancePct": 37
   },
   "narrative": {
     "essence": "The country that stunned Argentina in one of the greatest World Cup upsets ever. Saudi Arabia's 2022 performance proved they can compete against the world's best — now they must show it wasn't a one-off, all while the nation's Vision 2030 strategy reshapes global sport around them.",

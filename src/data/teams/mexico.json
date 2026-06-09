@@ -12,12 +12,13 @@
       "South Africa",
       "Czechia"
     ],
-    "oddsToWin": "+8000",
     "impliedProbability": "~1.2%",
     "lastWCResult": "R16 '22",
     "manager": "Javier Aguirre",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 1,
+    "advancePct": 92
   },
   "narrative": {
     "essence": "Mexico is the host nation that can't quite escape its own ceiling — seven straight Round of 16 exits is a curse as much as a result. In 2026, playing on home soil with a nation watching, El Tri faces its defining moment: break the hex, or finally accept it.",

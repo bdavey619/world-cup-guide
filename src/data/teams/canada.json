@@ -12,12 +12,13 @@
       "Qatar",
       "Bosnia-Herzegovina"
     ],
-    "oddsToWin": "+20000",
     "impliedProbability": "~0.5%",
     "lastWCResult": "Groups '22",
     "manager": "Jesse Marsch",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.5,
+    "advancePct": 86
   },
   "narrative": {
     "essence": "Canada qualified for consecutive World Cups for the first time in history and is hosting this one alongside the USA and Mexico. After a disappointing exit in 2022, this squad — filled with stars from Europe's biggest leagues — returns hungry, on home soil, with something to prove.",

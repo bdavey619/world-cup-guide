@@ -12,12 +12,13 @@
       "Ecuador",
       "Curaçao"
     ],
-    "oddsToWin": "+25000",
     "impliedProbability": "~0.4%",
     "lastWCResult": "Groups '22",
     "manager": "Emerse Faé",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.3,
+    "advancePct": 78
   },
   "narrative": {
     "essence": "The Ivory Coast produced one of the great golden generations in African football history — the Drogba era teams qualified for three consecutive World Cups and fell in the group stage every time. Now, AFCON 2024 champions on home soil, a new generation is building its own identity with something to prove on the global stage.",

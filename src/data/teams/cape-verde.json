@@ -12,12 +12,13 @@
       "Uruguay",
       "Saudi Arabia"
     ],
-    "oddsToWin": "+100000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "First WC",
     "manager": "Pedro Leitão",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 31
   },
   "narrative": {
     "essence": "A nation of 500,000 people on Atlantic islands that most of the world couldn't place on a map — arriving at their first World Cup ever. The Blue Sharks' story is one of diaspora, identity, and the long journey of a football-loving people finally reaching the game's greatest stage.",

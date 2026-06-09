@@ -12,12 +12,13 @@
       "Egypt",
       "New Zealand"
     ],
-    "oddsToWin": "+4000",
     "impliedProbability": "~2.4%",
     "lastWCResult": "QF '22",
     "manager": "Rudi Garcia",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 3,
+    "advancePct": 95
   },
   "narrative": {
     "essence": "The golden generation that never won. Belgium assembled perhaps the most talented squad in their history — De Bruyne, Hazard, Lukaku, Courtois — and came away with nothing but a third-place finish in 2018. Now, with that era ending, 2026 is the farewell tour.",

@@ -12,12 +12,13 @@
       "Australia",
       "Paraguay"
     ],
-    "oddsToWin": "+9000",
     "impliedProbability": "~1.1%",
     "lastWCResult": "Groups '06",
     "manager": "Vincenzo Montella",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 1,
+    "advancePct": 80
   },
   "narrative": {
     "essence": "Türkiye arrives at the 2026 World Cup carried by a wave of Euro 2024 momentum and the emergence of Arda Güler — a teenager from Real Madrid who plays with the ease and audacity of a much older man. After two decades in the wilderness, Turkish football is back on the world stage with genuine cause for optimism.",

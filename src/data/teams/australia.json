@@ -12,12 +12,13 @@
       "Türkiye",
       "Paraguay"
     ],
-    "oddsToWin": "+60000",
     "impliedProbability": "~0.2%",
     "lastWCResult": "R16 '22",
     "manager": "Tony Popovic",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 49
   },
   "narrative": {
     "essence": "Australia reached the round of 16 in 2022 by beating Denmark and pushing eventual champions Argentina to their limits — a result that crystallized something real about this new generation of Socceroos, more technically developed and tactically sophisticated than any before them.",

@@ -12,12 +12,13 @@
       "Ghana",
       "Croatia"
     ],
-    "oddsToWin": "+100000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '18",
     "manager": "Thomas Christiansen",
     "managerTenure": "2021–present",
-    "formation": "4-4-2"
+    "formation": "4-4-2",
+    "winPct": 0.1,
+    "advancePct": 35
   },
   "narrative": {
     "essence": "Panama City will be the most festive place on Earth during the 2026 World Cup. This tiny nation of four million — straddling the Americas, home to the world's most famous canal, built on a crossroads culture — brings Caribbean joy and Central American grit to every World Cup they qualify for.",

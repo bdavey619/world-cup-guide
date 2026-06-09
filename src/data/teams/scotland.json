@@ -12,12 +12,13 @@
       "Morocco",
       "Haiti"
     ],
-    "oddsToWin": "+20000",
     "impliedProbability": "~0.5%",
     "lastWCResult": "Groups '98",
     "manager": "Steve Clarke",
     "managerTenure": "2019–present",
-    "formation": "3-5-2"
+    "formation": "3-5-2",
+    "winPct": 0.3,
+    "advancePct": 69
   },
   "narrative": {
     "essence": "Scotland hasn't been to a World Cup since 1998 — nearly three decades of heartbreak, near-misses, and pub-bench philosophy about what might have been. They're back. And they're in the group of death. The Tartan Army doesn't care. This is what they live for.",

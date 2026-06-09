@@ -12,12 +12,13 @@
       "Scotland",
       "Haiti"
     ],
-    "oddsToWin": "+950",
     "impliedProbability": "~9.5%",
     "lastWCResult": "QF '22",
     "manager": "Carlo Ancelotti",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 7,
+    "advancePct": 97
   },
   "narrative": {
     "essence": "Brazil hasn't won the World Cup since 2002 — their longest drought since they first appeared in the tournament. The ache is national, persistent, and politically charged. In 2026, with Vinícius Jr. at peak powers and a rebuilt squad, they believe the hexacampeonato is finally within reach.",

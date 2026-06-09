@@ -12,12 +12,13 @@
       "Austria",
       "Jordan"
     ],
-    "oddsToWin": "+900",
     "impliedProbability": "~10%",
     "lastWCResult": "Won '22",
     "manager": "Lionel Scaloni",
     "managerTenure": "2018–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 10,
+    "advancePct": 96
   },
   "narrative": {
     "essence": "The defending champions carry the weight of history and a 38-year-old genius playing his final tournament. Argentina arrives in 2026 not just to defend — but to say goodbye to the greatest player ever in the most fitting way possible.",

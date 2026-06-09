@@ -12,12 +12,13 @@
       "Ghana",
       "Panama"
     ],
-    "oddsToWin": "+700",
     "impliedProbability": "~12%",
     "lastWCResult": "QF '22",
     "manager": "Thomas Tuchel",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 10,
+    "advancePct": 96
   },
   "narrative": {
     "essence": "Sixty years. One World Cup. England's golden generation — Bellingham, Kane, Saka — arrives at its peak, under a new manager, with the weight of 1966 pressing down on every performance and an entire nation refusing to believe it will finally happen this time.",

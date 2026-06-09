@@ -136,8 +136,8 @@ export default function TeamPageTwo({ team }) {
         <div className="team-header-p2-stats" style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'var(--font-sans)' }}>
           {[
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}`, colored: false },
-            { label: 'ODDS TO WIN', value: meta.oddsToWin, colored: true },
-            { label: 'IMPLIED PROB.', value: meta.impliedProbability, colored: false },
+            { label: 'WIN THE CUP', value: meta.winPct >= 1 ? `${meta.winPct}%` : '<1%', colored: true },
+            { label: 'ADVANCE', value: `${meta.advancePct}%`, colored: false },
             { label: 'GROUP', value: meta.group, colored: false },
           ].map(({ label, value, colored }, i) => (
             <div key={label} style={{ display: 'flex', alignItems: 'center' }}>

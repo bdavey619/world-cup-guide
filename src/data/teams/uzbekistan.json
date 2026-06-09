@@ -12,12 +12,13 @@
       "Colombia",
       "DR Congo"
     ],
-    "oddsToWin": "+150000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "First WC",
     "manager": "Srecko Katanec",
     "managerTenure": "2021–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.1,
+    "advancePct": 34
   },
   "narrative": {
     "essence": "Central Asia's coming-out party on the world stage — Uzbekistan arrives at their first World Cup as a nation that has invested seriously in football infrastructure, produced players earning contracts in European leagues, and now gets to test all of it against Portugal, Colombia, and DR Congo.",

@@ -12,12 +12,13 @@
       "Sweden",
       "Tunisia"
     ],
-    "oddsToWin": "+2000",
     "impliedProbability": "~4.8%",
     "lastWCResult": "QF '22",
     "manager": "Ronald Koeman",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 4,
+    "advancePct": 89
   },
   "narrative": {
     "essence": "Three World Cup finals, zero trophies — the Netherlands carry the heaviest burden in world football. The greatest team never to win it. In 2026, with Van Dijk commanding the defense and a new generation of attackers bursting through, Oranje arrives with a genuine chance to finally end the curse.",

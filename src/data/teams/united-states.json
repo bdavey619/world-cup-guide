@@ -12,12 +12,13 @@
       "Australia",
       "Türkiye"
     ],
-    "oddsToWin": "+6000",
     "impliedProbability": "~1.6%",
     "lastWCResult": "R16 '22",
     "manager": "Mauricio Pochettino",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 2,
+    "advancePct": 84
   },
   "narrative": {
     "essence": "The United States is hosting the World Cup and has a generation of talent playing at the highest level in Europe — this is the moment American soccer has been building toward for 30 years. The pressure is immense. The potential is real. This squad can make a run.",

@@ -161,7 +161,7 @@ export default function Rankings({ teams, onSelectTeam }) {
                     fontWeight: 700,
                     color: 'var(--gray-700)',
                   }}>
-                    {t.meta.oddsToWin}
+                    {t.meta.winPct >= 1 ? `${t.meta.winPct}%` : '<1%'}
                   </div>
 
                   {/* Key player */}

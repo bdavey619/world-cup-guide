@@ -12,12 +12,13 @@
       "Iran",
       "Egypt"
     ],
-    "oddsToWin": "+150000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '10",
     "manager": "Darren Bazeley",
     "managerTenure": "2022–present",
-    "formation": "4-4-2"
+    "formation": "4-4-2",
+    "winPct": 0.1,
+    "advancePct": 32
   },
   "narrative": {
     "essence": "A rugby nation that keeps showing up at the World Cup against all odds. New Zealand earned a famous unbeaten record in 2010 — drawing all three group games — and returns 16 years later with a group that looks far harder on paper. But the All Whites have a habit of defying expectations.",

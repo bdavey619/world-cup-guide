@@ -12,12 +12,13 @@
       "Egypt",
       "New Zealand"
     ],
-    "oddsToWin": "+70000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '22",
     "manager": "Amir Ghalenoei",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.1,
+    "advancePct": 62
   },
   "narrative": {
     "essence": "Team Melli carries the weight of a nation — and in 2022, that weight became almost unbearable. Iran's players stood at the intersection of sport and political protest, facing impossible choices as the Woman, Life, Freedom movement swept through their homeland. 2026 brings them back to football's biggest stage still under that shadow.",

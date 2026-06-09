@@ -12,12 +12,13 @@
       "Austria",
       "Algeria"
     ],
-    "oddsToWin": "+250000",
     "impliedProbability": "~0.0%",
     "lastWCResult": "First WC",
     "manager": "Hussein Ammouta",
     "managerTenure": "2023–present",
-    "formation": "4-4-2"
+    "formation": "4-4-2",
+    "winPct": 0.1,
+    "advancePct": 20
   },
   "narrative": {
     "essence": "Jordan arrives at their first-ever World Cup as a nation defined by resilience — a small, resource-constrained kingdom that reached the 2023 AFC Asian Cup final and now brings that same collective spirit to the biggest stage in sports.",

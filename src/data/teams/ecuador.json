@@ -12,12 +12,13 @@
       "Ivory Coast",
       "Curaçao"
     ],
-    "oddsToWin": "+8000",
     "impliedProbability": "~1.2%",
     "lastWCResult": "Groups '22",
     "manager": "Sébastian Beccacece",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 1,
+    "advancePct": 89
   },
   "narrative": {
     "essence": "Ecuador has always qualified quietly and left quietly — four World Cups, one round of 16, and the persistent feeling that the talent is there but the moment never arrives. Moisés Caicedo's £115 million move to Chelsea changed the narrative. Now there is a player of genuine world-class quality to build around.",

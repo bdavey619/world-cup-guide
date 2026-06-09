@@ -12,12 +12,13 @@
       "Scotland",
       "Haiti"
     ],
-    "oddsToWin": "+5000",
     "impliedProbability": "~2.0%",
     "lastWCResult": "SF '22",
     "manager": "Mohamed Ouahbi",
     "managerTenure": "2022–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 2,
+    "advancePct": 86
   },
   "narrative": {
     "essence": "Morocco's 2022 semi-final run wasn't a fluke — it was the arrival of African football as a genuine world power. Under Walid Regragui, the Atlas Lions built one of the most organized, tactically sophisticated teams in the world. In 2026, they're not here to surprise anyone. They're here to go further.",

@@ -12,12 +12,13 @@
       "Panama",
       "Croatia"
     ],
-    "oddsToWin": "+30000",
     "impliedProbability": "~0.3%",
     "lastWCResult": "Groups '22",
     "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.2,
+    "advancePct": 46
   },
   "narrative": {
     "essence": "The 2010 quarter-final is burned into Ghanaian consciousness like nothing else in sport: Suaréz's deliberate handball on the goal line, Gyan's penalty to the bar, and an entire continent's dream extinguished. The Black Stars arrive in 2026 with the Premier League's brightest Ghanaian generation and sixteen years of pent-up desire to settle accounts.",

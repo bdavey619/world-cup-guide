@@ -12,12 +12,13 @@
       "Uzbekistan",
       "Colombia"
     ],
-    "oddsToWin": "+850",
     "impliedProbability": "~10%",
     "lastWCResult": "QF '22",
     "manager": "Roberto Martínez",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 5,
+    "advancePct": 96
   },
   "narrative": {
     "essence": "Cristiano Ronaldo is 41. This is his last World Cup. For two decades, every World Cup has been filtered through the lens of Messi vs. Ronaldo — and in 2026, both play their final chapters simultaneously, in the same country, on the biggest stage either has ever known.",

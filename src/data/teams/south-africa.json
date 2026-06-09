@@ -12,12 +12,13 @@
       "South Korea",
       "Czechia"
     ],
-    "oddsToWin": "+100000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '10",
     "manager": "Hugo Broos",
     "managerTenure": "2021–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 38
   },
   "narrative": {
     "essence": "South Africa returns to the World Cup for the first time since they hosted it in 2010, ending a 16-year absence. Bafana Bafana arrive not as contenders but as a nation rediscovering its football identity — and in Group A, they have nothing to lose.",

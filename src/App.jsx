@@ -358,7 +358,7 @@ export default function App() {
                     #{t.meta.fifaRanking}
                   </div>
                   <div style={{ fontSize: 11, color: 'var(--gray-500)' }}>
-                    {t.meta.oddsToWin}
+                    {t.meta.winPct >= 1 ? `${t.meta.winPct}% to win` : '<1% to win'}
                   </div>
                 </div>
               )

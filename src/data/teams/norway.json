@@ -12,12 +12,13 @@
       "Senegal",
       "Iraq"
     ],
-    "oddsToWin": "+3500",
     "impliedProbability": "~2.8%",
     "lastWCResult": "Groups '98",
     "manager": "Ståle Solbakken",
     "managerTenure": "2020–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 3,
+    "advancePct": 86
   },
   "narrative": {
     "essence": "Erling Haaland has broken every club scoring record in existence. The entire football world wants to know if he can do it when it really matters — at a World Cup. Norway's 28-year absence from the tournament ends with the most anticipated striker debut in the history of the competition.",

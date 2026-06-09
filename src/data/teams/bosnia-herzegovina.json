@@ -12,12 +12,13 @@
       "Switzerland",
       "Qatar"
     ],
-    "oddsToWin": "+50000",
     "impliedProbability": "~0.2%",
     "lastWCResult": "Groups '14",
     "manager": "Sergej Barbarez",
     "managerTenure": "2024–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 66
   },
   "narrative": {
     "essence": "Bosnia-Herzegovina returns to the World Cup for only the second time — a nation that has existed for barely 30 years, born from one of Europe's most devastating conflicts. Their qualification is a sporting miracle wrapped in a story of resilience that goes far beyond football.",

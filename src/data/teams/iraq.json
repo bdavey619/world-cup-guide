@@ -12,12 +12,13 @@
       "Norway",
       "Senegal"
     ],
-    "oddsToWin": "+150000",
     "impliedProbability": "~0.1%",
     "lastWCResult": "Groups '86",
     "manager": "Jesús Casas",
     "managerTenure": "2023–present",
-    "formation": "4-3-3"
+    "formation": "4-3-3",
+    "winPct": 0.1,
+    "advancePct": 14
   },
   "narrative": {
     "essence": "Forty years between World Cup appearances. Iraq returns to football's greatest stage after an absence defined by wars, sanctions, and unimaginable national trauma — carrying a weight that no other team in the tournament can understand.",

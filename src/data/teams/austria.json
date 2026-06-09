@@ -12,12 +12,13 @@
       "Algeria",
       "Jordan"
     ],
-    "oddsToWin": "+15000",
     "impliedProbability": "~0.7%",
     "lastWCResult": "Groups '98",
     "manager": "Ralf Rangnick",
     "managerTenure": "2022–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 0.5,
+    "advancePct": 81
   },
   "narrative": {
     "essence": "Ralf Rangnick's high-intensity pressing machine returns Austria to the World Cup stage for the first time in 28 years — and they arrive not as tourists but as a team with a genuine tactical identity and the hunger to prove European football's most exciting coaching project belongs on the biggest stage.",

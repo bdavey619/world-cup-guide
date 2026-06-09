@@ -12,12 +12,13 @@
       "South Africa",
       "Czechia"
     ],
-    "oddsToWin": "+40000",
     "impliedProbability": "~0.2%",
     "lastWCResult": "R16 '22",
     "manager": "Hong Myung-bo",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1"
+    "formation": "4-2-3-1",
+    "winPct": 1,
+    "advancePct": 70
   },
   "narrative": {
     "essence": "South Korea enters 2026 in transition — the Son Heung-min era is winding down and the next generation hasn't fully arrived. But this team has always been greater than the sum of its parts, and the K-League machine keeps producing technically gifted players who overachieve on the world stage.",
