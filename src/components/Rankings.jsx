@@ -8,7 +8,7 @@ function posColor(i) {
   return 'var(--gray-400)'
 }
 
-export default function Rankings({ teams }) {
+export default function Rankings({ teams, onSelectTeam }) {
   const ranked = useMemo(
     () => [...teams].sort((a, b) => a.meta.fifaRanking - b.meta.fifaRanking),
     [teams]
@@ -71,9 +71,12 @@ export default function Rankings({ teams }) {
             const lastWC    = t.meta?.lastWCResult ?? ''
 
             return (
-              <div key={t.id} style={{
-                borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
-              }}>
+              <div
+                key={t.id}
+                className="rankings-row"
+                onClick={() => onSelectTeam?.(t)}
+                style={{ borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}
+              >
                 {/* Main row */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 10px' }}>
                   {/* Position */}
@@ -100,7 +103,7 @@ export default function Rankings({ teams }) {
                       fontFamily: 'var(--font-sans)',
                       fontSize: 13,
                       fontWeight: 600,
-                      color: 'var(--gray-900)',
+                      color: t.accentColor ?? 'var(--gray-900)',
                       overflow: 'hidden',
                       textOverflow: 'ellipsis',
                       whiteSpace: 'nowrap',

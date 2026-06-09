@@ -28,9 +28,9 @@ const PRIMARY_TABS = [
   { id: 'schedule', label: 'Schedule' },
   { id: 'guide', label: 'Guide' },
   { id: 'overview', label: 'Overview' },
-  { id: 'rankings', label: 'Rankings' },
 ]
 const MORE_TABS = [
+  { id: 'rankings', label: 'Rankings' },
   { id: 'bracket', label: 'Bracket' },
   { id: 'storylines', label: 'Storylines' },
   { id: 'dreamteam', label: 'Dream Team' },
@@ -316,7 +316,7 @@ export default function App() {
         ) : activeView === 'overview' ? (
           <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
         ) : activeView === 'rankings' ? (
-          <Rankings teams={teams} />
+          <Rankings teams={teams} onSelectTeam={selectTeam} />
         ) : activeView === 'bracket' ? (
           <Bracket />
         ) : activeView === 'storylines' ? (

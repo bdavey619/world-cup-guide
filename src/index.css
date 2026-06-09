@@ -39,6 +39,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Rankings row hover */
+.rankings-row { cursor: pointer; transition: background 0.1s; }
+.rankings-row:hover { background: var(--gray-50) !important; }
+
 /* Hide scrollbars on scroll containers */
 .scroll-x {
   overflow-x: auto;
