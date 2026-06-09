@@ -97,7 +97,6 @@ function TeamRow({ team, isWinner, showGroup }) {
       background: isWinner && team ? '#fafafa' : 'white',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 5, overflow: 'hidden', flex: 1, minWidth: 0 }}>
-        <span style={{ fontSize: 12, flexShrink: 0 }}>{team?.flagEmoji ?? ''}</span>
         {showGroup && team && (
           <span style={{
             fontSize: 8,
@@ -113,6 +112,7 @@ function TeamRow({ team, isWinner, showGroup }) {
             {team.meta.group}
           </span>
         )}
+        <span style={{ fontSize: 12, flexShrink: 0 }}>{team?.flagEmoji ?? ''}</span>
         <span style={{
           fontSize: 10,
           fontFamily: 'var(--font-sans)',
