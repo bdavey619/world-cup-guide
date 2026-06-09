@@ -43,9 +43,31 @@ export default function App() {
   const [moreOpen, setMoreOpen] = useState(false)
   const moreRef = useRef(null)
 
-  // Seed the initial history entry so the first back press restores it
+  // Parse hash → { view, teamId, group }
+  function parseHash() {
+    const hash = window.location.hash.slice(1) // strip #
+    if (!hash) return null
+    const [view, teamId, group] = hash.split('/')
+    return { view: view || 'schedule', teamId: teamId || 'france', group: group || 'I' }
+  }
+
+  // Build hash string from state
+  function toHash(view, teamId, group) {
+    if (view === 'guide') return `#guide/${teamId}/${group}`
+    return `#${view}`
+  }
+
+  // Seed initial state from URL hash, then listen for back/forward
   useEffect(() => {
-    window.history.replaceState({ view: 'schedule', teamId: 'france', group: 'I' }, '')
+    const initial = parseHash()
+    if (initial) {
+      setActiveView(initial.view)
+      setSelectedTeamId(initial.teamId)
+      setActiveGroup(initial.group)
+      window.history.replaceState({ ...initial }, '', toHash(initial.view, initial.teamId, initial.group))
+    } else {
+      window.history.replaceState({ view: 'schedule', teamId: 'france', group: 'I' }, '', '#schedule')
+    }
     function onPop(e) {
       if (!e.state) return
       setActiveView(e.state.view)
@@ -72,7 +94,7 @@ export default function App() {
   function navigate(view, opts = {}) {
     const teamId = opts.teamId ?? selectedTeamId
     const group  = opts.group  ?? activeGroup
-    window.history.pushState({ view, teamId, group }, '')
+    window.history.pushState({ view, teamId, group }, '', toHash(view, teamId, group))
     setActiveView(view)
     if (opts.teamId !== undefined) setSelectedTeamId(opts.teamId)
     if (opts.group  !== undefined) setActiveGroup(opts.group)
