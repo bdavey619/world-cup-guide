@@ -150,6 +150,15 @@ export default function App() {
               </button>
             ))}
 
+            {/* Separator between primary and secondary tabs */}
+            <div className="nav-more-desktop" style={{
+              width: 1,
+              height: 16,
+              background: 'var(--gray-200)',
+              flexShrink: 0,
+              margin: '0 4px',
+            }} />
+
             {/* More tabs inline on desktop */}
             {MORE_TABS.map(({ id, label }) => (
               <button
