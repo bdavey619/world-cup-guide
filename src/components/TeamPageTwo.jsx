@@ -308,7 +308,7 @@ export default function TeamPageTwo({ team }) {
         fontStyle: 'normal',
       }}>
         <span>World Cup Watch Guide · 2026 · p.2</span>
-        <span>Odds: DraftKings · May 5, 2026</span>
+        <span>Odds: DraftKings · Jun 8, 2026</span>
       </div>
     </div>
   )
