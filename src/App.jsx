@@ -107,8 +107,8 @@ export default function App() {
       <div style={{
         display: 'grid',
         gridTemplateColumns: isMobile ? '1fr 1fr' : 'repeat(4, 1fr)',
-        gap: '10px',
-        padding: '10px 20px',
+        gap: '8px',
+        padding: isMobile ? '10px 12px' : '10px 20px',
         background: '#0c1220',
         borderBottom: '2px solid #1a2535',
       }}>
@@ -121,16 +121,17 @@ export default function App() {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              padding: '10px 8px',
+              padding: '10px 6px',
               borderRadius: '8px',
               background: active ? '#1a2740' : '#111827',
               border: `1px solid ${active ? '#e8b84b' : '#1e2a3a'}`,
               cursor: 'pointer',
               gap: '3px',
               transition: 'border-color 0.15s',
+              minWidth: 0,
             }}>
               <div style={{ fontSize: '22px', lineHeight: 1 }}>{team.flag}</div>
-              <div style={{ fontSize: isMobile ? '12px' : '14px', fontWeight: 700, color: '#fff', textAlign: 'center', lineHeight: 1.2 }}>{teamName}</div>
+              <div style={{ fontSize: isMobile ? '11px' : '14px', fontWeight: 700, color: '#fff', textAlign: 'center', lineHeight: 1.2, wordBreak: 'break-word', overflowWrap: 'anywhere' }}>{teamName}</div>
               <div style={{ fontSize: isMobile ? '10px' : '12px', color: '#607080' }}>#{team.fifaRanking} FIFA</div>
               <div style={{ fontSize: isMobile ? '10px' : '12px', color: '#e8b84b', fontWeight: 600 }}>{team.odds}</div>
             </div>
