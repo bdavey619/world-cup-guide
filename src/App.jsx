@@ -50,7 +50,7 @@ export default function App() {
     const hash = window.location.hash.slice(1) // strip #
     if (!hash) return null
     const [view, teamId, group] = hash.split('/')
-    return { view: view || 'schedule', teamId: teamId || 'france', group: group || 'I' }
+    return { view: view || 'overview', teamId: teamId || 'france', group: group || 'I' }
   }
 
   // Build hash string from state
@@ -68,7 +68,7 @@ export default function App() {
       setActiveGroup(initial.group)
       window.history.replaceState({ ...initial }, '', toHash(initial.view, initial.teamId, initial.group))
     } else {
-      window.history.replaceState({ view: 'schedule', teamId: 'france', group: 'I' }, '', '#schedule')
+      window.history.replaceState({ view: 'overview', teamId: 'france', group: 'I' }, '', '#overview')
     }
     function onPop(e) {
       if (!e.state) return
