@@ -54,7 +54,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
               }}>
                 <span style={{
                   fontFamily: 'var(--font-sans)',
-                  fontSize: 10,
+                  fontSize: 11,
                   fontWeight: 700,
                   letterSpacing: '0.06em',
                   textTransform: 'uppercase',
@@ -82,16 +82,16 @@ export default function Groups({ teams, groups, onSelectTeam }) {
                       display: 'flex',
                       alignItems: 'center',
                       gap: 4,
-                      padding: '4px 8px',
+                      padding: '6px 8px',
                       borderBottom: i < gTeams.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
                       cursor: 'pointer',
                       background: isLeader ? 'var(--gray-50)' : 'white',
                     }}
                   >
-                    <span style={{ fontSize: 12, lineHeight: 1, flexShrink: 0 }}>{t.flagEmoji}</span>
+                    <span style={{ fontSize: 14, lineHeight: 1, flexShrink: 0 }}>{t.flagEmoji}</span>
                     <span style={{
                       fontFamily: 'var(--font-sans)',
-                      fontSize: 11,
+                      fontSize: 13,
                       fontWeight: i < 2 ? 600 : 400,
                       color: 'var(--gray-900)',
                       flex: 1,
@@ -104,7 +104,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
                     </span>
                     <span style={{
                       fontFamily: 'var(--font-sans)',
-                      fontSize: 11,
+                      fontSize: 13,
                       fontWeight: 600,
                       color: s.pts > 0 ? 'var(--gray-900)' : 'var(--gray-400)',
                       flexShrink: 0,
