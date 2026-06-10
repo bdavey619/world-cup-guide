@@ -39,7 +39,7 @@ const MORE_TABS = [
 export default function App() {
   const [activeGroup, setActiveGroup] = useState('I')
   const [selectedTeamId, setSelectedTeamId] = useState('france')
-  const [activeView, setActiveView] = useState('schedule')
+  const [activeView, setActiveView] = useState('overview')
   const [moreOpen, setMoreOpen] = useState(false)
   const moreRef = useRef(null)
 
@@ -390,7 +390,7 @@ export default function App() {
             </div>
           </div>
         ) : activeView === 'overview' ? (
-          <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
+          <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} onNavigate={setActiveView} />
         ) : activeView === 'rankings' ? (
           <Rankings teams={teams} onSelectTeam={selectTeam} />
         ) : activeView === 'bracket' ? (

@@ -236,47 +236,6 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
   )
 }
 
-function ClosingFooter() {
-  return (
-    <div style={{ marginTop: 32 }}>
-      <div style={{ height: '0.5px', background: 'var(--gray-200)' }} />
-      <div style={{
-        padding: '28px 16px',
-        textAlign: 'center',
-        maxWidth: 480,
-        margin: '0 auto',
-      }}>
-        <p style={{
-          fontFamily: 'var(--font-serif)',
-          fontSize: 14,
-          fontWeight: 500,
-          color: 'var(--gray-700)',
-          margin: '0 0 10px',
-        }}>
-          One more thing.
-        </p>
-        <p style={{
-          fontSize: 13,
-          fontStyle: 'italic',
-          color: 'var(--gray-500)',
-          lineHeight: 1.7,
-          margin: '0 0 8px',
-        }}>
-          Every World Cup arrives with stories everyone expects and leaves with one nobody saw coming.
-        </p>
-        <p style={{
-          fontSize: 13,
-          fontStyle: 'italic',
-          color: 'var(--gray-500)',
-          lineHeight: 1.7,
-          margin: 0,
-        }}>
-          Use these as a guide to what to notice — not a prediction of what matters.
-        </p>
-      </div>
-    </div>
-  )
-}
 
 export default function Storylines() {
   const [expanded, setExpanded] = useState(new Set())
@@ -358,8 +317,6 @@ export default function Storylines() {
         ))}
       </div>
 
-      {/* Closing editorial footer */}
-      <ClosingFooter />
     </div>
   )
 }
