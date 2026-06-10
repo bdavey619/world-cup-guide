@@ -242,8 +242,8 @@ function ViewToggle({ view, onChange }) {
       gap: 2,
     }}>
       {[
-        { id: 'projected', label: 'Projected' },
         { id: 'actual',    label: 'Actual' },
+        { id: 'projected', label: 'Projected' },
       ].map(({ id, label }) => (
         <button
           key={id}
@@ -271,7 +271,7 @@ function ViewToggle({ view, onChange }) {
 
 // ─── Main export ───────────────────────────────────────────────
 export default function Bracket({ teams = [] }) {
-  const [view, setView] = useState('projected')
+  const [view, setView] = useState('actual')
 
   if (!teams.length) return null
 
