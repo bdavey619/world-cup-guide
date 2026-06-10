@@ -1,8 +1,9 @@
+import { useState } from 'react'
 import { useIsMobile } from '../hooks/useIsMobile'
 import { bracketRounds, thirdPlace } from '../data/bracket'
+import { projectedRounds, projectedThirdPlace } from '../data/bracketProjected'
 
-function TeamSlot({ slot, isWinner, isLoser, isTop }) {
-  const hasResult = isWinner || isLoser
+function TeamSlot({ slot, isWinner, isLoser, isTop, isProjected }) {
   return (
     <div style={{
       display: 'flex',
@@ -26,7 +27,7 @@ function TeamSlot({ slot, isWinner, isLoser, isTop }) {
       }}>
         {slot.name || slot.label}
       </span>
-      {slot.score !== null && (
+      {slot.score !== null ? (
         <span style={{
           fontSize: '13px',
           fontWeight: 700,
@@ -37,12 +38,22 @@ function TeamSlot({ slot, isWinner, isLoser, isTop }) {
         }}>
           {slot.score}
         </span>
-      )}
+      ) : isWinner && isProjected ? (
+        <span style={{
+          fontSize: '8px',
+          fontWeight: 700,
+          color: '#e8b84b99',
+          letterSpacing: '0.06em',
+          flexShrink: 0,
+        }}>
+          PROJ
+        </span>
+      ) : null}
     </div>
   )
 }
 
-function MatchCard({ match, width = 190, showVenue = true, highlight = false }) {
+function MatchCard({ match, width = 190, showVenue = true, highlight = false, isProjected = false }) {
   return (
     <div style={{
       background: '#111827',
@@ -65,8 +76,8 @@ function MatchCard({ match, width = 190, showVenue = true, highlight = false }) 
         </span>
         <span style={{ fontSize: '9px', color: '#3a4a5a', fontWeight: 600, whiteSpace: 'nowrap' }}>{match.date}</span>
       </div>
-      <TeamSlot slot={match.home} isWinner={match.winner === 'home'} isLoser={match.winner === 'away'} isTop />
-      <TeamSlot slot={match.away} isWinner={match.winner === 'away'} isLoser={match.winner === 'home'} isTop={false} />
+      <TeamSlot slot={match.home} isWinner={match.winner === 'home'} isLoser={match.winner === 'away'} isTop isProjected={isProjected} />
+      <TeamSlot slot={match.away} isWinner={match.winner === 'away'} isLoser={match.winner === 'home'} isTop={false} isProjected={isProjected} />
       {showVenue && match.venue && (
         <div style={{ padding: '3px 10px', background: '#0c1220', fontSize: '9px', color: '#2a3a4a', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
           {match.venue}
@@ -76,29 +87,17 @@ function MatchCard({ match, width = 190, showVenue = true, highlight = false }) 
   )
 }
 
-// Desktop bracket: horizontal flow with alignment connectors
-function DesktopBracket() {
-  const MATCH_H = 88   // total match card height approx
-  const GAP = 20       // base gap between matches
+function DesktopBracket({ rounds, thirdPlaceMatch, isProjected }) {
+  const MATCH_H = 88
+  const GAP = 20
 
-  const rounds = bracketRounds
-
-  // Column widths
   const colW = 200
-  const connW = 32  // connector column width
-
-  // Alignment: each round doubles the spacing between matches
-  // R16: 8 matches, slot height = MATCH_H + GAP
-  // QF:  4 matches, slot height = 2*(MATCH_H + GAP)
-  // SF:  2 matches, slot height = 4*(MATCH_H + GAP)
-  // Final: 1 match, centered
+  const connW = 32
 
   const unit = MATCH_H + GAP
 
   const colMatches = [8, 4, 2, 1]
   const slotHeights = colMatches.map((_, i) => unit * Math.pow(2, i))
-
-  const totalH = 8 * unit + GAP
 
   return (
     <div style={{ overflowX: 'auto', paddingBottom: '16px' }}>
@@ -136,7 +135,7 @@ function DesktopBracket() {
                 </div>
 
                 {/* Matches */}
-                {round.matches.map((match, i) => (
+                {round.matches.map((match) => (
                   <div key={match.id} style={{
                     height: slotH,
                     display: 'flex',
@@ -150,6 +149,7 @@ function DesktopBracket() {
                       width={colW - 8}
                       showVenue={roundIdx >= 2}
                       highlight={round.id === 'final'}
+                      isProjected={isProjected}
                     />
                   </div>
                 ))}
@@ -163,7 +163,6 @@ function DesktopBracket() {
                   flexDirection: 'column',
                   paddingTop: '28px',
                 }}>
-                  {/* Draw one connector per pair of matches in this round */}
                   {Array.from({ length: round.matches.length / 2 }).map((_, pairIdx) => {
                     const topOff = slotH / 2
                     const spanH = slotH * 2
@@ -173,7 +172,6 @@ function DesktopBracket() {
                         position: 'relative',
                         flexShrink: 0,
                       }}>
-                        {/* Top arm: from center of top match down */}
                         <div style={{
                           position: 'absolute',
                           top: topOff - 1,
@@ -184,7 +182,6 @@ function DesktopBracket() {
                           borderBottom: '1px solid #1e2a3a',
                           borderBottomRightRadius: '4px',
                         }} />
-                        {/* Bottom arm: from midpoint up to center of bottom match */}
                         <div style={{
                           position: 'absolute',
                           top: spanH / 2,
@@ -195,7 +192,6 @@ function DesktopBracket() {
                           borderTop: '1px solid #1e2a3a',
                           borderTopRightRadius: '4px',
                         }} />
-                        {/* Horizontal line from join point to next round */}
                         <div style={{
                           position: 'absolute',
                           top: spanH / 2 - 1,
@@ -215,18 +211,17 @@ function DesktopBracket() {
 
       {/* Third place */}
       <div style={{ marginTop: '12px', display: 'flex', alignItems: 'center', gap: '12px', paddingLeft: '4px' }}>
-        <div style={{ fontSize: '9px', color: '#3a4a5a', fontWeight: 700, letterSpacing: '0.08em', whiteSpace: 'nowrap' }}>3RD PLACE · {thirdPlace.date}</div>
-        <MatchCard match={thirdPlace} width={200} showVenue />
+        <div style={{ fontSize: '9px', color: '#3a4a5a', fontWeight: 700, letterSpacing: '0.08em', whiteSpace: 'nowrap' }}>3RD PLACE · {thirdPlaceMatch.date}</div>
+        <MatchCard match={thirdPlaceMatch} width={200} showVenue isProjected={isProjected} />
       </div>
     </div>
   )
 }
 
-// Mobile bracket: stacked rounds
-function MobileBracket() {
+function MobileBracket({ rounds, thirdPlaceMatch, isProjected }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-      {bracketRounds.map(round => (
+      {rounds.map(round => (
         <div key={round.id}>
           <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', marginBottom: '10px' }}>
             <div style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', color: '#a0b0c0' }}>{round.label}</div>
@@ -234,7 +229,7 @@ function MobileBracket() {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {round.matches.map(match => (
-              <MatchCard key={match.id} match={match} width='100%' showVenue />
+              <MatchCard key={match.id} match={match} width='100%' showVenue isProjected={isProjected} />
             ))}
           </div>
         </div>
@@ -243,9 +238,9 @@ function MobileBracket() {
       {/* Third place */}
       <div>
         <div style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', color: '#607080', marginBottom: '10px' }}>
-          3RD PLACE · {thirdPlace.date}
+          3RD PLACE · {thirdPlaceMatch.date}
         </div>
-        <MatchCard match={thirdPlace} width='100%' showVenue />
+        <MatchCard match={thirdPlaceMatch} width='100%' showVenue isProjected={isProjected} />
       </div>
     </div>
   )
@@ -253,11 +248,15 @@ function MobileBracket() {
 
 export default function Bracket() {
   const isMobile = useIsMobile()
+  const [view, setView] = useState('projected')
 
-  // Count completed matches
-  const total = bracketRounds.reduce((acc, r) => acc + r.matches.length, 0) + 1
-  const played = bracketRounds.reduce((acc, r) => acc + r.matches.filter(m => m.winner).length, 0) +
-    (thirdPlace.winner ? 1 : 0)
+  const rounds = view === 'actual' ? bracketRounds : projectedRounds
+  const thirdPlaceMatch = view === 'actual' ? thirdPlace : projectedThirdPlace
+  const isProjected = view === 'projected'
+
+  const total = rounds.reduce((acc, r) => acc + r.matches.length, 0) + 1
+  const played = rounds.reduce((acc, r) => acc + r.matches.filter(m => m.winner).length, 0) +
+    (thirdPlaceMatch.winner ? 1 : 0)
 
   return (
     <div>
@@ -268,23 +267,68 @@ export default function Bracket() {
           <h2 style={{ margin: 0, fontSize: '22px', fontWeight: 800, color: '#fff' }}>Tournament Bracket</h2>
           <p style={{ margin: '4px 0 0', color: '#607080', fontSize: '13px' }}>Round of 16 through the Final · MetLife Stadium, NJ</p>
         </div>
-        <div style={{
-          background: '#111827',
-          border: '1px solid #1e2a3a',
-          borderRadius: '8px',
-          padding: '10px 16px',
-          textAlign: 'center',
-          flexShrink: 0,
-        }}>
-          <div style={{ fontSize: '10px', color: '#607080', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '3px' }}>MATCHES PLAYED</div>
-          <div style={{ fontSize: '20px', fontWeight: 800, color: '#fff' }}>{played}<span style={{ fontSize: '13px', color: '#607080', fontWeight: 400 }}> / {total}</span></div>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '8px' }}>
+          {/* Toggle */}
+          <div style={{
+            display: 'flex',
+            background: '#0c1220',
+            border: '1px solid #1e2a3a',
+            borderRadius: '8px',
+            padding: '3px',
+            gap: '2px',
+          }}>
+            {[
+              { id: 'actual', label: 'ACTUAL' },
+              { id: 'projected', label: 'PROJECTED' },
+            ].map(({ id, label }) => (
+              <button
+                key={id}
+                onClick={() => setView(id)}
+                style={{
+                  background: view === id ? '#1e2a3a' : 'transparent',
+                  border: 'none',
+                  borderRadius: '6px',
+                  padding: '6px 14px',
+                  color: view === id ? '#e8b84b' : '#607080',
+                  fontWeight: 700,
+                  fontSize: '11px',
+                  letterSpacing: '0.08em',
+                  cursor: 'pointer',
+                  transition: 'color 0.15s, background 0.15s',
+                }}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+          {/* Stat card */}
+          <div style={{
+            background: '#111827',
+            border: '1px solid #1e2a3a',
+            borderRadius: '8px',
+            padding: '10px 16px',
+            textAlign: 'center',
+            flexShrink: 0,
+          }}>
+            {isProjected ? (
+              <>
+                <div style={{ fontSize: '10px', color: '#607080', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '3px' }}>SOURCE</div>
+                <div style={{ fontSize: '13px', fontWeight: 700, color: '#e8b84b' }}>Polymarket</div>
+              </>
+            ) : (
+              <>
+                <div style={{ fontSize: '10px', color: '#607080', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '3px' }}>MATCHES PLAYED</div>
+                <div style={{ fontSize: '20px', fontWeight: 800, color: '#fff' }}>{played}<span style={{ fontSize: '13px', color: '#607080', fontWeight: 400 }}> / {total}</span></div>
+              </>
+            )}
+          </div>
         </div>
       </div>
 
       {/* Legend */}
-      <div style={{ display: 'flex', gap: '16px', marginBottom: '20px', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', gap: '16px', marginBottom: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
         {[
-          { color: '#e8b84b', label: 'Winner / Score' },
+          { color: '#e8b84b', label: isProjected ? 'Projected winner' : 'Winner / Score' },
           { color: '#162416', label: 'Advanced', bg: true },
           { color: '#3a4a5a', label: 'TBD slot' },
         ].map(({ color, label, bg }) => (
@@ -298,9 +342,17 @@ export default function Bracket() {
             <span style={{ fontSize: '11px', color: '#607080' }}>{label}</span>
           </div>
         ))}
+        {isProjected && (
+          <span style={{ fontSize: '11px', color: '#3a4a5a', marginLeft: 'auto' }}>
+            Based on pre-tournament Polymarket odds
+          </span>
+        )}
       </div>
 
-      {isMobile ? <MobileBracket /> : <DesktopBracket />}
+      {isMobile
+        ? <MobileBracket rounds={rounds} thirdPlaceMatch={thirdPlaceMatch} isProjected={isProjected} />
+        : <DesktopBracket rounds={rounds} thirdPlaceMatch={thirdPlaceMatch} isProjected={isProjected} />
+      }
     </div>
   )
 }
