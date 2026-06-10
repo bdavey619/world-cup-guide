@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { storylines } from '../data/storylines.js'
 
 function hexToRgba(hex, alpha) {
@@ -12,6 +13,14 @@ const TIERS = [
   { key: 'A', label: 'A — Tier', description: 'Elite narratives' },
   { key: 'B', label: 'B — Tier', description: 'Essential supporting stories' },
 ]
+
+const pillBase = {
+  fontSize: 10,
+  textTransform: 'uppercase',
+  letterSpacing: '0.06em',
+  padding: '3px 8px',
+  borderRadius: 12,
+}
 
 function TierHeader({ label, description, first }) {
   return (
@@ -48,227 +57,181 @@ function TierHeader({ label, description, first }) {
   )
 }
 
-function StorylineCard({ s }) {
+function Chevron({ open }) {
   return (
-    <div
-      style={{
-        background: 'white',
-        borderRadius: 8,
-        overflow: 'hidden',
-        boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
-        display: 'flex',
-      }}
-    >
-      <div style={{ width: 4, flexShrink: 0, background: s.accentColor }} />
-      <div style={{ padding: '20px 20px 20px 24px', flex: 1 }}>
-        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
-          <span style={{
-            fontSize: 10,
-            textTransform: 'uppercase',
-            letterSpacing: '0.06em',
-            background: 'var(--surface)',
-            color: 'var(--gray-700)',
-            padding: '3px 8px',
-            borderRadius: 12,
-          }}>
-            {s.type}
-          </span>
-          {s.teams.map(tag => (
-            <span
-              key={tag}
-              style={{
-                fontSize: 10,
-                textTransform: 'uppercase',
-                letterSpacing: '0.06em',
-                background: hexToRgba(s.accentColor, 0.12),
-                color: s.accentColor,
-                padding: '3px 8px',
-                borderRadius: 12,
-              }}
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        <div style={{ marginTop: 8 }}>
-          <div style={{ fontSize: 11, color: 'var(--gray-400)', fontFamily: 'inherit' }}>
-            {String(s.rank).padStart(2, '0')}
-          </div>
-          <div style={{
-            fontFamily: 'var(--font-serif)',
-            fontSize: 22,
-            fontWeight: 500,
-            color: 'var(--gray-900)',
-            lineHeight: 1.2,
-            marginTop: 2,
-          }}>
-            {s.headline}
-          </div>
-        </div>
-
-        <div style={{
-          fontSize: 13,
-          fontStyle: 'italic',
-          color: 'var(--gray-700)',
-          marginTop: 4,
-        }}>
-          {s.subheadline}
-        </div>
-
-        <div style={{ marginTop: 10 }}>
-          {s.narrative.split('\n\n').map((para, pi) => (
-            <p key={pi} style={{
-              fontSize: 13,
-              lineHeight: 1.75,
-              color: 'var(--gray-700)',
-              margin: pi === 0 ? 0 : '8px 0 0',
-            }}>
-              {para}
-            </p>
-          ))}
-        </div>
-      </div>
-    </div>
+    <span style={{
+      fontSize: 14,
+      color: 'var(--gray-400)',
+      display: 'inline-block',
+      lineHeight: 1,
+      transition: 'transform 0.18s ease',
+      transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
+      userSelect: 'none',
+    }}>
+      ▾
+    </span>
   )
 }
 
-function StorylinesAtAGlance() {
-  const sTier = storylines.filter(s => s.tier === 'S')
-  const abTier = storylines.filter(s => s.tier === 'A' || s.tier === 'B')
+function TypePill({ type }) {
+  return (
+    <span style={{
+      ...pillBase,
+      background: 'var(--surface)',
+      color: 'var(--gray-700)',
+    }}>
+      {type}
+    </span>
+  )
+}
+
+function TeamPill({ tag, accentColor }) {
+  return (
+    <span style={{
+      ...pillBase,
+      background: hexToRgba(accentColor, 0.12),
+      color: accentColor,
+    }}>
+      {tag}
+    </span>
+  )
+}
+
+function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLeave }) {
+  const rankStr = String(s.rank).padStart(2, '0')
 
   return (
-    <div style={{
-      background: 'white',
-      borderRadius: 8,
-      boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
-      overflow: 'hidden',
-      marginBottom: 24,
-    }}>
-      {/* Section label */}
-      <div style={{
+    <div
+      style={{
+        background: isOpen ? 'white' : (isHovered ? 'var(--gray-50)' : 'white'),
+        borderRadius: 8,
+        overflow: 'hidden',
+        boxShadow: isOpen
+          ? '0 2px 8px rgba(0,0,0,0.10)'
+          : '0 1px 3px rgba(0,0,0,0.08)',
         display: 'flex',
-        alignItems: 'center',
-        gap: 10,
-        padding: '14px 20px 0 20px',
-      }}>
-        <span style={{
-          fontSize: 10,
-          fontFamily: 'var(--font-sans)',
-          textTransform: 'uppercase',
-          letterSpacing: '0.1em',
-          color: 'var(--gray-500)',
-          fontWeight: 600,
-          whiteSpace: 'nowrap',
-        }}>
-          At a Glance
-        </span>
-        <div style={{ flex: 1, height: '0.5px', background: 'var(--gray-200)' }} />
-      </div>
+        transition: 'box-shadow 0.15s ease',
+        cursor: 'pointer',
+      }}
+      onClick={onToggle}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
+      {/* Accent bar */}
+      <div style={{ width: 4, flexShrink: 0, background: s.accentColor }} />
 
-      <div style={{ padding: '12px 20px 20px 20px' }}>
-        {/* Intro */}
-        <p style={{
-          fontSize: 13,
-          fontStyle: 'italic',
-          color: 'var(--gray-500)',
-          margin: '0 0 4px',
-          lineHeight: 1.5,
-        }}>
-          Start here if you only have a minute.
-        </p>
+      {isOpen ? (
+        /* ── EXPANDED ── */
+        <div style={{ padding: '16px 20px 20px 24px', flex: 1 }}>
+          {/* Top row: pills + chevron */}
+          <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 8 }}>
+            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
+              <TypePill type={s.type} />
+              {s.teams.map(tag => (
+                <TeamPill key={tag} tag={tag} accentColor={s.accentColor} />
+              ))}
+            </div>
+            <Chevron open={true} />
+          </div>
 
-        {/* S-tier featured rows */}
-        {sTier.map((s, i) => (
-          <div
-            key={s.id}
-            style={{
-              display: 'flex',
-              alignItems: 'flex-start',
-              gap: 12,
-              padding: '10px 0',
-              borderTop: '0.5px solid var(--gray-100)',
-              marginTop: i === 0 ? 8 : 0,
-            }}
-          >
-            <span style={{
-              fontSize: 11,
-              fontFamily: 'var(--font-sans)',
-              color: s.accentColor,
-              fontWeight: 600,
-              minWidth: 20,
-              paddingTop: 2,
-              flexShrink: 0,
+          {/* Rank + headline */}
+          <div style={{ marginTop: 10 }}>
+            <div style={{ fontSize: 11, color: 'var(--gray-400)', fontFamily: 'inherit' }}>
+              {rankStr}
+            </div>
+            <div style={{
+              fontFamily: 'var(--font-serif)',
+              fontSize: 22,
+              fontWeight: 500,
+              color: 'var(--gray-900)',
+              lineHeight: 1.2,
+              marginTop: 2,
             }}>
-              {String(s.rank).padStart(2, '0')}
-            </span>
-            <div>
-              <div style={{
-                fontFamily: 'var(--font-serif)',
-                fontSize: 15,
-                fontWeight: 500,
-                color: 'var(--gray-900)',
-                lineHeight: 1.3,
-              }}>
-                {s.headline}
-              </div>
-              <div style={{
-                fontSize: 12,
-                color: 'var(--gray-500)',
-                marginTop: 2,
-                lineHeight: 1.4,
-              }}>
-                {s.glance}
-              </div>
+              {s.headline}
             </div>
           </div>
-        ))}
 
-        {/* Also Watch */}
-        <div style={{
-          borderTop: '0.5px solid var(--gray-200)',
-          marginTop: 12,
-          paddingTop: 12,
-        }}>
+          {/* Subheadline */}
           <div style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'baseline',
-            gap: '4px 0',
+            fontSize: 13,
+            fontStyle: 'italic',
+            color: 'var(--gray-700)',
+            marginTop: 6,
           }}>
-            <span style={{
-              fontSize: 10,
-              fontFamily: 'var(--font-sans)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              color: 'var(--gray-400)',
-              marginRight: 8,
-              flexShrink: 0,
-            }}>
-              Also watch
-            </span>
-            {abTier.map((s, i) => (
-              <span key={s.id} style={{ display: 'inline-flex', alignItems: 'center' }}>
-                {i > 0 && (
-                  <span style={{
-                    color: 'var(--gray-300)',
-                    margin: '0 6px',
-                    fontSize: 11,
-                    lineHeight: 1,
-                  }}>·</span>
-                )}
-                <span style={{
-                  fontSize: 12,
-                  color: 'var(--gray-700)',
-                  lineHeight: 1.5,
-                }}>
-                  {s.headline}
-                </span>
-              </span>
+            {s.subheadline}
+          </div>
+
+          {/* Narrative */}
+          <div style={{ marginTop: 12 }}>
+            {s.narrative.split('\n\n').map((para, pi) => (
+              <p key={pi} style={{
+                fontSize: 13,
+                lineHeight: 1.75,
+                color: 'var(--gray-700)',
+                margin: pi === 0 ? 0 : '8px 0 0',
+              }}>
+                {para}
+              </p>
             ))}
           </div>
         </div>
-      </div>
+      ) : (
+        /* ── COLLAPSED ── */
+        <div style={{
+          padding: '12px 14px 12px 18px',
+          flex: 1,
+          display: 'flex',
+          alignItems: 'flex-start',
+          gap: 10,
+        }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            {/* Rank + headline */}
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 7 }}>
+              <span style={{
+                fontSize: 11,
+                fontFamily: 'var(--font-sans)',
+                color: s.accentColor,
+                fontWeight: 600,
+                flexShrink: 0,
+              }}>
+                {rankStr}
+              </span>
+              <span style={{
+                fontFamily: 'var(--font-serif)',
+                fontSize: 17,
+                fontWeight: 500,
+                color: 'var(--gray-900)',
+                lineHeight: 1.2,
+              }}>
+                {s.headline}
+              </span>
+            </div>
+
+            {/* Glance one-liner */}
+            <div style={{
+              fontSize: 12,
+              color: 'var(--gray-500)',
+              marginTop: 4,
+              lineHeight: 1.4,
+            }}>
+              {s.glance}
+            </div>
+
+            {/* Pills */}
+            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginTop: 8 }}>
+              <TypePill type={s.type} />
+              {s.teams.map(tag => (
+                <TeamPill key={tag} tag={tag} accentColor={s.accentColor} />
+              ))}
+            </div>
+          </div>
+
+          {/* Chevron */}
+          <div style={{ flexShrink: 0, paddingTop: 3 }}>
+            <Chevron open={false} />
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -316,6 +279,23 @@ function ClosingFooter() {
 }
 
 export default function Storylines() {
+  const [expanded, setExpanded] = useState(new Set())
+  const [hovering, setHovering] = useState(null)
+
+  const isOpen = id => expanded.has(id)
+
+  const toggle = id => setExpanded(prev => {
+    const next = new Set(prev)
+    next.has(id) ? next.delete(id) : next.add(id)
+    return next
+  })
+
+  const allExpanded = expanded.size === storylines.length
+  const toggleAll = (e) => {
+    e.stopPropagation()
+    setExpanded(allExpanded ? new Set() : new Set(storylines.map(s => s.id)))
+  }
+
   const grouped = TIERS.map(t => ({
     ...t,
     stories: storylines.filter(s => s.tier === t.key),
@@ -334,22 +314,44 @@ export default function Storylines() {
         }}>
           The Stories to Follow
         </h1>
-        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: 0 }}>
-          Eleven narratives that will define the 2026 World Cup
+        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: '0 0 12px' }}>
+          Eleven narratives to scan now and follow deeper throughout the tournament.
         </p>
+        <button
+          onClick={toggleAll}
+          style={{
+            fontSize: 11,
+            fontFamily: 'var(--font-sans)',
+            textTransform: 'uppercase',
+            letterSpacing: '0.06em',
+            color: 'var(--gray-500)',
+            background: 'var(--surface)',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '4px 12px',
+            borderRadius: 12,
+          }}
+        >
+          {allExpanded ? 'Collapse all' : 'Expand all'}
+        </button>
       </div>
 
-      {/* At a Glance summary */}
-      <StorylinesAtAGlance />
-
-      {/* Tiered longform cards */}
+      {/* Tiered expandable storyline list */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
         {grouped.map((group, gi) => (
           <div key={group.key}>
             <TierHeader label={group.label} description={group.description} first={gi === 0} />
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {group.stories.map(s => (
-                <StorylineCard key={s.id} s={s} />
+                <StorylineRow
+                  key={s.id}
+                  s={s}
+                  isOpen={isOpen(s.id)}
+                  onToggle={() => toggle(s.id)}
+                  isHovered={hovering === s.id && !isOpen(s.id)}
+                  onMouseEnter={() => setHovering(s.id)}
+                  onMouseLeave={() => setHovering(null)}
+                />
               ))}
             </div>
           </div>
