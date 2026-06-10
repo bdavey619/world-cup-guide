@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import { actualR32, actualR16, actualQF, actualSF, actualFinal, actual3rdPlace } from '../data/actualBracket'
+
 // Predicted bracket — frozen at tournament start (Jun 11, 2026)
 // Winners predicted by highest Polymarket tournament win %
 
@@ -28,7 +31,6 @@ function buildStandings(teams) {
   GROUPS.forEach(g => {
     s[g] = teams
       .filter(t => t.meta.group === g)
-      // Primary: advancePct, tiebreak: winPct — ensures stable, deterministic order
       .sort((a, b) =>
         b.meta.advancePct - a.meta.advancePct ||
         b.meta.winPct - a.meta.winPct
@@ -38,7 +40,6 @@ function buildStandings(teams) {
 }
 
 function resolveR32(standings) {
-  // Best 8 third-place teams sorted by advancePct (then winPct)
   const best3rd = GROUPS
     .map(g => standings[g]?.[2])
     .filter(Boolean)
@@ -65,7 +66,7 @@ function resolve(slot, standings, best3rd) {
 }
 
 // Predict winner by winPct; tiebreak by advancePct
-function winner(a, b) {
+function projectedWinner(a, b) {
   if (!a) return b
   if (!b) return a
   if (a.meta.winPct !== b.meta.winPct) return a.meta.winPct > b.meta.winPct ? a : b
@@ -73,31 +74,35 @@ function winner(a, b) {
 }
 
 // ─── Layout constants ──────────────────────────────────────────
-const CARD_H  = 50   // px — two rows + divider
-const ROW_GAP = 10   // gap between R32 cards
-const UNIT    = CARD_H + ROW_GAP   // 60px per R32 slot
-const TOTAL_H = 16 * UNIT          // 960px total bracket height
+const CARD_H  = 50
+const ROW_GAP = 10
+const UNIT    = CARD_H + ROW_GAP
+const TOTAL_H = 16 * UNIT
 
-// Vertical center of match i in a round with N matches
 function cardTop(N, i) {
   const span = TOTAL_H / N
   return i * span + (span - CARD_H) / 2
 }
 
 // ─── Sub-components ────────────────────────────────────────────
-function TeamRow({ team, isWinner, showGroup }) {
+
+// rightLabel: string to show on the right (overrides winPct when provided)
+// _isPlaceholder: team is a slot-label placeholder (TBD style)
+function TeamRow({ team, isWinner, showGroup, rightLabel }) {
   const accent = team?.accentColor ?? 'transparent'
+  const isPlaceholder = team?._isPlaceholder
+
   return (
     <div style={{
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
       padding: '5px 8px',
-      borderLeft: `3px solid ${isWinner && team ? accent : 'transparent'}`,
-      background: isWinner && team ? '#fafafa' : 'white',
+      borderLeft: `3px solid ${isWinner && team && !isPlaceholder ? accent : 'transparent'}`,
+      background: isWinner && team && !isPlaceholder ? '#fafafa' : 'white',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 5, overflow: 'hidden', flex: 1, minWidth: 0 }}>
-        {showGroup && team && (
+        {showGroup && team && !isPlaceholder && (
           <span style={{
             fontSize: 8,
             fontFamily: 'var(--font-sans)',
@@ -112,12 +117,15 @@ function TeamRow({ team, isWinner, showGroup }) {
             {team.meta.group}
           </span>
         )}
-        <span style={{ fontSize: 12, flexShrink: 0 }}>{team?.flagEmoji ?? ''}</span>
+        <span style={{ fontSize: 12, flexShrink: 0 }}>{!isPlaceholder ? (team?.flagEmoji ?? '') : ''}</span>
         <span style={{
           fontSize: 10,
           fontFamily: 'var(--font-sans)',
-          fontWeight: isWinner && team ? 600 : 400,
-          color: team ? 'var(--gray-900)' : 'var(--gray-300)',
+          fontWeight: isWinner && team && !isPlaceholder ? 600 : 400,
+          color: isPlaceholder
+            ? 'var(--gray-400)'
+            : team ? 'var(--gray-900)' : 'var(--gray-300)',
+          fontStyle: isPlaceholder ? 'italic' : 'normal',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
           textOverflow: 'ellipsis',
@@ -125,7 +133,7 @@ function TeamRow({ team, isWinner, showGroup }) {
           {team?.name ?? 'TBD'}
         </span>
       </div>
-      {team && (
+      {team && !isPlaceholder && (
         <span style={{
           fontSize: 9,
           fontFamily: 'var(--font-sans)',
@@ -134,15 +142,30 @@ function TeamRow({ team, isWinner, showGroup }) {
           flexShrink: 0,
           marginLeft: 4,
         }}>
-          {team.meta.winPct >= 1 ? `${team.meta.winPct}%` : '<1%'}
+          {rightLabel !== undefined
+            ? rightLabel
+            : (team.meta.winPct >= 1 ? `${team.meta.winPct}%` : '<1%')}
         </span>
       )}
     </div>
   )
 }
 
-function MatchCard({ a, b, width, showGroup }) {
-  const w = winner(a, b)
+// actualData: { winnerId, homeGoals, awayGoals } — if provided, uses actual result
+// matches: [a, b] or [a, b, actualData]
+function MatchCard({ a, b, width, showGroup, actualData }) {
+  let w, aLabel, bLabel
+  if (actualData) {
+    const { winnerId, homeGoals, awayGoals } = actualData
+    w = winnerId ? (winnerId === a?.id ? a : winnerId === b?.id ? b : null) : null
+    aLabel = homeGoals !== null ? String(homeGoals) : null
+    bLabel = awayGoals !== null ? String(awayGoals) : null
+  } else {
+    w = projectedWinner(a, b)
+    aLabel = undefined
+    bLabel = undefined
+  }
+
   return (
     <div style={{
       width,
@@ -152,19 +175,18 @@ function MatchCard({ a, b, width, showGroup }) {
       boxShadow: '0 1px 3px rgba(0,0,0,0.09)',
       flexShrink: 0,
     }}>
-      <TeamRow team={a} isWinner={!!a && w === a} showGroup={showGroup} />
+      <TeamRow team={a} isWinner={!!a && w === a} showGroup={showGroup} rightLabel={aLabel ?? undefined} />
       <div style={{ height: 1, background: 'var(--gray-100)' }} />
-      <TeamRow team={b} isWinner={!!b && w === b} showGroup={showGroup} />
+      <TeamRow team={b} isWinner={!!b && w === b} showGroup={showGroup} rightLabel={bLabel ?? undefined} />
     </div>
   )
 }
 
-// A round column using absolute positioning for bracket alignment
+// matches: [[a, b], ...] or [[a, b, actualData], ...]
 function RoundCol({ label, dates, matches, width, showGroup }) {
   const N = matches.length
   return (
     <div style={{ flexShrink: 0, width }}>
-      {/* Column header */}
       <div style={{
         textAlign: 'center',
         padding: '10px 4px 8px',
@@ -174,9 +196,8 @@ function RoundCol({ label, dates, matches, width, showGroup }) {
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
         <div style={{ fontSize: 10, color: 'var(--gray-400)', marginTop: 2, fontFamily: 'var(--font-sans)' }}>{dates}</div>
       </div>
-      {/* Bracket slots — absolutely positioned */}
       <div style={{ position: 'relative', height: TOTAL_H }}>
-        {matches.map(([a, b], i) => (
+        {matches.map(([a, b, actualData], i) => (
           <div key={i} style={{
             position: 'absolute',
             top: cardTop(N, i),
@@ -186,7 +207,7 @@ function RoundCol({ label, dates, matches, width, showGroup }) {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-            <MatchCard a={a} b={b} width={width - 4} showGroup={showGroup} />
+            <MatchCard a={a} b={b} width={width - 4} showGroup={showGroup} actualData={actualData} />
           </div>
         ))}
       </div>
@@ -202,7 +223,6 @@ function Divider() {
       display: 'flex',
       flexDirection: 'column',
     }}>
-      {/* spacer for header */}
       <div style={{ height: 57 }} />
       <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div style={{ width: 1, height: '100%', background: 'var(--gray-100)' }} />
@@ -211,34 +231,102 @@ function Divider() {
   )
 }
 
+// ─── Toggle button ─────────────────────────────────────────────
+function ViewToggle({ view, onChange }) {
+  return (
+    <div style={{
+      display: 'inline-flex',
+      background: 'var(--gray-100)',
+      borderRadius: 20,
+      padding: 3,
+      gap: 2,
+    }}>
+      {[
+        { id: 'projected', label: 'Projected' },
+        { id: 'actual',    label: 'Actual' },
+      ].map(({ id, label }) => (
+        <button
+          key={id}
+          onClick={() => onChange(id)}
+          style={{
+            background: view === id ? 'white' : 'transparent',
+            border: 'none',
+            borderRadius: 16,
+            padding: '4px 14px',
+            fontSize: 12,
+            fontWeight: view === id ? 600 : 400,
+            color: view === id ? 'var(--gray-900)' : 'var(--gray-500)',
+            cursor: 'pointer',
+            fontFamily: 'var(--font-sans)',
+            boxShadow: view === id ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+            transition: 'all 0.15s',
+          }}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 // ─── Main export ───────────────────────────────────────────────
 export default function Bracket({ teams = [] }) {
+  const [view, setView] = useState('projected')
+
   if (!teams.length) return null
 
+  const teamById = Object.fromEntries(teams.map(t => [t.id, t]))
+
+  // Returns team object or a placeholder with the slot label
+  function lookup(id, slotLabel) {
+    if (id) return teamById[id] ?? null
+    return { id: null, name: slotLabel, flagEmoji: '', accentColor: 'transparent', meta: { group: '', winPct: 0, advancePct: 0 }, _isPlaceholder: true }
+  }
+
+  // ── Projected view data ─────────────────────────────────────
   const standings = buildStandings(teams)
-  const r32 = resolveR32(standings)
+  const r32Proj = resolveR32(standings)
 
-  const r16 = Array.from({ length: 8 }, (_, i) => [
-    winner(r32[i * 2][0],     r32[i * 2][1]),
-    winner(r32[i * 2 + 1][0], r32[i * 2 + 1][1]),
+  const r16Proj = Array.from({ length: 8 }, (_, i) => [
+    projectedWinner(r32Proj[i * 2][0],     r32Proj[i * 2][1]),
+    projectedWinner(r32Proj[i * 2 + 1][0], r32Proj[i * 2 + 1][1]),
   ])
 
-  const qf = Array.from({ length: 4 }, (_, i) => [
-    winner(r16[i * 2][0],     r16[i * 2][1]),
-    winner(r16[i * 2 + 1][0], r16[i * 2 + 1][1]),
+  const qfProj = Array.from({ length: 4 }, (_, i) => [
+    projectedWinner(r16Proj[i * 2][0],     r16Proj[i * 2][1]),
+    projectedWinner(r16Proj[i * 2 + 1][0], r16Proj[i * 2 + 1][1]),
   ])
 
-  const sf = Array.from({ length: 2 }, (_, i) => [
-    winner(qf[i * 2][0],     qf[i * 2][1]),
-    winner(qf[i * 2 + 1][0], qf[i * 2 + 1][1]),
+  const sfProj = Array.from({ length: 2 }, (_, i) => [
+    projectedWinner(qfProj[i * 2][0],     qfProj[i * 2][1]),
+    projectedWinner(qfProj[i * 2 + 1][0], qfProj[i * 2 + 1][1]),
   ])
 
-  const final = [[
-    winner(sf[0][0], sf[0][1]),
-    winner(sf[1][0], sf[1][1]),
+  const finalProj = [[
+    projectedWinner(sfProj[0][0], sfProj[0][1]),
+    projectedWinner(sfProj[1][0], sfProj[1][1]),
   ]]
 
-  const champion = winner(final[0][0], final[0][1])
+  const champion = projectedWinner(finalProj[0][0], finalProj[0][1])
+
+  // ── Actual view data ────────────────────────────────────────
+  const r32Act  = actualR32.map(m  => [lookup(m.homeId, m.slotA), lookup(m.awayId, m.slotB), m])
+  const r16Act  = actualR16.map(m  => [lookup(m.homeId, m.slotA), lookup(m.awayId, m.slotB), m])
+  const qfAct   = actualQF.map(m   => [lookup(m.homeId, m.slotA), lookup(m.awayId, m.slotB), m])
+  const sfAct   = actualSF.map(m   => [lookup(m.homeId, m.slotA), lookup(m.awayId, m.slotB), m])
+  const finalAct = actualFinal.map(m => [lookup(m.homeId, m.slotA), lookup(m.awayId, m.slotB), m])
+
+  const isProjected = view === 'projected'
+  const r32    = isProjected ? r32Proj    : r32Act
+  const r16    = isProjected ? r16Proj    : r16Act
+  const qf     = isProjected ? qfProj     : qfAct
+  const sf     = isProjected ? sfProj     : sfAct
+  const final_ = isProjected ? finalProj  : finalAct
+
+  // Actual result counts
+  const allActualMatches = [...actualR32, ...actualR16, ...actualQF, ...actualSF, ...actualFinal, actual3rdPlace]
+  const playedCount = allActualMatches.filter(m => m.winnerId).length
+  const totalCount  = allActualMatches.length
 
   return (
     <div>
@@ -251,20 +339,26 @@ export default function Bracket({ teams = [] }) {
         gap: 8,
         marginBottom: 12,
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-          <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2 }} />
-          <span style={{
-            fontFamily: 'var(--font-sans)',
-            fontSize: 9,
-            fontWeight: 700,
-            letterSpacing: '0.1em',
-            textTransform: 'uppercase',
-            color: 'var(--gray-500)',
-          }}>
-            Predicted Bracket · Polymarket odds · Jun 11, 2026
-          </span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+            <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2 }} />
+            <span style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: 9,
+              fontWeight: 700,
+              letterSpacing: '0.1em',
+              textTransform: 'uppercase',
+              color: 'var(--gray-500)',
+            }}>
+              {isProjected
+                ? 'Predicted Bracket · Polymarket odds · Jun 11, 2026'
+                : `Actual Results · ${playedCount} / ${totalCount} matches played`}
+            </span>
+          </div>
+          <ViewToggle view={view} onChange={setView} />
         </div>
-        {champion && (
+
+        {isProjected && champion && (
           <div style={{
             display: 'flex',
             alignItems: 'center',
@@ -284,7 +378,7 @@ export default function Bracket({ teams = [] }) {
         )}
       </div>
 
-      {/* Format note */}
+      {/* Format / legend note */}
       <div style={{
         background: 'white',
         borderRadius: 8,
@@ -296,21 +390,41 @@ export default function Bracket({ teams = [] }) {
         flexWrap: 'wrap',
         alignItems: 'center',
       }}>
-        {[
-          { label: '24 teams', note: 'Top 2 from each of 12 groups' },
-          { label: '+ 8 teams', note: 'Best 8 third-place finishers' },
-          { label: '= 32 teams', note: 'Enter Round of 32 · Jul 1' },
-        ].map(({ label, note }) => (
-          <div key={label}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
-            <div style={{ fontSize: 10, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>{note}</div>
-          </div>
-        ))}
-        <div style={{ marginLeft: 'auto' }}>
-          <div style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
-            Highlighted = predicted to advance · % = win tournament
-          </div>
-        </div>
+        {isProjected ? (
+          <>
+            {[
+              { label: '24 teams', note: 'Top 2 from each of 12 groups' },
+              { label: '+ 8 teams', note: 'Best 8 third-place finishers' },
+              { label: '= 32 teams', note: 'Enter Round of 32 · Jul 1' },
+            ].map(({ label, note }) => (
+              <div key={label}>
+                <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
+                <div style={{ fontSize: 10, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>{note}</div>
+              </div>
+            ))}
+            <div style={{ marginLeft: 'auto' }}>
+              <div style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+                Highlighted = predicted to advance · % = win tournament
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <div>
+              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
+                Tournament underway
+              </div>
+              <div style={{ fontSize: 10, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>
+                Group stage: Jun 11 – Jul 1 · Knockout stage starts Jul 1
+              </div>
+            </div>
+            <div style={{ marginLeft: 'auto' }}>
+              <div style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+                Highlighted = match winner · italic slots = awaiting group stage
+              </div>
+            </div>
+          </>
+        )}
       </div>
 
       {/* Bracket scroll container */}
@@ -322,15 +436,15 @@ export default function Bracket({ teams = [] }) {
       }}>
         <div className="scroll-x" style={{ padding: '0 8px 16px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-            <RoundCol label="Round of 32"    dates="Jul 1–4"    matches={r32}   width={152} showGroup />
+            <RoundCol label="Round of 32"    dates="Jul 1–4"    matches={r32}    width={152} showGroup={isProjected} />
             <Divider />
-            <RoundCol label="Round of 16"    dates="Jul 7–10"   matches={r16}   width={148} />
+            <RoundCol label="Round of 16"    dates="Jul 7–10"   matches={r16}    width={148} />
             <Divider />
-            <RoundCol label="Quarter-finals" dates="Jul 14–15"  matches={qf}    width={148} />
+            <RoundCol label="Quarter-finals" dates="Jul 14–15"  matches={qf}     width={148} />
             <Divider />
-            <RoundCol label="Semi-finals"    dates="Jul 18–19"  matches={sf}    width={148} />
+            <RoundCol label="Semi-finals"    dates="Jul 18–19"  matches={sf}     width={148} />
             <Divider />
-            <RoundCol label="Final"          dates="Jul 23"     matches={final} width={148} />
+            <RoundCol label="Final"          dates="Jul 23"     matches={final_} width={148} />
           </div>
         </div>
       </div>
@@ -346,11 +460,19 @@ export default function Bracket({ teams = [] }) {
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
           3rd Place Match · Jul 22 · MetLife Stadium
         </div>
-        <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
-          {sf[0] && sf[1]
-            ? `${sf[0][0]?.flagEmoji ?? ''} ${sf[0][0]?.name ?? '?'} vs ${sf[1][0]?.flagEmoji ?? ''} ${sf[1][0]?.name ?? '?'} — predicted SF losers`
-            : 'Semi-final losers · TBD'}
-        </div>
+        {isProjected ? (
+          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+            {sf[0] && sf[1]
+              ? `${sf[0][0]?.flagEmoji ?? ''} ${sf[0][0]?.name ?? '?'} vs ${sf[1][0]?.flagEmoji ?? ''} ${sf[1][0]?.name ?? '?'} — predicted SF losers`
+              : 'Semi-final losers · TBD'}
+          </div>
+        ) : (
+          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
+            {actual3rdPlace.homeId || actual3rdPlace.awayId
+              ? `${teamById[actual3rdPlace.homeId]?.flagEmoji ?? ''} ${teamById[actual3rdPlace.homeId]?.name ?? actual3rdPlace.slotA} vs ${teamById[actual3rdPlace.awayId]?.flagEmoji ?? ''} ${teamById[actual3rdPlace.awayId]?.name ?? actual3rdPlace.slotB}`
+              : 'Semi-final losers · TBD'}
+          </div>
+        )}
       </div>
     </div>
   )
