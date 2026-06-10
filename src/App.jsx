@@ -7,6 +7,7 @@ import DreamTeam from './components/DreamTeam'
 import Schedule from './components/Schedule'
 import Bracket from './components/Bracket'
 import Rankings from './components/Rankings'
+import Groups from './components/Groups'
 import './App.css'
 
 const teamModules = import.meta.glob('./data/teams/*.json', { eager: true })
@@ -25,11 +26,12 @@ function firstInGroup(group) {
 }
 
 const PRIMARY_TABS = [
+  { id: 'overview', label: 'Overview' },
   { id: 'schedule', label: 'Schedule' },
   { id: 'rankings', label: 'Rankings' },
-  { id: 'overview', label: 'Groups' },
 ]
 const MORE_TABS = [
+  { id: 'groups', label: 'Groups' },
   { id: 'guide', label: 'Guide' },
   { id: 'bracket', label: 'Bracket' },
   { id: 'storylines', label: 'Storylines' },
@@ -390,7 +392,9 @@ export default function App() {
             </div>
           </div>
         ) : activeView === 'overview' ? (
-          <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} onNavigate={setActiveView} />
+          <Overview teams={teams} onNavigate={setActiveView} />
+        ) : activeView === 'groups' ? (
+          <Groups teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
         ) : activeView === 'rankings' ? (
           <Rankings teams={teams} onSelectTeam={selectTeam} />
         ) : activeView === 'bracket' ? (
