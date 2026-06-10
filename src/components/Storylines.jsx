@@ -103,14 +103,11 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
   return (
     <div
       style={{
-        background: isOpen ? 'white' : (isHovered ? 'var(--gray-50)' : 'white'),
+        background: isHovered && !isOpen ? 'var(--gray-50)' : 'white',
         borderRadius: 8,
         overflow: 'hidden',
-        boxShadow: isOpen
-          ? '0 2px 8px rgba(0,0,0,0.10)'
-          : '0 1px 3px rgba(0,0,0,0.08)',
+        border: '1px solid var(--gray-200)',
         display: 'flex',
-        transition: 'box-shadow 0.15s ease',
         cursor: 'pointer',
       }}
       onClick={onToggle}
@@ -154,8 +151,10 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
           {/* Subheadline */}
           <div style={{
             fontSize: 13,
+            fontFamily: 'var(--font-sans)',
             fontStyle: 'italic',
-            color: 'var(--gray-700)',
+            color: 'var(--gray-500)',
+            lineHeight: 1.65,
             marginTop: 6,
           }}>
             {s.subheadline}
@@ -165,9 +164,10 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
           <div style={{ marginTop: 12 }}>
             {s.narrative.split('\n\n').map((para, pi) => (
               <p key={pi} style={{
-                fontSize: 13,
+                fontSize: 12,
+                fontFamily: 'var(--font-sans)',
                 lineHeight: 1.75,
-                color: 'var(--gray-700)',
+                color: 'var(--gray-500)',
                 margin: pi === 0 ? 0 : '8px 0 0',
               }}>
                 {para}
@@ -210,6 +210,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
             {/* Glance one-liner */}
             <div style={{
               fontSize: 12,
+              fontFamily: 'var(--font-sans)',
               color: 'var(--gray-500)',
               marginTop: 4,
               lineHeight: 1.4,
@@ -273,7 +274,7 @@ export default function Storylines() {
         }}>
           The Stories to Follow
         </h1>
-        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: '0 0 12px' }}>
+        <p style={{ fontSize: 13, fontFamily: 'var(--font-sans)', color: 'var(--gray-500)', margin: '0 0 12px' }}>
           Eleven narratives to scan now and follow deeper throughout the tournament.
         </p>
         <button
