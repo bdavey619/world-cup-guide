@@ -15,11 +15,12 @@ const TIERS = [
 ]
 
 const pillBase = {
-  fontSize: 10,
+  fontSize: 'var(--text-xs)',
   textTransform: 'uppercase',
   letterSpacing: '0.06em',
   padding: '3px 8px',
   borderRadius: 12,
+  fontFamily: 'var(--font-sans)',
 }
 
 function TierHeader({ label, description, first }) {
@@ -32,7 +33,7 @@ function TierHeader({ label, description, first }) {
       marginTop: first ? 0 : 24,
     }}>
       <span style={{
-        fontSize: 10,
+        fontSize: 'var(--text-xs)',
         fontFamily: 'var(--font-sans)',
         textTransform: 'uppercase',
         letterSpacing: '0.1em',
@@ -44,7 +45,7 @@ function TierHeader({ label, description, first }) {
       </span>
       <div style={{ flex: 1, height: '0.5px', background: 'var(--gray-200)' }} />
       <span style={{
-        fontSize: 10,
+        fontSize: 'var(--text-xs)',
         fontFamily: 'var(--font-sans)',
         textTransform: 'uppercase',
         letterSpacing: '0.08em',
@@ -133,12 +134,12 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
 
           {/* Rank + headline */}
           <div style={{ marginTop: 10 }}>
-            <div style={{ fontSize: 11, color: 'var(--gray-400)', fontFamily: 'inherit' }}>
+            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>
               {rankStr}
             </div>
             <div style={{
               fontFamily: 'var(--font-serif)',
-              fontSize: 22,
+              fontSize: 'var(--text-xl)',
               fontWeight: 500,
               color: 'var(--gray-900)',
               lineHeight: 1.2,
@@ -150,7 +151,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
 
           {/* Subheadline */}
           <div style={{
-            fontSize: 13,
+            fontSize: 'var(--text-sm)',
             fontFamily: 'var(--font-sans)',
             fontStyle: 'italic',
             color: 'var(--gray-500)',
@@ -164,7 +165,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
           <div style={{ marginTop: 12 }}>
             {s.narrative.split('\n\n').map((para, pi) => (
               <p key={pi} style={{
-                fontSize: 12,
+                fontSize: 'var(--text-sm)',
                 fontFamily: 'var(--font-sans)',
                 lineHeight: 1.75,
                 color: 'var(--gray-500)',
@@ -188,7 +189,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
             {/* Rank + headline */}
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 7 }}>
               <span style={{
-                fontSize: 11,
+                fontSize: 'var(--text-xs)',
                 fontFamily: 'var(--font-sans)',
                 color: s.accentColor,
                 fontWeight: 600,
@@ -198,7 +199,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
               </span>
               <span style={{
                 fontFamily: 'var(--font-serif)',
-                fontSize: 17,
+                fontSize: 'var(--text-lg)',
                 fontWeight: 500,
                 color: 'var(--gray-900)',
                 lineHeight: 1.2,
@@ -209,7 +210,7 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
 
             {/* Glance one-liner */}
             <div style={{
-              fontSize: 12,
+              fontSize: 'var(--text-sm)',
               fontFamily: 'var(--font-sans)',
               color: 'var(--gray-500)',
               marginTop: 4,
@@ -236,7 +237,6 @@ function StorylineRow({ s, isOpen, onToggle, isHovered, onMouseEnter, onMouseLea
     </div>
   )
 }
-
 
 export default function Storylines() {
   const [expanded, setExpanded] = useState(new Set())
@@ -267,20 +267,25 @@ export default function Storylines() {
       <div style={{ textAlign: 'center', marginBottom: 24 }}>
         <h1 style={{
           fontFamily: 'var(--font-serif)',
-          fontSize: 32,
+          fontSize: 'var(--text-2xl)',
           fontWeight: 500,
           color: 'var(--gray-900)',
           margin: '0 0 6px',
         }}>
           The Stories to Follow
         </h1>
-        <p style={{ fontSize: 13, fontFamily: 'var(--font-sans)', color: 'var(--gray-500)', margin: '0 0 12px' }}>
+        <p style={{
+          fontSize: 'var(--text-sm)',
+          fontFamily: 'var(--font-sans)',
+          color: 'var(--gray-500)',
+          margin: '0 0 12px',
+        }}>
           Eleven narratives to scan now and follow deeper throughout the tournament.
         </p>
         <button
           onClick={toggleAll}
           style={{
-            fontSize: 11,
+            fontSize: 'var(--text-xs)',
             fontFamily: 'var(--font-sans)',
             textTransform: 'uppercase',
             letterSpacing: '0.06em',
@@ -317,7 +322,6 @@ export default function Storylines() {
           </div>
         ))}
       </div>
-
     </div>
   )
 }

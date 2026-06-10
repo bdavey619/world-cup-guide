@@ -20,7 +20,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
         <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
         <span style={{
           fontFamily: 'var(--font-sans)',
-          fontSize: 9,
+          fontSize: 'var(--text-xs)',
           fontWeight: 700,
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
@@ -43,18 +43,18 @@ export default function Groups({ teams, groups, onSelectTeam }) {
               background: 'white',
               borderRadius: 6,
               overflow: 'hidden',
-              boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
+              border: '1px solid var(--gray-200)',
             }}>
               <div style={{
                 background: 'var(--gray-900)',
-                padding: '4px 8px',
+                padding: '5px 8px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
               }}>
                 <span style={{
                   fontFamily: 'var(--font-sans)',
-                  fontSize: 11,
+                  fontSize: 'var(--text-xs)',
                   fontWeight: 700,
                   letterSpacing: '0.06em',
                   textTransform: 'uppercase',
@@ -64,7 +64,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
                 </span>
                 <span style={{
                   fontFamily: 'var(--font-sans)',
-                  fontSize: 8,
+                  fontSize: 'var(--text-xs)',
                   fontWeight: 600,
                   letterSpacing: '0.04em',
                   color: 'rgba(255,255,255,0.45)',
@@ -88,10 +88,10 @@ export default function Groups({ teams, groups, onSelectTeam }) {
                       background: isLeader ? 'var(--gray-50)' : 'white',
                     }}
                   >
-                    <span style={{ fontSize: 14, lineHeight: 1, flexShrink: 0 }}>{t.flagEmoji}</span>
+                    <span style={{ fontSize: 'var(--text-md)', lineHeight: 1, flexShrink: 0 }}>{t.flagEmoji}</span>
                     <span style={{
                       fontFamily: 'var(--font-sans)',
-                      fontSize: 13,
+                      fontSize: 'var(--text-sm)',
                       fontWeight: i < 2 ? 600 : 400,
                       color: 'var(--gray-900)',
                       flex: 1,
@@ -104,7 +104,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
                     </span>
                     <span style={{
                       fontFamily: 'var(--font-sans)',
-                      fontSize: 13,
+                      fontSize: 'var(--text-sm)',
                       fontWeight: 600,
                       color: s.pts > 0 ? 'var(--gray-900)' : 'var(--gray-400)',
                       flexShrink: 0,

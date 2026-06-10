@@ -43,7 +43,7 @@ export default function Overview({ onNavigate }) {
       <div style={{ textAlign: 'center', padding: '8px 0 24px' }}>
         <h1 style={{
           fontFamily: 'var(--font-serif)',
-          fontSize: 32,
+          fontSize: 'var(--text-2xl)',
           fontWeight: 500,
           color: 'var(--gray-900)',
           margin: '0 0 10px',
@@ -52,7 +52,7 @@ export default function Overview({ onNavigate }) {
           2026 World Cup Guide
         </h1>
         <p style={{
-          fontSize: 13,
+          fontSize: 'var(--text-sm)',
           fontFamily: 'var(--font-sans)',
           color: 'var(--gray-500)',
           lineHeight: 1.6,
@@ -88,7 +88,7 @@ export default function Overview({ onNavigate }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 7 }}>
               <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
               <span style={{
-                fontSize: 9,
+                fontSize: 'var(--text-xs)',
                 fontWeight: 700,
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
@@ -101,7 +101,7 @@ export default function Overview({ onNavigate }) {
 
             <div style={{
               fontFamily: 'var(--font-serif)',
-              fontSize: 17,
+              fontSize: 'var(--text-lg)',
               fontWeight: 500,
               color: 'var(--gray-900)',
               marginBottom: 5,
@@ -110,7 +110,7 @@ export default function Overview({ onNavigate }) {
             </div>
 
             <div style={{
-              fontSize: 12,
+              fontSize: 'var(--text-sm)',
               fontFamily: 'var(--font-sans)',
               color: 'var(--gray-500)',
               lineHeight: 1.75,
@@ -120,7 +120,7 @@ export default function Overview({ onNavigate }) {
             </div>
 
             <div style={{
-              fontSize: 11,
+              fontSize: 'var(--text-xs)',
               fontFamily: 'var(--font-sans)',
               color: 'var(--gray-400)',
               fontWeight: 500,
