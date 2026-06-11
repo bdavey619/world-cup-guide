@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '10",
     "manager": "Hugo Broos",
     "managerTenure": "2021–present",
-    "formation": "4-3-3",
+    "formation": "5-3-2",
     "winPct": 0.1,
     "advancePct": 38
   },
@@ -28,32 +28,32 @@
   },
   "keyPlayers": [
     {
+      "name": "Lyle Foster",
+      "club": "Burnley",
+      "position": "Striker",
+      "badge": null,
+      "note": "South Africa's most dangerous attacking threat. Foster's movement, link-up play, and eye for goal make him the focal point of Broos's 5-3-2. A World Cup stage suits his profile perfectly."
+    },
+    {
+      "name": "Teboho Mokoena",
+      "club": "SuperSport United",
+      "position": "Central mid",
+      "badge": null,
+      "note": "The engine of South Africa's midfield. Mokoena works tirelessly, breaks up play, and drives forward at the right moments. Their most complete midfielder in this XI."
+    },
+    {
+      "name": "Iqraam Rayner",
+      "club": "Mamelodi Sundowns",
+      "position": "Striker",
+      "badge": null,
+      "note": "Partnering Foster up front, Rayner brings pace and directness. His ability to run in behind and stretch the defensive line gives South Africa a counter-attacking dimension."
+    },
+    {
       "name": "Percy Tau",
       "club": "Al Ahly",
       "position": "Left wing",
       "badge": "Captain",
-      "note": "The creative heart of Bafana Bafana. Technically gifted, experienced, and carries the team's attacking ambition. Leads by example."
-    },
-    {
-      "name": "Themba Zwane",
-      "club": "Mamelodi Sundowns",
-      "position": "Attacking mid",
-      "badge": null,
-      "note": "The domestic star who has become a genuine international threat. Quick, inventive, and South Africa's most creative midfielder."
-    },
-    {
-      "name": "Bongani Zungu",
-      "club": "Mamelodi Sundowns",
-      "position": "Defensive mid",
-      "badge": null,
-      "note": "The engine room. Hard-working box-to-box midfielder who provides defensive cover and drives forward on the right moments."
-    },
-    {
-      "name": "Evidence Makgopa",
-      "club": "Orlando Pirates",
-      "position": "Striker",
-      "badge": null,
-      "note": "Powerful, physical striker with excellent hold-up play. Gave South Africa an aerial presence they previously lacked."
+      "note": "The captain and creative heart of Bafana Bafana — not in today's starting XI but a key figure off the bench and in the squad's leadership. His experience and technical quality will be called upon."
     }
   ],
   "tactics": {
@@ -143,41 +143,51 @@
       {
         "name": "Mudau",
         "shortName": "Mudau",
-        "position": "RB",
+        "position": "RWB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
+        "x": 420,
         "y": 148
       },
       {
-        "name": "Xulu",
-        "shortName": "Xulu",
+        "name": "Mbokazi",
+        "shortName": "Mbokazi",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 325,
+        "y": 148
+      },
+      {
+        "name": "Okon",
+        "shortName": "Okon",
         "position": "CB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Ndlovu",
-        "shortName": "Ndlovu",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
+        "x": 226,
         "y": 148
       },
       {
         "name": "Sibisi",
         "shortName": "Sibisi",
-        "position": "LB",
+        "position": "LCB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Modiba",
+        "shortName": "Modiba",
+        "position": "LWB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 32,
         "y": 148
       },
       {
@@ -185,60 +195,50 @@
         "shortName": "Mokoena",
         "position": "RCM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 256
       },
       {
-        "name": "Zungu",
-        "shortName": "Zungu",
-        "position": "DM",
+        "name": "Adams",
+        "shortName": "Adams",
+        "position": "CM",
         "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236
-      },
-      {
-        "name": "Zwane",
-        "shortName": "Zwane",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 104,
-        "y": 244
-      },
-      {
-        "name": "Hlongwane",
-        "shortName": "Hlongwane",
-        "position": "RW",
-        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 362
+        "x": 226,
+        "y": 256
       },
       {
-        "name": "Makgopa",
-        "shortName": "Makgopa",
+        "name": "Sithole",
+        "shortName": "Sithole",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 256
+      },
+      {
+        "name": "Foster",
+        "shortName": "Foster",
         "position": "ST",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 372
+        "x": 305,
+        "y": 385
       },
       {
-        "name": "Tau",
-        "shortName": "Tau",
-        "position": "LW",
+        "name": "Rayner",
+        "shortName": "Rayner",
+        "position": "ST",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 63,
-        "y": 362
+        "isCaptain": false,
+        "x": 147,
+        "y": 385
       }
     ]
   },

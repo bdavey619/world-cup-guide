@@ -28,34 +28,32 @@
   },
   "keyPlayers": [
     {
-      "name": "Santiago Giménez",
-      "club": "AC Milan",
+      "name": "Raúl Jiménez",
+      "club": "Fulham",
       "position": "Striker",
       "badge": null,
-      "note": "The heir to Mexican strikers. Clinical finisher with Feyenoord pedigree turned Serie A starter. Has to be the man to finally end the R16 hex."
+      "note": "The veteran fox in the box chosen to lead El Tri's attack over Santiago Giménez. Jiménez's movement, aerial ability, and hold-up play give Mexico a focal point — and at a home World Cup, this is the moment he's been building toward."
     },
     {
-      "name": "Edson Álvarez",
-      "club": "West Ham",
-      "position": "Defensive mid",
-      "badge": null,
-      "note": "The anchor and the enforcer. Elite defensive midfielder who protects the back four and dictates tempo. Mexico's most important player positionally."
-    },
-    {
-      "name": "Guillermo Ochoa",
-      "club": "UNAM",
-      "position": "Goalkeeper",
-      "badge": null,
-      "note": "The immortal. Six World Cups — a record for a Mexican goalkeeper. Iconic saves in 2014 and 2022. At 40, still the last line of Mexico's defense and its spiritual leader."
-    },
-    {
-      "name": "Henry Martín",
-      "fullName": "Henry Martín",
-      "position": "Striker",
+      "name": "Álvaro Fidalgo",
       "club": "Club América",
-      "role": "Liga MX's standout striker and proven scorer for El Tri; brings the clinical touch and experience to complement Giménez",
-      "stat": "20+ goals (Liga MX 2024–25)",
-      "statLabel": "Goals"
+      "position": "Central mid",
+      "badge": null,
+      "note": "The Spanish-born naturalised Mexican who has become the creative heartbeat of El Tri. Fidalgo's range of passing and vision in tight spaces makes Mexico tick in possession."
+    },
+    {
+      "name": "Brian Gutiérrez",
+      "club": "Chicago Fire",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "The youngest starter in today's XI and the most exciting Mexican talent in years. Gutiérrez's dribbling and directness give Mexico an unpredictability that they've lacked in recent tournaments."
+    },
+    {
+      "name": "Julian Quiñones",
+      "club": "Club América",
+      "position": "Right wing",
+      "badge": null,
+      "note": "The Colombian-born winger who chose Mexico and has repaid the faith with direct running and goals. His pace on the right flank will be a constant threat."
     }
   ],
   "tactics": {
@@ -163,18 +161,18 @@
   "pitch": {
     "players": [
       {
-        "name": "Ochoa",
-        "shortName": "Ochoa",
+        "name": "Rangel",
+        "shortName": "Rangel",
         "position": "GK",
         "role": "gk",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
         "y": 56
       },
       {
-        "name": "Sánchez",
-        "shortName": "Sánchez",
+        "name": "Reyes",
+        "shortName": "Reyes",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
@@ -183,8 +181,8 @@
         "y": 148
       },
       {
-        "name": "Montes",
-        "shortName": "Montes",
+        "name": "Vásquez",
+        "shortName": "Vásquez",
         "position": "CB",
         "role": "def",
         "isKeyPlayer": false,
@@ -193,8 +191,8 @@
         "y": 148
       },
       {
-        "name": "Moreno",
-        "shortName": "Moreno",
+        "name": "Montes",
+        "shortName": "Montes",
         "position": "CB",
         "role": "def",
         "isKeyPlayer": false,
@@ -213,58 +211,58 @@
         "y": 148
       },
       {
-        "name": "Flores",
-        "shortName": "Flores",
+        "name": "Quiñones",
+        "shortName": "Quiñones",
         "position": "RCM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
         "y": 244
       },
       {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
+        "name": "Lira",
+        "shortName": "Lira",
         "position": "DM",
         "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
+        "isKeyPlayer": false,
+        "isCaptain": false,
         "x": 226,
         "y": 236
       },
       {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
+        "name": "Fidalgo",
+        "shortName": "Fidalgo",
         "position": "LCM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
         "y": 244
       },
       {
-        "name": "Vega",
-        "shortName": "Vega",
+        "name": "Gutiérrez",
+        "shortName": "Gutiérrez",
         "position": "RW",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
         "y": 362
       },
       {
-        "name": "Giménez",
-        "shortName": "Giménez",
+        "name": "R. Jiménez",
+        "shortName": "Jiménez",
         "position": "ST",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": false,
+        "isCaptain": true,
         "x": 226,
         "y": 372
       },
       {
-        "name": "Antuna",
-        "shortName": "Antuna",
+        "name": "Alvarado",
+        "shortName": "Alvarado",
         "position": "LW",
         "role": "att",
         "isKeyPlayer": false,
