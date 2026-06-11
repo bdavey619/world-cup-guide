@@ -193,6 +193,20 @@ function buildCountryLegend(players) {
 export default function DreamTeam() {
   const captain = dreamTeam.players.find(p => p.isCaptain)
   const [selected, setSelected] = useState(captain || dreamTeam.players[0])
+  const [selectedCountry, setSelectedCountry] = useState(null)
+
+  function selectPlayer(p) {
+    setSelected(p)
+    setSelectedCountry(null)
+  }
+
+  function toggleCountry(country) {
+    setSelectedCountry(prev => prev === country ? null : country)
+  }
+
+  const countryPlayers = selectedCountry
+    ? dreamTeam.players.filter(p => p.country === selectedCountry)
+    : null
   const legend = buildCountryLegend(dreamTeam.players)
   const markingStyle = { stroke: 'white', strokeOpacity: 0.45, fill: 'none' }
   const stripeWidth = 452 / 8
@@ -315,15 +329,16 @@ export default function DreamTeam() {
           {dreamTeam.players.map((p) => {
             const r = p.isCaptain ? 24 : p.isKeyPlayer ? 21 : 18
             const isNotable = p.isKeyPlayer || p.isCaptain
-            const isSelected = selected?.name === p.name
+            const isSelected = !selectedCountry && selected?.name === p.name
+            const isCountryHighlight = selectedCountry && p.country === selectedCountry
             return (
               <g
                 key={p.name}
                 filter="url(#dt-shadow)"
-                onClick={() => setSelected(p)}
+                onClick={() => selectPlayer(p)}
                 style={{ cursor: 'pointer' }}
               >
-                {isSelected && (
+                {(isSelected || isCountryHighlight) && (
                   <circle cx={p.x} cy={p.y} r={r + 8} fill="rgba(255,255,255,0.2)" stroke="white" strokeWidth={2.5} strokeDasharray="4 2" />
                 )}
                 {p.isCaptain && (
@@ -381,17 +396,58 @@ export default function DreamTeam() {
           flexWrap: 'wrap',
           gap: '8px 14px',
         }}>
-          {legend.map(({ country, count, flagEmoji }) => (
-            <span key={country} style={{ fontSize: 12, color: 'var(--gray-500)' }}>
-              {flagEmoji} {country} ({count})
-            </span>
-          ))}
+          {legend.map(({ country, count, flagEmoji }) => {
+            const isActive = selectedCountry === country
+            return (
+              <span
+                key={country}
+                onClick={() => toggleCountry(country)}
+                style={{
+                  fontSize: 12,
+                  color: isActive ? 'var(--gray-900)' : 'var(--gray-500)',
+                  fontWeight: isActive ? 600 : 400,
+                  cursor: 'pointer',
+                  borderBottom: isActive ? '1px solid var(--gray-900)' : '1px solid transparent',
+                  userSelect: 'none',
+                }}
+              >
+                {flagEmoji} {country} ({count})
+              </span>
+            )
+          })}
         </div>
       </div>
 
-      {/* Selected panel — player or coach */}
+      {/* Selected panel — player, country group, or coach */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-        {selected && (
+        {countryPlayers ? countryPlayers.map(p => (
+          <div
+            key={p.name}
+            onClick={() => selectPlayer(p)}
+            style={{
+              background: 'white',
+              borderRadius: 8,
+              borderLeft: `4px solid ${p.accentColor}`,
+              padding: '14px 16px',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
+              cursor: 'pointer',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 2 }}>
+              <span style={{ fontSize: 18 }}>{p.flagEmoji}</span>
+              <span style={{ fontSize: 15, fontWeight: 700, color: 'var(--gray-900)', flex: 1 }}>{p.name}</span>
+              <span style={{ fontSize: 11, fontWeight: 600, color: 'white', background: p.accentColor, padding: '2px 8px', borderRadius: 10 }}>
+                {p.position}
+              </span>
+            </div>
+            <div style={{ fontSize: 11, color: 'var(--gray-400)', marginBottom: 8 }}>
+              {p.club}
+              {p.isCaptain && <span style={{ marginLeft: 8, fontStyle: 'italic' }}>Captain</span>}
+              {p.isKeyPlayer && !p.isCaptain && <span style={{ marginLeft: 8, fontStyle: 'italic' }}>Key Player</span>}
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--gray-700)', lineHeight: 1.7 }}>{p.note}</div>
+          </div>
+        )) : selected && (
           <div
             style={{
               background: 'white',
