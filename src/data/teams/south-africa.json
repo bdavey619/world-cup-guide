@@ -62,7 +62,7 @@
       "Physical",
       "Counter-attack"
     ],
-    "tacticalNote": "Broos organizes South Africa in a disciplined 4-3-3 that prioritizes shape and defensive solidity first. They press when it makes sense but are comfortable sitting in a mid-block and absorbing pressure. The attack relies on Tau's creativity and quick transitions through the wide areas.",
+    "tacticalNote": "Broos organizes South Africa in a disciplined 5-3-2 that prioritizes shape and defensive solidity first. They press when it makes sense but are comfortable sitting in a mid-block and absorbing pressure. The attack relies on Foster and Rayner as a strike partnership with quick transitions from deep.",
     "strength": "Defensive organization and collective spirit — this team is well-drilled and will be difficult to break down despite individual quality gaps.",
     "vulnerability": "Limited technical quality in midfield means they struggle to maintain possession and can be pinned back for long periods."
   },
@@ -136,7 +136,7 @@
         "position": "GK",
         "role": "gk",
         "isKeyPlayer": false,
-        "isCaptain": false,
+        "isCaptain": true,
         "x": 226,
         "y": 56
       },
@@ -242,6 +242,35 @@
       }
     ]
   },
+  "pitchLabel": "Confirmed XI · Jun 11 vs Mexico",
+  "squad": [
+    { "name": "Ronwen Williams", "pos": "GK", "club": "Mamelodi Sundowns" },
+    { "name": "Ricardo Goss", "pos": "GK", "club": "Siwelele" },
+    { "name": "Sipho Chaine", "pos": "GK", "club": "Orlando Pirates" },
+    { "name": "Khuliso Mudau", "pos": "DEF", "club": "Mamelodi Sundowns" },
+    { "name": "Aubrey Modiba", "pos": "DEF", "club": "Mamelodi Sundowns" },
+    { "name": "Khulumani Ndamane", "pos": "DEF", "club": "Mamelodi Sundowns" },
+    { "name": "Olwethu Makhanya", "pos": "DEF", "club": "Philadelphia Union" },
+    { "name": "Bradley Cross", "pos": "DEF", "club": "Kaizer Chiefs" },
+    { "name": "Thabang Matuludi", "pos": "DEF", "club": "Polokwane City" },
+    { "name": "Nkosinathi Sibisi", "pos": "DEF", "club": "Orlando Pirates" },
+    { "name": "Kamogelo Sebelebele", "pos": "DEF", "club": "Orlando Pirates" },
+    { "name": "Ime Okon", "pos": "DEF", "club": "Hannover 96" },
+    { "name": "Samukele Kabini", "pos": "DEF", "club": "Molde FK" },
+    { "name": "Mbekezeli Mbokazi", "pos": "DEF", "club": "Chicago Fire" },
+    { "name": "Teboho Mokoena", "pos": "MID", "club": "Mamelodi Sundowns" },
+    { "name": "Jayden Adams", "pos": "MID", "club": "Mamelodi Sundowns" },
+    { "name": "Thalente Mbatha", "pos": "MID", "club": "Orlando Pirates" },
+    { "name": "Sphephelo Sithole", "pos": "MID", "club": "Tondela" },
+    { "name": "Percy Tau", "pos": "FWD", "club": "Al Ahly" },
+    { "name": "Oswin Appollis", "pos": "FWD", "club": "Orlando Pirates" },
+    { "name": "Tshepang Moremi", "pos": "FWD", "club": "Orlando Pirates" },
+    { "name": "Evidence Makgopa", "pos": "FWD", "club": "Orlando Pirates" },
+    { "name": "Relebohile Mofokeng", "pos": "FWD", "club": "Orlando Pirates" },
+    { "name": "Lyle Foster", "pos": "FWD", "club": "Burnley" },
+    { "name": "Iqraam Rayners", "pos": "FWD", "club": "Mamelodi Sundowns" },
+    { "name": "Themba Zwane", "pos": "FWD", "club": "Mamelodi Sundowns" }
+  ],
   "standings": {
     "w": 0,
     "d": 0,
