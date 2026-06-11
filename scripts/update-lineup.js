@@ -2,14 +2,13 @@
 /**
  * update-lineup.js
  *
- * Runs automatically via cron ~1 hour before each World Cup kickoff.
- * Fetches the confirmed starting XI from api-football.com, updates
- * the team JSON files, and pushes to GitHub.
+ * Fetches confirmed starting XIs from ESPN's public API (no key required)
+ * and updates team JSON files 1 hour before kickoff.
  *
  * Usage:
- *   node scripts/update-lineup.js             # update today's matches
- *   node scripts/update-lineup.js --dry-run   # print changes without writing
- *   node scripts/update-lineup.js --date 2026-06-18
+ *   node scripts/update-lineup.js                    # today's matches
+ *   node scripts/update-lineup.js --dry-run          # preview without writing
+ *   node scripts/update-lineup.js --date 2026-06-18  # specific date
  */
 
 import https from 'https'
@@ -20,25 +19,17 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-// ─── Config ────────────────────────────────────────────────────────────────
-
 loadEnv()
 
-const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY
-const WC_LEAGUE_ID = process.env.WC_LEAGUE_ID || '1'
-const WC_SEASON    = process.env.WC_SEASON    || '2026'
-const REPO_PATH    = process.env.REPO_PATH    || path.join(__dirname, '..')
-const DRY_RUN      = process.argv.includes('--dry-run')
-const DATE_ARG     = (() => { const i = process.argv.indexOf('--date'); return i !== -1 ? process.argv[i+1] : null })()
-
-if (!RAPIDAPI_KEY) {
-  console.error('❌ RAPIDAPI_KEY not set. Copy .env.example to .env and fill in your key.')
-  process.exit(1)
-}
-
+const REPO_PATH = process.env.REPO_PATH || path.join(__dirname, '..')
+const DRY_RUN   = process.argv.includes('--dry-run')
+const DATE_ARG  = (() => { const i = process.argv.indexOf('--date'); return i !== -1 ? process.argv[i+1] : null })()
 const TEAMS_DIR = path.join(REPO_PATH, 'src', 'data', 'teams')
 
-// ─── Pitch layout constants ─────────────────────────────────────────────────
+// ESPN league slug for FIFA World Cup
+const ESPN_LEAGUE = 'fifa.world'
+
+// ─── Pitch layout ────────────────────────────────────────────────────────────
 
 const X_BY_COUNT = {
   1: [226],
@@ -48,7 +39,6 @@ const X_BY_COUNT = {
   5: [32,  127, 226, 325, 420],
 }
 
-// Y slots by total row count (row 0 = GK at top, last row = attackers)
 const Y_SLOTS = {
   2: [56, 385],
   3: [56, 240, 385],
@@ -57,58 +47,108 @@ const Y_SLOTS = {
   6: [56, 115, 185, 255, 325, 390],
 }
 
-const POS_ROLE = { G: 'gk', D: 'def', M: 'mid', F: 'att' }
-
-function getPositionLabel(pos, colIdx, totalInRow) {
-  if (pos === 'G') return 'GK'
-  const DEF = { 3:['LCB','CB','RCB'], 4:['LB','LCB','RCB','RB'], 5:['LWB','LCB','CB','RCB','RWB'] }
-  const MID  = { 1:['DM'], 2:['LCM','RCM'], 3:['LCM','CM','RCM'], 4:['LM','LCM','RCM','RM'], 5:['LM','LCM','CM','RCM','RM'] }
-  const FWD  = { 1:['ST'], 2:['ST','ST'], 3:['LW','ST','RW'], 4:['LW','SS','SS','RW'] }
-  if (pos === 'D') return (DEF[totalInRow] || [])[colIdx] || 'DEF'
-  if (pos === 'M') return (MID[totalInRow] || [])[colIdx] || 'MID'
-  if (pos === 'F') return (FWD[totalInRow] || [])[colIdx] || 'FWD'
-  return pos
-}
-
 function distributeX(n) {
   if (X_BY_COUNT[n]) return X_BY_COUNT[n]
-  return Array.from({ length: n }, (_, i) => Math.round(32 + (i / (n - 1)) * 388))
+  return Array.from({ length: n }, (_, i) =>
+    n === 1 ? 226 : Math.round(32 + (i / (n - 1)) * 388)
+  )
 }
 
-// ─── Build pitch.players from api-football lineup ───────────────────────────
+// ─── ESPN position → pitch tier + left/right order ───────────────────────────
+//
+// Tier 0: GK
+// Tier 1: Defenders  (CB, LB, RB, LWB, RWB …)
+// Tier 2: Hold. mids (CDM, DM — only present if formation has 4+ parts)
+// Tier 3: Central / wide mids (CM, LM, RM …)
+// Tier 4: Att. mids  (CAM, LAM, RAM — only if formation has 5 parts)
+// Tier 5: Forwards   (ST, LW, RW, CF …)
 
-function buildPitchPlayers(startXI, formation, existingTeam) {
+// ESPN uses codes like: G, LB, RB, CD-L, CD-R, CD, DM, CM-L, CM-R, CM,
+// LM, RM, AM-L, AM-R, AM, CF-L, CF-R, CF, F, LW, RW
+// CD-L/CM-L etc. are from the goalkeeper's perspective (L = viewer's right),
+// while LB/RB follow attacking direction (L = viewer's left).
+const POSITION_TIERS = {
+  // GK
+  'G':    { tier: 0, order: 3 },
+  // Defenders: LB/RB=attacking perspective, CD-X=goalkeeper perspective (reversed)
+  'LWB':  { tier: 1, order: 0 }, 'LB':   { tier: 1, order: 1 },
+  'CD-R': { tier: 1, order: 2 }, 'CD':   { tier: 1, order: 3 }, 'CD-L': { tier: 1, order: 4 },
+  'RB':   { tier: 1, order: 5 }, 'RWB':  { tier: 1, order: 6 },
+  // Holding mids
+  'DM-L': { tier: 2, order: 1 }, 'DM': { tier: 2, order: 2 }, 'DM-R': { tier: 2, order: 3 },
+  'CDM':  { tier: 2, order: 2 },
+  // Central / wide mids (CM-L/CM-R also goalkeeper perspective)
+  'LM':   { tier: 3, order: 0 }, 'CM-R': { tier: 3, order: 1 }, 'CM': { tier: 3, order: 2 },
+  'CM-L': { tier: 3, order: 3 }, 'RM':   { tier: 3, order: 4 },
+  // Attacking mids
+  'AM-L': { tier: 4, order: 1 }, 'AM': { tier: 4, order: 2 }, 'AM-R': { tier: 4, order: 3 },
+  // Forwards (CF-L/CF-R goalkeeper perspective)
+  'LW':   { tier: 5, order: 0 }, 'CF-R': { tier: 5, order: 1 },
+  'CF':   { tier: 5, order: 2 }, 'F':    { tier: 5, order: 2 },
+  'CF-L': { tier: 5, order: 3 }, 'RW':   { tier: 5, order: 4 },
+}
+
+const ROLE_BY_TIER = { 0:'gk', 1:'def', 2:'mid', 3:'mid', 4:'mid', 5:'att' }
+
+function classifyPosition(posAbbr) {
+  if (!posAbbr) return { tier: 3, order: 2 }
+  return POSITION_TIERS[posAbbr] || POSITION_TIERS[posAbbr.toUpperCase()] || { tier: 3, order: 2 }
+}
+
+// ESPN team name → our local JSON id. Handles common mismatches.
+const ESPN_NAME_OVERRIDES = {
+  'korea republic':     'south-korea',
+  'republic of korea':  'south-korea',
+  'usa':                'united-states',
+  'united states':      'united-states',
+  'côte d\'ivoire':     'ivory-coast',
+  'cote d\'ivoire':     'ivory-coast',
+  'bosnia and herzegovina': 'bosnia-herzegovina',
+  'türkiye':            'turkiye',
+  'turkiye':            'turkiye',
+}
+
+// ─── Build pitch.players from ESPN roster entries ────────────────────────────
+
+function buildPitchPlayers(starters, formation, existingTeam) {
   const keyLastNames = (existingTeam.keyPlayers || []).map(kp =>
     kp.name.split(' ').pop().toLowerCase()
   )
 
-  const byRow = {}
-  startXI.forEach(p => {
-    const [row] = (p.grid || '1:1').split(':').map(Number)
-    if (!byRow[row]) byRow[row] = []
-    byRow[row].push(p)
+  // Assign tier + left-right order to each player
+  // ESPN stores position on the roster entry itself AND on the athlete
+  const classified = starters.map(p => {
+    const posAbbr = p.position?.abbreviation || p.athlete?.position?.abbreviation || ''
+    const { tier, order } = classifyPosition(posAbbr)
+    return { ...p, posAbbr, tier, order }
   })
 
-  const rows = Object.keys(byRow).map(Number).sort((a, b) => a - b)
-  const ySlots = Y_SLOTS[rows.length] || Y_SLOTS[4]
+  // Group by tier
+  const byTier = {}
+  classified.forEach(p => {
+    if (!byTier[p.tier]) byTier[p.tier] = []
+    byTier[p.tier].push(p)
+  })
+
+  // Collapse empty tiers to get actual rows
+  const activeTiers = Object.keys(byTier).map(Number).sort((a, b) => a - b)
+  const totalRows   = activeTiers.length
+  const ySlots      = Y_SLOTS[totalRows] || Y_SLOTS[4]
 
   const players = []
-  rows.forEach((rowNum, rowIdx) => {
-    const rowPlayers = byRow[rowNum].sort((a, b) => {
-      const ca = parseInt((a.grid || '1:1').split(':')[1])
-      const cb = parseInt((b.grid || '1:1').split(':')[1])
-      return ca - cb
-    })
-    const n = rowPlayers.length
-    const xs = distributeX(n)
+  activeTiers.forEach((tier, rowIdx) => {
+    const rowPlayers = byTier[tier].sort((a, b) => a.order - b.order)
+    const xs = distributeX(rowPlayers.length)
 
     rowPlayers.forEach((p, colIdx) => {
-      const lastName = p.name.split(' ').pop()
+      const lastName = p.athlete?.lastName || p.athlete?.displayName?.split(' ').pop() || 'Unknown'
+      const posAbbr  = p.posAbbr || 'MID'
+
       players.push({
         name:        lastName,
         shortName:   lastName,
-        position:    getPositionLabel(p.pos, colIdx, n),
-        role:        POS_ROLE[p.pos] || 'mid',
+        position:    posAbbr,
+        role:        ROLE_BY_TIER[tier] || 'mid',
         isKeyPlayer: keyLastNames.includes(lastName.toLowerCase()),
         isCaptain:   p.captain === true,
         x:           xs[colIdx],
@@ -120,7 +160,7 @@ function buildPitchPlayers(startXI, formation, existingTeam) {
   return players
 }
 
-// ─── Match API team name to local JSON file ID ───────────────────────────────
+// ─── Team name matching ───────────────────────────────────────────────────────
 
 function buildTeamIndex() {
   const index = {}
@@ -133,8 +173,9 @@ function buildTeamIndex() {
   return index
 }
 
-function findTeamId(apiName, teamIndex) {
-  const key = apiName.toLowerCase()
+function findTeamId(espnName, teamIndex) {
+  const key = espnName.toLowerCase().trim()
+  if (ESPN_NAME_OVERRIDES[key]) return ESPN_NAME_OVERRIDES[key]
   if (teamIndex[key]) return teamIndex[key]
   for (const [k, id] of Object.entries(teamIndex)) {
     if (key.includes(k) || k.includes(key)) return id
@@ -142,92 +183,98 @@ function findTeamId(apiName, teamIndex) {
   return null
 }
 
-function formatMatchDate(isoDate) {
-  return new Date(isoDate).toLocaleDateString('en-US', {
+function formatMatchDate(dateStr) {
+  // ESPN date format: "2026-06-11T19:00Z" or similar
+  return new Date(dateStr).toLocaleDateString('en-US', {
     month: 'short', day: 'numeric', timeZone: 'UTC',
   })
 }
 
-// ─── HTTP client for api-football.com ───────────────────────────────────────
+// ─── HTTP fetch ───────────────────────────────────────────────────────────────
 
-function apiFetch(endpoint) {
+function fetchJSON(url) {
   return new Promise((resolve, reject) => {
-    const req = https.request({
-      hostname: 'api-football-v1.p.rapidapi.com',
-      path:     `/v3${endpoint}`,
-      method:   'GET',
-      headers:  {
-        'x-rapidapi-key':  RAPIDAPI_KEY,
-        'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-      },
-    }, res => {
+    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
       let body = ''
-      res.on('data', chunk => body += chunk)
+      res.on('data', c => body += c)
       res.on('end', () => {
         try { resolve(JSON.parse(body)) }
-        catch (e) { reject(new Error('Bad JSON from API: ' + body.slice(0, 200))) }
+        catch (e) { reject(new Error(`Bad JSON from ${url}: ${body.slice(0, 120)}`)) }
       })
-    })
-    req.on('error', reject)
-    req.end()
+    }).on('error', reject)
   })
 }
 
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const today = DATE_ARG || new Date().toISOString().split('T')[0]
+  const today    = DATE_ARG || new Date().toISOString().split('T')[0]
+  const espnDate = today.replace(/-/g, '')  // 20260611
+
   console.log(`\n🌍 World Cup Lineup Updater — ${today}${DRY_RUN ? ' [DRY RUN]' : ''}`)
 
   const teamIndex = buildTeamIndex()
+  const base      = `https://site.api.espn.com/apis/site/v2/sports/soccer/${ESPN_LEAGUE}`
 
-  const resp = await apiFetch(`/fixtures?date=${today}&league=${WC_LEAGUE_ID}&season=${WC_SEASON}`)
+  // 1. Get today's scoreboard
+  const board = await fetchJSON(`${base}/scoreboard?dates=${espnDate}`)
+  const events = board.events || []
 
-  if (!resp.response?.length) {
-    console.log(`No fixtures found for ${today} (league=${WC_LEAGUE_ID}, season=${WC_SEASON})`)
-    console.log('Tip: verify WC_LEAGUE_ID in .env — try running with --date on a known match day')
+  if (!events.length) {
+    console.log(`No events found for ${today}`)
+    console.log('Note: if the World Cup league slug changed, update ESPN_LEAGUE in the script.')
     return
   }
 
-  console.log(`Found ${resp.response.length} fixture(s)\n`)
+  console.log(`Found ${events.length} event(s)\n`)
 
   let anyUpdate = false
 
-  for (const fixture of resp.response) {
-    const { id: fixtureId, date: kickoff } = fixture.fixture
-    const homeName = fixture.teams.home.name
-    const awayName = fixture.teams.away.name
+  for (const event of events) {
+    const eventId  = event.id
+    const homeTeam = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName || ''
+    const awayTeam = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName || ''
+    const kickoff  = event.date // ISO string
 
-    console.log(`▶ ${homeName} vs ${awayName}`)
+    console.log(`▶ ${homeTeam} vs ${awayTeam}`)
 
-    const lineupResp = await apiFetch(`/fixtures/lineups?fixture=${fixtureId}`)
+    // 2. Get match summary (contains rosters/lineups)
+    const summary = await fetchJSON(`${base}/summary?event=${eventId}`)
+    const rosters = summary.rosters || []
 
-    if (!lineupResp.response?.length) {
-      console.log('  ⏳ Lineups not yet released — will retry at next cron tick\n')
+    if (!rosters.length) {
+      console.log('  ⏳ Lineup not yet available\n')
       continue
     }
 
-    for (const teamLineup of lineupResp.response) {
-      const apiTeamName = teamLineup.team.name
-      const formation   = teamLineup.formation
-      const startXI     = teamLineup.startXI.map(s => s.player)
-      const opponent    = apiTeamName === homeName ? awayName : homeName
+    for (const roster of rosters) {
+      const espnName  = roster.team?.displayName || ''
+      const formation = roster.formation || ''
+      // ESPN stores players in roster.roster (not roster.entries)
+      const starters  = (roster.roster || []).filter(e => e.starter === true)
 
-      const teamId = findTeamId(apiTeamName, teamIndex)
+      if (!starters.length) {
+        console.log(`  ⏳ ${espnName}: no starters listed yet`)
+        continue
+      }
+
+      const opponent = espnName === homeTeam ? awayTeam : homeTeam
+      const teamId   = findTeamId(espnName, teamIndex)
+
       if (!teamId) {
-        console.log(`  ⚠️  No local JSON match for API team name "${apiTeamName}"`)
+        console.log(`  ⚠️  No local JSON match for ESPN team "${espnName}"`)
         continue
       }
 
       const filePath = path.join(TEAMS_DIR, `${teamId}.json`)
       const team     = JSON.parse(fs.readFileSync(filePath, 'utf8'))
 
-      console.log(`  ✓ ${apiTeamName} — ${formation}`)
-      console.log(`    ${startXI.map(p => p.name.split(' ').pop()).join(', ')}`)
+      console.log(`  ✓ ${espnName} — ${formation || 'formation TBD'}`)
+      console.log(`    ${starters.map(p => p.athlete?.lastName || p.athlete?.displayName?.split(' ').pop()).join(', ')}`)
 
       if (!DRY_RUN) {
-        team.pitch.players  = buildPitchPlayers(startXI, formation, team)
-        team.meta.formation = formation
+        team.pitch.players  = buildPitchPlayers(starters, formation, team)
+        team.meta.formation = formation || team.meta.formation
         team.pitchLabel     = `Confirmed XI · ${formatMatchDate(kickoff)} vs ${opponent}`
         fs.writeFileSync(filePath, JSON.stringify(team, null, 2) + '\n')
         anyUpdate = true
@@ -243,10 +290,11 @@ async function main() {
       execSync('git push', { cwd: REPO_PATH, stdio: 'inherit' })
       console.log('✅ Pushed to GitHub')
     } catch (e) {
-      if (e.stderr?.toString().includes('nothing to commit')) {
+      const msg = e.stderr?.toString() || e.message
+      if (msg.includes('nothing to commit')) {
         console.log('ℹ️  Already up to date')
       } else {
-        console.error('❌ Git error:', e.message)
+        console.error('❌ Git error:', msg)
       }
     }
   } else if (DRY_RUN) {
