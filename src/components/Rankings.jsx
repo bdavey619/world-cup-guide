@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 
 function posColor(i) {
   if (i === 0) return '#b8860b'
@@ -9,10 +9,16 @@ function posColor(i) {
 }
 
 export default function Rankings({ teams, onSelectTeam }) {
+  const [query, setQuery] = useState('')
+
   const ranked = useMemo(
     () => [...teams].sort((a, b) => a.meta.fifaRanking - b.meta.fifaRanking),
     [teams]
   )
+
+  const filtered = query.trim()
+    ? ranked.filter(t => t.name.toLowerCase().includes(query.toLowerCase()))
+    : ranked
 
   return (
     <div>
@@ -32,6 +38,43 @@ export default function Rankings({ teams, onSelectTeam }) {
       </div>
 
       <div style={{ padding: '0 10px 24px' }}>
+        {/* Search */}
+        <div style={{ position: 'relative', marginBottom: 10 }}>
+          <span style={{
+            position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
+            fontSize: 13, color: 'var(--gray-400)', pointerEvents: 'none',
+          }}>🔍</span>
+          <input
+            type="text"
+            placeholder="Search countries…"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            style={{
+              width: '100%',
+              boxSizing: 'border-box',
+              padding: '8px 10px 8px 32px',
+              borderRadius: 6,
+              border: '1px solid var(--gray-200)',
+              background: 'white',
+              fontFamily: 'var(--font-sans)',
+              fontSize: 13,
+              color: 'var(--gray-900)',
+              outline: 'none',
+              boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
+            }}
+          />
+          {query && (
+            <button
+              onClick={() => setQuery('')}
+              style={{
+                position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
+                background: 'none', border: 'none', cursor: 'pointer',
+                fontSize: 14, color: 'var(--gray-400)', lineHeight: 1, padding: 2,
+              }}
+            >✕</button>
+          )}
+        </div>
+
         {/* Column headers */}
         <div style={{
           display: 'flex',
@@ -65,7 +108,7 @@ export default function Rankings({ teams, onSelectTeam }) {
           overflow: 'hidden',
           boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
         }}>
-          {ranked.map((t, i) => {
+          {filtered.map((t, i) => {
             const keyPlayer = t.keyPlayers?.[0]?.name ?? ''
             const strength  = t.tactics?.strength ?? ''
             const lastWC    = t.meta?.lastWCResult ?? ''
@@ -75,7 +118,7 @@ export default function Rankings({ teams, onSelectTeam }) {
                 key={t.id}
                 className="rankings-row"
                 onClick={() => onSelectTeam?.(t)}
-                style={{ borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}
+                style={{ borderBottom: i < filtered.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}
               >
                 {/* Main row */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 10px' }}>
