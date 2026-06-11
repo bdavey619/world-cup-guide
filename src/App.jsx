@@ -289,7 +289,7 @@ export default function App() {
                   width: '100%', boxSizing: 'border-box',
                   padding: '7px 28px 7px 32px',
                   borderRadius: 6, border: '1px solid var(--gray-200)',
-                  background: 'white', fontFamily: 'inherit', fontSize: 13,
+                  background: 'white', fontFamily: 'inherit', fontSize: 16,
                   color: 'var(--gray-900)', outline: 'none',
                   boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
                 }}

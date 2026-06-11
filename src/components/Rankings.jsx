@@ -57,7 +57,7 @@ export default function Rankings({ teams, onSelectTeam }) {
               border: '1px solid var(--gray-200)',
               background: 'white',
               fontFamily: 'var(--font-sans)',
-              fontSize: 13,
+              fontSize: 16,
               color: 'var(--gray-900)',
               outline: 'none',
               boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
