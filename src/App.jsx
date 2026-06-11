@@ -43,6 +43,8 @@ export default function App() {
   const [selectedTeamId, setSelectedTeamId] = useState('france')
   const [activeView, setActiveView] = useState('overview')
   const [moreOpen, setMoreOpen] = useState(false)
+  const [guideSearch, setGuideSearch] = useState('')
+  const searchRef = useRef(null)
   const moreRef = useRef(null)
 
   // Parse hash → { view, teamId, group }
@@ -269,6 +271,53 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      {/* ── GUIDE SEARCH ─────────────────────────────────── */}
+      {activeView === 'guide' && (() => {
+        const q = guideSearch.trim().toLowerCase()
+        const matches = q ? teams.filter(t => t.name.toLowerCase().includes(q)) : []
+        return (
+          <div ref={searchRef} style={{ background: 'var(--gray-100)', borderBottom: '1px solid var(--gray-200)', padding: '6px 0 0' }}>
+            <div style={{ maxWidth: 'var(--content-max)', margin: '0 auto', padding: '0 var(--content-pad) 6px', position: 'relative' }}>
+              <span style={{ position: 'absolute', left: 'calc(var(--content-pad) + 10px)', top: '50%', transform: 'translateY(-50%)', fontSize: 13, color: 'var(--gray-400)', pointerEvents: 'none' }}>🔍</span>
+              <input
+                type="text"
+                placeholder="Search teams…"
+                value={guideSearch}
+                onChange={e => setGuideSearch(e.target.value)}
+                style={{
+                  width: '100%', boxSizing: 'border-box',
+                  padding: '7px 28px 7px 32px',
+                  borderRadius: 6, border: '1px solid var(--gray-200)',
+                  background: 'white', fontFamily: 'inherit', fontSize: 13,
+                  color: 'var(--gray-900)', outline: 'none',
+                  boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
+                }}
+              />
+              {guideSearch && (
+                <button onClick={() => setGuideSearch('')} style={{ position: 'absolute', right: 'calc(var(--content-pad) + 8px)', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', fontSize: 14, color: 'var(--gray-400)', lineHeight: 1, padding: 2 }}>✕</button>
+              )}
+              {matches.length > 0 && (
+                <div style={{ position: 'absolute', top: 'calc(100% - 2px)', left: 'var(--content-pad)', right: 'var(--content-pad)', background: 'white', borderRadius: '0 0 6px 6px', border: '1px solid var(--gray-200)', borderTop: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', zIndex: 100, overflow: 'hidden' }}>
+                  {matches.map(t => (
+                    <div
+                      key={t.id}
+                      onClick={() => { selectTeam(t); setGuideSearch('') }}
+                      style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '9px 12px', cursor: 'pointer', borderBottom: '0.5px solid var(--gray-100)' }}
+                      onMouseEnter={e => e.currentTarget.style.background = 'var(--gray-50)'}
+                      onMouseLeave={e => e.currentTarget.style.background = 'white'}
+                    >
+                      <span style={{ fontSize: 16 }}>{t.flagEmoji}</span>
+                      <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>{t.name}</span>
+                      <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>Group {t.meta.group}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        )
+      })()}
 
       {/* ── GROUP PILLS ──────────────────────────────────── */}
       {activeView === 'guide' && (
