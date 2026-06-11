@@ -242,6 +242,18 @@ export default function TeamPageTwo({ team }) {
 
           {/* PITCH DIAGRAM */}
           <div style={{ padding: '0.8rem 1.2rem 0 1.5rem', flex: 1 }}>
+            {!selectedPitchName && (
+              <div style={{
+                fontSize: 11,
+                color: 'var(--gray-400)',
+                textAlign: 'center',
+                marginBottom: 6,
+                fontFamily: 'var(--font-sans)',
+                fontStyle: 'italic',
+              }}>
+                Tap a player to learn more
+              </div>
+            )}
             <PitchDiagram
               players={pitch.players}
               accentColor={accentColor}
