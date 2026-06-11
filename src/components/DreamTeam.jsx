@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 const dreamTeam = {
   formation: "4-3-3",
   coach: {
@@ -189,6 +191,8 @@ function buildCountryLegend(players) {
 }
 
 export default function DreamTeam() {
+  const captain = dreamTeam.players.find(p => p.isCaptain)
+  const [selected, setSelected] = useState(captain || dreamTeam.players[0])
   const legend = buildCountryLegend(dreamTeam.players)
   const markingStyle = { stroke: 'white', strokeOpacity: 0.45, fill: 'none' }
   const stripeWidth = 452 / 8
@@ -311,8 +315,17 @@ export default function DreamTeam() {
           {dreamTeam.players.map((p) => {
             const r = p.isCaptain ? 24 : p.isKeyPlayer ? 21 : 18
             const isNotable = p.isKeyPlayer || p.isCaptain
+            const isSelected = selected?.name === p.name
             return (
-              <g key={p.name} filter="url(#dt-shadow)">
+              <g
+                key={p.name}
+                filter="url(#dt-shadow)"
+                onClick={() => setSelected(p)}
+                style={{ cursor: 'pointer' }}
+              >
+                {isSelected && (
+                  <circle cx={p.x} cy={p.y} r={r + 8} fill="rgba(255,255,255,0.2)" stroke="white" strokeWidth={2.5} strokeDasharray="4 2" />
+                )}
                 {p.isCaptain && (
                   <circle cx={p.x} cy={p.y} r={r + 5} fill="none" stroke="white" strokeWidth={2} />
                 )}
@@ -376,75 +389,78 @@ export default function DreamTeam() {
         </div>
       </div>
 
-      {/* Player card grid */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: 10,
-      }}>
-        {dreamTeam.players.map(p => (
+      {/* Selected panel — player or coach */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+        {selected && (
           <div
-            key={p.name}
             style={{
               background: 'white',
               borderRadius: 8,
-              borderLeft: `3px solid ${p.accentColor}`,
-              padding: '12px 14px',
-              boxShadow: '0 1px 2px rgba(0,0,0,0.06)',
+              borderLeft: `4px solid ${selected.accentColor}`,
+              padding: '14px 16px',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
             }}
           >
-            <div style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 5,
-            }}>
-              <span style={{ fontSize: 15 }}>{p.flagEmoji}</span>
-              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>
-                {p.name}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 2 }}>
+              <span style={{ fontSize: 18 }}>{selected.flagEmoji}</span>
+              <span style={{ fontSize: 15, fontWeight: 700, color: 'var(--gray-900)', flex: 1 }}>
+                {selected.name}
               </span>
-              <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{p.position}</span>
+              <span style={{
+                fontSize: 11,
+                fontWeight: 600,
+                color: 'white',
+                background: selected.accentColor,
+                padding: '2px 8px',
+                borderRadius: 10,
+              }}>
+                {selected.isCoach ? 'Coach' : selected.position}
+              </span>
             </div>
-            <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 2 }}>
-              {p.club}
+            <div style={{ fontSize: 11, color: 'var(--gray-400)', marginBottom: 8 }}>
+              {selected.club} · {selected.country}
+              {selected.isCaptain && <span style={{ marginLeft: 8, fontStyle: 'italic' }}>Captain</span>}
+              {selected.isKeyPlayer && !selected.isCaptain && <span style={{ marginLeft: 8, fontStyle: 'italic' }}>Key Player</span>}
             </div>
-            <div style={{ fontSize: 12, color: 'var(--gray-700)', lineHeight: 1.6, marginTop: 6 }}>
-              {p.note}
+            <div style={{ fontSize: 13, color: 'var(--gray-700)', lineHeight: 1.7 }}>
+              {selected.note}
             </div>
           </div>
-        ))}
+        )}
 
-        {/* Coach card — full width */}
-        <div style={{
-          gridColumn: '1 / -1',
-          background: 'white',
-          borderRadius: 8,
-          borderLeft: `3px solid #1a1a1a`,
-          padding: '12px 14px',
-          boxShadow: '0 1px 2px rgba(0,0,0,0.06)',
-        }}>
-          <div style={{
-            fontSize: 10,
-            textTransform: 'uppercase',
-            letterSpacing: '0.06em',
-            color: 'var(--gray-400)',
-            marginBottom: 4,
-          }}>
-            Coach
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <span style={{ fontSize: 15 }}>{dreamTeam.coach.flagEmoji}</span>
-            <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>
-              {dreamTeam.coach.name}
-            </span>
-            <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{dreamTeam.coach.country}</span>
-          </div>
-          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 2 }}>
-            {dreamTeam.coach.club}
-          </div>
-          <div style={{ fontSize: 12, color: 'var(--gray-700)', lineHeight: 1.6, marginTop: 6 }}>
-            {dreamTeam.coach.note}
-          </div>
-        </div>
+        {/* Coach card — click to read */}
+        {(() => {
+          const coach = { ...dreamTeam.coach, isCoach: true, accentColor: '#1a1a1a' }
+          const isCoachSelected = selected?.isCoach
+          return (
+            <div
+              onClick={() => setSelected(isCoachSelected ? (captain || dreamTeam.players[0]) : coach)}
+              style={{
+                background: 'white',
+                borderRadius: 8,
+                borderLeft: `3px solid #1a1a1a`,
+                padding: '12px 14px',
+                boxShadow: isCoachSelected ? '0 0 0 2px #1a1a1a' : '0 1px 2px rgba(0,0,0,0.06)',
+                cursor: 'pointer',
+                userSelect: 'none',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+                <span style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--gray-400)' }}>Coach</span>
+                <span style={{ fontSize: 15, marginLeft: 4 }}>{dreamTeam.coach.flagEmoji}</span>
+                <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>
+                  {dreamTeam.coach.name}
+                </span>
+                <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>
+                  {isCoachSelected ? '▲' : '▼'}
+                </span>
+              </div>
+              <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 2 }}>
+                {dreamTeam.coach.club}
+              </div>
+            </div>
+          )
+        })()}
       </div>
     </div>
   )
