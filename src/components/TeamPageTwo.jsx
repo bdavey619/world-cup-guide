@@ -349,8 +349,95 @@ export default function TeamPageTwo({ team }) {
               )}
             </div>
           ) : (
-            <div style={{ height: '0.8rem' }} />
+            <div style={{ height: '0.5rem' }} />
           )}
+
+          {/* SQUAD ROSTER — below pitch in left col */}
+          {squad && squad.length > 0 && (() => {
+            const groups = groupSquad(squad)
+            const startsMap = {}
+            ;(matches || []).forEach(m => {
+              (m.starters || []).forEach(s => {
+                const key = s.toLowerCase()
+                startsMap[key] = (startsMap[key] || 0) + 1
+              })
+            })
+            function getStarts(p) {
+              const last = p.name.split(' ').pop().toLowerCase()
+              const full = p.name.toLowerCase()
+              return startsMap[full] || startsMap[last] || 0
+            }
+            return (
+              <div style={{ borderTop: '0.5px solid var(--gray-100)', margin: '0 0 0 0' }}>
+                <button
+                  onClick={() => setSquadOpen(o => !o)}
+                  style={{
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '0.5rem 1.2rem 0.5rem 1.5rem',
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer',
+                    fontFamily: 'var(--font-sans)',
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                    <div style={{ width: 3, height: 12, background: accentColor, flexShrink: 0 }} />
+                    <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)' }}>
+                      Full Squad · {squad.length} players
+                    </span>
+                  </div>
+                  <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{squadOpen ? '▲' : '▼'}</span>
+                </button>
+                {squadOpen && (
+                  <div style={{ padding: '0 1.2rem 1rem 1.5rem' }}>
+                    {Object.entries(groups).map(([pos, players]) =>
+                      players.length === 0 ? null : (
+                        <div key={pos} style={{ marginBottom: 10 }}>
+                          <div style={{ fontSize: 9, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', marginBottom: 4 }}>
+                            {POS_GROUP[pos]}
+                          </div>
+                          {players.map((p, i) => {
+                            const starts = getStarts(p)
+                            const isStarter = pitch.players.some(pp => {
+                              const n = pp.name.toLowerCase()
+                              const last = p.name.split(' ').pop().toLowerCase()
+                              return n === p.name.toLowerCase() || n.includes(last) || last.includes(n)
+                            })
+                            return (
+                              <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '3.5px 0', borderBottom: i < players.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                  {isStarter && (
+                                    <div style={{ width: 5, height: 5, borderRadius: '50%', background: accentColor, flexShrink: 0 }} />
+                                  )}
+                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: isStarter ? 0 : 11 }}>
+                                    {p.name}
+                                  </span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                                  {starts > 0 && (
+                                    <span style={{ fontSize: 10, color: accentColor, fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
+                                      {starts}GS
+                                    </span>
+                                  )}
+                                  <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>
+                                </div>
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )
+                    )}
+                    <div style={{ fontSize: 9, color: 'var(--gray-300)', fontFamily: 'var(--font-sans)', marginTop: 4 }}>
+                      ● starting XI &nbsp;·&nbsp; GS = games started
+                    </div>
+                  </div>
+                )}
+              </div>
+            )
+          })()}
         </div>
 
         {/* RIGHT PANEL */}
@@ -483,54 +570,7 @@ export default function TeamPageTwo({ team }) {
         </div>
       </div>
 
-      {/* 4. SQUAD ROSTER */}
-      {squad && squad.length > 0 && (
-        <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
-          <button
-            onClick={() => setSquadOpen(o => !o)}
-            style={{
-              width: '100%',
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              padding: '0.55rem 1.5rem',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              fontFamily: 'var(--font-sans)',
-            }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-              <div style={{ width: 3, height: 12, background: accentColor }} />
-              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)' }}>
-                Full Squad · {squad.length} players
-              </span>
-            </div>
-            <span style={{ fontSize: 12, color: 'var(--gray-400)' }}>{squadOpen ? '▲' : '▼'}</span>
-          </button>
-          {squadOpen && (
-            <div style={{ padding: '0 1.5rem 1rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '0 2rem' }}>
-              {Object.entries(groupSquad(squad)).map(([pos, players]) =>
-                players.length === 0 ? null : (
-                  <div key={pos} style={{ marginBottom: 12 }}>
-                    <div style={{ fontSize: 9, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', marginBottom: 4 }}>
-                      {POS_GROUP[pos]}
-                    </div>
-                    {players.map((p, i) => (
-                      <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', padding: '3px 0', borderBottom: i < players.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}>
-                        <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: 'var(--gray-800)' }}>{p.name}</span>
-                        <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>
-                      </div>
-                    ))}
-                  </div>
-                )
-              )}
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* 5. MATCH HISTORY */}
+      {/* 4. MATCH HISTORY */}
       {matches && matches.length > 0 && (
         <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
           <button
