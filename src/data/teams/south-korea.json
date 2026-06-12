@@ -79,7 +79,9 @@
       "opponent": "Czechia",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": false
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
     },
     {
       "date": "Jun 18",

@@ -218,7 +218,9 @@ async function updateStandings() {
 
       // ESPN date "2026-06-11T19:00Z" → "Jun 11"
       const matchDate = new Date(event.date)
-      const matchDateLabel = `${MONTH_ABBR[matchDate.getUTCMonth()]} ${matchDate.getUTCDate()}`
+      // Convert UTC kickoff to ET (UTC-4 in summer) for date label matching
+      const matchDateET = new Date(matchDate.getTime() - 4 * 60 * 60 * 1000)
+      const matchDateLabel = `${MONTH_ABBR[matchDateET.getUTCMonth()]} ${matchDateET.getUTCDate()}`
 
       for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
         if (!slug) continue

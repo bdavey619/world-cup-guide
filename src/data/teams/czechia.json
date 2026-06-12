@@ -81,7 +81,9 @@
       "opponent": "South Korea",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     },
     {
       "date": "Jun 18",
