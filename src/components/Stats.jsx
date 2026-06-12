@@ -175,7 +175,7 @@ export default function Stats() {
     <div>
       {/* ── Individual Leaders ──────────────────────────────────── */}
       <SectionLabel>Individual Leaders</SectionLabel>
-      <div style={{ padding: '0 10px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
         <Leaderboard title="⚽ Golden Boot — Top Scorers" entries={individual?.goals} valueLabel="Goals" />
         <Leaderboard title="🎯 Top Assists" entries={individual?.assists} valueLabel="Assists" />
       </div>
