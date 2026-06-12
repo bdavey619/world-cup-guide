@@ -117,8 +117,9 @@ const ESPN_NAME_OVERRIDES = {
 // ─── Build pitch.players from ESPN roster entries ────────────────────────────
 
 function buildPitchPlayers(starters, formation, existingTeam) {
+  const normalize = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
   const keyLastNames = (existingTeam.keyPlayers || []).map(kp =>
-    kp.name.split(' ').pop().toLowerCase()
+    normalize(kp.name.split(' ').pop())
   )
 
   // Assign tier + left-right order to each player
@@ -155,7 +156,7 @@ function buildPitchPlayers(starters, formation, existingTeam) {
         shortName:   lastName,
         position:    posAbbr,
         role:        ROLE_BY_TIER[tier] || 'mid',
-        isKeyPlayer: keyLastNames.includes(lastName.toLowerCase()),
+        isKeyPlayer: keyLastNames.includes(normalize(lastName)),
         isCaptain:   p.captain === true,
         x:           xs[colIdx],
         y:           ySlots[rowIdx],
