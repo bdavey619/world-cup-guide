@@ -146,7 +146,7 @@
         "shortName": "Dedic",
         "position": "D",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 161,
         "y": 148
@@ -156,7 +156,7 @@
         "shortName": "Kolasinac",
         "position": "D",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
         "y": 148
@@ -216,7 +216,7 @@
         "shortName": "Demirovic",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "x": 163,
         "y": 375
