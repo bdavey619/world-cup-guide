@@ -135,41 +135,41 @@
         "name": "Muharemovic",
         "shortName": "Muharemovic",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 32,
-        "y": 240
+        "x": 63,
+        "y": 148
       },
       {
         "name": "Dedic",
         "shortName": "Dedic",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 87,
-        "y": 240
+        "x": 161,
+        "y": 148
       },
       {
         "name": "Kolasinac",
         "shortName": "Kolasinac",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 143,
-        "y": 240
+        "x": 293,
+        "y": 148
       },
       {
         "name": "Katic",
         "shortName": "Katic",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 198,
-        "y": 240
+        "x": 389,
+        "y": 148
       },
       {
         "name": "Basic",
@@ -178,8 +178,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 254,
-        "y": 240
+        "x": 63,
+        "y": 256
       },
       {
         "name": "Tahirovic",
@@ -188,8 +188,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 309,
-        "y": 240
+        "x": 161,
+        "y": 256
       },
       {
         "name": "Bajraktarevic",
@@ -198,8 +198,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 365,
-        "y": 240
+        "x": 293,
+        "y": 256
       },
       {
         "name": "Memic",
@@ -208,8 +208,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 420,
-        "y": 240
+        "x": 389,
+        "y": 256
       },
       {
         "name": "Demirovic",
@@ -219,7 +219,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 163,
-        "y": 385
+        "y": 375
       },
       {
         "name": "Lukic",
@@ -229,7 +229,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 289,
-        "y": 385
+        "y": 375
       }
     ]
   },

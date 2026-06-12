@@ -141,41 +141,41 @@
         "name": "Johnston",
         "shortName": "Johnston",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 32,
-        "y": 240
+        "x": 63,
+        "y": 148
       },
       {
         "name": "Laryea",
         "shortName": "Laryea",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 87,
-        "y": 240
+        "x": 161,
+        "y": 148
       },
       {
         "name": "de Fougerolles",
         "shortName": "de Fougerolles",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 143,
-        "y": 240
+        "x": 293,
+        "y": 148
       },
       {
         "name": "Cornelius",
         "shortName": "Cornelius",
         "position": "D",
-        "role": "mid",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 198,
-        "y": 240
+        "x": 389,
+        "y": 148
       },
       {
         "name": "Buchanan",
@@ -184,8 +184,8 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 254,
-        "y": 240
+        "x": 63,
+        "y": 256
       },
       {
         "name": "Koné",
@@ -194,8 +194,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 309,
-        "y": 240
+        "x": 161,
+        "y": 256
       },
       {
         "name": "Eustáquio",
@@ -204,8 +204,8 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 365,
-        "y": 240
+        "x": 293,
+        "y": 256
       },
       {
         "name": "Millar",
@@ -214,8 +214,8 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 420,
-        "y": 240
+        "x": 389,
+        "y": 256
       },
       {
         "name": "Oluwaseyi",
@@ -225,7 +225,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 163,
-        "y": 385
+        "y": 375
       },
       {
         "name": "David",
@@ -235,7 +235,7 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 289,
-        "y": 385
+        "y": 375
       }
     ]
   },
