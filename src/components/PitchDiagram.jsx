@@ -128,7 +128,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {/* Name */}
             <text
               x={p.x}
-              y={p.y - (p.isKeyPlayer || p.isCaptain ? 6 : p.jersey ? 5 : 2)}
+              y={p.y - (p.jersey != null ? 3 : 1)}
               textAnchor="middle"
               fill="white"
               fontSize={p.isCaptain ? 8.5 : 8}
@@ -141,7 +141,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {p.jersey != null && (
               <text
                 x={p.x}
-                y={p.y + (p.isKeyPlayer || p.isCaptain ? 1 : 4)}
+                y={p.y + 5}
                 textAnchor="middle"
                 fill="white"
                 fillOpacity={0.75}
@@ -155,7 +155,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {(p.isKeyPlayer || p.isCaptain) && !isSelected && (
               <text
                 x={p.x}
-                y={p.y + (p.jersey != null ? 8 : 4)}
+                y={p.y + (p.jersey != null ? 12 : 5)}
                 textAnchor="middle"
                 fill="white"
                 fillOpacity={0.7}
@@ -170,7 +170,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {isSelected && (
               <text
                 x={p.x}
-                y={p.y + 4}
+                y={p.y + (p.jersey != null ? 12 : 5)}
                 textAnchor="middle"
                 fill="white"
                 fillOpacity={1}
@@ -181,18 +181,6 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
                 ▼
               </text>
             )}
-            {/* Position */}
-            <text
-              x={p.x}
-              y={p.y + (p.isKeyPlayer || p.isCaptain ? 12 : 8)}
-              textAnchor="middle"
-              fill="white"
-              fillOpacity={0.5}
-              fontSize={7}
-              fontFamily="sans-serif"
-            >
-              {p.position}
-            </text>
           </g>
         )
       })}

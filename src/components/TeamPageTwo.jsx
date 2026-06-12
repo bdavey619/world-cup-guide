@@ -427,7 +427,7 @@ export default function TeamPageTwo({ team }) {
                                       {starts}GS
                                     </span>
                                   )}
-                                  <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>
+                                  {p.club && <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>}
                                 </div>
                               </div>
                             )
