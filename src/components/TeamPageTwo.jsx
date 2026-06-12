@@ -31,10 +31,10 @@ export default function TeamPageTwo({ team }) {
   // Find the keyPlayer profile that matches a pitch player name
   function findKeyPlayer(pitchName) {
     if (!keyPlayers || !pitchName) return null
-    const needle = pitchName.toLowerCase()
+    const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    const needle = norm(pitchName)
     return keyPlayers.find(kp => {
-      const haystack = kp.name.toLowerCase()
-      // exact match, substring either direction, or last-name match
+      const haystack = norm(kp.name)
       if (haystack === needle || haystack.includes(needle) || needle.includes(haystack)) return true
       const lastName = haystack.split(' ').pop()
       return needle.includes(lastName) || lastName.includes(needle)
