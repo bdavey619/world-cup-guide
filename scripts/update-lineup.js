@@ -284,6 +284,19 @@ async function main() {
         team.pitch.players  = buildPitchPlayers(starters, formation, team)
         team.meta.formation = formation || team.meta.formation
         team.pitchLabel     = `Confirmed XI · ${formatMatchDate(kickoff)} vs ${opponent}`
+
+        // Accumulate match starters — keyed by eventId so reruns are idempotent
+        if (!team.matches) team.matches = []
+        const starterNames = starters.map(p =>
+          p.athlete?.lastName || p.athlete?.displayName?.split(' ').pop() || ''
+        ).filter(Boolean)
+        const existing = team.matches.find(m => m.eventId === eventId)
+        if (existing) {
+          existing.starters = starterNames
+        } else {
+          team.matches.push({ eventId, opponent, date: formatMatchDate(kickoff), starters: starterNames })
+        }
+
         fs.writeFileSync(filePath, JSON.stringify(team, null, 2) + '\n')
         anyUpdate = true
       }

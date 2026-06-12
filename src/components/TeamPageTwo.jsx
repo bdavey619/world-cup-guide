@@ -359,14 +359,14 @@ export default function TeamPageTwo({ team }) {
             const startsMap = {}
             ;(matches || []).forEach(m => {
               (m.starters || []).forEach(s => {
-                const key = s.toLowerCase()
-                startsMap[key] = (startsMap[key] || 0) + 1
+                startsMap[s.toLowerCase()] = (startsMap[s.toLowerCase()] || 0) + 1
               })
             })
             function getStarts(p) {
               const last = p.name.split(' ').pop().toLowerCase()
               const full = p.name.toLowerCase()
-              return startsMap[full] || startsMap[last] || 0
+              // starters are stored as last names from ESPN
+              return startsMap[last] || startsMap[full] || 0
             }
             const indiv = statsData?.individual || {}
             function getStatVal(list, playerName) {
@@ -446,7 +446,6 @@ export default function TeamPageTwo({ team }) {
                                       {starts}GS
                                     </span>
                                   )}
-                                  {p.club && <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>}
                                 </div>
                               </div>
                             )
@@ -455,7 +454,7 @@ export default function TeamPageTwo({ team }) {
                       )
                     )}
                     <div style={{ fontSize: 9, color: 'var(--gray-300)', fontFamily: 'var(--font-sans)', marginTop: 4 }}>
-                      ● starting XI &nbsp;·&nbsp; GS = games started &nbsp;·&nbsp; ⚽ goals &nbsp;·&nbsp; 🅰️ assists
+                      ● starting XI &nbsp;·&nbsp; ⚽ goals &nbsp;·&nbsp; 🅰️ assists &nbsp;·&nbsp; GS = games started this tournament
                     </div>
                   </div>
                 )}
