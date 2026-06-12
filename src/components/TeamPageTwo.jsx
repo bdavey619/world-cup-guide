@@ -412,7 +412,12 @@ export default function TeamPageTwo({ team }) {
                                   {isStarter && (
                                     <div style={{ width: 5, height: 5, borderRadius: '50%', background: accentColor, flexShrink: 0 }} />
                                   )}
-                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: isStarter ? 0 : 11 }}>
+                                  {p.jersey != null && (
+                                    <span style={{ fontSize: 9, fontFamily: 'var(--font-sans)', color: 'var(--gray-400)', fontWeight: 600, minWidth: 14, textAlign: 'right', marginLeft: isStarter ? 0 : 11 }}>
+                                      {p.jersey}
+                                    </span>
+                                  )}
+                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: p.jersey != null ? 0 : (isStarter ? 0 : 11) }}>
                                     {p.name}
                                   </span>
                                 </div>
