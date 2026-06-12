@@ -267,5 +267,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Mathew Ryan",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Paul Izzo",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Patrick Beach",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Milos Degenek",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jason Geria",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aziz Behich",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Cameron Burgess",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Harry Souttar",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jacob Italiano",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kai Trewin",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jordan Bos",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alessandro Circati",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lucas Herrington",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jackson Irvine",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Awer Mabil",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ajdin Hrustic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aiden O'Neill",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Connor Metcalfe",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cameron Devlin",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cristian Volpato",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Paul Okon-Engstler",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mathew Leckie",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Toure",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tete Yengi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nishan Velupillay",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nestory Irankunda",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

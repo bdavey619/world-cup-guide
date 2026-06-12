@@ -280,5 +280,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Ederson",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alisson Becker",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Weverton",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alex Sandro",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Léo Pereira",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marquinhos ",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Danilo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Douglas Santos",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Bremer",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Roger Ibañez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Casemiro",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Fabinho",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Bruno Guimarães",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lucas Paquetá",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Éderson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Danilo Santos",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Neymar",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Raphinha",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Vinícius Júnior",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Matheus Cunha",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Igor Thiago",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Luiz Henrique",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Endrick",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Rayan",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

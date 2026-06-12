@@ -266,5 +266,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Ahmed Al-Kassar",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mohammed Al-Owais",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Nawaf Al-Aqidi",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Hassan Kadish",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hassan Al-Tambakti",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdulelah Al-Amri",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ali Lajami",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Moteb Al-Harbi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nawaf Boushal",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ali Majrashi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jehad Thakri",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Salem Al-Dawsari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Kanno",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nasser Al-Dawsari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Abdullah Al-Khaibari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aiman Yahya",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ziyad Al-Johani",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Musab Al-Juwayr",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ala Al-Hajji",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohammed Abu Al-Shamat",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Saleh Al-Shehri",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Feras Al-Brikan",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Sultan Mandash",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Khalid Al-Ghannam",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Abdullah Al-Hamdan",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

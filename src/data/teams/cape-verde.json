@@ -229,5 +229,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Vozinha",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Márcio Rosa",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "CJ dos Santos",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Stopira",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Steven Moreira",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Diney Borges",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Pico Lopes",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Logan Costa",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sidny Lopes Cabral",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Wagner Pina",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kelvin Pires",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yannick Semedo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Laros Duarte",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jamiro Monteiro",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Deroy Duarte",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Telmo Arcanjo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "João Paulo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kevin Pina",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ryan Mendes",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Garry Rodrigues",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nuno da Costa",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jovane Cabral",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Willy Semedo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gilson Benchimol",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Dailon Livramento",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Hélio Varela",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

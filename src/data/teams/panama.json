@@ -237,5 +237,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Luis Mejía",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Orlando Mosquera",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "César Samudio",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Roderick Miller",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Éric Davis",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Andrés Andrade",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Fidel Escobar",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Amir Murillo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "César Blackman",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jorge Gutiérrez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "José Córdoba",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jiovany Ramos",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Edgardo Fariña",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aníbal Godoy",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cristian Martínez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Édgar Yoel Bárcenas",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "José Luis Rodríguez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Carlos Harvey",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alberto Quintero",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cecilio Waterman",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ismael Díaz",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "José Fajardo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tomás Rodríguez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "César Yanis",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Azarias Londoño",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

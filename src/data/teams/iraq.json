@@ -236,5 +236,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Fahad Talib",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Jalal Hassan",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Basil",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Frans Putros",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rebin Sulaka",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hussein Ali",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Munaf Younus",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Merchas Doski",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Maknazi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mustafa Saadoon",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Akam Hashim",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Zaid Tahseen",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Bayesh",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kevin Yakob",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aimar Sher",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amir Al-Ammari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Zidane Iqbal",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marko Farji",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Zaid Ismael",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aymen Hussein",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohanad Ali",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Yousif",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Jasim",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Qasim",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Youssef Amyn",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Al-Hamadi",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

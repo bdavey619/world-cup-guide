@@ -280,5 +280,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Rui Silva",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "José Sá",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Diogo Costa",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "João Cancelo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nélson Semedo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rúben Dias",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Diogo Dalot",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nuno Mendes",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gonçalo Inácio",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tomás Araújo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Renato Veiga",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Bruno Fernandes",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Samú Costa",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Bernardo Silva",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rúben Neves",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Vitinha ",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Matheus Nunes",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "João Neves",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gonçalo Guedes",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Pedro Neto",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Rafael Leão",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Francisco Trincão",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "João Félix",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gonçalo Ramos",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Francisco Conceição",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

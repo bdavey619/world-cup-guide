@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Liam Kelly",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Craig Gordon",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Angus Gunn",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Andy Robertson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Grant Hanley",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "John Souttar",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Scott McKenna",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jack Hendry",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kieran Tierney",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Anthony Ralston",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Dominic Hyam",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nathan Patterson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aaron Hickey",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ryan Christie",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kenny McLean",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "John McGinn",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lewis Ferguson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Scott McTominay",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Tyler Fletcher",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lawrence Shankland",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Lyndon Dykes",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ché Adams",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "George Hirst",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ross Stewart",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ben Gannon-Doak",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Findlay Curtis",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -257,5 +257,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Lawrence Ati Zigi",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Joseph Anang",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Benjamin Asare",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Baba Rahman",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Derrick Luckassen",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdul Mumin",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jerome Opoku",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gideon Mensah",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alidu Seidu",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marvin Senaya",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jonas Adjetey",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kojo Peprah Oppong",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Thomas Partey",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Elisha Owusu",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kwasi Sibo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Caleb Yirenkyi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Augustine Boakye",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jordan Ayew",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Iñaki Williams",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Brandon Thomas-Asante",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Antoine Semenyo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kamaldeen Sulemana",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Fatawu Issahaku",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ernest Nuamah",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Christopher Bonsu Baah",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Prince Adu",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

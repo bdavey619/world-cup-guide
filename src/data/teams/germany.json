@@ -279,5 +279,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Oliver Baumann",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alexander Nübel",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Nathaniel Brown",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jonathan Tah",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Waldemar Anton",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "David Raum",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Malick Thiaw",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Pascal Gross",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nadiem Amiri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Felix Nmecha",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Angelo Stiller",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Assan Ouédraogo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Deniz Undav",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Maximilian Beier",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jamie Leweling",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nick Woltemade",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

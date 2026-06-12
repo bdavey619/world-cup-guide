@@ -279,5 +279,132 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Emiliano Martínez",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Gerónimo Rulli",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Juan Musso",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Cristian Romero",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nahuel Molina",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lisandro Martínez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Facundo Medina",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Leandro Paredes",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Exequiel Palacios",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Thiago Almada",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Enzo Fernández",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Valentín Barco",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lionel Messi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nico González",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Lautaro Martínez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Julián Álvarez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "José Manuel López",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Giuliano Simeone",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nico Paz",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

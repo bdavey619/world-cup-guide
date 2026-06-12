@@ -244,5 +244,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Maxime Crépeau",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Dayne St. Clair",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Owen Goodman",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Richie Laryea",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alphonso Davies",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joel Waterman",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Derek Cornelius",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alfie Jones",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alistair Johnston",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Moïse Bombito",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Luc de Fougerolles",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jonathan Osorio",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Stephen Eustáquio",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mathieu Choinière",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nathan Saliba",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ismaël Koné",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ali Ahmed",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Niko Sigur",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cyle Larin",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Liam Millar",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jonathan David",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jayden Nelson",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tajon Buchanan",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jacob Shaffelburg",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tani Oluwaseyi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Promise David",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -249,5 +249,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Alban Lafont",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Yahia Fofana",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Koné",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Evan Ndicka",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Christopher Operi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ghislain Konan",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Odilon Kossounou",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Wilfried Singo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Emmanuel Agbadou",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ousmane Diomande",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Guela Doué",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Seko Fofana",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jean Michaël Seri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Franck Kessié",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Sangaré",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Parfait Guiagon",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Christ Inao Oulaï",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nicolas Pépé",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Evann Guessand",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Amad Diallo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ange-Yoan Bonny",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Elye Wahi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Simon Adingra",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Oumar Diakité",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Bazoumana Touré",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Yan Diomande",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

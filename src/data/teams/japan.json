@@ -275,5 +275,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Keisuke Osako",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Zion Suzuki",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Tomoki Hayakawa",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Hiroki Ito",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yuto Nagatomo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Shogo Taniguchi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kou Itakura",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ayumu Seko",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yukinari Sugawara",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tsuyoshi Watanabe",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Junnosuke Suzuki",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Wataru Endo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Daichi Kamada",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ritsu Doan",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ao Tanaka",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yuito Suzuki",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kaishu Sano",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Junya Ito",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Koki Ogawa",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Takefusa Kubo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Keito Nakamura",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ayase Ueda",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Daizen Maeda",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Keisuke Goto",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kento Shiogai",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

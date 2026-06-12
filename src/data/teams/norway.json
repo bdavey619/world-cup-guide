@@ -248,5 +248,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Ørjan Nyland",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Egil Selvik",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Sander Tangvik",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Marcus Holmgren Pedersen",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kristoffer Ajer",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Julian Ryerson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Fredrik André Bjørkan",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Torbjørn Heggem",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Leo Østigard",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Henrik Falchener",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "David Møller Wolfe",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sondre Langas",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Morten Thorsby",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Martin Ødegaard",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Patrick Berg",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Fredrik Aursnes",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Sander Berge",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jens Petter Hauge",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kristian Thorstvedt",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Oscar Bobb",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Thelo Aasgaard",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Antonio Nusa",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alexander Sørloth",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jørgen Strand Larsen",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Erling Haaland",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Andreas Schjelderup",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

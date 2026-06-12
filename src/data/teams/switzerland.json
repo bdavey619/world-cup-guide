@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Yvon Mvogo",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Gregor Kobel",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Marvin Keller",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ricardo Rodríguez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Silvan Widmer",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nico Elvedi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Manuel Akanji",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Eray Cömert",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Miro Muheim",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aurèle Amenda",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Luca Jaquez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Granit Xhaka",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Remo Freuler",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Djibril Sow",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Denis Zakaria",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Christian Fassnacht",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Michel Aebischer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rubén Vargas",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ardon Jashari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Fabian Rieder",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Johan Manzambi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Breel Embolo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cedric Itten",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Noah Okafor",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Dan Ndoye",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Zeki Amdouni",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

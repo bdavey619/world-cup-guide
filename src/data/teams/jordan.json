@@ -230,5 +230,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Yazeed Abulaila",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Abdallah Al-Fakhouri",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Nour Bani Ateyah",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ehsan Haddad",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Abualnadi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Saleem Obaid",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdallah Nasib",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohannad Abu Taha",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Abu Hasheesh",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Husam Abu Dahab",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Saed Al-Rosan",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Abughoush",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Anas Badawi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rajaei Ayed",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Noor Al-Rawabdeh",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Sadeh",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Al-Daoud",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nizar Al-Rashdan",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amer Jamous",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mahmoud Al-Mardi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mousa Al-Tamari",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohammed Abu Zraiq",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Olwan",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Odeh Fakhoury",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Azaizeh",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

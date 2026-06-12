@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Gatito Fernández",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Gastón Olveira",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Orlando Gil",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Juan Cáceres",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gustavo Gómez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gustavo Velázquez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Júnior Alonso",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Fabián Balbuena",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Omar Alderete",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "José Canale",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alexandro Maidana",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Julio Enciso",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alejandro Romero Gamarra",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Diego Gómez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Andrés Cubas",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Braian Ojeda",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mauricio",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Matías Galarza",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Damián Bobadilla",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Miguel Almirón",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gustavo Caballero",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Antonio Sanabria",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gabriel Ávalos",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Alex Arce",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Isidro Pitta",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ramón Sosa",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

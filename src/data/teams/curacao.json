@@ -230,5 +230,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Eloy Room",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Trevor Doornbusch",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Tyrick Bodak",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Joshua Brenet",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Riechedly Bazoer",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sherel Floranus",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Armando Obispo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Juriën Gaari",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Roshon van Eijma",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Shurandy Sambo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Livano Comenencia",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Deveron Fonville",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tyrese Noslin",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Leandro Bacuna",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Juninho Bacuna",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kevin Felida",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Godfried Roemeratoe",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Tahith Chong",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ar'jany Martha",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jürgen Locadia",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Brandley Kuwas",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gervane Kastaneer",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kenji Gorré",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Sontje Hansen",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jearl Margaritha",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jeremy Antonisse",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -279,5 +279,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Kristoffer Nordfeldt",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Viktor Johansson",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Jacob Widell Zetterström",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Carl Starfelt",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Eric Smith",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Victor Lindelöf",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gabriel Gudmundsson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hjalmar Ekdal",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Daniel Svensson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Isak Hien",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gustaf Lagerbielke",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ken Sema",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mattias Svanberg",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jesper Karlström",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yasin Ayari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Herman Johansson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Taha Ali",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Besfort Zeneli",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lucas Bergvall",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Elliot Stroud",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alexander Isak",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gustaf Nilsson",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Viktor Gyökeres",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Benjamin Nygren",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Anthony Elanga",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Alexander Bernhardsson",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

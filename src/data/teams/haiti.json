@@ -235,5 +235,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Johny Placide",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Josué Duverger",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alexandre Pierre",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ricardo Adé",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Carlens Arcus",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Markhus Lacroix",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jean-Kévin Duverne",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hannes Delcroix",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Martin Expérience",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Wilguens Paugain",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Keeto Thermoncy",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Leverton Pierre",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Carl Sainté",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Danley Jean Jacques",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Dominique Simon",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Woodensky Pierre",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yassin Fortuné",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Duckens Nazon",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Derrick Etienne Jr.",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Frantzdy Pierrot",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Wilson Isidor",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Louicius Deedson",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Lenny Joseph",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Josué Casimir",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ruben Providence",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

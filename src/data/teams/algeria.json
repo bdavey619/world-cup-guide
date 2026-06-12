@@ -261,5 +261,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Luca Zidane",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Oussama Benbot",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Melvin Mastil",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Aïssa Mandi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ramy Bensebaini",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rayan Aït-Nouri",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Amine Tougai",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Zineddine Belaïd",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Samir Chergui",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jaouen Hadjam",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rafik Belghali",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Achraf Abada",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nabil Bentaleb",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Houssem Aouar",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Hicham Boudaoui",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ramiz Zerrouki",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Farès Chaïbi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yassine Titraoui",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Maza",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Riyad Mahrez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Amine Gouiri",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Amoura",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Adil Boulbina",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Anis Hadj Moussa",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nadhir Benbouali",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Farès Ghedjemis",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

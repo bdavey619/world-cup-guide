@@ -255,5 +255,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Mert Günok",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ugurcan Çakir",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Altay Bayindir",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Kaan Ayhan",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdülkerim Bardakçi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Çaglar Söyüncü",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ferdi Kadioglu",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mert Müldür",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ozan Kabak",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Merih Demiral",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Zeki Çelik",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Eren Elmali",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Samet Akaydin",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hakan Çalhanoglu",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Irfan Can Kahveci",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Salih Özcan",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Orkun Kökçü",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ismail Yüksek",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Arda Güler",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Can Uzun",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yunus Akgün",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kerem Aktürkoglu",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Baris Alper Yilmaz",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Oguz Aydin",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Deniz Gül",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kenan Yildiz",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

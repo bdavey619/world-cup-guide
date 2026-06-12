@@ -270,5 +270,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Hossein Hosseini",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alireza Beiranvand",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Payam Niazmand",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Shoja Khalilzadeh",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ehsan Hajsafi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ramin Rezaeian",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Milad Mohammadi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hossein Kanani",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ali Nemati",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Saleh Hardani",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Arya Yousefi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Danial Iri",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alireza Jahanbakhsh",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Saeid Ezatolahi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mehdi Torabi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Saman Ghoddos",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Roozbeh Cheshmi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Mohebbi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohammad Ghorbani",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amirmohammad Razzaghinia",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mehdi Taremi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ali Alipour",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mehdi Ghayedi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Amirhossein Hosseinzadeh",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Dennis Dargahi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Shahriyar Moghanloo",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

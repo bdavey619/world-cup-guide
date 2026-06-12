@@ -280,5 +280,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Yassine Bounou",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Reda Tagnaouti",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Munir El Kajoui",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Issa Diop",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Achraf Hakimi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nayef Aguerd",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Anass Salah-Eddine",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Chadi Riad",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Zakaria El Ouahdi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Redouane Halhal",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Youssef Belammari",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Brahim Díaz",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ismael Saibari",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Neil El Aynaoui",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ayyoub Bouaddi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Samir El Mourabet",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ayoub El Kaabi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Soufiane Rahimi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Abde Ezzalzouli",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Chemsdine Talbi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gessime Yassine",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ayoube Amaimouni",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -275,5 +275,132 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Alexander Schlager",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Patrick Pentz",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Florian Wiegele",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "David Alaba",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Philipp Lienhart",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marco Friedl",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Stefan Posch",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Phillipp Mwene",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kevin Danso",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Michael Svoboda",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "David Affengruber",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alexander Prass",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Konrad Laimer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marcel Sabitzer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alessandro Schöpf",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Florian Grillitsch",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Romano Schmid",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Xaver Schlager",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Carney Chukwuemeka",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Patrick Wimmer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nicolas Seiwald",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Paul Wanner",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marko Arnautovic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Michael Gregoritsch",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Sasa Kalajdzic",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

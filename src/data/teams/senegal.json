@@ -249,5 +249,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Mory Diaw",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Édouard Mendy",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Yehvann Diouf",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Moussa Niakhaté",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdoulaye Seck",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ismail Jakobs",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Antoine Mendy",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mamadou Sarr",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "El Hadji Malick Diouf",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lamine Camara",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Idrissa Gueye",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Krépin Diatta",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pape Gueye",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pathé Ciss",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Habib Diarra",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Bara Sapoko Ndiaye",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Sadio Mané",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ismaïla Sarr",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cherif Ndiaye",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Iliman Ndiaye",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nicolas Jackson",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Bamba Dieng",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Assane Diao",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Mbaye",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Thibaut Courtois",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Senne Lammens",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mike Penders",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Thomas Meunier",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Brandon Mechele",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Timothy Castagne",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Maxim De Cuyper",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Arthur Theate",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Koni De Winter",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Zeno Debast",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nathan Ngoy",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joaquin Seys",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Axel Witsel",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Youri Tielemans",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Hans Vanaken",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nicolas Raskin",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amadou Onana",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Romelu Lukaku",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Leandro Trossard",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Dodi Lukébakio",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Alexis Saelemaekers",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jérémy Doku",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Charles De Ketelaere",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Diego Moreira",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Matias Fernandez-Pardo",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

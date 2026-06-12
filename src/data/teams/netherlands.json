@@ -281,5 +281,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Mark Flekken",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Bart Verbruggen",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Robin Roefs",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Virgil van Dijk",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nathan Aké",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Denzel Dumfries",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lutsharel Geertruida",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jan Paul van Hecke",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Micky van de Ven",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jorrel Hato",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marten de Roon",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Frenkie de Jong",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Guus Til",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Teun Koopmeiners",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mats Wieffer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Quinten Timber",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Memphis Depay",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Wout Weghorst",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Justin Kluivert",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cody Gakpo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Noa Lang",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Donyell Malen",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Brian Brobbey",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Crysencio Summerville",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

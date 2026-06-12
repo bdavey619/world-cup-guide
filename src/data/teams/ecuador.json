@@ -254,5 +254,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Gonzalo Valle",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Hernán Galíndez",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Moisés Ramírez",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Pervis Estupiñán",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Félix Torres",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ángelo Preciado",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jackson Porozo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Willian Pacho",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Piero Hincapié",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yaimar Medina",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joel Ordóñez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alan Franco",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jordy Alcívar",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Moisés Caicedo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pedro Vite",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Denil Castillo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kendry Páez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Enner Valencia",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jordy Caicedo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "John Yeboah",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Gonzalo Plata",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kevin Rodríguez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Anthony Valencia",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nilson Angulo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Alan Minda",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jeremy Ar��valo",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

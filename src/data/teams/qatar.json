@@ -235,5 +235,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Meshaal Barsham",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Salah Zakaria",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mahmoud Abunada",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Pedro Miguel",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lucas Mendes",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sultan Al-Brake",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Homam Ahmed",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jassem Gaber",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ayoub Al-Oui",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Al-Hashmi Al-Hussain",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Issa Laye",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdulaziz Hatem",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Karim Boudiaf",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Assim Madibo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Fathy",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Manai",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Edmílson Junior",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohammed Muntari",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Almoez Ali",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Akram Afif",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Hassan Al-Haydos",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Alaaeldin",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Yusuf Abdurisag",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Al-Ganehi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tahsin Jamshid",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

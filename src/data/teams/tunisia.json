@@ -273,5 +273,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Sabri Ben Hessen",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Aymen Dahmen",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mouhib Chamakh",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Dylan Bronn",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yan Valery",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Montassar Talbi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ali Abdi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Amine Ben Hamida",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Omar Rekik",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Moutaz Neffati",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Adem Arous",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Raed Chikhaoui",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Rani Khedira",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mortadha Ben Ouanes",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Hadj Mahmoud",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Hannibal Mejbri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Anis Slimane",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Elias Achouri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Firas Chaouat",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Sebastian Tounekti",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ismaël Gharbi",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Elias Saad",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Hazem Mastouri",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Khalil Ayari",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Rayan Elloumi",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -237,5 +237,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Lionel Mpasi",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Timothy Fayulu",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Matthieu Epolo",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Arthur Masuaku",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Chancel Mbemba",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joris Kayembe",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Axel Tuanzebe",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Dylan Batubinsika",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gédéon Kalulu",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Steve Kapuadi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Gaël Kakuta",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aaron Tshibola",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Théo Bongonda",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Charles Pickel",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Samuel Moutoussamy",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Edo Kayembe",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Noah Sadiki",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ngal'ayel Mukau",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Cédric Bakambu",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Yoane Wissa",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Simon Banza",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Meschack Elia",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nathanaël Mbuku",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Fiston Mayele",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Brian Cipenga",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

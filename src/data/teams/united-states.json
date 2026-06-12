@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Matt Freese",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Chris Brady",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Matt Turner",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mark McKenzie",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tim Ream",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Antonee Robinson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Auston Trusty",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alex Freeman",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Miles Robinson",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sergiño Dest",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joe Scally",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Chris Richards",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Cristian Roldan",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Tyler Adams",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Christian Pulisic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Weston McKennie",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Brenden Aaronson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Giovanni Reyna",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Sebastian Berhalter",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Malik Tillman",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Max Arfsten",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alejandro Zendejas",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Haji Wright",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Timothy Weah",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Folarin Balogun",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ricardo Pepi",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

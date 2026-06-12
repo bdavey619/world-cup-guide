@@ -279,5 +279,137 @@
     "l": 0,
     "pts": 0
   },
-  "pitchLabel": "Confirmed XI · Jun 12 vs Czechia"
+  "pitchLabel": "Confirmed XI · Jun 12 vs Czechia",
+  "squad": [
+    {
+      "name": "Kim Seung-Gyu",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Jo Hyeon-Woo",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Song Bum-Keun",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Kim Min-Jae",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kim Moon-Hwan",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kim Tae-Hyeon",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lee Tae-Seok",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lee Han-Beom",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Seol Young-Woo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lee Gi-Hyuk",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Cho Wi-Je",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Kim Jin-Gyu",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lee Jae-Sung",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Paik Seung-Ho",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lee Dong-Gyeong",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lee Kang-In",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Hwang In-Beom",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jens Castrop",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Park Jin-Seop",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Bae Jun-Ho",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Son Heung-Min",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Hwang Hee-Chan",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Eom Ji-Sung",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Oh Hyeon-Gyu",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cho Gue-Sung",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Yang Hyun-Jun",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -230,5 +230,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Botirali Ergashev",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Utkir Yusupov",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Abduvohid Nematov",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Rustam Ashurmatov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Farrukh Sayfiev",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Umar Eshmurodov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Khojiakbar Alijonov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Avazbek Ulmasaliyev",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sherzod Nasrullaev",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Abdukodir Khusanov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jakhongir Urozov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Behruzjon Karimov",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jamshid Iskanderov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jaloliddin Masharipov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Odiljon Xamrobekov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Dostonbek Khamdamov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Otabek Shukurov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Azizjon Ganiev",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Akmal Mozgovoy",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Oston Urunov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Abbosbek Fayzullaev",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Abdulla Abdullaev",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Sherzod Esanov",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Igor Sergeev",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Eldor Shomurodov",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Azizbek Amonov",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

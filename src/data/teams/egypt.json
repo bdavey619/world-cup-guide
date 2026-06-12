@@ -242,5 +242,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Mohamed El Shenawy",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mahdy Soliman",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mostafa Shoubir",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Alaa",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Hany",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ramy Rabia",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Karim Hafez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Abdelmoneim",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ahmed Fatouh",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yasser Ibrahim",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hossam Abdelmaguid",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tarek Alaa",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Hamdy Fathy",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nabil Donga",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Emam Ashour",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mahmoud Saber",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mohanad Lashin",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marawan Attia",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mostafa Zico",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Trézéguet",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mohamed Salah",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Zizo",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Haissem Hassan",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ibrahim Adel",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Omar Marmoush",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Hamza Abdelkarim",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "David Raya",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Unai Simón",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Joan García",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Eric García",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Aymeric Laporte",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marc Cucurella",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Pedro Porro",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marc Pubill",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Pau Cubarsí",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marcos Llorente",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mikel Merino",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Fabián Ruiz",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Dani Olmo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rodri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pedri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Martín Zubimendi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Yéremy Pino",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Álex Baena",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Gavi",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Borja Iglesias",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ferran Torres",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Nico Williams",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Lamine Yamal",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Víctor Muñoz",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

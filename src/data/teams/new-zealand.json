@@ -242,5 +242,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Max Crocombe",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Michael Woud",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Alex Paulsen",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Michael Boxall",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tommy Smith",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tim Payne",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Francis de Vries",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Liberato Cacace",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Callan Elliot",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nando Pijnaker",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Finn Surman",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tyler Bindon",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ryan Thomas",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alex Rufer",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Callum McCowatt",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Sarpreet Singh",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Joe Bell",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marko Stamenic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Matthew Garbett",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lachlan Bayliss",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Chris Wood",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kosta Barbarouses",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Elijah Just",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ben Waine",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jesse Randall",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ben Old",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

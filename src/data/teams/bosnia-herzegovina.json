@@ -238,5 +238,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Nikola Vasilj",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Martin Zlomislic",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mladen Jurkas",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Sead Kolasinac",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nikola Katic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Dennis Hadzikadunic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nihad Mujakic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Stjepan Radeljic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Amar Dedic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tarik Muharemovic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nidal Celik",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ivan Sunjic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amir Hadziahmetovic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Dzenis Burnic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Armin Gigovic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ivan Basic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Amar Memic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Benjamin Tahirovic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ermin Mahmic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Edin Dzeko",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Haris Tabakovic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ermedin Demirovic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jovo Lukic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Samed Bazdar",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Esmir Bajraktarevic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kerim Alajbegovic",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

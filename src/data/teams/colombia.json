@@ -267,5 +267,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "David Ospina",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Álvaro Montero",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Camilo Vargas",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Daniel Muñoz",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Santiago Arias",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Johan Mojica",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Yerry Mina",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Davinson Sánchez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Deiver Machado",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jhon Lucumí",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Willer Ditta",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "James Rodríguez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Juan Portilla",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Juan Fernando Quintero",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jefferson Lerma",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jorge Carrascal",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jhon Arias",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jáminton Campaz",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Richard Ríos",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kevin Castaño",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Gustavo Puerta",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jhon Córdoba",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Luis Díaz",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Luis Suárez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Andrés Gómez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Cucho Hernández",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

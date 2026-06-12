@@ -267,5 +267,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Dominik Livakovic",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Dominik Kotarski",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ivor Pandur",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Duje Caleta-Car",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Martin Erlic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marin Pongracic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Josip Stanisic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Josko Gvardiol",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Josip Sutalo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Luka Vuskovic",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Luka Modric",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mateo Kovacic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Mario Pasalic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nikola Vlasic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nikola Moro",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kristijan Jakic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Luka Sucic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Martin Baturina",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Toni Fruk",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Petar Sucic",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Ivan Perisic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Andrej Kramaric",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ante Budimir",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Petar Musa",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Igor Matanovic",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Marco Pasalic",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

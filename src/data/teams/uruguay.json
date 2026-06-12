@@ -278,5 +278,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Fernando Muslera",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Sergio Rochet",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Santiago Mele",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Guillermo Varela",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "José María Giménez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Mathías Olivera",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Santiago Bueno",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Joaquín Piquerez",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Matías Viña",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ronald Araújo",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Sebastián Cáceres",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Emiliano Martínez",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Giorgian de Arrascaeta",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rodrigo Bentancur",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Federico Valverde",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Manuel Ugarte",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Nicolás de la Cruz",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Maxi Araújo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rodrigo Zalazar",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Juan Manuel Sanabria",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Facundo Pellistri",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Brian Rodríguez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Rodrigo Aguirre",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Agustín Canobbio",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Darwin Núñez",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Federico Viñas",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

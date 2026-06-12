@@ -279,5 +279,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Jordan Pickford",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Dean Henderson",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "James Trafford",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "John Stones",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Reece James",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Dan Burn",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ezri Konsa",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Marc Guéhi",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Djed Spence",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jarell Quansah",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tino Livramento",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Nico O'Reilly",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jordan Henderson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Declan Rice",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Elliot Anderson",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Eberechi Eze",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Morgan Rogers",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Jude Bellingham",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Harry Kane",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ivan Toney",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ollie Watkins",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Marcus Rashford",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Anthony Gordon",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Bukayo Saka",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Noni Madueke",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

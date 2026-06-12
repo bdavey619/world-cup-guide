@@ -286,5 +286,137 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "squad": [
+    {
+      "name": "Brice Samba",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Mike Maignan",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Robin Risser",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Lucas Digne",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Lucas Hernández",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Dayot Upamecano",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jules Koundé",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Theo Hernández",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Maxence Lacroix",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "William Saliba",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Malo Gusto",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "N'Golo Kanté",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Adrien Rabiot",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Manu Koné",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Michael Olise",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Rayan Cherki",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Maghnes Akliouche",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Marcus Thuram",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Kylian Mbappé",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Bradley Barcola",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Désiré Doué",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }

@@ -281,5 +281,137 @@
     "l": 0,
     "pts": 0
   },
-  "pitchLabel": "Confirmed XI · Jun 12 vs South Korea"
+  "pitchLabel": "Confirmed XI · Jun 12 vs South Korea",
+  "squad": [
+    {
+      "name": "Jindrich Stanek",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Matej Kovár",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Lukás Hornícek",
+      "pos": "GK",
+      "club": ""
+    },
+    {
+      "name": "Ladislav Krejcí",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Vladimír Coufal",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Jaroslav Zelený",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Tomás Holes",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "David Zima",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Robin Hranác",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "David Jurásek",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Stepán Chaloupek",
+      "pos": "DEF",
+      "club": ""
+    },
+    {
+      "name": "Vladimír Darida",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Tomás Soucek",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Michal Sadílek",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lukás Provod",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Lukás Cerv",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Pavel Sulc",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Denis Visinský",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "David Doudera",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Alexandr Sojka",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Hugo Sochurek",
+      "pos": "MID",
+      "club": ""
+    },
+    {
+      "name": "Patrik Schick",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Tomás Chorý",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Adam Hlozek",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Jan Kuchta",
+      "pos": "FWD",
+      "club": ""
+    },
+    {
+      "name": "Mojmír Chytil",
+      "pos": "FWD",
+      "club": ""
+    }
+  ]
 }
