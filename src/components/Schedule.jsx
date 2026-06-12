@@ -38,8 +38,68 @@ function timeToSort(t) {
   return h * 100
 }
 
+// Returns { teamId → rank (1-4) } for every team, sorted by pts → gd → gf
+function buildGroupRanks(teams) {
+  const groups = {}
+  teams.forEach(t => {
+    if (!groups[t.meta.group]) groups[t.meta.group] = []
+    groups[t.meta.group].push(t)
+  })
+  const ranks = {}
+  Object.values(groups).forEach(grp => {
+    const sorted = [...grp].sort((a, b) => {
+      const pd = (b.standings?.pts || 0) - (a.standings?.pts || 0)
+      if (pd) return pd
+      const gdd = (b.standings?.gd || 0) - (a.standings?.gd || 0)
+      if (gdd) return gdd
+      return (b.standings?.gf || 0) - (a.standings?.gf || 0)
+    })
+    sorted.forEach((t, i) => { ranks[t.id] = i + 1 })
+  })
+  return ranks
+}
+
+const ORDINAL = ['', '1st', '2nd', '3rd', '4th']
+
+// Compute a short stakes label for upcoming matches (null = nothing to show)
+function getStakes(home, away, allTeams) {
+  const homePlayed = (home.schedule || []).filter(s => s.score).length
+  const awayPlayed = (away.schedule || []).filter(s => s.score).length
+  const matchday   = Math.max(homePlayed, awayPlayed) + 1
+  if (matchday < 2) return null
+
+  const hp = home.standings?.pts || 0
+  const ap = away.standings?.pts || 0
+
+  if (matchday === 2) {
+    if (hp === 3 && ap === 3) return { label: 'Winner goes top of the group', urgent: false }
+    if (hp === 0 && ap === 0) return { label: 'Both sides need their first points', urgent: false }
+    return null
+  }
+
+  // Matchday 3
+  const groupTeams = allTeams.filter(t => t.meta.group === home.meta.group)
+  const others     = groupTeams.filter(t => t.id !== home.id && t.id !== away.id)
+  const otherPts   = others.map(t => t.standings?.pts || 0)
+  const topOther   = Math.max(...otherPts, 0)
+
+  const homeThrough = hp >= 6
+  const awayThrough = ap >= 6
+  if (homeThrough && awayThrough) return { label: 'Both already through — playing for 1st place', urgent: false }
+
+  const homeElim = (hp + 3) < topOther
+  const awayElim = (ap + 3) < topOther
+  if (homeElim && awayElim) return { label: 'Both sides already eliminated', urgent: false }
+  if (homeElim || awayElim) return { label: 'One side already eliminated — winner advances', urgent: false }
+
+  if (hp === 0 && ap === 0) return { label: 'Loser eliminated · Winner still alive', urgent: true }
+  if (hp <= 1 && ap <= 1)   return { label: 'Winner advances · Loser likely out', urgent: true }
+  return { label: 'Winner advances', urgent: false }
+}
+
 function buildMatches(teams) {
-  const seen = new Set()
+  const seen  = new Set()
+  const ranks = buildGroupRanks(teams)
   const matches = []
   for (const team of teams) {
     for (const s of team.schedule) {
@@ -50,18 +110,21 @@ function buildMatches(teams) {
       const key = [s.date, s.time, homeTeam.id, awayTeam.id].join('|')
       if (seen.has(key)) continue
       seen.add(key)
-      // Score lives on the home team's schedule entry
       const homeEntry = homeTeam.schedule.find(e => e.opponent === awayTeam.name)
+      const score     = homeEntry?.score || null
       matches.push({
-        date: s.date,
-        time: s.time,
-        timeSort: timeToSort(s.time),
-        group: team.meta.group,
-        home: homeTeam,
-        away: awayTeam,
-        venue: s.venue,
-        city: s.city,
-        score: homeEntry?.score || null,
+        date:      s.date,
+        time:      s.time,
+        timeSort:  timeToSort(s.time),
+        group:     team.meta.group,
+        home:      homeTeam,
+        away:      awayTeam,
+        venue:     s.venue,
+        city:      s.city,
+        score,
+        homeRank:  ranks[homeTeam.id],
+        awayRank:  ranks[awayTeam.id],
+        stakes:    score ? null : getStakes(homeTeam, awayTeam, teams),
       })
     }
   }
@@ -282,81 +345,103 @@ export default function Schedule({ teams, onSelectTeam }) {
   )
 }
 
-function MatchCard({ match, onSelectTeam, isPast }) {
-  const { time, group, home, away, city, score } = match
+function MatchCard({ match, onSelectTeam }) {
+  const { time, group, home, away, city, score, homeRank, awayRank, stakes } = match
   return (
     <div className="match-card" style={{
       background: 'white',
       borderRadius: 8,
-      padding: '10px 14px',
       boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
-      display: 'grid',
-      gridTemplateColumns: '52px 1fr 52px',
-      alignItems: 'center',
-      gap: 8,
+      overflow: 'hidden',
+      borderLeft: stakes?.urgent ? '3px solid #e8431a' : 'none',
     }}>
-      {/* Time + group */}
-      <div style={{ textAlign: 'center' }}>
-        <div style={{
-          fontSize: 12,
-          fontWeight: 600,
-          color: score ? 'var(--gray-400)' : 'var(--gray-900)',
-          fontFamily: 'var(--font-sans)',
-        }}>
-          {score ? 'FT' : time.replace(' ET', '')}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '52px 1fr 52px',
+        alignItems: 'center',
+        gap: 8,
+        padding: '10px 14px',
+      }}>
+        {/* Time + group */}
+        <div style={{ textAlign: 'center' }}>
+          <div style={{
+            fontSize: 12,
+            fontWeight: 600,
+            color: score ? 'var(--gray-400)' : 'var(--gray-900)',
+            fontFamily: 'var(--font-sans)',
+          }}>
+            {score ? 'FT' : time.replace(' ET', '')}
+          </div>
+          <div className="grp-badge" style={{
+            fontSize: 10,
+            color: 'var(--gray-500)',
+            background: 'var(--gray-100)',
+            borderRadius: 3,
+            padding: '1px 5px',
+            marginTop: 3,
+            display: 'inline-block',
+            fontFamily: 'var(--font-sans)',
+          }}>
+            Grp {group}
+          </div>
         </div>
-        <div className="grp-badge" style={{
-          fontSize: 10,
-          color: 'var(--gray-500)',
-          background: 'var(--gray-100)',
-          borderRadius: 3,
-          padding: '1px 5px',
-          marginTop: 3,
-          display: 'inline-block',
-          fontFamily: 'var(--font-sans)',
-        }}>
-          Grp {group}
+
+        {/* Teams */}
+        <div className="match-teams" style={{ display: 'flex', alignItems: 'center' }}>
+          <TeamChip team={home} rank={score ? null : homeRank} align="right" onSelectTeam={onSelectTeam} />
+          <div className="match-vs" style={{
+            padding: '0 8px',
+            flexShrink: 0,
+            textAlign: 'center',
+            fontFamily: 'var(--font-sans)',
+          }}>
+            {score ? (
+              <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--gray-900)', letterSpacing: '0.02em' }}>
+                {score}
+              </span>
+            ) : (
+              <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-400)' }}>vs</span>
+            )}
+          </div>
+          <TeamChip team={away} rank={score ? null : awayRank} align="left" onSelectTeam={onSelectTeam} />
+        </div>
+
+        {/* City */}
+        <div className="match-city" style={{ textAlign: 'center' }}>
+          <div style={{
+            fontSize: 10,
+            color: 'var(--gray-400)',
+            lineHeight: 1.3,
+            fontFamily: 'var(--font-sans)',
+          }}>
+            {city.split(',')[0]}
+          </div>
         </div>
       </div>
 
-      {/* Teams */}
-      <div className="match-teams" style={{ display: 'flex', alignItems: 'center' }}>
-        <TeamChip team={home} align="right" onSelectTeam={onSelectTeam} />
-        <div className="match-vs" style={{
-          padding: '0 8px',
-          flexShrink: 0,
-          textAlign: 'center',
-          fontFamily: 'var(--font-sans)',
-        }}>
-          {score ? (
-            <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--gray-900)', letterSpacing: '0.02em' }}>
-              {score}
-            </span>
-          ) : (
-            <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-400)' }}>vs</span>
-          )}
-        </div>
-        <TeamChip team={away} align="left" onSelectTeam={onSelectTeam} />
-      </div>
-
-      {/* City */}
-      <div className="match-city" style={{ textAlign: 'center' }}>
+      {/* Stakes label — only for upcoming matches with meaningful context */}
+      {stakes && (
         <div style={{
+          padding: '5px 14px 7px',
+          borderTop: '1px solid var(--gray-100)',
           fontSize: 10,
-          color: 'var(--gray-400)',
-          lineHeight: 1.3,
           fontFamily: 'var(--font-sans)',
+          color: stakes.urgent ? '#e8431a' : 'var(--gray-400)',
+          fontWeight: stakes.urgent ? 600 : 400,
+          letterSpacing: '0.02em',
         }}>
-          {city.split(',')[0]}
+          {stakes.label}
         </div>
-      </div>
+      )}
     </div>
   )
 }
 
-function TeamChip({ team, align, onSelectTeam }) {
+function TeamChip({ team, rank, align, onSelectTeam }) {
   const [hovered, setHovered] = useState(false)
   const isRight = align === 'right'
+  const pts = team.standings?.pts ?? 0
+  const played = (team.schedule || []).filter(s => s.score).length
 
   return (
     <button
@@ -395,6 +480,17 @@ function TeamChip({ team, align, onSelectTeam }) {
         }}>
           {team.name}
         </span>
+        {rank && played > 0 && (
+          <span style={{
+            display: 'block',
+            fontSize: 10,
+            color: 'var(--gray-400)',
+            fontWeight: 400,
+            marginTop: 1,
+          }}>
+            {ORDINAL[rank]} · {pts}pt{pts !== 1 ? 's' : ''}
+          </span>
+        )}
         {hovered && (
           <span style={{
             display: 'block',
@@ -402,6 +498,7 @@ function TeamChip({ team, align, onSelectTeam }) {
             color: team.accentColor,
             fontWeight: 500,
             letterSpacing: '0.04em',
+            marginTop: rank && played > 0 ? 0 : 1,
           }}>
             View guide →
           </span>
