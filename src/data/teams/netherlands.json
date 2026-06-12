@@ -286,132 +286,158 @@
     {
       "name": "Mark Flekken",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Bart Verbruggen",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Robin Roefs",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Virgil van Dijk",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Nathan Aké",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Denzel Dumfries",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Lutsharel Geertruida",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Jan Paul van Hecke",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Micky van de Ven",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Jorrel Hato",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Marten de Roon",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Frenkie de Jong",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Guus Til",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Teun Koopmeiners",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Tijjani Reijnders",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Ryan Gravenberch",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Mats Wieffer",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Quinten Timber",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": null
     },
     {
       "name": "Memphis Depay",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Wout Weghorst",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Justin Kluivert",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Cody Gakpo",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Noa Lang",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Donyell Malen",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Brian Brobbey",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Crysencio Summerville",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     }
   ]
 }

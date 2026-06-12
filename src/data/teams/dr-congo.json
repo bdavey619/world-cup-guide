@@ -242,132 +242,158 @@
     {
       "name": "Lionel Mpasi",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Timothy Fayulu",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Matthieu Epolo",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Arthur Masuaku",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Chancel Mbemba",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Joris Kayembe",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Axel Tuanzebe",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Aaron Wan-Bissaka",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Dylan Batubinsika",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Gédéon Kalulu",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Steve Kapuadi",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Gaël Kakuta",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Aaron Tshibola",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Théo Bongonda",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Charles Pickel",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Samuel Moutoussamy",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Edo Kayembe",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Noah Sadiki",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Ngal'ayel Mukau",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Cédric Bakambu",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Yoane Wissa",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Simon Banza",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Meschack Elia",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Nathanaël Mbuku",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Fiston Mayele",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Brian Cipenga",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     }
   ]
 }

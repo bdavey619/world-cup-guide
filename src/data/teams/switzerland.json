@@ -283,132 +283,158 @@
     {
       "name": "Yvon Mvogo",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Gregor Kobel",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Marvin Keller",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Ricardo Rodríguez",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Silvan Widmer",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Nico Elvedi",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Manuel Akanji",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Eray Cömert",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Miro Muheim",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Aurèle Amenda",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Luca Jaquez",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Granit Xhaka",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Remo Freuler",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Djibril Sow",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Denis Zakaria",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Christian Fassnacht",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Michel Aebischer",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Rubén Vargas",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Ardon Jashari",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Fabian Rieder",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Johan Manzambi",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Breel Embolo",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Cedric Itten",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Noah Okafor",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Dan Ndoye",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Zeki Amdouni",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     }
   ]
 }

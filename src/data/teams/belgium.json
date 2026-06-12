@@ -283,132 +283,158 @@
     {
       "name": "Thibaut Courtois",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Senne Lammens",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Mike Penders",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Thomas Meunier",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Brandon Mechele",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Timothy Castagne",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Maxim De Cuyper",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Arthur Theate",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Koni De Winter",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Zeno Debast",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Nathan Ngoy",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Joaquin Seys",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Kevin De Bruyne",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Axel Witsel",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Youri Tielemans",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Hans Vanaken",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Nicolas Raskin",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Amadou Onana",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Romelu Lukaku",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Leandro Trossard",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Dodi Lukébakio",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Alexis Saelemaekers",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Jérémy Doku",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Charles De Ketelaere",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Diego Moreira",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Matias Fernandez-Pardo",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     }
   ]
 }

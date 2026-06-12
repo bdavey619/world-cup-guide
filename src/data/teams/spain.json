@@ -283,132 +283,158 @@
     {
       "name": "David Raya",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Unai Simón",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Joan García",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Eric García",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Aymeric Laporte",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Alejandro Grimaldo",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Marc Cucurella",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Pedro Porro",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Marc Pubill",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Pau Cubarsí",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Marcos Llorente",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Mikel Merino",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Fabián Ruiz",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Dani Olmo",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Rodri",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Pedri",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Martín Zubimendi",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Yéremy Pino",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Álex Baena",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Gavi",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Borja Iglesias",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Mikel Oyarzabal",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Ferran Torres",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Nico Williams",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Lamine Yamal",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Víctor Muñoz",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     }
   ]
 }

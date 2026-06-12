@@ -280,127 +280,152 @@
     {
       "name": "Alexander Schlager",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Patrick Pentz",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Florian Wiegele",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "David Alaba",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Philipp Lienhart",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Marco Friedl",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Stefan Posch",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Phillipp Mwene",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Kevin Danso",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Michael Svoboda",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "David Affengruber",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Alexander Prass",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Konrad Laimer",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Marcel Sabitzer",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Alessandro Schöpf",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Florian Grillitsch",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Romano Schmid",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Xaver Schlager",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Carney Chukwuemeka",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Patrick Wimmer",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Nicolas Seiwald",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Paul Wanner",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Marko Arnautovic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Michael Gregoritsch",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Sasa Kalajdzic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     }
   ]
 }

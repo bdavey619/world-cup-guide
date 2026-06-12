@@ -260,132 +260,158 @@
     {
       "name": "Maxime Crépeau",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Dayne St. Clair",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Owen Goodman",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Richie Laryea",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Alphonso Davies",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Joel Waterman",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Derek Cornelius",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Alfie Jones",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Alistair Johnston",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Moïse Bombito",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Luc de Fougerolles",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Jonathan Osorio",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Stephen Eustáquio",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Mathieu Choinière",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Nathan Saliba",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Ismaël Koné",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Ali Ahmed",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Niko Sigur",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Cyle Larin",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Liam Millar",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Jonathan David",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Jayden Nelson",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Tajon Buchanan",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Jacob Shaffelburg",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Tani Oluwaseyi",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Promise David",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     }
   ],
   "pitchLabel": "Confirmed XI · Jun 12 vs Bosnia-Herzegovina"

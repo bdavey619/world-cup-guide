@@ -291,132 +291,158 @@
     {
       "name": "Brice Samba",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Mike Maignan",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Robin Risser",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Lucas Digne",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Lucas Hernández",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Dayot Upamecano",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Jules Koundé",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Theo Hernández",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Ibrahima Konaté",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Maxence Lacroix",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "William Saliba",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Malo Gusto",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "N'Golo Kanté",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Adrien Rabiot",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Aurélien Tchouaméni",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Manu Koné",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Michael Olise",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Rayan Cherki",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Maghnes Akliouche",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Warren Zaïre-Emery",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Marcus Thuram",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Ousmane Dembélé",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Kylian Mbappé",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Jean-Philippe Mateta",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Bradley Barcola",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Désiré Doué",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     }
   ]
 }

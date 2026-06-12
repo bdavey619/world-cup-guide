@@ -283,132 +283,158 @@
     {
       "name": "Liam Kelly",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Craig Gordon",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Angus Gunn",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Andy Robertson",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Grant Hanley",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "John Souttar",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Scott McKenna",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Jack Hendry",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Kieran Tierney",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Anthony Ralston",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Dominic Hyam",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Nathan Patterson",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Aaron Hickey",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Ryan Christie",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Kenny McLean",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "John McGinn",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Lewis Ferguson",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Scott McTominay",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Tyler Fletcher",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Lawrence Shankland",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Lyndon Dykes",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Ché Adams",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "George Hirst",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Ross Stewart",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Ben Gannon-Doak",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Findlay Curtis",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     }
   ]
 }

@@ -235,132 +235,158 @@
     {
       "name": "Botirali Ergashev",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Utkir Yusupov",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Abduvohid Nematov",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Rustam Ashurmatov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Farrukh Sayfiev",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Umar Eshmurodov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Khojiakbar Alijonov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Avazbek Ulmasaliyev",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Sherzod Nasrullaev",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Abdukodir Khusanov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Jakhongir Urozov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Behruzjon Karimov",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Jamshid Iskanderov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Jaloliddin Masharipov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Odiljon Xamrobekov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Dostonbek Khamdamov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Otabek Shukurov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Azizjon Ganiev",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Akmal Mozgovoy",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Oston Urunov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Abbosbek Fayzullaev",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Abdulla Abdullaev",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Sherzod Esanov",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Igor Sergeev",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Eldor Shomurodov",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Azizbek Amonov",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     }
   ]
 }

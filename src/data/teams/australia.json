@@ -272,132 +272,158 @@
     {
       "name": "Mathew Ryan",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Paul Izzo",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Patrick Beach",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Milos Degenek",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Jason Geria",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Aziz Behich",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Cameron Burgess",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Harry Souttar",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Jacob Italiano",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Kai Trewin",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Jordan Bos",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Alessandro Circati",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Lucas Herrington",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Jackson Irvine",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Awer Mabil",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Ajdin Hrustic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Aiden O'Neill",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Connor Metcalfe",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Cameron Devlin",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Cristian Volpato",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Paul Okon-Engstler",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Mathew Leckie",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Mohamed Toure",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Tete Yengi",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Nishan Velupillay",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Nestory Irankunda",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     }
   ]
 }

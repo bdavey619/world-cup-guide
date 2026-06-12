@@ -240,132 +240,158 @@
     {
       "name": "Meshaal Barsham",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Salah Zakaria",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Mahmoud Abunada",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Pedro Miguel",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Lucas Mendes",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Boualem Khoukhi",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Sultan Al-Brake",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Homam Ahmed",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Jassem Gaber",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Ayoub Al-Oui",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Al-Hashmi Al-Hussain",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Issa Laye",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Abdulaziz Hatem",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Karim Boudiaf",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Assim Madibo",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Ahmed Fathy",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Mohamed Manai",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Edmílson Junior",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Mohammed Muntari",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Almoez Ali",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Akram Afif",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Hassan Al-Haydos",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Ahmed Alaaeldin",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Yusuf Abdurisag",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Ahmed Al-Ganehi",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Tahsin Jamshid",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     }
   ]
 }

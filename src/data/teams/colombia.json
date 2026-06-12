@@ -272,132 +272,158 @@
     {
       "name": "David Ospina",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Álvaro Montero",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Camilo Vargas",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Daniel Muñoz",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Santiago Arias",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Johan Mojica",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Yerry Mina",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Davinson Sánchez",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Deiver Machado",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Jhon Lucumí",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Willer Ditta",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "James Rodríguez",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Juan Portilla",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Juan Fernando Quintero",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Jefferson Lerma",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Jorge Carrascal",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Jhon Arias",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Jáminton Campaz",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Richard Ríos",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Kevin Castaño",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Gustavo Puerta",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Jhon Córdoba",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Luis Díaz",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Luis Suárez",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Andrés Gómez",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Cucho Hernández",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     }
   ]
 }

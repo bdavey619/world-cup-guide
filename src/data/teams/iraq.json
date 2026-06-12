@@ -241,132 +241,158 @@
     {
       "name": "Fahad Talib",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Jalal Hassan",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Ahmed Basil",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Frans Putros",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Rebin Sulaka",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Hussein Ali",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Munaf Younus",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Merchas Doski",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Ahmed Maknazi",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Mustafa Saadoon",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Akam Hashim",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Zaid Tahseen",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Ibrahim Bayesh",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Kevin Yakob",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Aimar Sher",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Amir Al-Ammari",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Zidane Iqbal",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Marko Farji",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Zaid Ismael",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Aymen Hussein",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Mohanad Ali",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Ali Yousif",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Ali Jasim",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Ahmed Qasim",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Youssef Amyn",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Ali Al-Hamadi",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     }
   ]
 }

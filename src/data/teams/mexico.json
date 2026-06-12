@@ -277,134 +277,160 @@
   "pitchLabel": "Confirmed XI · Jun 11 vs South Africa",
   "squad": [
     {
-      "name": "Raúl Rangel",
+      "name": "Guillermo Ochoa",
       "pos": "GK",
-      "club": "Chivas"
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Carlos Acevedo",
       "pos": "GK",
-      "club": "Santos Laguna"
+      "club": "",
+      "jersey": "12"
     },
     {
-      "name": "Guillermo Ochoa",
+      "name": "Raúl Rangel",
       "pos": "GK",
-      "club": "AEL Limassol"
-    },
-    {
-      "name": "Johan Vásquez",
-      "pos": "DEF",
-      "club": "Genoa"
-    },
-    {
-      "name": "César Montes",
-      "pos": "DEF",
-      "club": "Espanyol"
-    },
-    {
-      "name": "Israel Reyes",
-      "pos": "DEF",
-      "club": "Chivas"
-    },
-    {
-      "name": "Jorge Sánchez",
-      "pos": "DEF",
-      "club": "Porto"
-    },
-    {
-      "name": "Mateo Chávez",
-      "pos": "DEF",
-      "club": "Monterrey"
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Jesús Gallardo",
       "pos": "DEF",
-      "club": "Monterrey"
+      "club": "",
+      "jersey": "23"
     },
     {
-      "name": "Edson Álvarez",
+      "name": "Jorge Sánchez",
       "pos": "DEF",
-      "club": "West Ham"
+      "club": "",
+      "jersey": "2"
     },
     {
-      "name": "Erik Lira",
-      "pos": "MID",
-      "club": "Cruz Azul"
+      "name": "César Montes",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
     },
     {
-      "name": "Álvaro Fidalgo",
-      "pos": "MID",
-      "club": "Club América"
+      "name": "Johan Vásquez",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
     },
     {
-      "name": "Brian Gutiérrez",
-      "pos": "MID",
-      "club": "Chicago Fire"
+      "name": "Israel Reyes",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "15"
     },
     {
-      "name": "Gilberto Mora",
-      "pos": "MID",
-      "club": "Chivas"
+      "name": "Mateo Chávez",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Luis Chávez",
       "pos": "MID",
-      "club": "Pachuca"
-    },
-    {
-      "name": "Luis Romo",
-      "pos": "MID",
-      "club": "Cruz Azul"
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Orbelín Pineda",
       "pos": "MID",
-      "club": "AEK Athens"
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Edson Álvarez",
+      "pos": "MID",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Luis Romo",
+      "pos": "MID",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "César Huerta",
+      "pos": "MID",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Érik Lira",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Álvaro Fidalgo",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Brian Gutiérrez",
+      "pos": "MID",
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Obed Vargas",
       "pos": "MID",
-      "club": "Werder Bremen"
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Gilberto Mora",
+      "pos": "MID",
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Raúl Jiménez",
       "pos": "FWD",
-      "club": "Fulham"
-    },
-    {
-      "name": "Santiago Giménez",
-      "pos": "FWD",
-      "club": "AC Milan"
-    },
-    {
-      "name": "Julian Quiñones",
-      "pos": "FWD",
-      "club": "Club América"
-    },
-    {
-      "name": "Roberto Alvarado",
-      "pos": "FWD",
-      "club": "Chivas"
-    },
-    {
-      "name": "César Huerta",
-      "pos": "FWD",
-      "club": "Pumas"
-    },
-    {
-      "name": "Alexis Vega",
-      "pos": "FWD",
-      "club": "Chivas"
-    },
-    {
-      "name": "Armando González",
-      "pos": "FWD",
-      "club": "Tigres"
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Guillermo Martínez",
       "pos": "FWD",
-      "club": "Pumas"
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Roberto Alvarado",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Alexis Vega",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Julián Quiñones",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Santiago Gimenez",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Armando González",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "14"
     }
   ],
   "standings": {

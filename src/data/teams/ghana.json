@@ -262,132 +262,158 @@
     {
       "name": "Lawrence Ati Zigi",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Joseph Anang",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Benjamin Asare",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Baba Rahman",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Derrick Luckassen",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Abdul Mumin",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Jerome Opoku",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Gideon Mensah",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Alidu Seidu",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Marvin Senaya",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Jonas Adjetey",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Kojo Peprah Oppong",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Thomas Partey",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Elisha Owusu",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Kwasi Sibo",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Caleb Yirenkyi",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Augustine Boakye",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Jordan Ayew",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Iñaki Williams",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Brandon Thomas-Asante",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Antoine Semenyo",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Kamaldeen Sulemana",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Fatawu Issahaku",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Ernest Nuamah",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Christopher Bonsu Baah",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Prince Adu",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     }
   ]
 }

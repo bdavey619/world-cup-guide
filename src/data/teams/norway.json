@@ -253,132 +253,158 @@
     {
       "name": "Ørjan Nyland",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Egil Selvik",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Sander Tangvik",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Marcus Holmgren Pedersen",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Kristoffer Ajer",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Julian Ryerson",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Fredrik André Bjørkan",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Torbjørn Heggem",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Leo Østigard",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Henrik Falchener",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "David Møller Wolfe",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Sondre Langas",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Morten Thorsby",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Martin Ødegaard",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Patrick Berg",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Fredrik Aursnes",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Sander Berge",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Jens Petter Hauge",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Kristian Thorstvedt",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Oscar Bobb",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Thelo Aasgaard",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Antonio Nusa",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Alexander Sørloth",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Jørgen Strand Larsen",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Erling Haaland",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Andreas Schjelderup",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     }
   ]
 }

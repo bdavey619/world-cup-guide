@@ -240,132 +240,158 @@
     {
       "name": "Johny Placide",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Josué Duverger",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Alexandre Pierre",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Ricardo Adé",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Carlens Arcus",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Markhus Lacroix",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Jean-Kévin Duverne",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Hannes Delcroix",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Martin Expérience",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Wilguens Paugain",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Keeto Thermoncy",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Jean-Ricner Bellegarde",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Leverton Pierre",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Carl Sainté",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Danley Jean Jacques",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Dominique Simon",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Woodensky Pierre",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Yassin Fortuné",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Duckens Nazon",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Derrick Etienne Jr.",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Frantzdy Pierrot",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Wilson Isidor",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Louicius Deedson",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Lenny Joseph",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Josué Casimir",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Ruben Providence",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     }
   ]
 }

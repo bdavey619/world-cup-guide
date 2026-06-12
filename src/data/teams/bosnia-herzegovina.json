@@ -254,132 +254,158 @@
     {
       "name": "Nikola Vasilj",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Martin Zlomislic",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Mladen Jurkas",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Sead Kolasinac",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Nikola Katic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Dennis Hadzikadunic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Nihad Mujakic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Stjepan Radeljic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Amar Dedic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Tarik Muharemovic",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Nidal Celik",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Ivan Sunjic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Amir Hadziahmetovic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Dzenis Burnic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Armin Gigovic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Ivan Basic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Amar Memic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Benjamin Tahirovic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Ermin Mahmic",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Edin Dzeko",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     },
     {
       "name": "Haris Tabakovic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Ermedin Demirovic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Jovo Lukic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Samed Bazdar",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Esmir Bajraktarevic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Kerim Alajbegovic",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     }
   ],
   "pitchLabel": "Confirmed XI · Jun 12 vs Canada"

@@ -235,132 +235,158 @@
     {
       "name": "Eloy Room",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Trevor Doornbusch",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Tyrick Bodak",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Joshua Brenet",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Riechedly Bazoer",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Sherel Floranus",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Armando Obispo",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Juriën Gaari",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Roshon van Eijma",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Shurandy Sambo",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Livano Comenencia",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Deveron Fonville",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Tyrese Noslin",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Leandro Bacuna",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Juninho Bacuna",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Kevin Felida",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Godfried Roemeratoe",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Tahith Chong",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Ar'jany Martha",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Jürgen Locadia",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Brandley Kuwas",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Gervane Kastaneer",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Kenji Gorré",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Sontje Hansen",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Jearl Margaritha",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Jeremy Antonisse",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     }
   ]
 }

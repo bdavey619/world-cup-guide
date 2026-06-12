@@ -254,132 +254,158 @@
     {
       "name": "Alban Lafont",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "23"
     },
     {
       "name": "Yahia Fofana",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "1"
     },
     {
       "name": "Mohamed Koné",
       "pos": "GK",
-      "club": ""
+      "club": "",
+      "jersey": "16"
     },
     {
       "name": "Evan Ndicka",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "21"
     },
     {
       "name": "Christopher Operi",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "13"
     },
     {
       "name": "Ghislain Konan",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "3"
     },
     {
       "name": "Odilon Kossounou",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "7"
     },
     {
       "name": "Wilfried Singo",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "5"
     },
     {
       "name": "Emmanuel Agbadou",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "20"
     },
     {
       "name": "Ousmane Diomande",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "2"
     },
     {
       "name": "Guela Doué",
       "pos": "DEF",
-      "club": ""
+      "club": "",
+      "jersey": "17"
     },
     {
       "name": "Seko Fofana",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "6"
     },
     {
       "name": "Jean Michaël Seri",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "4"
     },
     {
       "name": "Franck Kessié",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "8"
     },
     {
       "name": "Ibrahim Sangaré",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "18"
     },
     {
       "name": "Parfait Guiagon",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "25"
     },
     {
       "name": "Christ Inao Oulaï",
       "pos": "MID",
-      "club": ""
+      "club": "",
+      "jersey": "26"
     },
     {
       "name": "Nicolas Pépé",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "19"
     },
     {
       "name": "Evann Guessand",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "22"
     },
     {
       "name": "Amad Diallo",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "15"
     },
     {
       "name": "Ange-Yoan Bonny",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "9"
     },
     {
       "name": "Elye Wahi",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "12"
     },
     {
       "name": "Simon Adingra",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "10"
     },
     {
       "name": "Oumar Diakité",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "14"
     },
     {
       "name": "Bazoumana Touré",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "24"
     },
     {
       "name": "Yan Diomande",
       "pos": "FWD",
-      "club": ""
+      "club": "",
+      "jersey": "11"
     }
   ]
 }
