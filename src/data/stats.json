@@ -1,0 +1,647 @@
+{
+  "updatedAt": "2026-06-12T17:46:01.505Z",
+  "leaders": {
+    "goals": [
+      {
+        "name": "Ladislav Krejcí",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Oh Hyeon-Gyu",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Robin Hranác",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Seol Young-Woo",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Han-Beom",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Raúl Rangel",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Israel Reyes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Matej Kovár",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "G",
+        "value": 0
+      }
+    ],
+    "assists": [
+      {
+        "name": "Lee Kang-In",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Vladimír Coufal",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Érik Lira",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Robin Hranác",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Seol Young-Woo",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Han-Beom",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Raúl Rangel",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Israel Reyes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Matej Kovár",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "G",
+        "value": 0
+      }
+    ],
+    "shotsOnTarget": [
+      {
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Michal Sadílek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Lee Kang-In",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Ladislav Krejcí",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Aubrey Modiba",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Son Heung-Min",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Lee Jae-Sung",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Adam Hlozek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Oh Hyeon-Gyu",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      }
+    ],
+    "yellowCards": [
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Teboho Mokoena",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Brian Gutiérrez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Robin Hranác",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Seol Young-Woo",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Han-Beom",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Raúl Rangel",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Israel Reyes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Matej Kovár",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Khuliso Mudau",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Jaroslav Zelený",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      }
+    ],
+    "redCards": [
+      {
+        "name": "César Montes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Themba Zwane",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Robin Hranác",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Seol Young-Woo",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Lee Han-Beom",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Raúl Rangel",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Israel Reyes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Matej Kovár",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Khuliso Mudau",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Jaroslav Zelený",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      }
+    ],
+    "foulsCommitted": [
+      {
+        "name": "Robin Hranác",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 3
+      },
+      {
+        "name": "Lee Han-Beom",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 3
+      },
+      {
+        "name": "Vladimír Coufal",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 3
+      },
+      {
+        "name": "Ladislav Krejcí",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 3
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "M",
+        "value": 3
+      },
+      {
+        "name": "Khuliso Mudau",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "César Montes",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Kim Min-Jae",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Aubrey Modiba",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Brian Gutiérrez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Tomás Chorý",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 1
+      }
+    ]
+  }
+}
