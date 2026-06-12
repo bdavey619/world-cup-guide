@@ -283,7 +283,7 @@ async function main() {
     console.log()
   }
 
-  if (anyUpdate) {
+  if (anyUpdate && !process.env.CI) {
     try {
       execSync('git add src/data/teams/', { cwd: REPO_PATH, stdio: 'pipe' })
       execSync(`git commit -m "Auto: confirmed XIs for ${today}"`, { cwd: REPO_PATH, stdio: 'pipe' })
@@ -297,6 +297,8 @@ async function main() {
         console.error('❌ Git error:', msg)
       }
     }
+  } else if (anyUpdate) {
+    console.log('✅ Files updated (CI will commit)')
   } else if (DRY_RUN) {
     console.log('[dry-run] No files written.')
   }
