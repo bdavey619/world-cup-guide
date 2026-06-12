@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T21:04:57.486Z",
+  "updatedAt": "2026-06-12T21:11:57.673Z",
   "individual": {
     "goals": [
       {
@@ -159,6 +159,17 @@
       "redCards": 1
     },
     {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "gp": 1,
+      "gf": 0,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Czechia",
       "flag": "🇨🇿",
       "gp": 1,
@@ -178,6 +189,17 @@
       "cleanSheets": 0,
       "possession": 61.5,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Bosnia-Herzegovina",
+      "flag": "🇧🇦",
+      "gp": 1,
+      "gf": 0,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
