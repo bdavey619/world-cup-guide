@@ -1,0 +1,389 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "nickname": "Bafana Bafana",
+  "accentColor": "#007A4D",
+  "flagEmoji": "🇿🇦",
+  "meta": {
+    "fifaRanking": 57,
+    "group": "A",
+    "groupOpponents": [
+      "Mexico",
+      "South Korea",
+      "Czechia"
+    ],
+    "impliedProbability": "~0.1%",
+    "lastWCResult": "Groups '10",
+    "manager": "Hugo Broos",
+    "managerTenure": "2021–present",
+    "formation": "5-3-2",
+    "winPct": 0.1,
+    "advancePct": 38
+  },
+  "narrative": {
+    "essence": "South Africa returns to the World Cup for the first time since they hosted it in 2010, ending a 16-year absence. Bafana Bafana arrive not as contenders but as a nation rediscovering its football identity — and in Group A, they have nothing to lose.",
+    "footballIdentity": "Football in South Africa carries the weight of democracy. The 2010 World Cup, when South Africa became the first African nation to host the tournament, was a transformative national moment. The vuvuzela, the spirit, the flag — Bafana Bafana are tied to a country's post-apartheid self-image. Their return to the global stage in 2026 is as much political redemption as it is sporting achievement.",
+    "theMoment": "South Africa qualified for their first World Cup since 2010 after years of underperformance that prompted serious questions about the state of South African football. Coach Hugo Broos, a Belgian with a reputation for rebuilding struggling programs, transformed a dispirited squad into AFCON contenders. The political symbolism of returning to football's biggest stage — especially with South Africa's socioeconomic tensions — makes this more than just sport.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Lyle Foster",
+      "club": "Burnley",
+      "position": "Striker",
+      "badge": null,
+      "note": "South Africa's most dangerous attacking threat. Foster's movement, link-up play, and eye for goal make him the focal point of Broos's 5-3-2. A World Cup stage suits his profile perfectly."
+    },
+    {
+      "name": "Teboho Mokoena",
+      "club": "SuperSport United",
+      "position": "Central mid",
+      "badge": null,
+      "note": "The engine of South Africa's midfield. Mokoena works tirelessly, breaks up play, and drives forward at the right moments. Their most complete midfielder in this XI."
+    },
+    {
+      "name": "Iqraam Rayner",
+      "club": "Mamelodi Sundowns",
+      "position": "Striker",
+      "badge": null,
+      "note": "Partnering Foster up front, Rayner brings pace and directness. His ability to run in behind and stretch the defensive line gives South Africa a counter-attacking dimension."
+    },
+    {
+      "name": "Percy Tau",
+      "club": "Al Ahly",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The captain and creative heart of Bafana Bafana — not in today's starting XI but a key figure off the bench and in the squad's leadership. His experience and technical quality will be called upon."
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "Organized",
+      "Physical",
+      "Counter-attack"
+    ],
+    "tacticalNote": "Broos organizes South Africa in a disciplined 5-3-2 that prioritizes shape and defensive solidity first. They press when it makes sense but are comfortable sitting in a mid-block and absorbing pressure. The attack relies on Foster and Rayner as a strike partnership with quick transitions from deep.",
+    "strength": "Defensive organization and collective spirit — this team is well-drilled and will be difficult to break down despite individual quality gaps.",
+    "vulnerability": "Limited technical quality in midfield means they struggle to maintain possession and can be pinned back for long periods."
+  },
+  "watchFor": [
+    "Percy Tau's link-up play — he drops deep to receive, turns, and releases forwards. He's the connective tissue of everything they do.",
+    "South Africa's defensive shape — Broos has them in a tight mid-block that can frustrate possession teams significantly.",
+    "Set piece defending — given their height disadvantage against some opponents, dead-ball situations are where they're most exposed."
+  ],
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "3PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true,
+      "score": "0–2",
+      "result": "L"
+    },
+    {
+      "date": "Jun 18",
+      "time": "12PM ET",
+      "opponent": "Czechia",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "South Korea",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": false
+    }
+  ],
+  "history": [
+    {
+      "year": 2010,
+      "host": "S. Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 9,
+    "won": 1,
+    "drawn": 3,
+    "lost": 5,
+    "scored": 10,
+    "conceded": 16,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Williams",
+        "shortName": "Williams",
+        "position": "G",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Modiba",
+        "shortName": "Modiba",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 32,
+        "y": 148
+      },
+      {
+        "name": "Sibisi",
+        "shortName": "Sibisi",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Okon",
+        "shortName": "Okon",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Mbokazi",
+        "shortName": "Mbokazi",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 325,
+        "y": 148
+      },
+      {
+        "name": "Mudau",
+        "shortName": "Mudau",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 420,
+        "y": 148
+      },
+      {
+        "name": "Mokoena",
+        "shortName": "Mokoena",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 104,
+        "y": 256
+      },
+      {
+        "name": "Sithole",
+        "shortName": "Sithole",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Adams",
+        "shortName": "Adams",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Rayners",
+        "shortName": "Rayners",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Foster",
+        "shortName": "Foster",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 289,
+        "y": 375
+      }
+    ]
+  },
+  "pitchLabel": "Confirmed XI · Jun 11 vs Mexico",
+  "squad": [
+    {
+      "name": "Ronwen Williams",
+      "pos": "GK",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Ricardo Goss",
+      "pos": "GK",
+      "club": "Siwelele"
+    },
+    {
+      "name": "Sipho Chaine",
+      "pos": "GK",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Khuliso Mudau",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Aubrey Modiba",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Khulumani Ndamane",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Olwethu Makhanya",
+      "pos": "DEF",
+      "club": "Philadelphia Union"
+    },
+    {
+      "name": "Bradley Cross",
+      "pos": "DEF",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "name": "Thabang Matuludi",
+      "pos": "DEF",
+      "club": "Polokwane City"
+    },
+    {
+      "name": "Nkosinathi Sibisi",
+      "pos": "DEF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Kamogelo Sebelebele",
+      "pos": "DEF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Ime Okon",
+      "pos": "DEF",
+      "club": "Hannover 96"
+    },
+    {
+      "name": "Samukele Kabini",
+      "pos": "DEF",
+      "club": "Molde FK"
+    },
+    {
+      "name": "Mbekezeli Mbokazi",
+      "pos": "DEF",
+      "club": "Chicago Fire"
+    },
+    {
+      "name": "Teboho Mokoena",
+      "pos": "MID",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Jayden Adams",
+      "pos": "MID",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Thalente Mbatha",
+      "pos": "MID",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Sphephelo Sithole",
+      "pos": "MID",
+      "club": "Tondela"
+    },
+    {
+      "name": "Percy Tau",
+      "pos": "FWD",
+      "club": "Al Ahly"
+    },
+    {
+      "name": "Oswin Appollis",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Tshepang Moremi",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Evidence Makgopa",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Relebohile Mofokeng",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Lyle Foster",
+      "pos": "FWD",
+      "club": "Burnley"
+    },
+    {
+      "name": "Iqraam Rayners",
+      "pos": "FWD",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Themba Zwane",
+      "pos": "FWD",
+      "club": "Mamelodi Sundowns"
+    }
+  ],
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "pts": 0,
+    "gf": 0,
+    "ga": 2,
+    "gd": -2
+  }
+}

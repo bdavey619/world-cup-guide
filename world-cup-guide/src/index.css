@@ -1,0 +1,137 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-900: #1a1a1a;
+  --gray-700: #444;
+  --gray-500: #888;
+  --gray-400: #aaa;
+  --gray-200: #e0e0e0;
+  --gray-100: #f5f5f5;
+  --gray-50:  #fafafa;
+  --surface:  #f0f0f0;
+
+  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --font-sans:  system-ui, -apple-system, sans-serif;
+
+  /* Semantic panel colors */
+  --green-bg:   #f0fff4;
+  --green-text: #2d7a4e;
+  --green-body: #2d5a3d;
+  --red-bg:     #fff5f5;
+  --red-text:   #a94444;
+  --red-body:   #7a3333;
+
+  /* 6-step type scale */
+  --text-xs:  11px;
+  --text-sm:  13px;
+  --text-md:  15px;
+  --text-lg:  20px;
+  --text-xl:  28px;
+  --text-2xl: 44px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbars on scroll containers */
+.scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.scroll-x::-webkit-scrollbar { display: none; }
+
+/* Nav right-edge fade — always on, signals scrollability */
+.nav-fade-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 48px;
+  background: linear-gradient(to right, transparent, white);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.chip-score { display: none; }
+
+/* ─── Mobile responsive ─────────────────────────────── */
+@media (max-width: 520px) {
+  /* Schedule: drop city column, stack teams vertically with per-team scores */
+  .match-card { grid-template-columns: 52px 1fr !important; }
+  .match-city { display: none !important; }
+  .match-teams { flex-direction: column !important; gap: 0 !important; align-items: stretch !important; }
+  .match-vs { display: none !important; }
+  .team-chip { justify-content: flex-start !important; flex-direction: row !important; text-align: left !important; width: 100% !important; }
+  .chip-score { display: block !important; margin-left: auto; }
+
+  /* Schedule group badge: slightly larger */
+  .grp-badge { font-size: 12px !important; padding: 2px 7px !important; }
+
+  /* Team guide: stack two-column body */
+  .team-body-grid { grid-template-columns: 1fr !important; }
+  .team-left-col  { border-right: none !important; }
+  .team-right-col { border-top: 0.5px solid var(--gray-200); }
+
+  /* Shrink oversized country name */
+  .team-name-xl { font-size: 28px !important; line-height: 1.1 !important; }
+
+  /* Stats row: 3-column grid, never wraps */
+  .team-stats-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    flex-direction: unset !important;
+    gap: 0 !important;
+    padding-top: 10px !important;
+    border-top: 0.5px solid var(--gray-200) !important;
+    width: 100% !important;
+    padding-bottom: 4px !important;
+  }
+  .team-stats-row > div { text-align: left !important; padding-right: 4px; }
+
+  /* Hide redundant "2026 FIFA WORLD CUP · WATCH GUIDE" label on mobile */
+  .team-page-label { display: none !important; }
+
+  /* Essence quote: slightly larger for readability */
+  .essence-panel { font-size: 15px !important; line-height: 1.7 !important; }
+
+  /* TeamPageTwo: stack pitch + schedule to single column */
+  .team-body-grid-p2 { grid-template-columns: 1fr !important; }
+  .team-left-col-p2  { border-right: none !important; border-bottom: 0.5px solid var(--gray-200); }
+
+  /* Tighten all-time record stat dividers */
+  .record-divider { margin: 0 8px !important; }
+
+  /* Team cards row: scrollable, don't squish */
+  .team-cards-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap !important; }
+  .team-cards-row::-webkit-scrollbar { display: none; }
+  .team-card { min-width: 100px !important; flex: 0 0 auto !important; }
+
+  /* Tighten guide page vertical rhythm */
+  .guide-content-wrap { padding: 12px 12px !important; }
+  .guide-cards { gap: 10px !important; }
+  .team-section-header { padding: 0.6rem 1rem 0.5rem !important; }
+  .team-section { padding: 0.65rem 1rem !important; }
+  .essence-panel { font-size: 13px !important; line-height: 1.5 !important; padding: 0.6rem 1rem !important; }
+  .team-prose { line-height: 1.5 !important; }
+
+  /* Nav: match wordmark scale to compressed pill tabs */
+  .nav-wordmark { font-size: 13px !important; }
+
+  /* TeamPageOne + TeamPageTwo: shrink stat values to fit 3-col grid */
+  .team-stats-value { font-size: 16px !important; }
+
+  /* Record strip: hide label so 6 stats fit comfortably */
+  .record-strip-label { display: none !important; }
+
+  /* TeamPageTwo header: stack name above stats on mobile */
+  .team-header-p2 { flex-direction: column !important; align-items: flex-start !important; gap: 6px !important; }
+  .team-header-p2-stats { align-self: stretch; border-top: 0.5px solid var(--gray-200); padding-top: 6px; }
+  .team-header-p2-stats .team-stats-value { font-size: 14px !important; }
+}
