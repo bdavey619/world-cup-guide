@@ -408,5 +408,25 @@
       "jersey": "19"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs Canada"
+  "pitchLabel": "Confirmed XI · Jun 12 vs Canada",
+  "matches": [
+    {
+      "eventId": "760416",
+      "opponent": "Canada",
+      "date": "Jun 12",
+      "starters": [
+        "Vasilj",
+        "Muharemovic",
+        "Katic",
+        "Kolasinac",
+        "Dedic",
+        "Basic",
+        "Tahirovic",
+        "Memic",
+        "Bajraktarevic",
+        "Lukic",
+        "Demirovic"
+      ]
+    }
+  ]
 }

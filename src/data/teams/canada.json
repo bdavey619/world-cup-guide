@@ -414,5 +414,25 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs Bosnia-Herzegovina"
+  "pitchLabel": "Confirmed XI · Jun 12 vs Bosnia-Herzegovina",
+  "matches": [
+    {
+      "eventId": "760416",
+      "opponent": "Bosnia-Herzegovina",
+      "date": "Jun 12",
+      "starters": [
+        "Crépeau",
+        "Cornelius",
+        "de Fougerolles",
+        "Laryea",
+        "Johnston",
+        "Eustáquio",
+        "Koné",
+        "Millar",
+        "Buchanan",
+        "Oluwaseyi",
+        "David"
+      ]
+    }
+  ]
 }
