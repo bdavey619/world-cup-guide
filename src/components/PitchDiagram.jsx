@@ -141,11 +141,11 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {p.jersey != null && (
               <text
                 x={p.x}
-                y={p.y + 5}
+                y={p.y + 7}
                 textAnchor="middle"
                 fill="white"
-                fillOpacity={0.75}
-                fontSize={7.5}
+                fillOpacity={0.8}
+                fontSize={9.5}
                 fontFamily="sans-serif"
               >
                 {p.jersey}
