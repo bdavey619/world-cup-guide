@@ -78,7 +78,9 @@
       "opponent": "South Africa",
       "venue": "Estadio Azteca",
       "city": "Mexico City",
-      "isAway": false
+      "isAway": false,
+      "score": "2–0",
+      "result": "W"
     },
     {
       "date": "Jun 18",

@@ -78,7 +78,9 @@
       "opponent": "Mexico",
       "venue": "Estadio Azteca",
       "city": "Mexico City",
-      "isAway": true
+      "isAway": true,
+      "score": "0–2",
+      "result": "L"
     },
     {
       "date": "Jun 18",

@@ -173,11 +173,82 @@ async function updateStandings() {
     }
   }
 
-  console.log(`\nDone. ${updated} updated, ${unchanged} unchanged.`)
+  console.log(`\nStandings: ${updated} updated, ${unchanged} unchanged.`)
   if (unmatched.length) {
     console.warn(`Unmatched ESPN names (add to NAME_TO_SLUG if needed): ${[...new Set(unmatched)].join(', ')}`)
   }
 
+  // ── Match scores ────────────────────────────────────────────────────────────
+  console.log('\nFetching completed match scores…')
+
+  // Look back 14 days and forward 1 day to catch any recently finished matches
+  const today = new Date()
+  const dates = []
+  for (let offset = -14; offset <= 1; offset++) {
+    const d = new Date(today)
+    d.setUTCDate(d.getUTCDate() + offset)
+    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
+  }
+
+  const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+  let scoresUpdated = 0
+  const seenEvents = new Set()
+
+  for (const dateStr of dates) {
+    let board
+    try { board = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
+    catch { continue }
+
+    for (const event of (board.events ?? [])) {
+      if (seenEvents.has(event.id)) continue
+      seenEvents.add(event.id)
+
+      const comp = event.competitions?.[0]
+      if (!comp?.status?.type?.completed) continue
+
+      const home = comp.competitors.find(c => c.homeAway === 'home')
+      const away = comp.competitors.find(c => c.homeAway === 'away')
+      if (!home || !away) continue
+
+      const homeSlug = NAME_TO_SLUG[home.team.displayName]
+      const awaySlug = NAME_TO_SLUG[away.team.displayName]
+      const homeScore = parseInt(home.score ?? 0)
+      const awayScore = parseInt(away.score ?? 0)
+
+      // ESPN date "2026-06-11T19:00Z" → "Jun 11"
+      const matchDate = new Date(event.date)
+      const matchDateLabel = `${MONTH_ABBR[matchDate.getUTCMonth()]} ${matchDate.getUTCDate()}`
+
+      for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
+        if (!slug) continue
+        const team = loadTeam(slug)
+        const myScore    = isHome ? homeScore : awayScore
+        const theirScore = isHome ? awayScore : homeScore
+        const oppName    = isHome ? away.team.displayName : home.team.displayName
+        const result     = myScore > theirScore ? 'W' : myScore < theirScore ? 'L' : 'D'
+        const scoreStr   = `${myScore}–${theirScore}`
+
+        const matchIdx = (team.schedule ?? []).findIndex(m => {
+          const sameDate = m.date === matchDateLabel
+          const sameOpp  = m.opponent?.toLowerCase() === oppName.toLowerCase() ||
+                           NAME_TO_SLUG[m.opponent] === (isHome ? awaySlug : homeSlug)
+          return sameDate && sameOpp
+        })
+
+        if (matchIdx === -1) continue
+        const existing = team.schedule[matchIdx]
+        if (existing.score === scoreStr && existing.result === result) continue
+
+        team.schedule[matchIdx] = { ...existing, score: scoreStr, result }
+        saveTeam(slug, team)
+        console.log(`  ✓ ${team.name} vs ${oppName}: ${scoreStr} (${result})`)
+        scoresUpdated++
+      }
+    }
+  }
+
+  console.log(`Scores: ${scoresUpdated} updated.`)
   // Exit code 0 always — let the workflow decide whether to commit based on git status
 }
 
