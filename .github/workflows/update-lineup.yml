@@ -5,7 +5,10 @@ name: Update Confirmed XIs
 # writes + pushes when it finds new starters — silent no-op otherwise.
 on:
   schedule:
-    - cron: '0,30 * * 6,7 *'   # every 30 min, June and July
+    # Runs at the top of each hour that matches are typically announced (8AM–midnight UTC).
+    # Group stage kickoffs are at 19:00, 22:00, 00:00, 01:00 UTC — lineups drop ~1hr before.
+    # Running hourly 17:00–01:00 UTC = 1-9PM ET covers every kickoff window.
+    - cron: '0 17,18,19,20,21,22,23,0,1 * 6,7 *'
   workflow_dispatch:
 
 permissions:
