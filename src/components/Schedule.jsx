@@ -50,6 +50,8 @@ function buildMatches(teams) {
       const key = [s.date, s.time, homeTeam.id, awayTeam.id].join('|')
       if (seen.has(key)) continue
       seen.add(key)
+      // Score lives on the home team's schedule entry
+      const homeEntry = homeTeam.schedule.find(e => e.opponent === awayTeam.name)
       matches.push({
         date: s.date,
         time: s.time,
@@ -59,6 +61,7 @@ function buildMatches(teams) {
         away: awayTeam,
         venue: s.venue,
         city: s.city,
+        score: homeEntry?.score || null,
       })
     }
   }
@@ -135,11 +138,11 @@ export default function Schedule({ teams, onSelectTeam }) {
         <div
           className="scroll-x"
           style={{
-            maxWidth: 'var(--content-max)',
+            maxWidth: 680,
             margin: '0 auto',
             display: 'flex',
             gap: 5,
-            padding: '8px var(--content-pad)',
+            padding: '8px 16px',
             alignItems: 'center',
           }}
         >
@@ -169,9 +172,9 @@ export default function Schedule({ teams, onSelectTeam }) {
 
       {/* "All times ET" note */}
       <div style={{
-        maxWidth: 'var(--content-max)',
+        maxWidth: 680,
         margin: '0 auto',
-        padding: '10px var(--content-pad) 0',
+        padding: '10px 16px 0',
         fontSize: 11,
         color: 'var(--gray-400)',
         fontFamily: 'var(--font-sans)',
@@ -180,7 +183,7 @@ export default function Schedule({ teams, onSelectTeam }) {
       </div>
 
       {/* Match list */}
-      <div style={{ maxWidth: 'var(--content-max)', margin: '0 auto', padding: '10px var(--content-pad) 48px' }}>
+      <div style={{ maxWidth: 680, margin: '0 auto', padding: '10px 16px 48px' }}>
         {dates.map(date => {
           const isToday = date === todayKey
           const isFuture = DATE_TO_NUM[date] > (DATE_TO_NUM[todayKey] ?? -1)
@@ -280,7 +283,7 @@ export default function Schedule({ teams, onSelectTeam }) {
 }
 
 function MatchCard({ match, onSelectTeam, isPast }) {
-  const { time, group, home, away, city } = match
+  const { time, group, home, away, city, score } = match
   return (
     <div className="match-card" style={{
       background: 'white',
@@ -291,17 +294,16 @@ function MatchCard({ match, onSelectTeam, isPast }) {
       gridTemplateColumns: '52px 1fr 52px',
       alignItems: 'center',
       gap: 8,
-      opacity: isPast ? 0.55 : 1,
     }}>
       {/* Time + group */}
       <div style={{ textAlign: 'center' }}>
         <div style={{
           fontSize: 12,
           fontWeight: 600,
-          color: 'var(--gray-900)',
+          color: score ? 'var(--gray-400)' : 'var(--gray-900)',
           fontFamily: 'var(--font-sans)',
         }}>
-          {time.replace(' ET', '')}
+          {score ? 'FT' : time.replace(' ET', '')}
         </div>
         <div className="grp-badge" style={{
           fontSize: 10,
@@ -322,13 +324,17 @@ function MatchCard({ match, onSelectTeam, isPast }) {
         <TeamChip team={home} align="right" onSelectTeam={onSelectTeam} />
         <div className="match-vs" style={{
           padding: '0 8px',
-          fontSize: 11,
-          fontWeight: 600,
-          color: 'var(--gray-400)',
           flexShrink: 0,
+          textAlign: 'center',
           fontFamily: 'var(--font-sans)',
         }}>
-          vs
+          {score ? (
+            <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--gray-900)', letterSpacing: '0.02em' }}>
+              {score}
+            </span>
+          ) : (
+            <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-400)' }}>vs</span>
+          )}
         </div>
         <TeamChip team={away} align="left" onSelectTeam={onSelectTeam} />
       </div>
