@@ -81,7 +81,9 @@
       "opponent": "Canada",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": true
+      "isAway": true,
+      "score": "1–1",
+      "result": "D"
     },
     {
       "date": "Jun 18",
@@ -246,9 +248,12 @@
   },
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 0
+    "pts": 1,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0
   },
   "squad": [
     {

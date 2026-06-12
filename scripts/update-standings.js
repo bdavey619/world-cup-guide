@@ -25,6 +25,7 @@ const NAME_TO_SLUG = {
   'Belgium':                  'belgium',
   'Bosnia and Herzegovina':   'bosnia-herzegovina',
   'Bosnia & Herzegovina':     'bosnia-herzegovina',
+  'Bosnia-Herzegovina':       'bosnia-herzegovina',
   'Brazil':                   'brazil',
   'Canada':                   'canada',
   'Cape Verde':               'cape-verde',

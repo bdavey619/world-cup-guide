@@ -81,7 +81,9 @@
       "opponent": "Bosnia and Herzegovina",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": false
+      "isAway": false,
+      "score": "1–1",
+      "result": "D"
     },
     {
       "date": "Jun 18",
