@@ -1,16 +1,32 @@
 import { useState } from 'react'
 import PitchDiagram from './PitchDiagram'
 
+const POS_GROUP = {
+  GK: 'Goalkeepers',
+  DEF: 'Defenders',
+  MID: 'Midfielders',
+  FWD: 'Forwards',
+}
+
+function groupSquad(squad = []) {
+  const groups = { GK: [], DEF: [], MID: [], FWD: [] }
+  squad.forEach(p => { if (groups[p.pos]) groups[p.pos].push(p) })
+  return groups
+}
+
 export default function TeamPageTwo({ team }) {
   const {
     accentColor, name, nickname, meta, schedule,
     history, allTimeRecord, pitch, keyPlayers, tactics,
+    squad, matches, pitchLabel,
   } = team
 
   const muted = 'var(--gray-500)'
   const serif = 'var(--font-serif)'
 
   const [selectedPitchName, setSelectedPitchName] = useState(null)
+  const [squadOpen, setSquadOpen] = useState(false)
+  const [historyOpen, setHistoryOpen] = useState(false)
 
   // Find the keyPlayer profile that matches a pitch player name
   function findKeyPlayer(pitchName) {
@@ -136,8 +152,8 @@ export default function TeamPageTwo({ team }) {
         <div className="team-header-p2-stats" style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'var(--font-sans)' }}>
           {[
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}`, colored: false },
-            { label: 'ODDS TO WIN', value: meta.oddsToWin, colored: true },
-            { label: 'IMPLIED PROB.', value: meta.impliedProbability, colored: false },
+            { label: 'WIN THE CUP', value: meta.winPct >= 1 ? `${meta.winPct}%` : '<1%', colored: true },
+            { label: 'ADVANCE', value: `${meta.advancePct}%`, colored: false },
             { label: 'GROUP', value: meta.group, colored: false },
           ].map(({ label, value, colored }, i) => (
             <div key={label} style={{ display: 'flex', alignItems: 'center' }}>
@@ -242,6 +258,32 @@ export default function TeamPageTwo({ team }) {
 
           {/* PITCH DIAGRAM */}
           <div style={{ padding: '0.8rem 1.2rem 0 1.5rem', flex: 1 }}>
+            {/* Pitch label */}
+            {pitchLabel && (
+              <div style={{
+                fontSize: 10,
+                fontFamily: 'var(--font-sans)',
+                fontWeight: 600,
+                textAlign: 'center',
+                marginBottom: 4,
+                color: pitchLabel.startsWith('Confirmed') ? accentColor : 'var(--gray-400)',
+                letterSpacing: '0.03em',
+              }}>
+                {pitchLabel.startsWith('Confirmed') ? '✓ ' : ''}{pitchLabel}
+              </div>
+            )}
+            {!selectedPitchName && (
+              <div style={{
+                fontSize: 11,
+                color: 'var(--gray-400)',
+                textAlign: 'center',
+                marginBottom: 6,
+                fontFamily: 'var(--font-sans)',
+                fontStyle: 'italic',
+              }}>
+                Tap a player to learn more
+              </div>
+            )}
             <PitchDiagram
               players={pitch.players}
               accentColor={accentColor}
@@ -307,8 +349,95 @@ export default function TeamPageTwo({ team }) {
               )}
             </div>
           ) : (
-            <div style={{ height: '0.8rem' }} />
+            <div style={{ height: '0.5rem' }} />
           )}
+
+          {/* SQUAD ROSTER — below pitch in left col */}
+          {squad && squad.length > 0 && (() => {
+            const groups = groupSquad(squad)
+            const startsMap = {}
+            ;(matches || []).forEach(m => {
+              (m.starters || []).forEach(s => {
+                const key = s.toLowerCase()
+                startsMap[key] = (startsMap[key] || 0) + 1
+              })
+            })
+            function getStarts(p) {
+              const last = p.name.split(' ').pop().toLowerCase()
+              const full = p.name.toLowerCase()
+              return startsMap[full] || startsMap[last] || 0
+            }
+            return (
+              <div style={{ borderTop: '0.5px solid var(--gray-100)', margin: '0 0 0 0' }}>
+                <button
+                  onClick={() => setSquadOpen(o => !o)}
+                  style={{
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '0.5rem 1.2rem 0.5rem 1.5rem',
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer',
+                    fontFamily: 'var(--font-sans)',
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                    <div style={{ width: 3, height: 12, background: accentColor, flexShrink: 0 }} />
+                    <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)' }}>
+                      Full Squad · {squad.length} players
+                    </span>
+                  </div>
+                  <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{squadOpen ? '▲' : '▼'}</span>
+                </button>
+                {squadOpen && (
+                  <div style={{ padding: '0 1.2rem 1rem 1.5rem' }}>
+                    {Object.entries(groups).map(([pos, players]) =>
+                      players.length === 0 ? null : (
+                        <div key={pos} style={{ marginBottom: 10 }}>
+                          <div style={{ fontSize: 9, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', marginBottom: 4 }}>
+                            {POS_GROUP[pos]}
+                          </div>
+                          {players.map((p, i) => {
+                            const starts = getStarts(p)
+                            const isStarter = pitch.players.some(pp => {
+                              const n = pp.name.toLowerCase()
+                              const last = p.name.split(' ').pop().toLowerCase()
+                              return n === p.name.toLowerCase() || n.includes(last) || last.includes(n)
+                            })
+                            return (
+                              <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '3.5px 0', borderBottom: i < players.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                  {isStarter && (
+                                    <div style={{ width: 5, height: 5, borderRadius: '50%', background: accentColor, flexShrink: 0 }} />
+                                  )}
+                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: isStarter ? 0 : 11 }}>
+                                    {p.name}
+                                  </span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                                  {starts > 0 && (
+                                    <span style={{ fontSize: 10, color: accentColor, fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
+                                      {starts}GS
+                                    </span>
+                                  )}
+                                  <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>
+                                </div>
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )
+                    )}
+                    <div style={{ fontSize: 9, color: 'var(--gray-300)', fontFamily: 'var(--font-sans)', marginTop: 4 }}>
+                      ● starting XI &nbsp;·&nbsp; GS = games started
+                    </div>
+                  </div>
+                )}
+              </div>
+            )
+          })()}
         </div>
 
         {/* RIGHT PANEL */}
@@ -365,41 +494,26 @@ export default function TeamPageTwo({ team }) {
                       {name} vs {match.opponent}
                     </span>
                     {match.score ? (
-                      <span style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 5,
-                        marginLeft: 6,
-                        whiteSpace: 'nowrap',
-                      }}>
+                      <span style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: 6, whiteSpace: 'nowrap' }}>
                         <span style={{
-                          fontSize: 12,
-                          fontWeight: 700,
-                          fontFamily: 'var(--font-sans)',
+                          fontSize: 12, fontWeight: 700, fontFamily: 'var(--font-sans)',
                           color: match.result === 'W' ? '#1a7a3a' : match.result === 'L' ? '#c0392b' : 'var(--gray-600)',
                         }}>
                           {match.score}
                         </span>
                         <span style={{
-                          fontSize: 9,
-                          fontWeight: 700,
-                          fontFamily: 'var(--font-sans)',
-                          padding: '1px 4px',
-                          borderRadius: 3,
+                          fontSize: 9, fontWeight: 700, fontFamily: 'var(--font-sans)',
+                          padding: '1px 4px', borderRadius: 3, color: '#fff',
                           background: match.result === 'W' ? '#1a7a3a' : match.result === 'L' ? '#c0392b' : 'var(--gray-400)',
-                          color: '#fff',
                         }}>
                           {match.result}
                         </span>
                       </span>
                     ) : (
                       <span style={{
-                        fontSize: 9,
-                        fontWeight: 600,
-                        fontFamily: 'var(--font-sans)',
+                        fontSize: 9, fontWeight: 600, fontFamily: 'var(--font-sans)',
                         color: match.isAway ? muted : accentColor,
-                        marginLeft: 6,
-                        whiteSpace: 'nowrap',
+                        marginLeft: 6, whiteSpace: 'nowrap',
                       }}>
                         {match.isAway ? 'Away' : 'Home'}
                       </span>
@@ -471,7 +585,67 @@ export default function TeamPageTwo({ team }) {
         </div>
       </div>
 
-      {/* 4. FOOTER */}
+      {/* 4. MATCH HISTORY */}
+      {matches && matches.length > 0 && (
+        <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
+          <button
+            onClick={() => setHistoryOpen(o => !o)}
+            style={{
+              width: '100%',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              padding: '0.55rem 1.5rem',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              fontFamily: 'var(--font-sans)',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+              <div style={{ width: 3, height: 12, background: accentColor }} />
+              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)' }}>
+                Match Results · {matches.length} played
+              </span>
+            </div>
+            <span style={{ fontSize: 12, color: 'var(--gray-400)' }}>{historyOpen ? '▲' : '▼'}</span>
+          </button>
+          {historyOpen && (
+            <div style={{ padding: '0 1.5rem 1rem', display: 'flex', flexDirection: 'column', gap: 10 }}>
+              {matches.map((m, i) => {
+                const [ourScore, theirScore] = (m.result || '').split('-').map(Number)
+                const outcome = ourScore > theirScore ? 'W' : ourScore < theirScore ? 'L' : 'D'
+                const outcomeColor = outcome === 'W' ? '#16a34a' : outcome === 'L' ? '#dc2626' : '#d97706'
+                return (
+                  <div key={i} style={{ background: 'var(--gray-50)', borderRadius: 6, padding: '10px 12px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                        <span style={{ background: outcomeColor, color: '#fff', fontSize: 10, fontWeight: 700, padding: '2px 6px', borderRadius: 3, fontFamily: 'var(--font-sans)' }}>{outcome}</span>
+                        <span style={{ fontSize: 13, fontFamily: 'var(--font-sans)', fontWeight: 500, color: 'var(--gray-900)' }}>
+                          vs {m.opponent} · <span style={{ color: outcomeColor }}>{m.result}</span>
+                        </span>
+                      </div>
+                      <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{m.date} · {m.formation}</span>
+                    </div>
+                    <div style={{ fontSize: 11, color: 'var(--gray-600)', fontFamily: 'var(--font-sans)', lineHeight: 1.6 }}>
+                      <span style={{ fontWeight: 600, color: 'var(--gray-700)' }}>XI: </span>
+                      {m.starters.join(', ')}
+                    </div>
+                    {m.subs && m.subs.length > 0 && (
+                      <div style={{ fontSize: 11, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)', marginTop: 3, lineHeight: 1.6 }}>
+                        <span style={{ fontWeight: 600, color: 'var(--gray-600)' }}>Subs: </span>
+                        {m.subs.map((s, j) => `${s.on} for ${s.off} (${s.minute}')`).join(', ')}
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* 6. FOOTER */}
       <div style={{
         borderTop: '0.5px solid #e0e0e0',
         padding: '6px 1.5rem',
