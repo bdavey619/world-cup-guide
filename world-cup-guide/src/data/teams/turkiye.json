@@ -1,0 +1,424 @@
+{
+  "id": "turkiye",
+  "name": "Türkiye",
+  "nickname": "The Crescent-Stars",
+  "accentColor": "#E30A17",
+  "flagEmoji": "🇹🇷",
+  "meta": {
+    "fifaRanking": 28,
+    "group": "D",
+    "groupOpponents": [
+      "United States",
+      "Australia",
+      "Paraguay"
+    ],
+    "impliedProbability": "~1.1%",
+    "lastWCResult": "Groups '06",
+    "manager": "Vincenzo Montella",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1",
+    "winPct": 1,
+    "advancePct": 80
+  },
+  "narrative": {
+    "essence": "Türkiye arrives at the 2026 World Cup carried by a wave of Euro 2024 momentum and the emergence of Arda Güler — a teenager from Real Madrid who plays with the ease and audacity of a much older man. After two decades in the wilderness, Turkish football is back on the world stage with genuine cause for optimism.",
+    "footballIdentity": "Turkish football is passionate, physical, and historically underachieving relative to its talent base. The 2002 World Cup — where Türkiye finished third, beating Brazil before losing to eventual champions Brazil — remains the summit, a glittering peak that haunted every subsequent generation. The domestic Süper Lig produces quality, the diaspora in German and Dutch clubs constantly supplies internationals, and the country's massive fanbase creates an atmosphere in qualifying that few can match.",
+    "theMoment": "Euro 2024 in Germany was a watershed — Güler's stunning long-range goal against Georgia went viral globally, and Türkiye's run to the quarterfinals demonstrated this is no longer a team relying on grit alone. With Çalhanoğlu anchoring the midfield and Güler providing the magic, Montella has built something technically exciting. The political backdrop of Erdoğan's government using sporting success as soft power adds layers, but on the pitch, the message is simple: Turkey is back.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Hakan Çalhanoğlu",
+      "club": "Inter Milan",
+      "position": "Defensive Midfielder / Central Midfielder",
+      "badge": "Captain",
+      "note": "The transformation of Çalhanoğlu from a creative wide player into one of Europe's best deep-lying playmakers is one of football's great position switches. At Inter he controls tempo and launches attacks with his scanning and passing range. As Turkey's captain, his leadership and reading of the game set the entire midfield's rhythm."
+    },
+    {
+      "name": "Arda Güler",
+      "club": "Real Madrid",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "The prodigious talent who announced himself to the world at Euro 2024 with goals that made jaws drop. At 20, Güler plays with impossible composure for Real Madrid — his touch, vision, and strike of the ball are generational qualities. If he plays freely in 2026, Türkiye become a genuinely dangerous team."
+    },
+    {
+      "name": "Zeki Çelik",
+      "club": "Roma",
+      "position": "Right Back",
+      "badge": null,
+      "note": "A dynamic, attack-minded right back who has established himself in Serie A as one of the league's more complete fullbacks. Çelik's overlapping runs and crossing ability are a key part of how Türkiye create overloads on the right side when Güler drifts centrally."
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "club": "Galatasaray",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "The most complete wide attacker in Turkish football — quick, direct, and with an excellent end product from the left flank. Aktürkoğlu's Champions League performances with Galatasaray have proven he can perform at the highest level, and his partnership with Güler gives Türkiye two different attacking weapons."
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "Technical",
+      "Physical",
+      "Creative Midfield",
+      "Set Pieces",
+      "Counter-Attack"
+    ],
+    "tacticalNote": "Montella's 4-2-3-1 is built around the axis of Çalhanoğlu's deep distribution and Güler's freedom to roam from the ten position. Two holding midfielders protect the back four while Güler, Aktürkoğlu, and Çelik's overlaps create width and central overloads simultaneously. Türkiye are dangerous from set pieces — both from open play crossing and from direct free kicks within Güler's range.",
+    "strength": "The Çalhanoğlu-Güler axis gives Türkiye elite quality in central midfield areas — a genuine technical advantage over most Group D opponents.",
+    "vulnerability": "When pressed aggressively high and forced into direct football, Türkiye lose their creative rhythm and the defensive shape can become stretched."
+  },
+  "watchFor": [
+    "Arda Güler's free-kick range — he will attempt to score direct from any position within 30 yards",
+    "Çalhanoğlu's progressive passing numbers — when he completes 5+ line-breaking passes, Türkiye win",
+    "The tactical battle against the USA's high press — whether Montella adjusts to play through it or go direct will define the group's decisive match"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "Midnight ET",
+      "opponent": "Australia",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": true
+    },
+    {
+      "date": "Jun 19",
+      "time": "Midnight ET",
+      "opponent": "Paraguay",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "10PM ET",
+      "opponent": "United States",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": false
+    }
+  ],
+  "history": [
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "3rd",
+      "tier": "sf"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1954,
+      "host": "Switzerland",
+      "result": "Groups",
+      "tier": "early"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 16,
+    "won": 6,
+    "drawn": 2,
+    "lost": 8,
+    "scored": 29,
+    "conceded": 30,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Mert Günok",
+        "shortName": "Günok",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56,
+        "jersey": 1
+      },
+      {
+        "name": "Zeki Çelik",
+        "shortName": "Çelik",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148,
+        "jersey": 2
+      },
+      {
+        "name": "Merih Demiral",
+        "shortName": "Demiral",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148,
+        "jersey": 3
+      },
+      {
+        "name": "Samet Akaydın",
+        "shortName": "Akaydın",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "shortName": "Kadıoğlu",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "shortName": "Çalhanoğlu",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 293,
+        "y": 220,
+        "jersey": 10
+      },
+      {
+        "name": "Salih Özcan",
+        "shortName": "Özcan",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220,
+        "jersey": 5
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "shortName": "Aktürkoğlu",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310,
+        "jersey": 7
+      },
+      {
+        "name": "Arda Güler",
+        "shortName": "Güler",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 300,
+        "jersey": 8
+      },
+      {
+        "name": "Yusuf Yazıcı",
+        "shortName": "Yazıcı",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Cenk Tosun",
+        "shortName": "Tosun",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390
+      }
+    ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
+  },
+  "squad": [
+    {
+      "name": "Mert Günok",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Ugurcan Çakir",
+      "pos": "GK",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Altay Bayindir",
+      "pos": "GK",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Kaan Ayhan",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Abdülkerim Bardakçi",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Çaglar Söyüncü",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Ferdi Kadioglu",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "20"
+    },
+    {
+      "name": "Mert Müldür",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Ozan Kabak",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Merih Demiral",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "Zeki Çelik",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "Eren Elmali",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "13"
+    },
+    {
+      "name": "Samet Akaydin",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Hakan Çalhanoglu",
+      "pos": "MID",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Irfan Can Kahveci",
+      "pos": "MID",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Salih Özcan",
+      "pos": "MID",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Orkun Kökçü",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Ismail Yüksek",
+      "pos": "MID",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Arda Güler",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Can Uzun",
+      "pos": "MID",
+      "club": "",
+      "jersey": "26"
+    },
+    {
+      "name": "Yunus Akgün",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Kerem Aktürkoglu",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Baris Alper Yilmaz",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Oguz Aydin",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Deniz Gül",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Kenan Yildiz",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    }
+  ]
+}

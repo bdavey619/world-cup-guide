@@ -1,0 +1,459 @@
+{
+  "id": "czechia",
+  "name": "Czechia",
+  "nickname": "The Lions",
+  "accentColor": "#D7141A",
+  "flagEmoji": "🇨🇿",
+  "meta": {
+    "fifaRanking": 37,
+    "group": "A",
+    "groupOpponents": [
+      "Mexico",
+      "South Korea",
+      "South Africa"
+    ],
+    "impliedProbability": "~0.4%",
+    "lastWCResult": "Groups '06",
+    "manager": "Miroslav Koubek",
+    "managerTenure": "2024–present",
+    "formation": "3-4-2-1",
+    "winPct": 0.3,
+    "advancePct": 70
+  },
+  "narrative": {
+    "essence": "Czechia returns to the World Cup for the first time since 2006, rebuilt around a generation that grew up watching the Czech Republic punch above its weight in Europe. This squad is technically capable and tactically disciplined — not a glamour team, but one that can make life very difficult.",
+    "footballIdentity": "Czech football has an understated European soul — technically sound, tactically astute, and never overwhelmed by the moment. The golden generation of Nedvěd, Poborský, and Schmeichel in the 1990s and early 2000s set a high bar. The country doesn't produce superstars the way France or Germany does, but it consistently produces reliable, intelligent professionals who understand their role.",
+    "theMoment": "Czechia qualified having undergone a significant rebuild after missing the 2022 World Cup entirely. The Czech football federation, amid debates about investment in youth development and concerns about the domestic league quality, finally sees this squad as the product of better academy structures. Making the knockout rounds would vindicate a quiet revolution in Czech football infrastructure.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Tomáš Souček",
+      "club": "West Ham",
+      "position": "Central mid",
+      "badge": "Captain",
+      "note": "Box-to-box powerhouse who provides goals from midfield. His physicality, aerial ability, and late runs make him a genuine threat in attack."
+    },
+    {
+      "name": "Patrik Schick",
+      "club": "Bayer Leverkusen",
+      "position": "Striker",
+      "badge": null,
+      "note": "Clinical finisher with technical polish. Czech football's best chance-taker. Capable of goals from anywhere in the penalty area."
+    },
+    {
+      "name": "Vladimír Coufal",
+      "club": "West Ham",
+      "position": "Right-back",
+      "badge": null,
+      "note": "Attacking fullback who has been central to the Czech system for years. His overlapping runs and delivery provide consistent width."
+    },
+    {
+      "name": "Jiří Pavlenka",
+      "fullName": "Jiří Pavlenka",
+      "position": "Goalkeeper",
+      "club": "Werder Bremen",
+      "role": "Czech No.1 and capable shot-stopper who anchors a well-organized defensive unit",
+      "stat": "40+",
+      "statLabel": "Caps"
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "Organized",
+      "Direct play",
+      "Set pieces",
+      "Physical"
+    ],
+    "tacticalNote": "Czechia presses from a 4-2-3-1 structure, using Souček's industry and physicality to dominate central areas. They're dangerous from set pieces — Souček and Schick are both aerial threats. Build-up is direct, using Schick's hold-up play to establish footholds, then overloading wide areas with Coufal's runs.",
+    "strength": "Set piece danger and midfield physicality — Souček's influence from dead balls consistently produces goals the Czech Republic shouldn't be getting.",
+    "vulnerability": "Susceptible in transitions when the double-pivot is caught high — quick teams can expose the space behind the midfield block."
+  },
+  "watchFor": [
+    "Souček arriving late into the penalty area from deep — he scores 8-10 goals a season for West Ham doing exactly this.",
+    "Schick's movement: he creates space for others as much as he finishes chances. Watch the runs that don't result in shots.",
+    "Czech corner and free kick routines — they're well-rehearsed and Hrádecký's distribution from the back can catch teams off guard."
+  ],
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "10PM ET",
+      "opponent": "South Korea",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
+    },
+    {
+      "date": "Jun 18",
+      "time": "12PM ET",
+      "opponent": "South Africa",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true
+    }
+  ],
+  "history": [
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1990,
+      "host": "Italy",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 1982,
+      "host": "Spain",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1970,
+      "host": "Mexico",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1962,
+      "host": "Chile",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 1958,
+      "host": "Sweden",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1954,
+      "host": "Switzerland",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1938,
+      "host": "France",
+      "result": "Final",
+      "tier": "final"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 30,
+    "won": 11,
+    "drawn": 5,
+    "lost": 14,
+    "scored": 50,
+    "conceded": 49,
+    "appearances": 9,
+    "titles": 0,
+    "finals": 2
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Kovár",
+        "shortName": "Kovár",
+        "position": "G",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56,
+        "jersey": 1
+      },
+      {
+        "name": "Chaloupek",
+        "shortName": "Chaloupek",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 148,
+        "jersey": 6
+      },
+      {
+        "name": "Hranác",
+        "shortName": "Hranác",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 148,
+        "jersey": 4
+      },
+      {
+        "name": "Krejcí",
+        "shortName": "Krejcí",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 148,
+        "jersey": 7
+      },
+      {
+        "name": "Zelený",
+        "shortName": "Zelený",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 256,
+        "jersey": 20
+      },
+      {
+        "name": "Soucek",
+        "shortName": "Soucek",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 256,
+        "jersey": 22
+      },
+      {
+        "name": "Sojka",
+        "shortName": "Sojka",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 256,
+        "jersey": 24
+      },
+      {
+        "name": "Coufal",
+        "shortName": "Coufal",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 256,
+        "jersey": 5
+      },
+      {
+        "name": "Provod",
+        "shortName": "Provod",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 375,
+        "jersey": 17
+      },
+      {
+        "name": "Schick",
+        "shortName": "Schick",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 375,
+        "jersey": 10
+      },
+      {
+        "name": "Sulc",
+        "shortName": "Sulc",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 375,
+        "jersey": 15
+      }
+    ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "pts": 0,
+    "gf": 1,
+    "ga": 2,
+    "gd": -1
+  },
+  "pitchLabel": "Confirmed XI · Jun 12 vs South Korea",
+  "squad": [
+    {
+      "name": "Jindrich Stanek",
+      "pos": "GK",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Matej Kovár",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Lukás Hornícek",
+      "pos": "GK",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Ladislav Krejcí",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Vladimír Coufal",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Jaroslav Zelený",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "20"
+    },
+    {
+      "name": "Tomás Holes",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "David Zima",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "Robin Hranác",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "David Jurásek",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Stepán Chaloupek",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Vladimír Darida",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Tomás Soucek",
+      "pos": "MID",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Michal Sadílek",
+      "pos": "MID",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Lukás Provod",
+      "pos": "MID",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Lukás Cerv",
+      "pos": "MID",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Pavel Sulc",
+      "pos": "MID",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Denis Visinský",
+      "pos": "MID",
+      "club": "",
+      "jersey": "26"
+    },
+    {
+      "name": "David Doudera",
+      "pos": "MID",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Alexandr Sojka",
+      "pos": "MID",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Hugo Sochurek",
+      "pos": "MID",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Patrik Schick",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Tomás Chorý",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Adam Hlozek",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Jan Kuchta",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Mojmír Chytil",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "13"
+    }
+  ]
+}

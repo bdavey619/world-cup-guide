@@ -1,0 +1,429 @@
+{
+  "id": "algeria",
+  "name": "Algeria",
+  "nickname": "Les Fennecs",
+  "accentColor": "#006233",
+  "flagEmoji": "🇩🇿",
+  "meta": {
+    "fifaRanking": 28,
+    "group": "J",
+    "groupOpponents": [
+      "Argentina",
+      "Austria",
+      "Jordan"
+    ],
+    "impliedProbability": "~0.3%",
+    "lastWCResult": "R16 '14",
+    "manager": "Vladimir Petkovic",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3",
+    "winPct": 0.2,
+    "advancePct": 66
+  },
+  "narrative": {
+    "essence": "Algeria's footballing identity is inseparable from the complex, charged history of a nation that fought for its existence — and the 2026 World Cup drops them back onto the global stage with one of Africa's most technically gifted squads and a chip on their shoulder the size of the Sahara.",
+    "footballIdentity": "Algerian football has long drawn from a unique dual identity — players born in France of Algerian descent choosing the green-and-white, creating a squad that bridges two football cultures. The 1982 'Disgrace of Gijón' — when Algeria were eliminated through a suspicious West Germany-Austria result — is still referenced as a foundational wound. The 2014 run to the last 16 and the 2019 AFCON title reminded the world that Les Fennecs belong at the top table.",
+    "theMoment": "Algeria's relationship with France remains one of football's most politically charged fault lines — a colonial legacy that shapes the biographies of nearly every player in this squad. In 2026, many of these players hold dual French-Algerian nationality and have navigated immense pressure over their international allegiances. Every green jersey worn in North America carries that history into the arena.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Riyad Mahrez",
+      "club": "Al-Ahli",
+      "position": "Right Wing",
+      "badge": "Captain",
+      "note": "The 2019 AFCON Player of the Tournament and Premier League title winner is Algeria's heartbeat — a dribbler of the highest quality whose capacity to create something from nothing in the final third is unmatched in African football. At 35, Mahrez brings experience and quality that elevates everyone around him."
+    },
+    {
+      "name": "Amoura",
+      "fullName": "Mohamed Amine Amoura",
+      "position": "Left Wing / Striker",
+      "club": "Wolfsburg",
+      "role": "Clinical finisher with pace who has become Algeria's most dangerous attacker",
+      "stat": "9 international goals in 2024–25",
+      "statLabel": "Goals"
+    },
+    {
+      "name": "Said Benrahma",
+      "fullName": "Said Benrahma",
+      "position": "Attacking Midfielder / Left Wing",
+      "club": "Lyon",
+      "role": "Silky dribbler and set-piece specialist; Algeria's creative outlet with Bennacer absent",
+      "stat": "8 goals + 6 assists (Ligue 1 2024–25)",
+      "statLabel": "Goal Contributions"
+    },
+    {
+      "name": "Djamel Benlamri",
+      "fullName": "Djamel Benlamri",
+      "position": "Centre Back",
+      "club": "Al-Ittihad",
+      "role": "Defensive anchor and aerial presence; brings World Cup experience from 2014",
+      "stat": "47",
+      "statLabel": "Caps"
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "Counter-Attack",
+      "Technical",
+      "Wide Play",
+      "Compact",
+      "Transition"
+    ],
+    "tacticalNote": "Petkovic's Algeria set up to be difficult to break down — a compact 4-3-3 that defends in a mid-block and looks to exploit transitions through Mahrez's pace and dribbling from the right, with the left channel providing secondary outlet. Zerrouki anchors the midfield and distributes efficiently, enabling Algeria to switch from defensive shape to attack quickly. Against stronger opponents they will be pragmatic and disciplined; against Jordan they will have the ball more and need to break down a defensive block.",
+    "strength": "Mahrez's ability to manufacture chances from almost nothing — give him half a yard and he creates danger every time.",
+    "vulnerability": "Heavily Mahrez-dependent in the final third; if opponents neutralize him, Algeria can struggle to create from other sources."
+  },
+  "watchFor": [
+    "Mahrez's movement to find space — he drifts centrally and into the left half-space to receive, not just wide right",
+    "Algeria's defensive block against Argentina — their 2014 side held Germany for 120 minutes; discipline is in the DNA",
+    "Benrahma's creativity from midfield — his dribbling, set-piece delivery, and ability to find pockets of space make him Algeria's creative outlet when Mahrez is marked"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "9PM ET",
+      "opponent": "Argentina",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    },
+    {
+      "date": "Jun 22",
+      "time": "11PM ET",
+      "opponent": "Jordan",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "10PM ET",
+      "opponent": "Austria",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    }
+  ],
+  "history": [
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1982,
+      "host": "Spain",
+      "result": "Groups",
+      "tier": "early"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 15,
+    "won": 4,
+    "drawn": 2,
+    "lost": 9,
+    "scored": 14,
+    "conceded": 29,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Alexandre Oukidja",
+        "shortName": "Oukidja",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Youcef Atal",
+        "shortName": "Atal",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Djamel Benlamri",
+        "shortName": "Benlamri",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "shortName": "Bensebaini",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148,
+        "jersey": 21
+      },
+      {
+        "name": "Aïssa Mandi",
+        "shortName": "Mandi",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148,
+        "jersey": 2
+      },
+      {
+        "name": "Haris Belkebla",
+        "shortName": "Belkebla",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Ramiz Zerrouki",
+        "shortName": "Zerrouki",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236,
+        "jersey": 6
+      },
+      {
+        "name": "Farès Chaïbi",
+        "shortName": "Chaïbi",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244,
+        "jersey": 10
+      },
+      {
+        "name": "Riyad Mahrez",
+        "shortName": "Mahrez",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 389,
+        "y": 362,
+        "jersey": 7
+      },
+      {
+        "name": "Amoura",
+        "shortName": "Amoura",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 372,
+        "jersey": 18
+      },
+      {
+        "name": "Said Benrahma",
+        "shortName": "Benrahma",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
+    ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
+  },
+  "squad": [
+    {
+      "name": "Luca Zidane",
+      "pos": "GK",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Oussama Benbot",
+      "pos": "GK",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Melvin Mastil",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Aïssa Mandi",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "Ramy Bensebaini",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Rayan Aït-Nouri",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Mohamed Amine Tougai",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Zineddine Belaïd",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Samir Chergui",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "26"
+    },
+    {
+      "name": "Jaouen Hadjam",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "13"
+    },
+    {
+      "name": "Rafik Belghali",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Achraf Abada",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "Nabil Bentaleb",
+      "pos": "MID",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Houssem Aouar",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Hicham Boudaoui",
+      "pos": "MID",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Ramiz Zerrouki",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Farès Chaïbi",
+      "pos": "MID",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Yassine Titraoui",
+      "pos": "MID",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Ibrahim Maza",
+      "pos": "MID",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Riyad Mahrez",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Amine Gouiri",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Mohamed Amoura",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Adil Boulbina",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "20"
+    },
+    {
+      "name": "Anis Hadj Moussa",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Nadhir Benbouali",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Farès Ghedjemis",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "25"
+    }
+  ]
+}

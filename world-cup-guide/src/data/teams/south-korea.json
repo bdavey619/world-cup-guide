@@ -1,0 +1,457 @@
+{
+  "id": "south-korea",
+  "name": "South Korea",
+  "nickname": "Taegeuk Warriors",
+  "accentColor": "#C60B1E",
+  "flagEmoji": "🇰🇷",
+  "meta": {
+    "fifaRanking": 25,
+    "group": "A",
+    "groupOpponents": [
+      "Mexico",
+      "South Africa",
+      "Czechia"
+    ],
+    "impliedProbability": "~0.2%",
+    "lastWCResult": "R16 '22",
+    "manager": "Hong Myung-bo",
+    "managerTenure": "2023–present",
+    "formation": "3-4-2-1",
+    "winPct": 1,
+    "advancePct": 70
+  },
+  "narrative": {
+    "essence": "South Korea enters 2026 in transition — the Son Heung-min era is winding down and the next generation hasn't fully arrived. But this team has always been greater than the sum of its parts, and the K-League machine keeps producing technically gifted players who overachieve on the world stage.",
+    "footballIdentity": "South Korea's football identity is built on relentless pressing, organization, and collective sacrifice. The 2002 semi-final run on home soil remains the country's defining football moment — a tournament that unified a nation and launched Asian football into the global conversation. Since then, they've consistently punched above their weight at every World Cup.",
+    "theMoment": "Son Heung-min captains his country at what is likely his final World Cup at age 34. His 2002 World Cup parallel is not lost on Koreans — that squad, led by individual brilliance and collective determination, went further than anyone imagined. Son has spent the last decade carrying South Korean football's hopes. In 2026, this team needs to send him off properly.",
+    "momentType": "cultural"
+  },
+  "keyPlayers": [
+    {
+      "name": "Son Heung-min",
+      "club": "Los Angeles FC",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The greatest player in Korean history. At 34, this is his farewell World Cup. He can still unlock any defense with his movement and finish."
+    },
+    {
+      "name": "Lee Jae-sung",
+      "club": "Mainz",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "The creative engine. High work rate, smart positioning between lines, and a sharp eye for through balls. Underrated on the world stage."
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "club": "Wolverhampton",
+      "position": "Striker",
+      "badge": null,
+      "note": "The goalscorer the squad needed. Has stepped up since his Premier League breakthrough to become the focal point of Korea's attack."
+    },
+    {
+      "name": "Kim Min-jae",
+      "club": "Bayern Munich",
+      "position": "Center-back",
+      "badge": null,
+      "note": "The Monster — elite center-back with Champions League experience. Organizes the defensive line and is almost impossible to beat in the air."
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "High press",
+      "Organized",
+      "Counter-attack",
+      "Technical"
+    ],
+    "tacticalNote": "Hong Myung-bo deploys a compact 4-2-3-1 that presses aggressively from the front and transitions quickly. Son operates as a false left-winger who drifts centrally, while the double pivot provides stability. Korea exploits wide spaces in transition, particularly through Son's diagonal runs.",
+    "strength": "Defensive organization and work rate — this team runs more per game than almost any other team at the tournament.",
+    "vulnerability": "Creativity in build-up play: when the press is broken, they can struggle to unlock compact defenses through patient passing."
+  },
+  "watchFor": [
+    "Son's diagonal runs from wide left into the penalty area — this is South Korea's primary attacking pattern and it still creates chances.",
+    "The double-pivot's positioning when Korea attacks — they're the off switch, ready to deny counters the moment possession is lost.",
+    "Korea's set pieces — they've become increasingly dangerous at dead balls with Kim Min-jae as an aerial threat."
+  ],
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "10PM ET",
+      "opponent": "Czechia",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
+    },
+    {
+      "date": "Jun 18",
+      "time": "9PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "South Africa",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": true
+    }
+  ],
+  "history": [
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "S. Africa",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2002,
+      "host": "Korea/Japan",
+      "result": "SF",
+      "tier": "sf"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "Groups",
+      "tier": "early"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 40,
+    "won": 10,
+    "drawn": 7,
+    "lost": 23,
+    "scored": 46,
+    "conceded": 83,
+    "appearances": 11,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Seung-Gyu",
+        "shortName": "Seung-Gyu",
+        "position": "G",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56,
+        "jersey": 1
+      },
+      {
+        "name": "Han-Beom",
+        "shortName": "Han-Beom",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 148,
+        "jersey": 2
+      },
+      {
+        "name": "Min-Jae",
+        "shortName": "Min-Jae",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 148,
+        "jersey": 4
+      },
+      {
+        "name": "Gi-Hyuk",
+        "shortName": "Gi-Hyuk",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 148,
+        "jersey": 3
+      },
+      {
+        "name": "Tae-Seok",
+        "shortName": "Tae-Seok",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 256,
+        "jersey": 13
+      },
+      {
+        "name": "In-Beom",
+        "shortName": "In-Beom",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 256,
+        "jersey": 6
+      },
+      {
+        "name": "Seung-Ho",
+        "shortName": "Seung-Ho",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 256,
+        "jersey": 8
+      },
+      {
+        "name": "Young-Woo",
+        "shortName": "Young-Woo",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 256,
+        "jersey": 22
+      },
+      {
+        "name": "Kang-In",
+        "shortName": "Kang-In",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 375,
+        "jersey": 19
+      },
+      {
+        "name": "Heung-Min",
+        "shortName": "Heung-Min",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 375,
+        "jersey": 7
+      },
+      {
+        "name": "Jae-Sung",
+        "shortName": "Jae-Sung",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 375,
+        "jersey": 10
+      }
+    ]
+  },
+  "standings": {
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "pts": 3,
+    "gf": 2,
+    "ga": 1,
+    "gd": 1
+  },
+  "pitchLabel": "Confirmed XI · Jun 12 vs Czechia",
+  "squad": [
+    {
+      "name": "Kim Seung-Gyu",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Jo Hyeon-Woo",
+      "pos": "GK",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Song Bum-Keun",
+      "pos": "GK",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Kim Min-Jae",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Kim Moon-Hwan",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Kim Tae-Hyeon",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Lee Tae-Seok",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "13"
+    },
+    {
+      "name": "Lee Han-Beom",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "Seol Young-Woo",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Lee Gi-Hyuk",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "Cho Wi-Je",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Kim Jin-Gyu",
+      "pos": "MID",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Lee Jae-Sung",
+      "pos": "MID",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Paik Seung-Ho",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Lee Dong-Gyeong",
+      "pos": "MID",
+      "club": "",
+      "jersey": "26"
+    },
+    {
+      "name": "Lee Kang-In",
+      "pos": "MID",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Hwang In-Beom",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Jens Castrop",
+      "pos": "MID",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Park Jin-Seop",
+      "pos": "MID",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Bae Jun-Ho",
+      "pos": "MID",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Son Heung-Min",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Hwang Hee-Chan",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Eom Ji-Sung",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Oh Hyeon-Gyu",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Cho Gue-Sung",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Yang Hyun-Jun",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "20"
+    }
+  ]
+}

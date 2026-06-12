@@ -1,0 +1,446 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "nickname": "Samurai Blue",
+  "accentColor": "#BC002D",
+  "flagEmoji": "🇯🇵",
+  "meta": {
+    "fifaRanking": 18,
+    "group": "F",
+    "groupOpponents": [
+      "Netherlands",
+      "Sweden",
+      "Tunisia"
+    ],
+    "impliedProbability": "~1.5%",
+    "lastWCResult": "R16 '22",
+    "manager": "Hajime Moriyasu",
+    "managerTenure": "2018–present",
+    "formation": "4-2-3-1",
+    "winPct": 1,
+    "advancePct": 79
+  },
+  "narrative": {
+    "essence": "Japan stunned Germany and Spain at the 2022 World Cup and has now built a squad where the majority of starters play for elite European clubs. The ceiling for Samurai Blue has risen dramatically, and the entire country senses that a first World Cup quarterfinal is no longer a dream — it's an expectation.",
+    "footballIdentity": "Japanese football culture is meticulous, disciplined, and collectively oriented — values that map onto football's demands with unusual precision. The J-League launched in 1993 and within a decade Japan was co-hosting a World Cup. Now, a generation later, players like Takefusa Kubo, Ao Tanaka, and Ayase Ueda are starring in La Liga, the Bundesliga, and the Eredivisie. Japan's football trajectory is one of the most remarkable in the sport's modern history.",
+    "theMoment": "The 2022 World Cup was Japan's greatest — beating Germany and Spain, qualifying from the group, losing narrowly to Croatia. The players who delivered that ran home to their clubs with confidence transformed. Now those same players return, a year older and more experienced, knowing they can compete with anyone. Kubo at Real Sociedad is emerging as a potential Ballon d'Or contender. The moment Japan has been building toward since 1993 may finally be here.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Takefusa Kubo",
+      "club": "Real Sociedad",
+      "position": "Right Wing / Attacking Midfielder",
+      "badge": null,
+      "note": "The most technically gifted Japanese player of his generation — possibly ever. Kubo's dribbling, creativity, and goal threat in La Liga have established him as one of Europe's most exciting attacking players. His ability to beat defenders in one-on-one situations and deliver final-third product is the engine of Japan's attacking play."
+    },
+    {
+      "name": "Ayase Ueda",
+      "club": "Feyenoord",
+      "position": "Striker",
+      "badge": null,
+      "note": "The clinical goalscorer Japan has long needed at the apex of their system. Ueda's movement, finishing, and aerial threat at Feyenoord — where he has scored regularly in the Eredivisie and Champions League — give Japan a centre-forward capable of converting the chances that Kubo and Minamino create."
+    },
+    {
+      "name": "Ao Tanaka",
+      "club": "Düsseldorf",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The midfield organizer whose discipline and work rate allow the more creative players around him to function. Tanaka's positional awareness and ability to win the ball and distribute quickly under pressure is the unsexy but essential foundation of Japan's midfield compactness."
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "fullName": "Kaoru Mitoma",
+      "position": "Left Wing",
+      "club": "Brighton",
+      "role": "One of the Premier League's most electrifying wingers; exceptional dribbling and creativity who stretches any defence",
+      "stat": "12 goals + 11 assists (2024–25)",
+      "statLabel": "Goal Contributions"
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "High Press",
+      "Technical",
+      "Collective",
+      "Disciplined",
+      "Counter-Attack"
+    ],
+    "tacticalNote": "Moriyasu's 4-2-3-1 is built around collective pressing and rapid transitions. Japan sits in a mid-to-high block, hunting in coordinated packs and winning the ball in dangerous areas. Once possession is gained, the ball moves quickly to Kubo and the wide attackers, who drive at defenders in transition. Against the Netherlands, Japan will need to press aggressively and deny de Jong time on the ball — the same blueprint that worked against Germany and Spain in 2022.",
+    "strength": "Coordinated team pressing and rapid counter-attacks — Japan is one of the best teams in the world at winning the ball in dangerous areas and immediately transitioning into attacks.",
+    "vulnerability": "When deep-defending against sustained possession from technically superior sides, Japan can be stretched laterally and is vulnerable to patient overloads in wide areas."
+  },
+  "watchFor": [
+    "Kubo's one-on-one situations on the right — when he has space to run at full backs, he's among the most dangerous players in world football",
+    "Japan's pressing triggers — the coordinated moments when the entire team presses simultaneously are their most potent weapon",
+    "Ueda's movement in the penalty area — he is intelligent enough to find space that other strikers miss, and his aerial threat gives Japan a different attacking dimension"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "4PM ET",
+      "opponent": "Netherlands",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    },
+    {
+      "date": "Jun 20",
+      "time": "Midnight ET",
+      "opponent": "Tunisia",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "7PM ET",
+      "opponent": "Sweden",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    }
+  ],
+  "history": [
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2002,
+      "host": "South Korea/Japan",
+      "result": "R16",
+      "tier": "deep"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Groups",
+      "tier": "early"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 28,
+    "won": 8,
+    "drawn": 5,
+    "lost": 15,
+    "scored": 28,
+    "conceded": 41,
+    "appearances": 8,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Shuichi Gonda",
+        "shortName": "Gonda",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Yukinari Sugawara",
+        "shortName": "Sugawara",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148,
+        "jersey": 2
+      },
+      {
+        "name": "Ko Itakura",
+        "shortName": "Itakura",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148,
+        "jersey": 4
+      },
+      {
+        "name": "Hiroki Ito",
+        "shortName": "H. Ito",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148,
+        "jersey": 21
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "shortName": "Nagatomo",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148,
+        "jersey": 5
+      },
+      {
+        "name": "Wataru Endo",
+        "shortName": "Endo",
+        "position": "RDM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 220,
+        "jersey": 6
+      },
+      {
+        "name": "Ao Tanaka",
+        "shortName": "Tanaka",
+        "position": "LDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 161,
+        "y": 220,
+        "jersey": 7
+      },
+      {
+        "name": "Takefusa Kubo",
+        "shortName": "Kubo",
+        "position": "RAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 310,
+        "jersey": 8
+      },
+      {
+        "name": "Mitoma",
+        "shortName": "Mitoma",
+        "position": "CAM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 300
+      },
+      {
+        "name": "Ritsu Doan",
+        "shortName": "Doan",
+        "position": "LAM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 310,
+        "jersey": 10
+      },
+      {
+        "name": "Ayase Ueda",
+        "shortName": "Ueda",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 390,
+        "jersey": 18
+      }
+    ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
+  },
+  "squad": [
+    {
+      "name": "Keisuke Osako",
+      "pos": "GK",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Zion Suzuki",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Tomoki Hayakawa",
+      "pos": "GK",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Hiroki Ito",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Yuto Nagatomo",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Shogo Taniguchi",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Kou Itakura",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Ayumu Seko",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "20"
+    },
+    {
+      "name": "Yukinari Sugawara",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "Tsuyoshi Watanabe",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Junnosuke Suzuki",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Wataru Endo",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Daichi Kamada",
+      "pos": "MID",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Ritsu Doan",
+      "pos": "MID",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Ao Tanaka",
+      "pos": "MID",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Yuito Suzuki",
+      "pos": "MID",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Kaishu Sano",
+      "pos": "MID",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Junya Ito",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Koki Ogawa",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Takefusa Kubo",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Keito Nakamura",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "13"
+    },
+    {
+      "name": "Ayase Ueda",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Daizen Maeda",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Keisuke Goto",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Kento Shiogai",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "26"
+    }
+  ]
+}

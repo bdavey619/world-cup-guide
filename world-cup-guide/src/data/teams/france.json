@@ -1,0 +1,458 @@
+{
+  "id": "france",
+  "name": "France",
+  "nickname": "Les Bleus",
+  "accentColor": "#185FA5",
+  "flagEmoji": "🇫🇷",
+  "meta": {
+    "fifaRanking": 3,
+    "group": "I",
+    "groupOpponents": [
+      "Senegal",
+      "Iraq",
+      "Norway"
+    ],
+    "impliedProbability": "~17%",
+    "lastWCResult": "Final '22",
+    "manager": "Deschamps",
+    "managerTenure": "2012–present",
+    "formation": "4-3-3",
+    "winPct": 12,
+    "advancePct": 97
+  },
+  "narrative": {
+    "essence": "France enters 2026 as the co-favorite and arguably the most complete squad in the world — the rare team that can win ugly or win beautifully. The only question is whether Mbappé can finally carry his nation across the finish line at a tournament, not just to it.",
+    "footballIdentity": "France's football story is inseparable from its immigration story. Most of this squad grew up in the banlieues of Paris, Lyon, and Marseille — products of a system that funnels talent from the suburbs into elite academies. When France wins, the country celebrates. When they lose, it debates what it means to be French. That weight follows them everywhere.",
+    "theMoment": "France enters 2026 in a politically fractured moment. Macron's snap election gamble in 2024 left him weakened, with a hung parliament and no clear governing majority. Growth is sluggish, debt is elevated, and social cohesion is strained. A World Cup run would be more than sport — it would be a rare moment of national unity in a country that badly needs one. The 1998 win briefly transcended all of it. France is chasing that again.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Kylian Mbappé",
+      "club": "Real Madrid",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "The center of gravity. Drifts left, pulls defenders, creates lanes. Watch the runs in behind — that is when France is most dangerous."
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "club": "PSG",
+      "position": "Right wing",
+      "badge": "Ballon d'Or '24",
+      "note": "The co-star who became a star. Direct, unpredictable, thrives on the counter. Eats when Mbappé draws the double-team."
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "club": "Real Madrid",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "The hidden engine. Elite interception positioning. Does the dirty work that lets everyone else express themselves."
+    },
+    {
+      "name": "Mike Maignan",
+      "club": "AC Milan",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "A sweeper-keeper who reads danger early. His distribution starts France's transitions. Often the difference in tight games."
+    },
+    {
+      "name": "Youssouf Fofana",
+      "fullName": "Youssouf Fofana",
+      "position": "Central Midfielder",
+      "club": "AC Milan",
+      "role": "Combative box-to-box midfielder who anchors France's midfield balance alongside Tchouaméni; motor and intensity in one",
+      "stat": "8 goal contributions (Serie A 2024–25)",
+      "statLabel": "Contributions"
+    }
+  ],
+  "tactics": {
+    "styleTags": [
+      "High press",
+      "Fast transitions",
+      "Wide rotations"
+    ],
+    "tacticalNote": "France doesn't possess and probe — they press, recover, and explode. Mbappé and Dembélé swap flanks to confuse fullbacks while a #10 drops centrally. The transition is the system. In 10 seconds from a turnover, they can be in your net.",
+    "strength": "Counter-attack speed is unmatched — overcommit forward and France punishes you in three passes.",
+    "vulnerability": "Slow to set their shape after losing the ball — direct teams with pace in behind can exploit the high line."
+  },
+  "watchFor": [
+    "Mbappé's movement off the ball — he drifts left and pulls center-backs, opening lanes for runners from deep.",
+    "Tchouaméni's cover shadow before the press triggers — his body angle tells you where the ball is going.",
+    "Deschamps' substitutions around the 65th minute — they telegraph exactly how France intends to close the game."
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "3PM ET",
+      "opponent": "Senegal",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "isAway": false
+    },
+    {
+      "date": "Jun 22",
+      "time": "5PM ET",
+      "opponent": "Iraq",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia, PA",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "3PM ET",
+      "opponent": "Norway",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "isAway": true
+    }
+  ],
+  "history": [
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "result": "Won",
+      "tier": "winner"
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "result": "QF",
+      "tier": "deep"
+    },
+    {
+      "year": 2010,
+      "host": "S. Africa",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "result": "Final",
+      "tier": "final"
+    },
+    {
+      "year": 2002,
+      "host": "Korea/Japan",
+      "result": "Groups",
+      "tier": "early"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "result": "Won",
+      "tier": "winner"
+    },
+    {
+      "year": 1994,
+      "host": "USA",
+      "result": "DNQ",
+      "tier": "dnq"
+    }
+  ],
+  "allTimeRecord": {
+    "played": 66,
+    "won": 34,
+    "drawn": 13,
+    "lost": 19,
+    "scored": 120,
+    "conceded": 77,
+    "appearances": 16,
+    "titles": 2,
+    "finals": 4
+  },
+  "pitch": {
+    "players": [
+      {
+        "name": "Maignan",
+        "shortName": "Maignan",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56,
+        "jersey": 16
+      },
+      {
+        "name": "Koundé",
+        "shortName": "Koundé",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148,
+        "jersey": 5
+      },
+      {
+        "name": "Saliba",
+        "shortName": "Saliba",
+        "position": "CB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148,
+        "jersey": 17
+      },
+      {
+        "name": "Upamecano",
+        "shortName": "Upamecano",
+        "position": "CB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148,
+        "jersey": 4
+      },
+      {
+        "name": "T. Hernández",
+        "shortName": "T. Hernández",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148,
+        "jersey": 19
+      },
+      {
+        "name": "Youssouf Fofana",
+        "shortName": "Fofana",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Tchouaméni",
+        "shortName": "Tchouaméni",
+        "position": "DM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236,
+        "jersey": 8
+      },
+      {
+        "name": "Rabiot",
+        "shortName": "Rabiot",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244,
+        "jersey": 14
+      },
+      {
+        "name": "Dembélé",
+        "shortName": "Dembélé",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362,
+        "jersey": 7
+      },
+      {
+        "name": "Mbappé",
+        "shortName": "Mbappé",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372,
+        "jersey": 10
+      },
+      {
+        "name": "Marcus Thuram",
+        "shortName": "Thuram",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362,
+        "jersey": 9
+      }
+    ]
+  },
+  "standings": {
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "pts": 0
+  },
+  "squad": [
+    {
+      "name": "Brice Samba",
+      "pos": "GK",
+      "club": "",
+      "jersey": "1"
+    },
+    {
+      "name": "Mike Maignan",
+      "pos": "GK",
+      "club": "",
+      "jersey": "16"
+    },
+    {
+      "name": "Robin Risser",
+      "pos": "GK",
+      "club": "",
+      "jersey": "23"
+    },
+    {
+      "name": "Lucas Digne",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "3"
+    },
+    {
+      "name": "Lucas Hernández",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "21"
+    },
+    {
+      "name": "Dayot Upamecano",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "4"
+    },
+    {
+      "name": "Jules Koundé",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "5"
+    },
+    {
+      "name": "Theo Hernández",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "19"
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "15"
+    },
+    {
+      "name": "Maxence Lacroix",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "26"
+    },
+    {
+      "name": "William Saliba",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "17"
+    },
+    {
+      "name": "Malo Gusto",
+      "pos": "DEF",
+      "club": "",
+      "jersey": "2"
+    },
+    {
+      "name": "N'Golo Kanté",
+      "pos": "MID",
+      "club": "",
+      "jersey": "13"
+    },
+    {
+      "name": "Adrien Rabiot",
+      "pos": "MID",
+      "club": "",
+      "jersey": "14"
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "pos": "MID",
+      "club": "",
+      "jersey": "8"
+    },
+    {
+      "name": "Manu Koné",
+      "pos": "MID",
+      "club": "",
+      "jersey": "6"
+    },
+    {
+      "name": "Michael Olise",
+      "pos": "MID",
+      "club": "",
+      "jersey": "11"
+    },
+    {
+      "name": "Rayan Cherki",
+      "pos": "MID",
+      "club": "",
+      "jersey": "24"
+    },
+    {
+      "name": "Maghnes Akliouche",
+      "pos": "MID",
+      "club": "",
+      "jersey": "25"
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "pos": "MID",
+      "club": "",
+      "jersey": "18"
+    },
+    {
+      "name": "Marcus Thuram",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "9"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "7"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "10"
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "22"
+    },
+    {
+      "name": "Bradley Barcola",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "12"
+    },
+    {
+      "name": "Désiré Doué",
+      "pos": "FWD",
+      "club": "",
+      "jersey": "20"
+    }
+  ]
+}

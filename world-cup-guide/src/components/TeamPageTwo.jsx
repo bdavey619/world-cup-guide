@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PitchDiagram from './PitchDiagram'
+import statsData from '../data/stats.json'
 
 const POS_GROUP = {
   GK: 'Goalkeepers',
@@ -367,6 +368,12 @@ export default function TeamPageTwo({ team }) {
               const full = p.name.toLowerCase()
               return startsMap[full] || startsMap[last] || 0
             }
+            const indiv = statsData?.individual || {}
+            function getStatVal(list, playerName) {
+              if (!list) return 0
+              const entry = list.find(e => e.name === playerName && e.team === name)
+              return entry ? entry.value : 0
+            }
             return (
               <div style={{ borderTop: '0.5px solid var(--gray-100)', margin: '0 0 0 0' }}>
                 <button
@@ -406,6 +413,8 @@ export default function TeamPageTwo({ team }) {
                               const last = p.name.split(' ').pop().toLowerCase()
                               return n === p.name.toLowerCase() || n.includes(last) || last.includes(n)
                             })
+                            const goals = getStatVal(indiv.goals, p.name)
+                            const assists = getStatVal(indiv.assists, p.name)
                             return (
                               <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '3.5px 0', borderBottom: i < players.length - 1 ? '0.5px solid var(--gray-100)' : 'none' }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -421,13 +430,23 @@ export default function TeamPageTwo({ team }) {
                                     {p.name}
                                   </span>
                                 </div>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                  {goals > 0 && (
+                                    <span style={{ fontSize: 10, fontFamily: 'var(--font-sans)', fontWeight: 700, color: accentColor }}>
+                                      {goals}⚽
+                                    </span>
+                                  )}
+                                  {assists > 0 && (
+                                    <span style={{ fontSize: 10, fontFamily: 'var(--font-sans)', fontWeight: 600, color: 'var(--gray-500)' }}>
+                                      {assists}🅰️
+                                    </span>
+                                  )}
                                   {starts > 0 && (
-                                    <span style={{ fontSize: 10, color: accentColor, fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
+                                    <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontWeight: 600 }}>
                                       {starts}GS
                                     </span>
                                   )}
-                                  <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>
+                                  {p.club && <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{p.club}</span>}
                                 </div>
                               </div>
                             )
@@ -436,7 +455,7 @@ export default function TeamPageTwo({ team }) {
                       )
                     )}
                     <div style={{ fontSize: 9, color: 'var(--gray-300)', fontFamily: 'var(--font-sans)', marginTop: 4 }}>
-                      ● starting XI &nbsp;·&nbsp; GS = games started
+                      ● starting XI &nbsp;·&nbsp; GS = games started &nbsp;·&nbsp; ⚽ goals &nbsp;·&nbsp; 🅰️ assists
                     </div>
                   </div>
                 )}
