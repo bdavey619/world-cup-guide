@@ -31,10 +31,10 @@ export default function TeamPageTwo({ team }) {
   // Find the keyPlayer profile that matches a pitch player name
   function findKeyPlayer(pitchName) {
     if (!keyPlayers || !pitchName) return null
-    const needle = pitchName.toLowerCase()
+    const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    const needle = norm(pitchName)
     return keyPlayers.find(kp => {
-      const haystack = kp.name.toLowerCase()
-      // exact match, substring either direction, or last-name match
+      const haystack = norm(kp.name)
       if (haystack === needle || haystack.includes(needle) || needle.includes(haystack)) return true
       const lastName = haystack.split(' ').pop()
       return needle.includes(lastName) || lastName.includes(needle)
@@ -412,7 +412,12 @@ export default function TeamPageTwo({ team }) {
                                   {isStarter && (
                                     <div style={{ width: 5, height: 5, borderRadius: '50%', background: accentColor, flexShrink: 0 }} />
                                   )}
-                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: isStarter ? 0 : 11 }}>
+                                  {p.jersey != null && (
+                                    <span style={{ fontSize: 9, fontFamily: 'var(--font-sans)', color: 'var(--gray-400)', fontWeight: 600, minWidth: 14, textAlign: 'right', marginLeft: isStarter ? 0 : 11 }}>
+                                      {p.jersey}
+                                    </span>
+                                  )}
+                                  <span style={{ fontSize: 12, fontFamily: 'var(--font-sans)', color: isStarter ? 'var(--gray-900)' : 'var(--gray-600)', fontWeight: isStarter ? 500 : 400, marginLeft: p.jersey != null ? 0 : (isStarter ? 0 : 11) }}>
                                     {p.name}
                                   </span>
                                 </div>
@@ -480,7 +485,7 @@ export default function TeamPageTwo({ team }) {
                       {match.city}
                     </span>
                   </div>
-                  {/* Teams + home/away */}
+                  {/* Teams + result */}
                   <div style={{
                     display: 'flex',
                     justifyContent: 'space-between',
@@ -493,16 +498,31 @@ export default function TeamPageTwo({ team }) {
                     }}>
                       {name} vs {match.opponent}
                     </span>
-                    <span style={{
-                      fontSize: 9,
-                      fontWeight: 600,
-                      fontFamily: 'var(--font-sans)',
-                      color: match.isAway ? muted : accentColor,
-                      marginLeft: 6,
-                      whiteSpace: 'nowrap',
-                    }}>
-                      {match.isAway ? 'Away' : 'Home'}
-                    </span>
+                    {match.score ? (
+                      <span style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: 6, whiteSpace: 'nowrap' }}>
+                        <span style={{
+                          fontSize: 12, fontWeight: 700, fontFamily: 'var(--font-sans)',
+                          color: match.result === 'W' ? '#1a7a3a' : match.result === 'L' ? '#c0392b' : 'var(--gray-600)',
+                        }}>
+                          {match.score}
+                        </span>
+                        <span style={{
+                          fontSize: 9, fontWeight: 700, fontFamily: 'var(--font-sans)',
+                          padding: '1px 4px', borderRadius: 3, color: '#fff',
+                          background: match.result === 'W' ? '#1a7a3a' : match.result === 'L' ? '#c0392b' : 'var(--gray-400)',
+                        }}>
+                          {match.result}
+                        </span>
+                      </span>
+                    ) : (
+                      <span style={{
+                        fontSize: 9, fontWeight: 600, fontFamily: 'var(--font-sans)',
+                        color: match.isAway ? muted : accentColor,
+                        marginLeft: 6, whiteSpace: 'nowrap',
+                      }}>
+                        {match.isAway ? 'Away' : 'Home'}
+                      </span>
+                    )}
                   </div>
                 </div>
               ))}
