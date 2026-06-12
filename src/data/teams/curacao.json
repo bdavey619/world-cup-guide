@@ -121,7 +121,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Leandro Bacuna",
@@ -131,7 +132,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 10
       },
       {
         "name": "Jurien Gaari",
@@ -141,7 +143,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Vurnon Anita",
@@ -181,7 +184,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 17
       },
       {
         "name": "Cuco Martina",

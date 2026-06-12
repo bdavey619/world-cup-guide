@@ -138,7 +138,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 13
       },
       {
         "name": "Chancel Mbemba",
@@ -148,7 +149,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 22
       },
       {
         "name": "Glody Likonza",
@@ -168,7 +170,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 26
       },
       {
         "name": "Gaël Kakuta",
@@ -178,7 +181,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 11
       },
       {
         "name": "Champagne Lukoki",
@@ -208,7 +212,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 10
       },
       {
         "name": "Cédric Bakambu",
@@ -218,7 +223,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 17
       },
       {
         "name": "Yoane Wissa",
@@ -228,7 +234,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 20
       }
     ]
   },

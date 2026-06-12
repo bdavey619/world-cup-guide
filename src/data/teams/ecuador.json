@@ -145,7 +145,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Ángelo Preciado",
@@ -155,7 +156,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 17
       },
       {
         "name": "Piero Hincapié",
@@ -165,7 +167,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Robert Arboleda",
@@ -185,7 +188,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 7
       },
       {
         "name": "Romario Ibarra",
@@ -205,7 +209,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 23
       },
       {
         "name": "Carlos Gruezo",
@@ -225,7 +230,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 19
       },
       {
         "name": "Enner Valencia",
@@ -235,7 +241,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 13
       },
       {
         "name": "Jeremy Sarmiento",

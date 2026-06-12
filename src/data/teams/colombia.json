@@ -158,7 +158,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 12
       },
       {
         "name": "Daniel Muñoz",
@@ -168,7 +169,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Davinson Sánchez",
@@ -178,7 +180,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 23
       },
       {
         "name": "Carlos Cuesta",
@@ -198,7 +201,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 11
       },
       {
         "name": "Richard Ríos",
@@ -208,7 +212,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 6
       },
       {
         "name": "Mateus Uribe",
@@ -228,7 +233,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 10
       },
       {
         "name": "Cucho Hernández",
@@ -238,7 +244,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 19
       },
       {
         "name": "Jhon Durán",
@@ -258,7 +265,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 7
       }
     ]
   },

@@ -179,7 +179,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Akanji",
@@ -189,7 +190,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Elvedi",
@@ -199,7 +201,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Ricardo R.",
@@ -219,7 +222,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 10
       },
       {
         "name": "Freuler",
@@ -229,7 +233,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 8
       },
       {
         "name": "Shaqiri",
@@ -249,7 +254,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 17
       },
       {
         "name": "Ruben V.",
@@ -269,7 +275,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 7
       }
     ]
   },

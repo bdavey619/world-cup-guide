@@ -158,7 +158,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Mat Leckie",
@@ -168,7 +169,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 7
       },
       {
         "name": "Harry Souttar",
@@ -178,7 +180,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 19
       },
       {
         "name": "Miloš Degenek",
@@ -188,7 +191,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Aziz Behich",
@@ -198,7 +202,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 16
       },
       {
         "name": "Jackson Irvine",
@@ -208,7 +213,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 22
       },
       {
         "name": "Riley McGree",
@@ -228,7 +234,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 8
       },
       {
         "name": "Martin Boyle",

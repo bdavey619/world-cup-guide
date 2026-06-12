@@ -169,7 +169,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Dest",
@@ -179,7 +180,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Richards",
@@ -189,7 +191,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Ream",
@@ -199,7 +202,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 13
       },
       {
         "name": "Robinson",
@@ -209,7 +213,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "McKennie",
@@ -219,7 +224,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 8
       },
       {
         "name": "Adams",
@@ -229,7 +235,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 4
       },
       {
         "name": "Musah",
@@ -249,7 +256,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 21
       },
       {
         "name": "Balogun",
@@ -259,7 +267,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 20
       },
       {
         "name": "Pulisic",
@@ -269,7 +278,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 10
       }
     ]
   },

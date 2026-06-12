@@ -145,7 +145,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
                 textAnchor="middle"
                 fill="white"
                 fillOpacity={0.75}
-                fontSize={6}
+                fontSize={7.5}
                 fontFamily="sans-serif"
               >
                 {p.jersey}

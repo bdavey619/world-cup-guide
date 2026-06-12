@@ -148,7 +148,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Tariq Lamptey",
@@ -188,7 +189,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 14
       },
       {
         "name": "Thomas Partey",
@@ -198,7 +200,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 5
       },
       {
         "name": "Iddrisu Baba",
@@ -218,7 +221,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 11
       },
       {
         "name": "Fatawu",
@@ -228,7 +232,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 7
       },
       {
         "name": "Osman Bukari",
@@ -248,7 +253,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 9
       }
     ]
   },

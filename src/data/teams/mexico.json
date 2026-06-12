@@ -170,7 +170,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Gallardo",
@@ -180,7 +181,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 130
+        "y": 130,
+        "jersey": 23
       },
       {
         "name": "Montes",
@@ -190,7 +192,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 130
+        "y": 130,
+        "jersey": 3
       },
       {
         "name": "Vásquez",
@@ -200,7 +203,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 130
+        "y": 130,
+        "jersey": 5
       },
       {
         "name": "Reyes",
@@ -210,7 +214,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 130
+        "y": 130,
+        "jersey": 15
       },
       {
         "name": "Lira",
@@ -220,7 +225,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 215
+        "y": 215,
+        "jersey": 6
       },
       {
         "name": "Quiñones",
@@ -230,7 +236,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
-        "y": 310
+        "y": 310,
+        "jersey": 16
       },
       {
         "name": "Gutiérrez",
@@ -240,7 +247,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 161,
-        "y": 310
+        "y": 310,
+        "jersey": 26
       },
       {
         "name": "Fidalgo",
@@ -250,7 +258,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 310
+        "y": 310,
+        "jersey": 8
       },
       {
         "name": "Alvarado",
@@ -260,7 +269,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 310
+        "y": 310,
+        "jersey": 25
       },
       {
         "name": "Jiménez",
@@ -270,7 +280,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 385
+        "y": 385,
+        "jersey": 9
       }
     ]
   },

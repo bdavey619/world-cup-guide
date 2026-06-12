@@ -121,7 +121,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Sherzod Nasrullayev",
@@ -151,7 +152,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Khurshid Makhkamov",
@@ -171,7 +173,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 7
       },
       {
         "name": "Ikrom Alibaev",
@@ -191,7 +194,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 17
       },
       {
         "name": "Jaloliddin Masharipov",
@@ -201,7 +205,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 10
       },
       {
         "name": "Abbosbek Fayzullaev",
@@ -211,7 +216,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 310,
+        "jersey": 22
       },
       {
         "name": "Eldor Shomurodov",
@@ -221,7 +227,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 14
       }
     ]
   },

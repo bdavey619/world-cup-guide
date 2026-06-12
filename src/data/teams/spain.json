@@ -169,7 +169,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 23
       },
       {
         "name": "Dani Carvajal",
@@ -189,7 +190,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 14
       },
       {
         "name": "Robin Le Normand",
@@ -209,7 +211,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 24
       },
       {
         "name": "Rodri",
@@ -219,7 +222,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 16
       },
       {
         "name": "Pedri",
@@ -229,7 +233,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 20
       },
       {
         "name": "Dani Olmo",
@@ -239,7 +244,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 10
       },
       {
         "name": "Lamine Yamal",
@@ -249,7 +255,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 19
       },
       {
         "name": "Ferran Torres",
@@ -259,7 +266,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 7
       },
       {
         "name": "Nico Williams",
@@ -269,7 +277,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 17
       }
     ]
   },

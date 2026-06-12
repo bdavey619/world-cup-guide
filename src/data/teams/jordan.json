@@ -121,7 +121,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Mohammad Al-Dmeiri",
@@ -161,7 +162,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 23
       },
       {
         "name": "Musa Al-Tamari",
@@ -191,7 +193,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 244
+        "y": 244,
+        "jersey": 21
       },
       {
         "name": "Baha' Faisal",

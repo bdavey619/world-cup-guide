@@ -128,7 +128,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Fidel Escobar",
@@ -138,7 +139,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Erick Davis",
@@ -168,7 +170,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 11
       },
       {
         "name": "Cecilio Waterman",
@@ -178,7 +181,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 260
+        "y": 260,
+        "jersey": 18
       },
       {
         "name": "Adalberto Carrasquilla",
@@ -188,7 +192,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 244
+        "y": 244,
+        "jersey": 8
       },
       {
         "name": "Aníbal Godoy",
@@ -198,7 +203,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 244
+        "y": 244,
+        "jersey": 20
       },
       {
         "name": "Ismael Díaz",
@@ -208,7 +214,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 63,
-        "y": 260
+        "y": 260,
+        "jersey": 10
       },
       {
         "name": "Rolando Blackburn",

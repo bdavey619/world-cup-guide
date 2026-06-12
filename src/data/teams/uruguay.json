@@ -169,7 +169,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Guillermo Varela",
@@ -179,7 +180,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 13
       },
       {
         "name": "Ronald Araújo",
@@ -189,7 +191,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "José María Giménez",
@@ -199,7 +202,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Mathías Olivera",
@@ -209,7 +213,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 16
       },
       {
         "name": "Federico Valverde",
@@ -219,7 +224,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 8
       },
       {
         "name": "Rodrigo Bentancur",
@@ -229,7 +235,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 6
       },
       {
         "name": "Manuel Ugarte",
@@ -239,7 +246,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 5
       },
       {
         "name": "Facundo Pellistri",
@@ -249,7 +257,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 11
       },
       {
         "name": "Darwin Núñez",
@@ -259,7 +268,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 9
       },
       {
         "name": "Maximiliano Araújo",

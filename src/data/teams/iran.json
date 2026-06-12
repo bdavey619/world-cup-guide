@@ -161,7 +161,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Sadegh Moharrami",
@@ -181,7 +182,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Majid Hosseini",
@@ -201,7 +203,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Saeid Ezatolahi",
@@ -211,7 +214,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 6
       },
       {
         "name": "Ahmad Nourollahi",
@@ -231,7 +235,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 7
       },
       {
         "name": "Ansarifard",
@@ -261,7 +266,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 9
       }
     ]
   },

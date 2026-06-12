@@ -177,7 +177,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 16
       },
       {
         "name": "Koundé",
@@ -187,7 +188,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Saliba",
@@ -197,7 +199,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 17
       },
       {
         "name": "Upamecano",
@@ -207,7 +210,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "T. Hernández",
@@ -217,7 +221,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 19
       },
       {
         "name": "Youssouf Fofana",
@@ -237,7 +242,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 8
       },
       {
         "name": "Rabiot",
@@ -247,7 +253,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 14
       },
       {
         "name": "Dembélé",
@@ -257,7 +264,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 7
       },
       {
         "name": "Mbappé",
@@ -267,7 +275,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 10
       },
       {
         "name": "Marcus Thuram",
@@ -277,7 +286,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 9
       }
     ]
   },

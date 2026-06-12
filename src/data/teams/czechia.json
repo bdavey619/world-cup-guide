@@ -173,7 +173,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Chaloupek",
@@ -183,7 +184,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 148
+        "y": 148,
+        "jersey": 6
       },
       {
         "name": "Hranác",
@@ -193,7 +195,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Krejcí",
@@ -203,7 +206,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 148
+        "y": 148,
+        "jersey": 7
       },
       {
         "name": "Zelený",
@@ -213,7 +217,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 256
+        "y": 256,
+        "jersey": 20
       },
       {
         "name": "Soucek",
@@ -223,7 +228,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 256
+        "y": 256,
+        "jersey": 22
       },
       {
         "name": "Sojka",
@@ -233,7 +239,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 256
+        "y": 256,
+        "jersey": 24
       },
       {
         "name": "Coufal",
@@ -243,7 +250,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 256
+        "y": 256,
+        "jersey": 5
       },
       {
         "name": "Provod",
@@ -253,7 +261,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 375
+        "y": 375,
+        "jersey": 17
       },
       {
         "name": "Schick",
@@ -263,7 +272,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 375
+        "y": 375,
+        "jersey": 10
       },
       {
         "name": "Sulc",
@@ -273,7 +283,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 375
+        "y": 375,
+        "jersey": 15
       }
     ]
   },

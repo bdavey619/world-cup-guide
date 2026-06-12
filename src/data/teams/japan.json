@@ -176,7 +176,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Ko Itakura",
@@ -186,7 +187,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Hiroki Ito",
@@ -196,7 +198,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 21
       },
       {
         "name": "Yuto Nagatomo",
@@ -206,7 +209,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Wataru Endo",
@@ -216,7 +220,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 6
       },
       {
         "name": "Ao Tanaka",
@@ -226,7 +231,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 7
       },
       {
         "name": "Takefusa Kubo",
@@ -236,7 +242,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 8
       },
       {
         "name": "Mitoma",
@@ -256,7 +263,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 310,
+        "jersey": 10
       },
       {
         "name": "Ayase Ueda",
@@ -266,7 +274,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 18
       }
     ]
   },

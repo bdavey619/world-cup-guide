@@ -136,7 +136,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Khoukhi",
@@ -146,7 +147,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 16
       },
       {
         "name": "Al Rawi",
@@ -166,7 +168,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 14
       },
       {
         "name": "Abdulaziz Hatem",
@@ -176,7 +179,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 6
       },
       {
         "name": "Boudiaf",
@@ -186,7 +190,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 12
       },
       {
         "name": "Ahmed Fathi",
@@ -206,7 +211,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 11
       },
       {
         "name": "Almoez Ali",
@@ -216,7 +222,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 19
       },
       {
         "name": "Hassan Al-Haydos",
@@ -226,7 +233,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
-        "y": 362
+        "y": 362,
+        "jersey": 10
       }
     ]
   },

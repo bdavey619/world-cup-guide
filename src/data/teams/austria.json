@@ -166,7 +166,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 13
       },
       {
         "name": "Stefan Posch",
@@ -176,7 +177,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Philipp Lienhart",
@@ -186,7 +188,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 15
       },
       {
         "name": "Kevin Danso",
@@ -196,7 +199,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Maximilian Wöber",
@@ -216,7 +220,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 20
       },
       {
         "name": "Marcel Sabitzer",
@@ -226,7 +231,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 9
       },
       {
         "name": "Florian Grillitsch",
@@ -236,7 +242,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 10
       },
       {
         "name": "Schmid",
@@ -246,7 +253,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 18
       },
       {
         "name": "Patrick Wimmer",
@@ -256,7 +264,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 310,
+        "jersey": 21
       },
       {
         "name": "Michael Gregoritsch",
@@ -266,7 +275,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 11
       }
     ]
   },

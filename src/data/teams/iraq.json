@@ -127,7 +127,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 12
       },
       {
         "name": "Samer Saeed",
@@ -157,7 +158,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Ali Adnan",
@@ -207,7 +209,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 10
       },
       {
         "name": "Aymen Hussein",
@@ -217,7 +220,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 18
       },
       {
         "name": "Dhurgham Ismail",

@@ -120,7 +120,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Cruzy Duarte",
@@ -140,7 +141,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Roberto Lopes",
@@ -160,7 +162,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Garry Rodrigues",
@@ -170,7 +173,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 11
       },
       {
         "name": "Jamiro Monteiro",
@@ -180,7 +184,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 10
       },
       {
         "name": "Kenny Rocha Santos",
@@ -200,7 +205,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 20
       },
       {
         "name": "Djaniny",

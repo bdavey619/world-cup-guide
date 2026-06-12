@@ -179,7 +179,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Ramiro González",
@@ -199,7 +200,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Júnior Alonso",
@@ -209,7 +211,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 6
       },
       {
         "name": "Mathías Villasanti",
@@ -229,7 +232,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 14
       },
       {
         "name": "Miguel Almirón",
@@ -239,7 +243,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 10
       },
       {
         "name": "Julio Enciso",
@@ -249,7 +254,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 19
       },
       {
         "name": "Óscar Romero",
@@ -269,7 +275,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 9
       }
     ]
   },

@@ -200,7 +200,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 15
       },
       {
         "name": "Ludwig Augustinsson",
@@ -220,7 +221,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 19
       },
       {
         "name": "Lucas Bergvall",
@@ -230,7 +232,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 7
       },
       {
         "name": "Dejan Kulusevski",
@@ -260,7 +263,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 310,
+        "jersey": 11
       },
       {
         "name": "Alexander Isak",
@@ -270,7 +274,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 9
       }
     ]
   },

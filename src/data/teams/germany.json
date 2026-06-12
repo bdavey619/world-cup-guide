@@ -170,7 +170,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Joshua Kimmich",
@@ -180,7 +181,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 6
       },
       {
         "name": "Antonio Rüdiger",
@@ -190,7 +192,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Jonathan Tah",
@@ -200,7 +203,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Maximilian Mittelstädt",
@@ -230,7 +234,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 13
       },
       {
         "name": "Leroy Sané",
@@ -240,7 +245,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 19
       },
       {
         "name": "Florian Wirtz",
@@ -250,7 +256,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 17
       },
       {
         "name": "Jamal Musiala",
@@ -260,7 +267,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 310,
+        "jersey": 10
       },
       {
         "name": "Kai Havertz",
@@ -270,7 +278,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 390,
+        "jersey": 7
       }
     ]
   },

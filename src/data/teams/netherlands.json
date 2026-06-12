@@ -172,7 +172,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Denzel Dumfries",
@@ -182,7 +183,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 22
       },
       {
         "name": "Virgil van Dijk",
@@ -192,7 +194,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 4
       },
       {
         "name": "Stefan de Vrij",
@@ -212,7 +215,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 5
       },
       {
         "name": "Tijjani Reijnders",
@@ -222,7 +226,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 14
       },
       {
         "name": "Frenkie de Jong",
@@ -232,7 +237,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 21
       },
       {
         "name": "Teun Koopmeiners",
@@ -242,7 +248,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 20
       },
       {
         "name": "Donyell Malen",
@@ -252,7 +259,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 18
       },
       {
         "name": "Cody Gakpo",
@@ -262,7 +270,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 11
       },
       {
         "name": "Steven Bergwijn",

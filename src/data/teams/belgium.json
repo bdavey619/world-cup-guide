@@ -179,7 +179,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 21
       },
       {
         "name": "Wout Faes",
@@ -199,7 +200,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Arthur Theate",
@@ -209,7 +211,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Kevin De Bruyne",
@@ -219,7 +222,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 348,
-        "y": 244
+        "y": 244,
+        "jersey": 7
       },
       {
         "name": "Youri Tielemans",
@@ -229,7 +233,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 8
       },
       {
         "name": "Leandro Trossard",
@@ -239,7 +244,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 10
       },
       {
         "name": "Jeremy Doku",
@@ -249,7 +255,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 11
       },
       {
         "name": "Romelu Lukaku",
@@ -259,7 +266,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 9
       },
       {
         "name": "Lois Openda",

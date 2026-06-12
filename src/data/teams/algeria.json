@@ -182,7 +182,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 148
+        "y": 148,
+        "jersey": 21
       },
       {
         "name": "Aïssa Mandi",
@@ -192,7 +193,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Haris Belkebla",
@@ -212,7 +214,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 236,
+        "jersey": 6
       },
       {
         "name": "Farès Chaïbi",
@@ -222,7 +225,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 244
+        "y": 244,
+        "jersey": 10
       },
       {
         "name": "Riyad Mahrez",
@@ -232,7 +236,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 389,
-        "y": 362
+        "y": 362,
+        "jersey": 7
       },
       {
         "name": "Amoura",
@@ -242,7 +247,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 372
+        "y": 372,
+        "jersey": 18
       },
       {
         "name": "Said Benrahma",

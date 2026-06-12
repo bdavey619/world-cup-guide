@@ -164,7 +164,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 16
       },
       {
         "name": "Mohamed Drager",
@@ -184,7 +185,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Yassine Meriah",
@@ -204,7 +206,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Youssef Msakni",
@@ -224,7 +227,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 244
+        "y": 244,
+        "jersey": 17
       },
       {
         "name": "Aissa Laidouni",
@@ -244,7 +248,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 63,
-        "y": 260
+        "y": 260,
+        "jersey": 10
       },
       {
         "name": "Seifeddine Jaziri",

@@ -126,7 +126,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 23
       },
       {
         "name": "Frantzdy Pierrot",
@@ -136,7 +137,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 20
       },
       {
         "name": "Carlos Corentin Salomon",
@@ -196,7 +198,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 244
+        "y": 244,
+        "jersey": 7
       },
       {
         "name": "D. Etienne",
@@ -216,7 +219,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 372
+        "y": 372,
+        "jersey": 9
       },
       {
         "name": "Florival",

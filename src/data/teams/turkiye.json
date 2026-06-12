@@ -146,7 +146,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 56
+        "y": 56,
+        "jersey": 1
       },
       {
         "name": "Zeki Çelik",
@@ -156,7 +157,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 389,
-        "y": 148
+        "y": 148,
+        "jersey": 2
       },
       {
         "name": "Merih Demiral",
@@ -166,7 +168,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 293,
-        "y": 148
+        "y": 148,
+        "jersey": 3
       },
       {
         "name": "Samet Akaydın",
@@ -196,7 +199,8 @@
         "isKeyPlayer": true,
         "isCaptain": true,
         "x": 293,
-        "y": 220
+        "y": 220,
+        "jersey": 10
       },
       {
         "name": "Salih Özcan",
@@ -206,7 +210,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 220,
+        "jersey": 5
       },
       {
         "name": "Kerem Aktürkoğlu",
@@ -216,7 +221,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 310,
+        "jersey": 7
       },
       {
         "name": "Arda Güler",
@@ -226,7 +232,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 300
+        "y": 300,
+        "jersey": 8
       },
       {
         "name": "Yusuf Yazıcı",
