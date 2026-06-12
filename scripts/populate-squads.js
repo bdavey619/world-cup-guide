@@ -109,9 +109,10 @@ async function main() {
     }
 
     const squad = roster.map(p => ({
-      name: p.displayName,
-      pos:  POS_MAP[p.position?.abbreviation] || 'MID',
-      club: p.team?.displayName || p.club?.displayName || '',
+      name:   p.displayName,
+      pos:    POS_MAP[p.position?.abbreviation] || 'MID',
+      club:   p.team?.displayName || p.club?.displayName || '',
+      jersey: p.jersey ?? null,
     }))
 
     // Sort: GK → DEF → MID → FWD

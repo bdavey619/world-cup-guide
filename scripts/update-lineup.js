@@ -158,6 +158,7 @@ function buildPitchPlayers(starters, formation, existingTeam) {
         role:        ROLE_BY_TIER[tier] || 'mid',
         isKeyPlayer: keyLastNames.includes(normalize(lastName)),
         isCaptain:   p.captain === true,
+        jersey:      p.jersey ?? p.athlete?.jersey ?? null,
         x:           xs[colIdx],
         y:           ySlots[rowIdx],
       })
