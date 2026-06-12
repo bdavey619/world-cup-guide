@@ -27,7 +27,6 @@ export default function TeamPageTwo({ team }) {
 
   const [selectedPitchName, setSelectedPitchName] = useState(null)
   const [squadOpen, setSquadOpen] = useState(false)
-  const [historyOpen, setHistoryOpen] = useState(false)
 
   // Find the keyPlayer profile that matches a pitch player name
   function findKeyPlayer(pitchName) {
@@ -608,65 +607,6 @@ export default function TeamPageTwo({ team }) {
         </div>
       </div>
 
-      {/* 4. MATCH HISTORY */}
-      {matches && matches.length > 0 && (
-        <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
-          <button
-            onClick={() => setHistoryOpen(o => !o)}
-            style={{
-              width: '100%',
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              padding: '0.55rem 1.5rem',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              fontFamily: 'var(--font-sans)',
-            }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-              <div style={{ width: 3, height: 12, background: accentColor }} />
-              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)' }}>
-                Match Results · {matches.length} played
-              </span>
-            </div>
-            <span style={{ fontSize: 12, color: 'var(--gray-400)' }}>{historyOpen ? '▲' : '▼'}</span>
-          </button>
-          {historyOpen && (
-            <div style={{ padding: '0 1.5rem 1rem', display: 'flex', flexDirection: 'column', gap: 10 }}>
-              {matches.map((m, i) => {
-                const [ourScore, theirScore] = (m.result || '').split('-').map(Number)
-                const outcome = ourScore > theirScore ? 'W' : ourScore < theirScore ? 'L' : 'D'
-                const outcomeColor = outcome === 'W' ? '#16a34a' : outcome === 'L' ? '#dc2626' : '#d97706'
-                return (
-                  <div key={i} style={{ background: 'var(--gray-50)', borderRadius: 6, padding: '10px 12px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                        <span style={{ background: outcomeColor, color: '#fff', fontSize: 10, fontWeight: 700, padding: '2px 6px', borderRadius: 3, fontFamily: 'var(--font-sans)' }}>{outcome}</span>
-                        <span style={{ fontSize: 13, fontFamily: 'var(--font-sans)', fontWeight: 500, color: 'var(--gray-900)' }}>
-                          vs {m.opponent} · <span style={{ color: outcomeColor }}>{m.result}</span>
-                        </span>
-                      </div>
-                      <span style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)' }}>{m.date} · {m.formation}</span>
-                    </div>
-                    <div style={{ fontSize: 11, color: 'var(--gray-600)', fontFamily: 'var(--font-sans)', lineHeight: 1.6 }}>
-                      <span style={{ fontWeight: 600, color: 'var(--gray-700)' }}>XI: </span>
-                      {m.starters.join(', ')}
-                    </div>
-                    {m.subs && m.subs.length > 0 && (
-                      <div style={{ fontSize: 11, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)', marginTop: 3, lineHeight: 1.6 }}>
-                        <span style={{ fontWeight: 600, color: 'var(--gray-600)' }}>Subs: </span>
-                        {m.subs.map((s, j) => `${s.on} for ${s.off} (${s.minute}')`).join(', ')}
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-          )}
-        </div>
-      )}
 
       {/* 6. FOOTER */}
       <div style={{
