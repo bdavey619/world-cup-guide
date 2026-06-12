@@ -133,57 +133,17 @@
       {
         "name": "Williams",
         "shortName": "Williams",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
-        "isCaptain": true,
+        "isCaptain": false,
         "x": 226,
         "y": 56
       },
       {
-        "name": "Mudau",
-        "shortName": "Mudau",
-        "position": "RWB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 420,
-        "y": 148
-      },
-      {
-        "name": "Mbokazi",
-        "shortName": "Mbokazi",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 325,
-        "y": 148
-      },
-      {
-        "name": "Okon",
-        "shortName": "Okon",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 148
-      },
-      {
-        "name": "Sibisi",
-        "shortName": "Sibisi",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 127,
-        "y": 148
-      },
-      {
         "name": "Modiba",
         "shortName": "Modiba",
-        "position": "LWB",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -191,18 +151,58 @@
         "y": 148
       },
       {
+        "name": "Sibisi",
+        "shortName": "Sibisi",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Okon",
+        "shortName": "Okon",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Mbokazi",
+        "shortName": "Mbokazi",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 325,
+        "y": 148
+      },
+      {
+        "name": "Mudau",
+        "shortName": "Mudau",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 420,
+        "y": 148
+      },
+      {
         "name": "Mokoena",
         "shortName": "Mokoena",
-        "position": "RCM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 348,
+        "x": 104,
         "y": 256
       },
       {
-        "name": "Adams",
-        "shortName": "Adams",
+        "name": "Sithole",
+        "shortName": "Sithole",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -211,65 +211,169 @@
         "y": 256
       },
       {
-        "name": "Sithole",
-        "shortName": "Sithole",
-        "position": "LCM",
+        "name": "Adams",
+        "shortName": "Adams",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
+        "x": 348,
         "y": 256
+      },
+      {
+        "name": "Rayners",
+        "shortName": "Rayners",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 163,
+        "y": 375
       },
       {
         "name": "Foster",
         "shortName": "Foster",
-        "position": "ST",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 305,
-        "y": 385
-      },
-      {
-        "name": "Rayner",
-        "shortName": "Rayner",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 147,
-        "y": 385
+        "x": 289,
+        "y": 375
       }
     ]
   },
   "pitchLabel": "Confirmed XI · Jun 11 vs Mexico",
   "squad": [
-    { "name": "Ronwen Williams", "pos": "GK", "club": "Mamelodi Sundowns" },
-    { "name": "Ricardo Goss", "pos": "GK", "club": "Siwelele" },
-    { "name": "Sipho Chaine", "pos": "GK", "club": "Orlando Pirates" },
-    { "name": "Khuliso Mudau", "pos": "DEF", "club": "Mamelodi Sundowns" },
-    { "name": "Aubrey Modiba", "pos": "DEF", "club": "Mamelodi Sundowns" },
-    { "name": "Khulumani Ndamane", "pos": "DEF", "club": "Mamelodi Sundowns" },
-    { "name": "Olwethu Makhanya", "pos": "DEF", "club": "Philadelphia Union" },
-    { "name": "Bradley Cross", "pos": "DEF", "club": "Kaizer Chiefs" },
-    { "name": "Thabang Matuludi", "pos": "DEF", "club": "Polokwane City" },
-    { "name": "Nkosinathi Sibisi", "pos": "DEF", "club": "Orlando Pirates" },
-    { "name": "Kamogelo Sebelebele", "pos": "DEF", "club": "Orlando Pirates" },
-    { "name": "Ime Okon", "pos": "DEF", "club": "Hannover 96" },
-    { "name": "Samukele Kabini", "pos": "DEF", "club": "Molde FK" },
-    { "name": "Mbekezeli Mbokazi", "pos": "DEF", "club": "Chicago Fire" },
-    { "name": "Teboho Mokoena", "pos": "MID", "club": "Mamelodi Sundowns" },
-    { "name": "Jayden Adams", "pos": "MID", "club": "Mamelodi Sundowns" },
-    { "name": "Thalente Mbatha", "pos": "MID", "club": "Orlando Pirates" },
-    { "name": "Sphephelo Sithole", "pos": "MID", "club": "Tondela" },
-    { "name": "Percy Tau", "pos": "FWD", "club": "Al Ahly" },
-    { "name": "Oswin Appollis", "pos": "FWD", "club": "Orlando Pirates" },
-    { "name": "Tshepang Moremi", "pos": "FWD", "club": "Orlando Pirates" },
-    { "name": "Evidence Makgopa", "pos": "FWD", "club": "Orlando Pirates" },
-    { "name": "Relebohile Mofokeng", "pos": "FWD", "club": "Orlando Pirates" },
-    { "name": "Lyle Foster", "pos": "FWD", "club": "Burnley" },
-    { "name": "Iqraam Rayners", "pos": "FWD", "club": "Mamelodi Sundowns" },
-    { "name": "Themba Zwane", "pos": "FWD", "club": "Mamelodi Sundowns" }
+    {
+      "name": "Ronwen Williams",
+      "pos": "GK",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Ricardo Goss",
+      "pos": "GK",
+      "club": "Siwelele"
+    },
+    {
+      "name": "Sipho Chaine",
+      "pos": "GK",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Khuliso Mudau",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Aubrey Modiba",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Khulumani Ndamane",
+      "pos": "DEF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Olwethu Makhanya",
+      "pos": "DEF",
+      "club": "Philadelphia Union"
+    },
+    {
+      "name": "Bradley Cross",
+      "pos": "DEF",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "name": "Thabang Matuludi",
+      "pos": "DEF",
+      "club": "Polokwane City"
+    },
+    {
+      "name": "Nkosinathi Sibisi",
+      "pos": "DEF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Kamogelo Sebelebele",
+      "pos": "DEF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Ime Okon",
+      "pos": "DEF",
+      "club": "Hannover 96"
+    },
+    {
+      "name": "Samukele Kabini",
+      "pos": "DEF",
+      "club": "Molde FK"
+    },
+    {
+      "name": "Mbekezeli Mbokazi",
+      "pos": "DEF",
+      "club": "Chicago Fire"
+    },
+    {
+      "name": "Teboho Mokoena",
+      "pos": "MID",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Jayden Adams",
+      "pos": "MID",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Thalente Mbatha",
+      "pos": "MID",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Sphephelo Sithole",
+      "pos": "MID",
+      "club": "Tondela"
+    },
+    {
+      "name": "Percy Tau",
+      "pos": "FWD",
+      "club": "Al Ahly"
+    },
+    {
+      "name": "Oswin Appollis",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Tshepang Moremi",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Evidence Makgopa",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Relebohile Mofokeng",
+      "pos": "FWD",
+      "club": "Orlando Pirates"
+    },
+    {
+      "name": "Lyle Foster",
+      "pos": "FWD",
+      "club": "Burnley"
+    },
+    {
+      "name": "Iqraam Rayners",
+      "pos": "FWD",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "name": "Themba Zwane",
+      "pos": "FWD",
+      "club": "Mamelodi Sundowns"
+    }
   ],
   "standings": {
     "w": 0,

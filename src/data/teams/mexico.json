@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Javier Aguirre",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-1-4-1",
     "winPct": 1,
     "advancePct": 92
   },
@@ -163,42 +163,12 @@
       {
         "name": "Rangel",
         "shortName": "Rangel",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
         "y": 56
-      },
-      {
-        "name": "Reyes",
-        "shortName": "Reyes",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Vásquez",
-        "shortName": "Vásquez",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Montes",
-        "shortName": "Montes",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
       },
       {
         "name": "Gallardo",
@@ -208,17 +178,37 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Quiñones",
-        "shortName": "Quiñones",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
+        "name": "Montes",
+        "shortName": "Montes",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Vásquez",
+        "shortName": "Vásquez",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Reyes",
+        "shortName": "Reyes",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 130
       },
       {
         "name": "Lira",
@@ -228,78 +218,192 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 226,
-        "y": 236
+        "y": 215
       },
       {
-        "name": "Fidalgo",
-        "shortName": "Fidalgo",
-        "position": "LCM",
+        "name": "Quiñones",
+        "shortName": "Quiñones",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
+        "x": 63,
+        "y": 310
       },
       {
         "name": "Gutiérrez",
         "shortName": "Gutiérrez",
-        "position": "RW",
-        "role": "att",
+        "position": "CM-R",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 389,
-        "y": 362
+        "x": 161,
+        "y": 310
       },
       {
-        "name": "R. Jiménez",
-        "shortName": "Jiménez",
-        "position": "ST",
-        "role": "att",
+        "name": "Fidalgo",
+        "shortName": "Fidalgo",
+        "position": "CM-L",
+        "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372
+        "isCaptain": false,
+        "x": 293,
+        "y": 310
       },
       {
         "name": "Alvarado",
         "shortName": "Alvarado",
-        "position": "LW",
-        "role": "att",
+        "position": "RM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "x": 389,
+        "y": 310
+      },
+      {
+        "name": "Jiménez",
+        "shortName": "Jiménez",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 226,
+        "y": 385
       }
     ]
   },
   "pitchLabel": "Confirmed XI · Jun 11 vs South Africa",
   "squad": [
-    { "name": "Raúl Rangel", "pos": "GK", "club": "Chivas" },
-    { "name": "Carlos Acevedo", "pos": "GK", "club": "Santos Laguna" },
-    { "name": "Guillermo Ochoa", "pos": "GK", "club": "AEL Limassol" },
-    { "name": "Johan Vásquez", "pos": "DEF", "club": "Genoa" },
-    { "name": "César Montes", "pos": "DEF", "club": "Espanyol" },
-    { "name": "Israel Reyes", "pos": "DEF", "club": "Chivas" },
-    { "name": "Jorge Sánchez", "pos": "DEF", "club": "Porto" },
-    { "name": "Mateo Chávez", "pos": "DEF", "club": "Monterrey" },
-    { "name": "Jesús Gallardo", "pos": "DEF", "club": "Monterrey" },
-    { "name": "Edson Álvarez", "pos": "DEF", "club": "West Ham" },
-    { "name": "Erik Lira", "pos": "MID", "club": "Cruz Azul" },
-    { "name": "Álvaro Fidalgo", "pos": "MID", "club": "Club América" },
-    { "name": "Brian Gutiérrez", "pos": "MID", "club": "Chicago Fire" },
-    { "name": "Gilberto Mora", "pos": "MID", "club": "Chivas" },
-    { "name": "Luis Chávez", "pos": "MID", "club": "Pachuca" },
-    { "name": "Luis Romo", "pos": "MID", "club": "Cruz Azul" },
-    { "name": "Orbelín Pineda", "pos": "MID", "club": "AEK Athens" },
-    { "name": "Obed Vargas", "pos": "MID", "club": "Werder Bremen" },
-    { "name": "Raúl Jiménez", "pos": "FWD", "club": "Fulham" },
-    { "name": "Santiago Giménez", "pos": "FWD", "club": "AC Milan" },
-    { "name": "Julian Quiñones", "pos": "FWD", "club": "Club América" },
-    { "name": "Roberto Alvarado", "pos": "FWD", "club": "Chivas" },
-    { "name": "César Huerta", "pos": "FWD", "club": "Pumas" },
-    { "name": "Alexis Vega", "pos": "FWD", "club": "Chivas" },
-    { "name": "Armando González", "pos": "FWD", "club": "Tigres" },
-    { "name": "Guillermo Martínez", "pos": "FWD", "club": "Pumas" }
+    {
+      "name": "Raúl Rangel",
+      "pos": "GK",
+      "club": "Chivas"
+    },
+    {
+      "name": "Carlos Acevedo",
+      "pos": "GK",
+      "club": "Santos Laguna"
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "pos": "GK",
+      "club": "AEL Limassol"
+    },
+    {
+      "name": "Johan Vásquez",
+      "pos": "DEF",
+      "club": "Genoa"
+    },
+    {
+      "name": "César Montes",
+      "pos": "DEF",
+      "club": "Espanyol"
+    },
+    {
+      "name": "Israel Reyes",
+      "pos": "DEF",
+      "club": "Chivas"
+    },
+    {
+      "name": "Jorge Sánchez",
+      "pos": "DEF",
+      "club": "Porto"
+    },
+    {
+      "name": "Mateo Chávez",
+      "pos": "DEF",
+      "club": "Monterrey"
+    },
+    {
+      "name": "Jesús Gallardo",
+      "pos": "DEF",
+      "club": "Monterrey"
+    },
+    {
+      "name": "Edson Álvarez",
+      "pos": "DEF",
+      "club": "West Ham"
+    },
+    {
+      "name": "Erik Lira",
+      "pos": "MID",
+      "club": "Cruz Azul"
+    },
+    {
+      "name": "Álvaro Fidalgo",
+      "pos": "MID",
+      "club": "Club América"
+    },
+    {
+      "name": "Brian Gutiérrez",
+      "pos": "MID",
+      "club": "Chicago Fire"
+    },
+    {
+      "name": "Gilberto Mora",
+      "pos": "MID",
+      "club": "Chivas"
+    },
+    {
+      "name": "Luis Chávez",
+      "pos": "MID",
+      "club": "Pachuca"
+    },
+    {
+      "name": "Luis Romo",
+      "pos": "MID",
+      "club": "Cruz Azul"
+    },
+    {
+      "name": "Orbelín Pineda",
+      "pos": "MID",
+      "club": "AEK Athens"
+    },
+    {
+      "name": "Obed Vargas",
+      "pos": "MID",
+      "club": "Werder Bremen"
+    },
+    {
+      "name": "Raúl Jiménez",
+      "pos": "FWD",
+      "club": "Fulham"
+    },
+    {
+      "name": "Santiago Giménez",
+      "pos": "FWD",
+      "club": "AC Milan"
+    },
+    {
+      "name": "Julian Quiñones",
+      "pos": "FWD",
+      "club": "Club América"
+    },
+    {
+      "name": "Roberto Alvarado",
+      "pos": "FWD",
+      "club": "Chivas"
+    },
+    {
+      "name": "César Huerta",
+      "pos": "FWD",
+      "club": "Pumas"
+    },
+    {
+      "name": "Alexis Vega",
+      "pos": "FWD",
+      "club": "Chivas"
+    },
+    {
+      "name": "Armando González",
+      "pos": "FWD",
+      "club": "Tigres"
+    },
+    {
+      "name": "Guillermo Martínez",
+      "pos": "FWD",
+      "club": "Pumas"
+    }
   ],
   "standings": {
     "w": 0,

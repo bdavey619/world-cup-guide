@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Hong Myung-bo",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 1,
     "advancePct": 70
   },
@@ -162,9 +162,9 @@
   "pitch": {
     "players": [
       {
-        "name": "Kim Seung-gyu",
-        "shortName": "Kim S-g",
-        "position": "GK",
+        "name": "Seung-Gyu",
+        "shortName": "Seung-Gyu",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -172,104 +172,104 @@
         "y": 56
       },
       {
-        "name": "Kim Moon-hwan",
-        "shortName": "Kim M-h",
-        "position": "RB",
+        "name": "Han-Beom",
+        "shortName": "Han-Beom",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
+        "x": 104,
         "y": 148
       },
       {
-        "name": "Kim Min-jae",
-        "shortName": "Kim M-j",
-        "position": "CB",
+        "name": "Min-Jae",
+        "shortName": "Min-Jae",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 293,
+        "x": 226,
         "y": 148
       },
       {
-        "name": "Jung Seung-hyun",
-        "shortName": "Jung S-h",
-        "position": "CB",
+        "name": "Gi-Hyuk",
+        "shortName": "Gi-Hyuk",
+        "position": "CD-L",
         "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Kim Jin-su",
-        "shortName": "Kim J-s",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Jung Woo-young",
-        "shortName": "Jung W-y",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 220
-      },
-      {
-        "name": "Hwang In-beom",
-        "shortName": "Hwang I-b",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 220
-      },
-      {
-        "name": "Lee Kang-in",
-        "shortName": "Lee K-i",
-        "position": "RAM",
-        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 348,
-        "y": 310
+        "y": 148
       },
       {
-        "name": "Lee Jae-sung",
-        "shortName": "Lee J-s",
-        "position": "CAM",
+        "name": "Tae-Seok",
+        "shortName": "Tae-Seok",
+        "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 300
+        "x": 63,
+        "y": 256
       },
       {
-        "name": "Son Heung-min",
-        "shortName": "Son",
-        "position": "LAM",
+        "name": "In-Beom",
+        "shortName": "In-Beom",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Seung-Ho",
+        "shortName": "Seung-Ho",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Young-Woo",
+        "shortName": "Young-Woo",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Kang-In",
+        "shortName": "Kang-In",
+        "position": "CF-R",
         "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
+        "isKeyPlayer": false,
+        "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 375
       },
       {
-        "name": "Hwang Hee-chan",
-        "shortName": "Hwang H-c",
-        "position": "ST",
+        "name": "Heung-Min",
+        "shortName": "Heung-Min",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 375
+      },
+      {
+        "name": "Jae-Sung",
+        "shortName": "Jae-Sung",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -278,5 +278,6 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "pitchLabel": "Confirmed XI · Jun 12 vs Czechia"
 }

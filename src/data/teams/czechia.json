@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '06",
     "manager": "Miroslav Koubek",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 0.3,
     "advancePct": 70
   },
@@ -164,9 +164,9 @@
   "pitch": {
     "players": [
       {
-        "name": "Pavlenka",
-        "shortName": "Pavlenka",
-        "position": "GK",
+        "name": "Kovár",
+        "shortName": "Kovár",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -174,104 +174,104 @@
         "y": 56
       },
       {
-        "name": "Coufal",
-        "shortName": "Coufal",
-        "position": "RB",
+        "name": "Chaloupek",
+        "shortName": "Chaloupek",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
+        "x": 104,
         "y": 148
       },
       {
-        "name": "Hranáč",
-        "shortName": "Hranáč",
-        "position": "CB",
+        "name": "Hranác",
+        "shortName": "Hranác",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
+        "x": 226,
         "y": 148
       },
       {
-        "name": "Vitík",
-        "shortName": "Vitík",
-        "position": "CB",
+        "name": "Krejcí",
+        "shortName": "Krejcí",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 161,
+        "x": 348,
         "y": 148
       },
       {
         "name": "Zelený",
         "shortName": "Zelený",
-        "position": "LB",
-        "role": "def",
+        "position": "LM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 63,
-        "y": 148
+        "y": 256
       },
       {
-        "name": "Souček",
-        "shortName": "Souček",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 293,
-        "y": 220
-      },
-      {
-        "name": "Sadílek",
-        "shortName": "Sadílek",
-        "position": "LDM",
+        "name": "Soucek",
+        "shortName": "Soucek",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 161,
-        "y": 220
+        "y": 256
       },
       {
-        "name": "Lingr",
-        "shortName": "Lingr",
-        "position": "RAM",
+        "name": "Sojka",
+        "shortName": "Sojka",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310
+        "x": 293,
+        "y": 256
       },
       {
-        "name": "Hložek",
-        "shortName": "Hložek",
-        "position": "CAM",
+        "name": "Coufal",
+        "shortName": "Coufal",
+        "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 300
+        "x": 389,
+        "y": 256
       },
       {
-        "name": "Bárta",
-        "shortName": "Bárta",
-        "position": "LAM",
-        "role": "mid",
+        "name": "Provod",
+        "shortName": "Provod",
+        "position": "CF-R",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "x": 104,
-        "y": 310
+        "y": 375
       },
       {
         "name": "Schick",
         "shortName": "Schick",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "x": 226,
-        "y": 390
+        "y": 375
+      },
+      {
+        "name": "Sulc",
+        "shortName": "Sulc",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -280,5 +280,6 @@
     "d": 0,
     "l": 0,
     "pts": 0
-  }
+  },
+  "pitchLabel": "Confirmed XI · Jun 12 vs South Korea"
 }
