@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import statsData from '../data/stats.json'
 
 function SectionLabel({ children }) {
@@ -23,6 +24,9 @@ function rankColor(rank) {
 
 // Compact leaderboard: rank | flag name | value pill
 function Leaderboard({ title, entries, valueLabel }) {
+  const [expanded, setExpanded] = useState(false)
+  const visible = expanded ? entries : entries?.slice(0, 5)
+
   if (!entries?.length) return (
     <div style={{ background: 'white', borderRadius: 8, padding: '14px 12px', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
       <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 10 }}>{title}</div>
@@ -32,7 +36,7 @@ function Leaderboard({ title, entries, valueLabel }) {
 
   // Compute display ranks (ties share a rank)
   let displayRank = 1
-  const ranked = entries.map((e, i) => {
+  const ranked = (visible ?? []).map((e, i) => {
     if (i > 0 && e.value < entries[i - 1].value) displayRank = i + 1
     return { ...e, rank: displayRank }
   })
@@ -48,7 +52,7 @@ function Leaderboard({ title, entries, valueLabel }) {
         <div key={`${p.name}-${i}`} style={{
           display: 'flex', alignItems: 'center', gap: 8,
           padding: '8px 12px',
-          borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
+          borderBottom: '0.5px solid var(--gray-100)',
         }}>
           <div style={{ width: 20, flexShrink: 0, textAlign: 'center', fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: rankColor(p.rank) }}>
             {p.rank}
@@ -72,6 +76,19 @@ function Leaderboard({ title, entries, valueLabel }) {
           </div>
         </div>
       ))}
+      {entries.length > 5 && (
+        <button
+          onClick={() => setExpanded(e => !e)}
+          style={{
+            display: 'block', width: '100%', padding: '9px 12px',
+            background: 'none', border: 'none', cursor: 'pointer',
+            fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 600,
+            color: 'var(--gray-500)', textAlign: 'center',
+          }}
+        >
+          {expanded ? 'Show less ↑' : `Show top 10 ↓`}
+        </button>
+      )}
     </div>
   )
 }
