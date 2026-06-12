@@ -1,39 +1,36 @@
-import { useState } from 'react'
 import statsData from '../data/stats.json'
 
-const TABS = [
-  { key: 'goals',          label: 'Golden Boot',      icon: '⚽', sublabel: 'Goals' },
-  { key: 'assists',        label: 'Assists',           icon: '🎯', sublabel: 'Assists' },
-  { key: 'shotsOnTarget',  label: 'Shots on Target',   icon: '🥅', sublabel: 'Shots' },
-  { key: 'yellowCards',    label: 'Yellow Cards',      icon: '🟨', sublabel: 'Cards' },
-  { key: 'redCards',       label: 'Red Cards',         icon: '🟥', sublabel: 'Cards' },
-  { key: 'foulsCommitted', label: 'Fouls Committed',   icon: '🦵', sublabel: 'Fouls' },
-]
+function SectionLabel({ children }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '18px 12px 8px' }}>
+      <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
+      <span style={{
+        fontFamily: 'var(--font-sans)', fontSize: 9, fontWeight: 700,
+        letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-500)',
+      }}>
+        {children}
+      </span>
+    </div>
+  )
+}
 
-function rankColor(i) {
-  if (i === 0) return '#b8860b'
-  if (i === 1) return '#808080'
-  if (i === 2) return '#8B5A2B'
+function rankColor(rank) {
+  if (rank === 1) return '#b8860b'
+  if (rank === 2) return '#808080'
+  if (rank === 3) return '#8B5A2B'
   return 'var(--gray-400)'
 }
 
-function formatUpdated(iso) {
-  if (!iso) return ''
-  const d = new Date(iso)
-  return d.toLocaleString('en-US', {
-    month: 'short', day: 'numeric',
-    hour: 'numeric', minute: '2-digit',
-    timeZoneName: 'short',
-  })
-}
+// Compact leaderboard: rank | flag name | value pill
+function Leaderboard({ title, entries, valueLabel }) {
+  if (!entries?.length) return (
+    <div style={{ background: 'white', borderRadius: 8, padding: '14px 12px', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
+      <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 10 }}>{title}</div>
+      <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--gray-400)', textAlign: 'center', padding: '12px 0' }}>No data yet</div>
+    </div>
+  )
 
-export default function Stats() {
-  const [activeTab, setActiveTab] = useState('goals')
-
-  const tab = TABS.find(t => t.key === activeTab)
-  const entries = statsData.leaders[activeTab] ?? []
-
-  // Group ties: players with same value get same rank display
+  // Compute display ranks (ties share a rank)
   let displayRank = 1
   const ranked = entries.map((e, i) => {
     if (i > 0 && e.value < entries[i - 1].value) displayRank = i + 1
@@ -41,179 +38,166 @@ export default function Stats() {
   })
 
   return (
-    <div>
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '10px 12px 8px' }}>
-        <div style={{ width: 3, height: 12, background: 'var(--gray-400)', borderRadius: 2, flexShrink: 0 }} />
-        <span style={{
-          fontFamily: 'var(--font-sans)',
-          fontSize: 9,
-          fontWeight: 700,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase',
-          color: 'var(--gray-500)',
+    <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
+      <div style={{ padding: '12px 12px 8px', borderBottom: '1px solid var(--gray-100)' }}>
+        <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          {title}
+        </div>
+      </div>
+      {ranked.map((p, i) => (
+        <div key={`${p.name}-${i}`} style={{
+          display: 'flex', alignItems: 'center', gap: 8,
+          padding: '8px 12px',
+          borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
         }}>
-          Tournament Stats · 2026 FIFA World Cup
-        </span>
+          <div style={{ width: 20, flexShrink: 0, textAlign: 'center', fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: rankColor(p.rank) }}>
+            {p.rank}
+          </div>
+          <span style={{ fontSize: 15, lineHeight: 1, flexShrink: 0 }}>{p.flag}</span>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+              {p.name}
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 10, color: 'var(--gray-500)' }}>
+              {p.team}{p.position ? ` · ${p.position}` : ''}
+            </div>
+          </div>
+          <div style={{
+            minWidth: 28, padding: '2px 8px', borderRadius: 12, textAlign: 'center',
+            background: p.rank === 1 ? 'var(--gray-900)' : 'var(--gray-100)',
+            color: p.rank === 1 ? 'white' : 'var(--gray-700)',
+            fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 700,
+          }}>
+            {p.value}
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// Mini team leaderboard card (used in the grid)
+function TeamCard({ title, teams, valueKey, format, emptyMsg }) {
+  const sorted = [...(teams ?? [])].filter(t => (t[valueKey] ?? 0) > 0).sort((a, b) => b[valueKey] - a[valueKey])
+
+  return (
+    <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
+      <div style={{ padding: '12px 12px 8px', borderBottom: '1px solid var(--gray-100)' }}>
+        <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          {title}
+        </div>
+      </div>
+      {sorted.length === 0 ? (
+        <div style={{ padding: '14px 12px', fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--gray-400)', textAlign: 'center' }}>
+          {emptyMsg ?? 'No data yet'}
+        </div>
+      ) : sorted.map((t, i) => {
+        let displayRank = 1
+        if (i > 0 && t[valueKey] < sorted[i - 1][valueKey]) displayRank = i + 1
+        else if (i > 0) displayRank = sorted.findIndex(x => x[valueKey] === t[valueKey]) + 1
+
+        return (
+          <div key={t.name} style={{
+            display: 'flex', alignItems: 'center', gap: 8,
+            padding: '8px 12px',
+            borderBottom: i < sorted.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
+          }}>
+            <div style={{ width: 20, flexShrink: 0, textAlign: 'center', fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: rankColor(displayRank) }}>
+              {displayRank}
+            </div>
+            <span style={{ fontSize: 15, lineHeight: 1, flexShrink: 0 }}>{t.flag}</span>
+            <div style={{ flex: 1, minWidth: 0, fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+              {t.name}
+            </div>
+            <div style={{
+              minWidth: 28, padding: '2px 8px', borderRadius: 12, textAlign: 'center',
+              background: displayRank === 1 ? 'var(--gray-900)' : 'var(--gray-100)',
+              color: displayRank === 1 ? 'white' : 'var(--gray-700)',
+              fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 700,
+            }}>
+              {format ? format(t[valueKey]) : t[valueKey]}
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function RecordCard({ label, matchLabel, detail, date }) {
+  if (!matchLabel) return null
+  return (
+    <div style={{ background: 'white', borderRadius: 8, padding: '14px 14px', boxShadow: '0 1px 3px rgba(0,0,0,0.07)', flex: 1, minWidth: 0 }}>
+      <div style={{ fontFamily: 'var(--font-sans)', fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--gray-400)', marginBottom: 6 }}>
+        {label}
+      </div>
+      <div style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 700, color: 'var(--gray-900)', lineHeight: 1.4 }}>
+        {matchLabel}
+      </div>
+      {detail && (
+        <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--gray-500)', marginTop: 3 }}>
+          {detail}
+        </div>
+      )}
+      <div style={{ fontFamily: 'var(--font-sans)', fontSize: 10, color: 'var(--gray-400)', marginTop: 4 }}>{date}</div>
+    </div>
+  )
+}
+
+function formatUpdated(iso) {
+  if (!iso) return ''
+  return new Date(iso).toLocaleString('en-US', {
+    month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+  })
+}
+
+export default function Stats() {
+  const { individual, teams, records } = statsData
+
+  return (
+    <div>
+      {/* ── Individual Leaders ──────────────────────────────────── */}
+      <SectionLabel>Individual Leaders</SectionLabel>
+      <div style={{ padding: '0 10px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <Leaderboard title="⚽ Golden Boot — Top Scorers" entries={individual?.goals} valueLabel="Goals" />
+        <Leaderboard title="🎯 Top Assists" entries={individual?.assists} valueLabel="Assists" />
       </div>
 
-      <div style={{ padding: '0 10px 24px' }}>
+      {/* ── Team Stats ─────────────────────────────────────────── */}
+      <SectionLabel>Team Stats</SectionLabel>
+      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
+        <TeamCard title="⚽ Goals Scored"    teams={teams} valueKey="gf" />
+        <TeamCard title="🛡️ Clean Sheets"   teams={teams} valueKey="cleanSheets" emptyMsg="None yet" />
+        <TeamCard title="🟨 Yellow Cards"   teams={teams} valueKey="yellowCards" />
+        <TeamCard title="🟥 Red Cards"      teams={teams} valueKey="redCards" emptyMsg="None yet" />
+        <TeamCard title="😬 Goals Conceded" teams={teams} valueKey="ga" />
+        <TeamCard title="🏃 Possession %"   teams={teams} valueKey="possession" format={v => `${v}%`} />
+      </div>
 
-        {/* Category tabs */}
-        <div className="scroll-x" style={{ marginBottom: 14 }}>
-          <div style={{ display: 'flex', gap: 6, minWidth: 'max-content' }}>
-            {TABS.map(t => {
-              const isActive = t.key === activeTab
-              return (
-                <button
-                  key={t.key}
-                  onClick={() => setActiveTab(t.key)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 5,
-                    padding: '6px 12px',
-                    borderRadius: 20,
-                    border: isActive ? 'none' : '1px solid var(--gray-200)',
-                    background: isActive ? 'var(--gray-900)' : 'white',
-                    color: isActive ? 'white' : 'var(--gray-600)',
-                    fontFamily: 'var(--font-sans)',
-                    fontSize: 12,
-                    fontWeight: isActive ? 600 : 400,
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap',
-                    transition: 'all 0.15s',
-                    boxShadow: '0 1px 2px rgba(0,0,0,0.06)',
-                  }}
-                >
-                  <span>{t.icon}</span>
-                  <span>{t.label}</span>
-                </button>
-              )
-            })}
+      {/* ── Match Records ──────────────────────────────────────── */}
+      {(records?.highestScoring || records?.biggestDefeat) && (
+        <>
+          <SectionLabel>Match Records</SectionLabel>
+          <div style={{ padding: '0 10px', display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+            <RecordCard
+              label="🔥 Highest Scoring Match"
+              matchLabel={records.highestScoring?.label}
+              detail={`${records.highestScoring?.totalGoals} total goals`}
+              date={records.highestScoring?.date}
+            />
+            <RecordCard
+              label="📉 Biggest Defeat"
+              matchLabel={records.biggestDefeat?.label}
+              detail={`${records.biggestDefeat?.margin}-goal margin`}
+              date={records.biggestDefeat?.date}
+            />
           </div>
-        </div>
+        </>
+      )}
 
-        {/* Column headers */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          padding: '4px 10px 6px',
-          gap: 8,
-        }}>
-          <div style={{ width: 28, flexShrink: 0 }} />
-          <div style={{ flex: 1, fontFamily: 'var(--font-sans)', fontSize: 9, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--gray-400)' }}>
-            Player
-          </div>
-          <div style={{ width: 80, flexShrink: 0, fontFamily: 'var(--font-sans)', fontSize: 9, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--gray-400)', textAlign: 'right' }}>
-            {tab?.sublabel}
-          </div>
-        </div>
-
-        {/* Leaderboard */}
-        <div style={{
-          background: 'white',
-          borderRadius: 6,
-          overflow: 'hidden',
-          boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
-        }}>
-          {ranked.length === 0 ? (
-            <div style={{
-              padding: '32px 16px',
-              textAlign: 'center',
-              fontFamily: 'var(--font-sans)',
-              fontSize: 13,
-              color: 'var(--gray-400)',
-            }}>
-              No data yet — check back once matches begin.
-            </div>
-          ) : ranked.map((p, i) => (
-            <div
-              key={`${p.name}-${i}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 8,
-                padding: '9px 10px',
-                borderBottom: i < ranked.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
-              }}
-            >
-              {/* Rank */}
-              <div style={{
-                width: 28,
-                flexShrink: 0,
-                textAlign: 'center',
-                fontFamily: 'var(--font-sans)',
-                fontSize: 13,
-                fontWeight: 700,
-                color: rankColor(p.rank - 1),
-              }}>
-                {p.rank}
-              </div>
-
-              {/* Flag + name + team */}
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ fontSize: 16, lineHeight: 1, flexShrink: 0 }}>{p.flag}</span>
-                  <div style={{ minWidth: 0 }}>
-                    <div style={{
-                      fontFamily: 'var(--font-sans)',
-                      fontSize: 13,
-                      fontWeight: 600,
-                      color: 'var(--gray-900)',
-                      overflow: 'hidden',
-                      textOverflow: 'ellipsis',
-                      whiteSpace: 'nowrap',
-                    }}>
-                      {p.name}
-                    </div>
-                    <div style={{
-                      fontFamily: 'var(--font-sans)',
-                      fontSize: 10,
-                      color: 'var(--gray-500)',
-                      whiteSpace: 'nowrap',
-                    }}>
-                      {p.team}{p.position ? ` · ${p.position}` : ''}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Value */}
-              <div style={{
-                width: 80,
-                flexShrink: 0,
-                textAlign: 'right',
-              }}>
-                <span style={{
-                  display: 'inline-block',
-                  minWidth: 28,
-                  padding: '2px 8px',
-                  borderRadius: 12,
-                  background: p.rank === 1 ? 'var(--gray-900)' : 'var(--gray-100)',
-                  color: p.rank === 1 ? 'white' : 'var(--gray-700)',
-                  fontFamily: 'var(--font-sans)',
-                  fontSize: 13,
-                  fontWeight: 700,
-                  textAlign: 'center',
-                }}>
-                  {p.value}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Last updated */}
-        <div style={{
-          marginTop: 10,
-          fontFamily: 'var(--font-sans)',
-          fontSize: 10,
-          color: 'var(--gray-400)',
-          textAlign: 'right',
-        }}>
-          Updated {formatUpdated(statsData.updatedAt)}
-        </div>
+      {/* ── Last updated ───────────────────────────────────────── */}
+      <div style={{ padding: '14px 12px 24px', fontFamily: 'var(--font-sans)', fontSize: 10, color: 'var(--gray-400)', textAlign: 'right' }}>
+        Updated {formatUpdated(statsData.updatedAt)}
       </div>
     </div>
   )

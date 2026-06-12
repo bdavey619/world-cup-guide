@@ -30,14 +30,14 @@ const PRIMARY_TABS = [
   { id: 'overview', label: 'Overview' },
   { id: 'schedule', label: 'Schedule' },
   { id: 'stats',    label: 'Stats' },
-  { id: 'rankings', label: 'Rankings' },
 ]
 const MORE_TABS = [
-  { id: 'groups', label: 'Groups' },
-  { id: 'guide', label: 'Guide' },
-  { id: 'bracket', label: 'Bracket' },
+  { id: 'rankings',   label: 'Rankings' },
+  { id: 'groups',     label: 'Groups' },
+  { id: 'guide',      label: 'Guide' },
+  { id: 'bracket',    label: 'Bracket' },
   { id: 'storylines', label: 'Storylines' },
-  { id: 'dreamteam', label: 'Dream Team' },
+  { id: 'dreamteam',  label: 'Dream Team' },
 ]
 
 export default function App() {
