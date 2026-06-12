@@ -347,6 +347,9 @@ export default function Schedule({ teams, onSelectTeam }) {
 
 function MatchCard({ match, onSelectTeam }) {
   const { time, group, home, away, city, score, homeRank, awayRank, stakes } = match
+  const [hg, ag] = score ? score.split('–').map(Number) : [null, null]
+  const homeWins = hg !== null && hg > ag
+  const awayWins = ag !== null && ag > hg
   return (
     <div className="match-card" style={{
       background: 'white',
@@ -388,7 +391,7 @@ function MatchCard({ match, onSelectTeam }) {
 
         {/* Teams */}
         <div className="match-teams" style={{ display: 'flex', alignItems: 'center' }}>
-          <TeamChip team={home} rank={score ? null : homeRank} align="right" onSelectTeam={onSelectTeam} />
+          <TeamChip team={home} rank={score ? null : homeRank} align="right" goals={hg} isWinner={homeWins} onSelectTeam={onSelectTeam} />
           <div className="match-vs" style={{
             padding: '0 8px',
             flexShrink: 0,
@@ -403,7 +406,7 @@ function MatchCard({ match, onSelectTeam }) {
               <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-400)' }}>vs</span>
             )}
           </div>
-          <TeamChip team={away} rank={score ? null : awayRank} align="left" onSelectTeam={onSelectTeam} />
+          <TeamChip team={away} rank={score ? null : awayRank} align="left" goals={ag} isWinner={awayWins} onSelectTeam={onSelectTeam} />
         </div>
 
         {/* City */}
@@ -437,7 +440,7 @@ function MatchCard({ match, onSelectTeam }) {
   )
 }
 
-function TeamChip({ team, rank, align, onSelectTeam }) {
+function TeamChip({ team, rank, align, goals, isWinner, onSelectTeam }) {
   const [hovered, setHovered] = useState(false)
   const isRight = align === 'right'
   const pts = team.standings?.pts ?? 0
@@ -472,7 +475,7 @@ function TeamChip({ team, rank, align, onSelectTeam }) {
         <span style={{
           display: 'block',
           fontSize: 13,
-          fontWeight: 600,
+          fontWeight: isWinner ? 700 : 600,
           color: 'var(--gray-900)',
           overflow: 'hidden',
           textOverflow: 'ellipsis',
@@ -504,6 +507,18 @@ function TeamChip({ team, rank, align, onSelectTeam }) {
           </span>
         )}
       </div>
+      {goals !== null && (
+        <span className="chip-score" style={{
+          fontSize: 16,
+          fontWeight: isWinner ? 700 : 400,
+          color: isWinner ? '#1a7a3a' : 'var(--gray-400)',
+          flexShrink: 0,
+          minWidth: 18,
+          textAlign: 'center',
+        }}>
+          {goals}
+        </span>
+      )}
     </button>
   )
 }

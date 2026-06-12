@@ -85,14 +85,17 @@ body {
   .nav-more-mobile  { display: none; }
 }
 
+.chip-score { display: none; }
+
 /* ─── Mobile responsive ─────────────────────────────── */
 @media (max-width: 520px) {
-  /* Schedule: drop city column, stack teams vertically */
+  /* Schedule: drop city column, stack teams vertically with per-team scores */
   .match-card { grid-template-columns: 52px 1fr !important; }
   .match-city { display: none !important; }
   .match-teams { flex-direction: column !important; gap: 0 !important; align-items: stretch !important; }
-  .team-chip { justify-content: flex-start !important; flex-direction: row !important; text-align: left !important; }
   .match-vs { display: none !important; }
+  .team-chip { justify-content: flex-start !important; flex-direction: row !important; text-align: left !important; width: 100% !important; }
+  .chip-score { display: block !important; margin-left: auto; }
 
   /* Schedule group badge: slightly larger */
   .grp-badge { font-size: 12px !important; padding: 2px 7px !important; }
