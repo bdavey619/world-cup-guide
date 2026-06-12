@@ -236,7 +236,7 @@ async function fetchMatchRecords() {
   }
 
   const seenEvents = new Set()
-  let highestScoring = null  // { label, totalGoals }
+  let highestScoring = null  // { goals, teams: [{ team, label, date }] }
   let biggestDefeat  = null  // { label, margin }
 
   for (const dateStr of dates) {
@@ -268,9 +268,16 @@ async function fetchMatchRecords() {
       const awayName = ESPN_TO_NAME[away.team.displayName] ?? away.team.displayName
       const label = `${homeName} ${hScore}–${aScore} ${awayName}`
 
-      if (!highestScoring || total > highestScoring.totalGoals) {
-        highestScoring = { label, totalGoals: total, date: dateLabel }
+      // Track highest single-team goal tally (not combined); keep all tied entries
+      for (const [teamName, teamGoals] of [[homeName, hScore], [awayName, aScore]]) {
+        if (teamGoals === 0) continue
+        if (!highestScoring || teamGoals > highestScoring.goals) {
+          highestScoring = { goals: teamGoals, teams: [{ team: teamName, label, date: dateLabel }] }
+        } else if (teamGoals === highestScoring.goals) {
+          highestScoring.teams.push({ team: teamName, label, date: dateLabel })
+        }
       }
+
       if (margin > 0 && (!biggestDefeat || margin > biggestDefeat.margin)) {
         const loser  = hScore < aScore ? homeName : awayName
         const winner = hScore > aScore ? homeName : awayName

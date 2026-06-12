@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T18:07:20.645Z",
+  "updatedAt": "2026-06-12T18:11:56.923Z",
   "individual": {
     "goals": [
       {
@@ -194,9 +194,19 @@
   ],
   "records": {
     "highestScoring": {
-      "label": "South Korea 2–1 Czechia",
-      "totalGoals": 3,
-      "date": "Jun 11"
+      "goals": 2,
+      "teams": [
+        {
+          "team": "Mexico",
+          "label": "Mexico 2–0 South Africa",
+          "date": "Jun 11"
+        },
+        {
+          "team": "South Korea",
+          "label": "South Korea 2–1 Czechia",
+          "date": "Jun 11"
+        }
+      ]
     },
     "biggestDefeat": {
       "label": "Mexico 2–0 South Africa",

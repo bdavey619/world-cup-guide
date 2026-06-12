@@ -180,10 +180,14 @@ export default function Stats() {
           <SectionLabel>Match Records</SectionLabel>
           <div style={{ padding: '0 10px', display: 'flex', gap: 10, flexWrap: 'wrap' }}>
             <RecordCard
-              label="🔥 Highest Scoring Match"
-              matchLabel={records.highestScoring?.label}
-              detail={`${records.highestScoring?.totalGoals} total goals`}
-              date={records.highestScoring?.date}
+              label="🔥 Most Goals in a Game"
+              matchLabel={records.highestScoring
+                ? records.highestScoring.teams.map(t => t.team).join(', ')
+                : null}
+              detail={records.highestScoring
+                ? `${records.highestScoring.goals} goals${records.highestScoring.teams.length > 1 ? ' (tied)' : ''}`
+                : null}
+              date={records.highestScoring?.teams[0]?.date}
             />
             <RecordCard
               label="📉 Biggest Defeat"
