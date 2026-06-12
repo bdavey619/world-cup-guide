@@ -139,9 +139,9 @@
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
         "name": "Modiba",
@@ -150,9 +150,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 32,
-        "y": 148,
-        "jersey": 6
+        "y": 148
       },
       {
         "name": "Sibisi",
@@ -161,9 +161,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "19",
         "x": 127,
-        "y": 148,
-        "jersey": 19
+        "y": 148
       },
       {
         "name": "Okon",
@@ -172,9 +172,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "21",
         "x": 226,
-        "y": 148,
-        "jersey": 21
+        "y": 148
       },
       {
         "name": "Mbokazi",
@@ -183,9 +183,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "14",
         "x": 325,
-        "y": 148,
-        "jersey": 14
+        "y": 148
       },
       {
         "name": "Mudau",
@@ -194,9 +194,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "20",
         "x": 420,
-        "y": 148,
-        "jersey": 20
+        "y": 148
       },
       {
         "name": "Mokoena",
@@ -205,9 +205,9 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "4",
         "x": 104,
-        "y": 256,
-        "jersey": 4
+        "y": 256
       },
       {
         "name": "Sithole",
@@ -216,9 +216,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "13",
         "x": 226,
-        "y": 256,
-        "jersey": 13
+        "y": 256
       },
       {
         "name": "Adams",
@@ -227,9 +227,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 348,
-        "y": 256,
-        "jersey": 23
+        "y": 256
       },
       {
         "name": "Rayners",
@@ -238,9 +238,9 @@
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "15",
         "x": 163,
-        "y": 375,
-        "jersey": 15
+        "y": 375
       },
       {
         "name": "Foster",
@@ -249,9 +249,9 @@
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "9",
         "x": 289,
-        "y": 375,
-        "jersey": 9
+        "y": 375
       }
     ]
   },
@@ -422,5 +422,25 @@
     "gf": 0,
     "ga": 2,
     "gd": -2
-  }
+  },
+  "matches": [
+    {
+      "eventId": "760415",
+      "opponent": "Mexico",
+      "date": "Jun 11",
+      "starters": [
+        "Williams",
+        "Okon",
+        "Mbokazi",
+        "Sibisi",
+        "Modiba",
+        "Mudau",
+        "Sithole",
+        "Adams",
+        "Mokoena",
+        "Foster",
+        "Rayners"
+      ]
+    }
+  ]
 }

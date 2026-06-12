@@ -169,9 +169,9 @@
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
         "name": "Gallardo",
@@ -180,9 +180,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 63,
-        "y": 130,
-        "jersey": 23
+        "y": 130
       },
       {
         "name": "Montes",
@@ -191,9 +191,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "3",
         "x": 161,
-        "y": 130,
-        "jersey": 3
+        "y": 130
       },
       {
         "name": "Vásquez",
@@ -202,9 +202,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "5",
         "x": 293,
-        "y": 130,
-        "jersey": 5
+        "y": 130
       },
       {
         "name": "Reyes",
@@ -213,9 +213,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "15",
         "x": 389,
-        "y": 130,
-        "jersey": 15
+        "y": 130
       },
       {
         "name": "Lira",
@@ -224,9 +224,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 226,
-        "y": 215,
-        "jersey": 6
+        "y": 215
       },
       {
         "name": "Quiñones",
@@ -235,9 +235,9 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "16",
         "x": 63,
-        "y": 310,
-        "jersey": 16
+        "y": 310
       },
       {
         "name": "Gutiérrez",
@@ -246,9 +246,9 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "26",
         "x": 161,
-        "y": 310,
-        "jersey": 26
+        "y": 310
       },
       {
         "name": "Fidalgo",
@@ -257,9 +257,9 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "8",
         "x": 293,
-        "y": 310,
-        "jersey": 8
+        "y": 310
       },
       {
         "name": "Alvarado",
@@ -268,9 +268,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "25",
         "x": 389,
-        "y": 310,
-        "jersey": 25
+        "y": 310
       },
       {
         "name": "Jiménez",
@@ -279,9 +279,9 @@
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "9",
         "x": 226,
-        "y": 385,
-        "jersey": 9
+        "y": 385
       }
     ]
   },
@@ -452,5 +452,25 @@
     "gf": 2,
     "ga": 0,
     "gd": 2
-  }
+  },
+  "matches": [
+    {
+      "eventId": "760415",
+      "opponent": "South Africa",
+      "date": "Jun 11",
+      "starters": [
+        "Rangel",
+        "Vásquez",
+        "Montes",
+        "Lira",
+        "Gallardo",
+        "Reyes",
+        "Fidalgo",
+        "Gutiérrez",
+        "Quiñones",
+        "Alvarado",
+        "Jiménez"
+      ]
+    }
+  ]
 }

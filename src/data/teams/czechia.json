@@ -172,9 +172,9 @@
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
         "name": "Chaloupek",
@@ -183,9 +183,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 104,
-        "y": 148,
-        "jersey": 6
+        "y": 148
       },
       {
         "name": "Hranác",
@@ -194,9 +194,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "4",
         "x": 226,
-        "y": 148,
-        "jersey": 4
+        "y": 148
       },
       {
         "name": "Krejcí",
@@ -205,9 +205,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "7",
         "x": 348,
-        "y": 148,
-        "jersey": 7
+        "y": 148
       },
       {
         "name": "Zelený",
@@ -216,20 +216,20 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "20",
         "x": 63,
-        "y": 256,
-        "jersey": 20
+        "y": 256
       },
       {
         "name": "Soucek",
         "shortName": "Soucek",
         "position": "CM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "22",
         "x": 161,
-        "y": 256,
-        "jersey": 22
+        "y": 256
       },
       {
         "name": "Sojka",
@@ -238,9 +238,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "24",
         "x": 293,
-        "y": 256,
-        "jersey": 24
+        "y": 256
       },
       {
         "name": "Coufal",
@@ -249,9 +249,9 @@
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "5",
         "x": 389,
-        "y": 256,
-        "jersey": 5
+        "y": 256
       },
       {
         "name": "Provod",
@@ -260,9 +260,9 @@
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "17",
         "x": 104,
-        "y": 375,
-        "jersey": 17
+        "y": 375
       },
       {
         "name": "Schick",
@@ -271,9 +271,9 @@
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "10",
         "x": 226,
-        "y": 375,
-        "jersey": 10
+        "y": 375
       },
       {
         "name": "Sulc",
@@ -282,9 +282,9 @@
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "15",
         "x": 348,
-        "y": 375,
-        "jersey": 15
+        "y": 375
       }
     ]
   },
@@ -454,6 +454,26 @@
       "pos": "FWD",
       "club": "",
       "jersey": "13"
+    }
+  ],
+  "matches": [
+    {
+      "eventId": "760414",
+      "opponent": "South Korea",
+      "date": "Jun 12",
+      "starters": [
+        "Kovár",
+        "Hranác",
+        "Krejcí",
+        "Chaloupek",
+        "Sojka",
+        "Soucek",
+        "Zelený",
+        "Coufal",
+        "Schick",
+        "Sulc",
+        "Provod"
+      ]
     }
   ]
 }

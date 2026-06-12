@@ -170,9 +170,9 @@
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
         "name": "Han-Beom",
@@ -181,9 +181,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "2",
         "x": 104,
-        "y": 148,
-        "jersey": 2
+        "y": 148
       },
       {
         "name": "Min-Jae",
@@ -192,9 +192,9 @@
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "4",
         "x": 226,
-        "y": 148,
-        "jersey": 4
+        "y": 148
       },
       {
         "name": "Gi-Hyuk",
@@ -203,9 +203,9 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "3",
         "x": 348,
-        "y": 148,
-        "jersey": 3
+        "y": 148
       },
       {
         "name": "Tae-Seok",
@@ -214,9 +214,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "13",
         "x": 63,
-        "y": 256,
-        "jersey": 13
+        "y": 256
       },
       {
         "name": "In-Beom",
@@ -225,9 +225,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 161,
-        "y": 256,
-        "jersey": 6
+        "y": 256
       },
       {
         "name": "Seung-Ho",
@@ -236,9 +236,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "8",
         "x": 293,
-        "y": 256,
-        "jersey": 8
+        "y": 256
       },
       {
         "name": "Young-Woo",
@@ -247,9 +247,9 @@
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "22",
         "x": 389,
-        "y": 256,
-        "jersey": 22
+        "y": 256
       },
       {
         "name": "Kang-In",
@@ -258,9 +258,9 @@
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "19",
         "x": 104,
-        "y": 375,
-        "jersey": 19
+        "y": 375
       },
       {
         "name": "Heung-Min",
@@ -269,9 +269,9 @@
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "7",
         "x": 226,
-        "y": 375,
-        "jersey": 7
+        "y": 375
       },
       {
         "name": "Jae-Sung",
@@ -280,9 +280,9 @@
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "10",
         "x": 348,
-        "y": 375,
-        "jersey": 10
+        "y": 375
       }
     ]
   },
@@ -452,6 +452,26 @@
       "pos": "FWD",
       "club": "",
       "jersey": "20"
+    }
+  ],
+  "matches": [
+    {
+      "eventId": "760414",
+      "opponent": "Czechia",
+      "date": "Jun 12",
+      "starters": [
+        "Seung-Gyu",
+        "Min-Jae",
+        "Gi-Hyuk",
+        "Han-Beom",
+        "Seung-Ho",
+        "In-Beom",
+        "Tae-Seok",
+        "Young-Woo",
+        "Heung-Min",
+        "Jae-Sung",
+        "Kang-In"
+      ]
     }
   ]
 }
