@@ -86,6 +86,12 @@ const POSITION_TIERS = {
   'LW':   { tier: 5, order: 0 }, 'CF-R': { tier: 5, order: 1 },
   'CF':   { tier: 5, order: 2 }, 'F':    { tier: 5, order: 2 },
   'CF-L': { tier: 5, order: 3 }, 'RW':   { tier: 5, order: 4 },
+  // Generic fallbacks ESPN sometimes returns instead of specific codes
+  'GK':   { tier: 0, order: 3 },
+  'D':    { tier: 1, order: 3 },
+  'M':    { tier: 3, order: 2 },
+  'MF':   { tier: 3, order: 2 },
+  'FW':   { tier: 5, order: 2 },
 }
 
 const ROLE_BY_TIER = { 0:'gk', 1:'def', 2:'mid', 3:'mid', 4:'mid', 5:'att' }
