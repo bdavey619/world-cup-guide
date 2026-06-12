@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Jesse Marsch",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 0.5,
     "advancePct": 86
   },
@@ -128,9 +128,9 @@
   "pitch": {
     "players": [
       {
-        "name": "Crepeau",
-        "shortName": "Crepeau",
-        "position": "GK",
+        "name": "Crépeau",
+        "shortName": "Crépeau",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -140,102 +140,102 @@
       {
         "name": "Johnston",
         "shortName": "Johnston",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Miller",
-        "shortName": "Miller",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Davies",
-        "shortName": "Davies",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Ismaël Koné",
-        "shortName": "Koné",
-        "position": "RCM",
+        "position": "D",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244
-      },
-      {
-        "name": "Eustáquio",
-        "shortName": "Eustáquio",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236
+        "x": 32,
+        "y": 240
       },
       {
         "name": "Laryea",
         "shortName": "Laryea",
-        "position": "LCM",
+        "position": "D",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
+        "x": 87,
+        "y": 240
+      },
+      {
+        "name": "de Fougerolles",
+        "shortName": "de Fougerolles",
+        "position": "D",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 143,
+        "y": 240
+      },
+      {
+        "name": "Cornelius",
+        "shortName": "Cornelius",
+        "position": "D",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 198,
+        "y": 240
       },
       {
         "name": "Buchanan",
         "shortName": "Buchanan",
-        "position": "RW",
-        "role": "att",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 389,
-        "y": 362
+        "x": 254,
+        "y": 240
+      },
+      {
+        "name": "Koné",
+        "shortName": "Koné",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 309,
+        "y": 240
+      },
+      {
+        "name": "Eustáquio",
+        "shortName": "Eustáquio",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "x": 365,
+        "y": 240
+      },
+      {
+        "name": "Millar",
+        "shortName": "Millar",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 420,
+        "y": 240
+      },
+      {
+        "name": "Oluwaseyi",
+        "shortName": "Oluwaseyi",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 163,
+        "y": 385
       },
       {
         "name": "David",
         "shortName": "David",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Larin",
-        "shortName": "Larin",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "x": 289,
+        "y": 385
       }
     ]
   },
@@ -376,5 +376,6 @@
       "pos": "FWD",
       "club": ""
     }
-  ]
+  ],
+  "pitchLabel": "Confirmed XI · Jun 12 vs Bosnia-Herzegovina"
 }

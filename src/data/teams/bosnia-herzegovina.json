@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '14",
     "manager": "Sergej Barbarez",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 0.1,
     "advancePct": 66
   },
@@ -122,9 +122,9 @@
   "pitch": {
     "players": [
       {
-        "name": "Pihler",
-        "shortName": "Pihler",
-        "position": "GK",
+        "name": "Vasilj",
+        "shortName": "Vasilj",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -132,104 +132,104 @@
         "y": 56
       },
       {
-        "name": "Šunjić",
-        "shortName": "Šunjić",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Čataković",
-        "shortName": "Čataković",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Džidić",
-        "shortName": "Džidić",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Kolašinac",
-        "shortName": "Kolašinac",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Hadžiahmetović",
-        "shortName": "Hadžiahmetović",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244
-      },
-      {
-        "name": "Dedić",
-        "shortName": "Dedić",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236
-      },
-      {
-        "name": "Vrančić",
-        "shortName": "Vrančić",
-        "position": "LCM",
+        "name": "Muharemovic",
+        "shortName": "Muharemovic",
+        "position": "D",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
+        "x": 32,
+        "y": 240
       },
       {
-        "name": "Huseinbašić",
-        "shortName": "Huseinbašić",
-        "position": "RW",
+        "name": "Dedic",
+        "shortName": "Dedic",
+        "position": "D",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 87,
+        "y": 240
+      },
+      {
+        "name": "Kolasinac",
+        "shortName": "Kolasinac",
+        "position": "D",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 143,
+        "y": 240
+      },
+      {
+        "name": "Katic",
+        "shortName": "Katic",
+        "position": "D",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 198,
+        "y": 240
+      },
+      {
+        "name": "Basic",
+        "shortName": "Basic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 254,
+        "y": 240
+      },
+      {
+        "name": "Tahirovic",
+        "shortName": "Tahirovic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 309,
+        "y": 240
+      },
+      {
+        "name": "Bajraktarevic",
+        "shortName": "Bajraktarevic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 365,
+        "y": 240
+      },
+      {
+        "name": "Memic",
+        "shortName": "Memic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 420,
+        "y": 240
+      },
+      {
+        "name": "Demirovic",
+        "shortName": "Demirovic",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 362
+        "x": 163,
+        "y": 385
       },
       {
-        "name": "Demirović",
-        "shortName": "Demirović",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Tatar",
-        "shortName": "Tatar",
-        "position": "LW",
+        "name": "Lukic",
+        "shortName": "Lukic",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "x": 289,
+        "y": 385
       }
     ]
   },
@@ -370,5 +370,6 @@
       "pos": "FWD",
       "club": ""
     }
-  ]
+  ],
+  "pitchLabel": "Confirmed XI · Jun 12 vs Canada"
 }
