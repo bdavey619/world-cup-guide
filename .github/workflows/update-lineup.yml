@@ -29,6 +29,7 @@ jobs:
         run: node scripts/update-lineup.js
 
       - name: Commit and push if changed
+        id: diff
         run: |
           git diff --quiet src/data/teams/ && exit 0
           git config user.name  "github-actions[bot]"
@@ -36,3 +37,11 @@ jobs:
           git add src/data/teams/
           git commit -m "Auto: confirmed XIs for $(date -u '+%Y-%m-%d')"
           git push
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Trigger redeploy
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: lineup-updated
