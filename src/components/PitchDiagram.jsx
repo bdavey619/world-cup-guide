@@ -128,7 +128,7 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             {/* Name */}
             <text
               x={p.x}
-              y={p.y - (p.isKeyPlayer || p.isCaptain ? 4 : 2)}
+              y={p.y - (p.isKeyPlayer || p.isCaptain ? 6 : p.jersey ? 5 : 2)}
               textAnchor="middle"
               fill="white"
               fontSize={p.isCaptain ? 8.5 : 8}
@@ -137,11 +137,25 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
             >
               {p.shortName}
             </text>
+            {/* Jersey number */}
+            {p.jersey != null && (
+              <text
+                x={p.x}
+                y={p.y + (p.isKeyPlayer || p.isCaptain ? 1 : 4)}
+                textAnchor="middle"
+                fill="white"
+                fillOpacity={0.75}
+                fontSize={6}
+                fontFamily="sans-serif"
+              >
+                {p.jersey}
+              </text>
+            )}
             {/* "tap" hint on key players (not selected) */}
             {(p.isKeyPlayer || p.isCaptain) && !isSelected && (
               <text
                 x={p.x}
-                y={p.y + 4}
+                y={p.y + (p.jersey != null ? 8 : 4)}
                 textAnchor="middle"
                 fill="white"
                 fillOpacity={0.7}
