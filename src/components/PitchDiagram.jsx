@@ -151,21 +151,6 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
                 {p.jersey}
               </text>
             )}
-            {/* "tap" hint on key players (not selected) */}
-            {(p.isKeyPlayer || p.isCaptain) && !isSelected && (
-              <text
-                x={p.x}
-                y={p.y + (p.jersey != null ? 12 : 5)}
-                textAnchor="middle"
-                fill="white"
-                fillOpacity={0.7}
-                fontSize={6.5}
-                fontStyle="italic"
-                fontFamily="sans-serif"
-              >
-                tap
-              </text>
-            )}
             {/* Selected indicator */}
             {isSelected && (
               <text
