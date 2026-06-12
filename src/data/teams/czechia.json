@@ -278,8 +278,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
-    "pts": 0
+    "l": 1,
+    "pts": 0,
+    "gf": 1,
+    "ga": 2,
+    "gd": -1
   },
   "pitchLabel": "Confirmed XI · Jun 12 vs South Korea",
   "squad": [

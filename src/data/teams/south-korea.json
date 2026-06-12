@@ -274,10 +274,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0
+    "pts": 3,
+    "gf": 2,
+    "ga": 1,
+    "gd": 1
   },
   "pitchLabel": "Confirmed XI · Jun 12 vs Czechia",
   "squad": [
