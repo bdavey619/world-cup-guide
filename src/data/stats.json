@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-06-13T06:33:42.570Z",
+  "updatedAt": "2026-06-13T15:09:37.851Z",
   "individual": {
     "goals": [
+      {
+        "name": "Folarin Balogun",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "F",
+        "value": 2
+      },
       {
         "name": "Ladislav Krejcí",
         "team": "Czechia",
@@ -31,6 +38,20 @@
         "value": 1
       },
       {
+        "name": "Jovo Lukic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Oh Hyeon-Gyu",
         "team": "South Korea",
         "flag": "🇰🇷",
@@ -38,39 +59,18 @@
         "value": 1
       },
       {
-        "name": "Mbekezeli Mbokazi",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "D",
-        "value": 0
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "F",
+        "value": 1
       },
       {
-        "name": "Stepán Chaloupek",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Ime Okon",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Lee Gi-Hyuk",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Robin Hranác",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "D",
-        "value": 0
+        "name": "Giovanni Reyna",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
       }
     ],
     "assists": [
@@ -79,6 +79,13 @@
         "team": "South Korea",
         "flag": "🇰🇷",
         "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Alex Freeman",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "D",
         "value": 1
       },
       {
@@ -96,9 +103,30 @@
         "value": 1
       },
       {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Hwang In-Beom",
         "team": "South Korea",
         "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Sead Kolasinac",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Malik Tillman",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "M",
         "value": 1
       },
@@ -110,39 +138,11 @@
         "value": 1
       },
       {
-        "name": "Mbekezeli Mbokazi",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Stepán Chaloupek",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Ime Okon",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Lee Gi-Hyuk",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "D",
-        "value": 0
-      },
-      {
-        "name": "Robin Hranác",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "D",
-        "value": 0
+        "name": "Christian Pulisic",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
       }
     ]
   },
@@ -165,8 +165,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 61.1,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -176,8 +176,8 @@
       "gf": 1,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 34.8,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -209,8 +209,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 38.9,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -231,8 +231,8 @@
       "gf": 4,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 65.2,
+      "yellowCards": 1,
       "redCards": 0
     }
   ],
