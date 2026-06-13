@@ -3,36 +3,36 @@
   "name": "Paraguay",
   "nickname": "La Albirroja",
   "accentColor": "#D52B1E",
-  "flagEmoji": "\ud83c\uddf5\ud83c\uddfe",
+  "flagEmoji": "🇵🇾",
   "meta": {
     "fifaRanking": 60,
     "group": "D",
     "groupOpponents": [
       "United States",
       "Australia",
-      "T\u00fcrkiye"
+      "Türkiye"
     ],
     "impliedProbability": "~0.3%",
     "lastWCResult": "R16 '10",
     "manager": "Gustavo Alfaro",
-    "managerTenure": "2023\u2013present",
+    "managerTenure": "2023–present",
     "formation": "4-4-2",
     "winPct": 0.2,
     "advancePct": 65
   },
   "narrative": {
-    "essence": "Paraguay is South American football's great survivor \u2014 a landlocked nation that has qualified for nine World Cups through sheer defensive grit and collective organization, usually with a roster that punches well above its individual talent level.",
-    "footballIdentity": "In a continent where football is theology, Paraguay has always had a different gospel: don't lose. The Guaran\u00ed spirit \u2014 resilient, proud, deeply communal \u2014 runs through every defensive block and every last-ditch tackle. Where Brazil dazzles and Argentina inspires, Paraguay grinds, endures, and occasionally stuns. The 2010 squad, which reached the quarterfinals by beating Japan before losing narrowly to eventual champions Spain, remains the gold standard.",
-    "theMoment": "After missing 2018 and 2022, Paraguay returns to the World Cup with Alfaro's well-organized defensive structure and expectations refreshingly reset. In a brutal Group D that includes the hosts, this is a team that only needs to stay compact \u2014 three opponents good enough that merely keeping games tight until the final twenty minutes is already a minor victory in itself.",
+    "essence": "Paraguay is South American football's great survivor — a landlocked nation that has qualified for nine World Cups through sheer defensive grit and collective organization, usually with a roster that punches well above its individual talent level.",
+    "footballIdentity": "In a continent where football is theology, Paraguay has always had a different gospel: don't lose. The Guaraní spirit — resilient, proud, deeply communal — runs through every defensive block and every last-ditch tackle. Where Brazil dazzles and Argentina inspires, Paraguay grinds, endures, and occasionally stuns. The 2010 squad, which reached the quarterfinals by beating Japan before losing narrowly to eventual champions Spain, remains the gold standard.",
+    "theMoment": "After missing 2018 and 2022, Paraguay returns to the World Cup with Alfaro's well-organized defensive structure and expectations refreshingly reset. In a brutal Group D that includes the hosts, this is a team that only needs to stay compact — three opponents good enough that merely keeping games tight until the final twenty minutes is already a minor victory in itself.",
     "momentType": "footballing"
   },
   "keyPlayers": [
     {
-      "name": "Miguel Almir\u00f3n",
+      "name": "Miguel Almirón",
       "club": "Atlanta United",
       "position": "Attacking Midfielder / Right Wing",
       "badge": "Captain",
-      "note": "The elder statesman of this squad and its heartbeat. After years at Newcastle where he became a fan legend for his tireless running, Almir\u00f3n returned to MLS to finish his career but his commitment to the national team has never wavered. His energy and experience provide exactly what a counter-attacking side needs."
+      "note": "The elder statesman of this squad and its heartbeat. After years at Newcastle where he became a fan legend for his tireless running, Almirón returned to MLS to finish his career but his commitment to the national team has never wavered. His energy and experience provide exactly what a counter-attacking side needs."
     },
     {
       "name": "Julio Enciso",
@@ -49,11 +49,11 @@
       "note": "A composed Serie A striker who links play superbly and knows when to run in behind. His hold-up play is essential to Paraguay's ability to relieve pressure from their defensive block and transition into attacks."
     },
     {
-      "name": "Ramiro Gonz\u00e1lez",
+      "name": "Ramiro González",
       "club": "Club Olimpia",
       "position": "Centre Back",
       "badge": null,
-      "note": "The defensive anchor at the heart of Paraguay's backline. Dominant in the air and unflinching in the tackle, Gonz\u00e1lez embodies the Paraguayan defensive tradition and will need to be at his best against the USA's pace and power."
+      "note": "The defensive anchor at the heart of Paraguay's backline. Dominant in the air and unflinching in the tackle, González embodies the Paraguayan defensive tradition and will need to be at his best against the USA's pace and power."
     }
   ],
   "tactics": {
@@ -63,14 +63,14 @@
       "Counter-Attack",
       "Hard to Beat"
     ],
-    "tacticalNote": "Alfaro organizes Paraguay in a deep 4-2-3-1 with two holding midfielders sitting narrowly in front of the back four, eliminating central spaces. They defend in two disciplined banks before launching rapid counter-attacks through Almir\u00f3n's movement on the right and Enciso's creativity centrally. Set pieces \u2014 both offensive and defensive \u2014 are meticulously prepared and represent their most reliable route to goals against elite opposition.",
-    "strength": "Defensive compactness that suffocates space \u2014 even top-10 sides have historically found it extremely difficult to break down a well-organized Paraguay.",
+    "tacticalNote": "Alfaro organizes Paraguay in a deep 4-2-3-1 with two holding midfielders sitting narrowly in front of the back four, eliminating central spaces. They defend in two disciplined banks before launching rapid counter-attacks through Almirón's movement on the right and Enciso's creativity centrally. Set pieces — both offensive and defensive — are meticulously prepared and represent their most reliable route to goals against elite opposition.",
+    "strength": "Defensive compactness that suffocates space — even top-10 sides have historically found it extremely difficult to break down a well-organized Paraguay.",
     "vulnerability": "Sustained possession pressure from multiple angles can stretch the defensive structure, and when forced to chase a deficit they lack the individual quality to dominate open games."
   },
   "watchFor": [
-    "Enciso's movement between the lines \u2014 when he finds pockets behind the USA midfield, Paraguay are at their most dangerous",
-    "The defensive block in the first 60 minutes \u2014 Paraguay's strategy is to absorb and frustrate before striking late",
-    "Set piece routines \u2014 both defending and attacking corners are central to Paraguay's game plan"
+    "Enciso's movement between the lines — when he finds pockets behind the USA midfield, Paraguay are at their most dangerous",
+    "The defensive block in the first 60 minutes — Paraguay's strategy is to absorb and frustrate before striking late",
+    "Set piece routines — both defending and attacking corners are central to Paraguay's game plan"
   ],
   "schedule": [
     {
@@ -84,7 +84,7 @@
     {
       "date": "Jun 19",
       "time": "Midnight ET",
-      "opponent": "T\u00fcrkiye",
+      "opponent": "Türkiye",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "isAway": true
@@ -184,8 +184,8 @@
         "y": 148
       },
       {
-        "name": "G\u00f3mez",
-        "shortName": "G\u00f3mez",
+        "name": "Gómez",
+        "shortName": "Gómez",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
@@ -206,8 +206,8 @@
         "y": 148
       },
       {
-        "name": "C\u00e1ceres",
-        "shortName": "C\u00e1ceres",
+        "name": "Cáceres",
+        "shortName": "Cáceres",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
@@ -217,8 +217,8 @@
         "y": 148
       },
       {
-        "name": "Almir\u00f3n",
-        "shortName": "Almir\u00f3n",
+        "name": "Almirón",
+        "shortName": "Almirón",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
@@ -250,8 +250,8 @@
         "y": 256
       },
       {
-        "name": "G\u00f3mez",
-        "shortName": "G\u00f3mez",
+        "name": "Gómez",
+        "shortName": "Gómez",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -292,13 +292,13 @@
   },
   "squad": [
     {
-      "name": "Gatito Fern\u00e1ndez",
+      "name": "Gatito Fernández",
       "pos": "GK",
       "club": "",
       "jersey": "1"
     },
     {
-      "name": "Gast\u00f3n Olveira",
+      "name": "Gastón Olveira",
       "pos": "GK",
       "club": "",
       "jersey": "22"
@@ -310,31 +310,31 @@
       "jersey": "12"
     },
     {
-      "name": "Juan C\u00e1ceres",
+      "name": "Juan Cáceres",
       "pos": "DEF",
       "club": "",
       "jersey": "13"
     },
     {
-      "name": "Gustavo G\u00f3mez",
+      "name": "Gustavo Gómez",
       "pos": "DEF",
       "club": "",
       "jersey": "15"
     },
     {
-      "name": "Gustavo Vel\u00e1zquez",
+      "name": "Gustavo Velázquez",
       "pos": "DEF",
       "club": "",
       "jersey": "2"
     },
     {
-      "name": "J\u00fanior Alonso",
+      "name": "Júnior Alonso",
       "pos": "DEF",
       "club": "",
       "jersey": "6"
     },
     {
-      "name": "Fabi\u00e1n Balbuena",
+      "name": "Fabián Balbuena",
       "pos": "DEF",
       "club": "",
       "jersey": "5"
@@ -346,7 +346,7 @@
       "jersey": "3"
     },
     {
-      "name": "Jos\u00e9 Canale",
+      "name": "José Canale",
       "pos": "DEF",
       "club": "",
       "jersey": "13"
@@ -370,13 +370,13 @@
       "jersey": "17"
     },
     {
-      "name": "Diego G\u00f3mez",
+      "name": "Diego Gómez",
       "pos": "MID",
       "club": "",
       "jersey": "8"
     },
     {
-      "name": "Andr\u00e9s Cubas",
+      "name": "Andrés Cubas",
       "pos": "MID",
       "club": "",
       "jersey": "14"
@@ -394,19 +394,19 @@
       "jersey": "11"
     },
     {
-      "name": "Mat\u00edas Galarza",
+      "name": "Matías Galarza",
       "pos": "MID",
       "club": "",
       "jersey": "23"
     },
     {
-      "name": "Dami\u00e1n Bobadilla",
+      "name": "Damián Bobadilla",
       "pos": "MID",
       "club": "",
       "jersey": "16"
     },
     {
-      "name": "Miguel Almir\u00f3n",
+      "name": "Miguel Almirón",
       "pos": "FWD",
       "club": "",
       "jersey": "10"
@@ -424,7 +424,7 @@
       "jersey": "9"
     },
     {
-      "name": "Gabriel \u00c1valos",
+      "name": "Gabriel Ávalos",
       "pos": "FWD",
       "club": "",
       "jersey": "21"
@@ -442,13 +442,13 @@
       "jersey": "25"
     },
     {
-      "name": "Ram\u00f3n Sosa",
+      "name": "Ramón Sosa",
       "pos": "FWD",
       "club": "",
       "jersey": "7"
     }
   ],
-  "pitchLabel": "Confirmed XI \u00b7 Jun 12 vs United States",
+  "pitchLabel": "Confirmed XI · Jun 12 vs United States",
   "matches": [
     {
       "eventId": "760417",
@@ -457,13 +457,13 @@
       "starters": [
         "Gil",
         "Alderete",
-        "G\u00f3mez",
+        "Gómez",
         "Alonso",
-        "C\u00e1ceres",
+        "Cáceres",
         "Bobadilla",
         "Cubas",
-        "Almir\u00f3n",
-        "G\u00f3mez",
+        "Almirón",
+        "Gómez",
         "Enciso",
         "Sanabria"
       ]
