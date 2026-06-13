@@ -130,20 +130,20 @@
         "y": 56
       },
       {
-        "name": "Khoukhi",
-        "shortName": "Khoukhi",
-        "position": "D",
+        "name": "Ahmed",
+        "shortName": "Ahmed",
+        "position": "LB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "14",
         "x": 63,
         "y": 148
       },
       {
         "name": "Miguel",
         "shortName": "Miguel",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -152,81 +152,81 @@
         "y": 148
       },
       {
-        "name": "Al-Oui",
-        "shortName": "Al-Oui",
-        "position": "D",
+        "name": "Khoukhi",
+        "shortName": "Khoukhi",
+        "position": "CD-L",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "16",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Ahmed",
-        "shortName": "Ahmed",
-        "position": "D",
+        "name": "Al-Oui",
+        "shortName": "Al-Oui",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "13",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Madibo",
-        "shortName": "Madibo",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "23",
-        "x": 104,
-        "y": 256
-      },
-      {
         "name": "Laye",
         "shortName": "Laye",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 226,
+        "x": 32,
         "y": 256
       },
       {
-        "name": "Gaber",
-        "shortName": "Gaber",
-        "position": "M",
+        "name": "Madibo",
+        "shortName": "Madibo",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 348,
+        "jersey": "23",
+        "x": 127,
         "y": 256
       },
       {
         "name": "Afif",
         "shortName": "Afif",
-        "position": "F",
-        "role": "att",
+        "position": "LF",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "11",
-        "x": 104,
-        "y": 375
+        "x": 226,
+        "y": 256
       },
       {
         "name": "Junior",
         "shortName": "Junior",
-        "position": "F",
-        "role": "att",
+        "position": "RF",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
-        "y": 375
+        "x": 325,
+        "y": 256
+      },
+      {
+        "name": "Gaber",
+        "shortName": "Gaber",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 420,
+        "y": 256
       },
       {
         "name": "Abdurisag",
@@ -236,7 +236,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 348,
+        "x": 226,
         "y": 375
       }
     ]
@@ -415,14 +415,14 @@
         "Abunada",
         "Khoukhi",
         "Miguel",
-        "Al-Oui",
         "Ahmed",
+        "Al-Oui",
         "Madibo",
         "Laye",
         "Gaber",
+        "Abdurisag",
         "Afif",
-        "Junior",
-        "Abdurisag"
+        "Junior"
       ]
     }
   ]
