@@ -79,7 +79,9 @@
       "opponent": "Paraguay",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": false
+      "isAway": false,
+      "score": "4–1",
+      "result": "W"
     },
     {
       "date": "Jun 19",
@@ -285,10 +287,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0
+    "pts": 3,
+    "gf": 4,
+    "ga": 1,
+    "gd": 3
   },
   "squad": [
     {

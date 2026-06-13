@@ -79,7 +79,9 @@
       "opponent": "United States",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": true
+      "isAway": true,
+      "score": "1–4",
+      "result": "L"
     },
     {
       "date": "Jun 19",
@@ -287,8 +289,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
-    "pts": 0
+    "l": 1,
+    "pts": 0,
+    "gf": 1,
+    "ga": 4,
+    "gd": -3
   },
   "squad": [
     {
