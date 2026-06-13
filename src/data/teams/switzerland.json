@@ -241,28 +241,6 @@
         "y": 256
       },
       {
-        "name": "Vargas",
-        "shortName": "Vargas",
-        "position": "LF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Ndoye",
-        "shortName": "Ndoye",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 348,
-        "y": 375
-      },
-      {
         "name": "Aebischer",
         "shortName": "Aebischer",
         "position": "RM",
@@ -274,6 +252,17 @@
         "y": 256
       },
       {
+        "name": "Vargas",
+        "shortName": "Vargas",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 104,
+        "y": 375
+      },
+      {
         "name": "Embolo",
         "shortName": "Embolo",
         "position": "F",
@@ -282,6 +271,17 @@
         "isCaptain": false,
         "jersey": "7",
         "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Ndoye",
+        "shortName": "Ndoye",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 348,
         "y": 375
       }
     ]

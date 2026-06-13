@@ -198,28 +198,6 @@
         "y": 256
       },
       {
-        "name": "Afif",
-        "shortName": "Afif",
-        "position": "LF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Junior",
-        "shortName": "Junior",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 348,
-        "y": 375
-      },
-      {
         "name": "Gaber",
         "shortName": "Gaber",
         "position": "RM",
@@ -231,6 +209,17 @@
         "y": 256
       },
       {
+        "name": "Afif",
+        "shortName": "Afif",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 104,
+        "y": 375
+      },
+      {
         "name": "Abdurisag",
         "shortName": "Abdurisag",
         "position": "F",
@@ -239,6 +228,17 @@
         "isCaptain": false,
         "jersey": "15",
         "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Junior",
+        "shortName": "Junior",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 348,
         "y": 375
       }
     ]
