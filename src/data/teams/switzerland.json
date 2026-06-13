@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Murat Yakin",
     "managerTenure": "2021–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 1,
     "advancePct": 94
   },
@@ -162,121 +162,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Sommer",
-        "shortName": "Sommer",
-        "position": "GK",
+        "name": "Kobel",
+        "shortName": "Kobel",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Widmer",
-        "shortName": "Widmer",
-        "position": "RB",
+        "name": "Elvedi",
+        "shortName": "Elvedi",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 3
+        "jersey": "4",
+        "x": 104,
+        "y": 148
+      },
+      {
+        "name": "Zakaria",
+        "shortName": "Zakaria",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 226,
+        "y": 148
       },
       {
         "name": "Akanji",
         "shortName": "Akanji",
-        "position": "CB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Elvedi",
-        "shortName": "Elvedi",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Ricardo R.",
-        "shortName": "Ricardo R.",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
+        "jersey": "5",
+        "x": 348,
         "y": 148
       },
       {
-        "name": "Xhaka",
-        "shortName": "Xhaka",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 293,
-        "y": 220,
-        "jersey": 10
-      },
-      {
-        "name": "Freuler",
-        "shortName": "Freuler",
-        "position": "LDM",
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 161,
-        "y": 220,
-        "jersey": 8
+        "jersey": "13",
+        "x": 32,
+        "y": 256
       },
       {
-        "name": "Shaqiri",
-        "shortName": "Shaqiri",
-        "position": "RAM",
+        "name": "Aebischer",
+        "shortName": "Aebischer",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310
+        "jersey": "20",
+        "x": 110,
+        "y": 256
       },
       {
         "name": "Vargas",
         "shortName": "Vargas",
-        "position": "CAM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 300,
-        "jersey": 17
+        "jersey": "17",
+        "x": 187,
+        "y": 256
       },
       {
-        "name": "Ruben V.",
-        "shortName": "Ruben V.",
-        "position": "LAM",
+        "name": "Xhaka",
+        "shortName": "Xhaka",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 265,
+        "y": 256
+      },
+      {
+        "name": "Ndoye",
+        "shortName": "Ndoye",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 310
+        "jersey": "11",
+        "x": 342,
+        "y": 256
+      },
+      {
+        "name": "Freuler",
+        "shortName": "Freuler",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 420,
+        "y": 256
       },
       {
         "name": "Embolo",
         "shortName": "Embolo",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "7",
         "x": 226,
-        "y": 390,
-        "jersey": 7
+        "y": 375
       }
     ]
   },
@@ -442,6 +446,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "23"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 13 vs Qatar",
+  "matches": [
+    {
+      "eventId": "760420",
+      "opponent": "Qatar",
+      "date": "Jun 13",
+      "starters": [
+        "Kobel",
+        "Elvedi",
+        "Zakaria",
+        "Akanji",
+        "Rodríguez",
+        "Aebischer",
+        "Vargas",
+        "Xhaka",
+        "Ndoye",
+        "Freuler",
+        "Embolo"
+      ]
     }
   ]
 }

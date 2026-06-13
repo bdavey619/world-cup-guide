@@ -119,122 +119,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Al Sheeb",
-        "shortName": "Al Sheeb",
-        "position": "GK",
+        "name": "Abunada",
+        "shortName": "Abunada",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Pedro Miguel",
-        "shortName": "Pedro M.",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 2
-      },
-      {
         "name": "Khoukhi",
         "shortName": "Khoukhi",
-        "position": "CB",
+        "position": "D",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 16
+        "jersey": "16",
+        "x": 63,
+        "y": 148
       },
       {
-        "name": "Al Rawi",
-        "shortName": "Al Rawi",
-        "position": "CB",
+        "name": "Miguel",
+        "shortName": "Miguel",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "2",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Homam",
-        "shortName": "Homam",
-        "position": "LB",
+        "name": "Al-Oui",
+        "shortName": "Al-Oui",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 14
+        "jersey": "13",
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Abdulaziz Hatem",
-        "shortName": "Hatem",
-        "position": "RCM",
+        "name": "Ahmed",
+        "shortName": "Ahmed",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Madibo",
+        "shortName": "Madibo",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 6
-      },
-      {
-        "name": "Boudiaf",
-        "shortName": "Boudiaf",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 12
-      },
-      {
-        "name": "Ahmed Fathi",
-        "shortName": "A. Fathi",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "23",
         "x": 104,
-        "y": 244
+        "y": 256
+      },
+      {
+        "name": "Laye",
+        "shortName": "Laye",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Gaber",
+        "shortName": "Gaber",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Afif",
         "shortName": "Afif",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 389,
-        "y": 362,
-        "jersey": 11
-      },
-      {
-        "name": "Almoez Ali",
-        "shortName": "Almoez",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "11",
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Junior",
+        "shortName": "Junior",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 226,
-        "y": 372,
-        "jersey": 19
+        "y": 375
       },
       {
-        "name": "Hassan Al-Haydos",
-        "shortName": "Al-Haydos",
-        "position": "LW",
+        "name": "Abdurisag",
+        "shortName": "Abdurisag",
+        "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362,
-        "jersey": 10
+        "jersey": "15",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -400,6 +403,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "24"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 13 vs Switzerland",
+  "matches": [
+    {
+      "eventId": "760420",
+      "opponent": "Switzerland",
+      "date": "Jun 13",
+      "starters": [
+        "Abunada",
+        "Khoukhi",
+        "Miguel",
+        "Al-Oui",
+        "Ahmed",
+        "Madibo",
+        "Laye",
+        "Gaber",
+        "Afif",
+        "Junior",
+        "Abdurisag"
+      ]
     }
   ]
 }
