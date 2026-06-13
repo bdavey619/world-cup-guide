@@ -86,6 +86,8 @@ const POSITION_TIERS = {
   'LW':   { tier: 5, order: 0 }, 'CF-R': { tier: 5, order: 1 },
   'CF':   { tier: 5, order: 2 }, 'F':    { tier: 5, order: 2 },
   'CF-L': { tier: 5, order: 3 }, 'RW':   { tier: 5, order: 4 },
+  // ESPN sometimes uses LF/RF for wide forwards (e.g. in 4-3-3)
+  'LF':   { tier: 5, order: 0 }, 'RF':   { tier: 5, order: 4 },
   // Generic fallbacks ESPN sometimes returns instead of specific codes
   'GK':   { tier: 0, order: 3 },
   'D':    { tier: 1, order: 3 },
