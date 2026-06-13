@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T01:19:01.569Z",
+  "updatedAt": "2026-06-13T01:26:41.732Z",
   "individual": {
     "goals": [
       {
@@ -162,8 +162,8 @@
       "name": "Canada",
       "flag": "🇨🇦",
       "gp": 1,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "cleanSheets": 0,
       "possession": null,
       "yellowCards": 0,
@@ -195,8 +195,8 @@
       "name": "Bosnia-Herzegovina",
       "flag": "🇧🇦",
       "gp": 1,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "cleanSheets": 0,
       "possession": null,
       "yellowCards": 0,
