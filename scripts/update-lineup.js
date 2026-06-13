@@ -216,25 +216,41 @@ function fetchJSON(url) {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const today    = DATE_ARG || new Date().toISOString().split('T')[0]
-  const espnDate = today.replace(/-/g, '')  // 20260611
+  const now     = new Date()
+  const today   = DATE_ARG || now.toISOString().split('T')[0]
 
-  console.log(`\n🌍 World Cup Lineup Updater — ${today}${DRY_RUN ? ' [DRY RUN]' : ''}`)
+  // ESPN uses US/local date for event grouping. Late-night US games (e.g. 9PM ET = 1AM UTC)
+  // are listed under the previous UTC day. When running 00:00–05:59 UTC, also check yesterday.
+  const datesToCheck = [today]
+  if (!DATE_ARG && now.getUTCHours() < 6) {
+    const yesterday = new Date(now - 86400000).toISOString().split('T')[0]
+    datesToCheck.unshift(yesterday)
+  }
+
+  console.log(`\n🌍 World Cup Lineup Updater — ${datesToCheck.join(', ')}${DRY_RUN ? ' [DRY RUN]' : ''}`)
 
   const teamIndex = buildTeamIndex()
   const base      = `https://site.api.espn.com/apis/site/v2/sports/soccer/${ESPN_LEAGUE}`
 
-  // 1. Get today's scoreboard
-  const board = await fetchJSON(`${base}/scoreboard?dates=${espnDate}`)
-  const events = board.events || []
+  // 1. Collect events across all dates to check
+  const events = []
+  for (const date of datesToCheck) {
+    const espnDate = date.replace(/-/g, '')
+    const board = await fetchJSON(`${base}/scoreboard?dates=${espnDate}`)
+    if (board.events?.length) {
+      console.log(`Found ${board.events.length} event(s) for ${date}`)
+      events.push(...board.events)
+    } else {
+      console.log(`No events found for ${date}`)
+    }
+  }
 
   if (!events.length) {
-    console.log(`No events found for ${today}`)
     console.log('Note: if the World Cup league slug changed, update ESPN_LEAGUE in the script.')
     return
   }
 
-  console.log(`Found ${events.length} event(s)\n`)
+  console.log(`Processing ${events.length} total event(s)\n`)
 
   let anyUpdate = false
 
