@@ -193,8 +193,9 @@ function findTeamId(espnName, teamIndex) {
 
 function formatMatchDate(dateStr) {
   // ESPN date format: "2026-06-11T19:00Z" or similar
+  // Use ET so late-night US games (e.g. 9PM ET = 1AM UTC next day) show the local date
   return new Date(dateStr).toLocaleDateString('en-US', {
-    month: 'short', day: 'numeric', timeZone: 'UTC',
+    month: 'short', day: 'numeric', timeZone: 'America/New_York',
   })
 }
 
