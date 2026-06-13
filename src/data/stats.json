@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T01:26:41.732Z",
+  "updatedAt": "2026-06-13T06:33:42.570Z",
   "individual": {
     "goals": [
       {
@@ -170,6 +170,17 @@
       "redCards": 0
     },
     {
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "gp": 1,
+      "gf": 1,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Czechia",
       "flag": "🇨🇿",
       "gp": 1,
@@ -212,30 +223,36 @@
       "possession": 39.5,
       "yellowCards": 2,
       "redCards": 2
+    },
+    {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "gp": 1,
+      "gf": 4,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
     }
   ],
   "records": {
     "highestScoring": {
-      "goals": 2,
+      "goals": 4,
       "teams": [
         {
-          "team": "Mexico",
-          "label": "Mexico 2–0 South Africa",
-          "date": "Jun 11"
-        },
-        {
-          "team": "South Korea",
-          "label": "South Korea 2–1 Czechia",
-          "date": "Jun 11"
+          "team": "United States",
+          "label": "United States 4–1 Paraguay",
+          "date": "Jun 12"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "Mexico 2–0 South Africa",
-      "loser": "South Africa",
-      "winner": "Mexico",
-      "margin": 2,
-      "date": "Jun 11"
+      "label": "United States 4–1 Paraguay",
+      "loser": "Paraguay",
+      "winner": "United States",
+      "margin": 3,
+      "date": "Jun 12"
     }
   }
 }
