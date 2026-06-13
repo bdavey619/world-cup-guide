@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '10",
     "manager": "Gustavo Alfaro",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-4-2",
     "winPct": 0.2,
     "advancePct": 65
   },
@@ -162,121 +162,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Antony Silva",
-        "shortName": "Silva",
-        "position": "GK",
+        "name": "Gil",
+        "shortName": "Gil",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "12",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Gustavo Velázquez",
-        "shortName": "Velázquez",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Ramiro González",
-        "shortName": "González",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Fabián Balbuena",
-        "shortName": "Balbuena",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Júnior Alonso",
+        "name": "Alonso",
         "shortName": "Alonso",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 63,
-        "y": 148,
-        "jersey": 6
+        "y": 148
       },
       {
-        "name": "Mathías Villasanti",
-        "shortName": "Villasanti",
-        "position": "RDM",
-        "role": "mid",
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "CD-R",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 220
-      },
-      {
-        "name": "Andrés Cubas",
-        "shortName": "Cubas",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "15",
         "x": 161,
-        "y": 220,
-        "jersey": 14
+        "y": 148
       },
       {
-        "name": "Miguel Almirón",
+        "name": "Alderete",
+        "shortName": "Alderete",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Cáceres",
+        "shortName": "Cáceres",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Almirón",
         "shortName": "Almirón",
-        "position": "RAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 348,
-        "y": 310,
-        "jersey": 10
-      },
-      {
-        "name": "Julio Enciso",
-        "shortName": "Enciso",
-        "position": "CAM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 300,
-        "jersey": 19
+        "jersey": "10",
+        "x": 63,
+        "y": 256
       },
       {
-        "name": "Óscar Romero",
-        "shortName": "Romero",
-        "position": "LAM",
+        "name": "Cubas",
+        "shortName": "Cubas",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 310
+        "jersey": "14",
+        "x": 161,
+        "y": 256
       },
       {
-        "name": "Antonio Sanabria",
+        "name": "Bobadilla",
+        "shortName": "Bobadilla",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Sanabria",
         "shortName": "Sanabria",
-        "position": "ST",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 390,
-        "jersey": 9
+        "jersey": "9",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Enciso",
+        "shortName": "Enciso",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -442,6 +446,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "7"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 13 vs United States",
+  "matches": [
+    {
+      "eventId": "760417",
+      "opponent": "United States",
+      "date": "Jun 13",
+      "starters": [
+        "Gil",
+        "Alderete",
+        "Gómez",
+        "Alonso",
+        "Cáceres",
+        "Bobadilla",
+        "Cubas",
+        "Almirón",
+        "Gómez",
+        "Enciso",
+        "Sanabria"
+      ]
     }
   ]
 }
