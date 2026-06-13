@@ -10,6 +10,11 @@ on:
     # Running hourly 17:00–01:00 UTC = 1-9PM ET covers every kickoff window.
     - cron: '0 17,18,19,20,21,22,23,0,1 * 6,7 *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date to fetch lineups for (YYYY-MM-DD). Leave blank for auto.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -26,7 +31,12 @@ jobs:
           node-version: 20
 
       - name: Fetch confirmed XIs from ESPN
-        run: node scripts/update-lineup.js
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            node scripts/update-lineup.js --date "${{ inputs.date }}"
+          else
+            node scripts/update-lineup.js
+          fi
 
       - name: Commit and push if changed
         id: diff
