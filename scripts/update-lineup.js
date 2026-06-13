@@ -124,10 +124,10 @@ function buildPitchPlayers(starters, formation, existingTeam) {
 
   // Assign tier + left-right order to each player
   // ESPN stores position on the roster entry itself AND on the athlete
-  const classified = starters.map(p => {
+  const classified = starters.map((p, i) => {
     const posAbbr = p.position?.abbreviation || p.athlete?.position?.abbreviation || ''
     const { tier, order } = classifyPosition(posAbbr)
-    return { ...p, posAbbr, tier, order }
+    return { ...p, posAbbr, tier, order, _idx: i }
   })
 
   // Group by tier
@@ -136,6 +136,24 @@ function buildPitchPlayers(starters, formation, existingTeam) {
     if (!byTier[p.tier]) byTier[p.tier] = []
     byTier[p.tier].push(p)
   })
+
+  // When ESPN returns generic codes (G/D/M/F), all mid+att players collapse into
+  // one tier. Use the formation string to split them into proper rows.
+  if (formation) {
+    const fRows = formation.split('-').map(Number) // e.g. [4,2,3,1]
+    const outfieldTierKeys = [1, 2, 3, 4, 5].filter(t => byTier[t]?.length)
+    if (outfieldTierKeys.length < fRows.length) {
+      // Flatten all outfield players in roster order, then re-slice by formation
+      const outfield = []
+      outfieldTierKeys.forEach(t => {
+        outfield.push(...byTier[t].sort((a, b) => a._idx - b._idx))
+        delete byTier[t]
+      })
+      fRows.forEach((count, i) => {
+        byTier[i + 1] = outfield.splice(0, count)
+      })
+    }
+  }
 
   // Collapse empty tiers to get actual rows
   const activeTiers = Object.keys(byTier).map(Number).sort((a, b) => a - b)

@@ -166,7 +166,7 @@
       {
         "name": "Becker",
         "shortName": "Becker",
-        "position": "G",
+        "position": "GK",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -177,112 +177,112 @@
       {
         "name": "Santos",
         "shortName": "Santos",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
         "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Marquinhos",
-        "shortName": "Marquinhos",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Ibañez",
-        "shortName": "Ibañez",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Magalhães",
         "shortName": "Magalhães",
-        "position": "D",
+        "position": "CB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 389,
-        "y": 148
+        "x": 161,
+        "y": 130
       },
       {
-        "name": "Guimarães",
-        "shortName": "Guimarães",
-        "position": "M",
-        "role": "mid",
+        "name": "Marquinhos",
+        "shortName": "Marquinhos",
+        "position": "CB",
+        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 32,
-        "y": 256
+        "jersey": "4",
+        "x": 293,
+        "y": 130
       },
       {
-        "name": "Paquetá",
-        "shortName": "Paquetá",
-        "position": "M",
-        "role": "mid",
+        "name": "Ibañez",
+        "shortName": "Ibañez",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 127,
-        "y": 256
+        "jersey": "24",
+        "x": 389,
+        "y": 130
       },
       {
         "name": "Casemiro",
         "shortName": "Casemiro",
-        "position": "M",
+        "position": "CDM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 226,
-        "y": 256
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Guimarães",
+        "shortName": "Guimarães",
+        "position": "CDM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "jersey": "8",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Júnior",
-        "shortName": "Júnior",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
+        "shortName": "Vini Jr.",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
-        "x": 325,
-        "y": 256
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Paquetá",
+        "shortName": "Paquetá",
+        "position": "CAM",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Raphinha",
         "shortName": "Raphinha",
-        "position": "M",
-        "role": "mid",
+        "position": "RW",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 420,
-        "y": 256
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Thiago",
         "shortName": "Thiago",
-        "position": "F",
+        "position": "ST",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
         "x": 226,
-        "y": 375
+        "y": 385
       }
     ]
   },
