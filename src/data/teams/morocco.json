@@ -16,7 +16,7 @@
     "lastWCResult": "SF '22",
     "manager": "Mohamed Ouahbi",
     "managerTenure": "2022–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 2,
     "advancePct": 86
   },
@@ -166,119 +166,123 @@
       {
         "name": "Bounou",
         "shortName": "Bounou",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 56,
-        "jersey": 1
-      },
-      {
-        "name": "Hakimi",
-        "shortName": "Hakimi",
-        "position": "RB",
-        "role": "def",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 389,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Aguerd",
-        "shortName": "Aguerd",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Saïss",
-        "shortName": "Saïss",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
+        "jersey": "1",
+        "x": 226,
+        "y": 56
       },
       {
         "name": "Mazraoui",
         "shortName": "Mazraoui",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "3",
         "x": 63,
-        "y": 148,
-        "jersey": 3
+        "y": 148
       },
       {
-        "name": "Amrabat",
-        "shortName": "Amrabat",
-        "position": "RCM",
-        "role": "mid",
+        "name": "Hakimi",
+        "shortName": "Hakimi",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 4
+        "jersey": "2",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Riad",
+        "shortName": "Riad",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Diop",
+        "shortName": "Diop",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Díaz",
+        "shortName": "Díaz",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 32,
+        "y": 256
+      },
+      {
+        "name": "Bouaddi",
+        "shortName": "Bouaddi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 127,
+        "y": 256
+      },
+      {
+        "name": "El Aynaoui",
+        "shortName": "El Aynaoui",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 226,
+        "y": 256
       },
       {
         "name": "Ounahi",
         "shortName": "Ounahi",
-        "position": "DM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 8
+        "jersey": "8",
+        "x": 325,
+        "y": 256
       },
       {
-        "name": "Sabiri",
-        "shortName": "Sabiri",
-        "position": "LCM",
+        "name": "El Khannouss",
+        "shortName": "El Khannouss",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
+        "jersey": "23",
+        "x": 420,
+        "y": 256
       },
       {
-        "name": "Ben Seghir",
-        "shortName": "BenSeghir",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 389,
-        "y": 362
-      },
-      {
-        "name": "Brahim Díaz",
-        "shortName": "B. Díaz",
-        "position": "ST",
+        "name": "Saibari",
+        "shortName": "Saibari",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "11",
         "x": 226,
-        "y": 372,
-        "jersey": 10
-      },
-      {
-        "name": "Boufal",
-        "shortName": "Boufal",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "y": 375
       }
     ]
   },
@@ -444,6 +448,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "21"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 13 vs Brazil",
+  "matches": [
+    {
+      "eventId": "760419",
+      "opponent": "Brazil",
+      "date": "Jun 13",
+      "starters": [
+        "Bounou",
+        "Mazraoui",
+        "Hakimi",
+        "Riad",
+        "Diop",
+        "Díaz",
+        "Bouaddi",
+        "El Aynaoui",
+        "Ounahi",
+        "El Khannouss",
+        "Saibari"
+      ]
     }
   ]
 }
