@@ -175,14 +175,14 @@ export default function Stats() {
     <div>
       {/* ── Individual Leaders ──────────────────────────────────── */}
       <SectionLabel>Individual Leaders</SectionLabel>
-      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 1fr))', gap: 10 }}>
+      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
         <Leaderboard title="⚽ Golden Boot — Top Scorers" entries={individual?.goals} valueLabel="Goals" />
         <Leaderboard title="🎯 Top Assists" entries={individual?.assists} valueLabel="Assists" />
       </div>
 
       {/* ── Team Stats ─────────────────────────────────────────── */}
       <SectionLabel>Team Stats</SectionLabel>
-      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
+      <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: 10 }}>
         <TeamCard title="⚽ Goals Scored"    teams={teams} valueKey="gf" />
         <TeamCard title="🛡️ Clean Sheets"   teams={teams} valueKey="cleanSheets" emptyMsg="None yet" />
         <TeamCard title="🟨 Yellow Cards"   teams={teams} valueKey="yellowCards" />
@@ -195,7 +195,7 @@ export default function Stats() {
       {(records?.highestScoring || records?.biggestDefeat) && (
         <>
           <SectionLabel>Match Records</SectionLabel>
-          <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
+          <div style={{ padding: '0 10px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: 10 }}>
             <RecordCard
               label="🔥 Most Goals in a Game"
               matchLabel={records.highestScoring
