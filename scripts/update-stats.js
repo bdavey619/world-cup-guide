@@ -175,8 +175,11 @@ async function fetchTeamStats(flagMap) {
       const stats = {}
       for (const s of (entry.stats ?? [])) stats[s.name] = s.value
       const gp = (stats.wins ?? 0) + (stats.ties ?? 0) + (stats.losses ?? 0)
+      // Use standings goals — more reliably updated than the per-team stats endpoint
+      const gf = stats.pointsFor      ?? stats.GF ?? 0
+      const ga = stats.pointsAgainst  ?? stats.GA ?? 0
 
-      teamMeta[id] = { name, flag: flagMap[name] ?? '🏳️', gp }
+      teamMeta[id] = { name, flag: flagMap[name] ?? '🏳️', gp, gf, ga }
     }
   }
 
@@ -209,8 +212,8 @@ async function fetchTeamStats(flagMap) {
       name:        meta.name,
       flag:        meta.flag,
       gp:          meta.gp,
-      gf:          s.totalGoals       ?? 0,
-      ga:          s.goalsConceded    ?? 0,
+      gf:          meta.gf,
+      ga:          meta.ga,
       cleanSheets: s.cleanSheet       ?? 0,
       possession:  s.possessionPct    != null ? parseFloat(s.possessionPct.toFixed(1)) : null,
       yellowCards: s.yellowCards      ?? 0,
