@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T20:38:50.120Z",
+  "updatedAt": "2026-06-13T21:34:56.675Z",
   "individual": {
     "goals": [
       {
@@ -225,6 +225,17 @@
       "redCards": 2
     },
     {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "United States",
       "flag": "🇺🇸",
       "gp": 1,
@@ -233,6 +244,17 @@
       "cleanSheets": 0,
       "possession": 65.2,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     }
   ],
