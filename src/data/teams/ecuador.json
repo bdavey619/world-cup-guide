@@ -149,31 +149,31 @@
         "y": 56
       },
       {
-        "name": "Ordóñez",
-        "shortName": "Ordóñez",
-        "position": "D",
+        "name": "Franco",
+        "shortName": "Franco",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "21",
         "x": 104,
         "y": 148
       },
       {
-        "name": "Hincapié",
-        "shortName": "Hincapié",
-        "position": "D",
+        "name": "Ordóñez",
+        "shortName": "Ordóñez",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 226,
         "y": 148
       },
       {
         "name": "Pacho",
         "shortName": "Pacho",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -182,20 +182,20 @@
         "y": 148
       },
       {
-        "name": "Vite",
-        "shortName": "Vite",
-        "position": "M",
+        "name": "Hincapié",
+        "shortName": "Hincapié",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "3",
         "x": 63,
         "y": 256
       },
       {
         "name": "Caicedo",
         "shortName": "Caicedo",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -204,35 +204,35 @@
         "y": 256
       },
       {
-        "name": "Franco",
-        "shortName": "Franco",
-        "position": "M",
+        "name": "Vite",
+        "shortName": "Vite",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "15",
         "x": 293,
-        "y": 256
-      },
-      {
-        "name": "Minda",
-        "shortName": "Minda",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 389,
         "y": 256
       },
       {
         "name": "Yeboah",
         "shortName": "Yeboah",
-        "position": "F",
-        "role": "att",
+        "position": "RM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Plata",
+        "shortName": "Plata",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
         "x": 104,
         "y": 375
       },
@@ -248,13 +248,13 @@
         "y": 375
       },
       {
-        "name": "Plata",
-        "shortName": "Plata",
-        "position": "F",
+        "name": "Minda",
+        "shortName": "Minda",
+        "position": "CF-L",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "14",
         "x": 348,
         "y": 375
       }
@@ -433,14 +433,14 @@
       "starters": [
         "Galíndez",
         "Ordóñez",
-        "Hincapié",
         "Pacho",
+        "Franco",
         "Vite",
         "Caicedo",
-        "Franco",
-        "Minda",
+        "Hincapié",
         "Yeboah",
         "Valencia",
+        "Minda",
         "Plata"
       ]
     }
