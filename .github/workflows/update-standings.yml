@@ -1,14 +1,10 @@
 name: Update Standings
 
-# Runs 3× daily during the group stage (Jun 11 – Jul 2)
-# and once daily during knockout stage (Jul 3 – Jul 23).
-# Also runnable manually via the Actions tab.
+# Runs every 30 minutes during the tournament window (Jun–Jul), offset by 5
+# minutes from the lineup update to avoid simultaneous pushes to main.
 on:
   schedule:
-    # 9 AM, 3 PM, and 10 PM ET (UTC -4 in summer)
-    - cron: '0 13 * * *'   # 9 AM ET
-    - cron: '0 19 * * *'   # 3 PM ET
-    - cron: '0  2 * * *'   # 10 PM ET (next UTC day)
+    - cron: '5,35 0-4,13-23 * 6,7 *'
   workflow_dispatch:
 
 permissions:
