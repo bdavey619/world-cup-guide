@@ -6,10 +6,10 @@ name: Update Confirmed XIs
 on:
   schedule:
     # Runs every 30 minutes during match announcement windows.
-    # Group stage kickoffs: 19:00, 22:00, 00:00, 01:00 UTC — lineups drop ~1hr before.
-    # Every 30 min means a skipped run (common with GitHub Actions cron) still
-    # leaves a second attempt before kickoff rather than missing the window entirely.
-    - cron: '0,30 17,18,19,20,21,22,23,0,1 * 6,7 *'
+    # Kickoff windows (UTC): 17:00–01:00 (afternoon/evening ET) and 00:00–04:30
+    # (midnight ET). Lineups drop ~1hr before kickoff; 30-min frequency survives
+    # a skipped GitHub Actions cron run without missing the window.
+    - cron: '0,30 0-4,17-23 * 6,7 *'
   workflow_dispatch:
     inputs:
       date:
