@@ -212,10 +212,10 @@ function findTeamId(espnName, teamIndex) {
 }
 
 function formatMatchDate(dateStr) {
-  // ESPN date format: "2026-06-11T19:00Z" or similar
-  // Use ET so late-night US games (e.g. 9PM ET = 1AM UTC next day) show the local date
-  return new Date(dateStr).toLocaleDateString('en-US', {
-    month: 'short', day: 'numeric', timeZone: 'America/New_York',
+  // dateStr is a YYYY-MM-DD sports date from the ESPN scoreboard query (already in US local date),
+  // so parse it as UTC noon to avoid any timezone-shift edge cases.
+  return new Date(dateStr + 'T12:00:00Z').toLocaleDateString('en-US', {
+    month: 'short', day: 'numeric', timeZone: 'UTC',
   })
 }
 
@@ -260,7 +260,7 @@ async function main() {
     const board = await fetchJSON(`${base}/scoreboard?dates=${espnDate}`)
     if (board.events?.length) {
       console.log(`Found ${board.events.length} event(s) for ${date}`)
-      events.push(...board.events)
+      events.push(...board.events.map(e => ({ ...e, _queryDate: date })))
     } else {
       console.log(`No events found for ${date}`)
     }
@@ -276,10 +276,10 @@ async function main() {
   let anyUpdate = false
 
   for (const event of events) {
-    const eventId  = event.id
-    const homeTeam = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName || ''
-    const awayTeam = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName || ''
-    const kickoff  = event.date // ISO string
+    const eventId   = event.id
+    const homeTeam  = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName || ''
+    const awayTeam  = event.competitions?.[0]?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName || ''
+    const matchDate = formatMatchDate(event._queryDate) // US sports date ESPN listed the game under
 
     console.log(`▶ ${homeTeam} vs ${awayTeam}`)
 
@@ -320,7 +320,7 @@ async function main() {
       if (!DRY_RUN) {
         team.pitch.players  = buildPitchPlayers(starters, formation, team)
         team.meta.formation = formation || team.meta.formation
-        team.pitchLabel     = `Confirmed XI · ${formatMatchDate(kickoff)} vs ${opponent}`
+        team.pitchLabel     = `Confirmed XI · ${matchDate} vs ${opponent}`
 
         // Accumulate match starters — keyed by eventId so reruns are idempotent
         if (!team.matches) team.matches = []
@@ -331,7 +331,7 @@ async function main() {
         if (existing) {
           existing.starters = starterNames
         } else {
-          team.matches.push({ eventId, opponent, date: formatMatchDate(kickoff), starters: starterNames })
+          team.matches.push({ eventId, opponent, date: matchDate, starters: starterNames })
         }
 
         fs.writeFileSync(filePath, JSON.stringify(team, null, 2) + '\n')
