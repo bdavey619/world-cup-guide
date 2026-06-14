@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T06:59:27.809Z",
+  "updatedAt": "2026-06-14T15:17:37.437Z",
   "individual": {
     "goals": [
       {
@@ -10,6 +10,27 @@
         "value": 2
       },
       {
+        "name": "Connor Metcalfe",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "F",
+        "value": 1
+      },
+      {
         "name": "Ladislav Krejcí",
         "team": "Czechia",
         "flag": "🇨🇿",
@@ -17,9 +38,23 @@
         "value": 1
       },
       {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Hwang In-Beom",
         "team": "South Korea",
         "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "John McGinn",
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "position": "M",
         "value": 1
       },
@@ -35,41 +70,6 @@
         "team": "Mexico",
         "flag": "🇲🇽",
         "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Jovo Lukic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Maurício",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Oh Hyeon-Gyu",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Cyle Larin",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Giovanni Reyna",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "M",
         "value": 1
       }
     ],
@@ -110,6 +110,13 @@
         "value": 1
       },
       {
+        "name": "Paul Okon-Engstler",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Hwang In-Beom",
         "team": "South Korea",
         "flag": "🇰🇷",
@@ -131,16 +138,9 @@
         "value": 1
       },
       {
-        "name": "Érik Lira",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Christian Pulisic",
-        "team": "United States",
-        "flag": "🇺🇸",
+        "name": "Bruno Guimarães",
+        "team": "Brazil",
+        "flag": "🇧🇷",
         "position": "M",
         "value": 1
       }
@@ -165,8 +165,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 51.4,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -187,7 +187,7 @@
       "gf": 1,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": 34.8,
+      "possession": 34.7,
       "yellowCards": 5,
       "redCards": 0
     },
@@ -231,8 +231,8 @@
       "gf": 0,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 71.7,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -253,8 +253,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 68,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -263,9 +263,9 @@
       "gp": 1,
       "gf": 1,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 46.3,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -274,8 +274,8 @@
       "gp": 1,
       "gf": 2,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
+      "cleanSheets": 1,
+      "possession": 28.3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -286,7 +286,7 @@
       "gf": 4,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": 65.2,
+      "possession": 65.3,
       "yellowCards": 1,
       "redCards": 0
     },
@@ -297,8 +297,8 @@
       "gf": 0,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 53.7,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -308,7 +308,7 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 48.6,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -319,8 +319,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 32,
+      "yellowCards": 2,
       "redCards": 0
     }
   ],
