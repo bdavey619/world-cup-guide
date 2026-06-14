@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T22:00:22.399Z",
+  "updatedAt": "2026-06-14T22:46:25.796Z",
   "individual": {
     "goals": [
       {
@@ -339,6 +339,17 @@
       "redCards": 0
     },
     {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "gp": 1,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Czechia",
       "flag": "🇨🇿",
       "gp": 1,
@@ -424,6 +435,17 @@
       "cleanSheets": 1,
       "possession": 46.3,
       "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "gp": 1,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
