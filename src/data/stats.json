@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T21:34:56.675Z",
+  "updatedAt": "2026-06-14T01:24:35.108Z",
   "individual": {
     "goals": [
       {
@@ -159,6 +159,17 @@
       "redCards": 1
     },
     {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Canada",
       "flag": "🇨🇦",
       "gp": 1,
@@ -244,6 +255,17 @@
       "cleanSheets": 0,
       "possession": 65.2,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
