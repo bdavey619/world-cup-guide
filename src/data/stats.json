@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T19:36:35.561Z",
+  "updatedAt": "2026-06-14T19:53:41.326Z",
   "individual": {
     "goals": [
       {
@@ -71,6 +71,111 @@
         "flag": "🇲🇽",
         "position": "F",
         "value": 1
+      },
+      {
+        "name": "Jovo Lukic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Nestory Irankunda",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Oh Hyeon-Gyu",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Giovanni Reyna",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Issa Laye",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Benjamin Tahirovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Patrick Beach",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "G",
+        "value": 0
       }
     ],
     "assists": [
@@ -143,6 +248,111 @@
         "flag": "🇧🇷",
         "position": "M",
         "value": 1
+      },
+      {
+        "name": "Érik Lira",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Christian Pulisic",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Promise David",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Issa Laye",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Benjamin Tahirovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Patrick Beach",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Danley Jean Jacques",
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Alessandro Circati",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "D",
+        "value": 0
       }
     ]
   },
