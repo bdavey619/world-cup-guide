@@ -80,7 +80,9 @@
       "opponent": "Curaçao",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "isAway": false
+      "isAway": false,
+      "score": "7–1",
+      "result": "W"
     },
     {
       "date": "Jun 20",
@@ -286,10 +288,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0
+    "pts": 3,
+    "gf": 7,
+    "ga": 1,
+    "gd": 6
   },
   "squad": [
     {

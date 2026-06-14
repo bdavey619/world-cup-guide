@@ -80,7 +80,9 @@
       "opponent": "Germany",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "isAway": true
+      "isAway": true,
+      "score": "1–7",
+      "result": "L"
     },
     {
       "date": "Jun 20",
@@ -239,8 +241,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
-    "pts": 0
+    "l": 1,
+    "pts": 0,
+    "gf": 1,
+    "ga": 7,
+    "gd": -6
   },
   "squad": [
     {
