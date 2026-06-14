@@ -217,11 +217,9 @@ async function updateStandings() {
       const homeScore = parseInt(home.score ?? 0)
       const awayScore = parseInt(away.score ?? 0)
 
-      // ESPN date "2026-06-11T19:00Z" → "Jun 11"
-      const matchDate = new Date(event.date)
-      // Convert UTC kickoff to ET (UTC-4 in summer) for date label matching
-      const matchDateET = new Date(matchDate.getTime() - 4 * 60 * 60 * 1000)
-      const matchDateLabel = `${MONTH_ABBR[matchDateET.getUTCMonth()]} ${matchDateET.getUTCDate()}`
+      // Use the ESPN scoreboard query date (US local date) rather than converting
+      // the UTC kickoff time — midnight ET games would otherwise land on the wrong date.
+      const matchDateLabel = `${MONTH_ABBR[parseInt(dateStr.slice(4,6))-1]} ${parseInt(dateStr.slice(6,8))}`
 
       for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
         if (!slug) continue
