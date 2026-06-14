@@ -140,9 +140,13 @@ async function fetchIndividualLeaders(flagMap) {
     for (const entry of rawLeaders[key]) {
       const ref = entry.athlete?.$ref ? toHttps(entry.athlete.$ref) : null
       const athlete = athleteRefs.get(ref)
-      if (!athlete) continue
+      if (!athlete) {
+        console.log(`  [${key}] SKIP (no profile): value=${entry.value} ref=${ref?.slice(-30)}`)
+        continue
+      }
       const citizenship = athlete.citizenship ?? ''
       const teamName = ESPN_TO_NAME[citizenship] ?? citizenship
+      console.log(`  [${key}] ${athlete.displayName} | citizenship="${citizenship}" | team="${teamName}" | value=${entry.value}`)
       individual[key].push({
         name:     athlete.displayName ?? athlete.fullName ?? 'Unknown',
         team:     teamName,
