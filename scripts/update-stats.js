@@ -115,13 +115,15 @@ async function fetchIndividualLeaders(flagMap) {
     { key: 'goals',   espnKey: 'goals' },
     { key: 'assists', espnKey: 'assists' },
   ]
+  const TOP_N = 10
+
   const athleteRefs = new Map()
   const rawLeaders = {}
 
   for (const { key, espnKey } of WANT) {
     const cat = catMap[espnKey]
     if (!cat) { rawLeaders[key] = []; continue }
-    const entries = cat.leaders ?? []
+    const entries = (cat.leaders ?? []).slice(0, TOP_N)
     rawLeaders[key] = entries
     for (const e of entries) {
       const ref = e.athlete?.$ref ? toHttps(e.athlete.$ref) : null
@@ -140,13 +142,9 @@ async function fetchIndividualLeaders(flagMap) {
     for (const entry of rawLeaders[key]) {
       const ref = entry.athlete?.$ref ? toHttps(entry.athlete.$ref) : null
       const athlete = athleteRefs.get(ref)
-      if (!athlete) {
-        console.log(`  [${key}] SKIP (no profile): value=${entry.value} ref=${ref?.slice(-30)}`)
-        continue
-      }
+      if (!athlete) continue
       const citizenship = athlete.citizenship ?? ''
       const teamName = ESPN_TO_NAME[citizenship] ?? citizenship
-      console.log(`  [${key}] ${athlete.displayName} | citizenship="${citizenship}" | team="${teamName}" | value=${entry.value}`)
       individual[key].push({
         name:     athlete.displayName ?? athlete.fullName ?? 'Unknown',
         team:     teamName,
