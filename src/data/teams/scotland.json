@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '98",
     "manager": "Steve Clarke",
     "managerTenure": "2019–present",
-    "formation": "3-5-2",
+    "formation": "4-4-2",
     "winPct": 0.3,
     "advancePct": 69
   },
@@ -164,122 +164,123 @@
       {
         "name": "Gunn",
         "shortName": "Gunn",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
-      },
-      {
-        "name": "Hendry",
-        "shortName": "Hendry",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 348,
-        "y": 148,
-        "jersey": 13
-      },
-      {
-        "name": "Hanley",
-        "shortName": "Hanley",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Tierney",
-        "shortName": "Tierney",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 104,
-        "y": 148,
-        "jersey": 6
-      },
-      {
-        "name": "Patterson",
-        "shortName": "Patterson",
-        "position": "RWB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 415,
-        "y": 200,
-        "jersey": 22
-      },
-      {
-        "name": "McTominay",
-        "shortName": "McTominay",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 339,
-        "y": 260,
-        "jersey": 4
-      },
-      {
-        "name": "Gilmour",
-        "shortName": "Gilmour",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 244
-      },
-      {
-        "name": "McGinn",
-        "shortName": "McGinn",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 111,
-        "y": 260,
-        "jersey": 7
+        "y": 56
       },
       {
         "name": "Robertson",
         "shortName": "Robertson",
-        "position": "LWB",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 37,
-        "y": 200,
-        "jersey": 3
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Hanley",
+        "shortName": "Hanley",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Hendry",
+        "shortName": "Hendry",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Hickey",
+        "shortName": "Hickey",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "McGinn",
+        "shortName": "McGinn",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 63,
+        "y": 256
+      },
+      {
+        "name": "McTominay",
+        "shortName": "McTominay",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Ferguson",
+        "shortName": "Ferguson",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Gannon-Doak",
+        "shortName": "Gannon-Doak",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Shankland",
+        "shortName": "Shankland",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 163,
+        "y": 375
       },
       {
         "name": "Adams",
         "shortName": "Adams",
-        "position": "RS",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 372,
-        "jersey": 10
-      },
-      {
-        "name": "Dykes",
-        "shortName": "Dykes",
-        "position": "LS",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 372,
-        "jersey": 9
+        "jersey": "10",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -445,6 +446,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "25"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 13 vs Haiti",
+  "matches": [
+    {
+      "eventId": "760418",
+      "opponent": "Haiti",
+      "date": "Jun 13",
+      "starters": [
+        "Gunn",
+        "Hendry",
+        "Hanley",
+        "Robertson",
+        "Hickey",
+        "Ferguson",
+        "McTominay",
+        "McGinn",
+        "Gannon-Doak",
+        "Adams",
+        "Shankland"
+      ]
     }
   ]
 }
