@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Emerse Faé",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 0.3,
     "advancePct": 78
   },
@@ -133,120 +133,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Yahia Fofana",
+        "name": "Fofana",
         "shortName": "Fofana",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Serge Aurier",
-        "shortName": "Aurier",
-        "position": "RB",
+        "name": "Konan",
+        "shortName": "Konan",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
+        "jersey": "3",
+        "x": 63,
         "y": 148
       },
       {
-        "name": "Willy Boly",
-        "shortName": "Boly",
-        "position": "RCB",
+        "name": "Singo",
+        "shortName": "Singo",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Eric Bailly",
-        "shortName": "Bailly",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "5",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Ghislain Konan",
-        "shortName": "Konan",
-        "position": "LB",
+        "name": "Doué",
+        "shortName": "Doué",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 3
+        "jersey": "17",
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Seko Fofana",
-        "shortName": "S. Fofana",
-        "position": "RCM",
-        "role": "mid",
+        "name": "Agbadou",
+        "shortName": "Agbadou",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 6
-      },
-      {
-        "name": "Franck Kessié",
-        "shortName": "Kessié",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 8
-      },
-      {
-        "name": "Ibrahim Sangaré",
-        "shortName": "Sangaré",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 18
-      },
-      {
-        "name": "Simon Adingra",
-        "shortName": "Adingra",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "20",
         "x": 389,
-        "y": 362,
-        "jersey": 10
+        "y": 148
       },
       {
-        "name": "Sébastien Haller",
-        "shortName": "Haller",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Wilfried Gnonto",
-        "shortName": "Gnonto",
-        "position": "LW",
-        "role": "att",
+        "name": "Kessié",
+        "shortName": "Kessié",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "8",
         "x": 63,
-        "y": 362
+        "y": 256
+      },
+      {
+        "name": "Touré",
+        "shortName": "Touré",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Fofana",
+        "shortName": "Fofana",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Diomande",
+        "shortName": "Diomande",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Wahi",
+        "shortName": "Wahi",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "12",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Pépé",
+        "shortName": "Pépé",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -412,6 +417,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "11"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Ecuador",
+  "matches": [
+    {
+      "eventId": "760423",
+      "opponent": "Ecuador",
+      "date": "Jun 14",
+      "starters": [
+        "Fofana",
+        "Konan",
+        "Singo",
+        "Doué",
+        "Agbadou",
+        "Kessié",
+        "Touré",
+        "Fofana",
+        "Diomande",
+        "Wahi",
+        "Pépé"
+      ]
     }
   ]
 }

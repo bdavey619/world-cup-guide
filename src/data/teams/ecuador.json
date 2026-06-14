@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Sébastian Beccacece",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "3-4-3",
     "winPct": 1,
     "advancePct": 89
   },
@@ -138,121 +138,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Hernán Galíndez",
+        "name": "Galíndez",
         "shortName": "Galíndez",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Ángelo Preciado",
-        "shortName": "Preciado",
-        "position": "RB",
+        "name": "Ordóñez",
+        "shortName": "Ordóñez",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 17
-      },
-      {
-        "name": "Piero Hincapié",
-        "shortName": "Hincapié",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 3
-      },
-      {
-        "name": "Robert Arboleda",
-        "shortName": "Arboleda",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
+        "jersey": "4",
+        "x": 104,
         "y": 148
       },
       {
-        "name": "Pervis Estupiñán",
-        "shortName": "Estupiñán",
-        "position": "LB",
+        "name": "Hincapié",
+        "shortName": "Hincapié",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 7
+        "jersey": "3",
+        "x": 226,
+        "y": 148
       },
       {
-        "name": "Romario Ibarra",
-        "shortName": "Ibarra",
-        "position": "RCM",
-        "role": "mid",
+        "name": "Pacho",
+        "shortName": "Pacho",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "6",
         "x": 348,
-        "y": 244
+        "y": 148
       },
       {
-        "name": "Moisés Caicedo",
-        "shortName": "Caicedo",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 236,
-        "jersey": 23
-      },
-      {
-        "name": "Carlos Gruezo",
-        "shortName": "Gruezo",
-        "position": "LCM",
+        "name": "Vite",
+        "shortName": "Vite",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
-      },
-      {
-        "name": "Gonzalo Plata",
-        "shortName": "Plata",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 389,
-        "y": 362,
-        "jersey": 19
-      },
-      {
-        "name": "Enner Valencia",
-        "shortName": "Valencia",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 372,
-        "jersey": 13
-      },
-      {
-        "name": "Jeremy Sarmiento",
-        "shortName": "Sarmiento",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "15",
         "x": 63,
-        "y": 362
+        "y": 256
+      },
+      {
+        "name": "Caicedo",
+        "shortName": "Caicedo",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Franco",
+        "shortName": "Franco",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Minda",
+        "shortName": "Minda",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Yeboah",
+        "shortName": "Yeboah",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Valencia",
+        "shortName": "Valencia",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Plata",
+        "shortName": "Plata",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -418,6 +422,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "24"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Ivory Coast",
+  "matches": [
+    {
+      "eventId": "760423",
+      "opponent": "Ivory Coast",
+      "date": "Jun 14",
+      "starters": [
+        "Galíndez",
+        "Ordóñez",
+        "Hincapié",
+        "Pacho",
+        "Vite",
+        "Caicedo",
+        "Franco",
+        "Minda",
+        "Yeboah",
+        "Valencia",
+        "Plata"
+      ]
     }
   ]
 }
