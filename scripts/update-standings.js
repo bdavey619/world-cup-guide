@@ -201,20 +201,12 @@ async function updateStandings() {
     try { board = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
     catch { continue }
 
-    if (board.events?.length) console.log(`  [${dateStr}] ${board.events.length} event(s)`)
-
     for (const event of (board.events ?? [])) {
       if (seenEvents.has(event.id)) continue
       seenEvents.add(event.id)
 
       const comp = event.competitions?.[0]
-      const statusState = comp?.status?.type?.state
-      const isCompleted = comp?.status?.type?.completed
-      const debugHome = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName ?? '?'
-      const debugAway = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName ?? '?'
-      console.log(`    [${dateStr}] ${debugHome} vs ${debugAway} | state=${statusState} completed=${isCompleted}`)
-
-      if (!isCompleted) continue
+      if (!comp?.status?.type?.completed) continue
 
       const home = comp.competitors.find(c => c.homeAway === 'home')
       const away = comp.competitors.find(c => c.homeAway === 'away')
@@ -225,7 +217,14 @@ async function updateStandings() {
       const homeScore = parseInt(home.score ?? 0)
       const awayScore = parseInt(away.score ?? 0)
 
+      // ESPN returns events under their UTC date. For midnight-ET games
+      // (e.g. 04:00 UTC June 14 = 00:00 ET June 13) our schedule uses the
+      // US broadcast date (June 13) while ESPN returns the event under June 14.
+      // Build both the query-date label and the previous-day label so either matches.
       const matchDateLabel = `${MONTH_ABBR[parseInt(dateStr.slice(4,6))-1]} ${parseInt(dateStr.slice(6,8))}`
+      const prevMs = new Date(`${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}T12:00:00Z`).getTime() - 86400000
+      const prevDay = new Date(prevMs)
+      const prevDateLabel = `${MONTH_ABBR[prevDay.getUTCMonth()]} ${prevDay.getUTCDate()}`
 
       for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
         if (!slug) continue
@@ -237,7 +236,7 @@ async function updateStandings() {
         const scoreStr   = `${myScore}–${theirScore}`
 
         const matchIdx = (team.schedule ?? []).findIndex(m => {
-          const sameDate = m.date === matchDateLabel
+          const sameDate = m.date === matchDateLabel || m.date === prevDateLabel
           const sameOpp  = m.opponent?.toLowerCase() === oppName.toLowerCase() ||
                            NAME_TO_SLUG[m.opponent] === (isHome ? awaySlug : homeSlug)
           return sameDate && sameOpp
