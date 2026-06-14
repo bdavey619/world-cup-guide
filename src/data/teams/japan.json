@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Hajime Moriyasu",
     "managerTenure": "2018–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 1,
     "advancePct": 79
   },
@@ -159,123 +159,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Shuichi Gonda",
-        "shortName": "Gonda",
-        "position": "GK",
+        "name": "Suzuki",
+        "shortName": "Suzuki",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Yukinari Sugawara",
-        "shortName": "Sugawara",
-        "position": "RB",
+        "name": "Watanabe",
+        "shortName": "Watanabe",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Ko Itakura",
-        "shortName": "Itakura",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Hiroki Ito",
-        "shortName": "H. Ito",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 21
-      },
-      {
-        "name": "Yuto Nagatomo",
-        "shortName": "Nagatomo",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Wataru Endo",
-        "shortName": "Endo",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 220,
-        "jersey": 6
-      },
-      {
-        "name": "Ao Tanaka",
-        "shortName": "Tanaka",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 161,
-        "y": 220,
-        "jersey": 7
-      },
-      {
-        "name": "Takefusa Kubo",
-        "shortName": "Kubo",
-        "position": "RAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 8
-      },
-      {
-        "name": "Mitoma",
-        "shortName": "Mitoma",
-        "position": "CAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 300
-      },
-      {
-        "name": "Ritsu Doan",
-        "shortName": "Doan",
-        "position": "LAM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "16",
         "x": 104,
-        "y": 310,
-        "jersey": 10
+        "y": 130
       },
       {
-        "name": "Ayase Ueda",
+        "name": "Taniguchi",
+        "shortName": "Taniguchi",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 226,
+        "y": 130
+      },
+      {
+        "name": "Ito",
+        "shortName": "Ito",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 348,
+        "y": 130
+      },
+      {
+        "name": "Nakamura",
+        "shortName": "Nakamura",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Sano",
+        "shortName": "Sano",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Kamada",
+        "shortName": "Kamada",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Doan",
+        "shortName": "Doan",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Ueda",
         "shortName": "Ueda",
-        "position": "ST",
-        "role": "att",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "18",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Maeda",
+        "shortName": "Maeda",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Kubo",
+        "shortName": "Kubo",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 226,
-        "y": 390,
-        "jersey": 18
+        "y": 385
       }
     ]
   },
@@ -441,6 +443,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "26"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Netherlands",
+  "matches": [
+    {
+      "eventId": "760425",
+      "opponent": "Netherlands",
+      "date": "Jun 14",
+      "starters": [
+        "Suzuki",
+        "Taniguchi",
+        "Ito",
+        "Watanabe",
+        "Kamada",
+        "Sano",
+        "Nakamura",
+        "Doan",
+        "Ueda",
+        "Maeda",
+        "Kubo"
+      ]
     }
   ]
 }
