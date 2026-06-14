@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Tony Popovic",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "3-4-2-1",
     "winPct": 0.1,
     "advancePct": 49
   },
@@ -151,121 +151,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Mathew Ryan",
-        "shortName": "Ryan",
-        "position": "GK",
+        "name": "Beach",
+        "shortName": "Beach",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "18",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Mat Leckie",
-        "shortName": "Leckie",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 389,
-        "y": 148,
-        "jersey": 7
-      },
-      {
-        "name": "Harry Souttar",
-        "shortName": "Souttar",
-        "position": "RCB",
+        "name": "Circati",
+        "shortName": "Circati",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 19
-      },
-      {
-        "name": "Miloš Degenek",
-        "shortName": "Degenek",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Aziz Behich",
-        "shortName": "Behich",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 16
-      },
-      {
-        "name": "Jackson Irvine",
-        "shortName": "Irvine",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 22
-      },
-      {
-        "name": "Riley McGree",
-        "shortName": "McGree",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236
-      },
-      {
-        "name": "Connor Metcalfe",
-        "shortName": "Metcalfe",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "3",
         "x": 104,
-        "y": 244,
-        "jersey": 8
+        "y": 130
       },
       {
-        "name": "Martin Boyle",
-        "shortName": "Boyle",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 389,
-        "y": 362
-      },
-      {
-        "name": "Mitchell Duke",
-        "shortName": "Duke",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Craig Goodwin",
-        "shortName": "Goodwin",
-        "position": "LW",
-        "role": "att",
+        "name": "Burgess",
+        "shortName": "Burgess",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "21",
+        "x": 226,
+        "y": 130
+      },
+      {
+        "name": "Souttar",
+        "shortName": "Souttar",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 348,
+        "y": 130
+      },
+      {
+        "name": "Okon-Engstler",
+        "shortName": "Okon-Engstler",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 63,
-        "y": 362
+        "y": 215
+      },
+      {
+        "name": "Irankunda",
+        "shortName": "Irankunda",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "O'Neill",
+        "shortName": "O'Neill",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Bos",
+        "shortName": "Bos",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Italiano",
+        "shortName": "Italiano",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Metcalfe",
+        "shortName": "Metcalfe",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Toure",
+        "shortName": "Toure",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -431,6 +435,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "17"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Türkiye",
+  "matches": [
+    {
+      "eventId": "760421",
+      "opponent": "Türkiye",
+      "date": "Jun 14",
+      "starters": [
+        "Beach",
+        "Circati",
+        "Burgess",
+        "Souttar",
+        "Okon-Engstler",
+        "Irankunda",
+        "O'Neill",
+        "Bos",
+        "Italiano",
+        "Metcalfe",
+        "Toure"
+      ]
     }
   ]
 }
