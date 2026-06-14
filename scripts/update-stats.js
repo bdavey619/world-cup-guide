@@ -103,12 +103,11 @@ const ESPN_TO_NAME = {
 }
 
 // ── Individual leaders ────────────────────────────────────────────────────────
-// Derived from completed match details in the scoreboard — covers every scorer
-// regardless of where they rank in ESPN's leaders endpoint.
 
 async function fetchIndividualLeaders(flagMap) {
-  console.log('Fetching individual stats from scoreboard match details…')
+  console.log('Fetching individual stats…')
 
+  // ── Goals: from scoreboard comp.details — covers every scorer for every team
   const today = new Date()
   const dates = []
   for (let offset = -30; offset <= 1; offset++) {
@@ -117,10 +116,8 @@ async function fetchIndividualLeaders(flagMap) {
     dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
   }
 
-  const goalTotals   = {}
-  const assistTotals = {}
-  const seenEvents   = new Set()
-  let debugDone      = false
+  const goalTotals = {}
+  const seenEvents = new Set()
 
   for (const dateStr of dates) {
     let board
@@ -130,11 +127,9 @@ async function fetchIndividualLeaders(flagMap) {
     for (const event of (board.events ?? [])) {
       if (seenEvents.has(event.id)) continue
       seenEvents.add(event.id)
-
       const comp = event.competitions?.[0]
       if (!comp?.status?.type?.completed) continue
 
-      // Build team-ref → canonical name map from this match's competitors
       const teamByRef = {}
       for (const c of (comp.competitors ?? [])) {
         const ref  = c.team?.$ref ?? c.team?.id ?? ''
@@ -142,72 +137,51 @@ async function fetchIndividualLeaders(flagMap) {
         if (ref && name) teamByRef[ref] = name
       }
 
-      // Goals from comp.details (inline in scoreboard, athletesInvolved[0] = scorer)
       for (const detail of (comp.details ?? [])) {
         if (!detail.scoringPlay) continue
-        const typeText  = (detail.type?.text ?? '').toLowerCase()
-        if (typeText.includes('own')) continue
-
+        if ((detail.type?.text ?? '').toLowerCase().includes('own')) continue
         const teamRef  = detail.team?.$ref ?? detail.team?.id ?? ''
-        const teamName = teamByRef[teamRef]
-          ?? ESPN_TO_NAME[detail.team?.displayName]
-          ?? detail.team?.displayName ?? ''
-        const flag       = flagMap[teamName] ?? '🏳️'
+        const teamName = teamByRef[teamRef] ?? ESPN_TO_NAME[detail.team?.displayName] ?? detail.team?.displayName ?? ''
         const scorerName = detail.athletesInvolved?.[0]?.displayName ?? detail.athletesInvolved?.[0]?.fullName ?? ''
-        if (!scorerName) continue
+        if (!scorerName || !teamName) continue
         const key = `${scorerName}|${teamName}`
-        if (!goalTotals[key]) goalTotals[key] = { name: scorerName, team: teamName, flag, position: '', value: 0 }
+        if (!goalTotals[key]) goalTotals[key] = { name: scorerName, team: teamName, flag: flagMap[teamName] ?? '🏳️', position: '', value: 0 }
         goalTotals[key].value++
-      }
-
-      // Assists from match summary scoringPlays (requires separate fetch per match)
-      let summary
-      try { summary = await fetchJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${event.id}`) }
-      catch { continue }
-
-      if (!debugDone && summary.scoringPlays?.length) {
-        console.log(`  DEBUG scoringPlay[0]: ${JSON.stringify(summary.scoringPlays[0]).slice(0, 600)}`)
-        debugDone = true
-      }
-
-      for (const play of (summary.scoringPlays ?? [])) {
-        const typeText  = (play.type?.text ?? '').toLowerCase()
-        if (typeText.includes('own')) continue
-
-        const teamName = ESPN_TO_NAME[play.team?.displayName] ?? play.team?.displayName ?? ''
-        const flag     = flagMap[teamName] ?? '🏳️'
-
-        // Try participants (typed) first, then athletesInvolved (positional)
-        const parts = play.participants ?? play.athletesInvolved ?? []
-        if (!parts.length) continue
-
-        if (parts[0]?.type) {
-          for (const p of parts) {
-            const pType = (p.type?.id ?? p.type?.text ?? '').toLowerCase()
-            const pName = p.athlete?.displayName ?? p.displayName ?? ''
-            if (!pName) continue
-            if (pType.includes('assist')) {
-              const key = `${pName}|${teamName}`
-              if (!assistTotals[key]) assistTotals[key] = { name: pName, team: teamName, flag, position: '', value: 0 }
-              assistTotals[key].value++
-            }
-          }
-        } else if (parts[1]) {
-          // Positional: index 1 = assister
-          const assisterName = parts[1]?.athlete?.displayName ?? parts[1]?.displayName ?? ''
-          if (assisterName) {
-            const key = `${assisterName}|${teamName}`
-            if (!assistTotals[key]) assistTotals[key] = { name: assisterName, team: teamName, flag, position: '', value: 0 }
-            assistTotals[key].value++
-          }
-        }
       }
     }
   }
 
-  const goals   = Object.values(goalTotals).sort((a, b) => b.value - a.value)
+  const goals = Object.values(goalTotals).sort((a, b) => b.value - a.value)
+  console.log(`  goals: ${goals.length} scorers`)
+
+  // ── Assists: from ESPN leaders endpoint (was working correctly before)
+  const assistTotals = {}
+  try {
+    const data = await fetchJSON(LEADERS_URL)
+    const catMap = {}
+    for (const cat of (data.categories ?? [])) catMap[cat.name] = cat
+    const entries = (catMap.assists?.leaders ?? []).slice(0, 25).filter(e => (e.value ?? 0) > 0)
+    const refs = [...new Set(entries.map(e => e.athlete?.$ref ? toHttps(e.athlete.$ref) : null).filter(Boolean))]
+    const profiles = await fetchAll(refs)
+    const profileMap = Object.fromEntries(refs.map((r, i) => [r, profiles[i]]))
+    for (const entry of entries) {
+      const ref     = entry.athlete?.$ref ? toHttps(entry.athlete.$ref) : null
+      const athlete = ref ? profileMap[ref] : null
+      if (!athlete) continue
+      const teamName = ESPN_TO_NAME[athlete.citizenship ?? ''] ?? athlete.citizenship ?? ''
+      if (!teamName) continue
+      assistTotals[`${athlete.displayName}|${teamName}`] = {
+        name: athlete.displayName ?? 'Unknown', team: teamName,
+        flag: flagMap[teamName] ?? '🏳️', position: athlete.position?.abbreviation ?? '',
+        value: entry.value ?? 0,
+      }
+    }
+  } catch (e) {
+    console.warn('  Assists fetch failed:', e.message)
+  }
+
   const assists = Object.values(assistTotals).sort((a, b) => b.value - a.value)
-  console.log(`  goals: ${goals.length} scorers, assists: ${assists.length} assisters`)
+  console.log(`  assists: ${assists.length} assisters`)
   return { goals, assists }
 }
 
