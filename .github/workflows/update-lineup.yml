@@ -7,11 +7,11 @@ on:
   schedule:
     # Runs every 30 minutes covering all World Cup kickoff windows.
     # GitHub Actions cron is always UTC — ET equivalents shown for reference:
-    #   1 PM–7:30 PM ET  →  17:00–23:30 UTC  (afternoon/evening games)
+    #   11 AM–7:30 PM ET →  15:00–23:30 UTC  (pre-match + afternoon/evening games)
     #   8 PM–midnight ET →  00:00–04:00 UTC  (primetime + midnight games)
-    # 30-min frequency means a skipped GitHub Actions cron run still leaves
-    # a second attempt before lineups need to be captured.
-    - cron: '0,30 0-4,17-23 * 6,7 *'
+    # Window starts at 15:00 UTC (11 AM ET) so lineups released ~1hr before
+    # 1 PM ET kickoffs are captured even when GitHub delays runs by 1-2 hours.
+    - cron: '0,30 0-4,15-23 * 6,7 *'
   workflow_dispatch:
     inputs:
       date:
