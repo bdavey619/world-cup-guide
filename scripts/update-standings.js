@@ -201,11 +201,19 @@ async function updateStandings() {
     try { board = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
     catch { continue }
 
+    if (board.events?.length) console.log(`  [${dateStr}] ${board.events.length} event(s)`)
+
     for (const event of (board.events ?? [])) {
       if (seenEvents.has(event.id)) continue
       seenEvents.add(event.id)
 
       const comp = event.competitions?.[0]
+      const statusState = comp?.status?.type?.state
+      const completed   = comp?.status?.type?.completed
+      const home = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName ?? '?'
+      const away = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName ?? '?'
+      console.log(`    ${home} vs ${away} | state=${statusState} completed=${completed}`)
+
       if (!comp?.status?.type?.completed) continue
 
       const home = comp.competitors.find(c => c.homeAway === 'home')
@@ -217,12 +225,7 @@ async function updateStandings() {
       const homeScore = parseInt(home.score ?? 0)
       const awayScore = parseInt(away.score ?? 0)
 
-      // Convert UTC kickoff → ET (UTC−4 EDT) before deriving the date label.
-      // Midnight-ET games (e.g. 04:00 UTC June 14 = 00:00 ET June 13) are returned
-      // by ESPN under the UTC date, which is one day ahead of the ET schedule date.
-      const etMs = new Date(event.date).getTime() - 4 * 60 * 60 * 1000
-      const etDate = new Date(etMs)
-      const matchDateLabel = `${MONTH_ABBR[etDate.getUTCMonth()]} ${etDate.getUTCDate()}`
+      const matchDateLabel = `${MONTH_ABBR[parseInt(dateStr.slice(4,6))-1]} ${parseInt(dateStr.slice(6,8))}`
 
       for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
         if (!slug) continue
