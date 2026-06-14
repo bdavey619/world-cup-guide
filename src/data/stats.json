@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T15:17:37.437Z",
+  "updatedAt": "2026-06-14T19:36:35.561Z",
   "individual": {
     "goals": [
       {
@@ -258,6 +258,17 @@
       "redCards": 0
     },
     {
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "gp": 1,
+      "gf": 7,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "gp": 1,
@@ -322,25 +333,36 @@
       "possession": 32,
       "yellowCards": 2,
       "redCards": 0
+    },
+    {
+      "name": "Curaçao",
+      "flag": "🇨🇼",
+      "gp": 1,
+      "gf": 1,
+      "ga": 7,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
     }
   ],
   "records": {
     "highestScoring": {
-      "goals": 4,
+      "goals": 7,
       "teams": [
         {
-          "team": "United States",
-          "label": "United States 4–1 Paraguay",
-          "date": "Jun 12"
+          "team": "Germany",
+          "label": "Germany 7–1 Curaçao",
+          "date": "Jun 14"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "United States 4–1 Paraguay",
-      "loser": "Paraguay",
-      "winner": "United States",
-      "margin": 3,
-      "date": "Jun 12"
+      "label": "Germany 7–1 Curaçao",
+      "loser": "Curaçao",
+      "winner": "Germany",
+      "margin": 6,
+      "date": "Jun 14"
     }
   }
 }
