@@ -87,7 +87,7 @@ const ESPN_TO_NAME = {
   'DR Congo': 'DR Congo', 'Congo DR': 'DR Congo',
   'Democratic Republic of Congo': 'DR Congo',
   'Ecuador': 'Ecuador', 'Egypt': 'Egypt', 'England': 'England',
-  'France': 'France', 'Germany': 'Germany', 'Ghana': 'Ghana', 'Haiti': 'Haiti',
+  'France': 'France', 'Germany': 'Germany', 'Deutschland': 'Germany', 'Ghana': 'Ghana', 'Haiti': 'Haiti',
   'Iran': 'Iran', 'Iraq': 'Iraq',
   'Ivory Coast': 'Ivory Coast', "Côte d'Ivoire": 'Ivory Coast',
   'Japan': 'Japan', 'Jordan': 'Jordan', 'Mexico': 'Mexico', 'Morocco': 'Morocco',
@@ -143,6 +143,7 @@ async function fetchIndividualLeaders(flagMap) {
       if (!athlete) continue
       const citizenship = athlete.citizenship ?? ''
       const teamName = ESPN_TO_NAME[citizenship] ?? citizenship
+      if (!ESPN_TO_NAME[citizenship]) console.warn(`  Unknown citizenship: "${citizenship}" for ${athlete.displayName}`)
       individual[key].push({
         name:     athlete.displayName ?? athlete.fullName ?? 'Unknown',
         team:     teamName,
