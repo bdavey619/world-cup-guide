@@ -79,7 +79,9 @@
       "opponent": "Haiti",
       "venue": "Gillette Stadium",
       "city": "Boston",
-      "isAway": true
+      "isAway": true,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 19",
@@ -285,10 +287,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0
+    "pts": 3,
+    "gf": 1,
+    "ga": 0,
+    "gd": 1
   },
   "squad": [
     {
