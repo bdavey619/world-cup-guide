@@ -80,7 +80,9 @@
       "opponent": "Australia",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": true
+      "isAway": true,
+      "score": "0–2",
+      "result": "L"
     },
     {
       "date": "Jun 19",

@@ -80,7 +80,9 @@
       "opponent": "Türkiye",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": false
+      "isAway": false,
+      "score": "2–0",
+      "result": "W"
     },
     {
       "date": "Jun 19",
