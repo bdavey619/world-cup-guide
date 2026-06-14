@@ -1,8 +1,360 @@
 {
-  "updatedAt": "2026-06-14T21:24:22.219Z",
+  "updatedAt": "2026-06-14T21:27:36.418Z",
   "individual": {
-    "goals": [],
-    "assists": []
+    "goals": [
+      {
+        "name": "Folarin Balogun",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Connor Metcalfe",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Ladislav Krejcí",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "John McGinn",
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Jovo Lukic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Nestory Irankunda",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Oh Hyeon-Gyu",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Giovanni Reyna",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Issa Laye",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Benjamin Tahirovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Patrick Beach",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "G",
+        "value": 0
+      }
+    ],
+    "assists": [
+      {
+        "name": "Lee Kang-In",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Alex Freeman",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Vladimír Coufal",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Paul Okon-Engstler",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Sead Kolasinac",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Malik Tillman",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Bruno Guimarães",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Érik Lira",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Christian Pulisic",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Promise David",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Issa Laye",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Stepán Chaloupek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Ime Okon",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Benjamin Tahirovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Lee Gi-Hyuk",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "D",
+        "value": 0
+      },
+      {
+        "name": "Patrick Beach",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "G",
+        "value": 0
+      },
+      {
+        "name": "Danley Jean Jacques",
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "position": "M",
+        "value": 0
+      },
+      {
+        "name": "Alessandro Circati",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "D",
+        "value": 0
+      }
+    ]
   },
   "teams": [
     {
