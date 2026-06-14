@@ -25,7 +25,7 @@ function rankColor(rank) {
 // Compact leaderboard: rank | flag name | value pill
 function Leaderboard({ title, entries, valueLabel }) {
   const [expanded, setExpanded] = useState(false)
-  const visible = expanded ? entries : entries?.slice(0, 5)
+  const visible = expanded ? entries?.slice(0, 10) : entries?.slice(0, 5)
 
   if (!entries?.length) return (
     <div style={{ background: 'white', borderRadius: 8, padding: '14px 12px', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
