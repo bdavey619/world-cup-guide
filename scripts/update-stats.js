@@ -20,7 +20,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const TEAMS_DIR  = path.join(__dirname, '../src/data/teams')
 const OUTPUT     = path.join(__dirname, '../src/data/stats.json')
 
-const LEADERS_URL   = 'https://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2026/types/1/leaders?limit=200'
+const SCOREBOARD_URL = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates='
+const SUMMARY_URL    = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='
 const STANDINGS_URL = 'https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings?season=2026'
 const MONTH_ABBR    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
@@ -103,58 +104,66 @@ const ESPN_TO_NAME = {
 }
 
 // ── Individual leaders ────────────────────────────────────────────────────────
+// Derived directly from match scoring plays — avoids ESPN's unreliable leaders endpoint.
 
 async function fetchIndividualLeaders(flagMap) {
-  console.log('Fetching individual leaders…')
-  const data = await fetchJSON(LEADERS_URL)
+  console.log('Fetching individual stats from match summaries…')
 
-  const catMap = {}
-  for (const cat of (data.categories ?? [])) catMap[cat.name] = cat
+  const today = new Date()
+  const dates = []
+  for (let offset = -30; offset <= 1; offset++) {
+    const d = new Date(today)
+    d.setUTCDate(d.getUTCDate() + offset)
+    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
+  }
 
-  const WANT = [
-    { key: 'goals',   espnKey: 'goals' },
-    { key: 'assists', espnKey: 'assists' },
-  ]
-  const athleteRefs = new Map()
-  const rawLeaders = {}
+  const goalTotals   = {}  // "Name|Team" → { name, team, flag, position, value }
+  const assistTotals = {}
+  const seenEvents   = new Set()
 
-  for (const { key, espnKey } of WANT) {
-    const cat = catMap[espnKey]
-    if (!cat) { rawLeaders[key] = []; continue }
-    const entries = cat.leaders ?? []
-    rawLeaders[key] = entries
-    for (const e of entries) {
-      const ref = e.athlete?.$ref ? toHttps(e.athlete.$ref) : null
-      if (ref) athleteRefs.set(ref, null)
+  for (const dateStr of dates) {
+    let board
+    try { board = await fetchJSON(SCOREBOARD_URL + dateStr) }
+    catch { continue }
+
+    for (const event of (board.events ?? [])) {
+      if (seenEvents.has(event.id)) continue
+      seenEvents.add(event.id)
+      const comp = event.competitions?.[0]
+      if (!comp?.status?.type?.completed) continue
+
+      let summary
+      try { summary = await fetchJSON(SUMMARY_URL + event.id) }
+      catch { continue }
+
+      for (const play of (summary.scoringPlays ?? [])) {
+        const teamName  = ESPN_TO_NAME[play.team?.displayName] ?? play.team?.displayName ?? ''
+        const flag      = flagMap[teamName] ?? '🏳️'
+        const isOwnGoal = (play.type?.text ?? '').toLowerCase().includes('own goal')
+
+        for (const p of (play.participants ?? [])) {
+          const pType = (p.type?.id ?? p.type?.text ?? '').toLowerCase()
+          const pName = p.athlete?.displayName ?? p.athlete?.fullName ?? ''
+          if (!pName) continue
+
+          if (pType.includes('scorer') && !isOwnGoal) {
+            const key = `${pName}|${teamName}`
+            if (!goalTotals[key]) goalTotals[key] = { name: pName, team: teamName, flag, position: '', value: 0 }
+            goalTotals[key].value++
+          } else if (pType.includes('assist')) {
+            const key = `${pName}|${teamName}`
+            if (!assistTotals[key]) assistTotals[key] = { name: pName, team: teamName, flag, position: '', value: 0 }
+            assistTotals[key].value++
+          }
+        }
+      }
     }
   }
 
-  const urls = [...athleteRefs.keys()]
-  console.log(`  Fetching ${urls.length} athlete profiles…`)
-  const responses = await fetchAll(urls)
-  urls.forEach((url, i) => athleteRefs.set(url, responses[i]))
-
-  const individual = {}
-  for (const { key } of WANT) {
-    individual[key] = []
-    for (const entry of rawLeaders[key]) {
-      const ref = entry.athlete?.$ref ? toHttps(entry.athlete.$ref) : null
-      const athlete = athleteRefs.get(ref)
-      if (!athlete) { console.warn(`  [${key}] MISSING athlete profile: ${ref}`); continue }
-      const citizenship = athlete.citizenship ?? ''
-      const teamName = ESPN_TO_NAME[citizenship] ?? citizenship
-      console.log(`  [${key}] ${athlete.displayName} | citizenship:"${citizenship}" | mapped:"${teamName}" | value:${entry.value}`)
-      individual[key].push({
-        name:     athlete.displayName ?? athlete.fullName ?? 'Unknown',
-        team:     teamName,
-        flag:     flagMap[teamName] ?? '🏳️',
-        position: athlete.position?.abbreviation ?? '',
-        value:    entry.value ?? 0,
-      })
-    }
-    console.log(`  ${key}: ${individual[key].length} entries`)
-  }
-  return individual
+  const goals   = Object.values(goalTotals).sort((a, b) => b.value - a.value)
+  const assists = Object.values(assistTotals).sort((a, b) => b.value - a.value)
+  console.log(`  goals: ${goals.length} scorers, assists: ${assists.length} assisters`)
+  return { goals, assists }
 }
 
 // ── Team stats ────────────────────────────────────────────────────────────────
