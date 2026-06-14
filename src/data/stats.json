@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T03:45:02.302Z",
+  "updatedAt": "2026-06-14T06:59:27.809Z",
   "individual": {
     "goals": [
       {
@@ -225,6 +225,17 @@
       "redCards": 0
     },
     {
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "gp": 1,
+      "gf": 0,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "South Africa",
       "flag": "🇿🇦",
       "gp": 1,
@@ -251,6 +262,17 @@
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "gp": 1,
       "gf": 1,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "gp": 1,
+      "gf": 2,
       "ga": 0,
       "cleanSheets": 0,
       "possession": null,
