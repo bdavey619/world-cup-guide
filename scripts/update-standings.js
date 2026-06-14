@@ -209,12 +209,12 @@ async function updateStandings() {
 
       const comp = event.competitions?.[0]
       const statusState = comp?.status?.type?.state
-      const completed   = comp?.status?.type?.completed
-      const home = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName ?? '?'
-      const away = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName ?? '?'
-      console.log(`    ${home} vs ${away} | state=${statusState} completed=${completed}`)
+      const isCompleted = comp?.status?.type?.completed
+      const debugHome = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName ?? '?'
+      const debugAway = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName ?? '?'
+      console.log(`    [${dateStr}] ${debugHome} vs ${debugAway} | state=${statusState} completed=${isCompleted}`)
 
-      if (!comp?.status?.type?.completed) continue
+      if (!isCompleted) continue
 
       const home = comp.competitors.find(c => c.homeAway === 'home')
       const away = comp.competitors.find(c => c.homeAway === 'away')
