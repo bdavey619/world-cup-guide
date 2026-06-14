@@ -217,9 +217,12 @@ async function updateStandings() {
       const homeScore = parseInt(home.score ?? 0)
       const awayScore = parseInt(away.score ?? 0)
 
-      // Use the ESPN scoreboard query date (US local date) rather than converting
-      // the UTC kickoff time — midnight ET games would otherwise land on the wrong date.
-      const matchDateLabel = `${MONTH_ABBR[parseInt(dateStr.slice(4,6))-1]} ${parseInt(dateStr.slice(6,8))}`
+      // Convert UTC kickoff → ET (UTC−4 EDT) before deriving the date label.
+      // Midnight-ET games (e.g. 04:00 UTC June 14 = 00:00 ET June 13) are returned
+      // by ESPN under the UTC date, which is one day ahead of the ET schedule date.
+      const etMs = new Date(event.date).getTime() - 4 * 60 * 60 * 1000
+      const etDate = new Date(etMs)
+      const matchDateLabel = `${MONTH_ABBR[etDate.getUTCMonth()]} ${etDate.getUTCDate()}`
 
       for (const [slug, isHome] of [[homeSlug, true], [awaySlug, false]]) {
         if (!slug) continue
