@@ -95,7 +95,9 @@ function Leaderboard({ title, entries, valueLabel }) {
 
 // Mini team leaderboard card (used in the grid)
 function TeamCard({ title, teams, valueKey, format, emptyMsg }) {
+  const [expanded, setExpanded] = useState(false)
   const sorted = [...(teams ?? [])].filter(t => (t[valueKey] ?? 0) > 0).sort((a, b) => b[valueKey] - a[valueKey])
+  const visible = expanded ? sorted.slice(0, 10) : sorted.slice(0, 5)
 
   return (
     <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.07)' }}>
@@ -108,7 +110,7 @@ function TeamCard({ title, teams, valueKey, format, emptyMsg }) {
         <div style={{ padding: '14px 12px', fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--gray-400)', textAlign: 'center' }}>
           {emptyMsg ?? 'No data yet'}
         </div>
-      ) : sorted.map((t, i) => {
+      ) : visible.map((t, i) => {
         let displayRank = 1
         if (i > 0 && t[valueKey] < sorted[i - 1][valueKey]) displayRank = i + 1
         else if (i > 0) displayRank = sorted.findIndex(x => x[valueKey] === t[valueKey]) + 1
@@ -117,7 +119,7 @@ function TeamCard({ title, teams, valueKey, format, emptyMsg }) {
           <div key={t.name} style={{
             display: 'flex', alignItems: 'center', gap: 8,
             padding: '8px 12px',
-            borderBottom: i < sorted.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
+            borderBottom: i < visible.length - 1 ? '0.5px solid var(--gray-100)' : 'none',
           }}>
             <div style={{ width: 20, flexShrink: 0, textAlign: 'center', fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: rankColor(displayRank) }}>
               {displayRank}
@@ -137,6 +139,19 @@ function TeamCard({ title, teams, valueKey, format, emptyMsg }) {
           </div>
         )
       })}
+      {sorted.length > 5 && (
+        <button
+          onClick={() => setExpanded(e => !e)}
+          style={{
+            display: 'block', width: '100%', padding: '9px 12px',
+            background: 'none', border: 'none', cursor: 'pointer',
+            fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 600,
+            color: 'var(--gray-500)', textAlign: 'center',
+          }}
+        >
+          {expanded ? 'Show less ↑' : 'Show top 10 ↓'}
+        </button>
+      )}
     </div>
   )
 }
