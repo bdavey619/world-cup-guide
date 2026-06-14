@@ -115,15 +115,13 @@ async function fetchIndividualLeaders(flagMap) {
     { key: 'goals',   espnKey: 'goals' },
     { key: 'assists', espnKey: 'assists' },
   ]
-  const TOP_N = 10
-
   const athleteRefs = new Map()
   const rawLeaders = {}
 
   for (const { key, espnKey } of WANT) {
     const cat = catMap[espnKey]
     if (!cat) { rawLeaders[key] = []; continue }
-    const entries = (cat.leaders ?? []).slice(0, TOP_N)
+    const entries = cat.leaders ?? []
     rawLeaders[key] = entries
     for (const e of entries) {
       const ref = e.athlete?.$ref ? toHttps(e.athlete.$ref) : null
