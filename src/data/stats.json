@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T01:24:35.108Z",
+  "updatedAt": "2026-06-14T03:45:02.302Z",
   "individual": {
     "goals": [
       {
@@ -247,6 +247,17 @@
       "redCards": 0
     },
     {
+      "name": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "gp": 1,
+      "gf": 1,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "United States",
       "flag": "🇺🇸",
       "gp": 1,
@@ -255,6 +266,17 @@
       "cleanSheets": 0,
       "possession": 65.2,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "gp": 1,
+      "gf": 0,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
