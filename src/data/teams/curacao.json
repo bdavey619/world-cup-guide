@@ -16,7 +16,7 @@
     "lastWCResult": "First ever appearance",
     "manager": "Remko Bicentini",
     "managerTenure": "2016–present",
-    "formation": "4-3-3",
+    "formation": "4-3-1-2",
     "winPct": 0.1,
     "advancePct": 8
   },
@@ -114,118 +114,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Eloy Room",
+        "name": "Room",
         "shortName": "Room",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Leandro Bacuna",
-        "shortName": "Bacuna",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 389,
-        "y": 148,
-        "jersey": 10
-      },
-      {
-        "name": "Jurien Gaari",
-        "shortName": "Gaari",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 3
-      },
-      {
-        "name": "Vurnon Anita",
-        "shortName": "Anita",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Rangelo Janga",
-        "shortName": "Janga",
+        "name": "Fonville",
+        "shortName": "Fonville",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "24",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Gevero Markiet",
-        "shortName": "Markiet",
-        "position": "RCM",
+        "name": "Bazoer",
+        "shortName": "Bazoer",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Obispo",
+        "shortName": "Obispo",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Floranus",
+        "shortName": "Floranus",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 389,
+        "y": 130
+      },
+      {
+        "name": "Bacuna",
+        "shortName": "Bacuna",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Hansen",
+        "shortName": "Hansen",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244
+        "jersey": "12",
+        "x": 161,
+        "y": 215
       },
       {
-        "name": "Brandley Kuwas",
-        "shortName": "Kuwas",
+        "name": "Bacuna",
+        "shortName": "Bacuna",
         "position": "CM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 17
+        "jersey": "10",
+        "x": 293,
+        "y": 215
       },
       {
-        "name": "Cuco Martina",
-        "shortName": "Martina",
-        "position": "LCM",
+        "name": "Comenencia",
+        "shortName": "Comenencia",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244
-      },
-      {
-        "name": "Darryl Luchiano",
-        "shortName": "Luchiano",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "8",
         "x": 389,
-        "y": 362
+        "y": 215
       },
       {
-        "name": "Quentin Bollen",
-        "shortName": "Bollen",
-        "position": "ST",
+        "name": "Chong",
+        "shortName": "Chong",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Locadia",
+        "shortName": "Locadia",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "9",
         "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Jarchinio Antonia",
-        "shortName": "Antonia",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "y": 385
       }
     ]
   },
@@ -391,6 +398,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "11"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Germany",
+  "matches": [
+    {
+      "eventId": "760422",
+      "opponent": "Germany",
+      "date": "Jun 14",
+      "starters": [
+        "Room",
+        "Obispo",
+        "Bazoer",
+        "Fonville",
+        "Floranus",
+        "Hansen",
+        "Bacuna",
+        "Chong",
+        "Bacuna",
+        "Comenencia",
+        "Locadia"
+      ]
     }
   ]
 }
