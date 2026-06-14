@@ -142,45 +142,64 @@ async function fetchIndividualLeaders(flagMap) {
         if (ref && name) teamByRef[ref] = name
       }
 
-      const details = comp.details ?? []
-
-      // Log the first scoring detail we encounter so we can verify the structure
-      const firstGoal = details.find(d => d.scoringPlay)
-      if (!debugDone && firstGoal) {
-        console.log(`  DEBUG detail keys: ${Object.keys(firstGoal).join(', ')}`)
-        console.log(`  DEBUG detail: ${JSON.stringify(firstGoal).slice(0, 600)}`)
-        debugDone = true
-      }
-
-      for (const detail of details) {
+      // Goals from comp.details (inline in scoreboard, athletesInvolved[0] = scorer)
+      for (const detail of (comp.details ?? [])) {
         if (!detail.scoringPlay) continue
-
         const typeText  = (detail.type?.text ?? '').toLowerCase()
-        const isOwnGoal = typeText.includes('own')
-        if (isOwnGoal) continue
+        if (typeText.includes('own')) continue
 
-        // Resolve team name via $ref or direct displayName
         const teamRef  = detail.team?.$ref ?? detail.team?.id ?? ''
         const teamName = teamByRef[teamRef]
           ?? ESPN_TO_NAME[detail.team?.displayName]
-          ?? detail.team?.displayName
-          ?? ''
-        const flag = flagMap[teamName] ?? '🏳️'
+          ?? detail.team?.displayName ?? ''
+        const flag       = flagMap[teamName] ?? '🏳️'
+        const scorerName = detail.athletesInvolved?.[0]?.displayName ?? detail.athletesInvolved?.[0]?.fullName ?? ''
+        if (!scorerName) continue
+        const key = `${scorerName}|${teamName}`
+        if (!goalTotals[key]) goalTotals[key] = { name: scorerName, team: teamName, flag, position: '', value: 0 }
+        goalTotals[key].value++
+      }
 
-        // ESPN soccer uses athletesInvolved: [scorer, assister?]
-        const involved = detail.athletesInvolved ?? []
-        const scorerName   = involved[0]?.displayName ?? involved[0]?.fullName ?? ''
-        const assisterName = involved[1]?.displayName ?? involved[1]?.fullName ?? ''
+      // Assists from match summary scoringPlays (requires separate fetch per match)
+      let summary
+      try { summary = await fetchJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${event.id}`) }
+      catch { continue }
 
-        if (scorerName) {
-          const key = `${scorerName}|${teamName}`
-          if (!goalTotals[key]) goalTotals[key] = { name: scorerName, team: teamName, flag, position: '', value: 0 }
-          goalTotals[key].value++
-        }
-        if (assisterName) {
-          const key = `${assisterName}|${teamName}`
-          if (!assistTotals[key]) assistTotals[key] = { name: assisterName, team: teamName, flag, position: '', value: 0 }
-          assistTotals[key].value++
+      if (!debugDone && summary.scoringPlays?.length) {
+        console.log(`  DEBUG scoringPlay[0]: ${JSON.stringify(summary.scoringPlays[0]).slice(0, 600)}`)
+        debugDone = true
+      }
+
+      for (const play of (summary.scoringPlays ?? [])) {
+        const typeText  = (play.type?.text ?? '').toLowerCase()
+        if (typeText.includes('own')) continue
+
+        const teamName = ESPN_TO_NAME[play.team?.displayName] ?? play.team?.displayName ?? ''
+        const flag     = flagMap[teamName] ?? '🏳️'
+
+        // Try participants (typed) first, then athletesInvolved (positional)
+        const parts = play.participants ?? play.athletesInvolved ?? []
+        if (!parts.length) continue
+
+        if (parts[0]?.type) {
+          for (const p of parts) {
+            const pType = (p.type?.id ?? p.type?.text ?? '').toLowerCase()
+            const pName = p.athlete?.displayName ?? p.displayName ?? ''
+            if (!pName) continue
+            if (pType.includes('assist')) {
+              const key = `${pName}|${teamName}`
+              if (!assistTotals[key]) assistTotals[key] = { name: pName, team: teamName, flag, position: '', value: 0 }
+              assistTotals[key].value++
+            }
+          }
+        } else if (parts[1]) {
+          // Positional: index 1 = assister
+          const assisterName = parts[1]?.athlete?.displayName ?? parts[1]?.displayName ?? ''
+          if (assisterName) {
+            const key = `${assisterName}|${teamName}`
+            if (!assistTotals[key]) assistTotals[key] = { name: assisterName, team: teamName, flag, position: '', value: 0 }
+            assistTotals[key].value++
+          }
         }
       }
     }
