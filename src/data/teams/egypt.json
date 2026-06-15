@@ -137,42 +137,42 @@
         "y": 56
       },
       {
+        "name": "Fatouh",
+        "shortName": "Fatouh",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 63,
+        "y": 130
+      },
+      {
         "name": "Ibrahim",
         "shortName": "Ibrahim",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 63,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Fathy",
         "shortName": "Fathy",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 161,
-        "y": 130
-      },
-      {
-        "name": "Fatouh",
-        "shortName": "Fatouh",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
         "x": 293,
         "y": 130
       },
       {
         "name": "Hany",
         "shortName": "Hany",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -181,57 +181,57 @@
         "y": 130
       },
       {
-        "name": "Zico",
-        "shortName": "Zico",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Salah",
-        "shortName": "Salah",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "Lashin",
         "shortName": "Lashin",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Ashour",
-        "shortName": "Ashour",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 226,
-        "y": 310
+        "x": 163,
+        "y": 215
       },
       {
         "name": "Attia",
         "shortName": "Attia",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Ashour",
+        "shortName": "Ashour",
+        "position": "AM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Salah",
+        "shortName": "Salah",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Zico",
+        "shortName": "Zico",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -239,7 +239,7 @@
         "name": "Marmoush",
         "shortName": "Marmoush",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "22",
@@ -422,16 +422,16 @@
       "date": "Jun 15",
       "starters": [
         "Shoubir",
-        "Ibrahim",
         "Fathy",
+        "Ibrahim",
         "Fatouh",
         "Hany",
-        "Zico",
         "Salah",
         "Lashin",
-        "Ashour",
         "Attia",
-        "Marmoush"
+        "Marmoush",
+        "Ashour",
+        "Zico"
       ]
     }
   ],
