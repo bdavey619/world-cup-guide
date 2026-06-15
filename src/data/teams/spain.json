@@ -162,123 +162,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Unai Simón",
-        "shortName": "U. Simón",
-        "position": "GK",
+        "name": "Simón",
+        "shortName": "Simón",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 226,
-        "y": 56,
-        "jersey": 23
+        "y": 56
       },
       {
-        "name": "Dani Carvajal",
-        "shortName": "Carvajal",
-        "position": "RB",
+        "name": "Cubarsí",
+        "shortName": "Cubarsí",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
+        "jersey": "22",
+        "x": 63,
         "y": 148
       },
       {
-        "name": "Aymeric Laporte",
-        "shortName": "Laporte",
-        "position": "RCB",
+        "name": "Llorente",
+        "shortName": "Llorente",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 14
-      },
-      {
-        "name": "Robin Le Normand",
-        "shortName": "Le Normand",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "5",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Marc Cucurella",
-        "shortName": "Cucurella",
-        "position": "LB",
+        "name": "Laporte",
+        "shortName": "Laporte",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 24
+        "jersey": "14",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 389,
+        "y": 148
       },
       {
         "name": "Rodri",
         "shortName": "Rodri",
-        "position": "RCM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 348,
-        "y": 244,
-        "jersey": 16
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 104,
+        "y": 256
       },
       {
         "name": "Pedri",
         "shortName": "Pedri",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "20",
         "x": 226,
-        "y": 236,
-        "jersey": 20
+        "y": 256
       },
       {
-        "name": "Dani Olmo",
-        "shortName": "Olmo",
-        "position": "LCM",
+        "name": "Ruiz",
+        "shortName": "Ruiz",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "8",
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Torres",
+        "shortName": "Torres",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 104,
-        "y": 244,
-        "jersey": 10
+        "y": 375
       },
       {
-        "name": "Lamine Yamal",
-        "shortName": "Yamal",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 389,
-        "y": 362,
-        "jersey": 19
-      },
-      {
-        "name": "Ferran Torres",
-        "shortName": "F. Torres",
-        "position": "ST",
+        "name": "Oyarzabal",
+        "shortName": "Oyarzabal",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "21",
         "x": 226,
-        "y": 372,
-        "jersey": 7
+        "y": 375
       },
       {
-        "name": "Nico Williams",
-        "shortName": "N. Williams",
-        "position": "LW",
+        "name": "Gavi",
+        "shortName": "Gavi",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362,
-        "jersey": 17
+        "jersey": "9",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -444,6 +446,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "25"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 15 vs Cape Verde",
+  "matches": [
+    {
+      "eventId": "760428",
+      "opponent": "Cape Verde",
+      "date": "Jun 15",
+      "starters": [
+        "Simón",
+        "Cubarsí",
+        "Llorente",
+        "Laporte",
+        "Cucurella",
+        "Rodri",
+        "Pedri",
+        "Ruiz",
+        "Torres",
+        "Oyarzabal",
+        "Gavi"
+      ]
     }
   ]
 }
