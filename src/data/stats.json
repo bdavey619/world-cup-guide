@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T20:40:49.667Z",
+  "updatedAt": "2026-06-15T21:17:07.995Z",
   "individual": {
     "goals": [
       {
@@ -230,6 +230,13 @@
         "name": "Mattias Svanberg",
         "team": "Sweden",
         "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Emam Ashour",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "",
         "value": 1
       }
@@ -524,6 +531,17 @@
       "redCards": 0
     },
     {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Türkiye",
       "flag": "🇹🇷",
       "gp": 1,
@@ -639,6 +657,17 @@
       "gp": 1,
       "gf": 0,
       "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
       "cleanSheets": 0,
       "possession": null,
       "yellowCards": 0,
