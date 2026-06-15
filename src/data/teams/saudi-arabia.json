@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Georgios Donis",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-4-2",
     "winPct": 0.1,
     "advancePct": 37
   },
@@ -150,118 +150,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Mohammed Al-Owais",
+        "name": "Al-Owais",
         "shortName": "Al-Owais",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
-        "isKeyPlayer": false,
-        "isCaptain": true,
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "21",
         "x": 226,
-        "y": 56,
-        "jersey": 21
+        "y": 56
       },
       {
-        "name": "Sami Al-Najei",
-        "shortName": "Al-Najei",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Ali Al-Bulaihi",
-        "shortName": "Al-Bulaihi",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Abdulelah Al-Amri",
+        "name": "Al-Amri",
         "shortName": "Al-Amri",
-        "position": "LCB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Yasser Al-Shahrani",
-        "shortName": "Al-Shahrani",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "4",
         "x": 63,
         "y": 148
       },
       {
-        "name": "Mohammed Kanno",
-        "shortName": "Kanno",
-        "position": "RDM",
-        "role": "mid",
+        "name": "Al-Harbi",
+        "shortName": "Al-Harbi",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 220
-      },
-      {
-        "name": "Ali Al-Hassan",
-        "shortName": "Al-Hassan",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "24",
         "x": 161,
-        "y": 220
+        "y": 148
       },
       {
-        "name": "Saleh Al-Shehri",
-        "shortName": "Al-Shehri",
-        "position": "RAM",
-        "role": "att",
+        "name": "Abdulhamid",
+        "shortName": "Abdulhamid",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 11
+        "jersey": "12",
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Hattan Bahebri",
-        "shortName": "Bahebri",
-        "position": "CAM",
-        "role": "att",
+        "name": "Al-Tambakti",
+        "shortName": "Al-Tambakti",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 300
+        "jersey": "5",
+        "x": 389,
+        "y": 148
       },
       {
-        "name": "Salem Al-Dawsari",
+        "name": "Abu Al-Shamat",
+        "shortName": "Abu Al-Shamat",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 63,
+        "y": 256
+      },
+      {
+        "name": "Al-Dawsari",
         "shortName": "Al-Dawsari",
-        "position": "LAM",
-        "role": "att",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 104,
-        "y": 310,
-        "jersey": 10
+        "jersey": "10",
+        "x": 161,
+        "y": 256
       },
       {
-        "name": "Firas Al-Buraikan",
-        "shortName": "Al-Buraikan",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
+        "name": "Al-Khaibari",
+        "shortName": "Al-Khaibari",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 390
+        "jersey": "15",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Kanno",
+        "shortName": "Kanno",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Al-Brikan",
+        "shortName": "Al-Brikan",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Al-Juwayr",
+        "shortName": "Al-Juwayr",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -432,5 +439,26 @@
     }
   ],
   "population": "35.9M",
-  "location": "Middle East"
+  "location": "Middle East",
+  "pitchLabel": "Confirmed XI · Jun 15 vs Uruguay",
+  "matches": [
+    {
+      "eventId": "760429",
+      "opponent": "Uruguay",
+      "date": "Jun 15",
+      "starters": [
+        "Al-Owais",
+        "Al-Amri",
+        "Al-Harbi",
+        "Abdulhamid",
+        "Al-Tambakti",
+        "Abu Al-Shamat",
+        "Al-Dawsari",
+        "Al-Khaibari",
+        "Kanno",
+        "Al-Brikan",
+        "Al-Juwayr"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Marcelo Bielsa",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 2,
     "advancePct": 87
   },
@@ -162,124 +162,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Sergio Rochet",
-        "shortName": "Rochet",
-        "position": "GK",
+        "name": "Muslera",
+        "shortName": "Muslera",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Guillermo Varela",
-        "shortName": "Varela",
-        "position": "RB",
+        "name": "Viña",
+        "shortName": "Viña",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 13
+        "jersey": "17",
+        "x": 63,
+        "y": 148
       },
       {
-        "name": "Ronald Araújo",
-        "shortName": "Araújo",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "José María Giménez",
-        "shortName": "Giménez",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Mathías Olivera",
+        "name": "Olivera",
         "shortName": "Olivera",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 16
+        "jersey": "16",
+        "x": 161,
+        "y": 148
       },
       {
-        "name": "Federico Valverde",
-        "shortName": "Valverde",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 8
-      },
-      {
-        "name": "Rodrigo Bentancur",
-        "shortName": "Bentancur",
-        "position": "CM",
-        "role": "mid",
+        "name": "Cáceres",
+        "shortName": "Cáceres",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 6
+        "jersey": "3",
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Manuel Ugarte",
-        "shortName": "Ugarte",
-        "position": "LCM",
-        "role": "mid",
+        "name": "Varela",
+        "shortName": "Varela",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 5
-      },
-      {
-        "name": "Facundo Pellistri",
-        "shortName": "Pellistri",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "13",
         "x": 389,
-        "y": 362,
-        "jersey": 11
+        "y": 148
       },
       {
-        "name": "Darwin Núñez",
+        "name": "Araújo",
+        "shortName": "Araújo",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 63,
+        "y": 256
+      },
+      {
+        "name": "Ugarte",
+        "shortName": "Ugarte",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Valverde",
+        "shortName": "Valverde",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Bentancur",
+        "shortName": "Bentancur",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Núñez",
         "shortName": "Núñez",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372,
-        "jersey": 9
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 163,
+        "y": 375
       },
       {
-        "name": "Maximiliano Araújo",
-        "shortName": "M. Araújo",
-        "position": "LW",
+        "name": "Viñas",
+        "shortName": "Viñas",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "jersey": "21",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -450,5 +451,26 @@
     }
   ],
   "population": "3.5M",
-  "location": "South America"
+  "location": "South America",
+  "pitchLabel": "Confirmed XI · Jun 15 vs Saudi Arabia",
+  "matches": [
+    {
+      "eventId": "760429",
+      "opponent": "Saudi Arabia",
+      "date": "Jun 15",
+      "starters": [
+        "Muslera",
+        "Viña",
+        "Olivera",
+        "Cáceres",
+        "Varela",
+        "Araújo",
+        "Ugarte",
+        "Valverde",
+        "Bentancur",
+        "Núñez",
+        "Viñas"
+      ]
+    }
+  ]
 }
