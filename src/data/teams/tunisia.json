@@ -80,7 +80,9 @@
       "opponent": "Sweden",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": true
+      "isAway": true,
+      "score": "1–5",
+      "result": "L"
     },
     {
       "date": "Jun 20",

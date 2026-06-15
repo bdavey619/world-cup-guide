@@ -80,7 +80,9 @@
       "opponent": "Tunisia",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": false
+      "isAway": false,
+      "score": "5–1",
+      "result": "W"
     },
     {
       "date": "Jun 20",
