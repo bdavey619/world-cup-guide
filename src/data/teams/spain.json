@@ -173,31 +173,31 @@
         "y": 56
       },
       {
-        "name": "Cubarsí",
-        "shortName": "Cubarsí",
-        "position": "D",
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "24",
         "x": 63,
         "y": 148
       },
       {
-        "name": "Llorente",
-        "shortName": "Llorente",
-        "position": "D",
+        "name": "Cubarsí",
+        "shortName": "Cubarsí",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "22",
         "x": 161,
         "y": 148
       },
       {
         "name": "Laporte",
         "shortName": "Laporte",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -206,42 +206,42 @@
         "y": 148
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "D",
+        "name": "Llorente",
+        "shortName": "Llorente",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "5",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Rodri",
-        "shortName": "Rodri",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 104,
-        "y": 256
-      },
-      {
         "name": "Pedri",
         "shortName": "Pedri",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "20",
+        "x": 104,
+        "y": 256
+      },
+      {
+        "name": "Rodri",
+        "shortName": "Rodri",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "16",
         "x": 226,
         "y": 256
       },
       {
         "name": "Ruiz",
         "shortName": "Ruiz",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -250,13 +250,13 @@
         "y": 256
       },
       {
-        "name": "Torres",
-        "shortName": "Torres",
-        "position": "F",
+        "name": "Gavi",
+        "shortName": "Gavi",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "9",
         "x": 104,
         "y": 375
       },
@@ -272,13 +272,13 @@
         "y": 375
       },
       {
-        "name": "Gavi",
-        "shortName": "Gavi",
-        "position": "F",
+        "name": "Torres",
+        "shortName": "Torres",
+        "position": "RF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -456,16 +456,16 @@
       "date": "Jun 15",
       "starters": [
         "Simón",
-        "Cubarsí",
-        "Llorente",
         "Laporte",
+        "Cubarsí",
         "Cucurella",
+        "Llorente",
         "Rodri",
         "Pedri",
         "Ruiz",
-        "Torres",
         "Oyarzabal",
-        "Gavi"
+        "Gavi",
+        "Torres"
       ]
     }
   ]
