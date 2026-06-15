@@ -1,7 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Groups({ teams, groups, onSelectTeam }) {
   const [expanded, setExpanded] = useState(false)
+  const [isMobile, setIsMobile] = useState(() => window.innerWidth < 640)
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 639px)')
+    const handler = (e) => setIsMobile(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
 
   function groupTeams(g) {
     return teams
@@ -65,7 +73,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: expanded ? '1fr' : '1fr 1fr',
+        gridTemplateColumns: (expanded && isMobile) ? '1fr' : '1fr 1fr',
         gap: 6,
         padding: '0 10px 24px',
       }}>
