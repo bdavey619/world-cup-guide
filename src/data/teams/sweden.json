@@ -16,7 +16,7 @@
     "lastWCResult": "QF '18",
     "manager": "Jon Dahl Tomasson",
     "managerTenure": "2022–present",
-    "formation": "3-4-1-2",
+    "formation": "3-1-4-2",
     "winPct": 0.5,
     "advancePct": 63
   },
@@ -209,6 +209,17 @@
         "y": 130
       },
       {
+        "name": "Karlström",
+        "shortName": "Karlström",
+        "position": "SW",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 226,
+        "y": 215
+      },
+      {
         "name": "Gudmundsson",
         "shortName": "Gudmundsson",
         "position": "LM",
@@ -217,18 +228,18 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 63,
-        "y": 215
+        "y": 310
       },
       {
-        "name": "Karlström",
-        "shortName": "Karlström",
+        "name": "Nygren",
+        "shortName": "Nygren",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "10",
         "x": 161,
-        "y": 215
+        "y": 310
       },
       {
         "name": "Ayari",
@@ -239,7 +250,7 @@
         "isCaptain": false,
         "jersey": "18",
         "x": 293,
-        "y": 215
+        "y": 310
       },
       {
         "name": "Bernhardsson",
@@ -250,24 +261,13 @@
         "isCaptain": false,
         "jersey": "21",
         "x": 389,
-        "y": 215
-      },
-      {
-        "name": "Nygren",
-        "shortName": "Nygren",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
         "y": 310
       },
       {
         "name": "Gyökeres",
         "shortName": "Gyökeres",
         "position": "CF-R",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
@@ -278,7 +278,7 @@
         "name": "Isak",
         "shortName": "Isak",
         "position": "CF-L",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
@@ -462,8 +462,8 @@
         "Hien",
         "Lindelöf",
         "Lagerbielke",
-        "Ayari",
         "Karlström",
+        "Ayari",
         "Nygren",
         "Gudmundsson",
         "Bernhardsson",
