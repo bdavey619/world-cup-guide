@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T02:59:15.641Z",
+  "updatedAt": "2026-06-15T03:59:50.544Z",
   "individual": {
     "goals": [
       {
@@ -13,6 +13,13 @@
         "name": "Kai Havertz",
         "team": "Germany",
         "flag": "🇩🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Yasin Ayari",
+        "team": "Sweden",
+        "flag": "🇸🇪",
         "position": "",
         "value": 2
       },
@@ -195,6 +202,34 @@
         "name": "Amad Diallo",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Omar Rekik",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mattias Svanberg",
+        "team": "Sweden",
+        "flag": "🇸🇪",
         "position": "",
         "value": 1
       }
