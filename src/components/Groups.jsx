@@ -65,7 +65,7 @@ export default function Groups({ teams, groups, onSelectTeam }) {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
+        gridTemplateColumns: expanded ? '1fr' : '1fr 1fr',
         gap: 6,
         padding: '0 10px 24px',
       }}>
