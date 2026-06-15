@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T06:05:06.785Z",
+  "updatedAt": "2026-06-15T18:00:55.155Z",
   "individual": {
     "goals": [
       {
@@ -236,10 +236,66 @@
     ],
     "assists": [
       {
+        "name": "Alexander Isak",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Joshua Kimmich",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Wilfried Singo",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
+        "position": "D",
+        "value": 1
+      },
+      {
         "name": "Lee Kang-In",
         "team": "South Korea",
         "flag": "🇰🇷",
         "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "F",
         "value": 1
       },
       {
@@ -313,6 +369,20 @@
         "value": 1
       },
       {
+        "name": "Takefusa Kubo",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "F",
+        "value": 1
+      },
+      {
+        "name": "Nathaniel Brown",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "D",
+        "value": 1
+      },
+      {
         "name": "Brahim Díaz",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -332,10 +402,28 @@
         "flag": "🇨🇦",
         "position": "F",
         "value": 1
+      },
+      {
+        "name": "Lucas Bergvall",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "M",
+        "value": 1
       }
     ]
   },
   "teams": [
+    {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "gp": 1,
+      "gf": 0,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
     {
       "name": "Mexico",
       "flag": "🇲🇽",
@@ -376,8 +464,8 @@
       "gf": 0,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 51.6,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -398,8 +486,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 59.8,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -442,7 +530,7 @@
       "gf": 0,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": 71.7,
+      "possession": 71.6,
       "yellowCards": 1,
       "redCards": 0
     },
@@ -453,7 +541,7 @@
       "gf": 5,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 48.7,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -486,7 +574,7 @@
       "gf": 7,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 64.6,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -508,7 +596,7 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 40.2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -519,7 +607,7 @@
       "gf": 2,
       "ga": 0,
       "cleanSheets": 1,
-      "possession": 28.3,
+      "possession": 28.4,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -530,8 +618,8 @@
       "gf": 1,
       "ga": 5,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 51.3,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -543,6 +631,17 @@
       "cleanSheets": 0,
       "possession": 65.3,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Cape Verde",
+      "flag": "🇨🇻",
+      "gp": 1,
+      "gf": 0,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
@@ -584,9 +683,9 @@
       "gp": 1,
       "gf": 1,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 48.4,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -596,7 +695,7 @@
       "gf": 1,
       "ga": 7,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 35.4,
       "yellowCards": 0,
       "redCards": 0
     }
