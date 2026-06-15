@@ -98,6 +98,17 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           }}>
             {nickname}
           </div>
+          {(location || population) && (
+            <div style={{
+              fontSize: 10,
+              color: 'var(--gray-400)',
+              marginTop: 5,
+              fontFamily: 'var(--font-sans)',
+              letterSpacing: '0.04em',
+            }}>
+              {[location, population].filter(Boolean).join(' · ')}
+            </div>
+          )}
         </div>
 
         {/* Right — three stat blocks */}
@@ -106,8 +117,6 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}` },
             { label: 'LAST WC RESULT', value: meta.lastWCResult },
             { label: 'MANAGER', value: meta.manager },
-            { label: 'POPULATION', value: population },
-            { label: 'LOCATION', value: location },
           ].map(({ label, value }) => (
             <div key={label} style={{ textAlign: 'right' }}>
               <div style={{
