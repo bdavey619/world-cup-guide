@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 
 export default function Groups({ teams, groups, onSelectTeam }) {
-  const [expanded, setExpanded] = useState(false)
   const [isMobile, setIsMobile] = useState(() => window.innerWidth < 640)
+  const [expanded, setExpanded] = useState(() => window.innerWidth >= 640)
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 639px)')
