@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T03:59:50.544Z",
+  "updatedAt": "2026-06-15T06:05:06.785Z",
   "individual": {
     "goals": [
       {
@@ -447,6 +447,17 @@
       "redCards": 0
     },
     {
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "gp": 1,
+      "gf": 5,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "South Africa",
       "flag": "🇿🇦",
       "gp": 1,
@@ -509,6 +520,17 @@
       "ga": 0,
       "cleanSheets": 1,
       "possession": 28.3,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "gp": 1,
+      "gf": 1,
+      "ga": 5,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
