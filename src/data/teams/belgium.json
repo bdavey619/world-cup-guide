@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Rudi Garcia",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 3,
     "advancePct": 95
   },
@@ -162,122 +162,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Koen Casteels",
-        "shortName": "Casteels",
-        "position": "GK",
+        "name": "Courtois",
+        "shortName": "Courtois",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Timothy Castagne",
-        "shortName": "Castagne",
-        "position": "RB",
+        "name": "Mechele",
+        "shortName": "Mechele",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 21
+        "jersey": "4",
+        "x": 63,
+        "y": 130
       },
       {
-        "name": "Wout Faes",
-        "shortName": "Faes",
-        "position": "RCB",
+        "name": "Ngoy",
+        "shortName": "Ngoy",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Zeno Debast",
-        "shortName": "Debast",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "25",
         "x": 161,
-        "y": 148,
-        "jersey": 2
+        "y": 130
       },
       {
-        "name": "Arthur Theate",
-        "shortName": "Theate",
-        "position": "LB",
+        "name": "Castagne",
+        "shortName": "Castagne",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 3
+        "jersey": "21",
+        "x": 293,
+        "y": 130
       },
       {
-        "name": "Kevin De Bruyne",
-        "shortName": "De Bruyne",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 348,
-        "y": 244,
-        "jersey": 7
-      },
-      {
-        "name": "Youri Tielemans",
-        "shortName": "Tielemans",
-        "position": "CM",
-        "role": "mid",
+        "name": "Meunier",
+        "shortName": "Meunier",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 8
-      },
-      {
-        "name": "Leandro Trossard",
-        "shortName": "Trossard",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 10
-      },
-      {
-        "name": "Jeremy Doku",
-        "shortName": "Doku",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "15",
         "x": 389,
-        "y": 362,
-        "jersey": 11
+        "y": 130
       },
       {
-        "name": "Romelu Lukaku",
-        "shortName": "Lukaku",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 372,
-        "jersey": 9
-      },
-      {
-        "name": "Lois Openda",
-        "shortName": "Openda",
-        "position": "LW",
-        "role": "att",
+        "name": "Tielemans",
+        "shortName": "Tielemans",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "jersey": "8",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "De Bruyne",
+        "shortName": "De Bruyne",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Doku",
+        "shortName": "Doku",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Trossard",
+        "shortName": "Trossard",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Onana",
+        "shortName": "Onana",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "De Ketelaere",
+        "shortName": "De Ketelaere",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -443,6 +446,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "26"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 15 vs Egypt",
+  "matches": [
+    {
+      "eventId": "760426",
+      "opponent": "Egypt",
+      "date": "Jun 15",
+      "starters": [
+        "Courtois",
+        "Mechele",
+        "Ngoy",
+        "Castagne",
+        "Meunier",
+        "Tielemans",
+        "De Bruyne",
+        "Doku",
+        "Trossard",
+        "Onana",
+        "De Ketelaere"
+      ]
     }
   ]
 }

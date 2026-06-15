@@ -126,119 +126,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Mohamed El-Shenawy",
-        "shortName": "El-Shenawy",
-        "position": "GK",
+        "name": "Shoubir",
+        "shortName": "Shoubir",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Akram Tawfik",
-        "shortName": "Tawfik",
-        "position": "RB",
+        "name": "Ibrahim",
+        "shortName": "Ibrahim",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Ahmed Hegazy",
-        "shortName": "Hegazy",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Omar Kamal",
-        "shortName": "O. Kamal",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Ahmed Fattouh",
-        "shortName": "Fattouh",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "2",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Tarek Hamed",
-        "shortName": "T. Hamed",
-        "position": "RDM",
-        "role": "mid",
+        "name": "Fathy",
+        "shortName": "Fathy",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 220
-      },
-      {
-        "name": "Mohamed Elneny",
-        "shortName": "Elneny",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "14",
         "x": 161,
-        "y": 220
+        "y": 130
       },
       {
-        "name": "Zizo",
-        "shortName": "Zizo",
-        "position": "RAM",
+        "name": "Fatouh",
+        "shortName": "Fatouh",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Hany",
+        "shortName": "Hany",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 389,
+        "y": 130
+      },
+      {
+        "name": "Zico",
+        "shortName": "Zico",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 25
+        "jersey": "11",
+        "x": 163,
+        "y": 215
       },
       {
-        "name": "Emam Ashour",
-        "shortName": "Ashour",
-        "position": "CAM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 300,
-        "jersey": 8
-      },
-      {
-        "name": "Mohamed Salah",
+        "name": "Salah",
         "shortName": "Salah",
-        "position": "LAM",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 104,
-        "y": 310,
-        "jersey": 10
-      },
-      {
-        "name": "Omar Marmoush",
-        "shortName": "Marmoush",
-        "position": "ST",
-        "role": "att",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "10",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Lashin",
+        "shortName": "Lashin",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Ashour",
+        "shortName": "Ashour",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 226,
-        "y": 390,
-        "jersey": 22
+        "y": 310
+      },
+      {
+        "name": "Attia",
+        "shortName": "Attia",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Marmoush",
+        "shortName": "Marmoush",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -404,6 +410,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "9"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 15 vs Belgium",
+  "matches": [
+    {
+      "eventId": "760426",
+      "opponent": "Belgium",
+      "date": "Jun 15",
+      "starters": [
+        "Shoubir",
+        "Ibrahim",
+        "Fathy",
+        "Fatouh",
+        "Hany",
+        "Zico",
+        "Salah",
+        "Lashin",
+        "Ashour",
+        "Attia",
+        "Marmoush"
+      ]
     }
   ]
 }
