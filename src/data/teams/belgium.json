@@ -79,7 +79,9 @@
       "opponent": "Egypt",
       "venue": "Lumen Field",
       "city": "Seattle",
-      "isAway": false
+      "isAway": false,
+      "score": "1–1",
+      "result": "D"
     },
     {
       "date": "Jun 21",
@@ -286,11 +288,12 @@
   },
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "pts": 1,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0
   },
   "squad": [
     {
