@@ -4,6 +4,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
   const {
     accentColor, name, nickname, meta, narrative,
     keyPlayers, tactics, watchFor, allTimeRecord,
+    population, location,
   } = team
 
   const muted = 'var(--gray-500)'
@@ -105,6 +106,8 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}` },
             { label: 'LAST WC RESULT', value: meta.lastWCResult },
             { label: 'MANAGER', value: meta.manager },
+            { label: 'POPULATION', value: population },
+            { label: 'LOCATION', value: location },
           ].map(({ label, value }) => (
             <div key={label} style={{ textAlign: 'right' }}>
               <div style={{
