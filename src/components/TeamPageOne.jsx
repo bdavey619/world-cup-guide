@@ -98,6 +98,17 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           }}>
             {nickname}
           </div>
+          {(location || population) && (
+            <div style={{
+              fontSize: 10,
+              color: 'var(--gray-400)',
+              marginTop: 5,
+              fontFamily: 'var(--font-sans)',
+              letterSpacing: '0.04em',
+            }}>
+              {[location, population].filter(Boolean).join(' · ')}
+            </div>
+          )}
         </div>
 
         {/* Right — three stat blocks */}
