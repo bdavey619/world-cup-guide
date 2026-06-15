@@ -175,7 +175,7 @@
       {
         "name": "Viña",
         "shortName": "Viña",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -184,31 +184,31 @@
         "y": 148
       },
       {
-        "name": "Olivera",
-        "shortName": "Olivera",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Cáceres",
         "shortName": "Cáceres",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Olivera",
+        "shortName": "Olivera",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
         "x": 293,
         "y": 148
       },
       {
         "name": "Varela",
         "shortName": "Varela",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -219,7 +219,7 @@
       {
         "name": "Araújo",
         "shortName": "Araújo",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -230,7 +230,7 @@
       {
         "name": "Ugarte",
         "shortName": "Ugarte",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -239,46 +239,46 @@
         "y": 256
       },
       {
-        "name": "Valverde",
-        "shortName": "Valverde",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 293,
-        "y": 256
-      },
-      {
         "name": "Bentancur",
         "shortName": "Bentancur",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "6",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Valverde",
+        "shortName": "Valverde",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Núñez",
-        "shortName": "Núñez",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 163,
-        "y": 375
-      },
-      {
         "name": "Viñas",
         "shortName": "Viñas",
-        "position": "F",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Núñez",
+        "shortName": "Núñez",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "9",
         "x": 289,
         "y": 375
       }
@@ -460,14 +460,14 @@
       "date": "Jun 15",
       "starters": [
         "Muslera",
-        "Viña",
         "Olivera",
         "Cáceres",
+        "Viña",
         "Varela",
-        "Araújo",
-        "Ugarte",
-        "Valverde",
         "Bentancur",
+        "Ugarte",
+        "Araújo",
+        "Valverde",
         "Núñez",
         "Viñas"
       ]
