@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T00:21:25.704Z",
+  "updatedAt": "2026-06-15T02:59:15.641Z",
   "individual": {
     "goals": [
       {
@@ -190,6 +190,13 @@
         "flag": "🇯🇵",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Amad Diallo",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -325,6 +332,17 @@
       "cleanSheets": 0,
       "possession": 61.1,
       "yellowCards": 2,
+      "redCards": 0
+    },
+    {
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "gp": 1,
+      "gf": 0,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
@@ -501,6 +519,17 @@
       "cleanSheets": 0,
       "possession": 32,
       "yellowCards": 2,
+      "redCards": 0
+    },
+    {
+      "name": "Ivory Coast",
+      "flag": "🇨🇮",
+      "gp": 1,
+      "gf": 1,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
