@@ -16,7 +16,7 @@
     "lastWCResult": "QF '18",
     "manager": "Jon Dahl Tomasson",
     "managerTenure": "2022–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-1-2",
     "winPct": 0.5,
     "advancePct": 63
   },
@@ -163,119 +163,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Robin Olsen",
-        "shortName": "Olsen",
-        "position": "GK",
+        "name": "Nordfeldt",
+        "shortName": "Nordfeldt",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Emil Krafth",
-        "shortName": "Krafth",
-        "position": "RB",
+        "name": "Lagerbielke",
+        "shortName": "Lagerbielke",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148
+        "jersey": "2",
+        "x": 104,
+        "y": 130
       },
       {
-        "name": "Victor Nilsson Lindelöf",
+        "name": "Hien",
+        "shortName": "Hien",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 226,
+        "y": 130
+      },
+      {
+        "name": "Lindelöf",
         "shortName": "Lindelöf",
-        "position": "RCB",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Carl Starfelt",
-        "shortName": "Starfelt",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 15
-      },
-      {
-        "name": "Ludwig Augustinsson",
-        "shortName": "Augustinsson",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Mattias Svanberg",
-        "shortName": "Svanberg",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 220,
-        "jersey": 19
-      },
-      {
-        "name": "Lucas Bergvall",
-        "shortName": "Bergvall",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 220,
-        "jersey": 7
-      },
-      {
-        "name": "Dejan Kulusevski",
-        "shortName": "Kulusevski",
-        "position": "RAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "3",
         "x": 348,
+        "y": 130
+      },
+      {
+        "name": "Gudmundsson",
+        "shortName": "Gudmundsson",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Karlström",
+        "shortName": "Karlström",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Ayari",
+        "shortName": "Ayari",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Bernhardsson",
+        "shortName": "Bernhardsson",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Nygren",
+        "shortName": "Nygren",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 226,
         "y": 310
       },
       {
-        "name": "Jesper Karlsson",
-        "shortName": "Karlsson",
-        "position": "CAM",
-        "role": "mid",
+        "name": "Gyökeres",
+        "shortName": "Gyökeres",
+        "position": "CF-R",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 300
+        "jersey": "17",
+        "x": 163,
+        "y": 385
       },
       {
-        "name": "Anthony Elanga",
-        "shortName": "Elanga",
-        "position": "LAM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 104,
-        "y": 310,
-        "jersey": 11
-      },
-      {
-        "name": "Alexander Isak",
+        "name": "Isak",
         "shortName": "Isak",
-        "position": "ST",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 390,
-        "jersey": 9
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 289,
+        "y": 385
       }
     ]
   },
@@ -441,6 +447,27 @@
       "pos": "FWD",
       "club": "",
       "jersey": "21"
+    }
+  ],
+  "pitchLabel": "Confirmed XI · Jun 14 vs Tunisia",
+  "matches": [
+    {
+      "eventId": "760424",
+      "opponent": "Tunisia",
+      "date": "Jun 14",
+      "starters": [
+        "Nordfeldt",
+        "Hien",
+        "Lindelöf",
+        "Lagerbielke",
+        "Ayari",
+        "Karlström",
+        "Nygren",
+        "Gudmundsson",
+        "Bernhardsson",
+        "Isak",
+        "Gyökeres"
+      ]
     }
   ]
 }
