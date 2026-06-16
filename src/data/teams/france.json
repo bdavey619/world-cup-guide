@@ -192,24 +192,24 @@
         "y": 130
       },
       {
-        "name": "Saliba",
-        "shortName": "Saliba",
+        "name": "Upamecano",
+        "shortName": "Upamecano",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "4",
         "x": 161,
         "y": 130
       },
       {
-        "name": "Upamecano",
-        "shortName": "Upamecano",
+        "name": "Saliba",
+        "shortName": "Saliba",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "17",
         "x": 293,
         "y": 130
       },
@@ -468,8 +468,8 @@
       "date": "Jun 16",
       "starters": [
         "Maignan",
-        "Upamecano",
         "Saliba",
+        "Upamecano",
         "Hernández",
         "Koundé",
         "Dembélé",

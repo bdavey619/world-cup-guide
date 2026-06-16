@@ -132,123 +132,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Ørjan Nyland",
+        "name": "Nyland",
         "shortName": "Nyland",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Kristoffer Ajer",
+        "name": "Ajer",
         "shortName": "Ajer",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 3
+        "jersey": "3",
+        "x": 63,
+        "y": 148
       },
       {
-        "name": "Leo Østigård",
-        "shortName": "Østigård",
-        "position": "RCB",
+        "name": "Ryerson",
+        "shortName": "Ryerson",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Andreas Hanche-Olsen",
-        "shortName": "Hanche-Olsen",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "26",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Birger Meling",
-        "shortName": "Meling",
-        "position": "LB",
+        "name": "Møller Wolfe",
+        "shortName": "Møller Wolfe",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
+        "jersey": "5",
+        "x": 293,
         "y": 148
       },
       {
-        "name": "Martin Ødegaard",
-        "shortName": "Ødegaard",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 10
-      },
-      {
-        "name": "Sander Berge",
-        "shortName": "Berge",
-        "position": "CM",
-        "role": "mid",
+        "name": "Heggem",
+        "shortName": "Heggem",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 8
-      },
-      {
-        "name": "Fredrik Aursnes",
-        "shortName": "Aursnes",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 14
-      },
-      {
-        "name": "Antonio Nusa",
-        "shortName": "Nusa",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "17",
         "x": 389,
-        "y": 362,
-        "jersey": 20
+        "y": 148
       },
       {
-        "name": "Erling Haaland",
-        "shortName": "Haaland",
-        "position": "ST",
-        "role": "att",
+        "name": "Ødegaard",
+        "shortName": "Ødegaard",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372,
-        "jersey": 9
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 104,
+        "y": 256
       },
       {
-        "name": "Alexander Sørloth",
-        "shortName": "Sørloth",
-        "position": "LW",
+        "name": "Berge",
+        "shortName": "Berge",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Aursnes",
+        "shortName": "Aursnes",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Haaland",
+        "shortName": "Haaland",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 63,
-        "y": 362,
-        "jersey": 7
+        "jersey": "9",
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Sørloth",
+        "shortName": "Sørloth",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Nusa",
+        "shortName": "Nusa",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -419,5 +421,26 @@
     }
   ],
   "population": "5.5M",
-  "location": "Northern Europe"
+  "location": "Northern Europe",
+  "pitchLabel": "Confirmed XI · Jun 16 vs Iraq",
+  "matches": [
+    {
+      "eventId": "760430",
+      "opponent": "Iraq",
+      "date": "Jun 16",
+      "starters": [
+        "Nyland",
+        "Ajer",
+        "Ryerson",
+        "Møller Wolfe",
+        "Heggem",
+        "Ødegaard",
+        "Berge",
+        "Aursnes",
+        "Haaland",
+        "Sørloth",
+        "Nusa"
+      ]
+    }
+  ]
 }

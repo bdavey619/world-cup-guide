@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Pape Thiaw",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 0.5,
     "advancePct": 71
   },
@@ -152,7 +152,7 @@
         "isCaptain": false,
         "jersey": "25",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Koulibaly",
@@ -163,7 +163,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Niakhaté",
@@ -174,7 +174,7 @@
         "isCaptain": false,
         "jersey": "19",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Diatta",
@@ -185,7 +185,7 @@
         "isCaptain": false,
         "jersey": "15",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Gueye",
@@ -195,41 +195,52 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 104,
-        "y": 256
+        "x": 163,
+        "y": 215
       },
       {
         "name": "Gueye",
         "shortName": "Gueye",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
-        "y": 256
-      },
-      {
-        "name": "Camara",
-        "shortName": "Camara",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 348,
-        "y": 256
+        "jersey": "5",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Mané",
         "shortName": "Mané",
-        "position": "LF",
-        "role": "att",
+        "position": "AM-L",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
         "x": 104,
-        "y": 375
+        "y": 310
+      },
+      {
+        "name": "Camara",
+        "shortName": "Camara",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Sarr",
+        "shortName": "Sarr",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Jackson",
@@ -240,18 +251,7 @@
         "isCaptain": false,
         "jersey": "11",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Sarr",
-        "shortName": "Sarr",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -435,9 +435,9 @@
         "Koulibaly",
         "Diouf",
         "Diatta",
-        "Gueye",
-        "Gueye",
         "Camara",
+        "Gueye",
+        "Gueye",
         "Jackson",
         "Mané",
         "Sarr"
