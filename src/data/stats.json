@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T07:41:26.145Z",
+  "updatedAt": "2026-06-16T13:03:40.984Z",
   "individual": {
     "goals": [
       {
@@ -278,6 +278,13 @@
     ],
     "assists": [
       {
+        "name": "Chris Wood",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Alexander Isak",
         "team": "Sweden",
         "flag": "🇸🇪",
@@ -348,6 +355,13 @@
         "value": 1
       },
       {
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "position": "D",
+        "value": 1
+      },
+      {
         "name": "Roberto Alvarado",
         "team": "Mexico",
         "flag": "🇲🇽",
@@ -411,6 +425,13 @@
         "value": 1
       },
       {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "F",
+        "value": 1
+      },
+      {
         "name": "Takefusa Kubo",
         "team": "Japan",
         "flag": "🇯🇵",
@@ -430,27 +451,6 @@
         "flag": "🇲🇦",
         "position": "M",
         "value": 1
-      },
-      {
-        "name": "Christian Pulisic",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Promise David",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Lucas Bergvall",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "M",
-        "value": 1
       }
     ]
   },
@@ -461,9 +461,9 @@
       "gp": 1,
       "gf": 0,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 74.3,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -528,7 +528,7 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 66.8,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -583,8 +583,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 53.6,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -627,8 +627,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 48.5,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -693,8 +693,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 33.2,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -725,9 +725,9 @@
       "gp": 1,
       "gf": 0,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 25.7,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -737,8 +737,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 46.4,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -759,7 +759,7 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 51.5,
       "yellowCards": 0,
       "redCards": 0
     },
