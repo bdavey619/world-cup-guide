@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T23:22:07.002Z",
+  "updatedAt": "2026-06-16T00:29:01.365Z",
   "individual": {
     "goals": [
       {
@@ -237,6 +237,20 @@
         "name": "Emam Ashour",
         "team": "Egypt",
         "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Maxi Araújo",
+        "team": "Uruguay",
+        "flag": "🇺🇾",
         "position": "",
         "value": 1
       }
@@ -487,6 +501,17 @@
       "redCards": 0
     },
     {
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Netherlands",
       "flag": "🇳🇱",
       "gp": 1,
@@ -626,6 +651,17 @@
       "ga": 0,
       "cleanSheets": 1,
       "possession": 28.4,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
