@@ -221,17 +221,32 @@ function formatMatchDate(dateStr) {
 
 // ─── HTTP fetch ───────────────────────────────────────────────────────────────
 
-function fetchJSON(url) {
+function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
       let body = ''
       res.on('data', c => body += c)
       res.on('end', () => {
         try { resolve(JSON.parse(body)) }
         catch (e) { reject(new Error(`Bad JSON from ${url}: ${body.slice(0, 120)}`)) }
       })
-    }).on('error', reject)
+      res.on('error', reject)
+    })
+    req.on('error', reject)
+    req.setTimeout(timeoutMs, () => req.destroy(new Error(`Timeout (${timeoutMs}ms): ${url}`)))
   })
+}
+
+async function fetchJSON(url, retries = 3) {
+  for (let i = 0; i <= retries; i++) {
+    try { return await fetchJSONOnce(url) }
+    catch (err) {
+      if (i === retries) throw err
+      const delay = Math.pow(2, i + 1) * 1000
+      console.warn(`  Retry ${i + 1}/${retries} in ${delay / 1000}s: ${err.message.slice(0, 80)}`)
+      await new Promise(r => setTimeout(r, delay))
+    }
+  }
 }
 
 // ─── Main ────────────────────────────────────────────────────────────────────

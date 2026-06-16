@@ -80,17 +80,32 @@ const NAME_TO_SLUG = {
 
 const TEAMS_DIR = path.join(__dirname, '../src/data/teams')
 
-function fetch(url) {
+function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
       let data = ''
       res.on('data', chunk => data += chunk)
       res.on('end', () => {
         try { resolve(JSON.parse(data)) }
         catch (e) { reject(new Error(`JSON parse error: ${e.message}\n${data.slice(0, 200)}`)) }
       })
-    }).on('error', reject)
+      res.on('error', reject)
+    })
+    req.on('error', reject)
+    req.setTimeout(timeoutMs, () => req.destroy(new Error(`Timeout (${timeoutMs}ms): ${url}`)))
   })
+}
+
+async function fetchJSON(url, retries = 3) {
+  for (let i = 0; i <= retries; i++) {
+    try { return await fetchJSONOnce(url) }
+    catch (err) {
+      if (i === retries) throw err
+      const delay = Math.pow(2, i + 1) * 1000
+      console.warn(`  Retry ${i + 1}/${retries} in ${delay / 1000}s: ${err.message.slice(0, 80)}`)
+      await new Promise(r => setTimeout(r, delay))
+    }
+  }
 }
 
 function loadTeam(slug) {
@@ -110,7 +125,7 @@ async function updateStandings() {
   const url = 'https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings?season=2026'
   let espnData
   try {
-    espnData = await fetch(url)
+    espnData = await fetchJSON(url)
   } catch (e) {
     console.error('ESPN fetch failed:', e.message)
     process.exit(1)
@@ -198,7 +213,7 @@ async function updateStandings() {
 
   for (const dateStr of dates) {
     let board
-    try { board = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
+    try { board = await fetchJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
     catch { continue }
 
     for (const event of (board.events ?? [])) {

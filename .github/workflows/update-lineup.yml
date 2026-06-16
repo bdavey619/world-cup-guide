@@ -9,10 +9,11 @@ on:
     # GitHub Actions cron is always UTC — ET equivalents shown for reference:
     #   9 AM–7:30 PM ET  →  13:00–23:30 UTC  (pre-match through all afternoon/evening)
     #   8 PM–midnight ET →  00:00–04:00 UTC  (primetime + midnight games)
-    # Earliest kickoff is 12 PM ET (16:00 UTC); lineups drop ~1hr before (15:00 UTC).
+    # Extended to 05:59 UTC to catch late finishes (extra time/penalties) that
+    # push past midnight ET, and to buffer GitHub scheduler delays of up to 1hr.
     # Starting at 13:00 UTC ensures lineup runs still fire in time even when
     # GitHub delays scheduled jobs by up to 2 hours.
-    - cron: '0,30 0-4,13-23 * 6,7 *'
+    - cron: '0,30 0-5,13-23 * 6,7 *'
   workflow_dispatch:
     inputs:
       date:
@@ -50,8 +51,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/teams/
           git commit -m "Auto: confirmed XIs for $(date -u '+%Y-%m-%d')"
-          git pull --rebase
-          git push
+          for i in 1 2 3; do
+            git pull --rebase && git push && break
+            echo "Push attempt $i failed"
+            [ "$i" = "3" ] && exit 1
+            sleep 5
+          done
           echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Trigger redeploy

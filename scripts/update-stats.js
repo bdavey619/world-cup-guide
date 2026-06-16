@@ -26,18 +26,32 @@ const MONTH_ABBR    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oc
 
 // ── Fetch helpers ─────────────────────────────────────────────────────────────
 
-function fetchJSON(url) {
+function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const opts = { headers: { 'User-Agent': 'world-cup-guide/1.0' } }
-    https.get(url, opts, res => {
+    const req = https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
       let data = ''
       res.on('data', c => data += c)
       res.on('end', () => {
         try { resolve(JSON.parse(data)) }
         catch (e) { reject(new Error(`JSON parse error for ${url}: ${e.message}`)) }
       })
-    }).on('error', reject)
+      res.on('error', reject)
+    })
+    req.on('error', reject)
+    req.setTimeout(timeoutMs, () => req.destroy(new Error(`Timeout (${timeoutMs}ms): ${url}`)))
   })
+}
+
+async function fetchJSON(url, retries = 3) {
+  for (let i = 0; i <= retries; i++) {
+    try { return await fetchJSONOnce(url) }
+    catch (err) {
+      if (i === retries) throw err
+      const delay = Math.pow(2, i + 1) * 1000
+      console.warn(`  Retry ${i + 1}/${retries} in ${delay / 1000}s: ${err.message.slice(0, 80)}`)
+      await new Promise(r => setTimeout(r, delay))
+    }
+  }
 }
 
 function toHttps(url) {
