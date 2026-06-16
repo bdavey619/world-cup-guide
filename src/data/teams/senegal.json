@@ -80,7 +80,9 @@
       "opponent": "France",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, NJ",
-      "isAway": true
+      "isAway": true,
+      "score": "1–3",
+      "result": "L"
     },
     {
       "date": "Jun 22",
@@ -258,10 +260,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "gf": 1,
+    "ga": 3,
+    "gd": -2
   },
   "squad": [
     {
