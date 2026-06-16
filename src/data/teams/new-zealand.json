@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '10",
     "manager": "Darren Bazeley",
     "managerTenure": "2022–present",
-    "formation": "4-4-2",
+    "formation": "4-2-3-1",
     "winPct": 0.1,
     "advancePct": 32
   },
@@ -126,122 +126,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Oliver Sail",
-        "shortName": "Sail",
-        "position": "GK",
+        "name": "Crocombe",
+        "shortName": "Crocombe",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Liberato Cacace",
-        "shortName": "Cacace",
-        "position": "RB",
+        "name": "Surman",
+        "shortName": "Surman",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 13
+        "jersey": "16",
+        "x": 63,
+        "y": 130
       },
       {
-        "name": "Nando de Waard",
-        "shortName": "de Waard",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Michael Boxall",
-        "shortName": "Boxall",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Tim Payne",
+        "name": "Payne",
         "shortName": "Payne",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 2
+        "jersey": "2",
+        "x": 161,
+        "y": 130
       },
       {
-        "name": "Marko Stamenic",
-        "shortName": "Stamenic",
-        "position": "RM",
-        "role": "mid",
+        "name": "Boxall",
+        "shortName": "Boxall",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "5",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Cacace",
+        "shortName": "Cacace",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
         "x": 389,
-        "y": 260,
-        "jersey": 8
+        "y": 130
       },
       {
-        "name": "Joe Bell",
+        "name": "McCowatt",
+        "shortName": "McCowatt",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Just",
+        "shortName": "Just",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Bell",
         "shortName": "Bell",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 244,
-        "jersey": 6
-      },
-      {
-        "name": "Clayton Lewis",
-        "shortName": "Lewis",
-        "position": "LCM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 161,
-        "y": 244
+        "jersey": "6",
+        "x": 104,
+        "y": 310
       },
       {
-        "name": "Ben Waine",
-        "shortName": "Waine",
-        "position": "LM",
+        "name": "Stamenic",
+        "shortName": "Stamenic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Singh",
+        "shortName": "Singh",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 260,
-        "jersey": 18
+        "jersey": "10",
+        "x": 348,
+        "y": 310
       },
       {
-        "name": "Chris Wood",
+        "name": "Wood",
         "shortName": "Wood",
-        "position": "RS",
-        "role": "att",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 293,
-        "y": 372,
-        "jersey": 9
-      },
-      {
-        "name": "Callan Elliot",
-        "shortName": "Elliot",
-        "position": "LS",
-        "role": "att",
-        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 161,
-        "y": 372,
-        "jersey": 24
+        "jersey": "9",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -412,5 +415,26 @@
     }
   ],
   "population": "5.1M",
-  "location": "Oceania"
+  "location": "Oceania",
+  "pitchLabel": "Confirmed XI · Jun 15 vs Iran",
+  "matches": [
+    {
+      "eventId": "760427",
+      "opponent": "Iran",
+      "date": "Jun 15",
+      "starters": [
+        "Crocombe",
+        "Surman",
+        "Payne",
+        "Boxall",
+        "Cacace",
+        "McCowatt",
+        "Just",
+        "Bell",
+        "Stamenic",
+        "Singh",
+        "Wood"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Amir Ghalenoei",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-4-2",
     "winPct": 0.1,
     "advancePct": 62
   },
@@ -154,120 +154,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Alireza Beiranvand",
+        "name": "Beiranvand",
         "shortName": "Beiranvand",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Sadegh Moharrami",
-        "shortName": "Moharrami",
-        "position": "RB",
+        "name": "Mohammadi",
+        "shortName": "Mohammadi",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "5",
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Rezaeian",
+        "shortName": "Rezaeian",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Nemati",
+        "shortName": "Nemati",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Khalilzadeh",
+        "shortName": "Khalilzadeh",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Shoja Khalilzadeh",
-        "shortName": "Khalilzadeh",
-        "position": "RCB",
-        "role": "def",
+        "name": "Ghoddos",
+        "shortName": "Ghoddos",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Majid Hosseini",
-        "shortName": "Hosseini",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Ehsan Hajsafi",
-        "shortName": "Hajsafi",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "14",
         "x": 63,
-        "y": 148,
-        "jersey": 3
+        "y": 256
       },
       {
-        "name": "Saeid Ezatolahi",
-        "shortName": "Ezatolahi",
-        "position": "RDM",
+        "name": "Yousefi",
+        "shortName": "Yousefi",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 293,
-        "y": 220,
-        "jersey": 6
-      },
-      {
-        "name": "Ahmad Nourollahi",
-        "shortName": "Nourollahi",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "17",
         "x": 161,
-        "y": 220
+        "y": 256
       },
       {
-        "name": "Alireza Jahanbakhsh",
-        "shortName": "Jahanbakhsh",
-        "position": "RAM",
+        "name": "Mohebbi",
+        "shortName": "Mohebbi",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 7
+        "jersey": "8",
+        "x": 293,
+        "y": 256
       },
       {
-        "name": "Ansarifard",
-        "shortName": "Ansarifard",
-        "position": "CAM",
+        "name": "Ezatolahi",
+        "shortName": "Ezatolahi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Taremi",
+        "shortName": "Taremi",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 300
+        "jersey": "9",
+        "x": 163,
+        "y": 375
       },
       {
-        "name": "Allahyar",
-        "shortName": "Allahyar",
-        "position": "LAM",
+        "name": "Moghanloo",
+        "shortName": "Moghanloo",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Mehdi Taremi",
-        "shortName": "Taremi",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 390,
-        "jersey": 9
+        "jersey": "20",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -438,5 +443,26 @@
     }
   ],
   "population": "87.9M",
-  "location": "Middle East"
+  "location": "Middle East",
+  "pitchLabel": "Confirmed XI · Jun 15 vs New Zealand",
+  "matches": [
+    {
+      "eventId": "760427",
+      "opponent": "New Zealand",
+      "date": "Jun 15",
+      "starters": [
+        "Beiranvand",
+        "Mohammadi",
+        "Rezaeian",
+        "Nemati",
+        "Khalilzadeh",
+        "Ghoddos",
+        "Yousefi",
+        "Mohebbi",
+        "Ezatolahi",
+        "Taremi",
+        "Moghanloo"
+      ]
+    }
+  ]
 }

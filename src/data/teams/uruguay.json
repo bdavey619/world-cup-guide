@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Marcelo Bielsa",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "4-2-3-1",
     "winPct": 2,
     "advancePct": 87
   },
@@ -183,7 +183,7 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Cáceres",
@@ -194,7 +194,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Olivera",
@@ -205,7 +205,7 @@
         "isCaptain": false,
         "jersey": "16",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Varela",
@@ -216,73 +216,73 @@
         "isCaptain": false,
         "jersey": "13",
         "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Araújo",
-        "shortName": "Araújo",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 63,
-        "y": 256
-      },
-      {
-        "name": "Ugarte",
-        "shortName": "Ugarte",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 161,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Bentancur",
         "shortName": "Bentancur",
-        "position": "CM-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "6",
-        "x": 293,
-        "y": 256
+        "x": 163,
+        "y": 215
       },
       {
-        "name": "Valverde",
-        "shortName": "Valverde",
+        "name": "Ugarte",
+        "shortName": "Ugarte",
         "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Araújo",
+        "shortName": "Araújo",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 389,
-        "y": 256
+        "jersey": "20",
+        "x": 104,
+        "y": 310
       },
       {
         "name": "Viñas",
         "shortName": "Viñas",
-        "position": "CF-R",
-        "role": "att",
+        "position": "AM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 163,
-        "y": 375
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Valverde",
+        "shortName": "Valverde",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Núñez",
         "shortName": "Núñez",
-        "position": "CF-L",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
-        "x": 289,
-        "y": 375
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -467,12 +467,12 @@
         "Cáceres",
         "Viña",
         "Varela",
+        "Viñas",
         "Bentancur",
         "Ugarte",
-        "Araújo",
-        "Valverde",
         "Núñez",
-        "Viñas"
+        "Araújo",
+        "Valverde"
       ]
     }
   ]
