@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T18:09:05.653Z",
+  "updatedAt": "2026-06-16T21:20:36.853Z",
   "individual": {
     "goals": [
       {
@@ -27,6 +27,13 @@
         "name": "Elijah Just",
         "team": "New Zealand",
         "flag": "🇳🇿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 2
       },
@@ -272,6 +279,20 @@
         "name": "Mohammad Mohebbi",
         "team": "Iran",
         "flag": "🇮🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ibrahim Mbaye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "",
         "value": 1
       }
@@ -643,6 +664,17 @@
       "redCards": 0
     },
     {
+      "name": "France",
+      "flag": "🇫🇷",
+      "gp": 1,
+      "gf": 3,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Germany",
       "flag": "🇩🇪",
       "gp": 1,
@@ -683,6 +715,17 @@
       "ga": 0,
       "cleanSheets": 1,
       "possession": 28.4,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "gp": 1,
+      "gf": 1,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
