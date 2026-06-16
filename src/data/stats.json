@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T00:29:01.365Z",
+  "updatedAt": "2026-06-16T07:41:26.145Z",
   "individual": {
     "goals": [
       {
@@ -20,6 +20,13 @@
         "name": "Yasin Ayari",
         "team": "Sweden",
         "flag": "🇸🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Elijah Just",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
         "position": "",
         "value": 2
       },
@@ -251,6 +258,20 @@
         "name": "Maxi Araújo",
         "team": "Uruguay",
         "flag": "🇺🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mohammad Mohebbi",
+        "team": "Iran",
+        "flag": "🇮🇷",
         "position": "",
         "value": 1
       }
@@ -600,6 +621,17 @@
       "redCards": 2
     },
     {
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "gp": 1,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Switzerland",
       "flag": "🇨🇭",
       "gp": 1,
@@ -718,6 +750,17 @@
       "cleanSheets": 0,
       "possession": 53.7,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "gp": 1,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
