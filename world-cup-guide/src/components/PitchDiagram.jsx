@@ -151,21 +151,6 @@ export default function PitchDiagram({ players, accentColor, onPlayerClick, sele
                 {p.jersey}
               </text>
             )}
-            {/* Selected indicator */}
-            {isSelected && (
-              <text
-                x={p.x}
-                y={p.y + (p.jersey != null ? 12 : 5)}
-                textAnchor="middle"
-                fill="white"
-                fillOpacity={1}
-                fontSize={6.5}
-                fontWeight="700"
-                fontFamily="sans-serif"
-              >
-                ▼
-              </text>
-            )}
           </g>
         )
       })}
