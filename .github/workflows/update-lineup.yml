@@ -5,15 +5,11 @@ name: Update Confirmed XIs
 # writes + pushes when it finds new starters — silent no-op otherwise.
 on:
   schedule:
-    # Runs every 30 minutes covering all World Cup kickoff windows.
-    # GitHub Actions cron is always UTC — ET equivalents shown for reference:
-    #   9 AM–7:30 PM ET  →  13:00–23:30 UTC  (pre-match through all afternoon/evening)
-    #   8 PM–midnight ET →  00:00–04:00 UTC  (primetime + midnight games)
-    # Extended to 05:59 UTC to catch late finishes (extra time/penalties) that
-    # push past midnight ET, and to buffer GitHub scheduler delays of up to 1hr.
-    # Starting at 13:00 UTC ensures lineup runs still fire in time even when
-    # GitHub delays scheduled jobs by up to 2 hours.
-    - cron: '0,30 0-5,13-23 * 6,7 *'
+    # Runs every 30 minutes, all day, throughout June and July.
+    # Games run 9 AM–9 PM PT (16:00–04:00 UTC); extra time / penalties can push
+    # finishes to ~06:00 UTC. Running around the clock eliminates any gap where
+    # scores, standings, or XIs could go stale overnight.
+    - cron: '0,30 * * 6,7 *'
   workflow_dispatch:
     inputs:
       date:
