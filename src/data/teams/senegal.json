@@ -133,121 +133,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Edouard Mendy",
+        "name": "Mendy",
         "shortName": "Mendy",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 56,
-        "jersey": 16
-      },
-      {
-        "name": "Bouna Sarr",
-        "shortName": "B. Sarr",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Kalidou Koulibaly",
-        "shortName": "Koulibaly",
-        "position": "RCB",
-        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 3
+        "jersey": "16",
+        "x": 226,
+        "y": 56
       },
       {
-        "name": "Abdou Diallo",
-        "shortName": "A. Diallo",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Ismail Jakobs",
-        "shortName": "Jakobs",
+        "name": "Diouf",
+        "shortName": "Diouf",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "25",
         "x": 63,
-        "y": 148,
-        "jersey": 14
+        "y": 148
       },
       {
-        "name": "Idrissa Gueye",
+        "name": "Koulibaly",
+        "shortName": "Koulibaly",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Niakhaté",
+        "shortName": "Niakhaté",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Diatta",
+        "shortName": "Diatta",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Gueye",
         "shortName": "Gueye",
-        "position": "RCM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 5
+        "jersey": "26",
+        "x": 104,
+        "y": 256
       },
       {
-        "name": "Cheikhou Kouyaté",
-        "shortName": "Kouyaté",
+        "name": "Gueye",
+        "shortName": "Gueye",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "5",
         "x": 226,
-        "y": 236
+        "y": 256
       },
       {
-        "name": "Pape Matar Sarr",
-        "shortName": "P.M. Sarr",
-        "position": "LCM",
+        "name": "Camara",
+        "shortName": "Camara",
+        "position": "RM",
         "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 17
-      },
-      {
-        "name": "Ismaïla Sarr",
-        "shortName": "I. Sarr",
-        "position": "RW",
-        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 362,
-        "jersey": 18
+        "jersey": "8",
+        "x": 348,
+        "y": 256
       },
       {
-        "name": "Habib Diallo",
-        "shortName": "H. Diallo",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 226,
-        "y": 372
-      },
-      {
-        "name": "Sadio Mané",
+        "name": "Mané",
         "shortName": "Mané",
-        "position": "LW",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 63,
-        "y": 362,
-        "jersey": 10
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Jackson",
+        "shortName": "Jackson",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Sarr",
+        "shortName": "Sarr",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -418,5 +422,26 @@
     }
   ],
   "population": "17.8M",
-  "location": "West Africa"
+  "location": "West Africa",
+  "pitchLabel": "Confirmed XI · Jun 16 vs France",
+  "matches": [
+    {
+      "eventId": "760432",
+      "opponent": "France",
+      "date": "Jun 16",
+      "starters": [
+        "Mendy",
+        "Niakhaté",
+        "Koulibaly",
+        "Diouf",
+        "Diatta",
+        "Gueye",
+        "Gueye",
+        "Camara",
+        "Jackson",
+        "Mané",
+        "Sarr"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,7 @@
     "lastWCResult": "Final '22",
     "manager": "Deschamps",
     "managerTenure": "2012–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 12,
     "advancePct": 97
   },
@@ -172,13 +172,46 @@
       {
         "name": "Maignan",
         "shortName": "Maignan",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Hernández",
+        "shortName": "Hernández",
+        "position": "LB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 56,
-        "jersey": 16
+        "jersey": "19",
+        "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Saliba",
+        "shortName": "Saliba",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Upamecano",
+        "shortName": "Upamecano",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 293,
+        "y": 130
       },
       {
         "name": "Koundé",
@@ -187,107 +220,75 @@
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "5",
         "x": 389,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Saliba",
-        "shortName": "Saliba",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 17
-      },
-      {
-        "name": "Upamecano",
-        "shortName": "Upamecano",
-        "position": "CB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "T. Hernández",
-        "shortName": "T. Hernández",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148,
-        "jersey": 19
-      },
-      {
-        "name": "Youssouf Fofana",
-        "shortName": "Fofana",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244
-      },
-      {
-        "name": "Tchouaméni",
-        "shortName": "Tchouaméni",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 8
+        "y": 130
       },
       {
         "name": "Rabiot",
         "shortName": "Rabiot",
-        "position": "LCM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "14",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Tchouaméni",
+        "shortName": "Tchouaméni",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Doué",
+        "shortName": "Doué",
+        "position": "AM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 104,
-        "y": 244,
-        "jersey": 14
+        "y": 310
       },
       {
         "name": "Dembélé",
         "shortName": "Dembélé",
-        "position": "RW",
-        "role": "att",
+        "position": "AM",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 389,
-        "y": 362,
-        "jersey": 7
+        "jersey": "7",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Olise",
+        "shortName": "Olise",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Mbappé",
         "shortName": "Mbappé",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 372,
-        "jersey": 10
-      },
-      {
-        "name": "Marcus Thuram",
-        "shortName": "Thuram",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362,
-        "jersey": 9
+        "jersey": "10",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -458,5 +459,26 @@
     }
   ],
   "population": "68.4M",
-  "location": "Western Europe"
+  "location": "Western Europe",
+  "pitchLabel": "Confirmed XI · Jun 16 vs Senegal",
+  "matches": [
+    {
+      "eventId": "760432",
+      "opponent": "Senegal",
+      "date": "Jun 16",
+      "starters": [
+        "Maignan",
+        "Upamecano",
+        "Saliba",
+        "Hernández",
+        "Koundé",
+        "Dembélé",
+        "Rabiot",
+        "Tchouaméni",
+        "Mbappé",
+        "Doué",
+        "Olise"
+      ]
+    }
+  ]
 }
