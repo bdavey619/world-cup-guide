@@ -83,7 +83,9 @@
       "opponent": "New Zealand",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": false
+      "isAway": false,
+      "score": "2–2",
+      "result": "D"
     },
     {
       "date": "Jun 21",
@@ -278,11 +280,12 @@
   },
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "pts": 1,
+    "gf": 2,
+    "ga": 2,
+    "gd": 0
   },
   "squad": [
     {
