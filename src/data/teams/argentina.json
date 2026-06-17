@@ -80,7 +80,9 @@
       "opponent": "Algeria",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": false
+      "isAway": false,
+      "score": "3–0",
+      "result": "W"
     },
     {
       "date": "Jun 22",
@@ -286,12 +288,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "pts": 3,
+    "gf": 3,
+    "ga": 0,
+    "gd": 3
   },
   "squad": [
     {

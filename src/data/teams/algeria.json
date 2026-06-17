@@ -86,7 +86,9 @@
       "opponent": "Argentina",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": true
+      "isAway": true,
+      "score": "0–3",
+      "result": "L"
     },
     {
       "date": "Jun 22",
@@ -270,10 +272,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 0,
     "gf": 0,
-    "ga": 0
+    "ga": 3,
+    "gd": -3
   },
   "squad": [
     {
