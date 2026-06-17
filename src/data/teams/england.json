@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Thomas Tuchel",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 10,
     "advancePct": 96
   },
@@ -163,123 +163,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Jordan Pickford",
+        "name": "Pickford",
         "shortName": "Pickford",
-        "position": "GK",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Trent Alexander-Arnold",
-        "shortName": "TAA",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "John Stones",
-        "shortName": "Stones",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Marc Guehi",
-        "shortName": "Guehi",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 6
-      },
-      {
-        "name": "Luke Shaw",
-        "shortName": "L. Shaw",
+        "name": "O'Reilly",
+        "shortName": "O'Reilly",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "3",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Declan Rice",
-        "shortName": "D. Rice",
-        "position": "RCM",
-        "role": "mid",
+        "name": "Konsa",
+        "shortName": "Konsa",
+        "position": "CD-R",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 4
+        "jersey": "2",
+        "x": 161,
+        "y": 130
       },
       {
-        "name": "Jude Bellingham",
-        "shortName": "Bellingham",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 236,
-        "jersey": 10
-      },
-      {
-        "name": "Kobbie Mainoo",
-        "shortName": "Mainoo",
-        "position": "LCM",
-        "role": "mid",
+        "name": "Stones",
+        "shortName": "Stones",
+        "position": "CD-L",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 16
+        "jersey": "5",
+        "x": 293,
+        "y": 130
       },
       {
-        "name": "Bukayo Saka",
-        "shortName": "Saka",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
+        "name": "James",
+        "shortName": "James",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "24",
         "x": 389,
-        "y": 362,
-        "jersey": 7
+        "y": 130
       },
       {
-        "name": "Harry Kane",
+        "name": "Rice",
+        "shortName": "Rice",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Anderson",
+        "shortName": "Anderson",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Gordon",
+        "shortName": "Gordon",
+        "position": "AM-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Bellingham",
+        "shortName": "Bellingham",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Madueke",
+        "shortName": "Madueke",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 348,
+        "y": 310
+      },
+      {
+        "name": "Kane",
         "shortName": "Kane",
-        "position": "ST",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "9",
         "x": 226,
-        "y": 372,
-        "jersey": 9
-      },
-      {
-        "name": "Anthony Gordon",
-        "shortName": "Gordon",
-        "position": "LW",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 362,
-        "jersey": 18
+        "y": 385
       }
     ]
   },
@@ -450,5 +452,26 @@
     }
   ],
   "population": "56.5M",
-  "location": "Western Europe"
+  "location": "Western Europe",
+  "pitchLabel": "Confirmed XI · Jun 17 vs Croatia",
+  "matches": [
+    {
+      "eventId": "760437",
+      "opponent": "Croatia",
+      "date": "Jun 17",
+      "starters": [
+        "Pickford",
+        "Stones",
+        "Konsa",
+        "O'Reilly",
+        "James",
+        "Bellingham",
+        "Rice",
+        "Anderson",
+        "Kane",
+        "Gordon",
+        "Madueke"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,7 @@
     "lastWCResult": "SF '22",
     "manager": "Zlatko Dalić",
     "managerTenure": "2017–present",
-    "formation": "4-3-3",
+    "formation": "3-4-2-1",
     "winPct": 3,
     "advancePct": 83
   },
@@ -151,123 +151,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Dominik Livaković",
-        "shortName": "Livaković",
-        "position": "GK",
+        "name": "Livakovic",
+        "shortName": "Livakovic",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Josip Stanišić",
-        "shortName": "Stanišić",
-        "position": "RB",
+        "name": "Sutalo",
+        "shortName": "Sutalo",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 2
-      },
-      {
-        "name": "Josip Šutalo",
-        "shortName": "Šutalo",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 6
-      },
-      {
-        "name": "Joško Gvardiol",
-        "shortName": "Gvardiol",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 4
-      },
-      {
-        "name": "Josip Juranović",
-        "shortName": "Juranović",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Mario Pašalić",
-        "shortName": "Pašalić",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 15
-      },
-      {
-        "name": "Luka Modrić",
-        "shortName": "Modrić",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 226,
-        "y": 236,
-        "jersey": 10
-      },
-      {
-        "name": "Mateo Kovačić",
-        "shortName": "Kovačić",
-        "position": "LCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "6",
         "x": 104,
-        "y": 244,
-        "jersey": 8
+        "y": 130
       },
       {
-        "name": "Ante Budimir",
-        "shortName": "Budimir",
-        "position": "RW",
-        "role": "att",
+        "name": "Vuskovic",
+        "shortName": "Vuskovic",
+        "position": "CD",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 362,
-        "jersey": 11
+        "jersey": "22",
+        "x": 226,
+        "y": 130
       },
       {
-        "name": "Andrej Kramarić",
-        "shortName": "Kramarić",
-        "position": "ST",
-        "role": "att",
+        "name": "Gvardiol",
+        "shortName": "Gvardiol",
+        "position": "CD-L",
+        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 372,
-        "jersey": 9
+        "jersey": "4",
+        "x": 348,
+        "y": 130
       },
       {
-        "name": "Josip Brekalo",
-        "shortName": "Brekalo",
-        "position": "LW",
-        "role": "att",
+        "name": "Perisic",
+        "shortName": "Perisic",
+        "position": "LM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "14",
         "x": 63,
-        "y": 362
+        "y": 215
+      },
+      {
+        "name": "Modric",
+        "shortName": "Modric",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Pasalic",
+        "shortName": "Pasalic",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Stanisic",
+        "shortName": "Stanisic",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Musa",
+        "shortName": "Musa",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Baturina",
+        "shortName": "Baturina",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Sucic",
+        "shortName": "Sucic",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -438,5 +440,26 @@
     }
   ],
   "population": "3.9M",
-  "location": "Southeast Europe"
+  "location": "Southeast Europe",
+  "pitchLabel": "Confirmed XI · Jun 17 vs England",
+  "matches": [
+    {
+      "eventId": "760437",
+      "opponent": "England",
+      "date": "Jun 17",
+      "starters": [
+        "Livakovic",
+        "Vuskovic",
+        "Gvardiol",
+        "Sutalo",
+        "Pasalic",
+        "Modric",
+        "Perisic",
+        "Stanisic",
+        "Musa",
+        "Baturina",
+        "Sucic"
+      ]
+    }
+  ]
 }
