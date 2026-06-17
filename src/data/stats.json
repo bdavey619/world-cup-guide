@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T20:56:05.484Z",
+  "updatedAt": "2026-06-17T22:52:39.063Z",
   "individual": {
     "goals": [
       {
@@ -48,6 +48,13 @@
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 2
       },
@@ -358,6 +365,34 @@
         "flag": "🇨🇩",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Martin Baturina",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Petar Musa",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marcus Rashford",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -628,6 +663,17 @@
       "redCards": 0
     },
     {
+      "name": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "gp": 1,
+      "gf": 4,
+      "ga": 2,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Netherlands",
       "flag": "🇳🇱",
       "gp": 1,
@@ -757,6 +803,17 @@
       "cleanSheets": 0,
       "possession": 68,
       "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "gp": 1,
+      "gf": 2,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
