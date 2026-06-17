@@ -177,7 +177,7 @@
       {
         "name": "Mendes",
         "shortName": "Mendes",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -186,90 +186,90 @@
         "y": 130
       },
       {
-        "name": "Cancelo",
-        "shortName": "Cancelo",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Araújo",
         "shortName": "Araújo",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 293,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Cancelo",
+        "shortName": "Cancelo",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Neves",
-        "shortName": "Neves",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Silva",
-        "shortName": "Silva",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Fernandes",
-        "shortName": "Fernandes",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Vitinha",
-        "shortName": "Vitinha",
-        "position": "M",
+        "name": "Unknown",
+        "shortName": "Unknown",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 226,
-        "y": 310
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Neves",
+        "shortName": "Neves",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Neto",
         "shortName": "Neto",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Fernandes",
+        "shortName": "Fernandes",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Silva",
+        "shortName": "Silva",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 348,
         "y": 310
       },
@@ -277,7 +277,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -462,15 +462,15 @@
       "date": "Jun 17",
       "starters": [
         "Costa",
+        "Veiga",
+        "Araújo",
         "Mendes",
         "Cancelo",
-        "Araújo",
-        "Veiga",
-        "Neves",
-        "Silva",
         "Fernandes",
+        "Neves",
+        "Ronaldo",
         "Neto",
-        "Ronaldo"
+        "Silva"
       ]
     }
   ]
