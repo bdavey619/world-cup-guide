@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
-    "formation": "4-2-3-1",
+    "formation": "4-4-1-1",
     "winPct": 0.2,
     "advancePct": 46
   },
@@ -141,120 +141,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Lawrence Ati-Zigi",
-        "shortName": "Ati-Zigi",
-        "position": "GK",
+        "name": "Zigi",
+        "shortName": "Zigi",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "1",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Tariq Lamptey",
-        "shortName": "Lamptey",
-        "position": "RB",
+        "name": "Adjetey",
+        "shortName": "Adjetey",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Daniel Amartey",
-        "shortName": "Amartey",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Alexander Djiku",
-        "shortName": "Djiku",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Gideon Mensah",
-        "shortName": "G. Mensah",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
+        "jersey": "4",
         "x": 63,
-        "y": 148,
-        "jersey": 14
+        "y": 130
       },
       {
-        "name": "Thomas Partey",
-        "shortName": "Partey",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": true,
-        "x": 293,
-        "y": 220,
-        "jersey": 5
-      },
-      {
-        "name": "Iddrisu Baba",
-        "shortName": "I. Baba",
-        "position": "LDM",
-        "role": "mid",
+        "name": "Mensah",
+        "shortName": "Mensah",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "14",
         "x": 161,
-        "y": 220
+        "y": 130
       },
       {
-        "name": "Antoine Semenyo",
-        "shortName": "Semenyo",
-        "position": "RAM",
-        "role": "mid",
-        "isKeyPlayer": true,
+        "name": "Senaya",
+        "shortName": "Senaya",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 11
+        "jersey": "26",
+        "x": 293,
+        "y": 130
       },
       {
-        "name": "Fatawu",
-        "shortName": "Fatawu",
-        "position": "CAM",
-        "role": "mid",
-        "isKeyPlayer": true,
+        "name": "Opoku",
+        "shortName": "Opoku",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 226,
-        "y": 300,
-        "jersey": 7
+        "jersey": "18",
+        "x": 389,
+        "y": 130
       },
       {
-        "name": "Osman Bukari",
-        "shortName": "Bukari",
-        "position": "LAM",
+        "name": "Sulemana",
+        "shortName": "Sulemana",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
+        "jersey": "22",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Semenyo",
+        "shortName": "Semenyo",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Yirenkyi",
+        "shortName": "Yirenkyi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Owusu",
+        "shortName": "Owusu",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Nuamah",
+        "shortName": "Nuamah",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 226,
         "y": 310
       },
       {
-        "name": "Jordan Ayew",
-        "shortName": "J. Ayew",
-        "position": "ST",
-        "role": "att",
+        "name": "Ayew",
+        "shortName": "Ayew",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
+        "jersey": "9",
         "x": 226,
-        "y": 390,
-        "jersey": 9
+        "y": 385
       }
     ]
   },
@@ -425,5 +430,26 @@
     }
   ],
   "population": "33.5M",
-  "location": "West Africa"
+  "location": "West Africa",
+  "pitchLabel": "Confirmed XI · Jun 17 vs Panama",
+  "matches": [
+    {
+      "eventId": "760434",
+      "opponent": "Panama",
+      "date": "Jun 17",
+      "starters": [
+        "Zigi",
+        "Adjetey",
+        "Mensah",
+        "Senaya",
+        "Opoku",
+        "Sulemana",
+        "Semenyo",
+        "Yirenkyi",
+        "Owusu",
+        "Nuamah",
+        "Ayew"
+      ]
+    }
+  ]
 }
