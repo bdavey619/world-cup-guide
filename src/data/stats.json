@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T23:09:29.694Z",
+  "updatedAt": "2026-06-17T01:42:24.010Z",
   "individual": {
     "goals": [
       {
@@ -34,6 +34,13 @@
         "name": "Kylian Mbappé",
         "team": "France",
         "flag": "🇫🇷",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 2
       },
@@ -293,6 +300,20 @@
         "name": "Ibrahim Mbaye",
         "team": "Senegal",
         "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Aymen Hussein",
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Leo Østigard",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 1
       }
@@ -609,6 +630,17 @@
       "redCards": 0
     },
     {
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "gp": 1,
+      "gf": 4,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Türkiye",
       "flag": "🇹🇷",
       "gp": 1,
@@ -814,6 +846,17 @@
       "ga": 1,
       "cleanSheets": 0,
       "possession": 48.6,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "gp": 1,
+      "gf": 1,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
