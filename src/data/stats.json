@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T07:26:22.285Z",
+  "updatedAt": "2026-06-17T12:07:09.670Z",
   "individual": {
     "goals": [
       {
@@ -383,6 +383,13 @@
         "value": 2
       },
       {
+        "name": "Amir Al-Ammari",
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Florian Wirtz",
         "team": "Germany",
         "flag": "🇩🇪",
@@ -393,6 +400,20 @@
         "name": "Hannibal Mejbri",
         "team": "Tunisia",
         "flag": "🇹🇳",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Noor Al-Rawabdeh",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Michael Olise",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "M",
         "value": 1
       },
@@ -446,6 +467,20 @@
         "value": 1
       },
       {
+        "name": "Adrien Rabiot",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Julio Enciso",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -481,44 +516,9 @@
         "value": 1
       },
       {
-        "name": "Bruno Guimarães",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Érik Lira",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Mohamed Salah",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Takefusa Kubo",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Nathaniel Brown",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "D",
-        "value": 1
-      },
-      {
-        "name": "Brahim Díaz",
-        "team": "Morocco",
-        "flag": "🇲🇦",
+        "name": "Martin Ødegaard",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "M",
         "value": 1
       }
@@ -542,8 +542,8 @@
       "gp": 1,
       "gf": 3,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
+      "cleanSheets": 1,
+      "possession": 47.8,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -675,7 +675,7 @@
       "gf": 4,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 61.3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -730,8 +730,8 @@
       "gf": 3,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 63.2,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -752,7 +752,7 @@
       "gf": 3,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 53.4,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -785,7 +785,7 @@
       "gf": 0,
       "ga": 3,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 52.2,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -818,7 +818,7 @@
       "gf": 1,
       "ga": 3,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 46.6,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -917,7 +917,7 @@
       "gf": 1,
       "ga": 3,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 36.8,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -928,8 +928,8 @@
       "gf": 1,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 38.7,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
