@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T18:32:27.408Z",
+  "updatedAt": "2026-06-17T20:56:05.484Z",
   "individual": {
     "goals": [
       {
@@ -342,6 +342,20 @@
         "name": "Marko Arnautovic",
         "team": "Austria",
         "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "João Neves",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
         "position": "",
         "value": 1
       }
@@ -768,6 +782,17 @@
       "redCards": 0
     },
     {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "gp": 1,
@@ -896,6 +921,17 @@
       "ga": 2,
       "cleanSheets": 0,
       "possession": 51.5,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "DR Congo",
+      "flag": "🇨🇩",
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
