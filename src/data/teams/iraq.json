@@ -79,7 +79,9 @@
       "opponent": "Norway",
       "venue": "Gillette Stadium",
       "city": "Foxborough, MA",
-      "isAway": true
+      "isAway": true,
+      "score": "1–4",
+      "result": "L"
     },
     {
       "date": "Jun 22",
@@ -245,10 +247,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "gf": 1,
+    "ga": 4,
+    "gd": -3
   },
   "squad": [
     {
