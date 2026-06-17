@@ -80,7 +80,9 @@
       "opponent": "England",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": true
+      "isAway": true,
+      "score": "2–4",
+      "result": "L"
     },
     {
       "date": "Jun 23",
@@ -276,10 +278,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "gf": 2,
+    "ga": 4,
+    "gd": -2
   },
   "squad": [
     {

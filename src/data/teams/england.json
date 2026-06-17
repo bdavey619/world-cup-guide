@@ -80,7 +80,9 @@
       "opponent": "Croatia",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": false
+      "isAway": false,
+      "score": "4–2",
+      "result": "W"
     },
     {
       "date": "Jun 23",
@@ -286,12 +288,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pts": 0,
-    "gf": 0,
-    "ga": 0
+    "pts": 3,
+    "gf": 4,
+    "ga": 2,
+    "gd": 2
   },
   "squad": [
     {
