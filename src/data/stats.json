@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-06-17T01:42:24.010Z",
+  "updatedAt": "2026-06-17T07:26:22.285Z",
   "individual": {
     "goals": [
+      {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 3
+      },
       {
         "name": "Folarin Balogun",
         "team": "United States",
@@ -316,6 +323,27 @@
         "flag": "🇳🇴",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Romano Schmid",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ali Olwan",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marko Arnautovic",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -509,6 +537,17 @@
       "redCards": 0
     },
     {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "gp": 1,
+      "gf": 3,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Mexico",
       "flag": "🇲🇽",
       "gp": 1,
@@ -685,6 +724,17 @@
       "redCards": 0
     },
     {
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "gp": 1,
+      "gf": 3,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "Switzerland",
       "flag": "🇨🇭",
       "gp": 1,
@@ -726,6 +776,17 @@
       "cleanSheets": 1,
       "possession": 46.3,
       "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "gp": 1,
+      "gf": 0,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
@@ -846,6 +907,17 @@
       "ga": 1,
       "cleanSheets": 0,
       "possession": 48.6,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "gp": 1,
+      "gf": 1,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": null,
       "yellowCards": 0,
       "redCards": 0
     },
