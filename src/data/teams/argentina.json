@@ -16,7 +16,7 @@
     "lastWCResult": "Won '22",
     "manager": "Lionel Scaloni",
     "managerTenure": "2018–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 10,
     "advancePct": 96
   },
@@ -163,124 +163,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Emiliano Martínez",
-        "shortName": "E. Martínez",
-        "position": "GK",
+        "name": "Martínez",
+        "shortName": "Martínez",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "23",
         "x": 226,
-        "y": 56,
-        "jersey": 23
+        "y": 56
       },
       {
-        "name": "Nahuel Molina",
-        "shortName": "Molina",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 389,
-        "y": 148,
-        "jersey": 26
-      },
-      {
-        "name": "Cristian Romero",
-        "shortName": "Romero",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148,
-        "jersey": 13
-      },
-      {
-        "name": "Lisandro Martínez",
-        "shortName": "L. Martínez",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 6
-      },
-      {
-        "name": "Nicolás Tagliafico",
-        "shortName": "Tagliafico",
+        "name": "Medina",
+        "shortName": "Medina",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "25",
         "x": 63,
-        "y": 148,
-        "jersey": 3
+        "y": 148
       },
       {
-        "name": "Rodrigo De Paul",
-        "shortName": "De Paul",
-        "position": "RCM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 348,
-        "y": 244,
-        "jersey": 7
-      },
-      {
-        "name": "Enzo Fernández",
-        "shortName": "Enzo",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 236,
-        "jersey": 24
-      },
-      {
-        "name": "Alexis Mac Allister",
-        "shortName": "Mac Allister",
-        "position": "LCM",
-        "role": "mid",
+        "name": "Romero",
+        "shortName": "Romero",
+        "position": "CD-R",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 104,
-        "y": 244,
-        "jersey": 20
+        "jersey": "13",
+        "x": 161,
+        "y": 148
       },
       {
-        "name": "Lionel Messi",
-        "shortName": "Messi",
-        "position": "RW",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
+        "name": "Martínez",
+        "shortName": "Martínez",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Montiel",
+        "shortName": "Montiel",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 389,
-        "y": 362,
-        "jersey": 10
+        "y": 148
       },
       {
-        "name": "Julián Álvarez",
-        "shortName": "J. Álvarez",
-        "position": "ST",
+        "name": "Almada",
+        "shortName": "Almada",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 63,
+        "y": 256
+      },
+      {
+        "name": "Mac Allister",
+        "shortName": "Mac Allister",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Fernández",
+        "shortName": "Fernández",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "De Paul",
+        "shortName": "De Paul",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Messi",
+        "shortName": "Messi",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "x": 226,
-        "y": 372,
-        "jersey": 9
+        "jersey": "10",
+        "x": 163,
+        "y": 375
       },
       {
-        "name": "Alejandro Garnacho",
-        "shortName": "Garnacho",
-        "position": "LW",
+        "name": "Martínez",
+        "shortName": "Martínez",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 63,
-        "y": 362
+        "jersey": "22",
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -445,5 +446,26 @@
     }
   ],
   "population": "45.8M",
-  "location": "South America"
+  "location": "South America",
+  "pitchLabel": "Confirmed XI · Jun 16 vs Algeria",
+  "matches": [
+    {
+      "eventId": "760433",
+      "opponent": "Algeria",
+      "date": "Jun 16",
+      "starters": [
+        "Martínez",
+        "Martínez",
+        "Romero",
+        "Medina",
+        "Montiel",
+        "Fernández",
+        "Mac Allister",
+        "Almada",
+        "De Paul",
+        "Martínez",
+        "Messi"
+      ]
+    }
+  ]
 }
