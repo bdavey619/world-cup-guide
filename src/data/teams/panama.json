@@ -80,7 +80,9 @@
       "opponent": "Ghana",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": false
+      "isAway": false,
+      "score": "0–1",
+      "result": "L"
     },
     {
       "date": "Jun 23",
@@ -246,10 +248,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 0,
     "gf": 0,
-    "ga": 0
+    "ga": 1,
+    "gd": -1
   },
   "squad": [
     {
