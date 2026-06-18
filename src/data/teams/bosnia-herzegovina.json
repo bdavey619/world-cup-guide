@@ -91,7 +91,9 @@
       "opponent": "Switzerland",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": true
+      "isAway": true,
+      "score": "1–4",
+      "result": "L"
     },
     {
       "date": "Jun 24",
@@ -249,11 +251,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 1,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "gf": 2,
+    "ga": 5,
+    "gd": -3
   },
   "squad": [
     {
