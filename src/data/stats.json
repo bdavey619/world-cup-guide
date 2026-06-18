@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T01:40:08.068Z",
+  "updatedAt": "2026-06-18T09:07:04.161Z",
   "individual": {
     "goals": [
       {
@@ -400,6 +400,34 @@
         "flag": "🇬🇭",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Daniel Muñoz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Luis Díaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jáminton Campaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -437,6 +465,13 @@
         "flag": "🇩🇪",
         "position": "F",
         "value": 2
+      },
+      {
+        "name": "Petar Sucic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "M",
+        "value": 1
       },
       {
         "name": "Amir Al-Ammari",
@@ -502,6 +537,13 @@
         "value": 1
       },
       {
+        "name": "Elliot Anderson",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "M",
+        "value": 1
+      },
+      {
         "name": "Ramin Rezaeian",
         "team": "Iran",
         "flag": "🇮🇷",
@@ -537,6 +579,13 @@
         "value": 1
       },
       {
+        "name": "Ivan Perisic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "F",
+        "value": 1
+      },
+      {
         "name": "Julio Enciso",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -544,37 +593,16 @@
         "value": 1
       },
       {
+        "name": "Luis Díaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "F",
+        "value": 1
+      },
+      {
         "name": "Paul Okon-Engstler",
         "team": "Australia",
         "flag": "🇦🇺",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Hwang In-Beom",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Sead Kolasinac",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "D",
-        "value": 1
-      },
-      {
-        "name": "Malik Tillman",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Martin Ødegaard",
-        "team": "Norway",
-        "flag": "🇳🇴",
         "position": "M",
         "value": 1
       }
@@ -637,6 +665,17 @@
       "redCards": 0
     },
     {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "gp": 1,
+      "gf": 3,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": 61.4,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    {
       "name": "Ecuador",
       "flag": "🇪🇨",
       "gp": 1,
@@ -676,7 +715,7 @@
       "gf": 4,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 51.7,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -819,7 +858,7 @@
       "gf": 2,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": null,
+      "possession": 48.3,
       "yellowCards": 0,
       "redCards": 0
     },
@@ -852,8 +891,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 75.4,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -945,6 +984,17 @@
       "redCards": 0
     },
     {
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "gp": 1,
+      "gf": 1,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": 38.6,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    {
       "name": "Cape Verde",
       "flag": "🇨🇻",
       "gp": 1,
@@ -984,8 +1034,8 @@
       "gf": 0,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 62.1,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -1006,8 +1056,8 @@
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "possession": 24.6,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -1060,9 +1110,9 @@
       "gp": 1,
       "gf": 1,
       "ga": 0,
-      "cleanSheets": 0,
-      "possession": null,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 37.9,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
