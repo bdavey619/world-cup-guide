@@ -4,8 +4,9 @@ name: Update Standings
 # minutes from the lineup update to avoid simultaneous pushes to main.
 on:
   schedule:
-    # Every 30 min, all day, June–July. See update-lineup.yml for rationale.
-    - cron: '5,35 * * 6,7 *'
+    # Every 5 min, all day, June–July. 1-min offset from lineup to avoid
+    # simultaneous pushes. See update-lineup.yml for throttling rationale.
+    - cron: '1-56/5 * * 6,7 *'
   workflow_dispatch:
 
 permissions:

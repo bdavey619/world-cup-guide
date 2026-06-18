@@ -5,11 +5,14 @@ name: Update Confirmed XIs
 # writes + pushes when it finds new starters — silent no-op otherwise.
 on:
   schedule:
-    # Runs every 30 minutes, all day, throughout June and July.
+    # Runs every 5 minutes, all day, throughout June and July.
+    # GitHub Actions throttles scheduled workflows under load, causing ~3-hour
+    # gaps when the cron was every 30 min. Triggering 6× more often compensates
+    # so the effective refresh rate stays near the intended 30-minute target.
     # Games run 9 AM–9 PM PT (16:00–04:00 UTC); extra time / penalties can push
     # finishes to ~06:00 UTC. Running around the clock eliminates any gap where
     # scores, standings, or XIs could go stale overnight.
-    - cron: '0,30 * * 6,7 *'
+    - cron: '*/5 * * 6,7 *'
   workflow_dispatch:
     inputs:
       date:
