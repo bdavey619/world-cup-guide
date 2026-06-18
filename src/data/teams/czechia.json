@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '06",
     "manager": "Miroslav Koubek",
     "managerTenure": "2024–present",
-    "formation": "3-4-2-1",
+    "formation": "3-5-2",
     "winPct": 0.3,
     "advancePct": 70
   },
@@ -177,91 +177,102 @@
         "y": 56
       },
       {
-        "name": "Chaloupek",
-        "shortName": "Chaloupek",
-        "position": "CD-R",
+        "name": "Krejcí",
+        "shortName": "Krejcí",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "7",
         "x": 104,
+        "y": 148
+      },
+      {
+        "name": "Holes",
+        "shortName": "Holes",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 226,
         "y": 148
       },
       {
         "name": "Hranác",
         "shortName": "Hranác",
-        "position": "CD",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 226,
-        "y": 148
-      },
-      {
-        "name": "Krejcí",
-        "shortName": "Krejcí",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
         "x": 348,
         "y": 148
       },
       {
-        "name": "Zelený",
-        "shortName": "Zelený",
-        "position": "LM",
+        "name": "Darida",
+        "shortName": "Darida",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 63,
+        "jersey": "8",
+        "x": 32,
         "y": 256
       },
       {
-        "name": "Soucek",
-        "shortName": "Soucek",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 161,
-        "y": 256
-      },
-      {
-        "name": "Sojka",
-        "shortName": "Sojka",
-        "position": "CM-L",
+        "name": "Sadílek",
+        "shortName": "Sadílek",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
-        "x": 293,
+        "jersey": "18",
+        "x": 127,
         "y": 256
       },
       {
         "name": "Coufal",
         "shortName": "Coufal",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "5",
-        "x": 389,
+        "x": 226,
         "y": 256
       },
       {
-        "name": "Provod",
-        "shortName": "Provod",
-        "position": "CF-R",
+        "name": "Cerv",
+        "shortName": "Cerv",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "12",
+        "x": 325,
+        "y": 256
+      },
+      {
+        "name": "Sojka",
+        "shortName": "Sojka",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 420,
+        "y": 256
+      },
+      {
+        "name": "Hlozek",
+        "shortName": "Hlozek",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 104,
+        "jersey": "9",
+        "x": 163,
         "y": 375
       },
       {
@@ -272,18 +283,7 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Sulc",
-        "shortName": "Sulc",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 348,
+        "x": 289,
         "y": 375
       }
     ]
@@ -297,7 +297,7 @@
     "ga": 2,
     "gd": -1
   },
-  "pitchLabel": "Confirmed XI · Jun 12 vs South Korea",
+  "pitchLabel": "Confirmed XI · Jun 18 vs South Africa",
   "squad": [
     {
       "name": "Jindrich Stanek",
@@ -473,6 +473,24 @@
         "Schick",
         "Sulc",
         "Provod"
+      ]
+    },
+    {
+      "eventId": "760438",
+      "opponent": "South Africa",
+      "date": "Jun 18",
+      "starters": [
+        "Kovár",
+        "Krejcí",
+        "Holes",
+        "Hranác",
+        "Darida",
+        "Sadílek",
+        "Coufal",
+        "Cerv",
+        "Sojka",
+        "Hlozek",
+        "Schick"
       ]
     }
   ],
