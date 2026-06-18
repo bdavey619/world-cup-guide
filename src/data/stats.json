@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T22:52:39.063Z",
+  "updatedAt": "2026-06-18T01:40:08.068Z",
   "individual": {
     "goals": [
       {
@@ -391,6 +391,13 @@
         "name": "Marcus Rashford",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "flag": "🇬🇭",
         "position": "",
         "value": 1
       }
@@ -971,6 +978,17 @@
       "redCards": 0
     },
     {
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "gp": 1,
+      "gf": 0,
+      "ga": 1,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
       "name": "New Zealand",
       "flag": "🇳🇿",
       "gp": 1,
@@ -1034,6 +1052,17 @@
       "cleanSheets": 0,
       "possession": 32,
       "yellowCards": 2,
+      "redCards": 0
+    },
+    {
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "gp": 1,
+      "gf": 1,
+      "ga": 0,
+      "cleanSheets": 0,
+      "possession": null,
+      "yellowCards": 0,
       "redCards": 0
     },
     {
