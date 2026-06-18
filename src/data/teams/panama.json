@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '18",
     "manager": "Thomas Christiansen",
     "managerTenure": "2021–present",
-    "formation": "4-4-2",
+    "formation": "3-4-3",
     "winPct": 0.1,
     "advancePct": 35
   },
@@ -132,92 +132,92 @@
         "y": 56
       },
       {
-        "name": "Córdoba",
-        "shortName": "Córdoba",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Blackman",
-        "shortName": "Blackman",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Ramos",
         "shortName": "Ramos",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 293,
+        "x": 104,
+        "y": 148
+      },
+      {
+        "name": "Córdoba",
+        "shortName": "Córdoba",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 226,
         "y": 148
       },
       {
         "name": "Andrade",
         "shortName": "Andrade",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 389,
+        "x": 348,
         "y": 148
       },
       {
-        "name": "Harvey",
-        "shortName": "Harvey",
-        "position": "M",
+        "name": "Blackman",
+        "shortName": "Blackman",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "2",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
-        "position": "M",
+        "name": "Harvey",
+        "shortName": "Harvey",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "14",
         "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Bárcenas",
+        "shortName": "Bárcenas",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 293,
         "y": 256
       },
       {
         "name": "Murillo",
         "shortName": "Murillo",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 293,
+        "x": 389,
         "y": 256
       },
       {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "M",
-        "role": "mid",
+        "position": "CF-R",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 389,
-        "y": 256
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Waterman",
@@ -227,18 +227,18 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "18",
-        "x": 163,
+        "x": 226,
         "y": 375
       },
       {
-        "name": "Bárcenas",
-        "shortName": "Bárcenas",
-        "position": "F",
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
-        "x": 289,
+        "jersey": "7",
+        "x": 348,
         "y": 375
       }
     ]
@@ -420,15 +420,15 @@
       "starters": [
         "Mosquera",
         "Córdoba",
-        "Blackman",
-        "Ramos",
         "Andrade",
+        "Ramos",
+        "Bárcenas",
         "Harvey",
-        "Rodríguez",
+        "Blackman",
         "Murillo",
-        "Martínez",
         "Waterman",
-        "Bárcenas"
+        "Rodríguez",
+        "Martínez"
       ]
     }
   ]
