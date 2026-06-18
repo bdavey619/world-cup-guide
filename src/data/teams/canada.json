@@ -185,13 +185,13 @@
         "y": 148
       },
       {
-        "name": "Millar",
-        "shortName": "Millar",
+        "name": "Ahmed",
+        "shortName": "Ahmed",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "20",
         "x": 63,
         "y": 256
       },
@@ -240,13 +240,13 @@
         "y": 375
       },
       {
-        "name": "Oluwaseyi",
-        "shortName": "Oluwaseyi",
+        "name": "Larin",
+        "shortName": "Larin",
         "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "9",
         "x": 289,
         "y": 375
       }
@@ -419,7 +419,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs Bosnia-Herzegovina",
+  "pitchLabel": "Confirmed XI · Jun 18 vs Qatar",
   "matches": [
     {
       "eventId": "760416",
@@ -436,6 +436,24 @@
         "Millar",
         "Buchanan",
         "Oluwaseyi",
+        "David"
+      ]
+    },
+    {
+      "eventId": "760440",
+      "opponent": "Qatar",
+      "date": "Jun 18",
+      "starters": [
+        "Crépeau",
+        "Cornelius",
+        "de Fougerolles",
+        "Laryea",
+        "Johnston",
+        "Eustáquio",
+        "Koné",
+        "Ahmed",
+        "Buchanan",
+        "Larin",
         "David"
       ]
     }

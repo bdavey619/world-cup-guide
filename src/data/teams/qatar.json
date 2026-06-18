@@ -410,12 +410,30 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Switzerland",
+  "pitchLabel": "Confirmed XI · Jun 18 vs Canada",
   "matches": [
     {
       "eventId": "760420",
       "opponent": "Switzerland",
       "date": "Jun 13",
+      "starters": [
+        "Abunada",
+        "Khoukhi",
+        "Miguel",
+        "Ahmed",
+        "Al-Oui",
+        "Madibo",
+        "Laye",
+        "Gaber",
+        "Abdurisag",
+        "Afif",
+        "Junior"
+      ]
+    },
+    {
+      "eventId": "760440",
+      "opponent": "Canada",
+      "date": "Jun 18",
       "starters": [
         "Abunada",
         "Khoukhi",
