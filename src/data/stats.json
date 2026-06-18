@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T18:34:39.967Z",
+  "updatedAt": "2026-06-18T21:11:08.111Z",
   "individual": {
     "goals": [
       {
@@ -55,6 +55,13 @@
         "name": "Harry Kane",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Johan Manzambi",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 2
       },
@@ -442,6 +449,27 @@
         "flag": "🇿🇦",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Rubén Vargas",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ermin Mahmic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Granit Xhaka",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -769,9 +797,9 @@
     {
       "name": "Bosnia-Herzegovina",
       "flag": "🇧🇦",
-      "gp": 1,
-      "gf": 1,
-      "ga": 1,
+      "gp": 2,
+      "gf": 2,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 38.9,
       "yellowCards": 3,
@@ -857,9 +885,9 @@
     {
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "gp": 1,
-      "gf": 1,
-      "ga": 1,
+      "gp": 2,
+      "gf": 5,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 68,
       "yellowCards": 1,
