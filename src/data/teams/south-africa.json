@@ -88,7 +88,9 @@
       "opponent": "Czechia",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": true
+      "isAway": true,
+      "score": "1–1",
+      "result": "D"
     },
     {
       "date": "Jun 24",
@@ -416,11 +418,11 @@
   ],
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 0,
-    "gf": 0,
-    "ga": 2,
+    "pts": 1,
+    "gf": 1,
+    "ga": 3,
     "gd": -2
   },
   "matches": [

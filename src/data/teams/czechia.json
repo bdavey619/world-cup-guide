@@ -91,7 +91,9 @@
       "opponent": "South Africa",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": false
+      "isAway": false,
+      "score": "1–1",
+      "result": "D"
     },
     {
       "date": "Jun 24",
@@ -290,11 +292,11 @@
   },
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 0,
-    "gf": 1,
-    "ga": 2,
+    "pts": 1,
+    "gf": 2,
+    "ga": 3,
     "gd": -1
   },
   "pitchLabel": "Confirmed XI · Jun 18 vs South Africa",
