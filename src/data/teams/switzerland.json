@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Murat Yakin",
     "managerTenure": "2021–present",
-    "formation": "4-3-3",
+    "formation": "4-3-1-2",
     "winPct": 1,
     "advancePct": 94
   },
@@ -175,114 +175,114 @@
         "y": 56
       },
       {
-        "name": "Elvedi",
-        "shortName": "Elvedi",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Rodríguez",
         "shortName": "Rodríguez",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 161,
-        "y": 148
+        "x": 63,
+        "y": 130
       },
       {
-        "name": "Widmer",
-        "shortName": "Widmer",
-        "position": "D",
+        "name": "Elvedi",
+        "shortName": "Elvedi",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
-        "x": 293,
-        "y": 148
+        "jersey": "4",
+        "x": 161,
+        "y": 130
       },
       {
         "name": "Akanji",
         "shortName": "Akanji",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "5",
-        "x": 389,
-        "y": 148
+        "x": 293,
+        "y": 130
       },
       {
-        "name": "Aebischer",
-        "shortName": "Aebischer",
-        "position": "M",
-        "role": "mid",
+        "name": "Widmer",
+        "shortName": "Widmer",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 104,
-        "y": 256
-      },
-      {
-        "name": "Xhaka",
-        "shortName": "Xhaka",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
-        "y": 256
+        "jersey": "3",
+        "x": 389,
+        "y": 130
       },
       {
         "name": "Freuler",
         "shortName": "Freuler",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 348,
-        "y": 256
-      },
-      {
-        "name": "Embolo",
-        "shortName": "Embolo",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 375
+        "x": 63,
+        "y": 215
       },
       {
         "name": "Ndoye",
         "shortName": "Ndoye",
-        "position": "F",
-        "role": "att",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 226,
-        "y": 375
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Xhaka",
+        "shortName": "Xhaka",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Aebischer",
+        "shortName": "Aebischer",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Rieder",
         "shortName": "Rieder",
-        "position": "F",
-        "role": "att",
+        "position": "AM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
-        "x": 348,
-        "y": 375
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Embolo",
+        "shortName": "Embolo",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -479,16 +479,16 @@
       "date": "Jun 18",
       "starters": [
         "Kobel",
+        "Akanji",
         "Elvedi",
         "Rodríguez",
         "Widmer",
-        "Akanji",
-        "Aebischer",
-        "Xhaka",
-        "Freuler",
-        "Embolo",
         "Ndoye",
-        "Rieder"
+        "Xhaka",
+        "Rieder",
+        "Freuler",
+        "Aebischer",
+        "Embolo"
       ]
     }
   ],
