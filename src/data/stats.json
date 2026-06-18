@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T16:04:28.412Z",
+  "updatedAt": "2026-06-18T18:34:39.967Z",
   "individual": {
     "goals": [
       {
@@ -428,6 +428,20 @@
         "flag": "🇨🇴",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Michal Sadílek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Teboho Mokoena",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -733,9 +747,9 @@
     {
       "name": "Czechia",
       "flag": "🇨🇿",
-      "gp": 1,
-      "gf": 1,
-      "ga": 2,
+      "gp": 2,
+      "gf": 2,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 38.5,
       "yellowCards": 0,
@@ -810,9 +824,9 @@
     {
       "name": "South Africa",
       "flag": "🇿🇦",
-      "gp": 1,
-      "gf": 0,
-      "ga": 2,
+      "gp": 2,
+      "gf": 1,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 39.5,
       "yellowCards": 2,
