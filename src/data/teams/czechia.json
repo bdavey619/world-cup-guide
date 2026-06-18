@@ -177,114 +177,114 @@
         "y": 56
       },
       {
-        "name": "Krejcí",
-        "shortName": "Krejcí",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 148
-      },
-      {
         "name": "Holes",
         "shortName": "Holes",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 226,
-        "y": 148
+        "x": 104,
+        "y": 130
       },
       {
         "name": "Hranác",
         "shortName": "Hranác",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 348,
-        "y": 148
-      },
-      {
-        "name": "Darida",
-        "shortName": "Darida",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 32,
-        "y": 256
-      },
-      {
-        "name": "Sadílek",
-        "shortName": "Sadílek",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 127,
-        "y": 256
-      },
-      {
-        "name": "Coufal",
-        "shortName": "Coufal",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "5",
         "x": 226,
-        "y": 256
+        "y": 130
       },
       {
-        "name": "Cerv",
-        "shortName": "Cerv",
-        "position": "M",
-        "role": "mid",
+        "name": "Krejcí",
+        "shortName": "Krejcí",
+        "position": "CD-L",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
-        "x": 325,
-        "y": 256
+        "jersey": "7",
+        "x": 348,
+        "y": 130
       },
       {
         "name": "Sojka",
         "shortName": "Sojka",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "24",
-        "x": 420,
-        "y": 256
+        "x": 63,
+        "y": 215
       },
       {
-        "name": "Hlozek",
-        "shortName": "Hlozek",
-        "position": "F",
-        "role": "att",
+        "name": "Darida",
+        "shortName": "Darida",
+        "position": "CM-R",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
-        "x": 163,
-        "y": 375
+        "jersey": "8",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Sadílek",
+        "shortName": "Sadílek",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Coufal",
+        "shortName": "Coufal",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Cerv",
+        "shortName": "Cerv",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "12",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Schick",
         "shortName": "Schick",
-        "position": "F",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 163,
+        "y": 385
+      },
+      {
+        "name": "Hlozek",
+        "shortName": "Hlozek",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
         "x": 289,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -481,14 +481,14 @@
       "date": "Jun 18",
       "starters": [
         "Kovár",
+        "Hranác",
         "Krejcí",
         "Holes",
-        "Hranác",
-        "Darida",
         "Sadílek",
-        "Coufal",
+        "Darida",
         "Cerv",
         "Sojka",
+        "Coufal",
         "Hlozek",
         "Schick"
       ]

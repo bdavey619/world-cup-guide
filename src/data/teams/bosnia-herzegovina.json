@@ -135,31 +135,31 @@
         "y": 56
       },
       {
-        "name": "Kolasinac",
-        "shortName": "Kolasinac",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Katic",
         "shortName": "Katic",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Dedic",
+        "shortName": "Dedic",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 161,
         "y": 148
       },
       {
         "name": "Muharemovic",
         "shortName": "Muharemovic",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -168,31 +168,31 @@
         "y": 148
       },
       {
-        "name": "Dedic",
-        "shortName": "Dedic",
-        "position": "RB",
+        "name": "Kolasinac",
+        "shortName": "Kolasinac",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "5",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Memic",
-        "shortName": "Memic",
-        "position": "LM",
+        "name": "Sunjic",
+        "shortName": "Sunjic",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "14",
         "x": 63,
         "y": 256
       },
       {
         "name": "Tahirovic",
         "shortName": "Tahirovic",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -201,46 +201,46 @@
         "y": 256
       },
       {
-        "name": "Basic",
-        "shortName": "Basic",
-        "position": "CM-L",
+        "name": "Memic",
+        "shortName": "Memic",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "15",
         "x": 293,
         "y": 256
       },
       {
-        "name": "Bajraktarevic",
-        "shortName": "Bajraktarevic",
-        "position": "RM",
+        "name": "Alajbegovic",
+        "shortName": "Alajbegovic",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "19",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Demirovic",
-        "shortName": "Demirovic",
-        "position": "CF-R",
+        "name": "Dzeko",
+        "shortName": "Dzeko",
+        "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "11",
         "x": 163,
         "y": 375
       },
       {
-        "name": "Lukic",
-        "shortName": "Lukic",
-        "position": "CF-L",
+        "name": "Demirovic",
+        "shortName": "Demirovic",
+        "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "10",
         "x": 289,
         "y": 375
       }
@@ -413,7 +413,7 @@
       "jersey": "19"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs Canada",
+  "pitchLabel": "Confirmed XI · Jun 18 vs Switzerland",
   "matches": [
     {
       "eventId": "760416",
@@ -430,6 +430,24 @@
         "Memic",
         "Bajraktarevic",
         "Lukic",
+        "Demirovic"
+      ]
+    },
+    {
+      "eventId": "760439",
+      "opponent": "Switzerland",
+      "date": "Jun 18",
+      "starters": [
+        "Vasilj",
+        "Katic",
+        "Dedic",
+        "Muharemovic",
+        "Kolasinac",
+        "Sunjic",
+        "Tahirovic",
+        "Memic",
+        "Alajbegovic",
+        "Dzeko",
         "Demirovic"
       ]
     }

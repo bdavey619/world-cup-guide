@@ -175,64 +175,64 @@
         "y": 56
       },
       {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Elvedi",
         "shortName": "Elvedi",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
         "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Widmer",
+        "shortName": "Widmer",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 293,
         "y": 148
       },
       {
         "name": "Akanji",
         "shortName": "Akanji",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "5",
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Zakaria",
-        "shortName": "Zakaria",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Freuler",
-        "shortName": "Freuler",
-        "position": "LM",
+        "name": "Aebischer",
+        "shortName": "Aebischer",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 104,
         "y": 256
       },
       {
         "name": "Xhaka",
         "shortName": "Xhaka",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -241,26 +241,15 @@
         "y": 256
       },
       {
-        "name": "Aebischer",
-        "shortName": "Aebischer",
-        "position": "RM",
+        "name": "Freuler",
+        "shortName": "Freuler",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 348,
         "y": 256
-      },
-      {
-        "name": "Vargas",
-        "shortName": "Vargas",
-        "position": "LF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 104,
-        "y": 375
       },
       {
         "name": "Embolo",
@@ -270,17 +259,28 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
-        "x": 226,
+        "x": 104,
         "y": 375
       },
       {
         "name": "Ndoye",
         "shortName": "Ndoye",
-        "position": "RF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Rieder",
+        "shortName": "Rieder",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
         "x": 348,
         "y": 375
       }
@@ -453,7 +453,7 @@
       "jersey": "23"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Qatar",
+  "pitchLabel": "Confirmed XI · Jun 18 vs Bosnia-Herzegovina",
   "matches": [
     {
       "eventId": "760420",
@@ -471,6 +471,24 @@
         "Embolo",
         "Vargas",
         "Ndoye"
+      ]
+    },
+    {
+      "eventId": "760439",
+      "opponent": "Bosnia-Herzegovina",
+      "date": "Jun 18",
+      "starters": [
+        "Kobel",
+        "Elvedi",
+        "Rodríguez",
+        "Widmer",
+        "Akanji",
+        "Aebischer",
+        "Xhaka",
+        "Freuler",
+        "Embolo",
+        "Ndoye",
+        "Rieder"
       ]
     }
   ],
