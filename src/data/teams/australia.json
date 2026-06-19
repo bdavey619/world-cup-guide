@@ -90,7 +90,9 @@
       "opponent": "United States",
       "venue": "Lumen Field",
       "city": "Seattle",
-      "isAway": true
+      "isAway": true,
+      "score": "0–2",
+      "result": "L"
     },
     {
       "date": "Jun 25",
@@ -278,11 +280,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 3,
     "gf": 2,
-    "ga": 0,
-    "gd": 2
+    "ga": 2,
+    "gd": 0
   },
   "squad": [
     {
