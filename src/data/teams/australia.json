@@ -166,7 +166,7 @@
       {
         "name": "Bos",
         "shortName": "Bos",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -175,20 +175,20 @@
         "y": 148
       },
       {
-        "name": "Italiano",
-        "shortName": "Italiano",
-        "position": "D",
+        "name": "Circati",
+        "shortName": "Circati",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "3",
         "x": 127,
         "y": 148
       },
       {
         "name": "Souttar",
         "shortName": "Souttar",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -199,7 +199,7 @@
       {
         "name": "Burgess",
         "shortName": "Burgess",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -208,20 +208,20 @@
         "y": 148
       },
       {
-        "name": "Circati",
-        "shortName": "Circati",
-        "position": "D",
+        "name": "Italiano",
+        "shortName": "Italiano",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 420,
         "y": 148
       },
       {
         "name": "Velupillay",
         "shortName": "Velupillay",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -232,7 +232,7 @@
       {
         "name": "O'Neill",
         "shortName": "O'Neill",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -243,7 +243,7 @@
       {
         "name": "Okon-Engstler",
         "shortName": "Okon-Engstler",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -254,7 +254,7 @@
       {
         "name": "Leckie",
         "shortName": "Leckie",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -468,14 +468,14 @@
       "date": "Jun 19",
       "starters": [
         "Beach",
-        "Bos",
-        "Italiano",
         "Souttar",
         "Burgess",
         "Circati",
-        "Velupillay",
-        "O'Neill",
+        "Bos",
+        "Italiano",
         "Okon-Engstler",
+        "O'Neill",
+        "Velupillay",
         "Leckie",
         "Toure"
       ]
