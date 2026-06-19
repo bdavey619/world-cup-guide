@@ -91,7 +91,9 @@
       "opponent": "Qatar",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": false
+      "isAway": false,
+      "score": "6–0",
+      "result": "W"
     },
     {
       "date": "Jun 24",
@@ -253,13 +255,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 1,
     "l": 0,
-    "pts": 1,
-    "gf": 1,
+    "pts": 4,
+    "gf": 7,
     "ga": 1,
-    "gd": 0
+    "gd": 6
   },
   "squad": [
     {

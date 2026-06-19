@@ -88,7 +88,9 @@
       "opponent": "Canada",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": true
+      "isAway": true,
+      "score": "0–6",
+      "result": "L"
     },
     {
       "date": "Jun 24",
@@ -246,11 +248,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 1,
     "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "ga": 7,
+    "gd": -6
   },
   "squad": [
     {
