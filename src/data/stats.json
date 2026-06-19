@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:49:47.204Z",
+  "updatedAt": "2026-06-19T21:58:53.924Z",
   "individual": {
     "goals": [
       {
@@ -489,6 +489,13 @@
         "name": "Luis Romo",
         "team": "Mexico",
         "flag": "🇲🇽",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alex Freeman",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "",
         "value": 1
       }
@@ -994,9 +1001,9 @@
     {
       "name": "Australia",
       "flag": "🇦🇺",
-      "gp": 1,
+      "gp": 2,
       "gf": 2,
-      "ga": 0,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 28.4,
       "yellowCards": 0,
@@ -1038,8 +1045,8 @@
     {
       "name": "United States",
       "flag": "🇺🇸",
-      "gp": 1,
-      "gf": 4,
+      "gp": 2,
+      "gf": 6,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 65.3,
