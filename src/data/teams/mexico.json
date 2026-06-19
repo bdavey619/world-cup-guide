@@ -174,20 +174,20 @@
         "y": 56
       },
       {
-        "name": "Sánchez",
-        "shortName": "Sánchez",
-        "position": "D",
+        "name": "Gallardo",
+        "shortName": "Gallardo",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "23",
         "x": 63,
         "y": 148
       },
       {
         "name": "Álvarez",
         "shortName": "Álvarez",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -198,7 +198,7 @@
       {
         "name": "Vásquez",
         "shortName": "Vásquez",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -207,20 +207,20 @@
         "y": 148
       },
       {
-        "name": "Gallardo",
-        "shortName": "Gallardo",
-        "position": "D",
+        "name": "Sánchez",
+        "shortName": "Sánchez",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "2",
         "x": 389,
         "y": 148
       },
       {
         "name": "Romo",
         "shortName": "Romo",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -229,47 +229,36 @@
         "y": 256
       },
       {
-        "name": "Gutiérrez",
-        "shortName": "Gutiérrez",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 226,
-        "y": 256
-      },
-      {
         "name": "Lira",
         "shortName": "Lira",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Gutiérrez",
+        "shortName": "Gutiérrez",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "26",
         "x": 348,
         "y": 256
       },
       {
-        "name": "Alvarado",
-        "shortName": "Alvarado",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 104,
-        "y": 375
-      },
-      {
         "name": "Quiñones",
         "shortName": "Quiñones",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "16",
-        "x": 226,
+        "x": 104,
         "y": 375
       },
       {
@@ -280,6 +269,17 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Alvarado",
+        "shortName": "Alvarado",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
         "x": 348,
         "y": 375
       }
@@ -478,16 +478,16 @@
       "date": "Jun 18",
       "starters": [
         "Rangel",
-        "Sánchez",
-        "Álvarez",
         "Vásquez",
+        "Álvarez",
         "Gallardo",
+        "Sánchez",
+        "Lira",
         "Romo",
         "Gutiérrez",
-        "Lira",
-        "Alvarado",
+        "Jiménez",
         "Quiñones",
-        "Jiménez"
+        "Alvarado"
       ]
     }
   ],
