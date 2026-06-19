@@ -175,101 +175,101 @@
         "y": 56
       },
       {
-        "name": "Robinson",
-        "shortName": "Robinson",
-        "position": "LB",
+        "name": "Freeman",
+        "shortName": "Freeman",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "16",
         "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Richards",
-        "shortName": "Richards",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 161,
         "y": 130
       },
       {
         "name": "Ream",
         "shortName": "Ream",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Richards",
+        "shortName": "Richards",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Freeman",
-        "shortName": "Freeman",
-        "position": "RB",
+        "name": "Robinson",
+        "shortName": "Robinson",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "5",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Tillman",
-        "shortName": "Tillman",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Adams",
         "shortName": "Adams",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "4",
-        "x": 289,
+        "x": 163,
         "y": 215
-      },
-      {
-        "name": "Pulisic",
-        "shortName": "Pulisic",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "McKennie",
-        "shortName": "McKennie",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 226,
-        "y": 310
       },
       {
         "name": "Dest",
         "shortName": "Dest",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "McKennie",
+        "shortName": "McKennie",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Pepi",
+        "shortName": "Pepi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Tillman",
+        "shortName": "Tillman",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 348,
         "y": 310
       },
@@ -277,7 +277,7 @@
         "name": "Balogun",
         "shortName": "Balogun",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "20",
@@ -453,7 +453,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs Paraguay",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Australia",
   "matches": [
     {
       "eventId": "760417",
@@ -471,6 +471,24 @@
         "Balogun",
         "Pulisic",
         "Dest"
+      ]
+    },
+    {
+      "eventId": "760442",
+      "opponent": "Australia",
+      "date": "Jun 19",
+      "starters": [
+        "Freese",
+        "Freeman",
+        "Ream",
+        "Richards",
+        "Robinson",
+        "Adams",
+        "Dest",
+        "McKennie",
+        "Pepi",
+        "Tillman",
+        "Balogun"
       ]
     }
   ],
