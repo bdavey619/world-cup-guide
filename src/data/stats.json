@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:12:01.737Z",
+  "updatedAt": "2026-06-19T02:08:31.184Z",
   "individual": {
     "goals": [
       {
@@ -8,6 +8,20 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 3
+      },
+      {
+        "name": "Jonathan David",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 2
       },
       {
         "name": "Folarin Balogun",
@@ -104,13 +118,6 @@
         "name": "Jovo Lukic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Cyle Larin",
-        "team": "Canada",
-        "flag": "🇨🇦",
         "position": "",
         "value": 1
       },
@@ -470,6 +477,13 @@
         "flag": "🇨🇭",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Nathan Saliba",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -698,8 +712,8 @@
     {
       "name": "Canada",
       "flag": "🇨🇦",
-      "gp": 1,
-      "gf": 1,
+      "gp": 2,
+      "gf": 7,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 61.1,
@@ -1138,9 +1152,9 @@
     {
       "name": "Qatar",
       "flag": "🇶🇦",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
-      "ga": 1,
+      "ga": 7,
       "cleanSheets": 0,
       "possession": 32,
       "yellowCards": 2,
