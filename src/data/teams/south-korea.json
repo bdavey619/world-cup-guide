@@ -175,114 +175,114 @@
         "y": 56
       },
       {
-        "name": "Han-Beom",
-        "shortName": "Han-Beom",
-        "position": "CD-R",
+        "name": "Gi-Hyuk",
+        "shortName": "Gi-Hyuk",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "3",
         "x": 104,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Min-Jae",
         "shortName": "Min-Jae",
-        "position": "CD",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "4",
         "x": 226,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Gi-Hyuk",
-        "shortName": "Gi-Hyuk",
-        "position": "CD-L",
+        "name": "Han-Beom",
+        "shortName": "Han-Beom",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "2",
         "x": 348,
-        "y": 148
-      },
-      {
-        "name": "Tae-Seok",
-        "shortName": "Tae-Seok",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 63,
-        "y": 256
-      },
-      {
-        "name": "In-Beom",
-        "shortName": "In-Beom",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 161,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Seung-Ho",
         "shortName": "Seung-Ho",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Kang-In",
+        "shortName": "Kang-In",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Jae-Sung",
+        "shortName": "Jae-Sung",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 293,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Young-Woo",
         "shortName": "Young-Woo",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
         "x": 389,
-        "y": 256
+        "y": 215
       },
       {
-        "name": "Kang-In",
-        "shortName": "Kang-In",
-        "position": "CF-R",
-        "role": "att",
+        "name": "Moon-Hwan",
+        "shortName": "Moon-Hwan",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
-        "x": 104,
-        "y": 375
+        "jersey": "15",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "In-Beom",
+        "shortName": "In-Beom",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 289,
+        "y": 310
       },
       {
         "name": "Heung-Min",
         "shortName": "Heung-Min",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Jae-Sung",
-        "shortName": "Jae-Sung",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -295,7 +295,7 @@
     "ga": 1,
     "gd": 1
   },
-  "pitchLabel": "Confirmed XI · Jun 12 vs Czechia",
+  "pitchLabel": "Confirmed XI · Jun 18 vs Mexico",
   "squad": [
     {
       "name": "Kim Seung-Gyu",
@@ -471,6 +471,24 @@
         "Heung-Min",
         "Jae-Sung",
         "Kang-In"
+      ]
+    },
+    {
+      "eventId": "760441",
+      "opponent": "Mexico",
+      "date": "Jun 18",
+      "starters": [
+        "Seung-Gyu",
+        "Gi-Hyuk",
+        "Min-Jae",
+        "Han-Beom",
+        "Seung-Ho",
+        "Kang-In",
+        "Jae-Sung",
+        "Young-Woo",
+        "Moon-Hwan",
+        "In-Beom",
+        "Heung-Min"
       ]
     }
   ],

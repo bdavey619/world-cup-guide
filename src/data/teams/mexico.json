@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Javier Aguirre",
     "managerTenure": "2023–present",
-    "formation": "4-1-4-1",
+    "formation": "4-3-3",
     "winPct": 1,
     "advancePct": 92
   },
@@ -174,103 +174,103 @@
         "y": 56
       },
       {
-        "name": "Gallardo",
-        "shortName": "Gallardo",
-        "position": "LB",
+        "name": "Sánchez",
+        "shortName": "Sánchez",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "2",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Montes",
-        "shortName": "Montes",
-        "position": "CD-R",
+        "name": "Álvarez",
+        "shortName": "Álvarez",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Vásquez",
         "shortName": "Vásquez",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Reyes",
-        "shortName": "Reyes",
-        "position": "RB",
+        "name": "Gallardo",
+        "shortName": "Gallardo",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "23",
         "x": 389,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Lira",
-        "shortName": "Lira",
-        "position": "DM",
+        "name": "Romo",
+        "shortName": "Romo",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
-        "x": 226,
-        "y": 215
-      },
-      {
-        "name": "Quiñones",
-        "shortName": "Quiñones",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 63,
-        "y": 310
+        "jersey": "7",
+        "x": 104,
+        "y": 256
       },
       {
         "name": "Gutiérrez",
         "shortName": "Gutiérrez",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "26",
-        "x": 161,
-        "y": 310
+        "x": 226,
+        "y": 256
       },
       {
-        "name": "Fidalgo",
-        "shortName": "Fidalgo",
-        "position": "CM-L",
+        "name": "Lira",
+        "shortName": "Lira",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 293,
-        "y": 310
+        "jersey": "6",
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Alvarado",
         "shortName": "Alvarado",
-        "position": "RM",
-        "role": "mid",
+        "position": "F",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
-        "x": 389,
-        "y": 310
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Quiñones",
+        "shortName": "Quiñones",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 226,
+        "y": 375
       },
       {
         "name": "Jiménez",
@@ -280,12 +280,12 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
-        "x": 226,
-        "y": 385
+        "x": 348,
+        "y": 375
       }
     ]
   },
-  "pitchLabel": "Confirmed XI · Jun 11 vs South Africa",
+  "pitchLabel": "Confirmed XI · Jun 18 vs South Korea",
   "squad": [
     {
       "name": "Guillermo Ochoa",
@@ -469,6 +469,24 @@
         "Gutiérrez",
         "Quiñones",
         "Alvarado",
+        "Jiménez"
+      ]
+    },
+    {
+      "eventId": "760441",
+      "opponent": "South Korea",
+      "date": "Jun 18",
+      "starters": [
+        "Rangel",
+        "Sánchez",
+        "Álvarez",
+        "Vásquez",
+        "Gallardo",
+        "Romo",
+        "Gutiérrez",
+        "Lira",
+        "Alvarado",
+        "Quiñones",
         "Jiménez"
       ]
     }
