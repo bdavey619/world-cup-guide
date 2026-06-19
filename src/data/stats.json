@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T02:08:31.184Z",
+  "updatedAt": "2026-06-19T07:29:47.586Z",
   "individual": {
     "goals": [
       {
@@ -484,6 +484,13 @@
         "flag": "🇨🇦",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Luis Romo",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -690,8 +697,8 @@
     {
       "name": "Mexico",
       "flag": "🇲🇽",
-      "gp": 1,
-      "gf": 2,
+      "gp": 2,
+      "gf": 3,
       "ga": 0,
       "cleanSheets": 1,
       "possession": 60.5,
@@ -800,9 +807,9 @@
     {
       "name": "South Korea",
       "flag": "🇰🇷",
-      "gp": 1,
+      "gp": 2,
       "gf": 2,
-      "ga": 1,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 61.5,
       "yellowCards": 1,
