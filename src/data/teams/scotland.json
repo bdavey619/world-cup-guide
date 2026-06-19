@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '98",
     "manager": "Steve Clarke",
     "managerTenure": "2019–present",
-    "formation": "4-4-2",
+    "formation": "3-4-2-1",
     "winPct": 0.3,
     "advancePct": 69
   },
@@ -175,114 +175,114 @@
         "y": 56
       },
       {
-        "name": "Robertson",
-        "shortName": "Robertson",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Hanley",
         "shortName": "Hanley",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 161,
-        "y": 148
+        "x": 104,
+        "y": 130
       },
       {
         "name": "Hendry",
         "shortName": "Hendry",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 293,
-        "y": 148
+        "x": 226,
+        "y": 130
       },
       {
-        "name": "Hickey",
-        "shortName": "Hickey",
-        "position": "RB",
+        "name": "Tierney",
+        "shortName": "Tierney",
+        "position": "D",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "2",
-        "x": 389,
-        "y": 148
+        "jersey": "6",
+        "x": 348,
+        "y": 130
       },
       {
         "name": "McGinn",
         "shortName": "McGinn",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
         "x": 63,
-        "y": 256
+        "y": 215
       },
       {
-        "name": "McTominay",
-        "shortName": "McTominay",
-        "position": "CM-R",
+        "name": "Patterson",
+        "shortName": "Patterson",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Robertson",
+        "shortName": "Robertson",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
-        "y": 256
+        "jersey": "3",
+        "x": 293,
+        "y": 215
       },
       {
         "name": "Ferguson",
         "shortName": "Ferguson",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 293,
-        "y": 256
+        "x": 389,
+        "y": 215
       },
       {
-        "name": "Gannon-Doak",
-        "shortName": "Gannon-Doak",
-        "position": "RM",
+        "name": "McTominay",
+        "shortName": "McTominay",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Christie",
+        "shortName": "Christie",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 389,
-        "y": 256
-      },
-      {
-        "name": "Shankland",
-        "shortName": "Shankland",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 163,
-        "y": 375
+        "jersey": "11",
+        "x": 289,
+        "y": 310
       },
       {
         "name": "Adams",
         "shortName": "Adams",
-        "position": "CF-L",
-        "role": "att",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
-        "x": 289,
-        "y": 375
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -453,7 +453,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Haiti",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Morocco",
   "matches": [
     {
       "eventId": "760418",
@@ -471,6 +471,24 @@
         "Gannon-Doak",
         "Adams",
         "Shankland"
+      ]
+    },
+    {
+      "eventId": "760445",
+      "opponent": "Morocco",
+      "date": "Jun 19",
+      "starters": [
+        "Gunn",
+        "Hanley",
+        "Hendry",
+        "Tierney",
+        "McGinn",
+        "Patterson",
+        "Robertson",
+        "Ferguson",
+        "McTominay",
+        "Christie",
+        "Adams"
       ]
     }
   ],

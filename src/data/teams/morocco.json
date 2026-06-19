@@ -177,31 +177,31 @@
         "y": 56
       },
       {
-        "name": "Mazraoui",
-        "shortName": "Mazraoui",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 130
-      },
-      {
         "name": "Diop",
         "shortName": "Diop",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
+        "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Hakimi",
+        "shortName": "Hakimi",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "2",
         "x": 161,
         "y": 130
       },
       {
         "name": "Riad",
         "shortName": "Riad",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -210,20 +210,20 @@
         "y": 130
       },
       {
-        "name": "Hakimi",
-        "shortName": "Hakimi",
-        "position": "RB",
+        "name": "Mazraoui",
+        "shortName": "Mazraoui",
+        "position": "D",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "3",
         "x": 389,
         "y": 130
       },
       {
         "name": "Bouaddi",
         "shortName": "Bouaddi",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -232,46 +232,46 @@
         "y": 215
       },
       {
-        "name": "El Aynaoui",
-        "shortName": "El Aynaoui",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "El Khannouss",
-        "shortName": "El Khannouss",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "23",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Ounahi",
-        "shortName": "Ounahi",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Ounahi",
+        "shortName": "Ounahi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "El Aynaoui",
+        "shortName": "El Aynaoui",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "El Khannouss",
+        "shortName": "El Khannouss",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
         "x": 348,
         "y": 310
       },
@@ -279,7 +279,7 @@
         "name": "Saibari",
         "shortName": "Saibari",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
@@ -455,7 +455,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Brazil",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Scotland",
   "matches": [
     {
       "eventId": "760419",
@@ -473,6 +473,24 @@
         "Saibari",
         "El Khannouss",
         "Díaz"
+      ]
+    },
+    {
+      "eventId": "760445",
+      "opponent": "Scotland",
+      "date": "Jun 19",
+      "starters": [
+        "Bounou",
+        "Diop",
+        "Hakimi",
+        "Riad",
+        "Mazraoui",
+        "Bouaddi",
+        "Díaz",
+        "Ounahi",
+        "El Aynaoui",
+        "El Khannouss",
+        "Saibari"
       ]
     }
   ],
