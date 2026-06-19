@@ -88,7 +88,9 @@
       "opponent": "South Korea",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": false
+      "isAway": false,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 24",
@@ -445,13 +447,13 @@
     }
   ],
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 0,
-    "pts": 3,
-    "gf": 2,
+    "pts": 6,
+    "gf": 3,
     "ga": 0,
-    "gd": 2
+    "gd": 3
   },
   "matches": [
     {

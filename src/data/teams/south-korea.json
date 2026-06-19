@@ -89,7 +89,9 @@
       "opponent": "Mexico",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": true
+      "isAway": true,
+      "score": "0–1",
+      "result": "L"
     },
     {
       "date": "Jun 24",
@@ -289,11 +291,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 3,
     "gf": 2,
-    "ga": 1,
-    "gd": 1
+    "ga": 2,
+    "gd": 0
   },
   "pitchLabel": "Confirmed XI · Jun 18 vs Mexico",
   "squad": [
