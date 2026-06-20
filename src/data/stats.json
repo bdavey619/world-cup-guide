@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-06-20T21:38:38.939Z",
+  "updatedAt": "2026-06-20T22:49:56.008Z",
   "individual": {
     "goals": [
+      {
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 3
+      },
       {
         "name": "Lionel Messi",
         "team": "Argentina",
@@ -235,13 +242,6 @@
       },
       {
         "name": "Nathaniel Brown",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Deniz Undav",
         "team": "Germany",
         "flag": "🇩🇪",
         "position": "",
@@ -531,6 +531,13 @@
         "name": "Anthony Elanga",
         "team": "Sweden",
         "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Franck Kessié",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
         "position": "",
         "value": 1
       }
@@ -981,9 +988,9 @@
     {
       "name": "Germany",
       "flag": "🇩🇪",
-      "gp": 1,
-      "gf": 7,
-      "ga": 1,
+      "gp": 2,
+      "gf": 9,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 64.6,
       "yellowCards": 0,
@@ -1223,9 +1230,9 @@
     {
       "name": "Ivory Coast",
       "flag": "🇨🇮",
-      "gp": 1,
-      "gf": 1,
-      "ga": 0,
+      "gp": 2,
+      "gf": 2,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 48.4,
       "yellowCards": 3,
