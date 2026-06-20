@@ -454,12 +454,30 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Curaçao",
+  "pitchLabel": "Confirmed XI · Jun 20 vs Ivory Coast",
   "matches": [
     {
       "eventId": "760422",
       "opponent": "Curaçao",
       "date": "Jun 14",
+      "starters": [
+        "Neuer",
+        "Schlotterbeck",
+        "Tah",
+        "Brown",
+        "Kimmich",
+        "Musiala",
+        "Pavlovic",
+        "Nmecha",
+        "Havertz",
+        "Wirtz",
+        "Sané"
+      ]
+    },
+    {
+      "eventId": "760448",
+      "opponent": "Ivory Coast",
+      "date": "Jun 20",
       "starters": [
         "Neuer",
         "Schlotterbeck",
