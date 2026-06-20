@@ -90,7 +90,9 @@
       "opponent": "Ivory Coast",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": false
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
     },
     {
       "date": "Jun 25",
@@ -288,13 +290,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 0,
-    "pts": 3,
-    "gf": 7,
-    "ga": 1,
-    "gd": 6
+    "pts": 6,
+    "gf": 9,
+    "ga": 2,
+    "gd": 7
   },
   "squad": [
     {

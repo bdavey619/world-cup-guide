@@ -90,7 +90,9 @@
       "opponent": "Germany",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     },
     {
       "date": "Jun 25",
@@ -260,11 +262,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 3,
-    "gf": 1,
-    "ga": 0,
-    "gd": 1
+    "gf": 2,
+    "ga": 2,
+    "gd": 0
   },
   "squad": [
     {
