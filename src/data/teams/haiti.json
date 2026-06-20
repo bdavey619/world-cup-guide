@@ -88,7 +88,9 @@
       "opponent": "Brazil",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": true
+      "isAway": true,
+      "score": "0–3",
+      "result": "L"
     },
     {
       "date": "Jun 24",
@@ -246,11 +248,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
     "gf": 0,
-    "ga": 1,
-    "gd": -1
+    "ga": 4,
+    "gd": -4
   },
   "squad": [
     {
