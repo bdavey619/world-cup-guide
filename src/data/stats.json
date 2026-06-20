@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T01:31:24.619Z",
+  "updatedAt": "2026-06-20T06:01:28.720Z",
   "individual": {
     "goals": [
       {
@@ -34,6 +34,13 @@
         "name": "Ismael Saibari",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "Brazil",
+        "flag": "🇧🇷",
         "position": "",
         "value": 2
       },
@@ -83,6 +90,13 @@
         "name": "Johan Manzambi",
         "team": "Switzerland",
         "flag": "🇨🇭",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Matheus Cunha",
+        "team": "Brazil",
+        "flag": "🇧🇷",
         "position": "",
         "value": 2
       },
@@ -146,13 +160,6 @@
         "name": "Breel Embolo",
         "team": "Switzerland",
         "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
         "position": "",
         "value": 1
       },
@@ -498,6 +505,13 @@
         "flag": "🇺🇸",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Matías Galarza",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -715,8 +729,8 @@
     {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "gp": 1,
-      "gf": 1,
+      "gp": 2,
+      "gf": 4,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 51.4,
@@ -759,8 +773,8 @@
     {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "gp": 1,
-      "gf": 1,
+      "gp": 2,
+      "gf": 2,
       "ga": 4,
       "cleanSheets": 0,
       "possession": 34.7,
@@ -858,9 +872,9 @@
     {
       "name": "Türkiye",
       "flag": "🇹🇷",
-      "gp": 1,
+      "gp": 2,
       "gf": 0,
-      "ga": 2,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 71.6,
       "yellowCards": 1,
@@ -1089,9 +1103,9 @@
     {
       "name": "Haiti",
       "flag": "🇭🇹",
-      "gp": 1,
+      "gp": 2,
       "gf": 0,
-      "ga": 1,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 53.7,
       "yellowCards": 1,
