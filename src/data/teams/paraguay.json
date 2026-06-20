@@ -89,7 +89,9 @@
       "opponent": "Türkiye",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": true
+      "isAway": true,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 25",
@@ -287,13 +289,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 1,
-    "pts": 0,
-    "gf": 1,
+    "pts": 3,
+    "gf": 2,
     "ga": 4,
-    "gd": -3
+    "gd": -2
   },
   "squad": [
     {

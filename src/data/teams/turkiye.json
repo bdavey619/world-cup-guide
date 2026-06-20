@@ -90,7 +90,9 @@
       "opponent": "Paraguay",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": false
+      "isAway": false,
+      "score": "0–1",
+      "result": "L"
     },
     {
       "date": "Jun 25",
@@ -266,11 +268,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
     "gf": 0,
-    "ga": 2,
-    "gd": -2
+    "ga": 3,
+    "gd": -3
   },
   "squad": [
     {
