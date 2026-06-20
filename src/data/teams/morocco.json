@@ -91,7 +91,9 @@
       "opponent": "Scotland",
       "venue": "Gillette Stadium",
       "city": "Boston",
-      "isAway": true
+      "isAway": true,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 24",
@@ -289,13 +291,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 1,
     "l": 0,
-    "pts": 1,
-    "gf": 1,
+    "pts": 4,
+    "gf": 2,
     "ga": 1,
-    "gd": 0
+    "gd": 1
   },
   "squad": [
     {
