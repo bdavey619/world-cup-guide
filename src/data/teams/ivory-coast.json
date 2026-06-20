@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Emerse Faé",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-1-4-1",
     "winPct": 0.3,
     "advancePct": 78
   },
@@ -154,7 +154,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Kossounou",
@@ -165,7 +165,7 @@
         "isCaptain": false,
         "jersey": "7",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Agbadou",
@@ -176,7 +176,7 @@
         "isCaptain": false,
         "jersey": "20",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Singo",
@@ -187,51 +187,62 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Oulaï",
-        "shortName": "Oulaï",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 104,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Sangaré",
         "shortName": "Sangaré",
-        "position": "CM",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
         "x": 226,
-        "y": 256
-      },
-      {
-        "name": "Kessié",
-        "shortName": "Kessié",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 348,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Diomande",
         "shortName": "Diomande",
-        "position": "LF",
-        "role": "att",
+        "position": "LM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 104,
-        "y": 375
+        "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Kessié",
+        "shortName": "Kessié",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Oulaï",
+        "shortName": "Oulaï",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 293,
+        "y": 310
+      },
+      {
+        "name": "Diallo",
+        "shortName": "Diallo",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 389,
+        "y": 310
       },
       {
         "name": "Bonny",
@@ -242,18 +253,7 @@
         "isCaptain": false,
         "jersey": "9",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Diallo",
-        "shortName": "Diallo",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -452,14 +452,14 @@
         "Fofana",
         "Agbadou",
         "Kossounou",
+        "Sangaré",
         "Konan",
         "Singo",
-        "Sangaré",
         "Oulaï",
         "Kessié",
-        "Bonny",
         "Diomande",
-        "Diallo"
+        "Diallo",
+        "Bonny"
       ]
     }
   ],
