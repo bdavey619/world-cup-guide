@@ -16,7 +16,7 @@
     "lastWCResult": "First ever appearance",
     "manager": "Remko Bicentini",
     "managerTenure": "2016–present",
-    "formation": "4-3-1-2",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 8
   },
@@ -127,114 +127,114 @@
         "y": 56
       },
       {
-        "name": "Fonville",
-        "shortName": "Fonville",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Bazoer",
-        "shortName": "Bazoer",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "23",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Obispo",
         "shortName": "Obispo",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 293,
-        "y": 130
+        "x": 32,
+        "y": 148
+      },
+      {
+        "name": "Brenet",
+        "shortName": "Brenet",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Gaari",
+        "shortName": "Gaari",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Fonville",
+        "shortName": "Fonville",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 325,
+        "y": 148
       },
       {
         "name": "Floranus",
         "shortName": "Floranus",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 389,
-        "y": 130
+        "x": 420,
+        "y": 148
       },
       {
-        "name": "Bacuna",
-        "shortName": "Bacuna",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 63,
-        "y": 215
-      },
-      {
-        "name": "Hansen",
-        "shortName": "Hansen",
+        "name": "Comenencia",
+        "shortName": "Comenencia",
         "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
-        "x": 161,
-        "y": 215
+        "jersey": "8",
+        "x": 63,
+        "y": 256
       },
       {
         "name": "Bacuna",
         "shortName": "Bacuna",
-        "position": "CM",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Bacuna",
+        "shortName": "Bacuna",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
         "x": 293,
-        "y": 215
-      },
-      {
-        "name": "Comenencia",
-        "shortName": "Comenencia",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 389,
-        "y": 215
+        "y": 256
       },
       {
         "name": "Chong",
         "shortName": "Chong",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 226,
-        "y": 310
+        "x": 389,
+        "y": 256
       },
       {
         "name": "Locadia",
         "shortName": "Locadia",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
         "x": 226,
-        "y": 385
+        "y": 375
       }
     ]
   },
@@ -405,7 +405,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Germany",
+  "pitchLabel": "Confirmed XI · Jun 20 vs Ecuador",
   "matches": [
     {
       "eventId": "760422",
@@ -422,6 +422,24 @@
         "Chong",
         "Bacuna",
         "Comenencia",
+        "Locadia"
+      ]
+    },
+    {
+      "eventId": "760446",
+      "opponent": "Ecuador",
+      "date": "Jun 20",
+      "starters": [
+        "Room",
+        "Obispo",
+        "Brenet",
+        "Gaari",
+        "Fonville",
+        "Floranus",
+        "Comenencia",
+        "Bacuna",
+        "Bacuna",
+        "Chong",
         "Locadia"
       ]
     }
