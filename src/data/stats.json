@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:10:34.006Z",
+  "updatedAt": "2026-06-20T01:31:24.619Z",
   "individual": {
     "goals": [
       {
@@ -27,6 +27,13 @@
         "name": "Folarin Balogun",
         "team": "United States",
         "flag": "🇺🇸",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 2
       },
@@ -139,13 +146,6 @@
         "name": "Breel Embolo",
         "team": "Switzerland",
         "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
         "position": "",
         "value": 1
       },
@@ -968,9 +968,9 @@
     {
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
-      "ga": 0,
+      "ga": 1,
       "cleanSheets": 1,
       "possession": 46.3,
       "yellowCards": 3,
@@ -1133,8 +1133,8 @@
     {
       "name": "Morocco",
       "flag": "🇲🇦",
-      "gp": 1,
-      "gf": 1,
+      "gp": 2,
+      "gf": 2,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 48.6,
