@@ -266,24 +266,24 @@
         "y": 375
       },
       {
-        "name": "Malen",
-        "shortName": "Malen",
+        "name": "Brobbey",
+        "shortName": "Brobbey",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "19",
         "x": 226,
         "y": 375
       },
       {
-        "name": "Summerville",
-        "shortName": "Summerville",
+        "name": "Malen",
+        "shortName": "Malen",
         "position": "RF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "18",
         "x": 348,
         "y": 375
       }
@@ -456,7 +456,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Japan",
+  "pitchLabel": "Confirmed XI · Jun 20 vs Sweden",
   "matches": [
     {
       "eventId": "760425",
@@ -474,6 +474,24 @@
         "Malen",
         "Gakpo",
         "Summerville"
+      ]
+    },
+    {
+      "eventId": "760447",
+      "opponent": "Sweden",
+      "date": "Jun 20",
+      "starters": [
+        "Verbruggen",
+        "van Dijk",
+        "van Hecke",
+        "van de Ven",
+        "Dumfries",
+        "de Jong",
+        "Reijnders",
+        "Gravenberch",
+        "Brobbey",
+        "Gakpo",
+        "Malen"
       ]
     }
   ],

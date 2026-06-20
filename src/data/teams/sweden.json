@@ -454,12 +454,30 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Tunisia",
+  "pitchLabel": "Confirmed XI · Jun 20 vs Netherlands",
   "matches": [
     {
       "eventId": "760424",
       "opponent": "Tunisia",
       "date": "Jun 14",
+      "starters": [
+        "Nordfeldt",
+        "Hien",
+        "Lindelöf",
+        "Lagerbielke",
+        "Karlström",
+        "Ayari",
+        "Nygren",
+        "Gudmundsson",
+        "Bernhardsson",
+        "Isak",
+        "Gyökeres"
+      ]
+    },
+    {
+      "eventId": "760447",
+      "opponent": "Netherlands",
+      "date": "Jun 20",
       "starters": [
         "Nordfeldt",
         "Hien",
