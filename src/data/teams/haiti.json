@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '74",
     "manager": "Marc Collat",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 13
   },
@@ -139,18 +139,29 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 63,
+        "x": 32,
+        "y": 148
+      },
+      {
+        "name": "Duverne",
+        "shortName": "Duverne",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 127,
         "y": 148
       },
       {
         "name": "Adé",
         "shortName": "Adé",
-        "position": "CD-R",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 161,
+        "x": 226,
         "y": 148
       },
       {
@@ -161,7 +172,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 293,
+        "x": 325,
         "y": 148
       },
       {
@@ -172,7 +183,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 389,
+        "x": 420,
         "y": 148
       },
       {
@@ -209,36 +220,25 @@
         "y": 256
       },
       {
-        "name": "Deedson",
-        "shortName": "Deedson",
+        "name": "Casimir",
+        "shortName": "Casimir",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "21",
         "x": 389,
         "y": 256
       },
       {
         "name": "Pierrot",
         "shortName": "Pierrot",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
-        "x": 163,
-        "y": 375
-      },
-      {
-        "name": "Isidor",
-        "shortName": "Isidor",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 289,
+        "x": 226,
         "y": 375
       }
     ]
@@ -410,7 +410,7 @@
       "jersey": "15"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Scotland",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Brazil",
   "matches": [
     {
       "eventId": "760418",
@@ -427,6 +427,24 @@
         "Providence",
         "Deedson",
         "Isidor",
+        "Pierrot"
+      ]
+    },
+    {
+      "eventId": "760444",
+      "opponent": "Brazil",
+      "date": "Jun 19",
+      "starters": [
+        "Placide",
+        "Adé",
+        "Delcroix",
+        "Duverne",
+        "Expérience",
+        "Arcus",
+        "Bellegarde",
+        "Jean Jacques",
+        "Providence",
+        "Casimir",
         "Pierrot"
       ]
     }

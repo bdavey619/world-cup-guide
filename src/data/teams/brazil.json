@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Carlo Ancelotti",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 7,
     "advancePct": 97
   },
@@ -185,7 +185,7 @@
         "isCaptain": false,
         "jersey": "16",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Marquinhos",
@@ -196,7 +196,7 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Magalhães",
@@ -207,84 +207,84 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Ibañez",
-        "shortName": "Ibañez",
+        "name": "Danilo",
+        "shortName": "Danilo",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "13",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Guimarães",
-        "shortName": "Guimarães",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Casemiro",
-        "shortName": "Casemiro",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Júnior",
-        "shortName": "Júnior",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Raphinha",
-        "shortName": "Raphinha",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 226,
-        "y": 310
+        "y": 148
       },
       {
         "name": "Paquetá",
         "shortName": "Paquetá",
-        "position": "AM-R",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
-        "x": 348,
-        "y": 310
+        "x": 104,
+        "y": 256
       },
       {
-        "name": "Thiago",
-        "shortName": "Thiago",
+        "name": "Casemiro",
+        "shortName": "Casemiro",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Guimarães",
+        "shortName": "Guimarães",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Júnior",
+        "shortName": "Júnior",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Cunha",
+        "shortName": "Cunha",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "9",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Unknown",
+        "shortName": "Unknown",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -455,7 +455,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 13 vs Morocco",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Haiti",
   "matches": [
     {
       "eventId": "760419",
@@ -473,6 +473,23 @@
         "Thiago",
         "Júnior",
         "Paquetá"
+      ]
+    },
+    {
+      "eventId": "760444",
+      "opponent": "Haiti",
+      "date": "Jun 19",
+      "starters": [
+        "Becker",
+        "Magalhães",
+        "Marquinhos",
+        "Santos",
+        "Danilo",
+        "Casemiro",
+        "Paquetá",
+        "Guimarães",
+        "Cunha",
+        "Júnior"
       ]
     }
   ],
