@@ -90,7 +90,9 @@
       "opponent": "Netherlands",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "isAway": true
+      "isAway": true,
+      "score": "1–5",
+      "result": "L"
     },
     {
       "date": "Jun 25",
@@ -290,11 +292,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 3,
-    "gf": 5,
-    "ga": 1,
-    "gd": 4
+    "gf": 6,
+    "ga": 6,
+    "gd": 0
   },
   "squad": [
     {
