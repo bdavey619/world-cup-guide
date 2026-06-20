@@ -185,13 +185,13 @@
         "y": 130
       },
       {
-        "name": "Çelik",
-        "shortName": "Çelik",
+        "name": "Müldür",
+        "shortName": "Müldür",
         "position": "RB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "18",
         "x": 389,
         "y": 130
       },
@@ -218,35 +218,35 @@
         "y": 215
       },
       {
-        "name": "Yilmaz",
-        "shortName": "Yilmaz",
+        "name": "Yildiz",
+        "shortName": "Yildiz",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "11",
         "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Kökçü",
-        "shortName": "Kökçü",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 226,
         "y": 310
       },
       {
         "name": "Güler",
         "shortName": "Güler",
-        "position": "AM-R",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Akgün",
+        "shortName": "Akgün",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
         "x": 348,
         "y": 310
       },
@@ -430,7 +430,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Australia",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Paraguay",
   "matches": [
     {
       "eventId": "760421",
@@ -448,6 +448,24 @@
         "Aktürkoglu",
         "Yilmaz",
         "Güler"
+      ]
+    },
+    {
+      "eventId": "760443",
+      "opponent": "Paraguay",
+      "date": "Jun 19",
+      "starters": [
+        "Çakir",
+        "Bardakçi",
+        "Demiral",
+        "Kadioglu",
+        "Müldür",
+        "Güler",
+        "Çalhanoglu",
+        "Yüksek",
+        "Aktürkoglu",
+        "Yildiz",
+        "Akgün"
       ]
     }
   ],

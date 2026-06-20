@@ -219,13 +219,13 @@
         "y": 148
       },
       {
-        "name": "Almirón",
-        "shortName": "Almirón",
+        "name": "Galarza",
+        "shortName": "Galarza",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "23",
         "x": 63,
         "y": 256
       },
@@ -241,35 +241,35 @@
         "y": 256
       },
       {
-        "name": "Bobadilla",
-        "shortName": "Bobadilla",
+        "name": "Gómez",
+        "shortName": "Gómez",
         "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "8",
         "x": 293,
         "y": 256
       },
       {
-        "name": "Gómez",
-        "shortName": "Gómez",
+        "name": "Almirón",
+        "shortName": "Almirón",
         "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "10",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Sanabria",
-        "shortName": "Sanabria",
+        "name": "Pitta",
+        "shortName": "Pitta",
         "position": "CF-R",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "25",
         "x": 163,
         "y": 375
       },
@@ -453,7 +453,7 @@
       "jersey": "7"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 12 vs United States",
+  "pitchLabel": "Confirmed XI · Jun 19 vs Türkiye",
   "matches": [
     {
       "eventId": "760417",
@@ -471,6 +471,24 @@
         "Gómez",
         "Enciso",
         "Sanabria"
+      ]
+    },
+    {
+      "eventId": "760443",
+      "opponent": "Türkiye",
+      "date": "Jun 19",
+      "starters": [
+        "Gil",
+        "Alderete",
+        "Gómez",
+        "Alonso",
+        "Cáceres",
+        "Gómez",
+        "Cubas",
+        "Galarza",
+        "Almirón",
+        "Enciso",
+        "Pitta"
       ]
     }
   ],
