@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:57:34.514Z",
+  "updatedAt": "2026-06-21T19:57:20.768Z",
   "individual": {
     "goals": [
       {
@@ -139,6 +139,13 @@
         "name": "Ayase Ueda",
         "team": "Japan",
         "flag": "🇯🇵",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 2
       },
@@ -554,6 +561,13 @@
         "flag": "🇯🇵",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -738,8 +752,8 @@
     {
       "name": "Spain",
       "flag": "🇪🇸",
-      "gp": 1,
-      "gf": 0,
+      "gp": 2,
+      "gf": 4,
       "ga": 0,
       "cleanSheets": 1,
       "possession": 74.3,
@@ -1079,9 +1093,9 @@
     {
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
-      "ga": 1,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 33.2,
       "yellowCards": 1,
