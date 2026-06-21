@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T19:57:20.768Z",
+  "updatedAt": "2026-06-21T21:24:24.497Z",
   "individual": {
     "goals": [
       {
@@ -906,7 +906,7 @@
     {
       "name": "Belgium",
       "flag": "🇧🇪",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
       "ga": 1,
       "cleanSheets": 0,
@@ -961,7 +961,7 @@
     {
       "name": "Iran",
       "flag": "🇮🇷",
-      "gp": 1,
+      "gp": 2,
       "gf": 2,
       "ga": 2,
       "cleanSheets": 0,
