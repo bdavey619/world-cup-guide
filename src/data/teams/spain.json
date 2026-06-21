@@ -208,57 +208,57 @@
         "y": 148
       },
       {
-        "name": "Llorente",
-        "shortName": "Llorente",
+        "name": "Porro",
+        "shortName": "Porro",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "12",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Pedri",
-        "shortName": "Pedri",
+        "name": "Unknown",
+        "shortName": "Unknown",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
         "x": 104,
         "y": 256
       },
       {
-        "name": "Rodri",
-        "shortName": "Rodri",
+        "name": "Unknown",
+        "shortName": "Unknown",
         "position": "CM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
         "x": 226,
         "y": 256
       },
       {
-        "name": "Ruiz",
-        "shortName": "Ruiz",
+        "name": "Olmo",
+        "shortName": "Olmo",
         "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "10",
         "x": 348,
         "y": 256
       },
       {
-        "name": "Gavi",
-        "shortName": "Gavi",
+        "name": "Baena",
+        "shortName": "Baena",
         "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "15",
         "x": 104,
         "y": 375
       },
@@ -274,13 +274,13 @@
         "y": 375
       },
       {
-        "name": "Torres",
-        "shortName": "Torres",
+        "name": "Yamal",
+        "shortName": "Yamal",
         "position": "RF",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "19",
         "x": 348,
         "y": 375
       }
@@ -453,7 +453,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 15 vs Cape Verde",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Saudi Arabia",
   "matches": [
     {
       "eventId": "760428",
@@ -471,6 +471,22 @@
         "Oyarzabal",
         "Gavi",
         "Torres"
+      ]
+    },
+    {
+      "eventId": "760453",
+      "opponent": "Saudi Arabia",
+      "date": "Jun 21",
+      "starters": [
+        "Simón",
+        "Laporte",
+        "Cubarsí",
+        "Cucurella",
+        "Porro",
+        "Olmo",
+        "Oyarzabal",
+        "Baena",
+        "Yamal"
       ]
     }
   ],

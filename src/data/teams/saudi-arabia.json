@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Georgios Donis",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 37
   },
@@ -170,7 +170,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "24",
-        "x": 63,
+        "x": 32,
         "y": 148
       },
       {
@@ -181,7 +181,18 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 161,
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Lajami",
+        "shortName": "Lajami",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 226,
         "y": 148
       },
       {
@@ -192,7 +203,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 293,
+        "x": 325,
         "y": 148
       },
       {
@@ -203,7 +214,7 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
-        "x": 389,
+        "x": 420,
         "y": 148
       },
       {
@@ -218,58 +229,47 @@
         "y": 256
       },
       {
-        "name": "Kanno",
-        "shortName": "Kanno",
+        "name": "Al-Khaibari",
+        "shortName": "Al-Khaibari",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "15",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Al-Khaibari",
-        "shortName": "Al-Khaibari",
+        "name": "Al-Dawsari",
+        "shortName": "Al-Dawsari",
         "position": "CM-L",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "6",
         "x": 293,
         "y": 256
       },
       {
-        "name": "Abu Al-Shamat",
-        "shortName": "Abu Al-Shamat",
+        "name": "Al-Juwayr",
+        "shortName": "Al-Juwayr",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "7",
         "x": 389,
         "y": 256
       },
       {
         "name": "Al-Brikan",
         "shortName": "Al-Brikan",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 163,
-        "y": 375
-      },
-      {
-        "name": "Al-Juwayr",
-        "shortName": "Al-Juwayr",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 289,
+        "x": 226,
         "y": 375
       }
     ]
@@ -443,7 +443,7 @@
   ],
   "population": "35.9M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 15 vs Uruguay",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Spain",
   "matches": [
     {
       "eventId": "760429",
@@ -459,6 +459,24 @@
         "Kanno",
         "Al-Dawsari",
         "Abu Al-Shamat",
+        "Al-Juwayr",
+        "Al-Brikan"
+      ]
+    },
+    {
+      "eventId": "760453",
+      "opponent": "Spain",
+      "date": "Jun 21",
+      "starters": [
+        "Al-Owais",
+        "Lajami",
+        "Al-Tambakti",
+        "Al-Amri",
+        "Al-Harbi",
+        "Abdulhamid",
+        "Al-Dawsari",
+        "Al-Khaibari",
+        "Al-Dawsari",
         "Al-Juwayr",
         "Al-Brikan"
       ]
