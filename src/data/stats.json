@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T00:00:52.009Z",
+  "updatedAt": "2026-06-21T05:15:22.563Z",
   "individual": {
     "goals": [
       {
@@ -790,7 +790,7 @@
     {
       "name": "Ecuador",
       "flag": "🇪🇨",
-      "gp": 1,
+      "gp": 2,
       "gf": 0,
       "ga": 1,
       "cleanSheets": 0,
@@ -1241,7 +1241,7 @@
     {
       "name": "Curaçao",
       "flag": "🇨🇼",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
       "ga": 7,
       "cleanSheets": 0,
