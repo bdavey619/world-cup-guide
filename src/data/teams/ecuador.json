@@ -153,7 +153,7 @@
       {
         "name": "Franco",
         "shortName": "Franco",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -162,86 +162,86 @@
         "y": 130
       },
       {
-        "name": "Hincapié",
-        "shortName": "Hincapié",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 226,
-        "y": 130
-      },
-      {
         "name": "Pacho",
         "shortName": "Pacho",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
+        "x": 226,
+        "y": 130
+      },
+      {
+        "name": "Hincapié",
+        "shortName": "Hincapié",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 348,
         "y": 130
       },
       {
-        "name": "Caicedo",
-        "shortName": "Caicedo",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "23",
-        "x": 226,
-        "y": 215
-      },
-      {
         "name": "Alcívar",
         "shortName": "Alcívar",
-        "position": "M",
+        "position": "SW",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
+        "x": 226,
+        "y": 215
+      },
+      {
+        "name": "Estupiñán",
+        "shortName": "Estupiñán",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Caicedo",
+        "shortName": "Caicedo",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 161,
         "y": 310
       },
       {
         "name": "Vite",
         "shortName": "Vite",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 161,
+        "x": 293,
         "y": 310
       },
       {
         "name": "Yeboah",
         "shortName": "Yeboah",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 293,
-        "y": 310
-      },
-      {
-        "name": "Estupiñán",
-        "shortName": "Estupiñán",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
         "x": 389,
         "y": 310
       },
       {
         "name": "Plata",
         "shortName": "Plata",
-        "position": "F",
+        "position": "CF-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -252,7 +252,7 @@
       {
         "name": "Valencia",
         "shortName": "Valencia",
-        "position": "F",
+        "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -455,16 +455,16 @@
       "date": "Jun 20",
       "starters": [
         "Galíndez",
-        "Franco",
-        "Hincapié",
         "Pacho",
-        "Caicedo",
+        "Hincapié",
+        "Franco",
         "Alcívar",
         "Vite",
-        "Yeboah",
+        "Caicedo",
         "Estupiñán",
-        "Plata",
-        "Valencia"
+        "Yeboah",
+        "Valencia",
+        "Plata"
       ]
     }
   ],
