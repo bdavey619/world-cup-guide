@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Marcelo Bielsa",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-1-4-1",
     "winPct": 2,
     "advancePct": 87
   },
@@ -221,56 +221,56 @@
       {
         "name": "Ugarte",
         "shortName": "Ugarte",
-        "position": "LM",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Bentancur",
-        "shortName": "Bentancur",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 289,
+        "x": 226,
         "y": 215
       },
       {
         "name": "Araújo",
         "shortName": "Araújo",
-        "position": "AM-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "20",
-        "x": 104,
+        "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Bentancur",
+        "shortName": "Bentancur",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 161,
         "y": 310
       },
       {
         "name": "Valverde",
         "shortName": "Valverde",
-        "position": "AM",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
+        "x": 293,
         "y": 310
       },
       {
         "name": "Cano",
         "shortName": "Cano",
-        "position": "AM-R",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 348,
+        "x": 389,
         "y": 310
       },
       {
@@ -483,14 +483,14 @@
         "Muslera",
         "Olivera",
         "Cáceres",
+        "Ugarte",
         "Sanabria",
         "Varela",
         "Valverde",
-        "Ugarte",
         "Bentancur",
-        "Viñas",
         "Araújo",
-        "Cano"
+        "Cano",
+        "Viñas"
       ]
     }
   ]
