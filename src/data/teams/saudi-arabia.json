@@ -89,7 +89,9 @@
       "opponent": "Spain",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": true
+      "isAway": true,
+      "score": "0–4",
+      "result": "L"
     },
     {
       "date": "Jun 26",
@@ -277,11 +279,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 1,
     "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "ga": 5,
+    "gd": -4
   },
   "squad": [
     {
