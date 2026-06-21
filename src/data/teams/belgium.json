@@ -175,13 +175,13 @@
         "y": 56
       },
       {
-        "name": "Castagne",
-        "shortName": "Castagne",
+        "name": "De Cuyper",
+        "shortName": "De Cuyper",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "5",
         "x": 63,
         "y": 130
       },
@@ -230,24 +230,24 @@
         "y": 215
       },
       {
-        "name": "Onana",
-        "shortName": "Onana",
+        "name": "Raskin",
+        "shortName": "Raskin",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "23",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Doku",
-        "shortName": "Doku",
+        "name": "Trossard",
+        "shortName": "Trossard",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "10",
         "x": 104,
         "y": 310
       },
@@ -263,24 +263,24 @@
         "y": 310
       },
       {
-        "name": "Trossard",
-        "shortName": "Trossard",
+        "name": "Saelemaekers",
+        "shortName": "Saelemaekers",
         "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "22",
         "x": 348,
         "y": 310
       },
       {
-        "name": "De Ketelaere",
-        "shortName": "De Ketelaere",
+        "name": "Lukaku",
+        "shortName": "Lukaku",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "9",
         "x": 226,
         "y": 385
       }
@@ -453,7 +453,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 15 vs Egypt",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Iran",
   "matches": [
     {
       "eventId": "760426",
@@ -471,6 +471,24 @@
         "De Ketelaere",
         "Doku",
         "Trossard"
+      ]
+    },
+    {
+      "eventId": "760451",
+      "opponent": "Iran",
+      "date": "Jun 21",
+      "starters": [
+        "Courtois",
+        "Mechele",
+        "Ngoy",
+        "De Cuyper",
+        "Meunier",
+        "De Bruyne",
+        "Tielemans",
+        "Raskin",
+        "Lukaku",
+        "Trossard",
+        "Saelemaekers"
       ]
     }
   ],

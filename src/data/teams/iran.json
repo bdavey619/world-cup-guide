@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Amir Ghalenoei",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 62
   },
@@ -167,90 +167,101 @@
         "y": 56
       },
       {
-        "name": "Mohammadi",
-        "shortName": "Mohammadi",
-        "position": "D",
+        "name": "Hajsafi",
+        "shortName": "Hajsafi",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
+        "jersey": "3",
+        "x": 32,
         "y": 148
       },
       {
-        "name": "Rezaeian",
-        "shortName": "Rezaeian",
-        "position": "D",
+        "name": "Kanani",
+        "shortName": "Kanani",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Nemati",
-        "shortName": "Nemati",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 293,
+        "jersey": "13",
+        "x": 127,
         "y": 148
       },
       {
         "name": "Khalilzadeh",
         "shortName": "Khalilzadeh",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 389,
+        "x": 226,
         "y": 148
       },
       {
-        "name": "Ghoddos",
-        "shortName": "Ghoddos",
-        "position": "M",
-        "role": "mid",
+        "name": "Nemati",
+        "shortName": "Nemati",
+        "position": "CD-L",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
-        "x": 63,
-        "y": 256
+        "jersey": "19",
+        "x": 325,
+        "y": 148
       },
       {
-        "name": "Yousefi",
-        "shortName": "Yousefi",
-        "position": "M",
-        "role": "mid",
+        "name": "Hardani",
+        "shortName": "Hardani",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 161,
-        "y": 256
+        "jersey": "2",
+        "x": 420,
+        "y": 148
       },
       {
         "name": "Mohebbi",
         "shortName": "Mohebbi",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 293,
+        "x": 63,
+        "y": 256
+      },
+      {
+        "name": "Ghoddos",
+        "shortName": "Ghoddos",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 161,
         "y": 256
       },
       {
         "name": "Ezatolahi",
         "shortName": "Ezatolahi",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Rezaeian",
+        "shortName": "Rezaeian",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
         "x": 389,
         "y": 256
       },
@@ -262,18 +273,7 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
-        "x": 163,
-        "y": 375
-      },
-      {
-        "name": "Moghanloo",
-        "shortName": "Moghanloo",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 289,
+        "x": 226,
         "y": 375
       }
     ]
@@ -447,7 +447,7 @@
   ],
   "population": "87.9M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 15 vs New Zealand",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Belgium",
   "matches": [
     {
       "eventId": "760427",
@@ -465,6 +465,24 @@
         "Ezatolahi",
         "Taremi",
         "Moghanloo"
+      ]
+    },
+    {
+      "eventId": "760451",
+      "opponent": "Belgium",
+      "date": "Jun 21",
+      "starters": [
+        "Beiranvand",
+        "Khalilzadeh",
+        "Nemati",
+        "Kanani",
+        "Hajsafi",
+        "Hardani",
+        "Ezatolahi",
+        "Ghoddos",
+        "Mohebbi",
+        "Rezaeian",
+        "Taremi"
       ]
     }
   ]
