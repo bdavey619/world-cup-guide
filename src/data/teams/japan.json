@@ -172,24 +172,24 @@
         "y": 56
       },
       {
-        "name": "Watanabe",
-        "shortName": "Watanabe",
+        "name": "Tomiyasu",
+        "shortName": "Tomiyasu",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "22",
         "x": 104,
         "y": 130
       },
       {
-        "name": "Taniguchi",
-        "shortName": "Taniguchi",
+        "name": "Itakura",
+        "shortName": "Itakura",
         "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 226,
         "y": 130
       },
@@ -227,13 +227,13 @@
         "y": 215
       },
       {
-        "name": "Kamada",
-        "shortName": "Kamada",
+        "name": "Tanaka",
+        "shortName": "Tanaka",
         "position": "CM-L",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "7",
         "x": 293,
         "y": 215
       },
@@ -260,24 +260,24 @@
         "y": 310
       },
       {
-        "name": "Maeda",
-        "shortName": "Maeda",
+        "name": "Kamada",
+        "shortName": "Kamada",
         "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "15",
         "x": 289,
         "y": 310
       },
       {
-        "name": "Kubo",
-        "shortName": "Kubo",
+        "name": "Ito",
+        "shortName": "Ito",
         "position": "CF-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "14",
         "x": 226,
         "y": 385
       }
@@ -450,7 +450,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 14 vs Netherlands",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Tunisia",
   "matches": [
     {
       "eventId": "760425",
@@ -468,6 +468,24 @@
         "Ueda",
         "Maeda",
         "Kubo"
+      ]
+    },
+    {
+      "eventId": "760449",
+      "opponent": "Tunisia",
+      "date": "Jun 21",
+      "starters": [
+        "Suzuki",
+        "Itakura",
+        "Ito",
+        "Tomiyasu",
+        "Tanaka",
+        "Sano",
+        "Nakamura",
+        "Doan",
+        "Ueda",
+        "Kamada",
+        "Ito"
       ]
     }
   ],
