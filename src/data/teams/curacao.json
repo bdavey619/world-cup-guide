@@ -90,7 +90,9 @@
       "opponent": "Ecuador",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": true
+      "isAway": true,
+      "score": "0–0",
+      "result": "D"
     },
     {
       "date": "Jun 25",
@@ -240,9 +242,9 @@
   },
   "standings": {
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 0,
+    "pts": 1,
     "gf": 1,
     "ga": 7,
     "gd": -6
