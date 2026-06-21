@@ -90,7 +90,9 @@
       "opponent": "Japan",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": true
+      "isAway": true,
+      "score": "0–4",
+      "result": "L"
     },
     {
       "date": "Jun 25",
@@ -284,11 +286,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
     "gf": 1,
-    "ga": 5,
-    "gd": -4
+    "ga": 9,
+    "gd": -8
   },
   "squad": [
     {

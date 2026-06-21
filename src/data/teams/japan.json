@@ -92,7 +92,9 @@
       "opponent": "Tunisia",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": false
+      "isAway": false,
+      "score": "4–0",
+      "result": "W"
     },
     {
       "date": "Jun 25",
@@ -284,13 +286,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 1,
     "l": 0,
-    "pts": 1,
-    "gf": 2,
+    "pts": 4,
+    "gf": 6,
     "ga": 2,
-    "gd": 0
+    "gd": 4
   },
   "squad": [
     {
