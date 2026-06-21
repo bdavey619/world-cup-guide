@@ -175,13 +175,13 @@
         "y": 56
       },
       {
-        "name": "Viña",
-        "shortName": "Viña",
+        "name": "Sanabria",
+        "shortName": "Sanabria",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "25",
         "x": 63,
         "y": 130
       },
@@ -219,24 +219,24 @@
         "y": 130
       },
       {
-        "name": "Bentancur",
-        "shortName": "Bentancur",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Ugarte",
         "shortName": "Ugarte",
-        "position": "RM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Bentancur",
+        "shortName": "Bentancur",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 289,
         "y": 215
       },
@@ -252,35 +252,35 @@
         "y": 310
       },
       {
-        "name": "Viñas",
-        "shortName": "Viñas",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "21",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Valverde",
         "shortName": "Valverde",
-        "position": "AM-R",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Cano",
+        "shortName": "Cano",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Núñez",
-        "shortName": "Núñez",
+        "name": "Viñas",
+        "shortName": "Viñas",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "21",
         "x": 226,
         "y": 385
       }
@@ -455,7 +455,7 @@
   ],
   "population": "3.5M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 15 vs Saudi Arabia",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Cape Verde",
   "matches": [
     {
       "eventId": "760429",
@@ -473,6 +473,24 @@
         "Núñez",
         "Araújo",
         "Valverde"
+      ]
+    },
+    {
+      "eventId": "760450",
+      "opponent": "Cape Verde",
+      "date": "Jun 21",
+      "starters": [
+        "Muslera",
+        "Olivera",
+        "Cáceres",
+        "Sanabria",
+        "Varela",
+        "Valverde",
+        "Ugarte",
+        "Bentancur",
+        "Viñas",
+        "Araújo",
+        "Cano"
       ]
     }
   ]

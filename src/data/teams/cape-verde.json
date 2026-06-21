@@ -181,24 +181,24 @@
         "y": 215
       },
       {
-        "name": "Cabral",
-        "shortName": "Cabral",
+        "name": "Rodrigues",
+        "shortName": "Rodrigues",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "11",
         "x": 63,
         "y": 310
       },
       {
-        "name": "Duarte",
-        "shortName": "Duarte",
+        "name": "Arcanjo",
+        "shortName": "Arcanjo",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "18",
         "x": 161,
         "y": 310
       },
@@ -225,13 +225,13 @@
         "y": 310
       },
       {
-        "name": "Livramento",
-        "shortName": "Livramento",
+        "name": "Benchimol",
+        "shortName": "Benchimol",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "9",
         "x": 226,
         "y": 385
       }
@@ -404,7 +404,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 15 vs Spain",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Uruguay",
   "matches": [
     {
       "eventId": "760428",
@@ -422,6 +422,24 @@
         "Cabral",
         "Mendes",
         "Livramento"
+      ]
+    },
+    {
+      "eventId": "760450",
+      "opponent": "Uruguay",
+      "date": "Jun 21",
+      "starters": [
+        "Vozinha",
+        "Borges",
+        "Lopes",
+        "Pina",
+        "Lopes Cabral",
+        "Moreira",
+        "Monteiro",
+        "Arcanjo",
+        "Rodrigues",
+        "Mendes",
+        "Benchimol"
       ]
     }
   ],
