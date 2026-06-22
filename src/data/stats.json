@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T00:00:12.016Z",
+  "updatedAt": "2026-06-22T05:25:27.502Z",
   "individual": {
     "goals": [
       {
@@ -76,6 +76,13 @@
         "name": "Yasin Ayari",
         "team": "Sweden",
         "flag": "🇸🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Maxi Araújo",
+        "team": "Uruguay",
+        "flag": "🇺🇾",
         "position": "",
         "value": 2
       },
@@ -332,13 +339,6 @@
         "value": 1
       },
       {
-        "name": "Maxi Araújo",
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Ramin Rezaeian",
         "team": "Iran",
         "flag": "🇮🇷",
@@ -566,6 +566,55 @@
         "name": "Lamine Yamal",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kevin Pina",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Agustín Canobbio",
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hélio Varela",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Finn Surman",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mostafa Zico",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Trézéguet",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "",
         "value": 1
       }
@@ -840,9 +889,9 @@
     {
       "name": "Uruguay",
       "flag": "🇺🇾",
-      "gp": 1,
-      "gf": 1,
-      "ga": 1,
+      "gp": 2,
+      "gf": 3,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 66.8,
       "yellowCards": 0,
@@ -1137,9 +1186,9 @@
     {
       "name": "Cape Verde",
       "flag": "🇨🇻",
-      "gp": 1,
-      "gf": 0,
-      "ga": 0,
+      "gp": 2,
+      "gf": 2,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 25.7,
       "yellowCards": 1,
@@ -1148,9 +1197,9 @@
     {
       "name": "Egypt",
       "flag": "🇪🇬",
-      "gp": 1,
-      "gf": 1,
-      "ga": 1,
+      "gp": 2,
+      "gf": 4,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 46.4,
       "yellowCards": 2,
@@ -1181,9 +1230,9 @@
     {
       "name": "New Zealand",
       "flag": "🇳🇿",
-      "gp": 1,
-      "gf": 2,
-      "ga": 2,
+      "gp": 2,
+      "gf": 3,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 51.5,
       "yellowCards": 0,
