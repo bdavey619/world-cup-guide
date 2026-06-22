@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T05:25:27.502Z",
+  "updatedAt": "2026-06-22T11:16:39.051Z",
   "individual": {
     "goals": [
       {
@@ -635,6 +635,13 @@
         "value": 2
       },
       {
+        "name": "Chris Wood",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Julio Enciso",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -656,6 +663,13 @@
         "value": 2
       },
       {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Brahim Díaz",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -666,13 +680,6 @@
         "name": "Deniz Undav",
         "team": "Germany",
         "flag": "🇩🇪",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Chris Wood",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
         "position": "F",
         "value": 2
       },
@@ -719,9 +726,30 @@
         "value": 1
       },
       {
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "position": "D",
+        "value": 1
+      },
+      {
         "name": "Vladimír Coufal",
         "team": "Czechia",
         "flag": "🇨🇿",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Aymeric Laporte",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Mohamed Hany",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "D",
         "value": 1
       },
@@ -766,34 +794,6 @@
         "flag": "🇨🇮",
         "position": "D",
         "value": 1
-      },
-      {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Roberto Alvarado",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Keito Nakamura",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Ayase Ueda",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "F",
-        "value": 1
       }
     ]
   },
@@ -804,8 +804,8 @@
       "gp": 2,
       "gf": 4,
       "ga": 0,
-      "cleanSheets": 1,
-      "possession": 74.3,
+      "cleanSheets": 2,
+      "possession": 70.7,
       "yellowCards": 1,
       "redCards": 0
     },
@@ -893,8 +893,8 @@
       "gf": 3,
       "ga": 3,
       "cleanSheets": 0,
-      "possession": 66.8,
-      "yellowCards": 0,
+      "possession": 66,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -958,10 +958,10 @@
       "gp": 2,
       "gf": 1,
       "ga": 1,
-      "cleanSheets": 0,
-      "possession": 53.6,
-      "yellowCards": 2,
-      "redCards": 0
+      "cleanSheets": 1,
+      "possession": 61.9,
+      "yellowCards": 3,
+      "redCards": 1
     },
     {
       "name": "Norway",
@@ -1013,9 +1013,9 @@
       "gp": 2,
       "gf": 2,
       "ga": 2,
-      "cleanSheets": 0,
-      "possession": 48.5,
-      "yellowCards": 1,
+      "cleanSheets": 1,
+      "possession": 39.2,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -1146,8 +1146,8 @@
       "gf": 1,
       "ga": 5,
       "cleanSheets": 0,
-      "possession": 33.2,
-      "yellowCards": 1,
+      "possession": 33,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -1190,8 +1190,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 1,
-      "possession": 25.7,
-      "yellowCards": 1,
+      "possession": 30.3,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -1201,8 +1201,8 @@
       "gf": 4,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": 46.4,
-      "yellowCards": 2,
+      "possession": 51,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -1234,8 +1234,8 @@
       "gf": 3,
       "ga": 5,
       "cleanSheets": 0,
-      "possession": 51.5,
-      "yellowCards": 0,
+      "possession": 48,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
