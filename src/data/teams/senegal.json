@@ -148,7 +148,7 @@
       {
         "name": "Diouf",
         "shortName": "Diouf",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -157,90 +157,90 @@
         "y": 130
       },
       {
-        "name": "Koulibaly",
-        "shortName": "Koulibaly",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Niakhaté",
         "shortName": "Niakhaté",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 293,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Diatta",
         "shortName": "Diatta",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Koulibaly",
+        "shortName": "Koulibaly",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 389,
         "y": 130
       },
       {
         "name": "Gueye",
         "shortName": "Gueye",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "5",
         "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Sarr",
+        "shortName": "Sarr",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
+        "x": 289,
         "y": 215
       },
       {
         "name": "Gueye",
         "shortName": "Gueye",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 289,
-        "y": 215
+        "jersey": "26",
+        "x": 104,
+        "y": 310
       },
       {
         "name": "Mané",
         "shortName": "Mané",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 104,
+        "x": 226,
         "y": 310
       },
       {
         "name": "Camara",
         "shortName": "Camara",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Sarr",
-        "shortName": "Sarr",
-        "position": "AM-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "18",
         "x": 348,
         "y": 310
       },
@@ -248,7 +248,7 @@
         "name": "Jackson",
         "shortName": "Jackson",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
@@ -426,7 +426,7 @@
   ],
   "population": "17.8M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 16 vs France",
+  "pitchLabel": "Confirmed XI · Jun 22 vs Norway",
   "matches": [
     {
       "eventId": "760432",
@@ -444,6 +444,24 @@
         "Jackson",
         "Mané",
         "Sarr"
+      ]
+    },
+    {
+      "eventId": "760454",
+      "opponent": "Norway",
+      "date": "Jun 22",
+      "starters": [
+        "Mendy",
+        "Diouf",
+        "Niakhaté",
+        "Diatta",
+        "Koulibaly",
+        "Gueye",
+        "Sarr",
+        "Gueye",
+        "Mané",
+        "Camara",
+        "Jackson"
       ]
     }
   ]
