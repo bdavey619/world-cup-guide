@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '86",
     "manager": "Jesús Casas",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-1-4-1",
     "winPct": 0.1,
     "advancePct": 14
   },
@@ -135,7 +135,7 @@
       {
         "name": "Doski",
         "shortName": "Doski",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -146,7 +146,7 @@
       {
         "name": "Tahseen",
         "shortName": "Tahseen",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -157,7 +157,7 @@
       {
         "name": "Hashim",
         "shortName": "Hashim",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -168,7 +168,7 @@
       {
         "name": "Ali",
         "shortName": "Ali",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -177,65 +177,65 @@
         "y": 130
       },
       {
-        "name": "Ismael",
-        "shortName": "Ismael",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Bayesh",
-        "shortName": "Bayesh",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Iqbal",
-        "shortName": "Iqbal",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 104,
-        "y": 310
-      },
-      {
         "name": "Al-Ammari",
         "shortName": "Al-Ammari",
-        "position": "M",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
         "x": 226,
+        "y": 215
+      },
+      {
+        "name": "Bayesh",
+        "shortName": "Bayesh",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Ismael",
+        "shortName": "Ismael",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Iqbal",
+        "shortName": "Iqbal",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 293,
         "y": 310
       },
       {
         "name": "Qasim",
         "shortName": "Qasim",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 348,
+        "x": 389,
         "y": 310
       },
       {
         "name": "Hussein",
         "shortName": "Hussein",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "18",
@@ -439,14 +439,14 @@
       "date": "Jun 22",
       "starters": [
         "Basil",
-        "Doski",
-        "Tahseen",
         "Hashim",
+        "Tahseen",
+        "Al-Ammari",
+        "Doski",
         "Ali",
+        "Iqbal",
         "Ismael",
         "Bayesh",
-        "Iqbal",
-        "Al-Ammari",
         "Qasim",
         "Hussein"
       ]
