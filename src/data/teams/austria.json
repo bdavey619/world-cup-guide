@@ -92,7 +92,9 @@
       "opponent": "Argentina",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": true
+      "isAway": true,
+      "score": "0–2",
+      "result": "L"
     },
     {
       "date": "Jun 27",
@@ -286,11 +288,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 3,
     "gf": 3,
-    "ga": 1,
-    "gd": 2
+    "ga": 3,
+    "gd": 0
   },
   "squad": [
     {
