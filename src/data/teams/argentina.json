@@ -209,13 +209,13 @@
         "y": 148
       },
       {
-        "name": "Montiel",
-        "shortName": "Montiel",
+        "name": "Molina",
+        "shortName": "Molina",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "26",
         "x": 389,
         "y": 148
       },
@@ -450,7 +450,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 16 vs Algeria",
+  "pitchLabel": "Confirmed XI · Jun 22 vs Austria",
   "matches": [
     {
       "eventId": "760433",
@@ -462,6 +462,24 @@
         "Romero",
         "Medina",
         "Montiel",
+        "Fernández",
+        "Mac Allister",
+        "Almada",
+        "De Paul",
+        "Martínez",
+        "Messi"
+      ]
+    },
+    {
+      "eventId": "760456",
+      "opponent": "Austria",
+      "date": "Jun 22",
+      "starters": [
+        "Martínez",
+        "Martínez",
+        "Romero",
+        "Medina",
+        "Molina",
         "Fernández",
         "Mac Allister",
         "Almada",
