@@ -263,8 +263,8 @@
         "y": 310
       },
       {
-        "name": "Cano",
-        "shortName": "Cano",
+        "name": "Canobbio",
+        "shortName": "Canobbio",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
@@ -489,7 +489,7 @@
         "Valverde",
         "Bentancur",
         "Araújo",
-        "Cano",
+        "Canobbio",
         "Viñas"
       ]
     }

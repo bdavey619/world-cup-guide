@@ -417,12 +417,30 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 15 vs Belgium",
+  "pitchLabel": "Confirmed XI · Jun 21 vs New Zealand",
   "matches": [
     {
       "eventId": "760426",
       "opponent": "Belgium",
       "date": "Jun 15",
+      "starters": [
+        "Shoubir",
+        "Fathy",
+        "Ibrahim",
+        "Fatouh",
+        "Hany",
+        "Salah",
+        "Lashin",
+        "Attia",
+        "Marmoush",
+        "Ashour",
+        "Zico"
+      ]
+    },
+    {
+      "eventId": "760452",
+      "opponent": "New Zealand",
+      "date": "Jun 21",
       "starters": [
         "Shoubir",
         "Fathy",

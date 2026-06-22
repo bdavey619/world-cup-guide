@@ -139,31 +139,31 @@
         "y": 56
       },
       {
-        "name": "Surman",
-        "shortName": "Surman",
-        "position": "D",
+        "name": "Cacace",
+        "shortName": "Cacace",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "13",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Payne",
-        "shortName": "Payne",
-        "position": "D",
+        "name": "Surman",
+        "shortName": "Surman",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "16",
         "x": 161,
         "y": 130
       },
       {
         "name": "Boxall",
         "shortName": "Boxall",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -172,68 +172,68 @@
         "y": 130
       },
       {
-        "name": "Cacace",
-        "shortName": "Cacace",
-        "position": "D",
+        "name": "Payne",
+        "shortName": "Payne",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "2",
         "x": 389,
         "y": 130
       },
       {
-        "name": "McCowatt",
-        "shortName": "McCowatt",
-        "position": "M",
+        "name": "Stamenic",
+        "shortName": "Stamenic",
+        "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Just",
-        "shortName": "Just",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 289,
         "y": 215
       },
       {
         "name": "Bell",
         "shortName": "Bell",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "6",
-        "x": 104,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
-        "name": "Stamenic",
-        "shortName": "Stamenic",
-        "position": "M",
+        "name": "Just",
+        "shortName": "Just",
+        "position": "AM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 226,
+        "jersey": "11",
+        "x": 104,
         "y": 310
       },
       {
         "name": "Singh",
         "shortName": "Singh",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "McCowatt",
+        "shortName": "McCowatt",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 348,
         "y": 310
       },
@@ -241,7 +241,7 @@
         "name": "Wood",
         "shortName": "Wood",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
@@ -419,7 +419,7 @@
   ],
   "population": "5.1M",
   "location": "Oceania",
-  "pitchLabel": "Confirmed XI · Jun 15 vs Iran",
+  "pitchLabel": "Confirmed XI · Jun 21 vs Egypt",
   "matches": [
     {
       "eventId": "760427",
@@ -437,6 +437,24 @@
         "Stamenic",
         "Singh",
         "Wood"
+      ]
+    },
+    {
+      "eventId": "760452",
+      "opponent": "Egypt",
+      "date": "Jun 21",
+      "starters": [
+        "Crocombe",
+        "Boxall",
+        "Surman",
+        "Cacace",
+        "Payne",
+        "Singh",
+        "Stamenic",
+        "Bell",
+        "Wood",
+        "Just",
+        "McCowatt"
       ]
     }
   ]
