@@ -89,7 +89,9 @@
       "opponent": "Uruguay",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": true
+      "isAway": true,
+      "score": "2–2",
+      "result": "D"
     },
     {
       "date": "Jun 26",
@@ -239,11 +241,11 @@
   },
   "standings": {
     "w": 0,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "pts": 1,
-    "gf": 0,
-    "ga": 0,
+    "pts": 2,
+    "gf": 2,
+    "ga": 2,
     "gd": 0
   },
   "squad": [

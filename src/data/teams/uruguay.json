@@ -89,7 +89,9 @@
       "opponent": "Cape Verde",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": false
+      "isAway": false,
+      "score": "2–2",
+      "result": "D"
     },
     {
       "date": "Jun 26",
@@ -288,11 +290,11 @@
   },
   "standings": {
     "w": 0,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "pts": 1,
-    "gf": 1,
-    "ga": 1,
+    "pts": 2,
+    "gf": 3,
+    "ga": 3,
     "gd": 0
   },
   "squad": [

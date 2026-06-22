@@ -89,7 +89,9 @@
       "opponent": "Egypt",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": false
+      "isAway": false,
+      "score": "1–3",
+      "result": "L"
     },
     {
       "date": "Jun 26",
@@ -253,11 +255,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 1,
-    "gf": 2,
-    "ga": 2,
-    "gd": 0
+    "gf": 3,
+    "ga": 5,
+    "gd": -2
   },
   "squad": [
     {
