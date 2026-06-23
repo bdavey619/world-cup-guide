@@ -16,7 +16,7 @@
     "lastWCResult": "SF '22",
     "manager": "Zlatko Dalić",
     "managerTenure": "2017–present",
-    "formation": "3-4-2-1",
+    "formation": "4-2-3-1",
     "winPct": 3,
     "advancePct": 83
   },
@@ -166,79 +166,101 @@
       {
         "name": "Sutalo",
         "shortName": "Sutalo",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 104,
+        "x": 63,
         "y": 130
       },
       {
-        "name": "Vuskovic",
-        "shortName": "Vuskovic",
-        "position": "CD",
+        "name": "Pongracic",
+        "shortName": "Pongracic",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
-        "x": 226,
+        "jersey": "3",
+        "x": 161,
         "y": 130
       },
       {
         "name": "Gvardiol",
         "shortName": "Gvardiol",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "4",
-        "x": 348,
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Stanisic",
+        "shortName": "Stanisic",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 389,
         "y": 130
       },
       {
         "name": "Perisic",
         "shortName": "Perisic",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 63,
+        "x": 163,
         "y": 215
+      },
+      {
+        "name": "Baturina",
+        "shortName": "Baturina",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Kovacic",
+        "shortName": "Kovacic",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 104,
+        "y": 310
       },
       {
         "name": "Modric",
         "shortName": "Modric",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 161,
-        "y": 215
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Pasalic",
         "shortName": "Pasalic",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
-        "x": 293,
-        "y": 215
-      },
-      {
-        "name": "Stanisic",
-        "shortName": "Stanisic",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 389,
-        "y": 215
+        "jersey": "24",
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Musa",
@@ -248,28 +270,6 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 163,
-        "y": 310
-      },
-      {
-        "name": "Baturina",
-        "shortName": "Baturina",
-        "position": "CF-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 289,
-        "y": 310
-      },
-      {
-        "name": "Sucic",
-        "shortName": "Sucic",
-        "position": "CF-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
         "x": 226,
         "y": 385
       }
@@ -444,7 +444,7 @@
   ],
   "population": "3.9M",
   "location": "Southeast Europe",
-  "pitchLabel": "Confirmed XI · Jun 17 vs England",
+  "pitchLabel": "Confirmed XI · Jun 23 vs Panama",
   "matches": [
     {
       "eventId": "760437",
@@ -462,6 +462,24 @@
         "Musa",
         "Baturina",
         "Sucic"
+      ]
+    },
+    {
+      "eventId": "760460",
+      "opponent": "Panama",
+      "date": "Jun 23",
+      "starters": [
+        "Livakovic",
+        "Sutalo",
+        "Pongracic",
+        "Gvardiol",
+        "Stanisic",
+        "Perisic",
+        "Baturina",
+        "Kovacic",
+        "Modric",
+        "Pasalic",
+        "Musa"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T21:53:21.602Z",
+  "updatedAt": "2026-06-23T22:56:04.208Z",
   "individual": {
     "goals": [
       {
@@ -963,7 +963,7 @@
     {
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "gp": 1,
+      "gp": 2,
       "gf": 4,
       "ga": 2,
       "cleanSheets": 0,
@@ -1359,7 +1359,7 @@
     {
       "name": "Ghana",
       "flag": "🇬🇭",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
       "ga": 0,
       "cleanSheets": 1,

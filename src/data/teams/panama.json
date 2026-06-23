@@ -136,7 +136,7 @@
       {
         "name": "Ramos",
         "shortName": "Ramos",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -147,7 +147,7 @@
       {
         "name": "Córdoba",
         "shortName": "Córdoba",
-        "position": "CD",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -158,7 +158,7 @@
       {
         "name": "Andrade",
         "shortName": "Andrade",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -169,7 +169,7 @@
       {
         "name": "Blackman",
         "shortName": "Blackman",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -178,42 +178,42 @@
         "y": 256
       },
       {
-        "name": "Harvey",
-        "shortName": "Harvey",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 161,
-        "y": 256
-      },
-      {
         "name": "Bárcenas",
         "shortName": "Bárcenas",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 293,
+        "x": 161,
         "y": 256
       },
       {
         "name": "Murillo",
         "shortName": "Murillo",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Harvey",
+        "shortName": "Harvey",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
         "x": 389,
         "y": 256
       },
       {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -222,20 +222,20 @@
         "y": 375
       },
       {
-        "name": "Waterman",
-        "shortName": "Waterman",
+        "name": "Fajardo",
+        "shortName": "Fajardo",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "17",
         "x": 226,
         "y": 375
       },
       {
         "name": "Rodríguez",
         "shortName": "Rodríguez",
-        "position": "CF-L",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -414,7 +414,7 @@
   ],
   "population": "4.4M",
   "location": "Central America",
-  "pitchLabel": "Confirmed XI · Jun 17 vs Ghana",
+  "pitchLabel": "Confirmed XI · Jun 23 vs Croatia",
   "matches": [
     {
       "eventId": "760434",
@@ -432,6 +432,24 @@
         "Waterman",
         "Rodríguez",
         "Martínez"
+      ]
+    },
+    {
+      "eventId": "760460",
+      "opponent": "Croatia",
+      "date": "Jun 23",
+      "starters": [
+        "Mosquera",
+        "Ramos",
+        "Córdoba",
+        "Andrade",
+        "Blackman",
+        "Bárcenas",
+        "Murillo",
+        "Harvey",
+        "Martínez",
+        "Fajardo",
+        "Rodríguez"
       ]
     }
   ]

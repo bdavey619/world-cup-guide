@@ -92,7 +92,9 @@
       "opponent": "England",
       "venue": "Gillette Stadium",
       "city": "Boston",
-      "isAway": true
+      "isAway": true,
+      "score": "0–0",
+      "result": "D"
     },
     {
       "date": "Jun 27",
@@ -267,9 +269,9 @@
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 3,
+    "pts": 4,
     "gf": 1,
     "ga": 0,
     "gd": 1

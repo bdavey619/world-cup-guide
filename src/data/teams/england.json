@@ -90,7 +90,9 @@
       "opponent": "Ghana",
       "venue": "Gillette Stadium",
       "city": "Boston",
-      "isAway": false
+      "isAway": false,
+      "score": "0–0",
+      "result": "D"
     },
     {
       "date": "Jun 27",
@@ -289,9 +291,9 @@
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 3,
+    "pts": 4,
     "gf": 4,
     "ga": 2,
     "gd": 2
