@@ -90,7 +90,9 @@
       "opponent": "Algeria",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     },
     {
       "date": "Jun 27",
@@ -241,11 +243,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
-    "gf": 1,
-    "ga": 3,
-    "gd": -2
+    "gf": 2,
+    "ga": 5,
+    "gd": -3
   },
   "squad": [
     {

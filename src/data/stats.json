@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T03:15:20.048Z",
+  "updatedAt": "2026-06-23T06:59:58.223Z",
   "individual": {
     "goals": [
       {
@@ -638,6 +638,27 @@
         "flag": "🇳🇴",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Nizar Al-Rashdan",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nadhir Benbouali",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Amine Gouiri",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1119,9 +1140,9 @@
     {
       "name": "Algeria",
       "flag": "🇩🇿",
-      "gp": 1,
-      "gf": 0,
-      "ga": 3,
+      "gp": 2,
+      "gf": 2,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 52.2,
       "yellowCards": 0,
@@ -1284,9 +1305,9 @@
     {
       "name": "Jordan",
       "flag": "🇯🇴",
-      "gp": 1,
-      "gf": 1,
-      "ga": 3,
+      "gp": 2,
+      "gf": 2,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 36.8,
       "yellowCards": 0,

@@ -96,7 +96,9 @@
       "opponent": "Jordan",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": false
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
     },
     {
       "date": "Jun 27",
@@ -270,13 +272,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 1,
-    "pts": 0,
-    "gf": 0,
-    "ga": 3,
-    "gd": -3
+    "pts": 3,
+    "gf": 2,
+    "ga": 4,
+    "gd": -2
   },
   "squad": [
     {
