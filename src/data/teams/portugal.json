@@ -177,75 +177,75 @@
         "y": 56
       },
       {
-        "name": "Mendes",
-        "shortName": "Mendes",
-        "position": "LB",
+        "name": "Cancelo",
+        "shortName": "Cancelo",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "20",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Araújo",
-        "shortName": "Araújo",
-        "position": "CD-R",
+        "name": "Dias",
+        "shortName": "Dias",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Mendes",
+        "shortName": "Mendes",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
+        "jersey": "25",
+        "x": 293,
         "y": 130
       },
       {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 293,
-        "y": 130
-      },
-      {
-        "name": "Cancelo",
-        "shortName": "Cancelo",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Unknown",
-        "shortName": "Unknown",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "23",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Neves",
         "shortName": "Neves",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Fernandes",
+        "shortName": "Fernandes",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 289,
         "y": 215
       },
       {
         "name": "Neto",
         "shortName": "Neto",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -254,24 +254,24 @@
         "y": 310
       },
       {
-        "name": "Fernandes",
-        "shortName": "Fernandes",
-        "position": "AM",
+        "name": "Unknown",
+        "shortName": "Unknown",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "23",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Silva",
-        "shortName": "Silva",
-        "position": "AM-R",
+        "name": "Félix",
+        "shortName": "Félix",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -279,7 +279,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -457,7 +457,7 @@
   ],
   "population": "10.3M",
   "location": "Southern Europe",
-  "pitchLabel": "Confirmed XI · Jun 17 vs Congo DR",
+  "pitchLabel": "Confirmed XI · Jun 23 vs Uzbekistan",
   "matches": [
     {
       "eventId": "760435",
@@ -474,6 +474,23 @@
         "Ronaldo",
         "Neto",
         "Silva"
+      ]
+    },
+    {
+      "eventId": "760461",
+      "opponent": "Uzbekistan",
+      "date": "Jun 23",
+      "starters": [
+        "Costa",
+        "Cancelo",
+        "Dias",
+        "Mendes",
+        "Veiga",
+        "Neves",
+        "Fernandes",
+        "Neto",
+        "Félix",
+        "Ronaldo"
       ]
     }
   ]

@@ -16,7 +16,7 @@
     "lastWCResult": "First WC",
     "manager": "Srecko Katanec",
     "managerTenure": "2021–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 0.1,
     "advancePct": 34
   },
@@ -116,121 +116,125 @@
   "pitch": {
     "players": [
       {
-        "name": "Utkir Yusupov",
-        "shortName": "Yusupov",
-        "position": "GK",
+        "name": "Nematov",
+        "shortName": "Nematov",
+        "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
+        "jersey": "12",
         "x": 226,
-        "y": 56,
-        "jersey": 1
+        "y": 56
       },
       {
-        "name": "Sherzod Nasrullayev",
-        "shortName": "Nasrullayev",
-        "position": "RB",
+        "name": "Khusanov",
+        "shortName": "Khusanov",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Sanjar Tursunov",
-        "shortName": "Tursunov",
-        "position": "RCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Rustam Ashurmatov",
-        "shortName": "Ashurmatov",
-        "position": "LCB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 148,
-        "jersey": 5
-      },
-      {
-        "name": "Khurshid Makhkamov",
-        "shortName": "Makhkamov",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Otabek Shukurov",
-        "shortName": "Shukurov",
-        "position": "RDM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 293,
-        "y": 220,
-        "jersey": 7
-      },
-      {
-        "name": "Ikrom Alibaev",
-        "shortName": "Alibaev",
-        "position": "LDM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 161,
-        "y": 220
-      },
-      {
-        "name": "Dostonbek Khamdamov",
-        "shortName": "Khamdamov",
-        "position": "RAM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "x": 348,
-        "y": 310,
-        "jersey": 17
-      },
-      {
-        "name": "Jaloliddin Masharipov",
-        "shortName": "Masharipov",
-        "position": "CAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "x": 226,
-        "y": 300,
-        "jersey": 10
-      },
-      {
-        "name": "Abbosbek Fayzullaev",
-        "shortName": "Fayzullaev",
-        "position": "LAM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
+        "jersey": "2",
         "x": 104,
-        "y": 310,
-        "jersey": 22
+        "y": 130
       },
       {
-        "name": "Eldor Shomurodov",
-        "shortName": "Shomurodov",
-        "position": "ST",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": true,
+        "name": "Abdullaev",
+        "shortName": "Abdullaev",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 226,
-        "y": 390,
-        "jersey": 14
+        "y": 130
+      },
+      {
+        "name": "Ashurmatov",
+        "shortName": "Ashurmatov",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 348,
+        "y": 130
+      },
+      {
+        "name": "Ganiev",
+        "shortName": "Ganiev",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Nasrullaev",
+        "shortName": "Nasrullaev",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Karimov",
+        "shortName": "Karimov",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Fayzullaev",
+        "shortName": "Fayzullaev",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Xamrobekov",
+        "shortName": "Xamrobekov",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Shukurov",
+        "shortName": "Shukurov",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Shomurodov",
+        "shortName": "Shomurodov",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -402,5 +406,26 @@
     }
   ],
   "population": "35.7M",
-  "location": "Central Asia"
+  "location": "Central Asia",
+  "pitchLabel": "Confirmed XI · Jun 23 vs Portugal",
+  "matches": [
+    {
+      "eventId": "760461",
+      "opponent": "Portugal",
+      "date": "Jun 23",
+      "starters": [
+        "Nematov",
+        "Khusanov",
+        "Abdullaev",
+        "Ashurmatov",
+        "Ganiev",
+        "Nasrullaev",
+        "Karimov",
+        "Fayzullaev",
+        "Xamrobekov",
+        "Shukurov",
+        "Shomurodov"
+      ]
+    }
+  ]
 }
