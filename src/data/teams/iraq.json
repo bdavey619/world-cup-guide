@@ -89,7 +89,9 @@
       "opponent": "France",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": true
+      "isAway": true,
+      "score": "0–3",
+      "result": "L"
     },
     {
       "date": "Jun 26",
@@ -247,11 +249,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
     "gf": 1,
-    "ga": 4,
-    "gd": -3
+    "ga": 7,
+    "gd": -6
   },
   "squad": [
     {

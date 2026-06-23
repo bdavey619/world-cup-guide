@@ -213,13 +213,13 @@
         "y": 256
       },
       {
-        "name": "Bentaleb",
-        "shortName": "Bentaleb",
+        "name": "Zerrouki",
+        "shortName": "Zerrouki",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "6",
         "x": 226,
         "y": 256
       },
@@ -257,13 +257,13 @@
         "y": 375
       },
       {
-        "name": "Hadj Moussa",
-        "shortName": "Hadj Moussa",
+        "name": "Mahrez",
+        "shortName": "Mahrez",
         "position": "RF",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -438,7 +438,7 @@
   ],
   "population": "46.2M",
   "location": "North Africa",
-  "pitchLabel": "Confirmed XI · Jun 16 vs Argentina",
+  "pitchLabel": "Confirmed XI · Jun 22 vs Jordan",
   "matches": [
     {
       "eventId": "760433",
@@ -456,6 +456,24 @@
         "Gouiri",
         "Chaïbi",
         "Hadj Moussa"
+      ]
+    },
+    {
+      "eventId": "760455",
+      "opponent": "Jordan",
+      "date": "Jun 22",
+      "starters": [
+        "Zidane",
+        "Bensebaini",
+        "Mandi",
+        "Aït-Nouri",
+        "Belghali",
+        "Zerrouki",
+        "Maza",
+        "Boudaoui",
+        "Gouiri",
+        "Chaïbi",
+        "Mahrez"
       ]
     }
   ]

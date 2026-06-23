@@ -149,13 +149,13 @@
         "y": 130
       },
       {
-        "name": "Abualnadi",
-        "shortName": "Abualnadi",
+        "name": "Abu Dahab",
+        "shortName": "Abu Dahab",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "4",
         "x": 348,
         "y": 130
       },
@@ -215,24 +215,24 @@
         "y": 310
       },
       {
-        "name": "Olwan",
-        "shortName": "Olwan",
+        "name": "Al-Mardi",
+        "shortName": "Al-Mardi",
         "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "13",
         "x": 289,
         "y": 310
       },
       {
-        "name": "Fakhoury",
-        "shortName": "Fakhoury",
+        "name": "Olwan",
+        "shortName": "Olwan",
         "position": "CF-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "9",
         "x": 226,
         "y": 385
       }
@@ -407,7 +407,7 @@
   ],
   "population": "10.2M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 17 vs Austria",
+  "pitchLabel": "Confirmed XI · Jun 22 vs Algeria",
   "matches": [
     {
       "eventId": "760431",
@@ -425,6 +425,24 @@
         "Al-Tamari",
         "Olwan",
         "Fakhoury"
+      ]
+    },
+    {
+      "eventId": "760455",
+      "opponent": "Algeria",
+      "date": "Jun 22",
+      "starters": [
+        "Abulaila",
+        "Al-Arab",
+        "Abu Dahab",
+        "Nasib",
+        "Al-Rawabdeh",
+        "Al-Rashdan",
+        "Abu Taha",
+        "Haddad",
+        "Al-Tamari",
+        "Al-Mardi",
+        "Olwan"
       ]
     }
   ]

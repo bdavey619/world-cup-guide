@@ -90,7 +90,9 @@
       "opponent": "Norway",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, NJ",
-      "isAway": true
+      "isAway": true,
+      "score": "2–3",
+      "result": "L"
     },
     {
       "date": "Jun 26",
@@ -260,11 +262,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 0,
-    "gf": 1,
-    "ga": 3,
-    "gd": -2
+    "gf": 3,
+    "ga": 6,
+    "gd": -3
   },
   "squad": [
     {
