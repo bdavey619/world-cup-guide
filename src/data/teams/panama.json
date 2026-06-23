@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '18",
     "manager": "Thomas Christiansen",
     "managerTenure": "2021–present",
-    "formation": "3-4-3",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 35
   },
@@ -134,20 +134,31 @@
         "y": 56
       },
       {
+        "name": "Blackman",
+        "shortName": "Blackman",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 32,
+        "y": 148
+      },
+      {
         "name": "Ramos",
         "shortName": "Ramos",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 104,
+        "x": 127,
         "y": 148
       },
       {
         "name": "Córdoba",
         "shortName": "Córdoba",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -158,68 +169,68 @@
       {
         "name": "Andrade",
         "shortName": "Andrade",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 348,
+        "x": 325,
         "y": 148
-      },
-      {
-        "name": "Blackman",
-        "shortName": "Blackman",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 63,
-        "y": 256
-      },
-      {
-        "name": "Bárcenas",
-        "shortName": "Bárcenas",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 161,
-        "y": 256
       },
       {
         "name": "Murillo",
         "shortName": "Murillo",
-        "position": "M",
-        "role": "mid",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 293,
+        "x": 420,
+        "y": 148
+      },
+      {
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 63,
         "y": 256
       },
       {
         "name": "Harvey",
         "shortName": "Harvey",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 389,
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Bárcenas",
+        "shortName": "Bárcenas",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 293,
         "y": 256
       },
       {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "F",
-        "role": "att",
+        "position": "RM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 104,
-        "y": 375
+        "x": 389,
+        "y": 256
       },
       {
         "name": "Fajardo",
@@ -230,17 +241,6 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 348,
         "y": 375
       }
     ]
@@ -440,16 +440,16 @@
       "date": "Jun 23",
       "starters": [
         "Mosquera",
-        "Ramos",
         "Córdoba",
         "Andrade",
+        "Ramos",
         "Blackman",
-        "Bárcenas",
         "Murillo",
+        "Bárcenas",
         "Harvey",
+        "Rodríguez",
         "Martínez",
-        "Fajardo",
-        "Rodríguez"
+        "Fajardo"
       ]
     }
   ]
