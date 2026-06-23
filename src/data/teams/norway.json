@@ -145,64 +145,64 @@
         "y": 56
       },
       {
-        "name": "Heggem",
-        "shortName": "Heggem",
-        "position": "D",
+        "name": "Møller Wolfe",
+        "shortName": "Møller Wolfe",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "5",
         "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Ryerson",
-        "shortName": "Ryerson",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 161,
         "y": 148
       },
       {
         "name": "Ajer",
         "shortName": "Ajer",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Heggem",
+        "shortName": "Heggem",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Møller Wolfe",
-        "shortName": "Møller Wolfe",
-        "position": "D",
+        "name": "Ryerson",
+        "shortName": "Ryerson",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "26",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Ødegaard",
-        "shortName": "Ødegaard",
-        "position": "M",
+        "name": "Aursnes",
+        "shortName": "Aursnes",
+        "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "14",
         "x": 104,
         "y": 256
       },
       {
         "name": "Berge",
         "shortName": "Berge",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -211,36 +211,25 @@
         "y": 256
       },
       {
-        "name": "Aursnes",
-        "shortName": "Aursnes",
-        "position": "M",
+        "name": "Ødegaard",
+        "shortName": "Ødegaard",
+        "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "10",
         "x": 348,
         "y": 256
       },
       {
         "name": "Nusa",
         "shortName": "Nusa",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
         "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Sørloth",
-        "shortName": "Sørloth",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 226,
         "y": 375
       },
       {
@@ -251,6 +240,17 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Sørloth",
+        "shortName": "Sørloth",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -452,15 +452,15 @@
       "starters": [
         "Nyland",
         "Heggem",
-        "Ryerson",
         "Ajer",
         "Møller Wolfe",
-        "Ødegaard",
+        "Ryerson",
         "Berge",
         "Aursnes",
+        "Ødegaard",
+        "Haaland",
         "Nusa",
-        "Sørloth",
-        "Haaland"
+        "Sørloth"
       ]
     }
   ]
