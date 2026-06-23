@@ -1,12 +1,8 @@
 name: Update World Cup Data
 
-# Single scheduled workflow replacing the three separate update-lineup,
-# update-standings, and update-stats workflows. One runner slot per cycle
-# instead of three competing for the queue — eliminates GitHub Actions
-# throttling gaps during live matches.
 on:
   schedule:
-    # Every 5 minutes, all day, June–July.
+    # Dead-man's switch — restarts the self-chain if it ever breaks.
     - cron: '*/5 * * 6,7 *'
   workflow_dispatch:
     inputs:
@@ -14,6 +10,11 @@ on:
         description: 'Date to fetch lineups for (YYYY-MM-DD). Leave blank for auto.'
         required: false
         default: ''
+
+# Prevent duplicate concurrent runs (schedule firing while self-chain is mid-run).
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -65,3 +66,27 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           event-type: standings-updated
+
+      - name: Wait then self-chain next run
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const month = new Date().getUTCMonth() + 1
+            if (month < 6 || month > 7) {
+              console.log('Outside tournament window (Jun–Jul) — not re-chaining.')
+              return
+            }
+            // Space runs ~5 minutes apart without burning a separate runner slot for sleep.
+            await new Promise(r => setTimeout(r, 4 * 60 * 1000))
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'update-data.yml',
+                ref: 'main',
+              })
+              console.log('Next run dispatched.')
+            } catch (e) {
+              console.warn('Self-dispatch failed — schedule will recover:', e.message)
+            }
