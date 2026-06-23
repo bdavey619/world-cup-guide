@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
-    "formation": "4-4-1-1",
+    "formation": "4-1-4-1",
     "winPct": 0.2,
     "advancePct": 46
   },
@@ -143,13 +143,13 @@
   "pitch": {
     "players": [
       {
-        "name": "Zigi",
-        "shortName": "Zigi",
+        "name": "Asare",
+        "shortName": "Asare",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "1",
+        "jersey": "16",
         "x": 226,
         "y": 56
       },
@@ -198,6 +198,17 @@
         "y": 130
       },
       {
+        "name": "Partey",
+        "shortName": "Partey",
+        "position": "DM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 226,
+        "y": 215
+      },
+      {
         "name": "Semenyo",
         "shortName": "Semenyo",
         "position": "LM",
@@ -206,7 +217,7 @@
         "isCaptain": false,
         "jersey": "11",
         "x": 63,
-        "y": 215
+        "y": 310
       },
       {
         "name": "Yirenkyi",
@@ -217,46 +228,35 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 161,
-        "y": 215
+        "y": 310
       },
       {
-        "name": "Owusu",
-        "shortName": "Owusu",
+        "name": "Sibo",
+        "shortName": "Sibo",
         "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "8",
         "x": 293,
-        "y": 215
+        "y": 310
       },
       {
-        "name": "Nuamah",
-        "shortName": "Nuamah",
+        "name": "Williams",
+        "shortName": "Williams",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "19",
         "x": 389,
-        "y": 215
-      },
-      {
-        "name": "Sulemana",
-        "shortName": "Sulemana",
-        "position": "RCF",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 226,
         "y": 310
       },
       {
         "name": "Ayew",
         "shortName": "Ayew",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
@@ -434,7 +434,7 @@
   ],
   "population": "33.5M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 17 vs Panama",
+  "pitchLabel": "Confirmed XI · Jun 23 vs England",
   "matches": [
     {
       "eventId": "760434",
@@ -452,6 +452,24 @@
         "Nuamah",
         "Ayew",
         "Sulemana"
+      ]
+    },
+    {
+      "eventId": "760458",
+      "opponent": "England",
+      "date": "Jun 23",
+      "starters": [
+        "Asare",
+        "Opoku",
+        "Adjetey",
+        "Partey",
+        "Mensah",
+        "Senaya",
+        "Sibo",
+        "Yirenkyi",
+        "Semenyo",
+        "Williams",
+        "Ayew"
       ]
     }
   ]

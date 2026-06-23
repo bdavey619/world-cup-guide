@@ -176,13 +176,13 @@
         "y": 56
       },
       {
-        "name": "O'Reilly",
-        "shortName": "O'Reilly",
+        "name": "Spence",
+        "shortName": "Spence",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 63,
         "y": 130
       },
@@ -198,13 +198,13 @@
         "y": 130
       },
       {
-        "name": "Stones",
-        "shortName": "Stones",
+        "name": "Guéhi",
+        "shortName": "Guéhi",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "6",
         "x": 293,
         "y": 130
       },
@@ -456,7 +456,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 17 vs Croatia",
+  "pitchLabel": "Confirmed XI · Jun 23 vs Ghana",
   "matches": [
     {
       "eventId": "760437",
@@ -467,6 +467,24 @@
         "Stones",
         "Konsa",
         "O'Reilly",
+        "James",
+        "Bellingham",
+        "Rice",
+        "Anderson",
+        "Kane",
+        "Gordon",
+        "Madueke"
+      ]
+    },
+    {
+      "eventId": "760458",
+      "opponent": "Ghana",
+      "date": "Jun 23",
+      "starters": [
+        "Pickford",
+        "Guéhi",
+        "Konsa",
+        "Spence",
         "James",
         "Bellingham",
         "Rice",

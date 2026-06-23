@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T18:10:08.932Z",
+  "updatedAt": "2026-06-23T20:21:08.475Z",
   "individual": {
     "goals": [
       {
@@ -160,6 +160,13 @@
         "name": "Ismaïla Sarr",
         "team": "Senegal",
         "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "flag": "🇵🇹",
         "position": "",
         "value": 2
       },
@@ -659,6 +666,20 @@
         "flag": "🇩🇿",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Nuno Mendes",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Rafael Leão",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1118,8 +1139,8 @@
     {
       "name": "Portugal",
       "flag": "🇵🇹",
-      "gp": 1,
-      "gf": 1,
+      "gp": 2,
+      "gf": 6,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 75.4,
@@ -1217,9 +1238,9 @@
     {
       "name": "Uzbekistan",
       "flag": "🇺🇿",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
-      "ga": 3,
+      "ga": 8,
       "cleanSheets": 0,
       "possession": 38.6,
       "yellowCards": 1,
