@@ -177,20 +177,20 @@
         "y": 56
       },
       {
-        "name": "Cancelo",
-        "shortName": "Cancelo",
-        "position": "D",
+        "name": "Mendes",
+        "shortName": "Mendes",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "25",
         "x": 63,
         "y": 130
       },
       {
         "name": "Dias",
         "shortName": "Dias",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -199,79 +199,79 @@
         "y": 130
       },
       {
-        "name": "Mendes",
-        "shortName": "Mendes",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 293,
-        "y": 130
-      },
-      {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Cancelo",
+        "shortName": "Cancelo",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Neves",
-        "shortName": "Neves",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Fernandes",
-        "shortName": "Fernandes",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Neto",
-        "shortName": "Neto",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 104,
-        "y": 310
-      },
-      {
         "name": "Unknown",
         "shortName": "Unknown",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 226,
-        "y": 310
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Neves",
+        "shortName": "Neves",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Félix",
         "shortName": "Félix",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Fernandes",
+        "shortName": "Fernandes",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Neto",
+        "shortName": "Neto",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 348,
         "y": 310
       },
@@ -279,7 +279,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -482,15 +482,15 @@
       "date": "Jun 23",
       "starters": [
         "Costa",
-        "Cancelo",
+        "Veiga",
         "Dias",
         "Mendes",
-        "Veiga",
-        "Neves",
+        "Cancelo",
         "Fernandes",
-        "Neto",
+        "Neves",
+        "Ronaldo",
         "Félix",
-        "Ronaldo"
+        "Neto"
       ]
     }
   ]

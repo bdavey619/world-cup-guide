@@ -129,7 +129,7 @@
       {
         "name": "Khusanov",
         "shortName": "Khusanov",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -140,7 +140,7 @@
       {
         "name": "Abdullaev",
         "shortName": "Abdullaev",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -151,7 +151,7 @@
       {
         "name": "Ashurmatov",
         "shortName": "Ashurmatov",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -160,70 +160,48 @@
         "y": 130
       },
       {
-        "name": "Ganiev",
-        "shortName": "Ganiev",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 63,
-        "y": 215
-      },
-      {
         "name": "Nasrullaev",
         "shortName": "Nasrullaev",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 161,
-        "y": 215
-      },
-      {
-        "name": "Karimov",
-        "shortName": "Karimov",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 293,
-        "y": 215
-      },
-      {
-        "name": "Fayzullaev",
-        "shortName": "Fayzullaev",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 389,
+        "x": 63,
         "y": 215
       },
       {
         "name": "Xamrobekov",
         "shortName": "Xamrobekov",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 163,
-        "y": 310
+        "x": 161,
+        "y": 215
       },
       {
         "name": "Shukurov",
         "shortName": "Shukurov",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
-        "x": 289,
-        "y": 310
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Karimov",
+        "shortName": "Karimov",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Shomurodov",
@@ -233,6 +211,28 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "14",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Fayzullaev",
+        "shortName": "Fayzullaev",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Ganiev",
+        "shortName": "Ganiev",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
         "x": 226,
         "y": 385
       }
@@ -415,16 +415,16 @@
       "date": "Jun 23",
       "starters": [
         "Nematov",
-        "Khusanov",
         "Abdullaev",
         "Ashurmatov",
-        "Ganiev",
+        "Khusanov",
+        "Shukurov",
+        "Xamrobekov",
         "Nasrullaev",
         "Karimov",
+        "Shomurodov",
         "Fayzullaev",
-        "Xamrobekov",
-        "Shukurov",
-        "Shomurodov"
+        "Ganiev"
       ]
     }
   ]
