@@ -1,17 +1,12 @@
-name: Update Confirmed XIs
+name: Update World Cup Data
 
-# Runs every 30 minutes during the tournament window (Jun 11 – Jul 19 2026).
-# The script checks ESPN for lineups released ~1hr before kickoff and only
-# writes + pushes when it finds new starters — silent no-op otherwise.
+# Single scheduled workflow replacing the three separate update-lineup,
+# update-standings, and update-stats workflows. One runner slot per cycle
+# instead of three competing for the queue — eliminates GitHub Actions
+# throttling gaps during live matches.
 on:
   schedule:
-    # Runs every 5 minutes, all day, throughout June and July.
-    # GitHub Actions throttles scheduled workflows under load, causing ~3-hour
-    # gaps when the cron was every 30 min. Triggering 6× more often compensates
-    # so the effective refresh rate stays near the intended 30-minute target.
-    # Games run 9 AM–9 PM PT (16:00–04:00 UTC); extra time / penalties can push
-    # finishes to ~06:00 UTC. Running around the clock eliminates any gap where
-    # scores, standings, or XIs could go stale overnight.
+    # Every 5 minutes, all day, June–July.
     - cron: '*/5 * * 6,7 *'
   workflow_dispatch:
     inputs:
@@ -42,14 +37,20 @@ jobs:
             node scripts/update-lineup.js
           fi
 
+      - name: Fetch and update standings
+        run: node scripts/update-standings.js
+
+      - name: Fetch and update stats
+        run: node scripts/update-stats.js
+
       - name: Commit and push if changed
-        id: diff
+        id: commit
         run: |
-          git diff --quiet src/data/teams/ && exit 0
+          git diff --quiet src/data/ && exit 0
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/teams/
-          git commit -m "Auto: confirmed XIs for $(date -u '+%Y-%m-%d')"
+          git add src/data/
+          git commit -m "chore: update data $(date -u '+%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do
             git pull --rebase && git push && break
             echo "Push attempt $i failed"
@@ -59,8 +60,8 @@ jobs:
           echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Trigger redeploy
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: lineup-updated
+          event-type: standings-updated
