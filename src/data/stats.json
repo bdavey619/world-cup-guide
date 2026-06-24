@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T01:49:15.857Z",
+  "updatedAt": "2026-06-24T05:52:27.184Z",
   "individual": {
     "goals": [
       {
@@ -111,6 +111,13 @@
         "name": "Harry Kane",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Daniel Muñoz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
         "position": "",
         "value": 2
       },
@@ -461,13 +468,6 @@
         "name": "Caleb Yirenkyi",
         "team": "Ghana",
         "flag": "🇬🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Daniel Muñoz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
         "position": "",
         "value": 1
       },
@@ -926,8 +926,8 @@
     {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "gp": 1,
-      "gf": 3,
+      "gp": 2,
+      "gf": 4,
       "ga": 1,
       "cleanSheets": 0,
       "possession": 61.4,
@@ -1311,9 +1311,9 @@
     {
       "name": "DR Congo",
       "flag": "🇨🇩",
-      "gp": 1,
+      "gp": 2,
       "gf": 1,
-      "ga": 1,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 24.6,
       "yellowCards": 1,

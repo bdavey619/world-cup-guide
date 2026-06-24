@@ -90,7 +90,9 @@
       "opponent": "Colombia",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": true
+      "isAway": true,
+      "score": "0–1",
+      "result": "L"
     },
     {
       "date": "Jun 27",
@@ -244,11 +246,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 1,
     "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "ga": 2,
+    "gd": -1
   },
   "squad": [
     {

@@ -90,7 +90,9 @@
       "opponent": "DR Congo",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": false
+      "isAway": false,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 27",
@@ -164,42 +166,42 @@
         "y": 56
       },
       {
-        "name": "Lucumí",
-        "shortName": "Lucumí",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Mojica",
         "shortName": "Mojica",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
-        "x": 161,
+        "x": 63,
         "y": 148
       },
       {
         "name": "Sánchez",
         "shortName": "Sánchez",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Lucumí",
+        "shortName": "Lucumí",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 293,
         "y": 148
       },
       {
         "name": "Muñoz",
         "shortName": "Muñoz",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -208,20 +210,20 @@
         "y": 148
       },
       {
-        "name": "Puerta",
-        "shortName": "Puerta",
-        "position": "M",
+        "name": "Arias",
+        "shortName": "Arias",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "11",
         "x": 104,
         "y": 256
       },
       {
         "name": "Lerma",
         "shortName": "Lerma",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -230,20 +232,20 @@
         "y": 256
       },
       {
-        "name": "Arias",
-        "shortName": "Arias",
-        "position": "M",
+        "name": "Puerta",
+        "shortName": "Puerta",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "14",
         "x": 348,
         "y": 256
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -265,7 +267,7 @@
       {
         "name": "Rodríguez",
         "shortName": "Rodríguez",
-        "position": "F",
+        "position": "RF",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -276,13 +278,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 0,
-    "pts": 3,
-    "gf": 3,
+    "pts": 6,
+    "gf": 4,
     "ga": 1,
-    "gd": 2
+    "gd": 3
   },
   "squad": [
     {
@@ -453,14 +455,14 @@
       "starters": [
         "Vargas",
         "Lucumí",
-        "Mojica",
         "Sánchez",
+        "Mojica",
         "Muñoz",
-        "Puerta",
         "Lerma",
         "Arias",
-        "Díaz",
+        "Puerta",
         "Suárez",
+        "Díaz",
         "Rodríguez"
       ]
     }
