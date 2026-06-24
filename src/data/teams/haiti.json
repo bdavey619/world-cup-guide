@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '74",
     "manager": "Marc Collat",
     "managerTenure": "2023–present",
-    "formation": "5-4-1",
+    "formation": "4-4-2",
     "winPct": 0.1,
     "advancePct": 13
   },
@@ -134,75 +134,64 @@
         "y": 56
       },
       {
+        "name": "Delcroix",
+        "shortName": "Delcroix",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 63,
+        "y": 148
+      },
+      {
         "name": "Expérience",
         "shortName": "Expérience",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 32,
+        "x": 161,
         "y": 148
       },
       {
         "name": "Duverne",
         "shortName": "Duverne",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
-        "x": 127,
+        "x": 293,
         "y": 148
       },
       {
         "name": "Adé",
         "shortName": "Adé",
-        "position": "CD",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 226,
+        "x": 389,
         "y": 148
       },
       {
-        "name": "Delcroix",
-        "shortName": "Delcroix",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 325,
-        "y": 148
-      },
-      {
-        "name": "Arcus",
-        "shortName": "Arcus",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 420,
-        "y": 148
-      },
-      {
-        "name": "Providence",
-        "shortName": "Providence",
-        "position": "LM",
+        "name": "Bellegarde",
+        "shortName": "Bellegarde",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "10",
         "x": 63,
         "y": 256
       },
       {
         "name": "Jean Jacques",
         "shortName": "Jean Jacques",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -211,36 +200,47 @@
         "y": 256
       },
       {
-        "name": "Bellegarde",
-        "shortName": "Bellegarde",
-        "position": "CM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 293,
-        "y": 256
-      },
-      {
         "name": "Casimir",
         "shortName": "Casimir",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Providence",
+        "shortName": "Providence",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Pierrot",
-        "shortName": "Pierrot",
+        "name": "Isidor",
+        "shortName": "Isidor",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 226,
+        "jersey": "18",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Joseph",
+        "shortName": "Joseph",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 289,
         "y": 375
       }
     ]
@@ -412,7 +412,7 @@
       "jersey": "15"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Brazil",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Morocco",
   "matches": [
     {
       "eventId": "760418",
@@ -448,6 +448,24 @@
         "Providence",
         "Casimir",
         "Pierrot"
+      ]
+    },
+    {
+      "eventId": "760464",
+      "opponent": "Morocco",
+      "date": "Jun 24",
+      "starters": [
+        "Placide",
+        "Delcroix",
+        "Expérience",
+        "Duverne",
+        "Adé",
+        "Bellegarde",
+        "Jean Jacques",
+        "Casimir",
+        "Providence",
+        "Isidor",
+        "Joseph"
       ]
     }
   ],

@@ -101,7 +101,9 @@
       "opponent": "Switzerland",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     }
   ],
   "history": [
@@ -257,11 +259,11 @@
   "standings": {
     "w": 1,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 4,
-    "gf": 7,
-    "ga": 1,
-    "gd": 6
+    "gf": 8,
+    "ga": 3,
+    "gd": 5
   },
   "squad": [
     {

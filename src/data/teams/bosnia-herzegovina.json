@@ -101,7 +101,9 @@
       "opponent": "Qatar",
       "venue": "Lumen Field",
       "city": "Seattle",
-      "isAway": false
+      "isAway": false,
+      "score": "3–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -249,13 +251,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 1,
     "l": 1,
-    "pts": 1,
-    "gf": 2,
-    "ga": 5,
-    "gd": -3
+    "pts": 4,
+    "gf": 5,
+    "ga": 6,
+    "gd": -1
   },
   "squad": [
     {

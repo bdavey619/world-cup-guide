@@ -179,64 +179,64 @@
         "y": 56
       },
       {
-        "name": "Santos",
-        "shortName": "Santos",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Marquinhos",
-        "shortName": "Marquinhos",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Magalhães",
         "shortName": "Magalhães",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 293,
+        "x": 63,
         "y": 148
       },
       {
         "name": "Danilo",
         "shortName": "Danilo",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Marquinhos",
+        "shortName": "Marquinhos",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Santos",
+        "shortName": "Santos",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Paquetá",
-        "shortName": "Paquetá",
-        "position": "LM",
+        "name": "Guimarães",
+        "shortName": "Guimarães",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 104,
         "y": 256
       },
       {
         "name": "Casemiro",
         "shortName": "Casemiro",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -245,25 +245,36 @@
         "y": 256
       },
       {
-        "name": "Guimarães",
-        "shortName": "Guimarães",
-        "position": "RM",
+        "name": "Paquetá",
+        "shortName": "Paquetá",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 348,
         "y": 256
       },
       {
         "name": "Júnior",
         "shortName": "Júnior",
-        "position": "LF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
         "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Rayan",
+        "shortName": "Rayan",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 226,
         "y": 375
       },
       {
@@ -274,17 +285,6 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Unknown",
-        "shortName": "Unknown",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
         "x": 348,
         "y": 375
       }
@@ -457,7 +457,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Haiti",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Scotland",
   "matches": [
     {
       "eventId": "760419",
@@ -492,6 +492,24 @@
         "Guimarães",
         "Cunha",
         "Júnior"
+      ]
+    },
+    {
+      "eventId": "760465",
+      "opponent": "Scotland",
+      "date": "Jun 24",
+      "starters": [
+        "Becker",
+        "Magalhães",
+        "Danilo",
+        "Marquinhos",
+        "Santos",
+        "Guimarães",
+        "Casemiro",
+        "Paquetá",
+        "Júnior",
+        "Rayan",
+        "Cunha"
       ]
     }
   ],

@@ -179,97 +179,97 @@
         "y": 56
       },
       {
-        "name": "Mazraoui",
-        "shortName": "Mazraoui",
-        "position": "LB",
+        "name": "Halhal",
+        "shortName": "Halhal",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Diop",
-        "shortName": "Diop",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 161,
-        "y": 130
-      },
-      {
-        "name": "Riad",
-        "shortName": "Riad",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 293,
         "y": 130
       },
       {
         "name": "Hakimi",
         "shortName": "Hakimi",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "2",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Salah-Eddine",
+        "shortName": "Salah-Eddine",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Riad",
+        "shortName": "Riad",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 389,
         "y": 130
       },
       {
-        "name": "El Aynaoui",
-        "shortName": "El Aynaoui",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Bouaddi",
-        "shortName": "Bouaddi",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "El Khannouss",
         "shortName": "El Khannouss",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "El Aynaoui",
+        "shortName": "El Aynaoui",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Amrabat",
+        "shortName": "Amrabat",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 104,
         "y": 310
       },
       {
-        "name": "Ounahi",
-        "shortName": "Ounahi",
-        "position": "AM",
+        "name": "Saibari",
+        "shortName": "Saibari",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "11",
         "x": 226,
         "y": 310
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -278,13 +278,13 @@
         "y": 310
       },
       {
-        "name": "Saibari",
-        "shortName": "Saibari",
+        "name": "El Kaabi",
+        "shortName": "El Kaabi",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "20",
         "x": 226,
         "y": 385
       }
@@ -457,7 +457,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Scotland",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Haiti",
   "matches": [
     {
       "eventId": "760419",
@@ -493,6 +493,24 @@
         "Saibari",
         "El Khannouss",
         "Díaz"
+      ]
+    },
+    {
+      "eventId": "760464",
+      "opponent": "Haiti",
+      "date": "Jun 24",
+      "starters": [
+        "Bounou",
+        "Halhal",
+        "Hakimi",
+        "Salah-Eddine",
+        "Riad",
+        "El Khannouss",
+        "El Aynaoui",
+        "Amrabat",
+        "Saibari",
+        "Díaz",
+        "El Kaabi"
       ]
     }
   ],

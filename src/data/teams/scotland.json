@@ -177,86 +177,86 @@
         "y": 56
       },
       {
-        "name": "Robertson",
-        "shortName": "Robertson",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Hanley",
-        "shortName": "Hanley",
-        "position": "CD-R",
+        "name": "Patterson",
+        "shortName": "Patterson",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 161,
+        "jersey": "22",
+        "x": 63,
         "y": 130
       },
       {
         "name": "Hendry",
         "shortName": "Hendry",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Robertson",
+        "shortName": "Robertson",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Patterson",
-        "shortName": "Patterson",
-        "position": "RB",
+        "name": "McKenna",
+        "shortName": "McKenna",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "26",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Tierney",
-        "shortName": "Tierney",
-        "position": "LM",
+        "name": "McTominay",
+        "shortName": "McTominay",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "4",
         "x": 63,
         "y": 215
       },
       {
-        "name": "Christie",
-        "shortName": "Christie",
-        "position": "CM-R",
+        "name": "McLean",
+        "shortName": "McLean",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "23",
         "x": 161,
         "y": 215
       },
       {
-        "name": "Ferguson",
-        "shortName": "Ferguson",
-        "position": "CM-L",
+        "name": "Gannon-Doak",
+        "shortName": "Gannon-Doak",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "17",
         "x": 293,
         "y": 215
       },
       {
         "name": "McGinn",
         "shortName": "McGinn",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -265,24 +265,24 @@
         "y": 215
       },
       {
-        "name": "McTominay",
-        "shortName": "McTominay",
-        "position": "RCF",
+        "name": "Ferguson",
+        "shortName": "Ferguson",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "19",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Adams",
-        "shortName": "Adams",
+        "name": "Shankland",
+        "shortName": "Shankland",
         "position": "F",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "20",
         "x": 226,
         "y": 385
       }
@@ -455,7 +455,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Morocco",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Brazil",
   "matches": [
     {
       "eventId": "760418",
@@ -491,6 +491,24 @@
         "McGinn",
         "Adams",
         "McTominay"
+      ]
+    },
+    {
+      "eventId": "760465",
+      "opponent": "Brazil",
+      "date": "Jun 24",
+      "starters": [
+        "Gunn",
+        "Patterson",
+        "Hendry",
+        "Robertson",
+        "McKenna",
+        "McTominay",
+        "McLean",
+        "Gannon-Doak",
+        "McGinn",
+        "Ferguson",
+        "Shankland"
       ]
     }
   ],

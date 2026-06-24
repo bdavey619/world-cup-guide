@@ -99,7 +99,9 @@
       "opponent": "Canada",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": false
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -289,13 +291,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 1,
     "l": 0,
-    "pts": 4,
-    "gf": 5,
-    "ga": 2,
-    "gd": 3
+    "pts": 7,
+    "gf": 7,
+    "ga": 3,
+    "gd": 4
   },
   "squad": [
     {

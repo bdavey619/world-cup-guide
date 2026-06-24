@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:33:13.846Z",
+  "updatedAt": "2026-06-24T21:10:45.800Z",
   "individual": {
     "goals": [
       {
@@ -27,6 +27,13 @@
         "name": "Deniz Undav",
         "team": "Germany",
         "flag": "🇩🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Johan Manzambi",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 3
       },
@@ -122,9 +129,16 @@
         "value": 2
       },
       {
-        "name": "Johan Manzambi",
+        "name": "Rubén Vargas",
         "team": "Switzerland",
         "flag": "🇨🇭",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ermin Mahmic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
         "position": "",
         "value": 2
       },
@@ -507,20 +521,6 @@
         "value": 1
       },
       {
-        "name": "Rubén Vargas",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ermin Mahmic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Granit Xhaka",
         "team": "Switzerland",
         "flag": "🇨🇭",
@@ -685,6 +685,27 @@
         "name": "Ante Budimir",
         "team": "Croatia",
         "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kerim Alajbegovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hassan Al-Haydos",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Promise David",
+        "team": "Canada",
+        "flag": "🇨🇦",
         "position": "",
         "value": 1
       }
@@ -915,9 +936,9 @@
     {
       "name": "Canada",
       "flag": "🇨🇦",
-      "gp": 2,
-      "gf": 7,
-      "ga": 1,
+      "gp": 3,
+      "gf": 8,
+      "ga": 3,
       "cleanSheets": 1,
       "possession": 70,
       "yellowCards": 3,
@@ -1014,9 +1035,9 @@
     {
       "name": "Bosnia-Herzegovina",
       "flag": "🇧🇦",
-      "gp": 2,
-      "gf": 2,
-      "ga": 5,
+      "gp": 3,
+      "gf": 5,
+      "ga": 6,
       "cleanSheets": 0,
       "possession": 38.3,
       "yellowCards": 5,
@@ -1102,9 +1123,9 @@
     {
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "gp": 2,
-      "gf": 5,
-      "ga": 2,
+      "gp": 3,
+      "gf": 7,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 65.2,
       "yellowCards": 2,
@@ -1355,9 +1376,9 @@
     {
       "name": "Qatar",
       "flag": "🇶🇦",
-      "gp": 2,
-      "gf": 1,
-      "ga": 7,
+      "gp": 3,
+      "gf": 2,
+      "ga": 10,
       "cleanSheets": 0,
       "possession": 26.5,
       "yellowCards": 3,
