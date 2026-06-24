@@ -159,24 +159,24 @@
         "y": 148
       },
       {
-        "name": "Muharemovic",
-        "shortName": "Muharemovic",
+        "name": "Radeljic",
+        "shortName": "Radeljic",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "21",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Dedic",
-        "shortName": "Dedic",
+        "name": "Malic",
+        "shortName": "Malic",
         "position": "RB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "24",
         "x": 389,
         "y": 148
       },
@@ -192,13 +192,13 @@
         "y": 256
       },
       {
-        "name": "Tahirovic",
-        "shortName": "Tahirovic",
+        "name": "Basic",
+        "shortName": "Basic",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "13",
         "x": 161,
         "y": 256
       },
@@ -214,13 +214,13 @@
         "y": 256
       },
       {
-        "name": "Memic",
-        "shortName": "Memic",
+        "name": "Bajraktarevic",
+        "shortName": "Bajraktarevic",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "20",
         "x": 389,
         "y": 256
       },
@@ -415,7 +415,7 @@
       "jersey": "19"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 18 vs Switzerland",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Qatar",
   "matches": [
     {
       "eventId": "760416",
@@ -449,6 +449,24 @@
         "Tahirovic",
         "Alajbegovic",
         "Memic",
+        "Dzeko",
+        "Demirovic"
+      ]
+    },
+    {
+      "eventId": "760462",
+      "opponent": "Qatar",
+      "date": "Jun 24",
+      "starters": [
+        "Vasilj",
+        "Radeljic",
+        "Katic",
+        "Kolasinac",
+        "Malic",
+        "Sunjic",
+        "Basic",
+        "Alajbegovic",
+        "Bajraktarevic",
         "Dzeko",
         "Demirovic"
       ]

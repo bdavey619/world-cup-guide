@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Murat Yakin",
     "managerTenure": "2021–present",
-    "formation": "4-3-1-2",
+    "formation": "4-2-3-1",
     "winPct": 1,
     "advancePct": 94
   },
@@ -210,75 +210,75 @@
         "y": 130
       },
       {
-        "name": "Widmer",
-        "shortName": "Widmer",
+        "name": "Jaquez",
+        "shortName": "Jaquez",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Freuler",
-        "shortName": "Freuler",
+        "name": "Xhaka",
+        "shortName": "Xhaka",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 63,
+        "jersey": "10",
+        "x": 163,
         "y": 215
       },
       {
-        "name": "Ndoye",
-        "shortName": "Ndoye",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 161,
-        "y": 215
-      },
-      {
-        "name": "Xhaka",
-        "shortName": "Xhaka",
-        "position": "CM",
+        "name": "Freuler",
+        "shortName": "Freuler",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
-        "x": 293,
+        "jersey": "8",
+        "x": 289,
         "y": 215
       },
       {
-        "name": "Aebischer",
-        "shortName": "Aebischer",
-        "position": "RM",
+        "name": "Vargas",
+        "shortName": "Vargas",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 389,
-        "y": 215
+        "jersey": "17",
+        "x": 104,
+        "y": 310
       },
       {
-        "name": "Rieder",
-        "shortName": "Rieder",
+        "name": "Manzambi",
+        "shortName": "Manzambi",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "9",
         "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Sow",
+        "shortName": "Sow",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 348,
         "y": 310
       },
       {
         "name": "Embolo",
         "shortName": "Embolo",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -455,7 +455,7 @@
       "jersey": "23"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 18 vs Bosnia-Herzegovina",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Canada",
   "matches": [
     {
       "eventId": "760420",
@@ -491,6 +491,24 @@
         "Freuler",
         "Aebischer",
         "Embolo"
+      ]
+    },
+    {
+      "eventId": "760463",
+      "opponent": "Canada",
+      "date": "Jun 24",
+      "starters": [
+        "Kobel",
+        "Akanji",
+        "Elvedi",
+        "Rodríguez",
+        "Jaquez",
+        "Manzambi",
+        "Xhaka",
+        "Freuler",
+        "Embolo",
+        "Vargas",
+        "Sow"
       ]
     }
   ],

@@ -134,68 +134,68 @@
         "y": 56
       },
       {
-        "name": "Ahmed",
-        "shortName": "Ahmed",
+        "name": "Al-Brake",
+        "shortName": "Al-Brake",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "18",
         "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Miguel",
-        "shortName": "Miguel",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 161,
         "y": 148
       },
       {
         "name": "Khoukhi",
         "shortName": "Khoukhi",
-        "position": "CD-L",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "16",
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Al-Oui",
-        "shortName": "Al-Oui",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 389,
+        "x": 161,
         "y": 148
       },
       {
         "name": "Laye",
         "shortName": "Laye",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Miguel",
+        "shortName": "Miguel",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Boudiaf",
+        "shortName": "Boudiaf",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "12",
         "x": 104,
         "y": 256
       },
       {
-        "name": "Madibo",
-        "shortName": "Madibo",
+        "name": "Fathy",
+        "shortName": "Fathy",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "20",
         "x": 226,
         "y": 256
       },
@@ -211,24 +211,24 @@
         "y": 256
       },
       {
-        "name": "Afif",
-        "shortName": "Afif",
+        "name": "Al-Haydos",
+        "shortName": "Al-Haydos",
         "position": "LF",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "10",
         "x": 104,
         "y": 375
       },
       {
-        "name": "Abdurisag",
-        "shortName": "Abdurisag",
+        "name": "Afif",
+        "shortName": "Afif",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "11",
         "x": 226,
         "y": 375
       },
@@ -412,7 +412,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 18 vs Canada",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Bosnia-Herzegovina",
   "matches": [
     {
       "eventId": "760420",
@@ -447,6 +447,24 @@
         "Gaber",
         "Abdurisag",
         "Afif",
+        "Junior"
+      ]
+    },
+    {
+      "eventId": "760462",
+      "opponent": "Bosnia-Herzegovina",
+      "date": "Jun 24",
+      "starters": [
+        "Abunada",
+        "Laye",
+        "Khoukhi",
+        "Al-Brake",
+        "Miguel",
+        "Fathy",
+        "Boudiaf",
+        "Gaber",
+        "Afif",
+        "Al-Haydos",
         "Junior"
       ]
     }

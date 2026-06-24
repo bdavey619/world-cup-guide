@@ -198,24 +198,24 @@
         "y": 256
       },
       {
-        "name": "Koné",
-        "shortName": "Koné",
+        "name": "Saliba",
+        "shortName": "Saliba",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "25",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Eustáquio",
-        "shortName": "Eustáquio",
+        "name": "Choinière",
+        "shortName": "Choinière",
         "position": "CM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "6",
         "x": 293,
         "y": 256
       },
@@ -421,7 +421,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 18 vs Qatar",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Switzerland",
   "matches": [
     {
       "eventId": "760416",
@@ -453,6 +453,24 @@
         "Johnston",
         "Eustáquio",
         "Koné",
+        "Ahmed",
+        "Buchanan",
+        "Larin",
+        "David"
+      ]
+    },
+    {
+      "eventId": "760463",
+      "opponent": "Switzerland",
+      "date": "Jun 24",
+      "starters": [
+        "Crépeau",
+        "Cornelius",
+        "de Fougerolles",
+        "Laryea",
+        "Johnston",
+        "Choinière",
+        "Saliba",
         "Ahmed",
         "Buchanan",
         "Larin",
