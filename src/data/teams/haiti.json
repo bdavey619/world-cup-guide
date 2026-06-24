@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '74",
     "manager": "Marc Collat",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "4-4-1-1",
     "winPct": 0.1,
     "advancePct": 13
   },
@@ -142,7 +142,7 @@
         "isCaptain": false,
         "jersey": "8",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Adé",
@@ -153,7 +153,7 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Delcroix",
@@ -164,7 +164,7 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Duverne",
@@ -175,7 +175,7 @@
         "isCaptain": false,
         "jersey": "22",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Providence",
@@ -186,7 +186,7 @@
         "isCaptain": false,
         "jersey": "15",
         "x": 63,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Jean Jacques",
@@ -197,7 +197,7 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 161,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Bellegarde",
@@ -208,7 +208,7 @@
         "isCaptain": false,
         "jersey": "10",
         "x": 293,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Casimir",
@@ -219,29 +219,29 @@
         "isCaptain": false,
         "jersey": "21",
         "x": 389,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Isidor",
         "shortName": "Isidor",
-        "position": "CF-R",
-        "role": "att",
+        "position": "RCF",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 163,
-        "y": 375
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Joseph",
         "shortName": "Joseph",
-        "position": "CF-L",
-        "role": "att",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 289,
-        "y": 375
+        "x": 226,
+        "y": 385
       }
     ]
   },

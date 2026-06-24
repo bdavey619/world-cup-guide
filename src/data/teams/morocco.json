@@ -223,24 +223,24 @@
         "y": 130
       },
       {
-        "name": "El Aynaoui",
-        "shortName": "El Aynaoui",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Amrabat",
         "shortName": "Amrabat",
-        "position": "RM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "4",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "El Aynaoui",
+        "shortName": "El Aynaoui",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 289,
         "y": 215
       },
@@ -506,8 +506,8 @@
         "Salah-Eddine",
         "Hakimi",
         "Saibari",
-        "El Aynaoui",
         "Amrabat",
+        "El Aynaoui",
         "El Kaabi",
         "El Khannouss",
         "Díaz"
