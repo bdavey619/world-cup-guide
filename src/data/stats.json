@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T23:51:06.727Z",
+  "updatedAt": "2026-06-24T01:49:15.857Z",
   "individual": {
     "goals": [
       {
@@ -680,6 +680,13 @@
         "flag": "🇵🇹",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Ante Budimir",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1106,8 +1113,8 @@
     {
       "name": "Croatia",
       "flag": "🇭🇷",
-      "gp": 1,
-      "gf": 2,
+      "gp": 2,
+      "gf": 3,
       "ga": 4,
       "cleanSheets": 0,
       "possession": 48.3,
@@ -1282,9 +1289,9 @@
     {
       "name": "Panama",
       "flag": "🇵🇦",
-      "gp": 1,
+      "gp": 2,
       "gf": 0,
-      "ga": 1,
+      "ga": 2,
       "cleanSheets": 0,
       "possession": 62,
       "yellowCards": 2,

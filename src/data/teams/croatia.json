@@ -90,7 +90,9 @@
       "opponent": "Panama",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": false
+      "isAway": false,
+      "score": "1–0",
+      "result": "W"
     },
     {
       "date": "Jun 27",
@@ -276,13 +278,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 1,
-    "pts": 0,
-    "gf": 2,
+    "pts": 3,
+    "gf": 3,
     "ga": 4,
-    "gd": -2
+    "gd": -1
   },
   "squad": [
     {
