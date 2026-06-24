@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T05:52:27.184Z",
+  "updatedAt": "2026-06-24T08:46:54.857Z",
   "individual": {
     "goals": [
       {
@@ -796,6 +796,13 @@
         "value": 1
       },
       {
+        "name": "Josip Stanisic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "D",
+        "value": 1
+      },
+      {
         "name": "Lee Kang-In",
         "team": "South Korea",
         "flag": "🇰🇷",
@@ -852,17 +859,10 @@
         "value": 1
       },
       {
-        "name": "Mohamed Hany",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "D",
-        "value": 1
-      },
-      {
-        "name": "Breel Embolo",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "F",
+        "name": "Bruno Fernandes",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "M",
         "value": 1
       }
     ]
@@ -929,9 +929,9 @@
       "gp": 2,
       "gf": 4,
       "ga": 1,
-      "cleanSheets": 0,
-      "possession": 61.4,
-      "yellowCards": 1,
+      "cleanSheets": 1,
+      "possession": 62.5,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -973,9 +973,9 @@
       "gp": 2,
       "gf": 4,
       "ga": 2,
-      "cleanSheets": 0,
-      "possession": 51.7,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 65.3,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -1116,9 +1116,9 @@
       "gp": 2,
       "gf": 3,
       "ga": 4,
-      "cleanSheets": 0,
-      "possession": 48.3,
-      "yellowCards": 0,
+      "cleanSheets": 1,
+      "possession": 53.1,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -1149,9 +1149,9 @@
       "gp": 2,
       "gf": 6,
       "ga": 1,
-      "cleanSheets": 0,
-      "possession": 75.4,
-      "yellowCards": 3,
+      "cleanSheets": 1,
+      "possession": 70.7,
+      "yellowCards": 4,
       "redCards": 0
     },
     {
@@ -1249,8 +1249,8 @@
       "gf": 1,
       "ga": 8,
       "cleanSheets": 0,
-      "possession": 38.6,
-      "yellowCards": 1,
+      "possession": 36.4,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -1293,8 +1293,8 @@
       "gf": 0,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": 62,
-      "yellowCards": 2,
+      "possession": 52,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -1315,8 +1315,8 @@
       "gf": 1,
       "ga": 2,
       "cleanSheets": 0,
-      "possession": 24.6,
-      "yellowCards": 1,
+      "possession": 30.6,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
@@ -1369,9 +1369,9 @@
       "gp": 2,
       "gf": 1,
       "ga": 0,
-      "cleanSheets": 1,
-      "possession": 38,
-      "yellowCards": 1,
+      "cleanSheets": 2,
+      "possession": 29.6,
+      "yellowCards": 2,
       "redCards": 0
     },
     {
