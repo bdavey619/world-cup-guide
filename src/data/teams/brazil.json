@@ -179,64 +179,64 @@
         "y": 56
       },
       {
-        "name": "Magalhães",
-        "shortName": "Magalhães",
-        "position": "D",
+        "name": "Santos",
+        "shortName": "Santos",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "16",
         "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Danilo",
-        "shortName": "Danilo",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 161,
         "y": 148
       },
       {
         "name": "Marquinhos",
         "shortName": "Marquinhos",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "4",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Magalhães",
+        "shortName": "Magalhães",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Santos",
-        "shortName": "Santos",
-        "position": "D",
+        "name": "Danilo",
+        "shortName": "Danilo",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "13",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Guimarães",
-        "shortName": "Guimarães",
-        "position": "M",
+        "name": "Paquetá",
+        "shortName": "Paquetá",
+        "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 104,
         "y": 256
       },
       {
         "name": "Casemiro",
         "shortName": "Casemiro",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -245,36 +245,25 @@
         "y": 256
       },
       {
-        "name": "Paquetá",
-        "shortName": "Paquetá",
-        "position": "M",
+        "name": "Guimarães",
+        "shortName": "Guimarães",
+        "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 348,
         "y": 256
       },
       {
         "name": "Júnior",
         "shortName": "Júnior",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
         "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Rayan",
-        "shortName": "Rayan",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 226,
         "y": 375
       },
       {
@@ -285,6 +274,17 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Rayan",
+        "shortName": "Rayan",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
         "x": 348,
         "y": 375
       }
@@ -501,15 +501,15 @@
       "starters": [
         "Becker",
         "Magalhães",
-        "Danilo",
         "Marquinhos",
         "Santos",
-        "Guimarães",
+        "Danilo",
         "Casemiro",
         "Paquetá",
+        "Guimarães",
+        "Cunha",
         "Júnior",
-        "Rayan",
-        "Cunha"
+        "Rayan"
       ]
     }
   ],
