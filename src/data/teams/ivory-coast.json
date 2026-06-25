@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Emerse Faé",
     "managerTenure": "2024–present",
-    "formation": "4-1-4-1",
+    "formation": "4-2-3-1",
     "winPct": 0.3,
     "advancePct": 78
   },
@@ -148,13 +148,13 @@
         "y": 56
       },
       {
-        "name": "Konan",
-        "shortName": "Konan",
+        "name": "Operi",
+        "shortName": "Operi",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "13",
         "x": 63,
         "y": 130
       },
@@ -170,80 +170,80 @@
         "y": 130
       },
       {
-        "name": "Agbadou",
-        "shortName": "Agbadou",
+        "name": "Diomande",
+        "shortName": "Diomande",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "2",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Singo",
-        "shortName": "Singo",
+        "name": "Doué",
+        "shortName": "Doué",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "17",
         "x": 389,
         "y": 130
       },
       {
+        "name": "Kessié",
+        "shortName": "Kessié",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 163,
+        "y": 215
+      },
+      {
         "name": "Sangaré",
         "shortName": "Sangaré",
-        "position": "DM",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 226,
+        "x": 289,
         "y": 215
       },
       {
         "name": "Diomande",
         "shortName": "Diomande",
-        "position": "LM",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 63,
+        "x": 104,
         "y": 310
       },
       {
-        "name": "Kessié",
-        "shortName": "Kessié",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 161,
-        "y": 310
-      },
-      {
-        "name": "Oulaï",
-        "shortName": "Oulaï",
-        "position": "CM-L",
+        "name": "Pépé",
+        "shortName": "Pépé",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
-        "x": 293,
+        "jersey": "19",
+        "x": 226,
         "y": 310
       },
       {
         "name": "Diallo",
         "shortName": "Diallo",
-        "position": "RM",
+        "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 389,
+        "x": 348,
         "y": 310
       },
       {
@@ -426,7 +426,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 20 vs Germany",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Curaçao",
   "matches": [
     {
       "eventId": "760423",
@@ -462,6 +462,24 @@
         "Diomande",
         "Diallo",
         "Bonny"
+      ]
+    },
+    {
+      "eventId": "760473",
+      "opponent": "Curaçao",
+      "date": "Jun 25",
+      "starters": [
+        "Fofana",
+        "Diomande",
+        "Kossounou",
+        "Operi",
+        "Doué",
+        "Pépé",
+        "Kessié",
+        "Sangaré",
+        "Bonny",
+        "Diomande",
+        "Diallo"
       ]
     }
   ],

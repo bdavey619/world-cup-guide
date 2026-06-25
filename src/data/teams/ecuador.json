@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Sébastian Beccacece",
     "managerTenure": "2023–present",
-    "formation": "3-1-4-2",
+    "formation": "4-4-2",
     "winPct": 1,
     "advancePct": 89
   },
@@ -153,59 +153,59 @@
         "y": 56
       },
       {
-        "name": "Franco",
-        "shortName": "Franco",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "21",
-        "x": 104,
-        "y": 130
-      },
-      {
-        "name": "Pacho",
-        "shortName": "Pacho",
-        "position": "CD",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 226,
-        "y": 130
-      },
-      {
         "name": "Hincapié",
         "shortName": "Hincapié",
-        "position": "CD-L",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 348,
-        "y": 130
+        "x": 63,
+        "y": 148
       },
       {
-        "name": "Alcívar",
-        "shortName": "Alcívar",
-        "position": "SW",
-        "role": "mid",
+        "name": "Ordóñez",
+        "shortName": "Ordóñez",
+        "position": "CD-R",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
-        "y": 215
+        "jersey": "4",
+        "x": 161,
+        "y": 148
       },
       {
-        "name": "Estupiñán",
-        "shortName": "Estupiñán",
+        "name": "Pacho",
+        "shortName": "Pacho",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Franco",
+        "shortName": "Franco",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Angulo",
+        "shortName": "Angulo",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "20",
         "x": 63,
-        "y": 310
+        "y": 256
       },
       {
         "name": "Caicedo",
@@ -216,7 +216,7 @@
         "isCaptain": false,
         "jersey": "23",
         "x": 161,
-        "y": 310
+        "y": 256
       },
       {
         "name": "Vite",
@@ -227,7 +227,7 @@
         "isCaptain": false,
         "jersey": "15",
         "x": 293,
-        "y": 310
+        "y": 256
       },
       {
         "name": "Yeboah",
@@ -238,29 +238,29 @@
         "isCaptain": false,
         "jersey": "9",
         "x": 389,
-        "y": 310
+        "y": 256
       },
       {
         "name": "Plata",
         "shortName": "Plata",
         "position": "CF-R",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "19",
         "x": 163,
-        "y": 385
+        "y": 375
       },
       {
         "name": "Valencia",
         "shortName": "Valencia",
         "position": "CF-L",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "13",
         "x": 289,
-        "y": 385
+        "y": 375
       }
     ]
   },
@@ -431,7 +431,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 20 vs Curaçao",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Germany",
   "matches": [
     {
       "eventId": "760423",
@@ -464,6 +464,24 @@
         "Vite",
         "Caicedo",
         "Estupiñán",
+        "Yeboah",
+        "Valencia",
+        "Plata"
+      ]
+    },
+    {
+      "eventId": "760468",
+      "opponent": "Germany",
+      "date": "Jun 25",
+      "starters": [
+        "Galíndez",
+        "Pacho",
+        "Ordóñez",
+        "Hincapié",
+        "Franco",
+        "Vite",
+        "Caicedo",
+        "Angulo",
         "Yeboah",
         "Valencia",
         "Plata"

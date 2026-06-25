@@ -129,13 +129,13 @@
         "y": 56
       },
       {
-        "name": "Fonville",
-        "shortName": "Fonville",
+        "name": "Floranus",
+        "shortName": "Floranus",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "5",
         "x": 32,
         "y": 148
       },
@@ -162,13 +162,13 @@
         "y": 148
       },
       {
-        "name": "Floranus",
-        "shortName": "Floranus",
+        "name": "Fonville",
+        "shortName": "Fonville",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "24",
         "x": 325,
         "y": 148
       },
@@ -407,7 +407,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 20 vs Ecuador",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Ivory Coast",
   "matches": [
     {
       "eventId": "760422",
@@ -437,6 +437,24 @@
         "Floranus",
         "Gaari",
         "Fonville",
+        "Brenet",
+        "Bacuna",
+        "Comenencia",
+        "Bacuna",
+        "Chong",
+        "Locadia"
+      ]
+    },
+    {
+      "eventId": "760473",
+      "opponent": "Ivory Coast",
+      "date": "Jun 25",
+      "starters": [
+        "Room",
+        "Obispo",
+        "Fonville",
+        "Gaari",
+        "Floranus",
         "Brenet",
         "Bacuna",
         "Comenencia",

@@ -178,13 +178,13 @@
         "y": 56
       },
       {
-        "name": "Brown",
-        "shortName": "Brown",
+        "name": "Raum",
+        "shortName": "Raum",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "22",
         "x": 63,
         "y": 130
       },
@@ -200,13 +200,13 @@
         "y": 130
       },
       {
-        "name": "Schlotterbeck",
-        "shortName": "Schlotterbeck",
+        "name": "Rüdiger",
+        "shortName": "Rüdiger",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "2",
         "x": 293,
         "y": 130
       },
@@ -456,7 +456,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 20 vs Ivory Coast",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Ecuador",
   "matches": [
     {
       "eventId": "760422",
@@ -485,6 +485,24 @@
         "Schlotterbeck",
         "Tah",
         "Brown",
+        "Kimmich",
+        "Musiala",
+        "Pavlovic",
+        "Nmecha",
+        "Havertz",
+        "Wirtz",
+        "Sané"
+      ]
+    },
+    {
+      "eventId": "760468",
+      "opponent": "Ecuador",
+      "date": "Jun 25",
+      "starters": [
+        "Neuer",
+        "Rüdiger",
+        "Tah",
+        "Raum",
         "Kimmich",
         "Musiala",
         "Pavlovic",
