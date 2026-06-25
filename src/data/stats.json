@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:27:10.841Z",
+  "updatedAt": "2026-06-25T21:58:44.660Z",
   "individual": {
     "goals": [
       {
@@ -195,6 +195,13 @@
         "name": "Cristiano Ronaldo",
         "team": "Portugal",
         "flag": "🇵🇹",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Nicolas Pépé",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
         "position": "",
         "value": 2
       },
@@ -757,6 +764,27 @@
         "flag": "🇿🇦",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Leroy Sané",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nilson Angulo",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gonzalo Plata",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1007,9 +1035,9 @@
     {
       "name": "Ecuador",
       "flag": "🇪🇨",
-      "gp": 2,
-      "gf": 0,
-      "ga": 1,
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 63.1,
       "yellowCards": 2,
@@ -1205,9 +1233,9 @@
     {
       "name": "Germany",
       "flag": "🇩🇪",
-      "gp": 2,
-      "gf": 9,
-      "ga": 2,
+      "gp": 3,
+      "gf": 10,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 62,
       "yellowCards": 0,
@@ -1447,8 +1475,8 @@
     {
       "name": "Ivory Coast",
       "flag": "🇨🇮",
-      "gp": 2,
-      "gf": 2,
+      "gp": 3,
+      "gf": 4,
       "ga": 2,
       "cleanSheets": 1,
       "possession": 44.5,
@@ -1458,9 +1486,9 @@
     {
       "name": "Curaçao",
       "flag": "🇨🇼",
-      "gp": 2,
+      "gp": 3,
       "gf": 1,
-      "ga": 7,
+      "ga": 9,
       "cleanSheets": 1,
       "possession": 30.4,
       "yellowCards": 5,

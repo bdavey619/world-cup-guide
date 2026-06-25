@@ -100,7 +100,9 @@
       "opponent": "Ivory Coast",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": false
+      "isAway": false,
+      "score": "0–2",
+      "result": "L"
     }
   ],
   "history": [],
@@ -243,11 +245,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 1,
+    "l": 2,
     "pts": 1,
     "gf": 1,
-    "ga": 7,
-    "gd": -6
+    "ga": 9,
+    "gd": -8
   },
   "squad": [
     {

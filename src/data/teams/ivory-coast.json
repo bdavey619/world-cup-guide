@@ -100,7 +100,9 @@
       "opponent": "Curaçao",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": true
+      "isAway": true,
+      "score": "2–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -260,13 +262,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 1,
-    "pts": 3,
-    "gf": 2,
+    "pts": 6,
+    "gf": 4,
     "ga": 2,
-    "gd": 0
+    "gd": 2
   },
   "squad": [
     {

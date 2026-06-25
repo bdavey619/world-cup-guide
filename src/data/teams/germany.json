@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Julian Nagelsmann",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 8,
     "advancePct": 96
   },
@@ -100,7 +100,9 @@
       "opponent": "Ecuador",
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     }
   ],
   "history": [
@@ -178,25 +180,25 @@
         "y": 56
       },
       {
-        "name": "Raum",
-        "shortName": "Raum",
-        "position": "LB",
+        "name": "Kimmich",
+        "shortName": "Kimmich",
+        "position": "CD-R",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "22",
-        "x": 63,
+        "jersey": "6",
+        "x": 104,
         "y": 130
       },
       {
         "name": "Tah",
         "shortName": "Tah",
-        "position": "CD-R",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 161,
+        "x": 226,
         "y": 130
       },
       {
@@ -207,83 +209,83 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 293,
+        "x": 348,
         "y": 130
       },
       {
-        "name": "Kimmich",
-        "shortName": "Kimmich",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Pavlovic",
-        "shortName": "Pavlovic",
+        "name": "Raum",
+        "shortName": "Raum",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 163,
+        "jersey": "22",
+        "x": 63,
         "y": 215
       },
       {
         "name": "Nmecha",
         "shortName": "Nmecha",
-        "position": "RM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 289,
+        "x": 161,
         "y": 215
       },
       {
-        "name": "Wirtz",
-        "shortName": "Wirtz",
-        "position": "AM-L",
+        "name": "Pavlovic",
+        "shortName": "Pavlovic",
+        "position": "CM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Musiala",
-        "shortName": "Musiala",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
-        "y": 310
+        "jersey": "5",
+        "x": 293,
+        "y": 215
       },
       {
         "name": "Sané",
         "shortName": "Sané",
-        "position": "AM-R",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 348,
-        "y": 310
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Havertz",
         "shortName": "Havertz",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Wirtz",
+        "shortName": "Wirtz",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Musiala",
+        "shortName": "Musiala",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 226,
         "y": 385
       }
@@ -292,11 +294,11 @@
   "standings": {
     "w": 2,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 6,
-    "gf": 9,
-    "ga": 2,
-    "gd": 7
+    "gf": 10,
+    "ga": 4,
+    "gd": 6
   },
   "squad": [
     {
@@ -500,16 +502,16 @@
       "date": "Jun 25",
       "starters": [
         "Neuer",
-        "Rüdiger",
         "Tah",
-        "Raum",
+        "Rüdiger",
         "Kimmich",
-        "Musiala",
         "Pavlovic",
         "Nmecha",
+        "Raum",
+        "Sané",
         "Havertz",
         "Wirtz",
-        "Sané"
+        "Musiala"
       ]
     }
   ],
