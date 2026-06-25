@@ -180,13 +180,13 @@
         "y": 56
       },
       {
-        "name": "van de Ven",
-        "shortName": "van de Ven",
+        "name": "Aké",
+        "shortName": "Aké",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "5",
         "x": 63,
         "y": 148
       },
@@ -458,7 +458,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 20 vs Sweden",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Tunisia",
   "matches": [
     {
       "eventId": "760425",
@@ -487,6 +487,24 @@
         "van Dijk",
         "van Hecke",
         "van de Ven",
+        "Dumfries",
+        "de Jong",
+        "Reijnders",
+        "Gravenberch",
+        "Brobbey",
+        "Gakpo",
+        "Malen"
+      ]
+    },
+    {
+      "eventId": "760472",
+      "opponent": "Tunisia",
+      "date": "Jun 25",
+      "starters": [
+        "Verbruggen",
+        "van Dijk",
+        "van Hecke",
+        "Aké",
         "Dumfries",
         "de Jong",
         "Reijnders",

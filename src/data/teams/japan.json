@@ -174,13 +174,13 @@
         "y": 56
       },
       {
-        "name": "Tomiyasu",
-        "shortName": "Tomiyasu",
+        "name": "Seko",
+        "shortName": "Seko",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "20",
         "x": 104,
         "y": 130
       },
@@ -218,35 +218,35 @@
         "y": 215
       },
       {
-        "name": "Sano",
-        "shortName": "Sano",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 161,
-        "y": 215
-      },
-      {
         "name": "Tanaka",
         "shortName": "Tanaka",
-        "position": "CM-L",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Kamada",
+        "shortName": "Kamada",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
         "x": 293,
         "y": 215
       },
       {
-        "name": "Doan",
-        "shortName": "Doan",
+        "name": "Sugawara",
+        "shortName": "Sugawara",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "2",
         "x": 389,
         "y": 215
       },
@@ -262,24 +262,24 @@
         "y": 310
       },
       {
-        "name": "Kamada",
-        "shortName": "Kamada",
+        "name": "Maeda",
+        "shortName": "Maeda",
         "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "11",
         "x": 289,
         "y": 310
       },
       {
-        "name": "Ito",
-        "shortName": "Ito",
+        "name": "Doan",
+        "shortName": "Doan",
         "position": "CF-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "10",
         "x": 226,
         "y": 385
       }
@@ -452,7 +452,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs Tunisia",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Sweden",
   "matches": [
     {
       "eventId": "760425",
@@ -488,6 +488,24 @@
         "Ueda",
         "Kamada",
         "Ito"
+      ]
+    },
+    {
+      "eventId": "760471",
+      "opponent": "Sweden",
+      "date": "Jun 25",
+      "starters": [
+        "Suzuki",
+        "Itakura",
+        "Ito",
+        "Seko",
+        "Kamada",
+        "Tanaka",
+        "Nakamura",
+        "Sugawara",
+        "Ueda",
+        "Maeda",
+        "Doan"
       ]
     }
   ],

@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Jalel Kadri",
     "managerTenure": "2021–present",
-    "formation": "3-4-2-1",
+    "formation": "5-4-1",
     "winPct": 0.1,
     "advancePct": 39
   },
@@ -172,114 +172,114 @@
         "y": 56
       },
       {
-        "name": "Bronn",
-        "shortName": "Bronn",
-        "position": "CD-R",
+        "name": "Abdi",
+        "shortName": "Abdi",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
-        "x": 104,
-        "y": 130
+        "jersey": "2",
+        "x": 32,
+        "y": 148
       },
       {
         "name": "Talbi",
         "shortName": "Talbi",
-        "position": "CD",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 226,
-        "y": 130
-      },
-      {
-        "name": "Rekik",
-        "shortName": "Rekik",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 348,
-        "y": 130
-      },
-      {
-        "name": "Abdi",
-        "shortName": "Abdi",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 63,
-        "y": 215
-      },
-      {
-        "name": "Slimane",
-        "shortName": "Slimane",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 161,
-        "y": 215
+        "x": 127,
+        "y": 148
       },
       {
         "name": "Skhiri",
         "shortName": "Skhiri",
-        "position": "CM-L",
-        "role": "mid",
+        "position": "CD",
+        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "17",
-        "x": 293,
-        "y": 215
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Ben Hamida",
+        "shortName": "Ben Hamida",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 325,
+        "y": 148
       },
       {
         "name": "Valery",
         "shortName": "Valery",
-        "position": "RM",
-        "role": "mid",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
-        "x": 389,
-        "y": 215
-      },
-      {
-        "name": "Tounekti",
-        "shortName": "Tounekti",
-        "position": "F",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 163,
-        "y": 310
+        "x": 420,
+        "y": 148
       },
       {
         "name": "Mejbri",
         "shortName": "Mejbri",
-        "position": "CF-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 289,
-        "y": 310
+        "x": 63,
+        "y": 256
       },
       {
-        "name": "Saad",
-        "shortName": "Saad",
-        "position": "CF-R",
+        "name": "Gharbi",
+        "shortName": "Gharbi",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "11",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Khedira",
+        "shortName": "Khedira",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Slimane",
+        "shortName": "Slimane",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Mastouri",
+        "shortName": "Mastouri",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
         "x": 226,
-        "y": 385
+        "y": 375
       }
     ]
   },
@@ -450,7 +450,7 @@
       "jersey": "18"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs Japan",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Netherlands",
   "matches": [
     {
       "eventId": "760424",
@@ -486,6 +486,24 @@
         "Tounekti",
         "Mejbri",
         "Saad"
+      ]
+    },
+    {
+      "eventId": "760472",
+      "opponent": "Netherlands",
+      "date": "Jun 25",
+      "starters": [
+        "Dahmen",
+        "Skhiri",
+        "Ben Hamida",
+        "Talbi",
+        "Abdi",
+        "Valery",
+        "Khedira",
+        "Gharbi",
+        "Mejbri",
+        "Slimane",
+        "Mastouri"
       ]
     }
   ],
