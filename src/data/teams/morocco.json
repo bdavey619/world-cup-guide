@@ -101,7 +101,9 @@
       "opponent": "Haiti",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": false
+      "isAway": false,
+      "score": "4–2",
+      "result": "W"
     }
   ],
   "history": [
@@ -291,13 +293,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 1,
     "l": 0,
-    "pts": 4,
-    "gf": 2,
-    "ga": 1,
-    "gd": 1
+    "pts": 7,
+    "gf": 6,
+    "ga": 3,
+    "gd": 3
   },
   "squad": [
     {

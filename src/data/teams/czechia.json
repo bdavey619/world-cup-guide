@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '06",
     "manager": "Miroslav Koubek",
     "managerTenure": "2024–present",
-    "formation": "3-5-2",
+    "formation": "3-4-2-1",
     "winPct": 0.3,
     "advancePct": 70
   },
@@ -212,24 +212,24 @@
         "y": 130
       },
       {
-        "name": "Sojka",
-        "shortName": "Sojka",
+        "name": "Doudera",
+        "shortName": "Doudera",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "21",
         "x": 63,
         "y": 215
       },
       {
-        "name": "Darida",
-        "shortName": "Darida",
+        "name": "Cerv",
+        "shortName": "Cerv",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "12",
         "x": 161,
         "y": 215
       },
@@ -256,36 +256,36 @@
         "y": 215
       },
       {
-        "name": "Cerv",
-        "shortName": "Cerv",
-        "position": "AM",
+        "name": "Hlozek",
+        "shortName": "Hlozek",
+        "position": "F",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
-        "x": 226,
+        "jersey": "9",
+        "x": 163,
         "y": 310
       },
       {
-        "name": "Schick",
-        "shortName": "Schick",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 163,
-        "y": 385
-      },
-      {
-        "name": "Hlozek",
-        "shortName": "Hlozek",
+        "name": "Visinský",
+        "shortName": "Visinský",
         "position": "CF-L",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "26",
         "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Sulc",
+        "shortName": "Sulc",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 226,
         "y": 385
       }
     ]
@@ -299,7 +299,7 @@
     "ga": 3,
     "gd": -1
   },
-  "pitchLabel": "Confirmed XI · Jun 18 vs South Africa",
+  "pitchLabel": "Confirmed XI · Jun 24 vs Mexico",
   "squad": [
     {
       "name": "Jindrich Stanek",
@@ -493,6 +493,24 @@
         "Coufal",
         "Hlozek",
         "Schick"
+      ]
+    },
+    {
+      "eventId": "760467",
+      "opponent": "Mexico",
+      "date": "Jun 24",
+      "starters": [
+        "Kovár",
+        "Hranác",
+        "Krejcí",
+        "Holes",
+        "Sadílek",
+        "Cerv",
+        "Doudera",
+        "Coufal",
+        "Hlozek",
+        "Visinský",
+        "Sulc"
       ]
     }
   ],

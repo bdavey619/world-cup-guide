@@ -98,7 +98,9 @@
       "opponent": "Morocco",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": true
+      "isAway": true,
+      "score": "2–4",
+      "result": "L"
     }
   ],
   "history": [
@@ -248,11 +250,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 2,
+    "l": 3,
     "pts": 0,
-    "gf": 0,
-    "ga": 4,
-    "gd": -4
+    "gf": 2,
+    "ga": 8,
+    "gd": -6
   },
   "squad": [
     {

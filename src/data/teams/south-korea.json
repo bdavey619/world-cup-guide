@@ -210,68 +210,68 @@
         "y": 130
       },
       {
-        "name": "Young-Woo",
-        "shortName": "Young-Woo",
+        "name": "Tae-Seok",
+        "shortName": "Tae-Seok",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "13",
         "x": 63,
-        "y": 215
-      },
-      {
-        "name": "In-Beom",
-        "shortName": "In-Beom",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 161,
         "y": 215
       },
       {
         "name": "Seung-Ho",
         "shortName": "Seung-Ho",
-        "position": "CM-L",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "In-Beom",
+        "shortName": "In-Beom",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 293,
         "y": 215
       },
       {
-        "name": "Moon-Hwan",
-        "shortName": "Moon-Hwan",
+        "name": "Young-Woo",
+        "shortName": "Young-Woo",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "22",
         "x": 389,
         "y": 215
       },
       {
-        "name": "Heung-Min",
-        "shortName": "Heung-Min",
+        "name": "Hyeon-Gyu",
+        "shortName": "Hyeon-Gyu",
         "position": "F",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "18",
         "x": 163,
         "y": 310
       },
       {
-        "name": "Jae-Sung",
-        "shortName": "Jae-Sung",
+        "name": "Hee-Chan",
+        "shortName": "Hee-Chan",
         "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "11",
         "x": 289,
         "y": 310
       },
@@ -297,7 +297,7 @@
     "ga": 2,
     "gd": 0
   },
-  "pitchLabel": "Confirmed XI · Jun 18 vs Mexico",
+  "pitchLabel": "Confirmed XI · Jun 24 vs South Africa",
   "squad": [
     {
       "name": "Kim Seung-Gyu",
@@ -490,6 +490,24 @@
         "Moon-Hwan",
         "Heung-Min",
         "Jae-Sung",
+        "Kang-In"
+      ]
+    },
+    {
+      "eventId": "760466",
+      "opponent": "South Africa",
+      "date": "Jun 24",
+      "starters": [
+        "Seung-Gyu",
+        "Min-Jae",
+        "Gi-Hyuk",
+        "Han-Beom",
+        "In-Beom",
+        "Seung-Ho",
+        "Tae-Seok",
+        "Young-Woo",
+        "Hyeon-Gyu",
+        "Hee-Chan",
         "Kang-In"
       ]
     }

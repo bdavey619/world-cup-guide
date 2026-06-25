@@ -99,7 +99,9 @@
       "opponent": "Brazil",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": false
+      "isAway": false,
+      "score": "0–3",
+      "result": "L"
     }
   ],
   "history": [
@@ -291,11 +293,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 3,
     "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "ga": 4,
+    "gd": -3
   },
   "squad": [
     {

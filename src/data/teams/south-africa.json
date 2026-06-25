@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '10",
     "manager": "Hugo Broos",
     "managerTenure": "2021–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 0.1,
     "advancePct": 38
   },
@@ -154,7 +154,7 @@
         "isCaptain": false,
         "jersey": "6",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Okon",
@@ -165,7 +165,7 @@
         "isCaptain": false,
         "jersey": "21",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Mbokazi",
@@ -176,7 +176,7 @@
         "isCaptain": false,
         "jersey": "14",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Mudau",
@@ -187,29 +187,18 @@
         "isCaptain": false,
         "jersey": "20",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Adams",
-        "shortName": "Adams",
+        "name": "Sithole",
+        "shortName": "Sithole",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
-        "x": 104,
-        "y": 256
-      },
-      {
-        "name": "Mokoena",
-        "shortName": "Mokoena",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 226,
-        "y": 256
+        "jersey": "13",
+        "x": 163,
+        "y": 215
       },
       {
         "name": "Mbatha",
@@ -219,45 +208,56 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 348,
-        "y": 256
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Appollis",
         "shortName": "Appollis",
-        "position": "LF",
-        "role": "att",
+        "position": "AM-L",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
         "x": 104,
-        "y": 375
+        "y": 310
       },
       {
-        "name": "Rayners",
-        "shortName": "Rayners",
-        "position": "F",
-        "role": "att",
+        "name": "Mofokeng",
+        "shortName": "Mofokeng",
+        "position": "AM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "10",
         "x": 226,
-        "y": 375
+        "y": 310
       },
       {
         "name": "Maseko",
         "shortName": "Maseko",
-        "position": "RF",
-        "role": "att",
+        "position": "AM-R",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
         "x": 348,
-        "y": 375
+        "y": 310
+      },
+      {
+        "name": "Makgopa",
+        "shortName": "Makgopa",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 226,
+        "y": 385
       }
     ]
   },
-  "pitchLabel": "Confirmed XI · Jun 18 vs Czechia",
+  "pitchLabel": "Confirmed XI · Jun 24 vs South Korea",
   "squad": [
     {
       "name": "Ricardo Goss",
@@ -458,6 +458,24 @@
         "Adams",
         "Mbatha",
         "Rayners",
+        "Appollis",
+        "Maseko"
+      ]
+    },
+    {
+      "eventId": "760466",
+      "opponent": "South Korea",
+      "date": "Jun 24",
+      "starters": [
+        "Williams",
+        "Mbokazi",
+        "Okon",
+        "Modiba",
+        "Mudau",
+        "Mofokeng",
+        "Sithole",
+        "Mbatha",
+        "Makgopa",
         "Appollis",
         "Maseko"
       ]

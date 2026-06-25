@@ -101,7 +101,9 @@
       "opponent": "Scotland",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": true
+      "isAway": true,
+      "score": "3–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -291,13 +293,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 1,
     "l": 0,
-    "pts": 4,
-    "gf": 4,
+    "pts": 7,
+    "gf": 7,
     "ga": 1,
-    "gd": 3
+    "gd": 6
   },
   "squad": [
     {

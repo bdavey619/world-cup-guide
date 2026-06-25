@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T23:46:48.150Z",
+  "updatedAt": "2026-06-25T01:50:57.426Z",
   "individual": {
     "goals": [
       {
@@ -8,6 +8,13 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 5
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 4
       },
       {
         "name": "Kylian Mbappé",
@@ -22,6 +29,13 @@
         "flag": "🇳🇴",
         "position": "",
         "value": 4
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 3
       },
       {
         "name": "Deniz Undav",
@@ -45,6 +59,13 @@
         "value": 3
       },
       {
+        "name": "Matheus Cunha",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 3
+      },
+      {
         "name": "Cyle Larin",
         "team": "Canada",
         "flag": "🇨🇦",
@@ -55,20 +76,6 @@
         "name": "Folarin Balogun",
         "team": "United States",
         "flag": "🇺🇸",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
         "position": "",
         "value": 2
       },
@@ -139,13 +146,6 @@
         "name": "Ermin Mahmic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Matheus Cunha",
-        "team": "Brazil",
-        "flag": "🇧🇷",
         "position": "",
         "value": 2
       },
@@ -708,6 +708,34 @@
         "flag": "🇨🇦",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Achraf Hakimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Wilson Isidor",
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gessime Yassine",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -925,8 +953,8 @@
     {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "gp": 2,
-      "gf": 4,
+      "gp": 3,
+      "gf": 7,
       "ga": 1,
       "cleanSheets": 1,
       "possession": 54,
@@ -1178,9 +1206,9 @@
     {
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "gp": 2,
+      "gp": 3,
       "gf": 1,
-      "ga": 1,
+      "ga": 4,
       "cleanSheets": 1,
       "possession": 43.7,
       "yellowCards": 4,
@@ -1299,9 +1327,9 @@
     {
       "name": "Haiti",
       "flag": "🇭🇹",
-      "gp": 2,
-      "gf": 0,
-      "ga": 4,
+      "gp": 3,
+      "gf": 2,
+      "ga": 8,
       "cleanSheets": 0,
       "possession": 48.5,
       "yellowCards": 4,
@@ -1343,9 +1371,9 @@
     {
       "name": "Morocco",
       "flag": "🇲🇦",
-      "gp": 2,
-      "gf": 2,
-      "ga": 1,
+      "gp": 3,
+      "gf": 6,
+      "ga": 3,
       "cleanSheets": 1,
       "possession": 53.8,
       "yellowCards": 1,
