@@ -98,7 +98,9 @@
       "opponent": "South Korea",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": false
+      "isAway": false,
+      "score": "1–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -417,13 +419,13 @@
     }
   ],
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 1,
     "l": 1,
-    "pts": 1,
-    "gf": 1,
+    "pts": 4,
+    "gf": 2,
     "ga": 3,
-    "gd": -2
+    "gd": -1
   },
   "matches": [
     {

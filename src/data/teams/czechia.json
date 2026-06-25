@@ -101,7 +101,9 @@
       "opponent": "Mexico",
       "venue": "Estadio Azteca",
       "city": "Mexico City",
-      "isAway": true
+      "isAway": true,
+      "score": "0–3",
+      "result": "L"
     }
   ],
   "history": [
@@ -293,11 +295,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 1,
+    "l": 2,
     "pts": 1,
     "gf": 2,
-    "ga": 3,
-    "gd": -1
+    "ga": 6,
+    "gd": -4
   },
   "pitchLabel": "Confirmed XI · Jun 24 vs Mexico",
   "squad": [

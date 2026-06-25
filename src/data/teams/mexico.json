@@ -98,7 +98,9 @@
       "opponent": "Czechia",
       "venue": "Estadio Azteca",
       "city": "Mexico City",
-      "isAway": false
+      "isAway": false,
+      "score": "3–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -447,13 +449,13 @@
     }
   ],
   "standings": {
-    "w": 2,
+    "w": 3,
     "d": 0,
     "l": 0,
-    "pts": 6,
-    "gf": 3,
+    "pts": 9,
+    "gf": 6,
     "ga": 0,
-    "gd": 3
+    "gd": 6
   },
   "matches": [
     {

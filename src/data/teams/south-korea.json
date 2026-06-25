@@ -99,7 +99,9 @@
       "opponent": "South Africa",
       "venue": "Estadio BBVA",
       "city": "Monterrey",
-      "isAway": true
+      "isAway": true,
+      "score": "0–1",
+      "result": "L"
     }
   ],
   "history": [
@@ -291,11 +293,11 @@
   "standings": {
     "w": 1,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "pts": 3,
     "gf": 2,
-    "ga": 2,
-    "gd": 0
+    "ga": 3,
+    "gd": -1
   },
   "pitchLabel": "Confirmed XI · Jun 24 vs South Africa",
   "squad": [
