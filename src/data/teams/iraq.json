@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '86",
     "manager": "Jesús Casas",
     "managerTenure": "2023–present",
-    "formation": "4-1-4-1",
+    "formation": "4-2-3-1",
     "winPct": 0.1,
     "advancePct": 14
   },
@@ -146,13 +146,13 @@
         "y": 130
       },
       {
-        "name": "Tahseen",
-        "shortName": "Tahseen",
+        "name": "Sulaka",
+        "shortName": "Sulaka",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "2",
         "x": 161,
         "y": 130
       },
@@ -168,79 +168,79 @@
         "y": 130
       },
       {
-        "name": "Ali",
-        "shortName": "Ali",
+        "name": "Putros",
+        "shortName": "Putros",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "26",
         "x": 389,
         "y": 130
       },
       {
         "name": "Al-Ammari",
         "shortName": "Al-Ammari",
-        "position": "DM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 226,
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Iqbal",
+        "shortName": "Iqbal",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 289,
         "y": 215
       },
       {
         "name": "Bayesh",
         "shortName": "Bayesh",
-        "position": "LM",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 63,
+        "x": 104,
         "y": 310
       },
       {
-        "name": "Ismael",
-        "shortName": "Ismael",
-        "position": "CM-R",
+        "name": "Jasim",
+        "shortName": "Jasim",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
-        "x": 161,
-        "y": 310
-      },
-      {
-        "name": "Iqbal",
-        "shortName": "Iqbal",
-        "position": "CM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 293,
+        "jersey": "17",
+        "x": 226,
         "y": 310
       },
       {
         "name": "Qasim",
         "shortName": "Qasim",
-        "position": "RM",
+        "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 389,
+        "x": 348,
         "y": 310
       },
       {
-        "name": "Hussein",
-        "shortName": "Hussein",
+        "name": "Al-Hamadi",
+        "shortName": "Al-Hamadi",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "9",
         "x": 226,
         "y": 385
       }
@@ -415,7 +415,7 @@
   ],
   "population": "43.5M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 22 vs France",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Senegal",
   "matches": [
     {
       "eventId": "760430",
@@ -451,6 +451,24 @@
         "Bayesh",
         "Qasim",
         "Hussein"
+      ]
+    },
+    {
+      "eventId": "760474",
+      "opponent": "Senegal",
+      "date": "Jun 26",
+      "starters": [
+        "Basil",
+        "Hashim",
+        "Sulaka",
+        "Doski",
+        "Putros",
+        "Jasim",
+        "Al-Ammari",
+        "Iqbal",
+        "Al-Hamadi",
+        "Bayesh",
+        "Qasim"
       ]
     }
   ]

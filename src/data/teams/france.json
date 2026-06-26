@@ -185,13 +185,13 @@
         "y": 56
       },
       {
-        "name": "Digne",
-        "shortName": "Digne",
+        "name": "Hernández",
+        "shortName": "Hernández",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "19",
         "x": 63,
         "y": 130
       },
@@ -207,13 +207,13 @@
         "y": 130
       },
       {
-        "name": "Saliba",
-        "shortName": "Saliba",
+        "name": "Lacroix",
+        "shortName": "Lacroix",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "26",
         "x": 293,
         "y": 130
       },
@@ -229,35 +229,35 @@
         "y": 130
       },
       {
-        "name": "Rabiot",
-        "shortName": "Rabiot",
+        "name": "Koné",
+        "shortName": "Koné",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "6",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Koné",
-        "shortName": "Koné",
+        "name": "Tchouaméni",
+        "shortName": "Tchouaméni",
         "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "8",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Barcola",
-        "shortName": "Barcola",
+        "name": "Doué",
+        "shortName": "Doué",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "20",
         "x": 104,
         "y": 310
       },
@@ -465,7 +465,7 @@
   ],
   "population": "68.4M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Iraq",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Norway",
   "matches": [
     {
       "eventId": "760432",
@@ -500,6 +500,24 @@
         "Koné",
         "Mbappé",
         "Barcola",
+        "Dembélé"
+      ]
+    },
+    {
+      "eventId": "760475",
+      "opponent": "Norway",
+      "date": "Jun 26",
+      "starters": [
+        "Maignan",
+        "Lacroix",
+        "Upamecano",
+        "Hernández",
+        "Koundé",
+        "Olise",
+        "Koné",
+        "Tchouaméni",
+        "Mbappé",
+        "Doué",
         "Dembélé"
       ]
     }

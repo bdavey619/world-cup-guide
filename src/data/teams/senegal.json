@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Pape Thiaw",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 0.5,
     "advancePct": 71
   },
@@ -137,37 +137,37 @@
   "pitch": {
     "players": [
       {
-        "name": "Mendy",
-        "shortName": "Mendy",
+        "name": "Diaw",
+        "shortName": "Diaw",
         "position": "G",
         "role": "gk",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "23",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Diouf",
-        "shortName": "Diouf",
+        "name": "Jakobs",
+        "shortName": "Jakobs",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "14",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Koulibaly",
-        "shortName": "Koulibaly",
+        "name": "Seck",
+        "shortName": "Seck",
         "position": "CD-R",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Niakhaté",
@@ -178,7 +178,7 @@
         "isCaptain": false,
         "jersey": "19",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Diatta",
@@ -189,73 +189,73 @@
         "isCaptain": false,
         "jersey": "15",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Gueye",
-        "shortName": "Gueye",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Gueye",
-        "shortName": "Gueye",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Mané",
-        "shortName": "Mané",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 104,
-        "y": 310
+        "y": 148
       },
       {
         "name": "Camara",
         "shortName": "Camara",
-        "position": "AM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
+        "x": 104,
+        "y": 256
+      },
+      {
+        "name": "Gueye",
+        "shortName": "Gueye",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
         "x": 226,
-        "y": 310
+        "y": 256
+      },
+      {
+        "name": "Diarra",
+        "shortName": "Diarra",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Mané",
+        "shortName": "Mané",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Sarr",
         "shortName": "Sarr",
-        "position": "AM-R",
-        "role": "mid",
+        "position": "F",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "18",
-        "x": 348,
-        "y": 310
+        "x": 226,
+        "y": 375
       },
       {
-        "name": "Jackson",
-        "shortName": "Jackson",
-        "position": "F",
+        "name": "Mbaye",
+        "shortName": "Mbaye",
+        "position": "RF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
-        "x": 226,
-        "y": 385
+        "jersey": "20",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -428,7 +428,7 @@
   ],
   "population": "17.8M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Norway",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Iraq",
   "matches": [
     {
       "eventId": "760432",
@@ -464,6 +464,24 @@
         "Jackson",
         "Mané",
         "Sarr"
+      ]
+    },
+    {
+      "eventId": "760474",
+      "opponent": "Iraq",
+      "date": "Jun 26",
+      "starters": [
+        "Diaw",
+        "Niakhaté",
+        "Seck",
+        "Jakobs",
+        "Diatta",
+        "Gueye",
+        "Camara",
+        "Diarra",
+        "Sarr",
+        "Mané",
+        "Mbaye"
       ]
     }
   ]

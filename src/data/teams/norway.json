@@ -136,123 +136,123 @@
   "pitch": {
     "players": [
       {
-        "name": "Nyland",
-        "shortName": "Nyland",
+        "name": "Selvik",
+        "shortName": "Selvik",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "1",
+        "jersey": "13",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Møller Wolfe",
-        "shortName": "Møller Wolfe",
+        "name": "Bjørkan",
+        "shortName": "Bjørkan",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "15",
         "x": 63,
         "y": 148
       },
       {
-        "name": "Ajer",
-        "shortName": "Ajer",
+        "name": "Falchener",
+        "shortName": "Falchener",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Heggem",
-        "shortName": "Heggem",
+        "name": "Østigard",
+        "shortName": "Østigard",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "4",
         "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Ryerson",
-        "shortName": "Ryerson",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "26",
-        "x": 389,
         "y": 148
       },
       {
         "name": "Aursnes",
         "shortName": "Aursnes",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Aasgaard",
+        "shortName": "Aasgaard",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "19",
         "x": 104,
         "y": 256
       },
       {
-        "name": "Berge",
-        "shortName": "Berge",
+        "name": "Berg",
+        "shortName": "Berg",
         "position": "CM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "6",
         "x": 226,
         "y": 256
       },
       {
-        "name": "Ødegaard",
-        "shortName": "Ødegaard",
+        "name": "Thorstvedt",
+        "shortName": "Thorstvedt",
         "position": "RM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "18",
         "x": 348,
         "y": 256
       },
       {
-        "name": "Nusa",
-        "shortName": "Nusa",
+        "name": "Schjelderup",
+        "shortName": "Schjelderup",
         "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "21",
         "x": 104,
         "y": 375
       },
       {
-        "name": "Haaland",
-        "shortName": "Haaland",
+        "name": "Larsen",
+        "shortName": "Larsen",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "11",
         "x": 226,
         "y": 375
       },
       {
-        "name": "Sørloth",
-        "shortName": "Sørloth",
+        "name": "Bobb",
+        "shortName": "Bobb",
         "position": "RF",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "22",
         "x": 348,
         "y": 375
       }
@@ -427,7 +427,7 @@
   ],
   "population": "5.5M",
   "location": "Northern Europe",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Senegal",
+  "pitchLabel": "Confirmed XI · Jun 26 vs France",
   "matches": [
     {
       "eventId": "760430",
@@ -463,6 +463,24 @@
         "Haaland",
         "Nusa",
         "Sørloth"
+      ]
+    },
+    {
+      "eventId": "760475",
+      "opponent": "France",
+      "date": "Jun 26",
+      "starters": [
+        "Selvik",
+        "Østigard",
+        "Falchener",
+        "Bjørkan",
+        "Aursnes",
+        "Berg",
+        "Aasgaard",
+        "Thorstvedt",
+        "Larsen",
+        "Schjelderup",
+        "Bobb"
       ]
     }
   ]
