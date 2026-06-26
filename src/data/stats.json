@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T05:51:43.329Z",
+  "updatedAt": "2026-06-26T08:43:17.179Z",
   "individual": {
     "goals": [
       {
@@ -845,17 +845,17 @@
     ],
     "assists": [
       {
-        "name": "Bruno Guimarães",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "M",
-        "value": 3
-      },
-      {
         "name": "Alexander Isak",
         "team": "Sweden",
         "flag": "🇸🇪",
         "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Bruno Guimarães",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "M",
         "value": 3
       },
       {
@@ -866,24 +866,17 @@
         "value": 3
       },
       {
-        "name": "Breel Embolo",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Roberto Alvarado",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Brahim Díaz",
-        "team": "Morocco",
-        "flag": "🇲🇦",
+        "name": "Hannibal Mejbri",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
         "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "F",
         "value": 2
       },
       {
@@ -894,16 +887,37 @@
         "value": 2
       },
       {
-        "name": "Chris Wood",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "F",
         "value": 2
       },
       {
-        "name": "Julio Enciso",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
+        "name": "Ryan Gravenberch",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "Germany",
+        "flag": "🇩🇪",
         "position": "M",
         "value": 2
       },
@@ -915,10 +929,24 @@
         "value": 2
       },
       {
-        "name": "Ryan Gravenberch",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
+        "name": "Brahim Díaz",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Chris Wood",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "F",
         "value": 2
       },
       {
@@ -943,17 +971,17 @@
         "value": 2
       },
       {
-        "name": "Deniz Undav",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "F",
-        "value": 2
-      },
-      {
         "name": "Chadi Riad",
         "team": "Morocco",
         "flag": "🇲🇦",
         "position": "D",
+        "value": 1
+      },
+      {
+        "name": "Pedro Vite",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "position": "M",
         "value": 1
       },
       {
@@ -978,44 +1006,16 @@
         "value": 1
       },
       {
-        "name": "Hwang In-Beom",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Sead Kolasinac",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
+        "name": "Virgil van Dijk",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "D",
         "value": 1
       },
       {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Edmílson Junior",
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "position": "F",
-        "value": 1
-      },
-      {
-        "name": "Lucas Paquetá",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "M",
-        "value": 1
-      },
-      {
-        "name": "Ivan Basic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
         "position": "M",
         "value": 1
       }
@@ -1095,8 +1095,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 1,
-      "possession": 63.1,
-      "yellowCards": 2,
+      "possession": 54.2,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -1105,9 +1105,9 @@
       "gp": 3,
       "gf": 2,
       "ga": 4,
-      "cleanSheets": 1,
-      "possession": 28.1,
-      "yellowCards": 6,
+      "cleanSheets": 2,
+      "possession": 36,
+      "yellowCards": 7,
       "redCards": 1
     },
     {
@@ -1139,7 +1139,7 @@
       "gf": 10,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": 55.4,
+      "possession": 63.4,
       "yellowCards": 3,
       "redCards": 0
     },
@@ -1205,7 +1205,7 @@
       "gf": 3,
       "ga": 5,
       "cleanSheets": 0,
-      "possession": 75,
+      "possession": 67.3,
       "yellowCards": 2,
       "redCards": 0
     },
@@ -1216,8 +1216,8 @@
       "gf": 7,
       "ga": 7,
       "cleanSheets": 0,
-      "possession": 48.9,
-      "yellowCards": 3,
+      "possession": 48.5,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -1293,8 +1293,8 @@
       "gf": 10,
       "ga": 4,
       "cleanSheets": 0,
-      "possession": 62,
-      "yellowCards": 0,
+      "possession": 61.6,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -1337,8 +1337,8 @@
       "gf": 7,
       "ga": 3,
       "cleanSheets": 1,
-      "possession": 51.1,
-      "yellowCards": 0,
+      "possession": 51.7,
+      "yellowCards": 1,
       "redCards": 0
     },
     {
@@ -1347,9 +1347,9 @@
       "gp": 3,
       "gf": 2,
       "ga": 2,
-      "cleanSheets": 1,
-      "possession": 33.3,
-      "yellowCards": 4,
+      "cleanSheets": 2,
+      "possession": 37.7,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -1381,7 +1381,7 @@
       "gf": 2,
       "ga": 12,
       "cleanSheets": 0,
-      "possession": 44.6,
+      "possession": 42.3,
       "yellowCards": 1,
       "redCards": 0
     },
@@ -1392,8 +1392,8 @@
       "gf": 8,
       "ga": 4,
       "cleanSheets": 1,
-      "possession": 63.6,
-      "yellowCards": 4,
+      "possession": 58.1,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -1534,9 +1534,9 @@
       "gp": 3,
       "gf": 4,
       "ga": 2,
-      "cleanSheets": 1,
-      "possession": 44.5,
-      "yellowCards": 3,
+      "cleanSheets": 2,
+      "possession": 50.1,
+      "yellowCards": 4,
       "redCards": 0
     },
     {
@@ -1546,8 +1546,8 @@
       "gf": 1,
       "ga": 9,
       "cleanSheets": 1,
-      "possession": 30.4,
-      "yellowCards": 5,
+      "possession": 33.5,
+      "yellowCards": 7,
       "redCards": 0
     }
   ],
