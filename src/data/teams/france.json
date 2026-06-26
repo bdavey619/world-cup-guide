@@ -107,7 +107,9 @@
       "opponent": "Norway",
       "venue": "Gillette Stadium",
       "city": "Foxborough, MA",
-      "isAway": true
+      "isAway": true,
+      "score": "4–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -297,13 +299,13 @@
     ]
   },
   "standings": {
-    "w": 2,
+    "w": 3,
     "d": 0,
     "l": 0,
-    "pts": 6,
-    "gf": 6,
-    "ga": 1,
-    "gd": 5
+    "pts": 9,
+    "gf": 10,
+    "ga": 2,
+    "gd": 8
   },
   "squad": [
     {

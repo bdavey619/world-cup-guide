@@ -99,7 +99,9 @@
       "opponent": "Senegal",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": true
+      "isAway": true,
+      "score": "0–5",
+      "result": "L"
     }
   ],
   "history": [
@@ -249,11 +251,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 2,
+    "l": 3,
     "pts": 0,
     "gf": 1,
-    "ga": 7,
-    "gd": -6
+    "ga": 12,
+    "gd": -11
   },
   "squad": [
     {

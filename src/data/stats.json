@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:57:19.853Z",
+  "updatedAt": "2026-06-26T22:09:39.535Z",
   "individual": {
     "goals": [
       {
@@ -27,6 +27,13 @@
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 4
       },
@@ -69,6 +76,13 @@
         "name": "Brian Brobbey",
         "team": "Netherlands",
         "flag": "🇳🇱",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "",
         "value": 3
       },
@@ -192,13 +206,6 @@
         "value": 2
       },
       {
-        "name": "Ismaïla Sarr",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Cristiano Ronaldo",
         "team": "Portugal",
         "flag": "🇵🇹",
@@ -209,6 +216,13 @@
         "name": "Nicolas Pépé",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Pape Gueye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "",
         "value": 2
       },
@@ -640,13 +654,6 @@
         "value": 1
       },
       {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Marcus Holmgren Pedersen",
         "team": "Norway",
         "flag": "🇳🇴",
@@ -839,6 +846,34 @@
         "name": "Kaan Ayhan",
         "team": "Türkiye",
         "flag": "🇹🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Thelo Aasgaard",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Désiré Doué",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Habib Diarra",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "",
         "value": 1
       }
@@ -1190,9 +1225,9 @@
     {
       "name": "Norway",
       "flag": "🇳🇴",
-      "gp": 2,
-      "gf": 7,
-      "ga": 3,
+      "gp": 3,
+      "gf": 8,
+      "ga": 7,
       "cleanSheets": 0,
       "possession": 51.5,
       "yellowCards": 0,
@@ -1278,9 +1313,9 @@
     {
       "name": "France",
       "flag": "🇫🇷",
-      "gp": 2,
-      "gf": 6,
-      "ga": 1,
+      "gp": 3,
+      "gf": 10,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 54.5,
       "yellowCards": 0,
@@ -1355,8 +1390,8 @@
     {
       "name": "Senegal",
       "flag": "🇸🇳",
-      "gp": 2,
-      "gf": 3,
+      "gp": 3,
+      "gf": 8,
       "ga": 6,
       "cleanSheets": 0,
       "possession": 52.5,
@@ -1498,9 +1533,9 @@
     {
       "name": "Iraq",
       "flag": "🇮🇶",
-      "gp": 2,
+      "gp": 3,
       "gf": 1,
-      "ga": 7,
+      "ga": 12,
       "cleanSheets": 0,
       "possession": 41.5,
       "yellowCards": 2,

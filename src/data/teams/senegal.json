@@ -100,7 +100,9 @@
       "opponent": "Iraq",
       "venue": "BMO Field",
       "city": "Toronto",
-      "isAway": false
+      "isAway": false,
+      "score": "5–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -260,13 +262,13 @@
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 2,
-    "pts": 0,
-    "gf": 3,
+    "pts": 3,
+    "gf": 8,
     "ga": 6,
-    "gd": -3
+    "gd": 2
   },
   "squad": [
     {

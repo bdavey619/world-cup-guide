@@ -99,7 +99,9 @@
       "opponent": "France",
       "venue": "Gillette Stadium",
       "city": "Foxborough, MA",
-      "isAway": false
+      "isAway": false,
+      "score": "1–4",
+      "result": "L"
     }
   ],
   "history": [
@@ -261,11 +263,11 @@
   "standings": {
     "w": 2,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 6,
-    "gf": 7,
-    "ga": 3,
-    "gd": 4
+    "gf": 8,
+    "ga": 7,
+    "gd": 1
   },
   "squad": [
     {
