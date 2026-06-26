@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '06",
     "manager": "Vincenzo Montella",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "3-4-2-1",
     "winPct": 1,
     "advancePct": 80
   },
@@ -100,7 +100,9 @@
       "opponent": "United States",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": false
+      "isAway": false,
+      "score": "3–2",
+      "result": "W"
     }
   ],
   "history": [
@@ -154,103 +156,81 @@
         "y": 56
       },
       {
+        "name": "Çelik",
+        "shortName": "Çelik",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 104,
+        "y": 130
+      },
+      {
         "name": "Kabak",
         "shortName": "Kabak",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 63,
+        "x": 226,
         "y": 130
       },
       {
         "name": "Bardakçi",
         "shortName": "Bardakçi",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 161,
-        "y": 130
-      },
-      {
-        "name": "Çelik",
-        "shortName": "Çelik",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 293,
+        "x": 348,
         "y": 130
       },
       {
         "name": "Elmali",
         "shortName": "Elmali",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Yildiz",
-        "shortName": "Yildiz",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
-        "x": 163,
+        "jersey": "13",
+        "x": 63,
         "y": 215
       },
       {
         "name": "Özcan",
         "shortName": "Özcan",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 289,
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Kökçü",
+        "shortName": "Kökçü",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 293,
         "y": 215
       },
       {
         "name": "Aydin",
         "shortName": "Aydin",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "24",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Kökçü",
-        "shortName": "Kökçü",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Güler",
-        "shortName": "Güler",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 348,
-        "y": 310
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Yilmaz",
@@ -260,19 +240,41 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Yildiz",
+        "shortName": "Yildiz",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Güler",
+        "shortName": "Güler",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 226,
         "y": 385
       }
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 2,
-    "pts": 0,
-    "gf": 0,
-    "ga": 3,
-    "gd": -3
+    "pts": 3,
+    "gf": 3,
+    "ga": 5,
+    "gd": -2
   },
   "squad": [
     {
@@ -479,13 +481,13 @@
         "Kabak",
         "Bardakçi",
         "Çelik",
-        "Elmali",
-        "Yildiz",
-        "Özcan",
-        "Aydin",
         "Kökçü",
-        "Güler",
-        "Yilmaz"
+        "Özcan",
+        "Elmali",
+        "Aydin",
+        "Yilmaz",
+        "Yildiz",
+        "Güler"
       ]
     }
   ],

@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Mauricio Pochettino",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 2,
     "advancePct": 84
   },
@@ -99,7 +99,9 @@
       "opponent": "Türkiye",
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
-      "isAway": true
+      "isAway": true,
+      "score": "2–3",
+      "result": "L"
     }
   ],
   "history": [
@@ -177,125 +179,125 @@
         "y": 56
       },
       {
-        "name": "Scally",
-        "shortName": "Scally",
-        "position": "D",
+        "name": "Trusty",
+        "shortName": "Trusty",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "6",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Robinson",
         "shortName": "Robinson",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "McKenzie",
         "shortName": "McKenzie",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Trusty",
-        "shortName": "Trusty",
-        "position": "D",
+        "name": "Scally",
+        "shortName": "Scally",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "23",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "McKennie",
-        "shortName": "McKennie",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Berhalter",
-        "shortName": "Berhalter",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 289,
-        "y": 215
+        "y": 148
       },
       {
         "name": "Reyna",
         "shortName": "Reyna",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
         "x": 104,
-        "y": 310
+        "y": 256
+      },
+      {
+        "name": "Berhalter",
+        "shortName": "Berhalter",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "McKennie",
+        "shortName": "McKennie",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Weah",
         "shortName": "Weah",
-        "position": "M",
-        "role": "mid",
+        "position": "LF",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Aaronson",
-        "shortName": "Aaronson",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 348,
-        "y": 310
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Pepi",
         "shortName": "Pepi",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Aaronson",
+        "shortName": "Aaronson",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 348,
+        "y": 375
       }
     ]
   },
   "standings": {
     "w": 2,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "pts": 6,
-    "gf": 6,
-    "ga": 1,
-    "gd": 5
+    "gf": 8,
+    "ga": 4,
+    "gd": 4
   },
   "squad": [
     {
@@ -499,16 +501,16 @@
       "date": "Jun 25",
       "starters": [
         "Turner",
-        "Scally",
-        "Robinson",
         "McKenzie",
+        "Robinson",
         "Trusty",
-        "McKennie",
+        "Scally",
         "Berhalter",
         "Reyna",
+        "McKennie",
+        "Pepi",
         "Weah",
-        "Aaronson",
-        "Pepi"
+        "Aaronson"
       ]
     }
   ],

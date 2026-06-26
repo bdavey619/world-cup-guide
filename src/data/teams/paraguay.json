@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '10",
     "manager": "Gustavo Alfaro",
     "managerTenure": "2023–present",
-    "formation": "5-4-1",
+    "formation": "5-3-2",
     "winPct": 0.2,
     "advancePct": 65
   },
@@ -99,7 +99,9 @@
       "opponent": "Australia",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": false
+      "isAway": false,
+      "score": "0–0",
+      "result": "D"
     }
   ],
   "history": [
@@ -177,122 +179,122 @@
         "y": 56
       },
       {
-        "name": "Alderete",
-        "shortName": "Alderete",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 32,
-        "y": 148
-      },
-      {
         "name": "Maidana",
         "shortName": "Maidana",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 127,
-        "y": 148
-      },
-      {
-        "name": "Cáceres",
-        "shortName": "Cáceres",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 226,
-        "y": 148
-      },
-      {
-        "name": "Gómez",
-        "shortName": "Gómez",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 325,
+        "x": 32,
         "y": 148
       },
       {
         "name": "Velázquez",
         "shortName": "Velázquez",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
+        "x": 127,
+        "y": 148
+      },
+      {
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Alderete",
+        "shortName": "Alderete",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 325,
+        "y": 148
+      },
+      {
+        "name": "Cáceres",
+        "shortName": "Cáceres",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 420,
         "y": 148
       },
       {
-        "name": "Galarza",
-        "shortName": "Galarza",
-        "position": "M",
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
-        "x": 63,
+        "jersey": "8",
+        "x": 104,
         "y": 256
       },
       {
         "name": "Cubas",
         "shortName": "Cubas",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 161,
+        "x": 226,
         "y": 256
       },
       {
-        "name": "Gómez",
-        "shortName": "Gómez",
-        "position": "M",
+        "name": "Galarza",
+        "shortName": "Galarza",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
-        "x": 293,
-        "y": 256
-      },
-      {
-        "name": "Enciso",
-        "shortName": "Enciso",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 389,
+        "jersey": "23",
+        "x": 348,
         "y": 256
       },
       {
         "name": "Ávalos",
         "shortName": "Ávalos",
-        "position": "F",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 226,
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Enciso",
+        "shortName": "Enciso",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 289,
         "y": 375
       }
     ]
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 3,
+    "pts": 4,
     "gf": 2,
     "ga": 4,
     "gd": -2
@@ -499,13 +501,13 @@
       "date": "Jun 25",
       "starters": [
         "Gil",
+        "Gómez",
         "Alderete",
+        "Velázquez",
         "Maidana",
         "Cáceres",
-        "Gómez",
-        "Velázquez",
-        "Galarza",
         "Cubas",
+        "Galarza",
         "Gómez",
         "Enciso",
         "Ávalos"

@@ -100,7 +100,9 @@
       "opponent": "Paraguay",
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
-      "isAway": true
+      "isAway": true,
+      "score": "0–0",
+      "result": "D"
     }
   ],
   "history": [
@@ -166,31 +168,31 @@
         "y": 56
       },
       {
-        "name": "Souttar",
-        "shortName": "Souttar",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 104,
-        "y": 130
-      },
-      {
         "name": "Circati",
         "shortName": "Circati",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
+        "x": 104,
+        "y": 130
+      },
+      {
+        "name": "Souttar",
+        "shortName": "Souttar",
+        "position": "CD",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
         "x": 226,
         "y": 130
       },
       {
         "name": "Herrington",
         "shortName": "Herrington",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -199,31 +201,31 @@
         "y": 130
       },
       {
-        "name": "Metcalfe",
-        "shortName": "Metcalfe",
-        "position": "M",
+        "name": "Behich",
+        "shortName": "Behich",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "16",
         "x": 63,
         "y": 215
       },
       {
-        "name": "Volpato",
-        "shortName": "Volpato",
-        "position": "M",
+        "name": "O'Neill",
+        "shortName": "O'Neill",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "13",
         "x": 161,
         "y": 215
       },
       {
         "name": "Irvine",
         "shortName": "Irvine",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -232,37 +234,15 @@
         "y": 215
       },
       {
-        "name": "Behich",
-        "shortName": "Behich",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 389,
-        "y": 215
-      },
-      {
         "name": "Bos",
         "shortName": "Bos",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
-        "x": 163,
-        "y": 310
-      },
-      {
-        "name": "O'Neill",
-        "shortName": "O'Neill",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 289,
-        "y": 310
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Irankunda",
@@ -272,6 +252,28 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Metcalfe",
+        "shortName": "Metcalfe",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Volpato",
+        "shortName": "Volpato",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 226,
         "y": 385
       }
@@ -279,9 +281,9 @@
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 3,
+    "pts": 4,
     "gf": 2,
     "ga": 2,
     "gd": 0
@@ -489,15 +491,15 @@
       "starters": [
         "Beach",
         "Souttar",
-        "Circati",
         "Herrington",
-        "Metcalfe",
-        "Volpato",
+        "Circati",
         "Irvine",
+        "O'Neill",
         "Behich",
         "Bos",
-        "O'Neill",
-        "Irankunda"
+        "Irankunda",
+        "Metcalfe",
+        "Volpato"
       ]
     }
   ],
