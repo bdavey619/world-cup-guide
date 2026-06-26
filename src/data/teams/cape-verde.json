@@ -128,112 +128,112 @@
         "y": 56
       },
       {
-        "name": "Lopes Cabral",
-        "shortName": "Lopes Cabral",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Lopes",
-        "shortName": "Lopes",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Borges",
         "shortName": "Borges",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 293,
-        "y": 130
-      },
-      {
-        "name": "Moreira",
-        "shortName": "Moreira",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 389,
+        "x": 63,
         "y": 130
       },
       {
         "name": "Pina",
         "shortName": "Pina",
-        "position": "DM",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Lopes",
+        "shortName": "Lopes",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Paulo",
+        "shortName": "Paulo",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 389,
+        "y": 130
+      },
+      {
+        "name": "Duarte",
+        "shortName": "Duarte",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "14",
         "x": 226,
         "y": 215
       },
       {
-        "name": "Rodrigues",
-        "shortName": "Rodrigues",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 63,
-        "y": 310
-      },
-      {
-        "name": "Arcanjo",
-        "shortName": "Arcanjo",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 161,
-        "y": 310
-      },
-      {
         "name": "Monteiro",
         "shortName": "Monteiro",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
-        "x": 293,
+        "x": 63,
         "y": 310
       },
       {
         "name": "Mendes",
         "shortName": "Mendes",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "20",
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Pina",
+        "shortName": "Pina",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 293,
+        "y": 310
+      },
+      {
+        "name": "Semedo",
+        "shortName": "Semedo",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 389,
         "y": 310
       },
       {
-        "name": "Benchimol",
-        "shortName": "Benchimol",
+        "name": "Livramento",
+        "shortName": "Livramento",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "19",
         "x": 226,
         "y": 385
       }
@@ -406,7 +406,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs Uruguay",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Saudi Arabia",
   "matches": [
     {
       "eventId": "760428",
@@ -442,6 +442,24 @@
         "Rodrigues",
         "Mendes",
         "Benchimol"
+      ]
+    },
+    {
+      "eventId": "760478",
+      "opponent": "Saudi Arabia",
+      "date": "Jun 26",
+      "starters": [
+        "Vozinha",
+        "Borges",
+        "Pina",
+        "Lopes",
+        "Paulo",
+        "Duarte",
+        "Monteiro",
+        "Mendes",
+        "Pina",
+        "Semedo",
+        "Livramento"
       ]
     }
   ],

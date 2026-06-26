@@ -177,31 +177,31 @@
         "y": 56
       },
       {
-        "name": "Sanabria",
-        "shortName": "Sanabria",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 63,
-        "y": 130
-      },
-      {
         "name": "Cáceres",
         "shortName": "Cáceres",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
+        "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Sanabria",
+        "shortName": "Sanabria",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
         "x": 161,
         "y": 130
       },
       {
         "name": "Olivera",
         "shortName": "Olivera",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -212,7 +212,7 @@
       {
         "name": "Varela",
         "shortName": "Varela",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -221,68 +221,68 @@
         "y": 130
       },
       {
-        "name": "Ugarte",
-        "shortName": "Ugarte",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
-        "y": 215
-      },
-      {
         "name": "Araújo",
         "shortName": "Araújo",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "20",
-        "x": 63,
-        "y": 310
+        "x": 226,
+        "y": 215
       },
       {
         "name": "Bentancur",
         "shortName": "Bentancur",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "6",
-        "x": 161,
+        "x": 63,
         "y": 310
       },
       {
         "name": "Valverde",
         "shortName": "Valverde",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 293,
+        "x": 161,
         "y": 310
       },
       {
         "name": "Canobbio",
         "shortName": "Canobbio",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
+        "x": 293,
+        "y": 310
+      },
+      {
+        "name": "Ugarte",
+        "shortName": "Ugarte",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
         "x": 389,
         "y": 310
       },
       {
-        "name": "Viñas",
-        "shortName": "Viñas",
+        "name": "Núñez",
+        "shortName": "Núñez",
         "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
+        "role": "mid",
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "9",
         "x": 226,
         "y": 385
       }
@@ -457,7 +457,7 @@
   ],
   "population": "3.5M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 21 vs Cape Verde",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Spain",
   "matches": [
     {
       "eventId": "760429",
@@ -493,6 +493,24 @@
         "Araújo",
         "Canobbio",
         "Viñas"
+      ]
+    },
+    {
+      "eventId": "760479",
+      "opponent": "Spain",
+      "date": "Jun 26",
+      "starters": [
+        "Muslera",
+        "Cáceres",
+        "Sanabria",
+        "Olivera",
+        "Varela",
+        "Araújo",
+        "Bentancur",
+        "Valverde",
+        "Canobbio",
+        "Ugarte",
+        "Núñez"
       ]
     }
   ]

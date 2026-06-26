@@ -177,20 +177,20 @@
         "y": 56
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "LB",
+        "name": "Laporte",
+        "shortName": "Laporte",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "14",
         "x": 63,
         "y": 148
       },
       {
         "name": "Cubarsí",
         "shortName": "Cubarsí",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -199,31 +199,31 @@
         "y": 148
       },
       {
-        "name": "Laporte",
-        "shortName": "Laporte",
-        "position": "CD-L",
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "24",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Porro",
-        "shortName": "Porro",
-        "position": "RB",
+        "name": "Llorente",
+        "shortName": "Llorente",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "5",
         "x": 389,
         "y": 148
       },
       {
         "name": "Unknown",
         "shortName": "Unknown",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -232,36 +232,47 @@
         "y": 256
       },
       {
-        "name": "Unknown",
-        "shortName": "Unknown",
-        "position": "CM",
+        "name": "Rodri",
+        "shortName": "Rodri",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "16",
         "x": 226,
         "y": 256
       },
       {
-        "name": "Olmo",
-        "shortName": "Olmo",
-        "position": "RM",
+        "name": "Merino",
+        "shortName": "Merino",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "6",
         "x": 348,
         "y": 256
       },
       {
         "name": "Baena",
         "shortName": "Baena",
-        "position": "LF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
         "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Yamal",
+        "shortName": "Yamal",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 226,
         "y": 375
       },
       {
@@ -272,17 +283,6 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Yamal",
-        "shortName": "Yamal",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "19",
         "x": 348,
         "y": 375
       }
@@ -455,7 +455,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs Saudi Arabia",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Uruguay",
   "matches": [
     {
       "eventId": "760428",
@@ -489,6 +489,23 @@
         "Oyarzabal",
         "Baena",
         "Yamal"
+      ]
+    },
+    {
+      "eventId": "760479",
+      "opponent": "Uruguay",
+      "date": "Jun 26",
+      "starters": [
+        "Simón",
+        "Laporte",
+        "Cubarsí",
+        "Cucurella",
+        "Llorente",
+        "Rodri",
+        "Merino",
+        "Baena",
+        "Yamal",
+        "Oyarzabal"
       ]
     }
   ],
