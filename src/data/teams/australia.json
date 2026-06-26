@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Tony Popovic",
     "managerTenure": "2024–present",
-    "formation": "5-4-1",
+    "formation": "3-4-2-1",
     "winPct": 0.1,
     "advancePct": 49
   },
@@ -166,114 +166,114 @@
         "y": 56
       },
       {
-        "name": "Bos",
-        "shortName": "Bos",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 32,
-        "y": 148
-      },
-      {
-        "name": "Circati",
-        "shortName": "Circati",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 127,
-        "y": 148
-      },
-      {
         "name": "Souttar",
         "shortName": "Souttar",
-        "position": "CD",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
+        "x": 104,
+        "y": 130
+      },
+      {
+        "name": "Circati",
+        "shortName": "Circati",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
         "x": 226,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Burgess",
-        "shortName": "Burgess",
-        "position": "CD-L",
+        "name": "Herrington",
+        "shortName": "Herrington",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
-        "x": 325,
-        "y": 148
+        "jersey": "25",
+        "x": 348,
+        "y": 130
       },
       {
-        "name": "Italiano",
-        "shortName": "Italiano",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 420,
-        "y": 148
-      },
-      {
-        "name": "Velupillay",
-        "shortName": "Velupillay",
-        "position": "LM",
+        "name": "Metcalfe",
+        "shortName": "Metcalfe",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "8",
         "x": 63,
-        "y": 256
+        "y": 215
+      },
+      {
+        "name": "Volpato",
+        "shortName": "Volpato",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Irvine",
+        "shortName": "Irvine",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Behich",
+        "shortName": "Behich",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Bos",
+        "shortName": "Bos",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 163,
+        "y": 310
       },
       {
         "name": "O'Neill",
         "shortName": "O'Neill",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 161,
-        "y": 256
+        "x": 289,
+        "y": 310
       },
       {
-        "name": "Okon-Engstler",
-        "shortName": "Okon-Engstler",
-        "position": "CM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 293,
-        "y": 256
-      },
-      {
-        "name": "Leckie",
-        "shortName": "Leckie",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 389,
-        "y": 256
-      },
-      {
-        "name": "Toure",
-        "shortName": "Toure",
+        "name": "Irankunda",
+        "shortName": "Irankunda",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "17",
         "x": 226,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -444,7 +444,7 @@
       "jersey": "17"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs United States",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Paraguay",
   "matches": [
     {
       "eventId": "760421",
@@ -480,6 +480,24 @@
         "Velupillay",
         "Leckie",
         "Toure"
+      ]
+    },
+    {
+      "eventId": "760469",
+      "opponent": "Paraguay",
+      "date": "Jun 25",
+      "starters": [
+        "Beach",
+        "Souttar",
+        "Circati",
+        "Herrington",
+        "Metcalfe",
+        "Volpato",
+        "Irvine",
+        "Behich",
+        "Bos",
+        "O'Neill",
+        "Irankunda"
       ]
     }
   ],

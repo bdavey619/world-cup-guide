@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '10",
     "manager": "Gustavo Alfaro",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "5-4-1",
     "winPct": 0.2,
     "advancePct": 65
   },
@@ -177,53 +177,64 @@
         "y": 56
       },
       {
-        "name": "Alonso",
-        "shortName": "Alonso",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "Gómez",
-        "shortName": "Gómez",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Alderete",
         "shortName": "Alderete",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 293,
+        "x": 32,
+        "y": 148
+      },
+      {
+        "name": "Maidana",
+        "shortName": "Maidana",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "26",
+        "x": 127,
         "y": 148
       },
       {
         "name": "Cáceres",
         "shortName": "Cáceres",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 389,
+        "x": 226,
+        "y": 148
+      },
+      {
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 325,
+        "y": 148
+      },
+      {
+        "name": "Velázquez",
+        "shortName": "Velázquez",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 420,
         "y": 148
       },
       {
         "name": "Galarza",
         "shortName": "Galarza",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -234,7 +245,7 @@
       {
         "name": "Cubas",
         "shortName": "Cubas",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -245,7 +256,7 @@
       {
         "name": "Gómez",
         "shortName": "Gómez",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -254,36 +265,25 @@
         "y": 256
       },
       {
-        "name": "Almirón",
-        "shortName": "Almirón",
-        "position": "RM",
+        "name": "Enciso",
+        "shortName": "Enciso",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "19",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Pitta",
-        "shortName": "Pitta",
-        "position": "CF-R",
+        "name": "Ávalos",
+        "shortName": "Ávalos",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
-        "x": 163,
-        "y": 375
-      },
-      {
-        "name": "Enciso",
-        "shortName": "Enciso",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 289,
+        "jersey": "21",
+        "x": 226,
         "y": 375
       }
     ]
@@ -455,7 +455,7 @@
       "jersey": "7"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Türkiye",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Australia",
   "matches": [
     {
       "eventId": "760417",
@@ -491,6 +491,24 @@
         "Almirón",
         "Enciso",
         "Pitta"
+      ]
+    },
+    {
+      "eventId": "760469",
+      "opponent": "Australia",
+      "date": "Jun 25",
+      "starters": [
+        "Gil",
+        "Alderete",
+        "Maidana",
+        "Cáceres",
+        "Gómez",
+        "Velázquez",
+        "Galarza",
+        "Cubas",
+        "Gómez",
+        "Enciso",
+        "Ávalos"
       ]
     }
   ],

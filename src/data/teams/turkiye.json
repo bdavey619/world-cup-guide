@@ -154,112 +154,112 @@
         "y": 56
       },
       {
-        "name": "Kadioglu",
-        "shortName": "Kadioglu",
-        "position": "LB",
+        "name": "Kabak",
+        "shortName": "Kabak",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "15",
         "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Demiral",
-        "shortName": "Demiral",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 161,
         "y": 130
       },
       {
         "name": "Bardakçi",
         "shortName": "Bardakçi",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Çelik",
+        "shortName": "Çelik",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "2",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Müldür",
-        "shortName": "Müldür",
-        "position": "RB",
+        "name": "Elmali",
+        "shortName": "Elmali",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "13",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Çalhanoglu",
-        "shortName": "Çalhanoglu",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Yüksek",
-        "shortName": "Yüksek",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "Yildiz",
         "shortName": "Yildiz",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Özcan",
+        "shortName": "Özcan",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Aydin",
+        "shortName": "Aydin",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Kökçü",
+        "shortName": "Kökçü",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 226,
         "y": 310
       },
       {
         "name": "Güler",
         "shortName": "Güler",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Akgün",
-        "shortName": "Akgün",
-        "position": "AM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Aktürkoglu",
-        "shortName": "Aktürkoglu",
+        "name": "Yilmaz",
+        "shortName": "Yilmaz",
         "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
+        "role": "mid",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "21",
         "x": 226,
         "y": 385
       }
@@ -432,7 +432,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Paraguay",
+  "pitchLabel": "Confirmed XI · Jun 25 vs United States",
   "matches": [
     {
       "eventId": "760421",
@@ -468,6 +468,24 @@
         "Aktürkoglu",
         "Yildiz",
         "Akgün"
+      ]
+    },
+    {
+      "eventId": "760470",
+      "opponent": "United States",
+      "date": "Jun 25",
+      "starters": [
+        "Çakir",
+        "Kabak",
+        "Bardakçi",
+        "Çelik",
+        "Elmali",
+        "Yildiz",
+        "Özcan",
+        "Aydin",
+        "Kökçü",
+        "Güler",
+        "Yilmaz"
       ]
     }
   ],

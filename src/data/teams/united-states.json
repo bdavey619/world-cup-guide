@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Mauricio Pochettino",
     "managerTenure": "2024–present",
-    "formation": "3-5-2",
+    "formation": "4-2-3-1",
     "winPct": 2,
     "advancePct": 84
   },
@@ -166,124 +166,124 @@
   "pitch": {
     "players": [
       {
-        "name": "Freese",
-        "shortName": "Freese",
+        "name": "Turner",
+        "shortName": "Turner",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Freeman",
-        "shortName": "Freeman",
-        "position": "CD-R",
+        "name": "Scally",
+        "shortName": "Scally",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
-        "x": 104,
-        "y": 130
-      },
-      {
-        "name": "Richards",
-        "shortName": "Richards",
-        "position": "CD",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 226,
-        "y": 130
-      },
-      {
-        "name": "Ream",
-        "shortName": "Ream",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 348,
+        "jersey": "23",
+        "x": 63,
         "y": 130
       },
       {
         "name": "Robinson",
         "shortName": "Robinson",
-        "position": "LM",
-        "role": "mid",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
-        "y": 215
+        "jersey": "12",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "McKenzie",
+        "shortName": "McKenzie",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Trusty",
+        "shortName": "Trusty",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 389,
+        "y": 130
       },
       {
         "name": "McKennie",
         "shortName": "McKennie",
-        "position": "CM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 161,
+        "x": 163,
         "y": 215
       },
       {
-        "name": "Tillman",
-        "shortName": "Tillman",
-        "position": "CM-L",
+        "name": "Berhalter",
+        "shortName": "Berhalter",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 293,
+        "jersey": "14",
+        "x": 289,
         "y": 215
       },
       {
-        "name": "Dest",
-        "shortName": "Dest",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 389,
-        "y": 215
-      },
-      {
-        "name": "Adams",
-        "shortName": "Adams",
-        "position": "AM",
+        "name": "Reyna",
+        "shortName": "Reyna",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "7",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Weah",
+        "shortName": "Weah",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Balogun",
-        "shortName": "Balogun",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": true,
+        "name": "Aaronson",
+        "shortName": "Aaronson",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 163,
-        "y": 385
+        "jersey": "11",
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Pepi",
         "shortName": "Pepi",
-        "position": "CF-L",
-        "role": "att",
+        "position": "F",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 289,
+        "x": 226,
         "y": 385
       }
     ]
@@ -455,7 +455,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 19 vs Australia",
+  "pitchLabel": "Confirmed XI · Jun 25 vs Türkiye",
   "matches": [
     {
       "eventId": "760417",
@@ -491,6 +491,24 @@
         "Dest",
         "Pepi",
         "Balogun"
+      ]
+    },
+    {
+      "eventId": "760470",
+      "opponent": "Türkiye",
+      "date": "Jun 25",
+      "starters": [
+        "Turner",
+        "Scally",
+        "Robinson",
+        "McKenzie",
+        "Trusty",
+        "McKennie",
+        "Berhalter",
+        "Reyna",
+        "Weah",
+        "Aaronson",
+        "Pepi"
       ]
     }
   ],

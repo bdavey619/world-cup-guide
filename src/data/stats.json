@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:18:23.756Z",
+  "updatedAt": "2026-06-26T01:32:35.378Z",
   "individual": {
     "goals": [
       {
@@ -62,6 +62,13 @@
         "name": "Matheus Cunha",
         "team": "Brazil",
         "flag": "🇧🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Brian Brobbey",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "",
         "value": 3
       },
@@ -157,16 +164,16 @@
         "value": 2
       },
       {
-        "name": "Brian Brobbey",
+        "name": "Cody Gakpo",
         "team": "Netherlands",
         "flag": "🇳🇱",
         "position": "",
         "value": 2
       },
       {
-        "name": "Cody Gakpo",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
+        "name": "Anthony Elanga",
+        "team": "Sweden",
+        "flag": "🇸🇪",
         "position": "",
         "value": 2
       },
@@ -563,13 +570,6 @@
         "value": 1
       },
       {
-        "name": "Anthony Elanga",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Franck Kessié",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
@@ -783,6 +783,27 @@
         "name": "Gonzalo Plata",
         "team": "Ecuador",
         "flag": "🇪🇨",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Daizen Maeda",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hazem Mastouri",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "",
         "value": 1
       }
@@ -1079,9 +1100,9 @@
     {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "gp": 2,
-      "gf": 7,
-      "ga": 3,
+      "gp": 3,
+      "gf": 10,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 55.4,
       "yellowCards": 3,
@@ -1156,9 +1177,9 @@
     {
       "name": "Sweden",
       "flag": "🇸🇪",
-      "gp": 2,
-      "gf": 6,
-      "ga": 6,
+      "gp": 3,
+      "gf": 7,
+      "ga": 7,
       "cleanSheets": 0,
       "possession": 48.9,
       "yellowCards": 3,
@@ -1277,9 +1298,9 @@
     {
       "name": "Japan",
       "flag": "🇯🇵",
-      "gp": 2,
-      "gf": 6,
-      "ga": 2,
+      "gp": 3,
+      "gf": 7,
+      "ga": 3,
       "cleanSheets": 1,
       "possession": 51.1,
       "yellowCards": 0,
@@ -1321,9 +1342,9 @@
     {
       "name": "Tunisia",
       "flag": "🇹🇳",
-      "gp": 2,
-      "gf": 1,
-      "ga": 9,
+      "gp": 3,
+      "gf": 2,
+      "ga": 12,
       "cleanSheets": 0,
       "possession": 44.6,
       "yellowCards": 1,

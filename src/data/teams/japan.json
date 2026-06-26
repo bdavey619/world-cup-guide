@@ -102,7 +102,9 @@
       "opponent": "Sweden",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": false
+      "isAway": false,
+      "score": "1–1",
+      "result": "D"
     }
   ],
   "history": [
@@ -287,11 +289,11 @@
   },
   "standings": {
     "w": 1,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "pts": 4,
-    "gf": 6,
-    "ga": 2,
+    "pts": 5,
+    "gf": 7,
+    "ga": 3,
     "gd": 4
   },
   "squad": [

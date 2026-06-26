@@ -100,7 +100,9 @@
       "opponent": "Netherlands",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": false
+      "isAway": false,
+      "score": "1–3",
+      "result": "L"
     }
   ],
   "history": [
@@ -286,11 +288,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 2,
+    "l": 3,
     "pts": 0,
-    "gf": 1,
-    "ga": 9,
-    "gd": -8
+    "gf": 2,
+    "ga": 12,
+    "gd": -10
   },
   "squad": [
     {

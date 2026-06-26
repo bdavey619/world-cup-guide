@@ -100,7 +100,9 @@
       "opponent": "Japan",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": true
+      "isAway": true,
+      "score": "1–1",
+      "result": "D"
     }
   ],
   "history": [
@@ -291,11 +293,11 @@
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 3,
-    "gf": 6,
-    "ga": 6,
+    "pts": 4,
+    "gf": 7,
+    "ga": 7,
     "gd": 0
   },
   "squad": [
