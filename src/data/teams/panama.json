@@ -136,24 +136,24 @@
         "y": 56
       },
       {
-        "name": "Blackman",
-        "shortName": "Blackman",
+        "name": "Gutiérrez",
+        "shortName": "Gutiérrez",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "26",
         "x": 32,
         "y": 148
       },
       {
-        "name": "Ramos",
-        "shortName": "Ramos",
+        "name": "Escobar",
+        "shortName": "Escobar",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "4",
         "x": 127,
         "y": 148
       },
@@ -202,24 +202,24 @@
         "y": 256
       },
       {
-        "name": "Harvey",
-        "shortName": "Harvey",
+        "name": "Bárcenas",
+        "shortName": "Bárcenas",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "11",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Bárcenas",
-        "shortName": "Bárcenas",
+        "name": "Harvey",
+        "shortName": "Harvey",
         "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "14",
         "x": 293,
         "y": 256
       },
@@ -235,13 +235,13 @@
         "y": 256
       },
       {
-        "name": "Fajardo",
-        "shortName": "Fajardo",
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "9",
         "x": 226,
         "y": 375
       }
@@ -416,7 +416,7 @@
   ],
   "population": "4.4M",
   "location": "Central America",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Croatia",
+  "pitchLabel": "Confirmed XI · Jun 27 vs England",
   "matches": [
     {
       "eventId": "760434",
@@ -452,6 +452,24 @@
         "Rodríguez",
         "Martínez",
         "Fajardo"
+      ]
+    },
+    {
+      "eventId": "760485",
+      "opponent": "England",
+      "date": "Jun 27",
+      "starters": [
+        "Mosquera",
+        "Córdoba",
+        "Andrade",
+        "Escobar",
+        "Gutiérrez",
+        "Murillo",
+        "Harvey",
+        "Bárcenas",
+        "Rodríguez",
+        "Martínez",
+        "Rodríguez"
       ]
     }
   ]

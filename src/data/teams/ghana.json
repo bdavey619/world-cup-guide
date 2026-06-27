@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
-    "formation": "4-3-3",
+    "formation": "4-1-4-1",
     "winPct": 0.2,
     "advancePct": 46
   },
@@ -164,7 +164,7 @@
         "isCaptain": false,
         "jersey": "14",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Adjetey",
@@ -175,7 +175,7 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Luckassen",
@@ -186,7 +186,7 @@
         "isCaptain": false,
         "jersey": "23",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Senaya",
@@ -197,51 +197,62 @@
         "isCaptain": false,
         "jersey": "26",
         "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Sibo",
-        "shortName": "Sibo",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 104,
-        "y": 256
-      },
-      {
-        "name": "Owusu",
-        "shortName": "Owusu",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "15",
-        "x": 226,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Partey",
         "shortName": "Partey",
-        "position": "RM",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "5",
-        "x": 348,
-        "y": 256
+        "x": 226,
+        "y": 215
+      },
+      {
+        "name": "Sulemana",
+        "shortName": "Sulemana",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Owusu",
+        "shortName": "Owusu",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Sibo",
+        "shortName": "Sibo",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 293,
+        "y": 310
       },
       {
         "name": "Semenyo",
         "shortName": "Semenyo",
-        "position": "LF",
-        "role": "att",
+        "position": "RM",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "11",
-        "x": 104,
-        "y": 375
+        "x": 389,
+        "y": 310
       },
       {
         "name": "Ayew",
@@ -252,18 +263,7 @@
         "isCaptain": false,
         "jersey": "9",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Sulemana",
-        "shortName": "Sulemana",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -482,14 +482,14 @@
         "Asare",
         "Luckassen",
         "Adjetey",
+        "Partey",
         "Mensah",
         "Senaya",
-        "Owusu",
         "Sibo",
-        "Partey",
-        "Ayew",
+        "Owusu",
+        "Sulemana",
         "Semenyo",
-        "Sulemana"
+        "Ayew"
       ]
     }
   ]

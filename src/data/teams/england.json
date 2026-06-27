@@ -178,13 +178,13 @@
         "y": 56
       },
       {
-        "name": "Spence",
-        "shortName": "Spence",
+        "name": "O'Reilly",
+        "shortName": "O'Reilly",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "3",
         "x": 63,
         "y": 130
       },
@@ -211,24 +211,24 @@
         "y": 130
       },
       {
-        "name": "James",
-        "shortName": "James",
+        "name": "Quansah",
+        "shortName": "Quansah",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "26",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Rice",
-        "shortName": "Rice",
+        "name": "Bellingham",
+        "shortName": "Bellingham",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "10",
         "x": 163,
         "y": 215
       },
@@ -244,35 +244,35 @@
         "y": 215
       },
       {
-        "name": "Gordon",
-        "shortName": "Gordon",
+        "name": "Rashford",
+        "shortName": "Rashford",
         "position": "AM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "11",
         "x": 104,
         "y": 310
       },
       {
-        "name": "Bellingham",
-        "shortName": "Bellingham",
+        "name": "Rogers",
+        "shortName": "Rogers",
         "position": "AM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "17",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Madueke",
-        "shortName": "Madueke",
+        "name": "Saka",
+        "shortName": "Saka",
         "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "7",
         "x": 348,
         "y": 310
       },
@@ -458,7 +458,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Ghana",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Panama",
   "matches": [
     {
       "eventId": "760437",
@@ -494,6 +494,24 @@
         "Kane",
         "Gordon",
         "Madueke"
+      ]
+    },
+    {
+      "eventId": "760485",
+      "opponent": "Panama",
+      "date": "Jun 27",
+      "starters": [
+        "Pickford",
+        "Guéhi",
+        "Konsa",
+        "O'Reilly",
+        "Quansah",
+        "Rogers",
+        "Bellingham",
+        "Anderson",
+        "Kane",
+        "Rashford",
+        "Saka"
       ]
     }
   ]

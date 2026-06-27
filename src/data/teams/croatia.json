@@ -243,24 +243,24 @@
         "y": 310
       },
       {
-        "name": "Sucic",
-        "shortName": "Sucic",
+        "name": "Vlasic",
+        "shortName": "Vlasic",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "13",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Vlasic",
-        "shortName": "Vlasic",
+        "name": "Sucic",
+        "shortName": "Sucic",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "17",
         "x": 348,
         "y": 310
       },
@@ -494,12 +494,12 @@
         "Sutalo",
         "Perisic",
         "Stanisic",
-        "Sucic",
+        "Vlasic",
         "Kovacic",
         "Modric",
         "Budimir",
         "Baturina",
-        "Vlasic"
+        "Sucic"
       ]
     }
   ]
