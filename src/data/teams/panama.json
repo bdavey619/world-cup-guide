@@ -202,24 +202,24 @@
         "y": 256
       },
       {
-        "name": "Bárcenas",
-        "shortName": "Bárcenas",
+        "name": "Harvey",
+        "shortName": "Harvey",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "14",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Harvey",
-        "shortName": "Harvey",
+        "name": "Bárcenas",
+        "shortName": "Bárcenas",
         "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "11",
         "x": 293,
         "y": 256
       },
@@ -465,8 +465,8 @@
         "Escobar",
         "Gutiérrez",
         "Murillo",
-        "Harvey",
         "Bárcenas",
+        "Harvey",
         "Rodríguez",
         "Martínez",
         "Rodríguez"
