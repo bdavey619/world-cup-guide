@@ -100,7 +100,9 @@
       "opponent": "Ghana",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": false
+      "isAway": false,
+      "score": "2–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -278,13 +280,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 1,
-    "pts": 3,
-    "gf": 3,
-    "ga": 4,
-    "gd": -1
+    "pts": 6,
+    "gf": 5,
+    "ga": 5,
+    "gd": 0
   },
   "squad": [
     {

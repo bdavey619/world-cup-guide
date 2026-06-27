@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:17:46.456Z",
+  "updatedAt": "2026-06-27T23:30:17.442Z",
   "individual": {
     "goals": [
       {
@@ -55,6 +55,13 @@
         "name": "Elijah Just",
         "team": "New Zealand",
         "flag": "🇳🇿",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
       },
@@ -157,7 +164,7 @@
         "value": 2
       },
       {
-        "name": "Harry Kane",
+        "name": "Jude Bellingham",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
@@ -496,13 +503,6 @@
         "name": "Petar Musa",
         "team": "Croatia",
         "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 1
       },
@@ -918,6 +918,27 @@
         "flag": "🇧🇪",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Petar Sucic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Derrick Luckassen",
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nikola Vlasic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1201,8 +1222,8 @@
     {
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "gp": 2,
-      "gf": 4,
+      "gp": 3,
+      "gf": 6,
       "ga": 2,
       "cleanSheets": 1,
       "possession": 65.3,
@@ -1344,9 +1365,9 @@
     {
       "name": "Croatia",
       "flag": "🇭🇷",
-      "gp": 2,
-      "gf": 3,
-      "ga": 4,
+      "gp": 3,
+      "gf": 5,
+      "ga": 5,
       "cleanSheets": 1,
       "possession": 53.1,
       "yellowCards": 1,
@@ -1520,9 +1541,9 @@
     {
       "name": "Panama",
       "flag": "🇵🇦",
-      "gp": 2,
+      "gp": 3,
       "gf": 0,
-      "ga": 2,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 52,
       "yellowCards": 3,
@@ -1597,9 +1618,9 @@
     {
       "name": "Ghana",
       "flag": "🇬🇭",
-      "gp": 2,
-      "gf": 1,
-      "ga": 0,
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
       "cleanSheets": 2,
       "possession": 29.6,
       "yellowCards": 2,

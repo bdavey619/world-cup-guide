@@ -166,86 +166,86 @@
         "y": 56
       },
       {
-        "name": "Mojica",
-        "shortName": "Mojica",
-        "position": "LB",
+        "name": "Arias",
+        "shortName": "Arias",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "4",
         "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Machado",
+        "shortName": "Machado",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 161,
         "y": 148
       },
       {
         "name": "Sánchez",
         "shortName": "Sánchez",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 161,
+        "x": 293,
         "y": 148
       },
       {
         "name": "Lucumí",
         "shortName": "Lucumí",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Muñoz",
-        "shortName": "Muñoz",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
         "x": 389,
         "y": 148
       },
       {
+        "name": "Puerta",
+        "shortName": "Puerta",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 104,
+        "y": 256
+      },
+      {
         "name": "Arias",
         "shortName": "Arias",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 104,
+        "x": 226,
         "y": 256
       },
       {
         "name": "Lerma",
         "shortName": "Lerma",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 226,
-        "y": 256
-      },
-      {
-        "name": "Puerta",
-        "shortName": "Puerta",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
         "x": 348,
         "y": 256
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "LF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -254,24 +254,24 @@
         "y": 375
       },
       {
-        "name": "Suárez",
-        "shortName": "Suárez",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 226,
-        "y": 375
-      },
-      {
         "name": "Rodríguez",
         "shortName": "Rodríguez",
-        "position": "RF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Córdoba",
+        "shortName": "Córdoba",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
         "x": 348,
         "y": 375
       }
@@ -446,7 +446,7 @@
   ],
   "population": "52.2M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Congo DR",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Portugal",
   "matches": [
     {
       "eventId": "760459",
@@ -464,6 +464,24 @@
         "Suárez",
         "Díaz",
         "Rodríguez"
+      ]
+    },
+    {
+      "eventId": "760481",
+      "opponent": "Portugal",
+      "date": "Jun 27",
+      "starters": [
+        "Vargas",
+        "Arias",
+        "Machado",
+        "Sánchez",
+        "Lucumí",
+        "Puerta",
+        "Arias",
+        "Lerma",
+        "Díaz",
+        "Rodríguez",
+        "Córdoba"
       ]
     }
   ]

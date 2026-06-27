@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Thomas Tuchel",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-1-4-1",
     "winPct": 10,
     "advancePct": 96
   },
@@ -100,7 +100,9 @@
       "opponent": "Panama",
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
-      "isAway": true
+      "isAway": true,
+      "score": "2–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -222,58 +224,58 @@
         "y": 130
       },
       {
-        "name": "Bellingham",
-        "shortName": "Bellingham",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Anderson",
         "shortName": "Anderson",
-        "position": "RM",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 289,
+        "x": 226,
         "y": 215
       },
       {
         "name": "Rashford",
         "shortName": "Rashford",
-        "position": "AM-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 104,
+        "x": 63,
         "y": 310
       },
       {
         "name": "Rogers",
         "shortName": "Rogers",
-        "position": "AM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
-        "x": 226,
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Bellingham",
+        "shortName": "Bellingham",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 293,
         "y": 310
       },
       {
         "name": "Saka",
         "shortName": "Saka",
-        "position": "AM-R",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
-        "x": 348,
+        "x": 389,
         "y": 310
       },
       {
@@ -290,13 +292,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 1,
     "l": 0,
-    "pts": 4,
-    "gf": 4,
+    "pts": 7,
+    "gf": 6,
     "ga": 2,
-    "gd": 2
+    "gd": 4
   },
   "squad": [
     {
@@ -504,14 +506,14 @@
         "Pickford",
         "Guéhi",
         "Konsa",
+        "Anderson",
         "O'Reilly",
         "Quansah",
-        "Rogers",
         "Bellingham",
-        "Anderson",
-        "Kane",
+        "Rogers",
         "Rashford",
-        "Saka"
+        "Saka",
+        "Kane"
       ]
     }
   ]

@@ -181,7 +181,7 @@
       {
         "name": "Mendes",
         "shortName": "Mendes",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -192,7 +192,7 @@
       {
         "name": "Dias",
         "shortName": "Dias",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -203,7 +203,7 @@
       {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -214,7 +214,7 @@
       {
         "name": "Cancelo",
         "shortName": "Cancelo",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -225,7 +225,7 @@
       {
         "name": "Unknown",
         "shortName": "Unknown",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,29 +236,29 @@
       {
         "name": "Neves",
         "shortName": "Neves",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "21",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Félix",
-        "shortName": "Félix",
-        "position": "AM-L",
+        "name": "Neto",
+        "shortName": "Neto",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "18",
         "x": 104,
         "y": 310
       },
       {
         "name": "Fernandes",
         "shortName": "Fernandes",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -267,13 +267,13 @@
         "y": 310
       },
       {
-        "name": "Neto",
-        "shortName": "Neto",
-        "position": "AM-R",
+        "name": "Félix",
+        "shortName": "Félix",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -281,7 +281,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -459,7 +459,7 @@
   ],
   "population": "10.3M",
   "location": "Southern Europe",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Uzbekistan",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Colombia",
   "matches": [
     {
       "eventId": "760435",
@@ -493,6 +493,23 @@
         "Ronaldo",
         "Félix",
         "Neto"
+      ]
+    },
+    {
+      "eventId": "760481",
+      "opponent": "Colombia",
+      "date": "Jun 27",
+      "starters": [
+        "Costa",
+        "Mendes",
+        "Dias",
+        "Veiga",
+        "Cancelo",
+        "Neves",
+        "Neto",
+        "Fernandes",
+        "Félix",
+        "Ronaldo"
       ]
     }
   ]

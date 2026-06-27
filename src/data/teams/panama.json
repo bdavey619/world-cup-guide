@@ -100,7 +100,9 @@
       "opponent": "England",
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
-      "isAway": false
+      "isAway": false,
+      "score": "0–2",
+      "result": "L"
     }
   ],
   "history": [
@@ -250,11 +252,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 2,
+    "l": 3,
     "pts": 0,
     "gf": 0,
-    "ga": 2,
-    "gd": -2
+    "ga": 4,
+    "gd": -4
   },
   "squad": [
     {

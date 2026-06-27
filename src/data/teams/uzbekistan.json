@@ -131,7 +131,7 @@
       {
         "name": "Khusanov",
         "shortName": "Khusanov",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -140,20 +140,20 @@
         "y": 130
       },
       {
-        "name": "Abdullaev",
-        "shortName": "Abdullaev",
-        "position": "CD",
+        "name": "Urozov",
+        "shortName": "Urozov",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "26",
         "x": 226,
         "y": 130
       },
       {
         "name": "Ashurmatov",
         "shortName": "Ashurmatov",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -162,48 +162,70 @@
         "y": 130
       },
       {
-        "name": "Nasrullaev",
-        "shortName": "Nasrullaev",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 63,
-        "y": 215
-      },
-      {
-        "name": "Xamrobekov",
-        "shortName": "Xamrobekov",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 161,
-        "y": 215
-      },
-      {
         "name": "Shukurov",
         "shortName": "Shukurov",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Alijonov",
+        "shortName": "Alijonov",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Nasrullaev",
+        "shortName": "Nasrullaev",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
         "x": 293,
         "y": 215
       },
       {
-        "name": "Karimov",
-        "shortName": "Karimov",
-        "position": "RM",
+        "name": "Khamdamov",
+        "shortName": "Khamdamov",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "17",
         "x": 389,
         "y": 215
+      },
+      {
+        "name": "Fayzullaev",
+        "shortName": "Fayzullaev",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Mozgovoy",
+        "shortName": "Mozgovoy",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 289,
+        "y": 310
       },
       {
         "name": "Shomurodov",
@@ -213,28 +235,6 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "14",
-        "x": 163,
-        "y": 310
-      },
-      {
-        "name": "Fayzullaev",
-        "shortName": "Fayzullaev",
-        "position": "CF-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 289,
-        "y": 310
-      },
-      {
-        "name": "Ganiev",
-        "shortName": "Ganiev",
-        "position": "CF-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
         "x": 226,
         "y": 385
       }
@@ -409,7 +409,7 @@
   ],
   "population": "35.7M",
   "location": "Central Asia",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Portugal",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Congo DR",
   "matches": [
     {
       "eventId": "760461",
@@ -427,6 +427,24 @@
         "Shomurodov",
         "Fayzullaev",
         "Ganiev"
+      ]
+    },
+    {
+      "eventId": "760482",
+      "opponent": "Congo DR",
+      "date": "Jun 27",
+      "starters": [
+        "Nematov",
+        "Khusanov",
+        "Urozov",
+        "Ashurmatov",
+        "Shukurov",
+        "Alijonov",
+        "Nasrullaev",
+        "Khamdamov",
+        "Fayzullaev",
+        "Mozgovoy",
+        "Shomurodov"
       ]
     }
   ]

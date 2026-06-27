@@ -102,7 +102,9 @@
       "opponent": "Croatia",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
-      "isAway": true
+      "isAway": true,
+      "score": "1–2",
+      "result": "L"
     }
   ],
   "history": [
@@ -270,11 +272,11 @@
   "standings": {
     "w": 1,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "pts": 4,
-    "gf": 1,
-    "ga": 0,
-    "gd": 1
+    "gf": 2,
+    "ga": 2,
+    "gd": 0
   },
   "squad": [
     {
