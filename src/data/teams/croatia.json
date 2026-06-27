@@ -166,13 +166,13 @@
         "y": 56
       },
       {
-        "name": "Gvardiol",
-        "shortName": "Gvardiol",
+        "name": "Perisic",
+        "shortName": "Perisic",
         "position": "LB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "14",
         "x": 63,
         "y": 130
       },
@@ -232,46 +232,46 @@
         "y": 215
       },
       {
-        "name": "Perisic",
-        "shortName": "Perisic",
+        "name": "Baturina",
+        "shortName": "Baturina",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "16",
         "x": 104,
         "y": 310
       },
       {
-        "name": "Baturina",
-        "shortName": "Baturina",
+        "name": "Sucic",
+        "shortName": "Sucic",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "17",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Pasalic",
-        "shortName": "Pasalic",
+        "name": "Vlasic",
+        "shortName": "Vlasic",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "13",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Musa",
-        "shortName": "Musa",
+        "name": "Budimir",
+        "shortName": "Budimir",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "11",
         "x": 226,
         "y": 385
       }
@@ -446,7 +446,7 @@
   ],
   "population": "3.9M",
   "location": "Southeast Europe",
-  "pitchLabel": "Confirmed XI · Jun 23 vs Panama",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Ghana",
   "matches": [
     {
       "eventId": "760437",
@@ -482,6 +482,24 @@
         "Musa",
         "Perisic",
         "Pasalic"
+      ]
+    },
+    {
+      "eventId": "760480",
+      "opponent": "Ghana",
+      "date": "Jun 27",
+      "starters": [
+        "Livakovic",
+        "Pongracic",
+        "Sutalo",
+        "Perisic",
+        "Stanisic",
+        "Sucic",
+        "Kovacic",
+        "Modric",
+        "Budimir",
+        "Baturina",
+        "Vlasic"
       ]
     }
   ]

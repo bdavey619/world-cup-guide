@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Carlos Queiroz",
     "managerTenure": "2022–present",
-    "formation": "4-1-4-1",
+    "formation": "4-3-3",
     "winPct": 0.2,
     "advancePct": 46
   },
@@ -164,7 +164,7 @@
         "isCaptain": false,
         "jersey": "14",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Adjetey",
@@ -175,18 +175,18 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
-        "name": "Opoku",
-        "shortName": "Opoku",
+        "name": "Luckassen",
+        "shortName": "Luckassen",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "23",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Senaya",
@@ -197,62 +197,51 @@
         "isCaptain": false,
         "jersey": "26",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Partey",
-        "shortName": "Partey",
-        "position": "DM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
-        "y": 215
-      },
-      {
-        "name": "Semenyo",
-        "shortName": "Semenyo",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 63,
-        "y": 310
-      },
-      {
-        "name": "Yirenkyi",
-        "shortName": "Yirenkyi",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 161,
-        "y": 310
+        "y": 148
       },
       {
         "name": "Sibo",
         "shortName": "Sibo",
-        "position": "CM-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 293,
-        "y": 310
+        "x": 104,
+        "y": 256
       },
       {
-        "name": "Williams",
-        "shortName": "Williams",
-        "position": "RM",
+        "name": "Owusu",
+        "shortName": "Owusu",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
-        "x": 389,
-        "y": 310
+        "jersey": "15",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Partey",
+        "shortName": "Partey",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 348,
+        "y": 256
+      },
+      {
+        "name": "Semenyo",
+        "shortName": "Semenyo",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Ayew",
@@ -263,7 +252,18 @@
         "isCaptain": false,
         "jersey": "9",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Sulemana",
+        "shortName": "Sulemana",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -436,7 +436,7 @@
   ],
   "population": "33.5M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 23 vs England",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Croatia",
   "matches": [
     {
       "eventId": "760434",
@@ -472,6 +472,24 @@
         "Semenyo",
         "Williams",
         "Ayew"
+      ]
+    },
+    {
+      "eventId": "760480",
+      "opponent": "Croatia",
+      "date": "Jun 27",
+      "starters": [
+        "Asare",
+        "Luckassen",
+        "Adjetey",
+        "Mensah",
+        "Senaya",
+        "Owusu",
+        "Sibo",
+        "Partey",
+        "Ayew",
+        "Semenyo",
+        "Sulemana"
       ]
     }
   ]
