@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T08:04:35.999Z",
+  "updatedAt": "2026-06-27T10:19:33.540Z",
   "individual": {
     "goals": [
       {
@@ -964,10 +964,24 @@
         "value": 2
       },
       {
+        "name": "Chris Wood",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Julio Enciso",
         "team": "Paraguay",
         "flag": "🇵🇾",
         "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
         "value": 2
       },
       {
@@ -1013,16 +1027,16 @@
         "value": 2
       },
       {
-        "name": "Deniz Undav",
-        "team": "Germany",
-        "flag": "🇩🇪",
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "F",
         "value": 2
       },
       {
-        "name": "Chris Wood",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
         "position": "F",
         "value": 2
       },
@@ -1034,16 +1048,16 @@
         "value": 2
       },
       {
-        "name": "Mohamed Salah",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "F",
-        "value": 2
-      },
-      {
         "name": "Nathan Saliba",
         "team": "Canada",
         "flag": "🇨🇦",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "M",
         "value": 2
       },
@@ -1076,24 +1090,10 @@
         "value": 1
       },
       {
-        "name": "Vladimír Coufal",
-        "team": "Czechia",
-        "flag": "🇨🇿",
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
         "position": "D",
-        "value": 1
-      },
-      {
-        "name": "Virgil van Dijk",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "D",
-        "value": 1
-      },
-      {
-        "name": "Hwang In-Beom",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "M",
         "value": 1
       }
     ]
