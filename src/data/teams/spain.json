@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Luis de la Fuente",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 16,
     "advancePct": 98
   },
@@ -177,103 +177,103 @@
         "y": 56
       },
       {
-        "name": "Laporte",
-        "shortName": "Laporte",
-        "position": "D",
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "24",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Cubarsí",
         "shortName": "Cubarsí",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "D",
+        "name": "Laporte",
+        "shortName": "Laporte",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "14",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Llorente",
         "shortName": "Llorente",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
         "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Unknown",
-        "shortName": "Unknown",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 104,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Rodri",
         "shortName": "Rodri",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "16",
-        "x": 226,
-        "y": 256
+        "x": 163,
+        "y": 215
       },
       {
-        "name": "Merino",
-        "shortName": "Merino",
-        "position": "M",
+        "name": "Unknown",
+        "shortName": "Unknown",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
-        "x": 348,
-        "y": 256
+        "jersey": "20",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Baena",
         "shortName": "Baena",
-        "position": "F",
-        "role": "att",
+        "position": "AM-L",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
         "x": 104,
-        "y": 375
+        "y": 310
+      },
+      {
+        "name": "Merino",
+        "shortName": "Merino",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Yamal",
         "shortName": "Yamal",
-        "position": "F",
-        "role": "att",
+        "position": "AM-R",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "19",
-        "x": 226,
-        "y": 375
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Oyarzabal",
@@ -283,8 +283,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 348,
-        "y": 375
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -501,11 +501,11 @@
         "Cubarsí",
         "Cucurella",
         "Llorente",
-        "Rodri",
         "Merino",
+        "Rodri",
+        "Oyarzabal",
         "Baena",
-        "Yamal",
-        "Oyarzabal"
+        "Yamal"
       ]
     }
   ],

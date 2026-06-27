@@ -167,7 +167,7 @@
       {
         "name": "Boushal",
         "shortName": "Boushal",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -176,31 +176,31 @@
         "y": 148
       },
       {
-        "name": "Al-Tambakti",
-        "shortName": "Al-Tambakti",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Al-Amri",
         "shortName": "Al-Amri",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Al-Tambakti",
+        "shortName": "Al-Tambakti",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
         "x": 293,
         "y": 148
       },
       {
         "name": "Abdulhamid",
         "shortName": "Abdulhamid",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -211,51 +211,51 @@
       {
         "name": "Al-Dawsari",
         "shortName": "Al-Dawsari",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "10",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Mandash",
-        "shortName": "Mandash",
-        "position": "M",
+        "name": "Al-Khaibari",
+        "shortName": "Al-Khaibari",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "15",
         "x": 161,
         "y": 256
       },
       {
         "name": "Al-Dawsari",
         "shortName": "Al-Dawsari",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "6",
         "x": 293,
         "y": 256
       },
       {
-        "name": "Al-Khaibari",
-        "shortName": "Al-Khaibari",
-        "position": "M",
+        "name": "Mandash",
+        "shortName": "Mandash",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "20",
         "x": 389,
         "y": 256
       },
       {
         "name": "Kanno",
         "shortName": "Kanno",
-        "position": "F",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -266,7 +266,7 @@
       {
         "name": "Al-Brikan",
         "shortName": "Al-Brikan",
-        "position": "F",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -489,16 +489,16 @@
       "date": "Jun 26",
       "starters": [
         "Al-Owais",
-        "Boushal",
         "Al-Tambakti",
         "Al-Amri",
+        "Boushal",
         "Abdulhamid",
         "Al-Dawsari",
-        "Mandash",
-        "Al-Dawsari",
         "Al-Khaibari",
-        "Kanno",
-        "Al-Brikan"
+        "Al-Dawsari",
+        "Mandash",
+        "Al-Brikan",
+        "Kanno"
       ]
     }
   ]
