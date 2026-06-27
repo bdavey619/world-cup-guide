@@ -99,7 +99,9 @@
       "opponent": "Uruguay",
       "venue": "Estadio Akron",
       "city": "Guadalajara",
-      "isAway": true
+      "isAway": true,
+      "score": "1–0",
+      "result": "W"
     }
   ],
   "history": [
@@ -289,13 +291,13 @@
     ]
   },
   "standings": {
-    "w": 1,
+    "w": 2,
     "d": 1,
     "l": 0,
-    "pts": 4,
-    "gf": 4,
+    "pts": 7,
+    "gf": 5,
     "ga": 0,
-    "gd": 4
+    "gd": 5
   },
   "squad": [
     {

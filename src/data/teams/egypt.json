@@ -99,7 +99,9 @@
       "opponent": "Iran",
       "venue": "Lumen Field",
       "city": "Seattle",
-      "isAway": false
+      "isAway": false,
+      "score": "1–1",
+      "result": "D"
     }
   ],
   "history": [
@@ -152,24 +154,24 @@
         "y": 130
       },
       {
-        "name": "Ibrahim",
-        "shortName": "Ibrahim",
+        "name": "Rabia",
+        "shortName": "Rabia",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "5",
         "x": 161,
         "y": 130
       },
       {
-        "name": "Fathy",
-        "shortName": "Fathy",
+        "name": "Abdelmoneim",
+        "shortName": "Abdelmoneim",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "6",
         "x": 293,
         "y": 130
       },
@@ -185,35 +187,35 @@
         "y": 130
       },
       {
-        "name": "Lashin",
-        "shortName": "Lashin",
+        "name": "Saber",
+        "shortName": "Saber",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "21",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Attia",
-        "shortName": "Attia",
+        "name": "Lashin",
+        "shortName": "Lashin",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "17",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Ashour",
-        "shortName": "Ashour",
+        "name": "Trézéguet",
+        "shortName": "Trézéguet",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "7",
         "x": 104,
         "y": 310
       },
@@ -229,24 +231,24 @@
         "y": 310
       },
       {
-        "name": "Zico",
-        "shortName": "Zico",
+        "name": "Ashour",
+        "shortName": "Ashour",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "8",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Marmoush",
-        "shortName": "Marmoush",
+        "name": "Zico",
+        "shortName": "Zico",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "11",
         "x": 226,
         "y": 385
       }
@@ -254,11 +256,11 @@
   },
   "standings": {
     "w": 1,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "pts": 4,
-    "gf": 4,
-    "ga": 2,
+    "pts": 5,
+    "gf": 5,
+    "ga": 3,
     "gd": 2
   },
   "squad": [
@@ -419,7 +421,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs New Zealand",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Iran",
   "matches": [
     {
       "eventId": "760426",
@@ -455,6 +457,24 @@
         "Marmoush",
         "Ashour",
         "Zico"
+      ]
+    },
+    {
+      "eventId": "760476",
+      "opponent": "Iran",
+      "date": "Jun 26",
+      "starters": [
+        "Shoubir",
+        "Abdelmoneim",
+        "Rabia",
+        "Fatouh",
+        "Hany",
+        "Salah",
+        "Saber",
+        "Lashin",
+        "Zico",
+        "Trézéguet",
+        "Ashour"
       ]
     }
   ],

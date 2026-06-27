@@ -99,7 +99,9 @@
       "opponent": "Saudi Arabia",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "isAway": false
+      "isAway": false,
+      "score": "0–0",
+      "result": "D"
     }
   ],
   "history": [],
@@ -241,9 +243,9 @@
   },
   "standings": {
     "w": 0,
-    "d": 2,
+    "d": 3,
     "l": 0,
-    "pts": 2,
+    "pts": 3,
     "gf": 2,
     "ga": 2,
     "gd": 0

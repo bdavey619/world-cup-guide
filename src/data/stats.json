@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T01:25:43.754Z",
+  "updatedAt": "2026-06-27T05:08:23.379Z",
   "individual": {
     "goals": [
       {
@@ -48,6 +48,13 @@
         "name": "Deniz Undav",
         "team": "Germany",
         "flag": "🇩🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Elijah Just",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
         "position": "",
         "value": 3
       },
@@ -143,9 +150,9 @@
         "value": 2
       },
       {
-        "name": "Elijah Just",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
         "position": "",
         "value": 2
       },
@@ -223,6 +230,13 @@
         "name": "Pape Gueye",
         "team": "Senegal",
         "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Leandro Trossard",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 2
       },
@@ -398,13 +412,6 @@
         "name": "Abdulelah Al-Amri",
         "team": "Saudi Arabia",
         "flag": "🇸🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ramin Rezaeian",
-        "team": "Iran",
-        "flag": "🇮🇷",
         "position": "",
         "value": 1
       },
@@ -876,6 +883,41 @@
         "flag": "🇸🇳",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Álex Baena",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mahmoud Saber",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1060,8 +1102,8 @@
     {
       "name": "Spain",
       "flag": "🇪🇸",
-      "gp": 2,
-      "gf": 4,
+      "gp": 3,
+      "gf": 5,
       "ga": 0,
       "cleanSheets": 2,
       "possession": 70.7,
@@ -1148,9 +1190,9 @@
     {
       "name": "Uruguay",
       "flag": "🇺🇾",
-      "gp": 2,
+      "gp": 3,
       "gf": 3,
-      "ga": 3,
+      "ga": 4,
       "cleanSheets": 0,
       "possession": 66,
       "yellowCards": 2,
@@ -1214,9 +1256,9 @@
     {
       "name": "Belgium",
       "flag": "🇧🇪",
-      "gp": 2,
-      "gf": 1,
-      "ga": 1,
+      "gp": 3,
+      "gf": 6,
+      "ga": 2,
       "cleanSheets": 1,
       "possession": 61.9,
       "yellowCards": 3,
@@ -1269,9 +1311,9 @@
     {
       "name": "Iran",
       "flag": "🇮🇷",
-      "gp": 2,
-      "gf": 2,
-      "ga": 2,
+      "gp": 3,
+      "gf": 3,
+      "ga": 3,
       "cleanSheets": 1,
       "possession": 39.2,
       "yellowCards": 2,
@@ -1401,7 +1443,7 @@
     {
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
-      "gp": 2,
+      "gp": 3,
       "gf": 1,
       "ga": 5,
       "cleanSheets": 0,
@@ -1445,7 +1487,7 @@
     {
       "name": "Cape Verde",
       "flag": "🇨🇻",
-      "gp": 2,
+      "gp": 3,
       "gf": 2,
       "ga": 2,
       "cleanSheets": 1,
@@ -1456,9 +1498,9 @@
     {
       "name": "Egypt",
       "flag": "🇪🇬",
-      "gp": 2,
-      "gf": 4,
-      "ga": 2,
+      "gp": 3,
+      "gf": 5,
+      "ga": 3,
       "cleanSheets": 0,
       "possession": 51,
       "yellowCards": 3,
@@ -1489,9 +1531,9 @@
     {
       "name": "New Zealand",
       "flag": "🇳🇿",
-      "gp": 2,
-      "gf": 3,
-      "ga": 5,
+      "gp": 3,
+      "gf": 4,
+      "ga": 10,
       "cleanSheets": 0,
       "possession": 48,
       "yellowCards": 2,

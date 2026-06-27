@@ -99,7 +99,9 @@
       "opponent": "New Zealand",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": true
+      "isAway": true,
+      "score": "5–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -188,57 +190,57 @@
         "y": 130
       },
       {
-        "name": "Ngoy",
-        "shortName": "Ngoy",
+        "name": "Mechele",
+        "shortName": "Mechele",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "4",
         "x": 161,
         "y": 130
       },
       {
-        "name": "Mechele",
-        "shortName": "Mechele",
+        "name": "Theate",
+        "shortName": "Theate",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Meunier",
-        "shortName": "Meunier",
+        "name": "Castagne",
+        "shortName": "Castagne",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "21",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Tielemans",
-        "shortName": "Tielemans",
+        "name": "Vanaken",
+        "shortName": "Vanaken",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Raskin",
-        "shortName": "Raskin",
+        "name": "Tielemans",
+        "shortName": "Tielemans",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "8",
         "x": 289,
         "y": 215
       },
@@ -265,37 +267,37 @@
         "y": 310
       },
       {
-        "name": "Saelemaekers",
-        "shortName": "Saelemaekers",
+        "name": "Doku",
+        "shortName": "Doku",
         "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Lukaku",
-        "shortName": "Lukaku",
+        "name": "De Ketelaere",
+        "shortName": "De Ketelaere",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "17",
         "x": 226,
         "y": 385
       }
     ]
   },
   "standings": {
-    "w": 0,
+    "w": 1,
     "d": 2,
     "l": 0,
-    "pts": 2,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0
+    "pts": 5,
+    "gf": 6,
+    "ga": 2,
+    "gd": 4
   },
   "squad": [
     {
@@ -455,7 +457,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 21 vs Iran",
+  "pitchLabel": "Confirmed XI · Jun 26 vs New Zealand",
   "matches": [
     {
       "eventId": "760426",
@@ -491,6 +493,24 @@
         "Lukaku",
         "Trossard",
         "Saelemaekers"
+      ]
+    },
+    {
+      "eventId": "760477",
+      "opponent": "New Zealand",
+      "date": "Jun 26",
+      "starters": [
+        "Courtois",
+        "Theate",
+        "Mechele",
+        "De Cuyper",
+        "Castagne",
+        "De Bruyne",
+        "Vanaken",
+        "Tielemans",
+        "De Ketelaere",
+        "Trossard",
+        "Doku"
       ]
     }
   ],

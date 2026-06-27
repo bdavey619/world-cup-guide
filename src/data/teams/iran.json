@@ -103,7 +103,9 @@
       "opponent": "Egypt",
       "venue": "Lumen Field",
       "city": "Seattle",
-      "isAway": true
+      "isAway": true,
+      "score": "1–1",
+      "result": "D"
     }
   ],
   "history": [
@@ -169,13 +171,13 @@
         "y": 56
       },
       {
-        "name": "Hajsafi",
-        "shortName": "Hajsafi",
+        "name": "Mohammadi",
+        "shortName": "Mohammadi",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "5",
         "x": 32,
         "y": 148
       },
@@ -213,13 +215,13 @@
         "y": 148
       },
       {
-        "name": "Hardani",
-        "shortName": "Hardani",
+        "name": "Rezaeian",
+        "shortName": "Rezaeian",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "23",
         "x": 420,
         "y": 148
       },
@@ -235,13 +237,13 @@
         "y": 256
       },
       {
-        "name": "Ghoddos",
-        "shortName": "Ghoddos",
+        "name": "Ghorbani",
+        "shortName": "Ghorbani",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "21",
         "x": 161,
         "y": 256
       },
@@ -257,13 +259,13 @@
         "y": 256
       },
       {
-        "name": "Rezaeian",
-        "shortName": "Rezaeian",
+        "name": "Ghoddos",
+        "shortName": "Ghoddos",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "14",
         "x": 389,
         "y": 256
       },
@@ -282,11 +284,11 @@
   },
   "standings": {
     "w": 0,
-    "d": 2,
+    "d": 3,
     "l": 0,
-    "pts": 2,
-    "gf": 2,
-    "ga": 2,
+    "pts": 3,
+    "gf": 3,
+    "ga": 3,
     "gd": 0
   },
   "squad": [
@@ -449,7 +451,7 @@
   ],
   "population": "87.9M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 21 vs Belgium",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Egypt",
   "matches": [
     {
       "eventId": "760427",
@@ -484,6 +486,24 @@
         "Ghoddos",
         "Mohebbi",
         "Rezaeian",
+        "Taremi"
+      ]
+    },
+    {
+      "eventId": "760476",
+      "opponent": "Egypt",
+      "date": "Jun 26",
+      "starters": [
+        "Beiranvand",
+        "Khalilzadeh",
+        "Nemati",
+        "Kanani",
+        "Mohammadi",
+        "Rezaeian",
+        "Ezatolahi",
+        "Ghorbani",
+        "Mohebbi",
+        "Ghoddos",
         "Taremi"
       ]
     }

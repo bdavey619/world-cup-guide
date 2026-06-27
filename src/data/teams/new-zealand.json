@@ -99,7 +99,9 @@
       "opponent": "Belgium",
       "venue": "BC Place",
       "city": "Vancouver",
-      "isAway": false
+      "isAway": false,
+      "score": "1–5",
+      "result": "L"
     }
   ],
   "history": [
@@ -163,13 +165,13 @@
         "y": 130
       },
       {
-        "name": "Boxall",
-        "shortName": "Boxall",
+        "name": "Bindon",
+        "shortName": "Bindon",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "4",
         "x": 293,
         "y": 130
       },
@@ -218,24 +220,24 @@
         "y": 310
       },
       {
-        "name": "Singh",
-        "shortName": "Singh",
+        "name": "Thomas",
+        "shortName": "Thomas",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "23",
         "x": 226,
         "y": 310
       },
       {
-        "name": "McCowatt",
-        "shortName": "McCowatt",
+        "name": "Singh",
+        "shortName": "Singh",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "10",
         "x": 348,
         "y": 310
       },
@@ -255,11 +257,11 @@
   "standings": {
     "w": 0,
     "d": 1,
-    "l": 1,
+    "l": 2,
     "pts": 1,
-    "gf": 3,
-    "ga": 5,
-    "gd": -2
+    "gf": 4,
+    "ga": 10,
+    "gd": -6
   },
   "squad": [
     {
@@ -421,7 +423,7 @@
   ],
   "population": "5.1M",
   "location": "Oceania",
-  "pitchLabel": "Confirmed XI · Jun 21 vs Egypt",
+  "pitchLabel": "Confirmed XI · Jun 26 vs Belgium",
   "matches": [
     {
       "eventId": "760427",
@@ -457,6 +459,24 @@
         "Wood",
         "Just",
         "McCowatt"
+      ]
+    },
+    {
+      "eventId": "760477",
+      "opponent": "Belgium",
+      "date": "Jun 26",
+      "starters": [
+        "Crocombe",
+        "Bindon",
+        "Surman",
+        "Cacace",
+        "Payne",
+        "Thomas",
+        "Stamenic",
+        "Bell",
+        "Wood",
+        "Just",
+        "Singh"
       ]
     }
   ]
