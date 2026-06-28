@@ -174,112 +174,112 @@
         "y": 56
       },
       {
-        "name": "Laimer",
-        "shortName": "Laimer",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Danso",
-        "shortName": "Danso",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Alaba",
         "shortName": "Alaba",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 293,
+        "x": 63,
         "y": 130
       },
       {
         "name": "Posch",
         "shortName": "Posch",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Lienhart",
+        "shortName": "Lienhart",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Mwene",
+        "shortName": "Mwene",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "16",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Schlager",
-        "shortName": "Schlager",
-        "position": "LM",
+        "name": "Schmid",
+        "shortName": "Schmid",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "18",
         "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Laimer",
+        "shortName": "Laimer",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 289,
         "y": 215
       },
       {
         "name": "Seiwald",
         "shortName": "Seiwald",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Sabitzer",
-        "shortName": "Sabitzer",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
         "x": 104,
         "y": 310
       },
       {
-        "name": "Wanner",
-        "shortName": "Wanner",
-        "position": "AM",
+        "name": "Sabitzer",
+        "shortName": "Sabitzer",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "9",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Schmid",
-        "shortName": "Schmid",
-        "position": "AM-R",
+        "name": "Schlager",
+        "shortName": "Schlager",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "4",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Gregoritsch",
-        "shortName": "Gregoritsch",
+        "name": "Arnautovic",
+        "shortName": "Arnautovic",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "7",
         "x": 226,
         "y": 385
       }
@@ -448,7 +448,7 @@
   ],
   "population": "9.1M",
   "location": "Central Europe",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Argentina",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Algeria",
   "matches": [
     {
       "eventId": "760431",
@@ -484,6 +484,24 @@
         "Gregoritsch",
         "Sabitzer",
         "Schmid"
+      ]
+    },
+    {
+      "eventId": "760484",
+      "opponent": "Algeria",
+      "date": "Jun 27",
+      "starters": [
+        "Schlager",
+        "Alaba",
+        "Posch",
+        "Lienhart",
+        "Mwene",
+        "Schmid",
+        "Laimer",
+        "Seiwald",
+        "Sabitzer",
+        "Schlager",
+        "Arnautovic"
       ]
     }
   ]

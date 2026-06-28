@@ -101,7 +101,9 @@
       "opponent": "Colombia",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": true
+      "isAway": true,
+      "score": "0–0",
+      "result": "D"
     }
   ],
   "history": [
@@ -181,7 +183,7 @@
       {
         "name": "Mendes",
         "shortName": "Mendes",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -192,7 +194,7 @@
       {
         "name": "Dias",
         "shortName": "Dias",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -203,7 +205,7 @@
       {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -214,7 +216,7 @@
       {
         "name": "Cancelo",
         "shortName": "Cancelo",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -225,7 +227,7 @@
       {
         "name": "Unknown",
         "shortName": "Unknown",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,7 +238,7 @@
       {
         "name": "Neves",
         "shortName": "Neves",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -245,20 +247,20 @@
         "y": 215
       },
       {
-        "name": "Neto",
-        "shortName": "Neto",
-        "position": "M",
+        "name": "Félix",
+        "shortName": "Félix",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "11",
         "x": 104,
         "y": 310
       },
       {
         "name": "Fernandes",
         "shortName": "Fernandes",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -267,13 +269,13 @@
         "y": 310
       },
       {
-        "name": "Félix",
-        "shortName": "Félix",
-        "position": "M",
+        "name": "Neto",
+        "shortName": "Neto",
+        "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "18",
         "x": 348,
         "y": 310
       },
@@ -281,7 +283,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -292,9 +294,9 @@
   },
   "standings": {
     "w": 1,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "pts": 4,
+    "pts": 5,
     "gf": 6,
     "ga": 1,
     "gd": 5
@@ -501,15 +503,15 @@
       "date": "Jun 27",
       "starters": [
         "Costa",
-        "Mendes",
-        "Dias",
         "Veiga",
+        "Dias",
+        "Mendes",
         "Cancelo",
-        "Neves",
-        "Neto",
         "Fernandes",
+        "Neves",
+        "Ronaldo",
         "Félix",
-        "Ronaldo"
+        "Neto"
       ]
     }
   ]

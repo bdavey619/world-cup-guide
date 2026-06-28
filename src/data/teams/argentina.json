@@ -178,101 +178,101 @@
         "y": 56
       },
       {
-        "name": "Medina",
-        "shortName": "Medina",
+        "name": "Tagliafico",
+        "shortName": "Tagliafico",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "3",
         "x": 63,
         "y": 148
       },
       {
-        "name": "Romero",
-        "shortName": "Romero",
+        "name": "Otamendi",
+        "shortName": "Otamendi",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "19",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Martínez",
-        "shortName": "Martínez",
+        "name": "Senesi",
+        "shortName": "Senesi",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "2",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Molina",
-        "shortName": "Molina",
+        "name": "Simeone",
+        "shortName": "Simeone",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "17",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Almada",
-        "shortName": "Almada",
+        "name": "Paz",
+        "shortName": "Paz",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "18",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Mac Allister",
-        "shortName": "Mac Allister",
+        "name": "Palacios",
+        "shortName": "Palacios",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "14",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Fernández",
-        "shortName": "Fernández",
+        "name": "Paredes",
+        "shortName": "Paredes",
         "position": "CM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "5",
         "x": 293,
         "y": 256
       },
       {
-        "name": "De Paul",
-        "shortName": "De Paul",
+        "name": "Lo Celso",
+        "shortName": "Lo Celso",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "11",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Messi",
-        "shortName": "Messi",
+        "name": "Álvarez",
+        "shortName": "Álvarez",
         "position": "CF-R",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "9",
         "x": 163,
         "y": 375
       },
@@ -452,7 +452,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Austria",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Jordan",
   "matches": [
     {
       "eventId": "760433",
@@ -488,6 +488,24 @@
         "De Paul",
         "Martínez",
         "Messi"
+      ]
+    },
+    {
+      "eventId": "760483",
+      "opponent": "Jordan",
+      "date": "Jun 27",
+      "starters": [
+        "Martínez",
+        "Senesi",
+        "Otamendi",
+        "Tagliafico",
+        "Simeone",
+        "Paredes",
+        "Palacios",
+        "Paz",
+        "Lo Celso",
+        "Martínez",
+        "Álvarez"
       ]
     }
   ]

@@ -100,7 +100,9 @@
       "opponent": "DR Congo",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": false
+      "isAway": false,
+      "score": "1–3",
+      "result": "L"
     }
   ],
   "history": [],
@@ -129,103 +131,81 @@
         "y": 56
       },
       {
+        "name": "Ashurmatov",
+        "shortName": "Ashurmatov",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 104,
+        "y": 130
+      },
+      {
         "name": "Khusanov",
         "shortName": "Khusanov",
-        "position": "D",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 104,
+        "x": 226,
         "y": 130
       },
       {
         "name": "Urozov",
         "shortName": "Urozov",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 226,
-        "y": 130
-      },
-      {
-        "name": "Ashurmatov",
-        "shortName": "Ashurmatov",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
         "x": 348,
         "y": 130
       },
       {
+        "name": "Nasrullaev",
+        "shortName": "Nasrullaev",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 63,
+        "y": 215
+      },
+      {
+        "name": "Mozgovoy",
+        "shortName": "Mozgovoy",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 161,
+        "y": 215
+      },
+      {
         "name": "Shukurov",
         "shortName": "Shukurov",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
-        "x": 63,
+        "x": 293,
         "y": 215
       },
       {
         "name": "Alijonov",
         "shortName": "Alijonov",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
-        "x": 161,
-        "y": 215
-      },
-      {
-        "name": "Nasrullaev",
-        "shortName": "Nasrullaev",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 293,
-        "y": 215
-      },
-      {
-        "name": "Khamdamov",
-        "shortName": "Khamdamov",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
         "x": 389,
         "y": 215
-      },
-      {
-        "name": "Fayzullaev",
-        "shortName": "Fayzullaev",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 163,
-        "y": 310
-      },
-      {
-        "name": "Mozgovoy",
-        "shortName": "Mozgovoy",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 289,
-        "y": 310
       },
       {
         "name": "Shomurodov",
@@ -235,6 +215,28 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "14",
+        "x": 163,
+        "y": 310
+      },
+      {
+        "name": "Fayzullaev",
+        "shortName": "Fayzullaev",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Khamdamov",
+        "shortName": "Khamdamov",
+        "position": "CF-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 226,
         "y": 385
       }
@@ -243,11 +245,11 @@
   "standings": {
     "w": 0,
     "d": 0,
-    "l": 2,
+    "l": 3,
     "pts": 0,
-    "gf": 1,
-    "ga": 8,
-    "gd": -7
+    "gf": 2,
+    "ga": 11,
+    "gd": -9
   },
   "squad": [
     {
@@ -439,12 +441,12 @@
         "Urozov",
         "Ashurmatov",
         "Shukurov",
-        "Alijonov",
-        "Nasrullaev",
-        "Khamdamov",
-        "Fayzullaev",
         "Mozgovoy",
-        "Shomurodov"
+        "Nasrullaev",
+        "Alijonov",
+        "Shomurodov",
+        "Fayzullaev",
+        "Khamdamov"
       ]
     }
   ]

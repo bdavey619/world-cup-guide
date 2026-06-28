@@ -100,7 +100,9 @@
       "opponent": "Portugal",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
-      "isAway": false
+      "isAway": false,
+      "score": "0–0",
+      "result": "D"
     }
   ],
   "history": [
@@ -166,53 +168,53 @@
         "y": 56
       },
       {
-        "name": "Arias",
-        "shortName": "Arias",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Machado",
         "shortName": "Machado",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
-        "x": 161,
+        "x": 63,
         "y": 148
       },
       {
         "name": "Sánchez",
         "shortName": "Sánchez",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 293,
+        "x": 161,
         "y": 148
       },
       {
         "name": "Lucumí",
         "shortName": "Lucumí",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "3",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Arias",
+        "shortName": "Arias",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 389,
         "y": 148
       },
       {
         "name": "Puerta",
         "shortName": "Puerta",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -221,47 +223,36 @@
         "y": 256
       },
       {
-        "name": "Arias",
-        "shortName": "Arias",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 226,
-        "y": 256
-      },
-      {
         "name": "Lerma",
         "shortName": "Lerma",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Arias",
+        "shortName": "Arias",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
         "x": 348,
         "y": 256
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
         "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
         "y": 375
       },
       {
@@ -272,6 +263,17 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 348,
         "y": 375
       }
@@ -279,9 +281,9 @@
   },
   "standings": {
     "w": 2,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "pts": 6,
+    "pts": 7,
     "gf": 4,
     "ga": 1,
     "gd": 3
@@ -472,16 +474,16 @@
       "date": "Jun 27",
       "starters": [
         "Vargas",
-        "Arias",
-        "Machado",
-        "Sánchez",
         "Lucumí",
-        "Puerta",
+        "Sánchez",
+        "Machado",
         "Arias",
         "Lerma",
+        "Puerta",
+        "Arias",
+        "Córdoba",
         "Díaz",
-        "Rodríguez",
-        "Córdoba"
+        "Rodríguez"
       ]
     }
   ]

@@ -206,24 +206,24 @@
         "y": 215
       },
       {
-        "name": "Al-Tamari",
-        "shortName": "Al-Tamari",
+        "name": "Azaizeh",
+        "shortName": "Azaizeh",
         "position": "F",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "24",
         "x": 163,
         "y": 310
       },
       {
-        "name": "Al-Mardi",
-        "shortName": "Al-Mardi",
+        "name": "Fakhoury",
+        "shortName": "Fakhoury",
         "position": "CF-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "11",
         "x": 289,
         "y": 310
       },
@@ -409,7 +409,7 @@
   ],
   "population": "10.2M",
   "location": "Middle East",
-  "pitchLabel": "Confirmed XI · Jun 22 vs Algeria",
+  "pitchLabel": "Confirmed XI · Jun 27 vs Argentina",
   "matches": [
     {
       "eventId": "760431",
@@ -444,6 +444,24 @@
         "Haddad",
         "Al-Tamari",
         "Al-Mardi",
+        "Olwan"
+      ]
+    },
+    {
+      "eventId": "760483",
+      "opponent": "Argentina",
+      "date": "Jun 27",
+      "starters": [
+        "Abulaila",
+        "Al-Arab",
+        "Abu Dahab",
+        "Nasib",
+        "Al-Rawabdeh",
+        "Al-Rashdan",
+        "Abu Taha",
+        "Haddad",
+        "Azaizeh",
+        "Fakhoury",
         "Olwan"
       ]
     }
