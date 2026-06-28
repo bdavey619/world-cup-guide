@@ -495,7 +495,7 @@ function MatchCard({ match, onSelectTeam }) {
             lineHeight: 1.3,
             fontFamily: 'var(--font-sans)',
           }}>
-            {city.split(',')[0]}
+            {city?.split(',')[0]}
           </div>
         </div>
       </div>
