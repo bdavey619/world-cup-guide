@@ -99,7 +99,7 @@
       "opponent": "Saudi Arabia",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "isAway": false,
+      "isAway": true,
       "score": "0–0",
       "result": "D"
     }

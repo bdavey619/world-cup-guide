@@ -100,7 +100,7 @@
       "opponent": "DR Congo",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
-      "isAway": false,
+      "isAway": true,
       "score": "1–3",
       "result": "L"
     }
