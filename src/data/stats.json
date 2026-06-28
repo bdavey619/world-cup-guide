@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T20:08:56.399Z",
+  "updatedAt": "2026-06-28T21:17:17.059Z",
   "individual": {
     "goals": [
       {
@@ -1000,6 +1000,13 @@
         "name": "Mousa Al-Tamari",
         "team": "Jordan",
         "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Stephen Eustáquio",
+        "team": "Canada",
+        "flag": "🇨🇦",
         "position": "",
         "value": 1
       }
