@@ -1,9 +1,16 @@
 import { useState, useEffect, useRef } from 'react'
+import { actualR32, actualR16, actualQF, actualSF, actualFinal, actual3rdPlace } from '../data/actualBracket'
 
 const DATE_ORDER = [
   'Jun 11','Jun 12','Jun 13','Jun 14','Jun 15','Jun 16','Jun 17',
   'Jun 18','Jun 19','Jun 20','Jun 21','Jun 22','Jun 23','Jun 24',
   'Jun 25','Jun 26','Jun 27',
+  // Knockout rounds
+  'Jul 1','Jul 2','Jul 3','Jul 4',         // R32
+  'Jul 7','Jul 8','Jul 9','Jul 10',        // R16
+  'Jul 14','Jul 15',                        // QF
+  'Jul 18','Jul 19',                        // SF
+  'Jul 22','Jul 23',                        // 3rd + Final
 ]
 
 const DAY_NAMES = {
@@ -13,6 +20,19 @@ const DAY_NAMES = {
   'Jun 20': 'Saturday',  'Jun 21': 'Sunday',    'Jun 22': 'Monday',
   'Jun 23': 'Tuesday',   'Jun 24': 'Wednesday', 'Jun 25': 'Thursday',
   'Jun 26': 'Friday',    'Jun 27': 'Saturday',
+  'Jul 1':  'Wednesday', 'Jul 2':  'Thursday',  'Jul 3':  'Friday',
+  'Jul 4':  'Saturday',  'Jul 7':  'Tuesday',   'Jul 8':  'Wednesday',
+  'Jul 9':  'Thursday',  'Jul 10': 'Friday',    'Jul 14': 'Tuesday',
+  'Jul 15': 'Wednesday', 'Jul 18': 'Saturday',  'Jul 19': 'Sunday',
+  'Jul 22': 'Wednesday', 'Jul 23': 'Thursday',
+}
+
+const ROUND_LABEL = {
+  'Jul 1': 'Round of 32',  'Jul 2':  'Round of 32', 'Jul 3':  'Round of 32', 'Jul 4':  'Round of 32',
+  'Jul 7': 'Round of 16',  'Jul 8':  'Round of 16', 'Jul 9':  'Round of 16', 'Jul 10': 'Round of 16',
+  'Jul 14': 'Quarter-finals', 'Jul 15': 'Quarter-finals',
+  'Jul 18': 'Semi-finals',    'Jul 19': 'Semi-finals',
+  'Jul 22': '3rd Place',      'Jul 23': 'Final',
 }
 
 // "Jun 11" → comparable number for today-detection
@@ -97,6 +117,46 @@ function getStakes(home, away, allTeams) {
   return { label: 'Winner advances', urgent: false }
 }
 
+function buildKnockoutMatches(teams) {
+  const byId = {}
+  teams.forEach(t => { byId[t.id] = t })
+
+  const allRounds = [
+    ...actualR32.map(m => ({ ...m, round: 'R32' })),
+    ...actualR16.map(m => ({ ...m, round: 'R16' })),
+    ...actualQF.map(m => ({ ...m, round: 'QF' })),
+    ...actualSF.map(m => ({ ...m, round: 'SF' })),
+    ...actualFinal.map(m => ({ ...m, round: 'Final' })),
+    { ...actual3rdPlace, round: '3rd' },
+  ]
+
+  return allRounds.map(m => {
+    const home = m.homeId ? byId[m.homeId] : null
+    const away = m.awayId ? byId[m.awayId] : null
+    const score = (m.homeGoals != null && m.awayGoals != null)
+      ? `${m.homeGoals}–${m.awayGoals}` : null
+
+    return {
+      date: m.date,
+      time: null,
+      timeSort: m.matchNum,
+      group: null,
+      round: m.round,
+      home: home ?? { id: m.slotA, name: m.slotA, flagEmoji: '🏳️', _placeholder: true },
+      away: away ?? { id: m.slotB, name: m.slotB, flagEmoji: '🏳️', _placeholder: true },
+      venue: null,
+      city: null,
+      score,
+      homeRank: null,
+      awayRank: null,
+      stakes: null,
+      winnerId: m.winnerId,
+      matchNum: m.matchNum,
+      isKnockout: true,
+    }
+  })
+}
+
 function buildMatches(teams) {
   const seen  = new Set()
   const ranks = buildGroupRanks(teams)
@@ -128,7 +188,8 @@ function buildMatches(teams) {
       })
     }
   }
-  return matches.sort((a, b) => {
+  const knockoutMatches = buildKnockoutMatches(teams)
+  return [...matches, ...knockoutMatches].sort((a, b) => {
     const di = DATE_ORDER.indexOf(a.date) - DATE_ORDER.indexOf(b.date)
     return di !== 0 ? di : a.timeSort - b.timeSort
   })
@@ -153,7 +214,9 @@ export default function Schedule({ teams, onSelectTeam }) {
 
   const filtered = activeGroup === 'ALL'
     ? allMatches
-    : allMatches.filter(m => m.group === activeGroup)
+    : activeGroup === 'KO'
+      ? allMatches.filter(m => m.isKnockout)
+      : allMatches.filter(m => m.group === activeGroup)
 
   const byDate = groupByDate(filtered)
   const dates = DATE_ORDER.filter(d => byDate[d])
@@ -209,12 +272,12 @@ export default function Schedule({ teams, onSelectTeam }) {
             alignItems: 'center',
           }}
         >
-          {['ALL', 'A','B','C','D','E','F','G','H','I','J','K','L'].map(g => (
+          {['ALL', 'KO', 'A','B','C','D','E','F','G','H','I','J','K','L'].map(g => (
             <button
               key={g}
               onClick={() => setActiveGroup(g)}
               style={{
-                padding: g === 'ALL' ? '5px 12px' : '5px 9px',
+                padding: (g === 'ALL' || g === 'KO') ? '5px 12px' : '5px 9px',
                 borderRadius: 20,
                 fontSize: 12,
                 fontWeight: activeGroup === g ? 600 : 400,
@@ -227,7 +290,7 @@ export default function Schedule({ teams, onSelectTeam }) {
                 transition: 'all 0.15s',
               }}
             >
-              {g === 'ALL' ? 'All groups' : `Group ${g}`}
+              {g === 'ALL' ? 'All' : g === 'KO' ? 'Knockouts' : `Group ${g}`}
             </button>
           ))}
         </div>
@@ -277,6 +340,21 @@ export default function Schedule({ teams, onSelectTeam }) {
                 <span style={{ fontSize: 12, color: 'var(--gray-400)' }}>
                   {DAY_NAMES[date]}
                 </span>
+                {ROUND_LABEL[date] && (
+                  <span style={{
+                    fontSize: 10,
+                    fontWeight: 600,
+                    letterSpacing: '0.06em',
+                    background: '#1a3a8a',
+                    color: 'white',
+                    padding: '2px 7px',
+                    borderRadius: 10,
+                    fontFamily: 'var(--font-sans)',
+                    textTransform: 'uppercase',
+                  }}>
+                    {ROUND_LABEL[date]}
+                  </span>
+                )}
                 {isToday && (
                   <span style={{
                     fontSize: 10,
@@ -346,10 +424,10 @@ export default function Schedule({ teams, onSelectTeam }) {
 }
 
 function MatchCard({ match, onSelectTeam }) {
-  const { time, group, home, away, city, score, homeRank, awayRank, stakes } = match
+  const { time, group, round, home, away, city, score, homeRank, awayRank, stakes, winnerId, isKnockout, matchNum } = match
   const [hg, ag] = score ? score.split('–').map(Number) : [null, null]
-  const homeWins = hg !== null && hg > ag
-  const awayWins = ag !== null && ag > hg
+  const homeWins = winnerId ? winnerId === home.id : (hg !== null && hg > ag)
+  const awayWins = winnerId ? winnerId === away.id : (ag !== null && ag > hg)
   return (
     <div className="match-card" style={{
       background: 'white',
@@ -365,7 +443,7 @@ function MatchCard({ match, onSelectTeam }) {
         gap: 8,
         padding: '10px 14px',
       }}>
-        {/* Time + group */}
+        {/* Time + group/round badge */}
         <div style={{ textAlign: 'center' }}>
           <div style={{
             fontSize: 12,
@@ -373,7 +451,7 @@ function MatchCard({ match, onSelectTeam }) {
             color: score ? 'var(--gray-400)' : 'var(--gray-900)',
             fontFamily: 'var(--font-sans)',
           }}>
-            {score ? 'FT' : time.replace(' ET', '')}
+            {score ? 'FT' : (isKnockout ? `#${matchNum}` : time?.replace(' ET', ''))}
           </div>
           <div className="grp-badge" style={{
             fontSize: 10,
@@ -385,7 +463,7 @@ function MatchCard({ match, onSelectTeam }) {
             display: 'inline-block',
             fontFamily: 'var(--font-sans)',
           }}>
-            Grp {group}
+            {isKnockout ? round : `Grp ${group}`}
           </div>
         </div>
 
@@ -443,8 +521,34 @@ function MatchCard({ match, onSelectTeam }) {
 function TeamChip({ team, rank, align, goals, isWinner, onSelectTeam }) {
   const [hovered, setHovered] = useState(false)
   const isRight = align === 'right'
+  const isPlaceholder = team?._placeholder
   const pts = team.standings?.pts ?? 0
   const played = (team.schedule || []).filter(s => s.score).length
+
+  if (isPlaceholder) {
+    return (
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        gap: 6,
+        flexDirection: isRight ? 'row-reverse' : 'row',
+        padding: '4px 6px',
+        minWidth: 0,
+      }}>
+        <span style={{ fontSize: 20, flexShrink: 0, opacity: 0.3 }}>🏳️</span>
+        <span style={{
+          fontSize: 12,
+          fontWeight: 400,
+          color: 'var(--gray-400)',
+          fontStyle: 'italic',
+          fontFamily: 'var(--font-sans)',
+        }}>
+          {team.name}
+        </span>
+      </div>
+    )
+  }
 
   return (
     <button
