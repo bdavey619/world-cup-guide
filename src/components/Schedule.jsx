@@ -46,6 +46,13 @@ function getTodayKey() {
   return `${month} ${day}` // e.g. "Jun 13"
 }
 
+// Parse "Jun 13" / "Jul 4" → comparable YYYYMMDD integer
+function parseDateKey(key) {
+  const [mon, day] = key.split(' ')
+  const months = { Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12 }
+  return 20260000 + (months[mon] ?? 0) * 100 + parseInt(day)
+}
+
 function timeToSort(t) {
   const clean = t.replace(' ET', '').replace(' ', '')
   const isPM = clean.includes('PM')
@@ -223,8 +230,8 @@ export default function Schedule({ teams, onSelectTeam }) {
 
   // Scroll to the first upcoming (today or future) date on mount / group change
   useEffect(() => {
-    const todayIdx = DATE_TO_NUM[todayKey] ?? -1
-    const target = dates.find(d => DATE_TO_NUM[d] >= todayIdx) ?? dates[0]
+    const todayNum = parseDateKey(todayKey)
+    const target = dates.find(d => parseDateKey(d) >= todayNum) ?? dates[dates.length - 1]
     todayTargetRef.current = target
     if (target && dateRefs.current[target]) {
       setTimeout(() => {
@@ -311,9 +318,11 @@ export default function Schedule({ teams, onSelectTeam }) {
       {/* Match list */}
       <div style={{ maxWidth: 680, margin: '0 auto', padding: '10px 16px 48px' }}>
         {dates.map(date => {
+          const todayNum = parseDateKey(todayKey)
+          const dateNum = parseDateKey(date)
           const isToday = date === todayKey
-          const isFuture = DATE_TO_NUM[date] > (DATE_TO_NUM[todayKey] ?? -1)
-          const isPast = DATE_TO_NUM[date] < (DATE_TO_NUM[todayKey] ?? 999)
+          const isFuture = dateNum > todayNum
+          const isPast = dateNum < todayNum
 
           return (
             <div
