@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:34:41.670Z",
+  "updatedAt": "2026-06-28T05:58:22.775Z",
   "individual": {
     "goals": [
       {
@@ -7,7 +7,7 @@
         "team": "Argentina",
         "flag": "🇦🇷",
         "position": "",
-        "value": 5
+        "value": 6
       },
       {
         "name": "Vinícius Júnior",
@@ -171,6 +171,13 @@
         "value": 2
       },
       {
+        "name": "Marko Arnautovic",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Jude Bellingham",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -251,6 +258,13 @@
         "name": "Leandro Trossard",
         "team": "Belgium",
         "flag": "🇧🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Riyad Mahrez",
+        "team": "Algeria",
+        "flag": "🇩🇿",
         "position": "",
         "value": 2
       },
@@ -475,13 +489,6 @@
         "name": "Ali Olwan",
         "team": "Jordan",
         "flag": "🇯🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Marko Arnautovic",
-        "team": "Austria",
-        "flag": "🇦🇹",
         "position": "",
         "value": 1
       },
@@ -953,6 +960,48 @@
         "flag": "🇨🇩",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Rafik Belghali",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Sasa Kalajdzic",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mousa Al-Tamari",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1148,9 +1197,9 @@
     {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "gp": 2,
-      "gf": 5,
-      "ga": 0,
+      "gp": 3,
+      "gf": 8,
+      "ga": 1,
       "cleanSheets": 2,
       "possession": 50.7,
       "yellowCards": 2,
@@ -1357,9 +1406,9 @@
     {
       "name": "Austria",
       "flag": "🇦🇹",
-      "gp": 2,
-      "gf": 3,
-      "ga": 3,
+      "gp": 3,
+      "gf": 6,
+      "ga": 6,
       "cleanSheets": 0,
       "possession": 54.8,
       "yellowCards": 3,
@@ -1434,9 +1483,9 @@
     {
       "name": "Algeria",
       "flag": "🇩🇿",
-      "gp": 2,
-      "gf": 2,
-      "ga": 4,
+      "gp": 3,
+      "gf": 5,
+      "ga": 7,
       "cleanSheets": 0,
       "possession": 62.1,
       "yellowCards": 1,
@@ -1599,9 +1648,9 @@
     {
       "name": "Jordan",
       "flag": "🇯🇴",
-      "gp": 2,
-      "gf": 2,
-      "ga": 5,
+      "gp": 3,
+      "gf": 3,
+      "ga": 8,
       "cleanSheets": 0,
       "possession": 32.4,
       "yellowCards": 1,

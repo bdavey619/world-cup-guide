@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '14",
     "manager": "Vladimir Petkovic",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "4-2-3-1",
     "winPct": 0.2,
     "advancePct": 66
   },
@@ -106,7 +106,9 @@
       "opponent": "Austria",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": true
+      "isAway": true,
+      "score": "3–3",
+      "result": "D"
     }
   ],
   "history": [
@@ -160,81 +162,103 @@
         "y": 56
       },
       {
-        "name": "Mandi",
-        "shortName": "Mandi",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Hadjam",
         "shortName": "Hadjam",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 161,
-        "y": 148
+        "x": 63,
+        "y": 130
       },
       {
-        "name": "Belghali",
-        "shortName": "Belghali",
-        "position": "D",
+        "name": "Mandi",
+        "shortName": "Mandi",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
-        "x": 293,
-        "y": 148
+        "jersey": "2",
+        "x": 161,
+        "y": 130
       },
       {
         "name": "Bensebaini",
         "shortName": "Bensebaini",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Belghali",
+        "shortName": "Belghali",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Bentaleb",
         "shortName": "Bentaleb",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 104,
-        "y": 256
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Chaïbi",
+        "shortName": "Chaïbi",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "10",
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Aouar",
         "shortName": "Aouar",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
-        "y": 256
+        "x": 104,
+        "y": 310
       },
       {
         "name": "Maza",
         "shortName": "Maza",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Mahrez",
+        "shortName": "Mahrez",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 348,
-        "y": 256
+        "y": 310
       },
       {
         "name": "Gouiri",
@@ -244,40 +268,18 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Chaïbi",
-        "shortName": "Chaïbi",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "10",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Mahrez",
-        "shortName": "Mahrez",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 3,
-    "gf": 2,
-    "ga": 4,
+    "pts": 4,
+    "gf": 5,
+    "ga": 7,
     "gd": -2
   },
   "squad": [
@@ -484,15 +486,15 @@
       "date": "Jun 27",
       "starters": [
         "Benbot",
+        "Bensebaini",
         "Mandi",
         "Hadjam",
         "Belghali",
-        "Bensebaini",
-        "Bentaleb",
-        "Aouar",
         "Maza",
-        "Gouiri",
+        "Bentaleb",
         "Chaïbi",
+        "Gouiri",
+        "Aouar",
         "Mahrez"
       ]
     }

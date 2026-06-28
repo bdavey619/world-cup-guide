@@ -100,7 +100,9 @@
       "opponent": "Jordan",
       "venue": "AT&T Stadium",
       "city": "Dallas",
-      "isAway": true
+      "isAway": true,
+      "score": "3–1",
+      "result": "W"
     }
   ],
   "history": [
@@ -211,35 +213,35 @@
         "y": 148
       },
       {
-        "name": "Simeone",
-        "shortName": "Simeone",
+        "name": "Palacios",
+        "shortName": "Palacios",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "14",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Paz",
-        "shortName": "Paz",
+        "name": "Lo Celso",
+        "shortName": "Lo Celso",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "11",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Palacios",
-        "shortName": "Palacios",
+        "name": "Paz",
+        "shortName": "Paz",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "18",
         "x": 161,
         "y": 256
       },
@@ -255,48 +257,48 @@
         "y": 256
       },
       {
-        "name": "Lo Celso",
-        "shortName": "Lo Celso",
+        "name": "Simeone",
+        "shortName": "Simeone",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "17",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 163,
-        "y": 375
-      },
-      {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "CF-L",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Álvarez",
+        "shortName": "Álvarez",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "9",
         "x": 289,
         "y": 375
       }
     ]
   },
   "standings": {
-    "w": 2,
+    "w": 3,
     "d": 0,
     "l": 0,
-    "pts": 6,
-    "gf": 5,
-    "ga": 0,
-    "gd": 5
+    "pts": 9,
+    "gf": 8,
+    "ga": 1,
+    "gd": 7
   },
   "squad": [
     {
@@ -499,13 +501,13 @@
         "Senesi",
         "Otamendi",
         "Tagliafico",
-        "Simeone",
-        "Paredes",
         "Palacios",
+        "Paredes",
         "Paz",
         "Lo Celso",
-        "Martínez",
-        "Álvarez"
+        "Simeone",
+        "Álvarez",
+        "Martínez"
       ]
     }
   ]

@@ -102,7 +102,9 @@
       "opponent": "Algeria",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "isAway": false
+      "isAway": false,
+      "score": "3–3",
+      "result": "D"
     }
   ],
   "history": [
@@ -174,101 +176,101 @@
         "y": 56
       },
       {
-        "name": "Alaba",
-        "shortName": "Alaba",
-        "position": "D",
+        "name": "Mwene",
+        "shortName": "Mwene",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "16",
         "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Posch",
-        "shortName": "Posch",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 161,
         "y": 130
       },
       {
         "name": "Lienhart",
         "shortName": "Lienhart",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Alaba",
+        "shortName": "Alaba",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
         "x": 293,
         "y": 130
       },
       {
-        "name": "Mwene",
-        "shortName": "Mwene",
-        "position": "D",
+        "name": "Posch",
+        "shortName": "Posch",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "5",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Schmid",
-        "shortName": "Schmid",
-        "position": "M",
+        "name": "Schlager",
+        "shortName": "Schlager",
+        "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "4",
         "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Laimer",
-        "shortName": "Laimer",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 289,
         "y": 215
       },
       {
         "name": "Seiwald",
         "shortName": "Seiwald",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 104,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Sabitzer",
         "shortName": "Sabitzer",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Schmid",
+        "shortName": "Schmid",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Schlager",
-        "shortName": "Schlager",
-        "position": "M",
+        "name": "Laimer",
+        "shortName": "Laimer",
+        "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "20",
         "x": 348,
         "y": 310
       },
@@ -276,7 +278,7 @@
         "name": "Arnautovic",
         "shortName": "Arnautovic",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
@@ -287,11 +289,11 @@
   },
   "standings": {
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 1,
-    "pts": 3,
-    "gf": 3,
-    "ga": 3,
+    "pts": 4,
+    "gf": 6,
+    "ga": 6,
     "gd": 0
   },
   "squad": [
@@ -493,15 +495,15 @@
       "starters": [
         "Schlager",
         "Alaba",
-        "Posch",
         "Lienhart",
         "Mwene",
+        "Posch",
         "Schmid",
-        "Laimer",
-        "Seiwald",
-        "Sabitzer",
         "Schlager",
-        "Arnautovic"
+        "Seiwald",
+        "Arnautovic",
+        "Sabitzer",
+        "Laimer"
       ]
     }
   ]
