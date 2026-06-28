@@ -148,101 +148,101 @@
         "y": 56
       },
       {
-        "name": "Modiba",
-        "shortName": "Modiba",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Okon",
-        "shortName": "Okon",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "21",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Mbokazi",
         "shortName": "Mbokazi",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 293,
+        "x": 63,
         "y": 130
       },
       {
         "name": "Mudau",
         "shortName": "Mudau",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Okon",
+        "shortName": "Okon",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Modiba",
+        "shortName": "Modiba",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Sithole",
-        "shortName": "Sithole",
-        "position": "LM",
+        "name": "Mofokeng",
+        "shortName": "Mofokeng",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "10",
         "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Mbatha",
-        "shortName": "Mbatha",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 289,
         "y": 215
       },
       {
         "name": "Appollis",
         "shortName": "Appollis",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Mofokeng",
-        "shortName": "Mofokeng",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Maseko",
         "shortName": "Maseko",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Mokoena",
+        "shortName": "Mokoena",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Sithole",
+        "shortName": "Sithole",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
         "x": 348,
         "y": 310
       },
@@ -250,7 +250,7 @@
         "name": "Makgopa",
         "shortName": "Makgopa",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
@@ -259,7 +259,7 @@
       }
     ]
   },
-  "pitchLabel": "Confirmed XI · Jun 24 vs South Korea",
+  "pitchLabel": "Confirmed XI · Jun 28 vs Canada",
   "squad": [
     {
       "name": "Ricardo Goss",
@@ -480,6 +480,24 @@
         "Makgopa",
         "Appollis",
         "Maseko"
+      ]
+    },
+    {
+      "eventId": "760486",
+      "opponent": "Canada",
+      "date": "Jun 28",
+      "starters": [
+        "Williams",
+        "Mbokazi",
+        "Mudau",
+        "Okon",
+        "Modiba",
+        "Mofokeng",
+        "Appollis",
+        "Maseko",
+        "Mokoena",
+        "Sithole",
+        "Makgopa"
       ]
     }
   ],

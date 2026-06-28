@@ -145,97 +145,97 @@
         "y": 56
       },
       {
-        "name": "Laryea",
-        "shortName": "Laryea",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 63,
-        "y": 148
-      },
-      {
-        "name": "de Fougerolles",
-        "shortName": "de Fougerolles",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 161,
-        "y": 148
-      },
-      {
         "name": "Cornelius",
         "shortName": "Cornelius",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
-        "x": 293,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Laryea",
+        "shortName": "Laryea",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 161,
         "y": 148
       },
       {
         "name": "Johnston",
         "shortName": "Johnston",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Bombito",
+        "shortName": "Bombito",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "15",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Ahmed",
-        "shortName": "Ahmed",
-        "position": "LM",
+        "name": "Millar",
+        "shortName": "Millar",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "11",
         "x": 63,
-        "y": 256
-      },
-      {
-        "name": "Saliba",
-        "shortName": "Saliba",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 161,
-        "y": 256
-      },
-      {
-        "name": "Choinière",
-        "shortName": "Choinière",
-        "position": "CM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 293,
         "y": 256
       },
       {
         "name": "Buchanan",
         "shortName": "Buchanan",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "17",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Saliba",
+        "shortName": "Saliba",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Eustáquio",
+        "shortName": "Eustáquio",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 389,
         "y": 256
       },
       {
         "name": "David",
         "shortName": "David",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -244,13 +244,13 @@
         "y": 375
       },
       {
-        "name": "Larin",
-        "shortName": "Larin",
-        "position": "CF-L",
+        "name": "Oluwaseyi",
+        "shortName": "Oluwaseyi",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "12",
         "x": 289,
         "y": 375
       }
@@ -423,7 +423,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 24 vs Switzerland",
+  "pitchLabel": "Confirmed XI · Jun 28 vs South Africa",
   "matches": [
     {
       "eventId": "760416",
@@ -477,6 +477,24 @@
         "Buchanan",
         "Larin",
         "David"
+      ]
+    },
+    {
+      "eventId": "760486",
+      "opponent": "South Africa",
+      "date": "Jun 28",
+      "starters": [
+        "Crépeau",
+        "Cornelius",
+        "Laryea",
+        "Johnston",
+        "Bombito",
+        "Millar",
+        "Buchanan",
+        "Saliba",
+        "Eustáquio",
+        "David",
+        "Oluwaseyi"
       ]
     }
   ],
