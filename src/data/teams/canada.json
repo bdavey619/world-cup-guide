@@ -145,53 +145,53 @@
         "y": 56
       },
       {
-        "name": "Cornelius",
-        "shortName": "Cornelius",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Laryea",
         "shortName": "Laryea",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Johnston",
-        "shortName": "Johnston",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "2",
-        "x": 293,
+        "x": 63,
         "y": 148
       },
       {
         "name": "Bombito",
         "shortName": "Bombito",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Cornelius",
+        "shortName": "Cornelius",
+        "position": "CD-L",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "13",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Johnston",
+        "shortName": "Johnston",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
         "x": 389,
         "y": 148
       },
       {
         "name": "Millar",
         "shortName": "Millar",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -200,42 +200,42 @@
         "y": 256
       },
       {
-        "name": "Buchanan",
-        "shortName": "Buchanan",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 161,
-        "y": 256
-      },
-      {
         "name": "Saliba",
         "shortName": "Saliba",
-        "position": "M",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
-        "x": 293,
+        "x": 161,
         "y": 256
       },
       {
         "name": "Eustáquio",
         "shortName": "Eustáquio",
-        "position": "M",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Buchanan",
+        "shortName": "Buchanan",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "17",
         "x": 389,
         "y": 256
       },
       {
         "name": "David",
         "shortName": "David",
-        "position": "F",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -246,7 +246,7 @@
       {
         "name": "Oluwaseyi",
         "shortName": "Oluwaseyi",
-        "position": "F",
+        "position": "CF-L",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -486,15 +486,15 @@
       "starters": [
         "Crépeau",
         "Cornelius",
+        "Bombito",
         "Laryea",
         "Johnston",
-        "Bombito",
+        "Eustáquio",
+        "Saliba",
         "Millar",
         "Buchanan",
-        "Saliba",
-        "Eustáquio",
-        "David",
-        "Oluwaseyi"
+        "Oluwaseyi",
+        "David"
       ]
     }
   ],
