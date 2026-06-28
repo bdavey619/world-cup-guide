@@ -6,7 +6,8 @@ const DATE_ORDER = [
   'Jun 18','Jun 19','Jun 20','Jun 21','Jun 22','Jun 23','Jun 24',
   'Jun 25','Jun 26','Jun 27',
   // Knockout rounds
-  'Jul 1','Jul 2','Jul 3','Jul 4',         // R32
+  'Jun 28','Jun 29','Jun 30',              // R32 week 1
+  'Jul 1','Jul 2','Jul 3',                 // R32 week 2
   'Jul 7','Jul 8','Jul 9','Jul 10',        // R16
   'Jul 14','Jul 15',                        // QF
   'Jul 18','Jul 19',                        // SF
@@ -20,16 +21,18 @@ const DAY_NAMES = {
   'Jun 20': 'Saturday',  'Jun 21': 'Sunday',    'Jun 22': 'Monday',
   'Jun 23': 'Tuesday',   'Jun 24': 'Wednesday', 'Jun 25': 'Thursday',
   'Jun 26': 'Friday',    'Jun 27': 'Saturday',
+  'Jun 28': 'Sunday',    'Jun 29': 'Monday',    'Jun 30': 'Tuesday',
   'Jul 1':  'Wednesday', 'Jul 2':  'Thursday',  'Jul 3':  'Friday',
-  'Jul 4':  'Saturday',  'Jul 7':  'Tuesday',   'Jul 8':  'Wednesday',
-  'Jul 9':  'Thursday',  'Jul 10': 'Friday',    'Jul 14': 'Tuesday',
-  'Jul 15': 'Wednesday', 'Jul 18': 'Saturday',  'Jul 19': 'Sunday',
+  'Jul 7':  'Tuesday',   'Jul 8':  'Wednesday', 'Jul 9':  'Thursday',
+  'Jul 10': 'Friday',    'Jul 14': 'Tuesday',   'Jul 15': 'Wednesday',
+  'Jul 18': 'Saturday',  'Jul 19': 'Sunday',
   'Jul 22': 'Wednesday', 'Jul 23': 'Thursday',
 }
 
 const ROUND_LABEL = {
-  'Jul 1': 'Round of 32',  'Jul 2':  'Round of 32', 'Jul 3':  'Round of 32', 'Jul 4':  'Round of 32',
-  'Jul 7': 'Round of 16',  'Jul 8':  'Round of 16', 'Jul 9':  'Round of 16', 'Jul 10': 'Round of 16',
+  'Jun 28': 'Round of 32', 'Jun 29': 'Round of 32', 'Jun 30': 'Round of 32',
+  'Jul 1':  'Round of 32', 'Jul 2':  'Round of 32', 'Jul 3':  'Round of 32',
+  'Jul 7':  'Round of 16', 'Jul 8':  'Round of 16', 'Jul 9':  'Round of 16', 'Jul 10': 'Round of 16',
   'Jul 14': 'Quarter-finals', 'Jul 15': 'Quarter-finals',
   'Jul 18': 'Semi-finals',    'Jul 19': 'Semi-finals',
   'Jul 22': '3rd Place',      'Jul 23': 'Final',
