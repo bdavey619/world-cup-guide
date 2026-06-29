@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '22",
     "manager": "Julian Nagelsmann",
     "managerTenure": "2023–present",
-    "formation": "3-4-2-1",
+    "formation": "4-4-2",
     "winPct": 8,
     "advancePct": 96
   },
@@ -180,26 +180,26 @@
         "y": 56
       },
       {
-        "name": "Kimmich",
-        "shortName": "Kimmich",
-        "position": "CD-R",
+        "name": "Brown",
+        "shortName": "Brown",
+        "position": "LB",
         "role": "def",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
-        "x": 104,
-        "y": 130
+        "jersey": "18",
+        "x": 63,
+        "y": 148
       },
       {
         "name": "Tah",
         "shortName": "Tah",
-        "position": "CD",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 226,
-        "y": 130
+        "x": 161,
+        "y": 148
       },
       {
         "name": "Rüdiger",
@@ -209,19 +209,30 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 348,
-        "y": 130
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Raum",
-        "shortName": "Raum",
+        "name": "Kimmich",
+        "shortName": "Kimmich",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Wirtz",
+        "shortName": "Wirtz",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "17",
         "x": 63,
-        "y": 215
+        "y": 256
       },
       {
         "name": "Nmecha",
@@ -232,7 +243,7 @@
         "isCaptain": false,
         "jersey": "23",
         "x": 161,
-        "y": 215
+        "y": 256
       },
       {
         "name": "Pavlovic",
@@ -243,7 +254,7 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 293,
-        "y": 215
+        "y": 256
       },
       {
         "name": "Sané",
@@ -254,40 +265,29 @@
         "isCaptain": false,
         "jersey": "19",
         "x": 389,
-        "y": 215
+        "y": 256
       },
       {
         "name": "Havertz",
         "shortName": "Havertz",
-        "position": "F",
-        "role": "mid",
+        "position": "CF-R",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
         "x": 163,
-        "y": 310
+        "y": 375
       },
       {
-        "name": "Wirtz",
-        "shortName": "Wirtz",
+        "name": "Undav",
+        "shortName": "Undav",
         "position": "CF-L",
-        "role": "mid",
-        "isKeyPlayer": true,
+        "role": "att",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "26",
         "x": 289,
-        "y": 310
-      },
-      {
-        "name": "Musiala",
-        "shortName": "Musiala",
-        "position": "CF-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
-        "y": 385
+        "y": 375
       }
     ]
   },
@@ -458,7 +458,7 @@
       "jersey": "11"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Ecuador",
+  "pitchLabel": "Confirmed XI · Jun 29 vs Paraguay",
   "matches": [
     {
       "eventId": "760422",
@@ -512,6 +512,24 @@
         "Havertz",
         "Wirtz",
         "Musiala"
+      ]
+    },
+    {
+      "eventId": "760489",
+      "opponent": "Paraguay",
+      "date": "Jun 29",
+      "starters": [
+        "Neuer",
+        "Rüdiger",
+        "Tah",
+        "Brown",
+        "Kimmich",
+        "Pavlovic",
+        "Nmecha",
+        "Wirtz",
+        "Sané",
+        "Undav",
+        "Havertz"
       ]
     }
   ],
