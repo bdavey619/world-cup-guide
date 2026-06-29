@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T06:21:58.421Z",
+  "updatedAt": "2026-06-29T11:27:50.683Z",
   "individual": {
     "goals": [
       {
@@ -1125,6 +1125,13 @@
         "value": 2
       },
       {
+        "name": "Nathan Saliba",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "M",
+        "value": 2
+      },
+      {
         "name": "Bukayo Saka",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -1142,13 +1149,6 @@
         "name": "Martin Ødegaard",
         "team": "Norway",
         "flag": "🇳🇴",
-        "position": "M",
-        "value": 2
-      },
-      {
-        "name": "Nathan Saliba",
-        "team": "Canada",
-        "flag": "🇨🇦",
         "position": "M",
         "value": 2
       },
@@ -1240,9 +1240,9 @@
       "gp": 3,
       "gf": 8,
       "ga": 3,
-      "cleanSheets": 1,
-      "possession": 57.4,
-      "yellowCards": 5,
+      "cleanSheets": 2,
+      "possession": 56.6,
+      "yellowCards": 7,
       "redCards": 0
     },
     {
@@ -1395,7 +1395,7 @@
       "gf": 2,
       "ga": 3,
       "cleanSheets": 1,
-      "possession": 41.1,
+      "possession": 47.8,
       "yellowCards": 5,
       "redCards": 2
     },
