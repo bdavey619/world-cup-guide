@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:36:03.088Z",
+  "updatedAt": "2026-06-29T19:23:48.605Z",
   "individual": {
     "goals": [
       {
@@ -1007,6 +1007,27 @@
         "name": "Stephen Eustáquio",
         "team": "Canada",
         "flag": "🇨🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kaishu Sano",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Casemiro",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "team": "Brazil",
+        "flag": "🇧🇷",
         "position": "",
         "value": 1
       }
