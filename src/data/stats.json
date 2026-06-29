@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T23:31:52.182Z",
+  "updatedAt": "2026-06-29T01:38:24.676Z",
   "individual": {
     "goals": [
       {
@@ -1721,21 +1721,21 @@
   ],
   "records": {
     "highestScoring": {
-      "goals": 7,
+      "goals": 6,
       "teams": [
         {
-          "team": "Germany",
-          "label": "Germany 7–1 Curaçao",
-          "date": "Jun 14"
+          "team": "Canada",
+          "label": "Canada 6–0 Qatar",
+          "date": "Jun 18"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "Germany 7–1 Curaçao",
-      "loser": "Curaçao",
-      "winner": "Germany",
+      "label": "Canada 6–0 Qatar",
+      "loser": "Qatar",
+      "winner": "Canada",
       "margin": 6,
-      "date": "Jun 14"
+      "date": "Jun 18"
     }
   }
 }
