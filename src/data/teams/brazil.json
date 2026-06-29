@@ -459,7 +459,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 24 vs Scotland",
+  "pitchLabel": "Confirmed XI · Jun 29 vs Japan",
   "matches": [
     {
       "eventId": "760419",
@@ -500,6 +500,24 @@
       "eventId": "760465",
       "opponent": "Scotland",
       "date": "Jun 24",
+      "starters": [
+        "Becker",
+        "Magalhães",
+        "Marquinhos",
+        "Santos",
+        "Danilo",
+        "Casemiro",
+        "Paquetá",
+        "Guimarães",
+        "Cunha",
+        "Júnior",
+        "Rayan"
+      ]
+    },
+    {
+      "eventId": "760487",
+      "opponent": "Japan",
+      "date": "Jun 29",
       "starters": [
         "Becker",
         "Magalhães",

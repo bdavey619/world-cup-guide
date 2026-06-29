@@ -176,24 +176,24 @@
         "y": 56
       },
       {
-        "name": "Seko",
-        "shortName": "Seko",
+        "name": "Tomiyasu",
+        "shortName": "Tomiyasu",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "22",
         "x": 104,
         "y": 130
       },
       {
-        "name": "Itakura",
-        "shortName": "Itakura",
+        "name": "Taniguchi",
+        "shortName": "Taniguchi",
         "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "3",
         "x": 226,
         "y": 130
       },
@@ -220,13 +220,13 @@
         "y": 215
       },
       {
-        "name": "Tanaka",
-        "shortName": "Tanaka",
+        "name": "Sano",
+        "shortName": "Sano",
         "position": "CM-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "24",
         "x": 161,
         "y": 215
       },
@@ -242,13 +242,13 @@
         "y": 215
       },
       {
-        "name": "Sugawara",
-        "shortName": "Sugawara",
+        "name": "Doan",
+        "shortName": "Doan",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "10",
         "x": 389,
         "y": 215
       },
@@ -275,13 +275,13 @@
         "y": 310
       },
       {
-        "name": "Doan",
-        "shortName": "Doan",
+        "name": "Ito",
+        "shortName": "Ito",
         "position": "CF-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "14",
         "x": 226,
         "y": 385
       }
@@ -454,7 +454,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Sweden",
+  "pitchLabel": "Confirmed XI · Jun 29 vs Brazil",
   "matches": [
     {
       "eventId": "760425",
@@ -508,6 +508,24 @@
         "Ueda",
         "Maeda",
         "Doan"
+      ]
+    },
+    {
+      "eventId": "760487",
+      "opponent": "Brazil",
+      "date": "Jun 29",
+      "starters": [
+        "Suzuki",
+        "Taniguchi",
+        "Ito",
+        "Tomiyasu",
+        "Kamada",
+        "Sano",
+        "Nakamura",
+        "Doan",
+        "Ueda",
+        "Maeda",
+        "Ito"
       ]
     }
   ],
