@@ -48,7 +48,7 @@ const m = (matchNum, slotA, slotB, date, homeId, awayId, homeGoals, awayGoals, w
 // Ordered so each adjacent pair feeds the same R16 match (positions 0-1 → R16#65, 2-3 → R16#66, etc.)
 export const actualR32 = [
   m(49,  'South Africa',       'Canada',              'Jun 28', 'south-africa',      'canada',             0, 1, 'canada'),   // → R16 #65
-  m(52,  'Netherlands',        'Morocco',             'Jun 29', 'netherlands',        'morocco'),                              // → R16 #65
+  m(52,  'Netherlands',        'Morocco',             'Jun 29', 'netherlands',        'morocco',            1, 1, 'morocco'), // → R16 #65
   m(51,  'Germany',            'Paraguay',            'Jun 29', 'germany',            'paraguay',           1, 1, 'paraguay'), // → R16 #66
   m(54,  'France',             'Sweden',              'Jun 30', 'france',             'sweden'),                               // → R16 #66
   m(50,  'Brazil',             'Japan',               'Jun 29', 'brazil',             'japan',              2, 1, 'brazil'),   // → R16 #67
@@ -67,7 +67,7 @@ export const actualR32 = [
 
 // Round of 16 — Jul 4–7
 export const actualR16 = [
-  m(65, 'W49', 'W52', 'Jul 4', 'canada',   null),   // Canada vs W(NED/MAR)
+  m(65, 'W49', 'W52', 'Jul 4', 'canada',   'morocco'),   // Canada vs Morocco
   m(66, 'W51', 'W54', 'Jul 4', 'paraguay', null),   // Paraguay vs W(FRA/SWE)
   m(67, 'W50', 'W53', 'Jul 5', 'brazil',   null),   // Brazil vs W(IVC/NOR)
   m(68, 'W55', 'W56', 'Jul 5'),                      // W(MEX/ECU) vs W(ENG/DRC)
