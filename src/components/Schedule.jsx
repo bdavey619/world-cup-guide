@@ -8,10 +8,10 @@ const DATE_ORDER = [
   // Knockout rounds
   'Jun 28','Jun 29','Jun 30',              // R32 week 1
   'Jul 1','Jul 2','Jul 3',                 // R32 week 2
-  'Jul 7','Jul 8','Jul 9','Jul 10',        // R16
-  'Jul 14','Jul 15',                        // QF
-  'Jul 18','Jul 19',                        // SF
-  'Jul 22','Jul 23',                        // 3rd + Final
+  'Jul 4','Jul 5','Jul 6','Jul 7',        // R16
+  'Jul 9','Jul 10','Jul 11',              // QF
+  'Jul 14','Jul 15',                        // SF
+  'Jul 18','Jul 19',                        // 3rd + Final
 ]
 
 const DAY_NAMES = {
@@ -23,19 +23,19 @@ const DAY_NAMES = {
   'Jun 26': 'Friday',    'Jun 27': 'Saturday',
   'Jun 28': 'Sunday',    'Jun 29': 'Monday',    'Jun 30': 'Tuesday',
   'Jul 1':  'Wednesday', 'Jul 2':  'Thursday',  'Jul 3':  'Friday',
-  'Jul 7':  'Tuesday',   'Jul 8':  'Wednesday', 'Jul 9':  'Thursday',
-  'Jul 10': 'Friday',    'Jul 14': 'Tuesday',   'Jul 15': 'Wednesday',
+  'Jul 4':  'Saturday',  'Jul 5':  'Sunday',    'Jul 6':  'Monday',
+  'Jul 7':  'Tuesday',   'Jul 9':  'Thursday',  'Jul 10': 'Friday',
+  'Jul 11': 'Saturday',  'Jul 14': 'Tuesday',   'Jul 15': 'Wednesday',
   'Jul 18': 'Saturday',  'Jul 19': 'Sunday',
-  'Jul 22': 'Wednesday', 'Jul 23': 'Thursday',
 }
 
 const ROUND_LABEL = {
   'Jun 28': 'Round of 32', 'Jun 29': 'Round of 32', 'Jun 30': 'Round of 32',
   'Jul 1':  'Round of 32', 'Jul 2':  'Round of 32', 'Jul 3':  'Round of 32',
-  'Jul 7':  'Round of 16', 'Jul 8':  'Round of 16', 'Jul 9':  'Round of 16', 'Jul 10': 'Round of 16',
-  'Jul 14': 'Quarter-finals', 'Jul 15': 'Quarter-finals',
-  'Jul 18': 'Semi-finals',    'Jul 19': 'Semi-finals',
-  'Jul 22': '3rd Place',      'Jul 23': 'Final',
+  'Jul 4':  'Round of 16', 'Jul 5':  'Round of 16', 'Jul 6':  'Round of 16', 'Jul 7': 'Round of 16',
+  'Jul 9':  'Quarter-finals', 'Jul 10': 'Quarter-finals', 'Jul 11': 'Quarter-finals',
+  'Jul 14': 'Semi-finals',    'Jul 15': 'Semi-finals',
+  'Jul 18': '3rd Place',      'Jul 19': 'Final',
 }
 
 // "Jun 11" → comparable number for today-detection

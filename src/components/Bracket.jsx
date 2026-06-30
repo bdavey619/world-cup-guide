@@ -395,7 +395,7 @@ export default function Bracket({ teams = [] }) {
             {[
               { label: '24 teams', note: 'Top 2 from each of 12 groups' },
               { label: '+ 8 teams', note: 'Best 8 third-place finishers' },
-              { label: '= 32 teams', note: 'Enter Round of 32 · Jul 1' },
+              { label: '= 32 teams', note: 'Enter Round of 32 · Jun 28' },
             ].map(({ label, note }) => (
               <div key={label}>
                 <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>{label}</div>
@@ -415,7 +415,7 @@ export default function Bracket({ teams = [] }) {
                 Tournament underway
               </div>
               <div style={{ fontSize: 10, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>
-                Group stage: Jun 11 – Jul 1 · Knockout stage starts Jul 1
+                Group stage: Jun 11 – Jun 27 · Knockout stage starts Jun 28
               </div>
             </div>
             <div style={{ marginLeft: 'auto' }}>
@@ -436,15 +436,15 @@ export default function Bracket({ teams = [] }) {
       }}>
         <div className="scroll-x" style={{ padding: '0 8px 16px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-            <RoundCol label="Round of 32"    dates="Jul 1–4"    matches={r32}    width={152} showGroup={isProjected} />
+            <RoundCol label="Round of 32"    dates="Jun 28–Jul 3" matches={r32}    width={152} showGroup={isProjected} />
             <Divider />
-            <RoundCol label="Round of 16"    dates="Jul 7–10"   matches={r16}    width={148} />
+            <RoundCol label="Round of 16"    dates="Jul 4–7"    matches={r16}    width={148} />
             <Divider />
-            <RoundCol label="Quarter-finals" dates="Jul 14–15"  matches={qf}     width={148} />
+            <RoundCol label="Quarter-finals" dates="Jul 9–11"   matches={qf}     width={148} />
             <Divider />
-            <RoundCol label="Semi-finals"    dates="Jul 18–19"  matches={sf}     width={148} />
+            <RoundCol label="Semi-finals"    dates="Jul 14–15"  matches={sf}     width={148} />
             <Divider />
-            <RoundCol label="Final"          dates="Jul 23"     matches={final_} width={148} />
+            <RoundCol label="Final"          dates="Jul 19"     matches={final_} width={148} />
           </div>
         </div>
       </div>
@@ -458,7 +458,7 @@ export default function Bracket({ teams = [] }) {
         boxShadow: '0 1px 3px rgba(0,0,0,0.07)',
       }}>
         <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
-          3rd Place Match · Jul 22 · MetLife Stadium
+          3rd Place Match · Jul 18 · Hard Rock Stadium
         </div>
         {isProjected ? (
           <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
