@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:02:06.309Z",
+  "updatedAt": "2026-06-30T20:10:01.597Z",
   "individual": {
     "goals": [
       {
@@ -8,6 +8,13 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 6
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 5
       },
       {
         "name": "Ismael Saibari",
@@ -27,13 +34,6 @@
         "name": "Kylian Mbappé",
         "team": "France",
         "flag": "🇫🇷",
-        "position": "",
-        "value": 4
-      },
-      {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
         "position": "",
         "value": 4
       },
@@ -167,6 +167,13 @@
         "name": "Daichi Kamada",
         "team": "Japan",
         "flag": "🇯🇵",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Amad Diallo",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
         "position": "",
         "value": 2
       },
@@ -405,13 +412,6 @@
         "name": "Keito Nakamura",
         "team": "Japan",
         "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Amad Diallo",
-        "team": "Ivory Coast",
-        "flag": "🇨🇮",
         "position": "",
         "value": 1
       },
@@ -1091,6 +1091,13 @@
         "name": "Chemsdine Talbi",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Antonio Nusa",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 1
       }

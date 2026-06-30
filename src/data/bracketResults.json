@@ -1,21 +1,92 @@
 {
-  "49": { "homeId": "south-africa", "awayId": "canada",               "homeGoals": 0, "awayGoals": 1, "winnerId": "canada"   },
-  "50": { "homeId": "brazil",       "awayId": "japan",                "homeGoals": 2, "awayGoals": 1, "winnerId": "brazil"   },
-  "51": { "homeId": "germany",      "awayId": "paraguay",             "homeGoals": 1, "awayGoals": 1, "winnerId": "paraguay" },
-  "52": { "homeId": "netherlands",  "awayId": "morocco",              "homeGoals": 1, "awayGoals": 1, "winnerId": "morocco"  },
-  "53": { "homeId": "ivory-coast",  "awayId": "norway"  },
-  "54": { "homeId": "france",       "awayId": "sweden"  },
-  "55": { "homeId": "mexico",       "awayId": "ecuador" },
-  "56": { "homeId": "england",      "awayId": "dr-congo" },
-  "57": { "homeId": "belgium",      "awayId": "senegal" },
-  "58": { "homeId": "united-states","awayId": "bosnia-herzegovina" },
-  "59": { "homeId": "spain",        "awayId": "austria" },
-  "60": { "homeId": "portugal",     "awayId": "croatia" },
-  "61": { "homeId": "switzerland",  "awayId": "algeria" },
-  "62": { "homeId": "australia",    "awayId": "egypt"   },
-  "63": { "homeId": "argentina",    "awayId": "cape-verde" },
-  "64": { "homeId": "colombia",     "awayId": "ghana"   },
-  "65": { "homeId": "canada",       "awayId": "morocco" },
-  "66": { "homeId": "paraguay" },
-  "67": { "homeId": "brazil" }
+  "49": {
+    "homeId": "south-africa",
+    "awayId": "canada",
+    "homeGoals": 0,
+    "awayGoals": 1,
+    "winnerId": "canada"
+  },
+  "50": {
+    "homeId": "brazil",
+    "awayId": "japan",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "winnerId": "brazil"
+  },
+  "51": {
+    "homeId": "germany",
+    "awayId": "paraguay",
+    "homeGoals": 1,
+    "awayGoals": 1,
+    "winnerId": "paraguay"
+  },
+  "52": {
+    "homeId": "netherlands",
+    "awayId": "morocco",
+    "homeGoals": 1,
+    "awayGoals": 1,
+    "winnerId": "morocco"
+  },
+  "53": {
+    "homeId": "ivory-coast",
+    "awayId": "norway",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "winnerId": "norway"
+  },
+  "54": {
+    "homeId": "france",
+    "awayId": "sweden"
+  },
+  "55": {
+    "homeId": "mexico",
+    "awayId": "ecuador"
+  },
+  "56": {
+    "homeId": "england",
+    "awayId": "dr-congo"
+  },
+  "57": {
+    "homeId": "belgium",
+    "awayId": "senegal"
+  },
+  "58": {
+    "homeId": "united-states",
+    "awayId": "bosnia-herzegovina"
+  },
+  "59": {
+    "homeId": "spain",
+    "awayId": "austria"
+  },
+  "60": {
+    "homeId": "portugal",
+    "awayId": "croatia"
+  },
+  "61": {
+    "homeId": "switzerland",
+    "awayId": "algeria"
+  },
+  "62": {
+    "homeId": "australia",
+    "awayId": "egypt"
+  },
+  "63": {
+    "homeId": "argentina",
+    "awayId": "cape-verde"
+  },
+  "64": {
+    "homeId": "colombia",
+    "awayId": "ghana"
+  },
+  "65": {
+    "homeId": "canada",
+    "awayId": "morocco"
+  },
+  "66": {
+    "homeId": "paraguay"
+  },
+  "67": {
+    "homeId": "brazil",
+    "awayId": "norway"
+  }
 }
