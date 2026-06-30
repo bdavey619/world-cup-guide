@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-06-30T21:45:03.417Z",
+  "updatedAt": "2026-06-30T22:57:33.866Z",
   "individual": {
     "goals": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 6
+      },
       {
         "name": "Lionel Messi",
         "team": "Argentina",
@@ -27,13 +34,6 @@
         "name": "Vinícius Júnior",
         "team": "Brazil",
         "flag": "🇧🇷",
-        "position": "",
-        "value": 4
-      },
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "",
         "value": 4
       },
@@ -195,6 +195,13 @@
         "name": "Ramin Rezaeian",
         "team": "Iran",
         "flag": "🇮🇷",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 2
       },
@@ -461,13 +468,6 @@
         "name": "Mohammad Mohebbi",
         "team": "Iran",
         "flag": "🇮🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Bradley Barcola",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "",
         "value": 1
       },
