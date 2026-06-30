@@ -9,23 +9,24 @@ const m = (matchNum, slotA, slotB, date, homeId, awayId, homeGoals, awayGoals, w
 })
 
 // Round of 32 — Jun 28 – Jul 3
+// Ordered so each adjacent pair feeds the same R16 match (positions 0-1 → R16#65, 2-3 → R16#66, etc.)
 export const actualR32 = [
-  m(49,  'South Africa',       'Canada',              'Jun 28', 'south-africa',      'canada',             0, 1, 'canada'),
-  m(50,  'Brazil',             'Japan',               'Jun 29', 'brazil',             'japan',              2, 1, 'brazil'),
-  m(51,  'Germany',            'Paraguay',            'Jun 29', 'germany',            'paraguay',           1, 1, 'paraguay'),
-  m(52,  'Netherlands',        'Morocco',             'Jun 29', 'netherlands',        'morocco'),
-  m(53,  'Ivory Coast',        'Norway',              'Jun 30', 'ivory-coast',        'norway'),
-  m(54,  'France',             'Sweden',              'Jun 30', 'france',             'sweden'),
-  m(55,  'Mexico',             'Ecuador',             'Jun 30', 'mexico',             'ecuador'),
-  m(56,  'England',            'DR Congo',            'Jul 1',  'england',            'dr-congo'),
-  m(57,  'Belgium',            'Senegal',             'Jul 1',  'belgium',            'senegal'),
-  m(58,  'United States',      'Bosnia-Herzegovina',  'Jul 1',  'united-states',      'bosnia-herzegovina'),
-  m(59,  'Spain',              'Austria',             'Jul 2',  'spain',              'austria'),
-  m(60,  'Portugal',           'Croatia',             'Jul 2',  'portugal',           'croatia'),
-  m(61,  'Switzerland',        'Algeria',             'Jul 2',  'switzerland',        'algeria'),
-  m(62,  'Australia',          'Egypt',               'Jul 3',  'australia',          'egypt'),
-  m(63,  'Argentina',          'Cape Verde',          'Jul 3',  'argentina',          'cape-verde'),
-  m(64,  'Colombia',           'Ghana',               'Jul 3',  'colombia',           'ghana'),
+  m(49,  'South Africa',       'Canada',              'Jun 28', 'south-africa',      'canada',             0, 1, 'canada'),   // → R16 #65
+  m(52,  'Netherlands',        'Morocco',             'Jun 29', 'netherlands',        'morocco'),                              // → R16 #65
+  m(51,  'Germany',            'Paraguay',            'Jun 29', 'germany',            'paraguay',           1, 1, 'paraguay'), // → R16 #66
+  m(54,  'France',             'Sweden',              'Jun 30', 'france',             'sweden'),                               // → R16 #66
+  m(50,  'Brazil',             'Japan',               'Jun 29', 'brazil',             'japan',              2, 1, 'brazil'),   // → R16 #67
+  m(53,  'Ivory Coast',        'Norway',              'Jun 30', 'ivory-coast',        'norway'),                               // → R16 #67
+  m(55,  'Mexico',             'Ecuador',             'Jun 30', 'mexico',             'ecuador'),                              // → R16 #68
+  m(56,  'England',            'DR Congo',            'Jul 1',  'england',            'dr-congo'),                             // → R16 #68
+  m(60,  'Portugal',           'Croatia',             'Jul 2',  'portugal',           'croatia'),                              // → R16 #69
+  m(59,  'Spain',              'Austria',             'Jul 2',  'spain',              'austria'),                              // → R16 #69
+  m(58,  'United States',      'Bosnia-Herzegovina',  'Jul 1',  'united-states',      'bosnia-herzegovina'),                  // → R16 #70
+  m(57,  'Belgium',            'Senegal',             'Jul 1',  'belgium',            'senegal'),                              // → R16 #70
+  m(63,  'Argentina',          'Cape Verde',          'Jul 3',  'argentina',          'cape-verde'),                           // → R16 #71
+  m(62,  'Australia',          'Egypt',               'Jul 3',  'australia',          'egypt'),                                // → R16 #71
+  m(61,  'Switzerland',        'Algeria',             'Jul 2',  'switzerland',        'algeria'),                              // → R16 #72
+  m(64,  'Colombia',           'Ghana',               'Jul 3',  'colombia',           'ghana'),                                // → R16 #72
 ]
 
 // Round of 16 — Jul 4–7
