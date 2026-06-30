@@ -181,24 +181,24 @@
         "y": 56
       },
       {
-        "name": "Salah-Eddine",
-        "shortName": "Salah-Eddine",
+        "name": "Mazraoui",
+        "shortName": "Mazraoui",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "3",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Halhal",
-        "shortName": "Halhal",
+        "name": "Diop",
+        "shortName": "Diop",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "14",
         "x": 161,
         "y": 130
       },
@@ -225,24 +225,24 @@
         "y": 130
       },
       {
-        "name": "Amrabat",
-        "shortName": "Amrabat",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "El Aynaoui",
         "shortName": "El Aynaoui",
-        "position": "RM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "24",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Bouaddi",
+        "shortName": "Bouaddi",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 289,
         "y": 215
       },
@@ -258,13 +258,13 @@
         "y": 310
       },
       {
-        "name": "Saibari",
-        "shortName": "Saibari",
+        "name": "Ounahi",
+        "shortName": "Ounahi",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "8",
         "x": 226,
         "y": 310
       },
@@ -280,13 +280,13 @@
         "y": 310
       },
       {
-        "name": "El Kaabi",
-        "shortName": "El Kaabi",
+        "name": "Saibari",
+        "shortName": "Saibari",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "11",
         "x": 226,
         "y": 385
       }
@@ -459,7 +459,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 24 vs Haiti",
+  "pitchLabel": "Confirmed XI · Jun 29 vs Netherlands",
   "matches": [
     {
       "eventId": "760419",
@@ -511,6 +511,24 @@
         "Amrabat",
         "El Aynaoui",
         "El Kaabi",
+        "El Khannouss",
+        "Díaz"
+      ]
+    },
+    {
+      "eventId": "760488",
+      "opponent": "Netherlands",
+      "date": "Jun 29",
+      "starters": [
+        "Bounou",
+        "Riad",
+        "Diop",
+        "Mazraoui",
+        "Hakimi",
+        "Ounahi",
+        "El Aynaoui",
+        "Bouaddi",
+        "Saibari",
         "El Khannouss",
         "Díaz"
       ]

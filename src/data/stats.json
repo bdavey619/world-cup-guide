@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:21:56.982Z",
+  "updatedAt": "2026-06-30T01:17:04.397Z",
   "individual": {
     "goals": [
       {
@@ -41,6 +41,13 @@
         "name": "Ismael Saibari",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Kai Havertz",
+        "team": "Germany",
+        "flag": "🇩🇪",
         "position": "",
         "value": 3
       },
@@ -129,7 +136,14 @@
         "value": 2
       },
       {
-        "name": "Kai Havertz",
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Jamal Musiala",
         "team": "Germany",
         "flag": "🇩🇪",
         "position": "",
@@ -202,6 +216,13 @@
         "name": "Ermin Mahmic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Matías Galarza",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
         "position": "",
         "value": 2
       },
@@ -304,13 +325,6 @@
         "value": 1
       },
       {
-        "name": "Maurício",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Giovanni Reyna",
         "team": "United States",
         "flag": "🇺🇸",
@@ -361,13 +375,6 @@
       },
       {
         "name": "Nico Schlotterbeck",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jamal Musiala",
         "team": "Germany",
         "flag": "🇩🇪",
         "position": "",
@@ -587,13 +594,6 @@
         "name": "Alex Freeman",
         "team": "United States",
         "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Matías Galarza",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
         "position": "",
         "value": 1
       },
@@ -1028,6 +1028,41 @@
         "name": "Gabriel Martinelli",
         "team": "Brazil",
         "flag": "🇧🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Joshua Kimmich",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gustavo Gómez",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nadiem Amiri",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "José Canale",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
         "position": "",
         "value": 1
       }

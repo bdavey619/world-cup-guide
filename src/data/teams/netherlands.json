@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Ronald Koeman",
     "managerTenure": "2023–present",
-    "formation": "4-3-3",
+    "formation": "3-4-2-1",
     "winPct": 4,
     "advancePct": 89
   },
@@ -182,17 +182,6 @@
         "y": 56
       },
       {
-        "name": "Aké",
-        "shortName": "Aké",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "van Hecke",
         "shortName": "van Hecke",
         "position": "CD-R",
@@ -200,96 +189,107 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 161,
-        "y": 148
+        "x": 104,
+        "y": 130
       },
       {
         "name": "van Dijk",
         "shortName": "van Dijk",
-        "position": "CD-L",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 293,
-        "y": 148
+        "x": 226,
+        "y": 130
       },
       {
-        "name": "Dumfries",
-        "shortName": "Dumfries",
-        "position": "RB",
+        "name": "Aké",
+        "shortName": "Aké",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
-        "x": 389,
-        "y": 148
+        "jersey": "5",
+        "x": 348,
+        "y": 130
       },
       {
-        "name": "Reijnders",
-        "shortName": "Reijnders",
+        "name": "van de Ven",
+        "shortName": "van de Ven",
         "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 104,
-        "y": 256
-      },
-      {
-        "name": "de Jong",
-        "shortName": "de Jong",
-        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
-        "x": 226,
-        "y": 256
+        "jersey": "15",
+        "x": 63,
+        "y": 215
       },
       {
         "name": "Gravenberch",
         "shortName": "Gravenberch",
-        "position": "RM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 348,
-        "y": 256
+        "x": 161,
+        "y": 215
       },
       {
-        "name": "Gakpo",
-        "shortName": "Gakpo",
-        "position": "LF",
-        "role": "att",
-        "isKeyPlayer": true,
+        "name": "de Jong",
+        "shortName": "de Jong",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
-        "x": 104,
-        "y": 375
+        "jersey": "21",
+        "x": 293,
+        "y": 215
+      },
+      {
+        "name": "Dumfries",
+        "shortName": "Dumfries",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 389,
+        "y": 215
       },
       {
         "name": "Brobbey",
         "shortName": "Brobbey",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 226,
-        "y": 375
+        "x": 163,
+        "y": 310
       },
       {
-        "name": "Malen",
-        "shortName": "Malen",
-        "position": "RF",
-        "role": "att",
+        "name": "Gakpo",
+        "shortName": "Gakpo",
+        "position": "CF-L",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 289,
+        "y": 310
+      },
+      {
+        "name": "Summerville",
+        "shortName": "Summerville",
+        "position": "CF-R",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
-        "x": 348,
-        "y": 375
+        "jersey": "24",
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -460,7 +460,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Tunisia",
+  "pitchLabel": "Confirmed XI · Jun 29 vs Morocco",
   "matches": [
     {
       "eventId": "760425",
@@ -514,6 +514,24 @@
         "Brobbey",
         "Gakpo",
         "Malen"
+      ]
+    },
+    {
+      "eventId": "760488",
+      "opponent": "Morocco",
+      "date": "Jun 29",
+      "starters": [
+        "Verbruggen",
+        "van Dijk",
+        "Aké",
+        "van Hecke",
+        "de Jong",
+        "Gravenberch",
+        "van de Ven",
+        "Dumfries",
+        "Brobbey",
+        "Gakpo",
+        "Summerville"
       ]
     }
   ],
