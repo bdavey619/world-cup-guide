@@ -30,14 +30,14 @@ export const actualR32 = [
 
 // Round of 16 — Jul 4–7
 export const actualR16 = [
-  m(65, 'W49', 'W50', 'Jul 4', 'canada',   'brazil'),
-  m(66, 'W51', 'W52', 'Jul 4', 'paraguay', null),
-  m(67, 'W53', 'W54', 'Jul 5'),
-  m(68, 'W55', 'W56', 'Jul 5'),
-  m(69, 'W57', 'W58', 'Jul 6'),
-  m(70, 'W59', 'W60', 'Jul 6'),
-  m(71, 'W61', 'W62', 'Jul 7'),
-  m(72, 'W63', 'W64', 'Jul 7'),
+  m(65, 'W49', 'W52', 'Jul 4', 'canada',   null),   // Canada vs W(NED/MAR)
+  m(66, 'W51', 'W54', 'Jul 4', 'paraguay', null),   // Paraguay vs W(FRA/SWE)
+  m(67, 'W50', 'W53', 'Jul 5', 'brazil',   null),   // Brazil vs W(IVC/NOR)
+  m(68, 'W55', 'W56', 'Jul 5'),                      // W(MEX/ECU) vs W(ENG/DRC)
+  m(69, 'W60', 'W59', 'Jul 6'),                      // W(POR/CRO) vs W(SPA/AUS)
+  m(70, 'W58', 'W57', 'Jul 6'),                      // W(USA/BIH) vs W(BEL/SEN)
+  m(71, 'W63', 'W62', 'Jul 7'),                      // W(ARG/CPV) vs W(AUS/EGY)
+  m(72, 'W61', 'W64', 'Jul 7'),                      // W(SUI/ALG) vs W(COL/GHA)
 ]
 
 // Quarter-finals — Jul 9–11
