@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T01:26:56.944Z",
+  "updatedAt": "2026-06-30T05:40:52.269Z",
   "individual": {
     "goals": [
       {
@@ -8,6 +8,13 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 6
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 4
       },
       {
         "name": "Vinícius Júnior",
@@ -36,13 +43,6 @@
         "flag": "🇫🇷",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Kai Havertz",
@@ -102,6 +102,13 @@
       },
       {
         "name": "Brian Brobbey",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Cody Gakpo",
         "team": "Netherlands",
         "flag": "🇳🇱",
         "position": "",
@@ -227,13 +234,6 @@
         "value": 2
       },
       {
-        "name": "Cody Gakpo",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Anthony Elanga",
         "team": "Sweden",
         "flag": "🇸🇪",
@@ -258,6 +258,13 @@
         "name": "Cristiano Ronaldo",
         "team": "Portugal",
         "flag": "🇵🇹",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 2
       },
@@ -752,13 +759,6 @@
         "value": 1
       },
       {
-        "name": "Soufiane Rahimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Gessime Yassine",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -1063,6 +1063,34 @@
         "name": "José Canale",
         "team": "Paraguay",
         "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Issa Diop",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Wout Weghorst",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Chemsdine Talbi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 1
       }

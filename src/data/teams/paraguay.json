@@ -168,8 +168,8 @@
   "pitch": {
     "players": [
       {
-        "name": "Gil",
-        "shortName": "Gil",
+        "name": "Gill",
+        "shortName": "Gill",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
@@ -518,7 +518,7 @@
       "opponent": "Germany",
       "date": "Jun 29",
       "starters": [
-        "Gil",
+        "Gill",
         "Canale",
         "Gómez",
         "Alonso",
