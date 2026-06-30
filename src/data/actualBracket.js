@@ -11,8 +11,8 @@ const m = (matchNum, slotA, slotB, date, homeId, awayId, homeGoals, awayGoals, w
 // Round of 32 — Jun 28 – Jul 3
 export const actualR32 = [
   m(49,  'South Africa',       'Canada',              'Jun 28', 'south-africa',      'canada',             0, 1, 'canada'),
-  m(50,  'Brazil',             'Japan',               'Jun 29', 'brazil',             'japan'),
-  m(51,  'Germany',            'Paraguay',            'Jun 29', 'germany',            'paraguay'),
+  m(50,  'Brazil',             'Japan',               'Jun 29', 'brazil',             'japan',              2, 1, 'brazil'),
+  m(51,  'Germany',            'Paraguay',            'Jun 29', 'germany',            'paraguay',           1, 1, 'paraguay'),
   m(52,  'Netherlands',        'Morocco',             'Jun 29', 'netherlands',        'morocco'),
   m(53,  'Ivory Coast',        'Norway',              'Jun 30', 'ivory-coast',        'norway'),
   m(54,  'France',             'Sweden',              'Jun 30', 'france',             'sweden'),
@@ -30,8 +30,8 @@ export const actualR32 = [
 
 // Round of 16 — Jul 4–7
 export const actualR16 = [
-  m(65, 'W49', 'W50', 'Jul 4'),
-  m(66, 'W51', 'W52', 'Jul 4'),
+  m(65, 'W49', 'W50', 'Jul 4', 'canada',   'brazil'),
+  m(66, 'W51', 'W52', 'Jul 4', 'paraguay', null),
   m(67, 'W53', 'W54', 'Jul 5'),
   m(68, 'W55', 'W56', 'Jul 5'),
   m(69, 'W57', 'W58', 'Jul 6'),
