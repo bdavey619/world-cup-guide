@@ -44,6 +44,9 @@ jobs:
       - name: Fetch and update stats
         run: node scripts/update-stats.js
 
+      - name: Fetch and update bracket results
+        run: node scripts/update-bracket.js
+
       - name: Commit and push if changed
         id: commit
         run: |
