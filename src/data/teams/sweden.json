@@ -16,7 +16,7 @@
     "lastWCResult": "QF '18",
     "manager": "Jon Dahl Tomasson",
     "managerTenure": "2022–present",
-    "formation": "3-4-3",
+    "formation": "4-4-2",
     "winPct": 0.5,
     "advancePct": 63
   },
@@ -180,6 +180,17 @@
         "y": 56
       },
       {
+        "name": "Gudmundsson",
+        "shortName": "Gudmundsson",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 63,
+        "y": 148
+      },
+      {
         "name": "Lagerbielke",
         "shortName": "Lagerbielke",
         "position": "CD-R",
@@ -187,29 +198,29 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 104,
+        "x": 161,
         "y": 148
       },
       {
-        "name": "Hien",
-        "shortName": "Hien",
-        "position": "CD",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 226,
-        "y": 148
-      },
-      {
-        "name": "Gudmundsson",
-        "shortName": "Gudmundsson",
+        "name": "Lindelöf",
+        "shortName": "Lindelöf",
         "position": "CD-L",
         "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Svensson",
+        "shortName": "Svensson",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 348,
+        "jersey": "8",
+        "x": 389,
         "y": 148
       },
       {
@@ -224,13 +235,13 @@
         "y": 256
       },
       {
-        "name": "Lindelöf",
-        "shortName": "Lindelöf",
+        "name": "Bergvall",
+        "shortName": "Bergvall",
         "position": "CM-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "7",
         "x": 161,
         "y": 256
       },
@@ -246,36 +257,25 @@
         "y": 256
       },
       {
-        "name": "Bernhardsson",
-        "shortName": "Bernhardsson",
+        "name": "Elanga",
+        "shortName": "Elanga",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "11",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Elanga",
-        "shortName": "Elanga",
+        "name": "Gyökeres",
+        "shortName": "Gyökeres",
         "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
-        "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Gyökeres",
-        "shortName": "Gyökeres",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
         "jersey": "17",
-        "x": 226,
+        "x": 163,
         "y": 375
       },
       {
@@ -286,7 +286,7 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
-        "x": 348,
+        "x": 289,
         "y": 375
       }
     ]
@@ -458,7 +458,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Japan",
+  "pitchLabel": "Confirmed XI · Jun 30 vs France",
   "matches": [
     {
       "eventId": "760424",
@@ -512,6 +512,24 @@
         "Gyökeres",
         "Isak",
         "Elanga"
+      ]
+    },
+    {
+      "eventId": "760492",
+      "opponent": "France",
+      "date": "Jun 30",
+      "starters": [
+        "Widell Zetterström",
+        "Lindelöf",
+        "Lagerbielke",
+        "Gudmundsson",
+        "Svensson",
+        "Ayari",
+        "Bergvall",
+        "Stroud",
+        "Elanga",
+        "Isak",
+        "Gyökeres"
       ]
     }
   ],

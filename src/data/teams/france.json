@@ -187,13 +187,13 @@
         "y": 56
       },
       {
-        "name": "Hernández",
-        "shortName": "Hernández",
+        "name": "Digne",
+        "shortName": "Digne",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "3",
         "x": 63,
         "y": 130
       },
@@ -209,13 +209,13 @@
         "y": 130
       },
       {
-        "name": "Lacroix",
-        "shortName": "Lacroix",
+        "name": "Saliba",
+        "shortName": "Saliba",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "17",
         "x": 293,
         "y": 130
       },
@@ -231,13 +231,13 @@
         "y": 130
       },
       {
-        "name": "Koné",
-        "shortName": "Koné",
+        "name": "Rabiot",
+        "shortName": "Rabiot",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "14",
         "x": 163,
         "y": 215
       },
@@ -253,13 +253,13 @@
         "y": 215
       },
       {
-        "name": "Doué",
-        "shortName": "Doué",
+        "name": "Barcola",
+        "shortName": "Barcola",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "12",
         "x": 104,
         "y": 310
       },
@@ -467,7 +467,7 @@
   ],
   "population": "68.4M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 26 vs Norway",
+  "pitchLabel": "Confirmed XI · Jun 30 vs Sweden",
   "matches": [
     {
       "eventId": "760432",
@@ -520,6 +520,24 @@
         "Tchouaméni",
         "Mbappé",
         "Doué",
+        "Dembélé"
+      ]
+    },
+    {
+      "eventId": "760492",
+      "opponent": "Sweden",
+      "date": "Jun 30",
+      "starters": [
+        "Maignan",
+        "Saliba",
+        "Upamecano",
+        "Digne",
+        "Koundé",
+        "Olise",
+        "Rabiot",
+        "Tchouaméni",
+        "Mbappé",
+        "Barcola",
         "Dembélé"
       ]
     }
