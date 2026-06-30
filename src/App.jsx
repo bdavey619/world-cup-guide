@@ -439,7 +439,7 @@ export default function App() {
               <TeamPageOne team={selectedTeam} onViewStorylines={() => navigate('storylines')} />
             </div>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
-              <TeamPageTwo team={selectedTeam} />
+              <TeamPageTwo team={selectedTeam} teams={teams} />
             </div>
           </div>
         ) : activeView === 'overview' ? (

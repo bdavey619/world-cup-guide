@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PitchDiagram from './PitchDiagram'
 import statsData from '../data/stats.json'
+import { actualR32, actualR16, actualQF, actualSF, actualFinal, actual3rdPlace } from '../data/actualBracket'
 
 const POS_GROUP = {
   GK: 'Goalkeepers',
@@ -15,12 +16,26 @@ function groupSquad(squad = []) {
   return groups
 }
 
-export default function TeamPageTwo({ team }) {
+const ALL_KO_MATCHES = [
+  ...actualR32.map(m => ({ ...m, roundLabel: 'R32' })),
+  ...actualR16.map(m => ({ ...m, roundLabel: 'R16' })),
+  ...actualQF.map(m => ({ ...m, roundLabel: 'QF' })),
+  ...actualSF.map(m => ({ ...m, roundLabel: 'SF' })),
+  ...actualFinal.map(m => ({ ...m, roundLabel: 'Final' })),
+  { ...actual3rdPlace, roundLabel: '3rd' },
+]
+
+export default function TeamPageTwo({ team, teams = [] }) {
   const {
     accentColor, name, nickname, meta, schedule,
     history, allTimeRecord, pitch, keyPlayers, tactics,
     squad, matches, pitchLabel,
   } = team
+
+  const byId = {}
+  teams.forEach(t => { byId[t.id] = t })
+
+  const koMatches = ALL_KO_MATCHES.filter(m => m.homeId === team.id || m.awayId === team.id)
 
   const muted = 'var(--gray-500)'
   const serif = 'var(--font-serif)'
@@ -467,7 +482,7 @@ export default function TeamPageTwo({ team }) {
 
           {/* SCHEDULE */}
           <div style={{ padding: '1rem 1.1rem 0.9rem', borderBottom: '0.5px solid #e0e0e0' }}>
-            <SectionLabel label={`Group ${meta.group} Schedule`} />
+            <SectionLabel label="Tournament Schedule" />
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {schedule.map((match, i) => (
                 <div
@@ -543,6 +558,92 @@ export default function TeamPageTwo({ team }) {
                   </div>
                 </div>
               ))}
+
+              {/* Knockout matches */}
+              {koMatches.length > 0 && (
+                <>
+                  <div style={{
+                    fontSize: 8,
+                    fontWeight: 700,
+                    letterSpacing: '0.1em',
+                    textTransform: 'uppercase',
+                    color: 'var(--gray-300)',
+                    fontFamily: 'var(--font-sans)',
+                    textAlign: 'center',
+                    padding: '2px 0',
+                  }}>
+                    Knockout Stage
+                  </div>
+                  {koMatches.map((ko, i) => {
+                    const isHome = ko.homeId === team.id
+                    const opponentId = isHome ? ko.awayId : ko.homeId
+                    const opponentTeam = opponentId ? byId[opponentId] : null
+                    const opponentName = opponentTeam
+                      ? opponentTeam.name
+                      : (isHome ? ko.slotB : ko.slotA)
+                    const score = (ko.homeGoals != null && ko.awayGoals != null)
+                      ? `${ko.homeGoals}–${ko.awayGoals}` : null
+                    const result = ko.winnerId
+                      ? (ko.winnerId === team.id ? 'W' : 'L')
+                      : null
+
+                    return (
+                      <div
+                        key={i}
+                        style={{
+                          background: 'var(--gray-50)',
+                          borderRadius: 6,
+                          padding: '8px 10px',
+                          borderLeft: `2px solid ${accentColor}`,
+                        }}
+                      >
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 3 }}>
+                          <span style={{
+                            fontSize: 9, color: muted, fontWeight: 700,
+                            fontFamily: 'var(--font-sans)', textTransform: 'uppercase', letterSpacing: '0.04em',
+                          }}>
+                            {ko.date}{ko.time ? ` · ${ko.time}` : ''}
+                          </span>
+                          <span style={{ fontSize: 9, color: muted, fontFamily: 'var(--font-sans)' }}>
+                            {ko.city || ''}
+                          </span>
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                          <span style={{ fontSize: 13, fontWeight: 500, fontFamily: serif }}>
+                            {name} vs {opponentName}
+                          </span>
+                          {score ? (
+                            <span style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: 6, whiteSpace: 'nowrap' }}>
+                              <span style={{
+                                fontSize: 12, fontWeight: 700, fontFamily: 'var(--font-sans)',
+                                color: result === 'W' ? '#1a7a3a' : result === 'L' ? '#c0392b' : 'var(--gray-600)',
+                              }}>
+                                {score}
+                              </span>
+                              {result && (
+                                <span style={{
+                                  fontSize: 9, fontWeight: 700, fontFamily: 'var(--font-sans)',
+                                  padding: '1px 4px', borderRadius: 3, color: '#fff',
+                                  background: result === 'W' ? '#1a7a3a' : '#c0392b',
+                                }}>
+                                  {result}
+                                </span>
+                              )}
+                            </span>
+                          ) : (
+                            <span style={{
+                              fontSize: 9, fontWeight: 600, fontFamily: 'var(--font-sans)',
+                              color: accentColor, marginLeft: 6, whiteSpace: 'nowrap',
+                            }}>
+                              {ko.roundLabel}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </>
+              )}
             </div>
           </div>
 

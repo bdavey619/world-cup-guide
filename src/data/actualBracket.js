@@ -1,11 +1,47 @@
 // Actual bracket results for 2026 World Cup.
 // Populate homeGoals / awayGoals / winnerId as matches are played.
 
+const MATCH_INFO = {
+  49: { time: '3PM ET',    venue: 'SoFi Stadium',            city: 'Los Angeles'  },
+  50: { time: '1PM ET',    venue: 'NRG Stadium',             city: 'Houston'      },
+  51: { time: '4:30PM ET', venue: 'Gillette Stadium',        city: 'Boston'       },
+  52: { time: '9PM ET',    venue: 'Estadio BBVA',            city: 'Monterrey'    },
+  53: { time: '1PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
+  54: { time: '5PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
+  55: { time: '9PM ET',    venue: 'Estadio Azteca',          city: 'Mexico City'  },
+  56: { time: '12PM ET',   venue: 'Mercedes-Benz Stadium',   city: 'Atlanta'      },
+  57: { time: '4PM ET',    venue: 'Lumen Field',             city: 'Seattle'      },
+  58: { time: '5PM ET',    venue: "Levi's Stadium",          city: 'San Francisco'},
+  59: { time: '3PM ET',    venue: 'SoFi Stadium',            city: 'Los Angeles'  },
+  60: { time: '7PM ET',    venue: 'BMO Field',               city: 'Toronto'      },
+  61: { time: '11PM ET',   venue: 'BC Place',                city: 'Vancouver'    },
+  62: { time: '2PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
+  63: { time: '6PM ET',    venue: 'Hard Rock Stadium',       city: 'Miami'        },
+  64: { time: '9:30PM ET', venue: 'Arrowhead Stadium',       city: 'Kansas City'  },
+  65: { time: '1PM ET',    venue: 'NRG Stadium',             city: 'Houston'      },
+  66: { time: '5PM ET',    venue: 'Lincoln Financial Field', city: 'Philadelphia' },
+  67: { time: '4PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
+  68: { time: '8PM ET',    venue: 'Estadio Azteca',          city: 'Mexico City'  },
+  69: { time: '3PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
+  70: { time: '8PM ET',    venue: 'Lumen Field',             city: 'Seattle'      },
+  71: { time: '12PM ET',   venue: 'Mercedes-Benz Stadium',   city: 'Atlanta'      },
+  72: { time: '4PM ET',    venue: 'BC Place',                city: 'Vancouver'    },
+  73: { time: '5PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
+  74: { time: '5PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
+  75: { time: '1PM ET',    venue: 'SoFi Stadium',            city: 'Los Angeles'  },
+  76: { time: '5PM ET',    venue: 'Arrowhead Stadium',       city: 'Kansas City'  },
+  77: { time: '8PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
+  78: { time: '8PM ET',    venue: 'Mercedes-Benz Stadium',   city: 'Atlanta'      },
+  79: { time: '5PM ET',    venue: 'Hard Rock Stadium',       city: 'Miami'        },
+  80: { time: '3PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
+}
+
 const m = (matchNum, slotA, slotB, date, homeId, awayId, homeGoals, awayGoals, winnerId) => ({
   matchNum, slotA, slotB, date,
   homeId: homeId ?? null, awayId: awayId ?? null,
   homeGoals: homeGoals ?? null, awayGoals: awayGoals ?? null,
   winnerId: winnerId ?? null,
+  ...(MATCH_INFO[matchNum] ?? { time: null, venue: null, city: null }),
 })
 
 // Round of 32 — Jun 28 – Jul 3

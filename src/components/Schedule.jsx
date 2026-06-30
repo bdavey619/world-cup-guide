@@ -148,14 +148,14 @@ function buildKnockoutMatches(teams) {
 
     return {
       date: m.date,
-      time: null,
-      timeSort: m.matchNum,
+      time: m.time,
+      timeSort: m.time ? timeToSort(m.time) : m.matchNum,
       group: null,
       round: m.round,
       home: home ?? { id: m.slotA, name: m.slotA, flagEmoji: '🏳️', _placeholder: true },
       away: away ?? { id: m.slotB, name: m.slotB, flagEmoji: '🏳️', _placeholder: true },
-      venue: null,
-      city: null,
+      venue: m.venue,
+      city: m.city,
       score,
       homeRank: null,
       awayRank: null,
@@ -463,7 +463,7 @@ function MatchCard({ match, onSelectTeam }) {
             color: score ? 'var(--gray-400)' : 'var(--gray-900)',
             fontFamily: 'var(--font-sans)',
           }}>
-            {score ? 'FT' : (isKnockout ? `#${matchNum}` : time?.replace(' ET', ''))}
+            {score ? 'FT' : (time ? time.replace(' ET', '') : (isKnockout ? `#${matchNum}` : '?'))}
           </div>
           <div className="grp-badge" style={{
             fontSize: 10,
