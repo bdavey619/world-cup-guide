@@ -223,24 +223,24 @@
         "y": 130
       },
       {
-        "name": "Tielemans",
-        "shortName": "Tielemans",
+        "name": "Vanaken",
+        "shortName": "Vanaken",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Vanaken",
-        "shortName": "Vanaken",
+        "name": "Tielemans",
+        "shortName": "Tielemans",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 289,
         "y": 215
       },
@@ -524,8 +524,8 @@
         "De Cuyper",
         "Castagne",
         "De Bruyne",
-        "Tielemans",
         "Vanaken",
+        "Tielemans",
         "De Ketelaere",
         "Doku",
         "Trossard"
