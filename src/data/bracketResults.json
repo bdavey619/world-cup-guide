@@ -57,7 +57,10 @@
   },
   "57": {
     "homeId": "belgium",
-    "awayId": "senegal"
+    "awayId": "senegal",
+    "homeGoals": 3,
+    "awayGoals": 2,
+    "winnerId": "belgium"
   },
   "58": {
     "homeId": "united-states",
@@ -102,5 +105,8 @@
   "68": {
     "homeId": "mexico",
     "awayId": "england"
+  },
+  "70": {
+    "awayId": "belgium"
   }
 }

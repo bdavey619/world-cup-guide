@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:50:25.182Z",
+  "updatedAt": "2026-07-01T22:56:48.679Z",
   "individual": {
     "goals": [
       {
@@ -48,6 +48,13 @@
         "name": "Ousmane Dembélé",
         "team": "France",
         "flag": "🇫🇷",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "team": "Senegal",
+        "flag": "🇸🇳",
         "position": "",
         "value": 4
       },
@@ -118,13 +125,6 @@
         "name": "Cody Gakpo",
         "team": "Netherlands",
         "flag": "🇳🇱",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Ismaïla Sarr",
-        "team": "Senegal",
-        "flag": "🇸🇳",
         "position": "",
         "value": 3
       },
@@ -297,6 +297,13 @@
         "value": 2
       },
       {
+        "name": "Habib Diarra",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Pape Gueye",
         "team": "Senegal",
         "flag": "🇸🇳",
@@ -311,9 +318,23 @@
         "value": 2
       },
       {
+        "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Riyad Mahrez",
         "team": "Algeria",
         "flag": "🇩🇿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Youri Tielemans",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 2
       },
@@ -878,13 +899,6 @@
         "value": 1
       },
       {
-        "name": "Habib Diarra",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Iliman Ndiaye",
         "team": "Senegal",
         "flag": "🇸🇳",
@@ -907,13 +921,6 @@
       },
       {
         "name": "Kevin De Bruyne",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Romelu Lukaku",
         "team": "Belgium",
         "flag": "🇧🇪",
         "position": "",
