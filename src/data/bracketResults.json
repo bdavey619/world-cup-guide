@@ -50,7 +50,10 @@
   },
   "56": {
     "homeId": "england",
-    "awayId": "dr-congo"
+    "awayId": "dr-congo",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "winnerId": "england"
   },
   "57": {
     "homeId": "belgium",
@@ -97,6 +100,7 @@
     "awayId": "norway"
   },
   "68": {
-    "homeId": "mexico"
+    "homeId": "mexico",
+    "awayId": "england"
   }
 }

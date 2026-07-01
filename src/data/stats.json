@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:14:32.642Z",
+  "updatedAt": "2026-07-01T18:17:02.699Z",
   "individual": {
     "goals": [
       {
@@ -20,6 +20,13 @@
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 5
+      },
+      {
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 5
       },
@@ -76,13 +83,6 @@
         "name": "Yoane Wissa",
         "team": "DR Congo",
         "flag": "🇨🇩",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Harry Kane",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
       },
@@ -1098,6 +1098,13 @@
         "name": "Antonio Nusa",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Brian Cipenga",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
         "position": "",
         "value": 1
       }
