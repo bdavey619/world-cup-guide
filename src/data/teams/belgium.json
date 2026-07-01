@@ -223,35 +223,35 @@
         "y": 130
       },
       {
-        "name": "Vanaken",
-        "shortName": "Vanaken",
+        "name": "Tielemans",
+        "shortName": "Tielemans",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Tielemans",
-        "shortName": "Tielemans",
+        "name": "Vanaken",
+        "shortName": "Vanaken",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "20",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Trossard",
-        "shortName": "Trossard",
+        "name": "Doku",
+        "shortName": "Doku",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "11",
         "x": 104,
         "y": 310
       },
@@ -267,13 +267,13 @@
         "y": 310
       },
       {
-        "name": "Doku",
-        "shortName": "Doku",
+        "name": "Trossard",
+        "shortName": "Trossard",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "10",
         "x": 348,
         "y": 310
       },
@@ -457,7 +457,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 26 vs New Zealand",
+  "pitchLabel": "Confirmed XI · Jul 1 vs Senegal",
   "matches": [
     {
       "eventId": "760426",
@@ -511,6 +511,24 @@
         "De Ketelaere",
         "Trossard",
         "Doku"
+      ]
+    },
+    {
+      "eventId": "760493",
+      "opponent": "Senegal",
+      "date": "Jul 1",
+      "starters": [
+        "Courtois",
+        "Theate",
+        "Mechele",
+        "De Cuyper",
+        "Castagne",
+        "De Bruyne",
+        "Tielemans",
+        "Vanaken",
+        "De Ketelaere",
+        "Doku",
+        "Trossard"
       ]
     }
   ],

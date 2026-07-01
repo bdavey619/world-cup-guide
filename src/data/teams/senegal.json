@@ -161,13 +161,13 @@
         "y": 148
       },
       {
-        "name": "Seck",
-        "shortName": "Seck",
+        "name": "Ciss",
+        "shortName": "Ciss",
         "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "6",
         "x": 161,
         "y": 148
       },
@@ -194,13 +194,13 @@
         "y": 148
       },
       {
-        "name": "Camara",
-        "shortName": "Camara",
+        "name": "Gueye",
+        "shortName": "Gueye",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "26",
         "x": 104,
         "y": 256
       },
@@ -249,13 +249,13 @@
         "y": 375
       },
       {
-        "name": "Mbaye",
-        "shortName": "Mbaye",
+        "name": "Ndiaye",
+        "shortName": "Ndiaye",
         "position": "RF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "13",
         "x": 348,
         "y": 375
       }
@@ -430,7 +430,7 @@
   ],
   "population": "17.8M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 26 vs Iraq",
+  "pitchLabel": "Confirmed XI · Jul 1 vs Belgium",
   "matches": [
     {
       "eventId": "760432",
@@ -484,6 +484,24 @@
         "Sarr",
         "Mané",
         "Mbaye"
+      ]
+    },
+    {
+      "eventId": "760493",
+      "opponent": "Belgium",
+      "date": "Jul 1",
+      "starters": [
+        "Diaw",
+        "Niakhaté",
+        "Ciss",
+        "Jakobs",
+        "Diatta",
+        "Gueye",
+        "Gueye",
+        "Diarra",
+        "Sarr",
+        "Mané",
+        "Ndiaye"
       ]
     }
   ]
