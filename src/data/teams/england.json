@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Thomas Tuchel",
     "managerTenure": "2024–present",
-    "formation": "4-1-4-1",
+    "formation": "4-2-3-1",
     "winPct": 10,
     "advancePct": 96
   },
@@ -213,69 +213,69 @@
         "y": 130
       },
       {
-        "name": "Quansah",
-        "shortName": "Quansah",
+        "name": "Spence",
+        "shortName": "Spence",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "25",
         "x": 389,
         "y": 130
       },
       {
+        "name": "Rice",
+        "shortName": "Rice",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 163,
+        "y": 215
+      },
+      {
         "name": "Anderson",
         "shortName": "Anderson",
-        "position": "DM",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
+        "x": 289,
         "y": 215
       },
       {
         "name": "Rashford",
         "shortName": "Rashford",
-        "position": "LM",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 63,
-        "y": 310
-      },
-      {
-        "name": "Rogers",
-        "shortName": "Rogers",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 161,
+        "x": 104,
         "y": 310
       },
       {
         "name": "Bellingham",
         "shortName": "Bellingham",
-        "position": "CM-L",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 293,
+        "x": 226,
         "y": 310
       },
       {
-        "name": "Saka",
-        "shortName": "Saka",
-        "position": "RM",
+        "name": "Madueke",
+        "shortName": "Madueke",
+        "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
-        "x": 389,
+        "jersey": "20",
+        "x": 348,
         "y": 310
       },
       {
@@ -460,7 +460,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Panama",
+  "pitchLabel": "Confirmed XI · Jul 1 vs Congo DR",
   "matches": [
     {
       "eventId": "760437",
@@ -514,6 +514,24 @@
         "Rashford",
         "Saka",
         "Kane"
+      ]
+    },
+    {
+      "eventId": "760495",
+      "opponent": "Congo DR",
+      "date": "Jul 1",
+      "starters": [
+        "Pickford",
+        "Guéhi",
+        "Konsa",
+        "O'Reilly",
+        "Spence",
+        "Bellingham",
+        "Rice",
+        "Anderson",
+        "Kane",
+        "Rashford",
+        "Madueke"
       ]
     }
   ]
