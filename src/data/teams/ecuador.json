@@ -433,7 +433,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Germany",
+  "pitchLabel": "Confirmed XI · Jun 30 vs Mexico",
   "matches": [
     {
       "eventId": "760423",
@@ -475,6 +475,24 @@
       "eventId": "760468",
       "opponent": "Germany",
       "date": "Jun 25",
+      "starters": [
+        "Galíndez",
+        "Pacho",
+        "Ordóñez",
+        "Hincapié",
+        "Franco",
+        "Vite",
+        "Caicedo",
+        "Angulo",
+        "Yeboah",
+        "Valencia",
+        "Plata"
+      ]
+    },
+    {
+      "eventId": "760491",
+      "opponent": "Mexico",
+      "date": "Jun 30",
       "starters": [
         "Galíndez",
         "Pacho",

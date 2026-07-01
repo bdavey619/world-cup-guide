@@ -178,13 +178,13 @@
         "y": 56
       },
       {
-        "name": "Chávez",
-        "shortName": "Chávez",
+        "name": "Gallardo",
+        "shortName": "Gallardo",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "23",
         "x": 63,
         "y": 148
       },
@@ -200,13 +200,13 @@
         "y": 148
       },
       {
-        "name": "Reyes",
-        "shortName": "Reyes",
+        "name": "Vásquez",
+        "shortName": "Vásquez",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "5",
         "x": 293,
         "y": 148
       },
@@ -233,13 +233,13 @@
         "y": 256
       },
       {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
+        "name": "Lira",
+        "shortName": "Lira",
         "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "6",
         "x": 226,
         "y": 256
       },
@@ -266,13 +266,13 @@
         "y": 375
       },
       {
-        "name": "Martínez",
-        "shortName": "Martínez",
+        "name": "Jiménez",
+        "shortName": "Jiménez",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "9",
         "x": 226,
         "y": 375
       },
@@ -289,7 +289,7 @@
       }
     ]
   },
-  "pitchLabel": "Confirmed XI · Jun 24 vs Czechia",
+  "pitchLabel": "Confirmed XI · Jun 30 vs Ecuador",
   "squad": [
     {
       "name": "Guillermo Ochoa",
@@ -508,6 +508,24 @@
         "Romo",
         "Mora",
         "Martínez",
+        "Quiñones",
+        "Alvarado"
+      ]
+    },
+    {
+      "eventId": "760491",
+      "opponent": "Ecuador",
+      "date": "Jun 30",
+      "starters": [
+        "Rangel",
+        "Vásquez",
+        "Montes",
+        "Gallardo",
+        "Sánchez",
+        "Lira",
+        "Romo",
+        "Mora",
+        "Jiménez",
         "Quiñones",
         "Alvarado"
       ]
