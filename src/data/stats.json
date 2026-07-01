@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T02:21:51.336Z",
+  "updatedAt": "2026-07-01T04:48:14.598Z",
   "individual": {
     "goals": [
       {
@@ -43,6 +43,13 @@
         "flag": "🇫🇷",
         "position": "",
         "value": 4
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 3
       },
       {
         "name": "Kai Havertz",
@@ -122,7 +129,7 @@
         "value": 3
       },
       {
-        "name": "Julián Quiñones",
+        "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
         "position": "",
@@ -309,13 +316,6 @@
         "flag": "🇩🇿",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Raúl Jiménez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Ladislav Krejcí",
