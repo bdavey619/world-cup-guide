@@ -181,53 +181,53 @@
         "y": 56
       },
       {
-        "name": "Cancelo",
-        "shortName": "Cancelo",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 63,
-        "y": 130
-      },
-      {
         "name": "Mendes",
         "shortName": "Mendes",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
-        "x": 161,
+        "x": 63,
         "y": 130
       },
       {
         "name": "Dias",
         "shortName": "Dias",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "3",
-        "x": 293,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Veiga",
         "shortName": "Veiga",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "13",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Cancelo",
+        "shortName": "Cancelo",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
         "x": 389,
         "y": 130
       },
       {
         "name": "Vitinha",
         "shortName": "Vitinha",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,46 +236,46 @@
         "y": 215
       },
       {
-        "name": "Neto",
-        "shortName": "Neto",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "Neves",
         "shortName": "Neves",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 104,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Leão",
         "shortName": "Leão",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "17",
-        "x": 226,
+        "x": 104,
         "y": 310
       },
       {
         "name": "Fernandes",
         "shortName": "Fernandes",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Neto",
+        "shortName": "Neto",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 348,
         "y": 310
       },
@@ -283,7 +283,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -520,16 +520,16 @@
       "date": "Jul 2",
       "starters": [
         "Costa",
-        "Cancelo",
-        "Mendes",
-        "Dias",
         "Veiga",
-        "Vitinha",
-        "Neto",
-        "Neves",
-        "Leão",
+        "Dias",
+        "Mendes",
+        "Cancelo",
         "Fernandes",
-        "Ronaldo"
+        "Vitinha",
+        "Neves",
+        "Ronaldo",
+        "Leão",
+        "Neto"
       ]
     }
   ]
