@@ -178,7 +178,7 @@
       {
         "name": "Laimer",
         "shortName": "Laimer",
-        "position": "D",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -189,7 +189,7 @@
       {
         "name": "Danso",
         "shortName": "Danso",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -200,7 +200,7 @@
       {
         "name": "Alaba",
         "shortName": "Alaba",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -211,7 +211,7 @@
       {
         "name": "Posch",
         "shortName": "Posch",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -220,20 +220,20 @@
         "y": 130
       },
       {
-        "name": "Wanner",
-        "shortName": "Wanner",
-        "position": "M",
+        "name": "Schlager",
+        "shortName": "Schlager",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "4",
         "x": 163,
         "y": 215
       },
       {
         "name": "Seiwald",
         "shortName": "Seiwald",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -242,35 +242,35 @@
         "y": 215
       },
       {
-        "name": "Schmid",
-        "shortName": "Schmid",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Schlager",
-        "shortName": "Schlager",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Sabitzer",
         "shortName": "Sabitzer",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Wanner",
+        "shortName": "Wanner",
+        "position": "AM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Schmid",
+        "shortName": "Schmid",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "18",
         "x": 348,
         "y": 310
       },
@@ -278,7 +278,7 @@
         "name": "Gregoritsch",
         "shortName": "Gregoritsch",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
@@ -512,16 +512,16 @@
       "date": "Jul 2",
       "starters": [
         "Schlager",
-        "Laimer",
-        "Danso",
         "Alaba",
+        "Danso",
+        "Laimer",
         "Posch",
         "Wanner",
-        "Seiwald",
-        "Schmid",
         "Schlager",
+        "Seiwald",
+        "Gregoritsch",
         "Sabitzer",
-        "Gregoritsch"
+        "Schmid"
       ]
     }
   ]

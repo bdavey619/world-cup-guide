@@ -179,31 +179,31 @@
         "y": 56
       },
       {
-        "name": "Cubarsí",
-        "shortName": "Cubarsí",
-        "position": "D",
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "24",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Porro",
-        "shortName": "Porro",
-        "position": "D",
+        "name": "Cubarsí",
+        "shortName": "Cubarsí",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "22",
         "x": 161,
         "y": 130
       },
       {
         "name": "Laporte",
         "shortName": "Laporte",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -212,20 +212,20 @@
         "y": 130
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "D",
+        "name": "Porro",
+        "shortName": "Porro",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "12",
         "x": 389,
         "y": 130
       },
       {
         "name": "Pedri",
         "shortName": "Pedri",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -236,7 +236,7 @@
       {
         "name": "Rodri",
         "shortName": "Rodri",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -247,7 +247,7 @@
       {
         "name": "Baena",
         "shortName": "Baena",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -256,24 +256,24 @@
         "y": 310
       },
       {
-        "name": "Yamal",
-        "shortName": "Yamal",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Olmo",
         "shortName": "Olmo",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Yamal",
+        "shortName": "Yamal",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "19",
         "x": 348,
         "y": 310
       },
@@ -281,7 +281,7 @@
         "name": "Oyarzabal",
         "shortName": "Oyarzabal",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
@@ -516,16 +516,16 @@
       "date": "Jul 2",
       "starters": [
         "Simón",
-        "Cubarsí",
-        "Porro",
         "Laporte",
+        "Cubarsí",
         "Cucurella",
+        "Porro",
+        "Olmo",
         "Pedri",
         "Rodri",
+        "Oyarzabal",
         "Baena",
-        "Yamal",
-        "Olmo",
-        "Oyarzabal"
+        "Yamal"
       ]
     }
   ],
