@@ -176,31 +176,31 @@
         "y": 56
       },
       {
-        "name": "Mwene",
-        "shortName": "Mwene",
-        "position": "LB",
+        "name": "Laimer",
+        "shortName": "Laimer",
+        "position": "D",
         "role": "def",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "20",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Lienhart",
-        "shortName": "Lienhart",
-        "position": "CD-R",
+        "name": "Danso",
+        "shortName": "Danso",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "3",
         "x": 161,
         "y": 130
       },
       {
         "name": "Alaba",
         "shortName": "Alaba",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -211,7 +211,7 @@
       {
         "name": "Posch",
         "shortName": "Posch",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -220,20 +220,20 @@
         "y": 130
       },
       {
-        "name": "Schlager",
-        "shortName": "Schlager",
-        "position": "LM",
+        "name": "Wanner",
+        "shortName": "Wanner",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "24",
         "x": 163,
         "y": 215
       },
       {
         "name": "Seiwald",
         "shortName": "Seiwald",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -242,46 +242,46 @@
         "y": 215
       },
       {
-        "name": "Sabitzer",
-        "shortName": "Sabitzer",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 104,
-        "y": 310
-      },
-      {
         "name": "Schmid",
         "shortName": "Schmid",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "18",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Schlager",
+        "shortName": "Schlager",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Laimer",
-        "shortName": "Laimer",
-        "position": "AM-R",
+        "name": "Sabitzer",
+        "shortName": "Sabitzer",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "9",
         "x": 348,
         "y": 310
       },
       {
-        "name": "Arnautovic",
-        "shortName": "Arnautovic",
+        "name": "Gregoritsch",
+        "shortName": "Gregoritsch",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "11",
         "x": 226,
         "y": 385
       }
@@ -450,7 +450,7 @@
   ],
   "population": "9.1M",
   "location": "Central Europe",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Algeria",
+  "pitchLabel": "Confirmed XI · Jul 2 vs Spain",
   "matches": [
     {
       "eventId": "760431",
@@ -504,6 +504,24 @@
         "Arnautovic",
         "Sabitzer",
         "Laimer"
+      ]
+    },
+    {
+      "eventId": "760497",
+      "opponent": "Spain",
+      "date": "Jul 2",
+      "starters": [
+        "Schlager",
+        "Laimer",
+        "Danso",
+        "Alaba",
+        "Posch",
+        "Wanner",
+        "Seiwald",
+        "Schmid",
+        "Schlager",
+        "Sabitzer",
+        "Gregoritsch"
       ]
     }
   ]

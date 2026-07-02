@@ -179,31 +179,31 @@
         "y": 56
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 63,
-        "y": 130
-      },
-      {
         "name": "Cubarsí",
         "shortName": "Cubarsí",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "22",
+        "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Porro",
+        "shortName": "Porro",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "12",
         "x": 161,
         "y": 130
       },
       {
         "name": "Laporte",
         "shortName": "Laporte",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -212,42 +212,42 @@
         "y": 130
       },
       {
-        "name": "Llorente",
-        "shortName": "Llorente",
-        "position": "RB",
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "24",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Rodri",
-        "shortName": "Rodri",
-        "position": "LM",
+        "name": "Pedri",
+        "shortName": "Pedri",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "20",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Unknown",
-        "shortName": "Unknown",
-        "position": "RM",
+        "name": "Rodri",
+        "shortName": "Rodri",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "16",
         "x": 289,
         "y": 215
       },
       {
         "name": "Baena",
         "shortName": "Baena",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -256,24 +256,24 @@
         "y": 310
       },
       {
-        "name": "Merino",
-        "shortName": "Merino",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Yamal",
         "shortName": "Yamal",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "19",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Olmo",
+        "shortName": "Olmo",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 348,
         "y": 310
       },
@@ -281,7 +281,7 @@
         "name": "Oyarzabal",
         "shortName": "Oyarzabal",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
@@ -457,7 +457,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 26 vs Uruguay",
+  "pitchLabel": "Confirmed XI · Jul 2 vs Austria",
   "matches": [
     {
       "eventId": "760428",
@@ -508,6 +508,24 @@
         "Oyarzabal",
         "Baena",
         "Yamal"
+      ]
+    },
+    {
+      "eventId": "760497",
+      "opponent": "Austria",
+      "date": "Jul 2",
+      "starters": [
+        "Simón",
+        "Cubarsí",
+        "Porro",
+        "Laporte",
+        "Cucurella",
+        "Pedri",
+        "Rodri",
+        "Baena",
+        "Yamal",
+        "Olmo",
+        "Oyarzabal"
       ]
     }
   ],
