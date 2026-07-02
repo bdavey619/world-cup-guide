@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '14",
     "manager": "Sergej Barbarez",
     "managerTenure": "2024–present",
-    "formation": "4-4-2",
+    "formation": "3-4-1-2",
     "winPct": 0.1,
     "advancePct": 66
   },
@@ -139,17 +139,6 @@
         "y": 56
       },
       {
-        "name": "Kolasinac",
-        "shortName": "Kolasinac",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Katic",
         "shortName": "Katic",
         "position": "CD-R",
@@ -157,52 +146,52 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 161,
-        "y": 148
+        "x": 104,
+        "y": 130
       },
       {
         "name": "Radeljic",
         "shortName": "Radeljic",
-        "position": "CD-L",
+        "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 293,
-        "y": 148
+        "x": 226,
+        "y": 130
       },
       {
-        "name": "Malic",
-        "shortName": "Malic",
-        "position": "RB",
+        "name": "Muharemovic",
+        "shortName": "Muharemovic",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
-        "x": 389,
-        "y": 148
+        "jersey": "4",
+        "x": 348,
+        "y": 130
       },
       {
-        "name": "Alajbegovic",
-        "shortName": "Alajbegovic",
+        "name": "Kolasinac",
+        "shortName": "Kolasinac",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "5",
         "x": 63,
-        "y": 256
+        "y": 215
       },
       {
-        "name": "Basic",
-        "shortName": "Basic",
+        "name": "Gigovic",
+        "shortName": "Gigovic",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "8",
         "x": 161,
-        "y": 256
+        "y": 215
       },
       {
         "name": "Sunjic",
@@ -213,40 +202,51 @@
         "isCaptain": false,
         "jersey": "14",
         "x": 293,
-        "y": 256
+        "y": 215
       },
       {
-        "name": "Bajraktarevic",
-        "shortName": "Bajraktarevic",
+        "name": "Dedic",
+        "shortName": "Dedic",
         "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 389,
+        "y": 215
+      },
+      {
+        "name": "Alajbegovic",
+        "shortName": "Alajbegovic",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 389,
-        "y": 256
-      },
-      {
-        "name": "Demirovic",
-        "shortName": "Demirovic",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 163,
-        "y": 375
+        "jersey": "19",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Dzeko",
         "shortName": "Dzeko",
-        "position": "CF-L",
+        "position": "CF-R",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
+        "x": 163,
+        "y": 385
+      },
+      {
+        "name": "Demirovic",
+        "shortName": "Demirovic",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "10",
         "x": 289,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -417,7 +417,7 @@
       "jersey": "19"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 24 vs Qatar",
+  "pitchLabel": "Confirmed XI · Jul 1 vs United States",
   "matches": [
     {
       "eventId": "760416",
@@ -471,6 +471,24 @@
         "Bajraktarevic",
         "Dzeko",
         "Demirovic"
+      ]
+    },
+    {
+      "eventId": "760494",
+      "opponent": "United States",
+      "date": "Jul 1",
+      "starters": [
+        "Vasilj",
+        "Radeljic",
+        "Muharemovic",
+        "Katic",
+        "Sunjic",
+        "Gigovic",
+        "Alajbegovic",
+        "Kolasinac",
+        "Dedic",
+        "Demirovic",
+        "Dzeko"
       ]
     }
   ],
