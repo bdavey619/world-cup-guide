@@ -64,7 +64,10 @@
   },
   "58": {
     "homeId": "united-states",
-    "awayId": "bosnia-herzegovina"
+    "awayId": "bosnia-herzegovina",
+    "homeGoals": 2,
+    "awayGoals": 0,
+    "winnerId": "united-states"
   },
   "59": {
     "homeId": "spain",
@@ -107,6 +110,7 @@
     "awayId": "england"
   },
   "70": {
-    "awayId": "belgium"
+    "awayId": "belgium",
+    "homeId": "united-states"
   }
 }

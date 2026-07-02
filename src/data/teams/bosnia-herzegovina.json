@@ -16,7 +16,7 @@
     "lastWCResult": "Groups '14",
     "manager": "Sergej Barbarez",
     "managerTenure": "2024–present",
-    "formation": "3-4-1-2",
+    "formation": "5-3-2",
     "winPct": 0.1,
     "advancePct": 66
   },
@@ -139,6 +139,17 @@
         "y": 56
       },
       {
+        "name": "Kolasinac",
+        "shortName": "Kolasinac",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 32,
+        "y": 148
+      },
+      {
         "name": "Katic",
         "shortName": "Katic",
         "position": "CD-R",
@@ -146,8 +157,8 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 104,
-        "y": 130
+        "x": 127,
+        "y": 148
       },
       {
         "name": "Muharemovic",
@@ -158,7 +169,7 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 226,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Radeljic",
@@ -168,19 +179,19 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
-        "x": 348,
-        "y": 130
+        "x": 325,
+        "y": 148
       },
       {
-        "name": "Kolasinac",
-        "shortName": "Kolasinac",
-        "position": "LM",
-        "role": "mid",
+        "name": "Dedic",
+        "shortName": "Dedic",
+        "position": "RB",
+        "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 63,
-        "y": 215
+        "jersey": "7",
+        "x": 420,
+        "y": 148
       },
       {
         "name": "Gigovic",
@@ -190,41 +201,30 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 161,
-        "y": 215
+        "x": 104,
+        "y": 256
       },
       {
         "name": "Sunjic",
         "shortName": "Sunjic",
-        "position": "CM-L",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 293,
-        "y": 215
-      },
-      {
-        "name": "Dedic",
-        "shortName": "Dedic",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 389,
-        "y": 215
+        "x": 226,
+        "y": 256
       },
       {
         "name": "Alajbegovic",
         "shortName": "Alajbegovic",
-        "position": "AM",
+        "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "19",
-        "x": 226,
-        "y": 310
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Dzeko",
@@ -235,7 +235,7 @@
         "isCaptain": false,
         "jersey": "11",
         "x": 163,
-        "y": 385
+        "y": 375
       },
       {
         "name": "Demirovic",
@@ -246,7 +246,7 @@
         "isCaptain": false,
         "jersey": "10",
         "x": 289,
-        "y": 385
+        "y": 375
       }
     ]
   },
@@ -482,11 +482,11 @@
         "Muharemovic",
         "Radeljic",
         "Katic",
-        "Sunjic",
-        "Gigovic",
-        "Alajbegovic",
         "Kolasinac",
         "Dedic",
+        "Sunjic",
+        "Alajbegovic",
+        "Gigovic",
         "Demirovic",
         "Dzeko"
       ]

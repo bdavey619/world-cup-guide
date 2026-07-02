@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T00:04:16.515Z",
+  "updatedAt": "2026-07-02T04:15:14.075Z",
   "individual": {
     "goals": [
       {
@@ -62,6 +62,13 @@
         "name": "Julián Quiñones",
         "team": "Mexico",
         "flag": "🇲🇽",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "",
         "value": 3
       },
@@ -139,13 +146,6 @@
         "name": "Cyle Larin",
         "team": "Canada",
         "flag": "🇨🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Folarin Balogun",
-        "team": "United States",
-        "flag": "🇺🇸",
         "position": "",
         "value": 2
       },
@@ -1112,6 +1112,13 @@
         "name": "Brian Cipenga",
         "team": "DR Congo",
         "flag": "🇨🇩",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Malik Tillman",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "",
         "value": 1
       }

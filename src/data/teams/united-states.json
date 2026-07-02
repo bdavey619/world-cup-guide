@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '22",
     "manager": "Mauricio Pochettino",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 2,
     "advancePct": 84
   },
@@ -187,7 +187,7 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Richards",
@@ -198,7 +198,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Ream",
@@ -209,7 +209,7 @@
         "isCaptain": false,
         "jersey": "13",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Freeman",
@@ -220,62 +220,51 @@
         "isCaptain": false,
         "jersey": "16",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Adams",
-        "shortName": "Adams",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 163,
-        "y": 215
+        "y": 148
       },
       {
         "name": "Tillman",
         "shortName": "Tillman",
-        "position": "RM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
-        "x": 289,
-        "y": 215
+        "x": 104,
+        "y": 256
       },
       {
-        "name": "Pulisic",
-        "shortName": "Pulisic",
-        "position": "AM-L",
+        "name": "Adams",
+        "shortName": "Adams",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "10",
-        "x": 104,
-        "y": 310
+        "jersey": "4",
+        "x": 226,
+        "y": 256
       },
       {
         "name": "McKennie",
         "shortName": "McKennie",
-        "position": "AM",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
-        "y": 310
+        "x": 348,
+        "y": 256
       },
       {
-        "name": "Dest",
-        "shortName": "Dest",
-        "position": "AM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
+        "name": "Pulisic",
+        "shortName": "Pulisic",
+        "position": "LF",
+        "role": "att",
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "2",
-        "x": 348,
-        "y": 310
+        "jersey": "10",
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Balogun",
@@ -286,7 +275,18 @@
         "isCaptain": false,
         "jersey": "20",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Dest",
+        "shortName": "Dest",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -523,9 +523,9 @@
         "Richards",
         "Robinson",
         "Freeman",
-        "McKennie",
         "Adams",
         "Tillman",
+        "McKennie",
         "Balogun",
         "Pulisic",
         "Dest"
