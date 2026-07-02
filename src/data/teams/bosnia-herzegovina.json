@@ -150,24 +150,24 @@
         "y": 130
       },
       {
-        "name": "Radeljic",
-        "shortName": "Radeljic",
+        "name": "Muharemovic",
+        "shortName": "Muharemovic",
         "position": "CD",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "4",
         "x": 226,
         "y": 130
       },
       {
-        "name": "Muharemovic",
-        "shortName": "Muharemovic",
+        "name": "Radeljic",
+        "shortName": "Radeljic",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "21",
         "x": 348,
         "y": 130
       },
@@ -479,8 +479,8 @@
       "date": "Jul 1",
       "starters": [
         "Vasilj",
-        "Radeljic",
         "Muharemovic",
+        "Radeljic",
         "Katic",
         "Sunjic",
         "Gigovic",
