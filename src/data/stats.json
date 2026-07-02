@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:45:42.190Z",
+  "updatedAt": "2026-07-02T21:49:48.965Z",
   "individual": {
     "goals": [
       {
@@ -41,6 +41,13 @@
         "name": "Vinícius Júnior",
         "team": "Brazil",
         "flag": "🇧🇷",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 4
       },
@@ -265,13 +272,6 @@
         "name": "Ayase Ueda",
         "team": "Japan",
         "flag": "🇯🇵",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "team": "Spain",
-        "flag": "🇪🇸",
         "position": "",
         "value": 2
       },
@@ -1119,6 +1119,13 @@
         "name": "Malik Tillman",
         "team": "United States",
         "flag": "🇺🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Pedro Porro",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 1
       }

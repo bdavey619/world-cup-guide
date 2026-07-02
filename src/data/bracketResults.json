@@ -71,7 +71,10 @@
   },
   "59": {
     "homeId": "spain",
-    "awayId": "austria"
+    "awayId": "austria",
+    "homeGoals": 3,
+    "awayGoals": 0,
+    "winnerId": "spain"
   },
   "60": {
     "homeId": "portugal",
@@ -108,6 +111,9 @@
   "68": {
     "homeId": "mexico",
     "awayId": "england"
+  },
+  "69": {
+    "awayId": "spain"
   },
   "70": {
     "awayId": "belgium",
