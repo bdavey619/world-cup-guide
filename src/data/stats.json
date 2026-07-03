@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:48:57.080Z",
+  "updatedAt": "2026-07-03T01:20:27.313Z",
   "individual": {
     "goals": [
       {
@@ -143,6 +143,13 @@
         "value": 3
       },
       {
+        "name": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 3
+      },
+      {
         "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
@@ -272,13 +279,6 @@
         "name": "Ayase Ueda",
         "team": "Japan",
         "flag": "🇯🇵",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Cristiano Ronaldo",
-        "team": "Portugal",
-        "flag": "🇵🇹",
         "position": "",
         "value": 2
       },
@@ -1128,6 +1128,20 @@
         "flag": "🇪🇸",
         "position": "",
         "value": 1
+      },
+      {
+        "name": "Ivan Perisic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
       }
     ],
     "assists": [
@@ -1840,21 +1854,36 @@
   ],
   "records": {
     "highestScoring": {
-      "goals": 6,
+      "goals": 5,
       "teams": [
         {
-          "team": "Canada",
-          "label": "Canada 6–0 Qatar",
-          "date": "Jun 18"
+          "team": "Netherlands",
+          "label": "Netherlands 5–1 Sweden",
+          "date": "Jun 20"
+        },
+        {
+          "team": "Portugal",
+          "label": "Portugal 5–0 Uzbekistan",
+          "date": "Jun 23"
+        },
+        {
+          "team": "Senegal",
+          "label": "Senegal 5–0 Iraq",
+          "date": "Jun 26"
+        },
+        {
+          "team": "Belgium",
+          "label": "New Zealand 1–5 Belgium",
+          "date": "Jun 26"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "Canada 6–0 Qatar",
-      "loser": "Qatar",
-      "winner": "Canada",
-      "margin": 6,
-      "date": "Jun 18"
+      "label": "Portugal 5–0 Uzbekistan",
+      "loser": "Uzbekistan",
+      "winner": "Portugal",
+      "margin": 5,
+      "date": "Jun 23"
     }
   }
 }
