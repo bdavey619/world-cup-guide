@@ -212,24 +212,24 @@
         "y": 215
       },
       {
-        "name": "O'Neill",
-        "shortName": "O'Neill",
+        "name": "Irvine",
+        "shortName": "Irvine",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "22",
         "x": 161,
         "y": 215
       },
       {
-        "name": "Irvine",
-        "shortName": "Irvine",
+        "name": "O'Neill",
+        "shortName": "O'Neill",
         "position": "CM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "13",
         "x": 293,
         "y": 215
       },
@@ -446,7 +446,7 @@
       "jersey": "17"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 25 vs Paraguay",
+  "pitchLabel": "Confirmed XI · Jul 3 vs Egypt",
   "matches": [
     {
       "eventId": "760421",
@@ -495,6 +495,24 @@
         "Circati",
         "Irvine",
         "O'Neill",
+        "Behich",
+        "Bos",
+        "Irankunda",
+        "Metcalfe",
+        "Volpato"
+      ]
+    },
+    {
+      "eventId": "760499",
+      "opponent": "Egypt",
+      "date": "Jul 3",
+      "starters": [
+        "Beach",
+        "Souttar",
+        "Herrington",
+        "Circati",
+        "O'Neill",
+        "Irvine",
         "Behich",
         "Bos",
         "Irankunda",

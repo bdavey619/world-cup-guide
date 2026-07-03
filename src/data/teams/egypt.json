@@ -143,35 +143,35 @@
         "y": 56
       },
       {
-        "name": "Fatouh",
-        "shortName": "Fatouh",
+        "name": "Hafez",
+        "shortName": "Hafez",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "15",
         "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Ibrahim",
+        "shortName": "Ibrahim",
+        "position": "CD-R",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 161,
         "y": 130
       },
       {
         "name": "Rabia",
         "shortName": "Rabia",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 161,
-        "y": 130
-      },
-      {
-        "name": "Abdelmoneim",
-        "shortName": "Abdelmoneim",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "5",
         "x": 293,
         "y": 130
       },
@@ -187,35 +187,35 @@
         "y": 130
       },
       {
-        "name": "Saber",
-        "shortName": "Saber",
+        "name": "Attia",
+        "shortName": "Attia",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "21",
+        "jersey": "19",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Lashin",
-        "shortName": "Lashin",
+        "name": "Fathy",
+        "shortName": "Fathy",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "14",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Trézéguet",
-        "shortName": "Trézéguet",
+        "name": "Zico",
+        "shortName": "Zico",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "11",
         "x": 104,
         "y": 310
       },
@@ -242,13 +242,13 @@
         "y": 310
       },
       {
-        "name": "Zico",
-        "shortName": "Zico",
+        "name": "Marmoush",
+        "shortName": "Marmoush",
         "position": "F",
         "role": "att",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "22",
         "x": 226,
         "y": 385
       }
@@ -421,7 +421,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 26 vs Iran",
+  "pitchLabel": "Confirmed XI · Jul 3 vs Australia",
   "matches": [
     {
       "eventId": "760426",
@@ -474,6 +474,24 @@
         "Lashin",
         "Zico",
         "Trézéguet",
+        "Ashour"
+      ]
+    },
+    {
+      "eventId": "760499",
+      "opponent": "Australia",
+      "date": "Jul 3",
+      "starters": [
+        "Shoubir",
+        "Rabia",
+        "Ibrahim",
+        "Hafez",
+        "Hany",
+        "Salah",
+        "Attia",
+        "Fathy",
+        "Marmoush",
+        "Zico",
         "Ashour"
       ]
     }
