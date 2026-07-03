@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '14",
     "manager": "Vladimir Petkovic",
     "managerTenure": "2023–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 0.2,
     "advancePct": 66
   },
@@ -151,26 +151,26 @@
   "pitch": {
     "players": [
       {
-        "name": "Benbot",
-        "shortName": "Benbot",
+        "name": "Zidane",
+        "shortName": "Zidane",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "23",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Hadjam",
-        "shortName": "Hadjam",
+        "name": "Aït-Nouri",
+        "shortName": "Aït-Nouri",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "15",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Mandi",
@@ -181,7 +181,7 @@
         "isCaptain": false,
         "jersey": "2",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Bensebaini",
@@ -192,7 +192,7 @@
         "isCaptain": false,
         "jersey": "21",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Belghali",
@@ -203,73 +203,73 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 389,
-        "y": 130
-      },
-      {
-        "name": "Bentaleb",
-        "shortName": "Bentaleb",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
-        "x": 163,
-        "y": 215
+        "y": 148
       },
       {
         "name": "Chaïbi",
         "shortName": "Chaïbi",
-        "position": "RM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
-        "x": 289,
-        "y": 215
+        "x": 104,
+        "y": 256
+      },
+      {
+        "name": "Bentaleb",
+        "shortName": "Bentaleb",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Zerrouki",
+        "shortName": "Zerrouki",
+        "position": "RM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Aouar",
         "shortName": "Aouar",
-        "position": "AM-L",
-        "role": "mid",
+        "position": "LF",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
         "x": 104,
-        "y": 310
+        "y": 375
       },
       {
         "name": "Maza",
         "shortName": "Maza",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Mahrez",
-        "shortName": "Mahrez",
-        "position": "AM-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 348,
-        "y": 310
-      },
-      {
-        "name": "Gouiri",
-        "shortName": "Gouiri",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "22",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Mahrez",
+        "shortName": "Mahrez",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -442,7 +442,7 @@
   ],
   "population": "46.2M",
   "location": "North Africa",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Austria",
+  "pitchLabel": "Confirmed XI · Jul 2 vs Switzerland",
   "matches": [
     {
       "eventId": "760433",
@@ -494,6 +494,24 @@
         "Bentaleb",
         "Chaïbi",
         "Gouiri",
+        "Aouar",
+        "Mahrez"
+      ]
+    },
+    {
+      "eventId": "760498",
+      "opponent": "Switzerland",
+      "date": "Jul 2",
+      "starters": [
+        "Zidane",
+        "Bensebaini",
+        "Mandi",
+        "Aït-Nouri",
+        "Belghali",
+        "Bentaleb",
+        "Chaïbi",
+        "Zerrouki",
+        "Maza",
         "Aouar",
         "Mahrez"
       ]

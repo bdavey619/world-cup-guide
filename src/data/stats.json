@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:20:27.313Z",
+  "updatedAt": "2026-07-03T05:01:47.631Z",
   "individual": {
     "goals": [
       {
@@ -167,6 +167,13 @@
         "name": "Maurício",
         "team": "Paraguay",
         "flag": "🇵🇾",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 2
       },
@@ -370,13 +377,6 @@
         "name": "Giovanni Reyna",
         "team": "United States",
         "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Breel Embolo",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
@@ -1140,6 +1140,13 @@
         "name": "Gonçalo Ramos",
         "team": "Portugal",
         "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Dan Ndoye",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       }

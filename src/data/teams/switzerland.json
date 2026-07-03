@@ -212,13 +212,13 @@
         "y": 130
       },
       {
-        "name": "Jaquez",
-        "shortName": "Jaquez",
+        "name": "Zakaria",
+        "shortName": "Zakaria",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "6",
         "x": 389,
         "y": 130
       },
@@ -267,13 +267,13 @@
         "y": 310
       },
       {
-        "name": "Sow",
-        "shortName": "Sow",
+        "name": "Ndoye",
+        "shortName": "Ndoye",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -457,7 +457,7 @@
       "jersey": "23"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 24 vs Canada",
+  "pitchLabel": "Confirmed XI · Jul 2 vs Algeria",
   "matches": [
     {
       "eventId": "760420",
@@ -511,6 +511,24 @@
         "Embolo",
         "Vargas",
         "Sow"
+      ]
+    },
+    {
+      "eventId": "760498",
+      "opponent": "Algeria",
+      "date": "Jul 2",
+      "starters": [
+        "Kobel",
+        "Akanji",
+        "Elvedi",
+        "Rodríguez",
+        "Zakaria",
+        "Manzambi",
+        "Xhaka",
+        "Freuler",
+        "Embolo",
+        "Vargas",
+        "Ndoye"
       ]
     }
   ],
