@@ -180,97 +180,97 @@
         "y": 56
       },
       {
-        "name": "Tagliafico",
-        "shortName": "Tagliafico",
-        "position": "LB",
+        "name": "Romero",
+        "shortName": "Romero",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "13",
         "x": 63,
         "y": 148
       },
       {
-        "name": "Otamendi",
-        "shortName": "Otamendi",
-        "position": "CD-R",
+        "name": "Martínez",
+        "shortName": "Martínez",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "19",
+        "jersey": "6",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Senesi",
-        "shortName": "Senesi",
-        "position": "CD-L",
+        "name": "Molina",
+        "shortName": "Molina",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "26",
         "x": 293,
         "y": 148
       },
       {
-        "name": "Palacios",
-        "shortName": "Palacios",
-        "position": "RB",
+        "name": "Medina",
+        "shortName": "Medina",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "25",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Lo Celso",
-        "shortName": "Lo Celso",
-        "position": "LM",
+        "name": "Mac Allister",
+        "shortName": "Mac Allister",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "20",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Paz",
-        "shortName": "Paz",
-        "position": "CM-R",
+        "name": "Almada",
+        "shortName": "Almada",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "16",
         "x": 161,
         "y": 256
       },
       {
-        "name": "Paredes",
-        "shortName": "Paredes",
-        "position": "CM-L",
+        "name": "De Paul",
+        "shortName": "De Paul",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "7",
         "x": 293,
         "y": 256
       },
       {
-        "name": "Simeone",
-        "shortName": "Simeone",
-        "position": "RM",
+        "name": "Fernández",
+        "shortName": "Fernández",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "24",
         "x": 389,
         "y": 256
       },
       {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -279,13 +279,13 @@
         "y": 375
       },
       {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
-        "position": "CF-L",
+        "name": "Messi",
+        "shortName": "Messi",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "10",
         "x": 289,
         "y": 375
       }
@@ -454,7 +454,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Jordan",
+  "pitchLabel": "Confirmed XI · Jul 3 vs Cape Verde",
   "matches": [
     {
       "eventId": "760433",
@@ -508,6 +508,24 @@
         "Simeone",
         "Álvarez",
         "Martínez"
+      ]
+    },
+    {
+      "eventId": "760500",
+      "opponent": "Cape Verde",
+      "date": "Jul 3",
+      "starters": [
+        "Martínez",
+        "Romero",
+        "Martínez",
+        "Molina",
+        "Medina",
+        "Mac Allister",
+        "Almada",
+        "De Paul",
+        "Fernández",
+        "Martínez",
+        "Messi"
       ]
     }
   ]

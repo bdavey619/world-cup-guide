@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:42:57.633Z",
+  "updatedAt": "2026-07-03T21:44:56.574Z",
   "individual": {
     "goals": [
       {
@@ -213,6 +213,13 @@
         "value": 2
       },
       {
+        "name": "Emam Ashour",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Maxi Araújo",
         "team": "Uruguay",
         "flag": "🇺🇾",
@@ -290,6 +297,13 @@
         "value": 2
       },
       {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Soufiane Rahimi",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -314,6 +328,13 @@
         "name": "Pape Gueye",
         "team": "Senegal",
         "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Mahmoud Saber",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "",
         "value": 2
       },
@@ -468,13 +489,6 @@
         "name": "Mattias Svanberg",
         "team": "Sweden",
         "flag": "🇸🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Emam Ashour",
-        "team": "Egypt",
-        "flag": "🇪🇬",
         "position": "",
         "value": 1
       },
@@ -676,13 +690,6 @@
       },
       {
         "name": "Mostafa Zico",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mohamed Salah",
         "team": "Egypt",
         "flag": "🇪🇬",
         "position": "",
@@ -909,13 +916,6 @@
         "name": "Álex Baena",
         "team": "Spain",
         "flag": "🇪🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mahmoud Saber",
-        "team": "Egypt",
-        "flag": "🇪🇬",
         "position": "",
         "value": 1
       },
@@ -1147,6 +1147,34 @@
         "name": "Dan Ndoye",
         "team": "Switzerland",
         "flag": "🇨🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jackson Irvine",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ramy Rabia",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Awer Mabil",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hossam Abdelmaguid",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "",
         "value": 1
       }
