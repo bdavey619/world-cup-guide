@@ -99,7 +99,10 @@
   },
   "63": {
     "homeId": "argentina",
-    "awayId": "cape-verde"
+    "awayId": "cape-verde",
+    "homeGoals": 3,
+    "awayGoals": 2,
+    "winnerId": "argentina"
   },
   "64": {
     "homeId": "colombia",
@@ -130,7 +133,8 @@
     "homeId": "united-states"
   },
   "71": {
-    "awayId": "egypt"
+    "awayId": "egypt",
+    "homeId": "argentina"
   },
   "72": {
     "homeId": "switzerland"

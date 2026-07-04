@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-03T23:42:31.547Z",
+  "updatedAt": "2026-07-04T01:15:56.120Z",
   "individual": {
     "goals": [
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 6
-      },
       {
         "name": "Lionel Messi",
         "team": "Argentina",
         "flag": "🇦🇷",
+        "position": "",
+        "value": 7
+      },
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 6
       },
@@ -1175,6 +1175,27 @@
         "name": "Hossam Abdelmaguid",
         "team": "Egypt",
         "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Deroy Duarte",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Lisandro Martínez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Sidny Lopes Cabral",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
         "position": "",
         "value": 1
       }

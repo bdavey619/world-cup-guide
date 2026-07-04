@@ -168,53 +168,53 @@
         "y": 56
       },
       {
-        "name": "Machado",
-        "shortName": "Machado",
-        "position": "LB",
+        "name": "Lucumí",
+        "shortName": "Lucumí",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "3",
         "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Muñoz",
+        "shortName": "Muñoz",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "2",
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Mojica",
+        "shortName": "Mojica",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "17",
+        "x": 293,
         "y": 148
       },
       {
         "name": "Sánchez",
         "shortName": "Sánchez",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Lucumí",
-        "shortName": "Lucumí",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 293,
-        "y": 148
-      },
-      {
-        "name": "Arias",
-        "shortName": "Arias",
-        "position": "RB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
         "x": 389,
         "y": 148
       },
       {
         "name": "Puerta",
         "shortName": "Puerta",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -225,7 +225,7 @@
       {
         "name": "Lerma",
         "shortName": "Lerma",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,24 +236,13 @@
       {
         "name": "Arias",
         "shortName": "Arias",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
         "x": 348,
         "y": 256
-      },
-      {
-        "name": "Díaz",
-        "shortName": "Díaz",
-        "position": "LF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 375
       },
       {
         "name": "Córdoba",
@@ -263,17 +252,28 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "9",
-        "x": 226,
+        "x": 104,
         "y": 375
       },
       {
         "name": "Rodríguez",
         "shortName": "Rodríguez",
-        "position": "RF",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Díaz",
+        "shortName": "Díaz",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -448,7 +448,7 @@
   ],
   "population": "52.2M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Portugal",
+  "pitchLabel": "Confirmed XI · Jul 3 vs Ghana",
   "matches": [
     {
       "eventId": "760459",
@@ -484,6 +484,24 @@
         "Córdoba",
         "Díaz",
         "Rodríguez"
+      ]
+    },
+    {
+      "eventId": "760501",
+      "opponent": "Ghana",
+      "date": "Jul 3",
+      "starters": [
+        "Vargas",
+        "Lucumí",
+        "Muñoz",
+        "Mojica",
+        "Sánchez",
+        "Puerta",
+        "Lerma",
+        "Arias",
+        "Córdoba",
+        "Rodríguez",
+        "Díaz"
       ]
     }
   ]

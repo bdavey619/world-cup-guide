@@ -147,20 +147,20 @@
   "pitch": {
     "players": [
       {
-        "name": "Asare",
-        "shortName": "Asare",
+        "name": "Zigi",
+        "shortName": "Zigi",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
+        "jersey": "1",
         "x": 226,
         "y": 56
       },
       {
         "name": "Mensah",
         "shortName": "Mensah",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -169,20 +169,20 @@
         "y": 130
       },
       {
-        "name": "Adjetey",
-        "shortName": "Adjetey",
-        "position": "CD-R",
+        "name": "Senaya",
+        "shortName": "Senaya",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "26",
         "x": 161,
         "y": 130
       },
       {
         "name": "Luckassen",
         "shortName": "Luckassen",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -191,68 +191,68 @@
         "y": 130
       },
       {
-        "name": "Senaya",
-        "shortName": "Senaya",
-        "position": "RB",
+        "name": "Opoku",
+        "shortName": "Opoku",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "18",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Partey",
-        "shortName": "Partey",
-        "position": "DM",
+        "name": "Semenyo",
+        "shortName": "Semenyo",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "11",
         "x": 226,
         "y": 215
       },
       {
-        "name": "Sulemana",
-        "shortName": "Sulemana",
-        "position": "LM",
+        "name": "Williams",
+        "shortName": "Williams",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "19",
         "x": 63,
         "y": 310
       },
       {
-        "name": "Owusu",
-        "shortName": "Owusu",
-        "position": "CM-R",
+        "name": "Yirenkyi",
+        "shortName": "Yirenkyi",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "15",
+        "jersey": "3",
         "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Partey",
+        "shortName": "Partey",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "5",
+        "x": 293,
         "y": 310
       },
       {
         "name": "Sibo",
         "shortName": "Sibo",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 293,
-        "y": 310
-      },
-      {
-        "name": "Semenyo",
-        "shortName": "Semenyo",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "11",
         "x": 389,
         "y": 310
       },
@@ -260,7 +260,7 @@
         "name": "Ayew",
         "shortName": "Ayew",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
@@ -438,7 +438,7 @@
   ],
   "population": "33.5M",
   "location": "West Africa",
-  "pitchLabel": "Confirmed XI · Jun 27 vs Croatia",
+  "pitchLabel": "Confirmed XI · Jul 3 vs Colombia",
   "matches": [
     {
       "eventId": "760434",
@@ -491,6 +491,24 @@
         "Owusu",
         "Sulemana",
         "Semenyo",
+        "Ayew"
+      ]
+    },
+    {
+      "eventId": "760501",
+      "opponent": "Colombia",
+      "date": "Jul 3",
+      "starters": [
+        "Zigi",
+        "Mensah",
+        "Senaya",
+        "Luckassen",
+        "Opoku",
+        "Semenyo",
+        "Williams",
+        "Yirenkyi",
+        "Partey",
+        "Sibo",
         "Ayew"
       ]
     }
