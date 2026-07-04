@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '10",
     "manager": "Gustavo Alfaro",
     "managerTenure": "2023–present",
-    "formation": "4-4-2",
+    "formation": "5-4-1",
     "winPct": 0.2,
     "advancePct": 65
   },
@@ -181,111 +181,111 @@
       {
         "name": "Alonso",
         "shortName": "Alonso",
-        "position": "LB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 63,
+        "x": 32,
         "y": 148
       },
       {
         "name": "Gómez",
         "shortName": "Gómez",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 161,
-        "y": 148
-      },
-      {
-        "name": "Canale",
-        "shortName": "Canale",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 293,
+        "x": 127,
         "y": 148
       },
       {
         "name": "Cáceres",
         "shortName": "Cáceres",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "4",
-        "x": 389,
+        "x": 226,
         "y": 148
       },
       {
-        "name": "Galarza",
-        "shortName": "Galarza",
-        "position": "LM",
-        "role": "mid",
+        "name": "Alderete",
+        "shortName": "Alderete",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
-        "x": 63,
-        "y": 256
+        "jersey": "3",
+        "x": 325,
+        "y": 148
       },
       {
-        "name": "Bobadilla",
-        "shortName": "Bobadilla",
-        "position": "CM-R",
-        "role": "mid",
+        "name": "Velázquez",
+        "shortName": "Velázquez",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
-        "x": 161,
-        "y": 256
+        "jersey": "2",
+        "x": 420,
+        "y": 148
       },
       {
         "name": "Cubas",
         "shortName": "Cubas",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 293,
+        "x": 63,
         "y": 256
       },
       {
         "name": "Almirón",
         "shortName": "Almirón",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Gómez",
+        "shortName": "Gómez",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "8",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Galarza",
+        "shortName": "Galarza",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
         "x": 389,
         "y": 256
       },
       {
-        "name": "Ávalos",
-        "shortName": "Ávalos",
-        "position": "CF-R",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "21",
-        "x": 163,
-        "y": 375
-      },
-      {
         "name": "Enciso",
         "shortName": "Enciso",
-        "position": "CF-L",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "19",
-        "x": 289,
+        "x": 226,
         "y": 375
       }
     ]
@@ -457,7 +457,7 @@
       "jersey": "7"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 29 vs Germany",
+  "pitchLabel": "Confirmed XI · Jul 4 vs France",
   "matches": [
     {
       "eventId": "760417",
@@ -529,6 +529,24 @@
         "Almirón",
         "Enciso",
         "Ávalos"
+      ]
+    },
+    {
+      "eventId": "760503",
+      "opponent": "France",
+      "date": "Jul 4",
+      "starters": [
+        "Gill",
+        "Alonso",
+        "Gómez",
+        "Cáceres",
+        "Alderete",
+        "Velázquez",
+        "Cubas",
+        "Almirón",
+        "Gómez",
+        "Galarza",
+        "Enciso"
       ]
     }
   ],

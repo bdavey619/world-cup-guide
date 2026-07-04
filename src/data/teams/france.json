@@ -187,20 +187,20 @@
         "y": 56
       },
       {
-        "name": "Digne",
-        "shortName": "Digne",
-        "position": "LB",
+        "name": "Saliba",
+        "shortName": "Saliba",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "17",
         "x": 63,
         "y": 130
       },
       {
         "name": "Upamecano",
         "shortName": "Upamecano",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -209,20 +209,20 @@
         "y": 130
       },
       {
-        "name": "Saliba",
-        "shortName": "Saliba",
-        "position": "CD-L",
+        "name": "Digne",
+        "shortName": "Digne",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
         "name": "Koundé",
         "shortName": "Koundé",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -231,42 +231,42 @@
         "y": 130
       },
       {
-        "name": "Rabiot",
-        "shortName": "Rabiot",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "14",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Tchouaméni",
-        "shortName": "Tchouaméni",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "Barcola",
         "shortName": "Barcola",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
+        "x": 163,
+        "y": 215
+      },
+      {
+        "name": "Koné",
+        "shortName": "Koné",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 289,
+        "y": 215
+      },
+      {
+        "name": "Dembélé",
+        "shortName": "Dembélé",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 104,
         "y": 310
       },
       {
         "name": "Olise",
         "shortName": "Olise",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -275,13 +275,13 @@
         "y": 310
       },
       {
-        "name": "Dembélé",
-        "shortName": "Dembélé",
-        "position": "AM-R",
+        "name": "Rabiot",
+        "shortName": "Rabiot",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "14",
         "x": 348,
         "y": 310
       },
@@ -289,7 +289,7 @@
         "name": "Mbappé",
         "shortName": "Mbappé",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
@@ -467,7 +467,7 @@
   ],
   "population": "68.4M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jun 30 vs Sweden",
+  "pitchLabel": "Confirmed XI · Jul 4 vs Paraguay",
   "matches": [
     {
       "eventId": "760432",
@@ -539,6 +539,24 @@
         "Mbappé",
         "Barcola",
         "Dembélé"
+      ]
+    },
+    {
+      "eventId": "760503",
+      "opponent": "Paraguay",
+      "date": "Jul 4",
+      "starters": [
+        "Maignan",
+        "Saliba",
+        "Upamecano",
+        "Digne",
+        "Koundé",
+        "Barcola",
+        "Koné",
+        "Dembélé",
+        "Olise",
+        "Rabiot",
+        "Mbappé"
       ]
     }
   ]
