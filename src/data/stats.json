@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-04T22:31:56.106Z",
+  "updatedAt": "2026-07-04T23:34:25.352Z",
   "individual": {
     "goals": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 7
+      },
       {
         "name": "Lionel Messi",
         "team": "Argentina",
         "flag": "🇦🇷",
         "position": "",
         "value": 7
-      },
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 6
       },
       {
         "name": "Erling Haaland",
