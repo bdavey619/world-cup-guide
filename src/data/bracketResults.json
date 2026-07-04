@@ -106,7 +106,10 @@
   },
   "64": {
     "homeId": "colombia",
-    "awayId": "ghana"
+    "awayId": "ghana",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "winnerId": "colombia"
   },
   "65": {
     "homeId": "canada",
@@ -137,6 +140,7 @@
     "homeId": "argentina"
   },
   "72": {
-    "homeId": "switzerland"
+    "homeId": "switzerland",
+    "awayId": "colombia"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:15:56.120Z",
+  "updatedAt": "2026-07-04T04:53:24.917Z",
   "individual": {
     "goals": [
       {
@@ -1196,6 +1196,13 @@
         "name": "Sidny Lopes Cabral",
         "team": "Cape Verde",
         "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jhon Arias",
+        "team": "Colombia",
+        "flag": "🇨🇴",
         "position": "",
         "value": 1
       }
