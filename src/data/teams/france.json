@@ -187,20 +187,20 @@
         "y": 56
       },
       {
-        "name": "Saliba",
-        "shortName": "Saliba",
-        "position": "D",
+        "name": "Digne",
+        "shortName": "Digne",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "3",
         "x": 63,
         "y": 130
       },
       {
         "name": "Upamecano",
         "shortName": "Upamecano",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -209,20 +209,20 @@
         "y": 130
       },
       {
-        "name": "Digne",
-        "shortName": "Digne",
-        "position": "D",
+        "name": "Saliba",
+        "shortName": "Saliba",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "17",
         "x": 293,
         "y": 130
       },
       {
         "name": "Koundé",
         "shortName": "Koundé",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -231,20 +231,20 @@
         "y": 130
       },
       {
-        "name": "Barcola",
-        "shortName": "Barcola",
-        "position": "M",
+        "name": "Rabiot",
+        "shortName": "Rabiot",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "14",
         "x": 163,
         "y": 215
       },
       {
         "name": "Koné",
         "shortName": "Koné",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -253,20 +253,20 @@
         "y": 215
       },
       {
-        "name": "Dembélé",
-        "shortName": "Dembélé",
-        "position": "M",
+        "name": "Barcola",
+        "shortName": "Barcola",
+        "position": "AM-L",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "12",
         "x": 104,
         "y": 310
       },
       {
         "name": "Olise",
         "shortName": "Olise",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -275,13 +275,13 @@
         "y": 310
       },
       {
-        "name": "Rabiot",
-        "shortName": "Rabiot",
-        "position": "M",
+        "name": "Dembélé",
+        "shortName": "Dembélé",
+        "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "7",
         "x": 348,
         "y": 310
       },
@@ -289,7 +289,7 @@
         "name": "Mbappé",
         "shortName": "Mbappé",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
@@ -551,12 +551,12 @@
         "Upamecano",
         "Digne",
         "Koundé",
-        "Barcola",
-        "Koné",
-        "Dembélé",
         "Olise",
         "Rabiot",
-        "Mbappé"
+        "Koné",
+        "Mbappé",
+        "Barcola",
+        "Dembélé"
       ]
     }
   ]
