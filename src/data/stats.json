@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:16:34.187Z",
+  "updatedAt": "2026-07-04T19:39:34.090Z",
   "individual": {
     "goals": [
       {
@@ -146,6 +146,13 @@
         "name": "Cristiano Ronaldo",
         "team": "Portugal",
         "flag": "🇵🇹",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 3
       },
@@ -304,13 +311,6 @@
         "value": 2
       },
       {
-        "name": "Soufiane Rahimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Nicolas Pépé",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
@@ -363,6 +363,13 @@
         "name": "Youri Tielemans",
         "team": "Belgium",
         "flag": "🇧🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 2
       },

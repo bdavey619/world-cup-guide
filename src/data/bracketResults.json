@@ -113,7 +113,10 @@
   },
   "65": {
     "homeId": "canada",
-    "awayId": "morocco"
+    "awayId": "morocco",
+    "homeGoals": 0,
+    "awayGoals": 3,
+    "winnerId": "morocco"
   },
   "66": {
     "homeId": "paraguay",
@@ -142,5 +145,8 @@
   "72": {
     "homeId": "switzerland",
     "awayId": "colombia"
+  },
+  "73": {
+    "homeId": "morocco"
   }
 }
