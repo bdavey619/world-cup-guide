@@ -145,42 +145,42 @@
         "y": 56
       },
       {
-        "name": "Laryea",
-        "shortName": "Laryea",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 63,
-        "y": 148
-      },
-      {
         "name": "Bombito",
         "shortName": "Bombito",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Laryea",
+        "shortName": "Laryea",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
         "x": 161,
         "y": 148
       },
       {
-        "name": "Cornelius",
-        "shortName": "Cornelius",
-        "position": "CD-L",
+        "name": "de Fougerolles",
+        "shortName": "de Fougerolles",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "13",
+        "jersey": "4",
         "x": 293,
         "y": 148
       },
       {
         "name": "Johnston",
         "shortName": "Johnston",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -189,53 +189,53 @@
         "y": 148
       },
       {
-        "name": "Millar",
-        "shortName": "Millar",
-        "position": "LM",
+        "name": "Ahmed",
+        "shortName": "Ahmed",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "20",
         "x": 63,
-        "y": 256
-      },
-      {
-        "name": "Saliba",
-        "shortName": "Saliba",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "25",
-        "x": 161,
-        "y": 256
-      },
-      {
-        "name": "Eustáquio",
-        "shortName": "Eustáquio",
-        "position": "CM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 293,
         "y": 256
       },
       {
         "name": "Buchanan",
         "shortName": "Buchanan",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "17",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Sigur",
+        "shortName": "Sigur",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "Eustáquio",
+        "shortName": "Eustáquio",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 389,
         "y": 256
       },
       {
         "name": "David",
         "shortName": "David",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -246,7 +246,7 @@
       {
         "name": "Oluwaseyi",
         "shortName": "Oluwaseyi",
-        "position": "CF-L",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -423,7 +423,7 @@
       "jersey": "24"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 28 vs South Africa",
+  "pitchLabel": "Confirmed XI · Jul 4 vs Morocco",
   "matches": [
     {
       "eventId": "760416",
@@ -495,6 +495,24 @@
         "Buchanan",
         "Oluwaseyi",
         "David"
+      ]
+    },
+    {
+      "eventId": "760502",
+      "opponent": "Morocco",
+      "date": "Jul 4",
+      "starters": [
+        "Crépeau",
+        "Bombito",
+        "Laryea",
+        "de Fougerolles",
+        "Johnston",
+        "Ahmed",
+        "Buchanan",
+        "Sigur",
+        "Eustáquio",
+        "David",
+        "Oluwaseyi"
       ]
     }
   ],

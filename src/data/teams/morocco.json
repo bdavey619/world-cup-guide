@@ -181,42 +181,42 @@
         "y": 56
       },
       {
-        "name": "Mazraoui",
-        "shortName": "Mazraoui",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
-        "x": 63,
-        "y": 130
-      },
-      {
         "name": "Diop",
         "shortName": "Diop",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
+        "x": 63,
+        "y": 130
+      },
+      {
+        "name": "Halhal",
+        "shortName": "Halhal",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
         "x": 161,
         "y": 130
       },
       {
-        "name": "Riad",
-        "shortName": "Riad",
-        "position": "CD-L",
+        "name": "Mazraoui",
+        "shortName": "Mazraoui",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
         "name": "Hakimi",
         "shortName": "Hakimi",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -227,7 +227,7 @@
       {
         "name": "El Aynaoui",
         "shortName": "El Aynaoui",
-        "position": "LM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,46 +236,46 @@
         "y": 215
       },
       {
-        "name": "Bouaddi",
-        "shortName": "Bouaddi",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "El Khannouss",
         "shortName": "El Khannouss",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "23",
-        "x": 104,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Ounahi",
         "shortName": "Ounahi",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
+        "x": 104,
         "y": 310
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Bouaddi",
+        "shortName": "Bouaddi",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 348,
         "y": 310
       },
@@ -283,7 +283,7 @@
         "name": "Saibari",
         "shortName": "Saibari",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
@@ -459,7 +459,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 29 vs Netherlands",
+  "pitchLabel": "Confirmed XI · Jul 4 vs Canada",
   "matches": [
     {
       "eventId": "760419",
@@ -531,6 +531,24 @@
         "Saibari",
         "El Khannouss",
         "Díaz"
+      ]
+    },
+    {
+      "eventId": "760502",
+      "opponent": "Canada",
+      "date": "Jul 4",
+      "starters": [
+        "Bounou",
+        "Diop",
+        "Halhal",
+        "Mazraoui",
+        "Hakimi",
+        "El Aynaoui",
+        "El Khannouss",
+        "Ounahi",
+        "Díaz",
+        "Bouaddi",
+        "Saibari"
       ]
     }
   ],
