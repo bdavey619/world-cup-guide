@@ -181,42 +181,42 @@
         "y": 56
       },
       {
+        "name": "Mazraoui",
+        "shortName": "Mazraoui",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "3",
+        "x": 63,
+        "y": 130
+      },
+      {
         "name": "Diop",
         "shortName": "Diop",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 63,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Halhal",
         "shortName": "Halhal",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
-        "x": 161,
-        "y": 130
-      },
-      {
-        "name": "Mazraoui",
-        "shortName": "Mazraoui",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "3",
         "x": 293,
         "y": 130
       },
       {
         "name": "Hakimi",
         "shortName": "Hakimi",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -227,7 +227,7 @@
       {
         "name": "El Aynaoui",
         "shortName": "El Aynaoui",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -236,46 +236,46 @@
         "y": 215
       },
       {
-        "name": "El Khannouss",
-        "shortName": "El Khannouss",
-        "position": "M",
+        "name": "Bouaddi",
+        "shortName": "Bouaddi",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "6",
         "x": 289,
         "y": 215
       },
       {
+        "name": "El Khannouss",
+        "shortName": "El Khannouss",
+        "position": "AM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "23",
+        "x": 104,
+        "y": 310
+      },
+      {
         "name": "Ounahi",
         "shortName": "Ounahi",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "8",
-        "x": 104,
+        "x": 226,
         "y": 310
       },
       {
         "name": "Díaz",
         "shortName": "Díaz",
-        "position": "M",
+        "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "10",
-        "x": 226,
-        "y": 310
-      },
-      {
-        "name": "Bouaddi",
-        "shortName": "Bouaddi",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
         "x": 348,
         "y": 310
       },
@@ -283,7 +283,7 @@
         "name": "Saibari",
         "shortName": "Saibari",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
@@ -539,16 +539,16 @@
       "date": "Jul 4",
       "starters": [
         "Bounou",
-        "Diop",
         "Halhal",
+        "Diop",
         "Mazraoui",
         "Hakimi",
-        "El Aynaoui",
-        "El Khannouss",
         "Ounahi",
-        "Díaz",
+        "El Aynaoui",
         "Bouaddi",
-        "Saibari"
+        "Saibari",
+        "El Khannouss",
+        "Díaz"
       ]
     }
   ],
