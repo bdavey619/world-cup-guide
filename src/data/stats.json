@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T07:33:38.989Z",
+  "updatedAt": "2026-07-04T09:39:47.006Z",
   "individual": {
     "goals": [
       {
@@ -1300,6 +1300,13 @@
         "value": 2
       },
       {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Julio Enciso",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -1370,13 +1377,6 @@
         "value": 2
       },
       {
-        "name": "Mohamed Salah",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "F",
-        "value": 2
-      },
-      {
         "name": "Nathan Saliba",
         "team": "Canada",
         "flag": "🇨🇦",
@@ -1404,8 +1404,8 @@
       "gf": 8,
       "ga": 1,
       "cleanSheets": 2,
-      "possession": 62,
-      "yellowCards": 2,
+      "possession": 64.2,
+      "yellowCards": 3,
       "redCards": 0
     },
     {
@@ -1447,9 +1447,9 @@
       "gp": 3,
       "gf": 4,
       "ga": 1,
-      "cleanSheets": 2,
-      "possession": 60.2,
-      "yellowCards": 4,
+      "cleanSheets": 3,
+      "possession": 60.5,
+      "yellowCards": 6,
       "redCards": 0
     },
     {
@@ -1712,7 +1712,7 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 2,
-      "possession": 37.7,
+      "possession": 41,
       "yellowCards": 5,
       "redCards": 0
     },
@@ -1778,8 +1778,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 2,
-      "possession": 40.6,
-      "yellowCards": 4,
+      "possession": 41.6,
+      "yellowCards": 5,
       "redCards": 0
     },
     {
@@ -1789,8 +1789,8 @@
       "gf": 5,
       "ga": 3,
       "cleanSheets": 0,
-      "possession": 56.2,
-      "yellowCards": 6,
+      "possession": 57.4,
+      "yellowCards": 8,
       "redCards": 0
     },
     {
@@ -1888,8 +1888,8 @@
       "gf": 2,
       "ga": 2,
       "cleanSheets": 2,
-      "possession": 36,
-      "yellowCards": 3,
+      "possession": 36.9,
+      "yellowCards": 6,
       "redCards": 0
     },
     {
