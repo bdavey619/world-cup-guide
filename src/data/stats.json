@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:34:25.352Z",
+  "updatedAt": "2026-07-05T01:19:11.693Z",
   "individual": {
     "goals": [
       {
@@ -1926,11 +1926,6 @@
     "highestScoring": {
       "goals": 5,
       "teams": [
-        {
-          "team": "Netherlands",
-          "label": "Netherlands 5–1 Sweden",
-          "date": "Jun 20"
-        },
         {
           "team": "Portugal",
           "label": "Portugal 5–0 Uzbekistan",
