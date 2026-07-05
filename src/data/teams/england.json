@@ -213,13 +213,13 @@
         "y": 130
       },
       {
-        "name": "Spence",
-        "shortName": "Spence",
+        "name": "Quansah",
+        "shortName": "Quansah",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "26",
         "x": 389,
         "y": 130
       },
@@ -246,13 +246,13 @@
         "y": 215
       },
       {
-        "name": "Rashford",
-        "shortName": "Rashford",
+        "name": "Gordon",
+        "shortName": "Gordon",
         "position": "AM-L",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "18",
         "x": 104,
         "y": 310
       },
@@ -268,13 +268,13 @@
         "y": 310
       },
       {
-        "name": "Madueke",
-        "shortName": "Madueke",
+        "name": "Saka",
+        "shortName": "Saka",
         "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "7",
         "x": 348,
         "y": 310
       },
@@ -460,7 +460,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jul 1 vs Congo DR",
+  "pitchLabel": "Confirmed XI · Jul 5 vs Mexico",
   "matches": [
     {
       "eventId": "760437",
@@ -532,6 +532,24 @@
         "Kane",
         "Rashford",
         "Madueke"
+      ]
+    },
+    {
+      "eventId": "760505",
+      "opponent": "Mexico",
+      "date": "Jul 5",
+      "starters": [
+        "Pickford",
+        "Guéhi",
+        "Konsa",
+        "O'Reilly",
+        "Quansah",
+        "Bellingham",
+        "Rice",
+        "Anderson",
+        "Kane",
+        "Gordon",
+        "Saka"
       ]
     }
   ]

@@ -289,7 +289,7 @@
       }
     ]
   },
-  "pitchLabel": "Confirmed XI · Jun 30 vs Ecuador",
+  "pitchLabel": "Confirmed XI · Jul 5 vs England",
   "squad": [
     {
       "name": "Guillermo Ochoa",
@@ -516,6 +516,24 @@
       "eventId": "760491",
       "opponent": "Ecuador",
       "date": "Jun 30",
+      "starters": [
+        "Rangel",
+        "Vásquez",
+        "Montes",
+        "Gallardo",
+        "Sánchez",
+        "Lira",
+        "Romo",
+        "Mora",
+        "Jiménez",
+        "Quiñones",
+        "Alvarado"
+      ]
+    },
+    {
+      "eventId": "760505",
+      "opponent": "England",
+      "date": "Jul 5",
       "starters": [
         "Rangel",
         "Vásquez",
