@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:14:08.772Z",
+  "updatedAt": "2026-07-05T22:13:39.622Z",
   "individual": {
     "goals": [
       {
@@ -10,18 +10,18 @@
         "value": 7
       },
       {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 7
+      },
+      {
         "name": "Lionel Messi",
         "team": "Argentina",
         "flag": "🇦🇷",
         "position": "",
         "value": 7
-      },
-      {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 5
       },
       {
         "name": "Harry Kane",
@@ -1210,6 +1210,13 @@
         "name": "Jhon Arias",
         "team": "Colombia",
         "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Neymar",
+        "team": "Brazil",
+        "flag": "🇧🇷",
         "position": "",
         "value": 1
       }
