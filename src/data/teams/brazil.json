@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Carlo Ancelotti",
     "managerTenure": "2024–present",
-    "formation": "4-3-3",
+    "formation": "4-4-2",
     "winPct": 7,
     "advancePct": 97
   },
@@ -225,69 +225,69 @@
         "y": 148
       },
       {
-        "name": "Paquetá",
-        "shortName": "Paquetá",
+        "name": "Martinelli",
+        "shortName": "Martinelli",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
-        "x": 104,
-        "y": 256
-      },
-      {
-        "name": "Casemiro",
-        "shortName": "Casemiro",
-        "position": "CM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
+        "jersey": "22",
+        "x": 63,
         "y": 256
       },
       {
         "name": "Guimarães",
         "shortName": "Guimarães",
-        "position": "RM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 348,
+        "x": 161,
         "y": 256
       },
       {
-        "name": "Júnior",
-        "shortName": "Júnior",
-        "position": "LF",
-        "role": "att",
+        "name": "Casemiro",
+        "shortName": "Casemiro",
+        "position": "CM-L",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Cunha",
-        "shortName": "Cunha",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 226,
-        "y": 375
+        "jersey": "5",
+        "x": 293,
+        "y": 256
       },
       {
         "name": "Rayan",
         "shortName": "Rayan",
-        "position": "RF",
-        "role": "att",
+        "position": "RM",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 348,
+        "x": 389,
+        "y": 256
+      },
+      {
+        "name": "Cunha",
+        "shortName": "Cunha",
+        "position": "CF-R",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 163,
+        "y": 375
+      },
+      {
+        "name": "Júnior",
+        "shortName": "Júnior",
+        "position": "CF-L",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 289,
         "y": 375
       }
     ]
@@ -459,7 +459,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jun 29 vs Japan",
+  "pitchLabel": "Confirmed XI · Jul 5 vs Norway",
   "matches": [
     {
       "eventId": "760419",
@@ -530,6 +530,24 @@
         "Cunha",
         "Júnior",
         "Rayan"
+      ]
+    },
+    {
+      "eventId": "760504",
+      "opponent": "Norway",
+      "date": "Jul 5",
+      "starters": [
+        "Becker",
+        "Magalhães",
+        "Marquinhos",
+        "Santos",
+        "Danilo",
+        "Casemiro",
+        "Guimarães",
+        "Martinelli",
+        "Rayan",
+        "Júnior",
+        "Cunha"
       ]
     }
   ],
