@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T05:11:26.938Z",
+  "updatedAt": "2026-07-05T08:14:48.664Z",
   "individual": {
     "goals": [
       {
@@ -1223,6 +1223,13 @@
         "value": 5
       },
       {
+        "name": "Brahim Díaz",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 4
+      },
+      {
         "name": "Bruno Guimarães",
         "team": "Brazil",
         "flag": "🇧🇷",
@@ -1258,6 +1265,34 @@
         "value": 3
       },
       {
+        "name": "Achraf Hakimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
+        "value": 2
+      },
+      {
         "name": "Denzel Dumfries",
         "team": "Netherlands",
         "flag": "🇳🇱",
@@ -1286,13 +1321,6 @@
         "value": 2
       },
       {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "F",
-        "value": 2
-      },
-      {
         "name": "Ryan Gravenberch",
         "team": "Netherlands",
         "flag": "🇳🇱",
@@ -1310,27 +1338,6 @@
         "name": "Mohamed Salah",
         "team": "Egypt",
         "flag": "🇪🇬",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Julio Enciso",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "M",
-        "value": 2
-      },
-      {
-        "name": "Brahim Díaz",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "M",
-        "value": 2
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "F",
         "value": 2
       },
@@ -1381,13 +1388,6 @@
         "team": "New Zealand",
         "flag": "🇳🇿",
         "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Nathan Saliba",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "M",
         "value": 2
       }
     ]
@@ -1444,8 +1444,8 @@
       "gf": 8,
       "ga": 3,
       "cleanSheets": 2,
-      "possession": 56.6,
-      "yellowCards": 7,
+      "possession": 52.4,
+      "yellowCards": 11,
       "redCards": 0
     },
     {
@@ -1477,7 +1477,7 @@
       "gf": 2,
       "ga": 4,
       "cleanSheets": 2,
-      "possession": 35.4,
+      "possession": 30.5,
       "yellowCards": 9,
       "redCards": 1
     },
@@ -1652,9 +1652,9 @@
       "gp": 3,
       "gf": 10,
       "ga": 2,
-      "cleanSheets": 2,
-      "possession": 56.7,
-      "yellowCards": 1,
+      "cleanSheets": 3,
+      "possession": 61.5,
+      "yellowCards": 4,
       "redCards": 0
     },
     {
@@ -1850,9 +1850,9 @@
       "gp": 3,
       "gf": 6,
       "ga": 3,
-      "cleanSheets": 1,
-      "possession": 64.2,
-      "yellowCards": 2,
+      "cleanSheets": 2,
+      "possession": 63.7,
+      "yellowCards": 6,
       "redCards": 0
     },
     {
