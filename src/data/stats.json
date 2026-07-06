@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T20:18:48.068Z",
+  "updatedAt": "2026-07-06T21:50:32.357Z",
   "individual": {
     "goals": [
       {
@@ -1217,6 +1217,13 @@
         "name": "Neymar",
         "team": "Brazil",
         "flag": "🇧🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mikel Merino",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 1
       }

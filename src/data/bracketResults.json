@@ -141,7 +141,10 @@
   },
   "69": {
     "awayId": "spain",
-    "homeId": "portugal"
+    "homeId": "portugal",
+    "homeGoals": 0,
+    "awayGoals": 1,
+    "winnerId": "spain"
   },
   "70": {
     "awayId": "belgium",
@@ -162,5 +165,8 @@
   "74": {
     "homeId": "norway",
     "awayId": "england"
+  },
+  "75": {
+    "homeId": "spain"
   }
 }
