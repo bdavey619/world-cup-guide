@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T05:22:42.495Z",
+  "updatedAt": "2026-07-06T09:14:02.039Z",
   "individual": {
     "goals": [
       {
@@ -1230,6 +1230,13 @@
         "value": 5
       },
       {
+        "name": "Bruno Guimarães",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "M",
+        "value": 4
+      },
+      {
         "name": "Brahim Díaz",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -1237,11 +1244,25 @@
         "value": 4
       },
       {
-        "name": "Bruno Guimarães",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "M",
-        "value": 4
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Bukayo Saka",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Andreas Schjelderup",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "F",
+        "value": 3
       },
       {
         "name": "Florian Wirtz",
@@ -1254,13 +1275,6 @@
         "name": "Alexander Isak",
         "team": "Sweden",
         "flag": "🇸🇪",
-        "position": "F",
-        "value": 3
-      },
-      {
-        "name": "Roberto Alvarado",
-        "team": "Mexico",
-        "flag": "🇲🇽",
         "position": "F",
         "value": 3
       },
@@ -1297,6 +1311,13 @@
         "team": "France",
         "flag": "🇫🇷",
         "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Patrick Berg",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "M",
         "value": 2
       },
       {
@@ -1349,16 +1370,16 @@
         "value": 2
       },
       {
-        "name": "Crysencio Summerville",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "M",
+        "name": "Anthony Gordon",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "F",
         "value": 2
       },
       {
-        "name": "Patrick Berg",
-        "team": "Norway",
-        "flag": "🇳🇴",
+        "name": "Crysencio Summerville",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "M",
         "value": 2
       },
@@ -1373,27 +1394,6 @@
         "name": "Deniz Undav",
         "team": "Germany",
         "flag": "🇩🇪",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Bukayo Saka",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Hannibal Mejbri",
-        "team": "Tunisia",
-        "flag": "🇹🇳",
-        "position": "M",
-        "value": 2
-      },
-      {
-        "name": "Chris Wood",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
         "position": "F",
         "value": 2
       }
@@ -1429,8 +1429,8 @@
       "gf": 6,
       "ga": 0,
       "cleanSheets": 4,
-      "possession": 48.3,
-      "yellowCards": 2,
+      "possession": 50.6,
+      "yellowCards": 4,
       "redCards": 1
     },
     {
@@ -1440,8 +1440,8 @@
       "gf": 7,
       "ga": 1,
       "cleanSheets": 2,
-      "possession": 56.5,
-      "yellowCards": 7,
+      "possession": 53.3,
+      "yellowCards": 8,
       "redCards": 0
     },
     {
@@ -1506,9 +1506,9 @@
       "gf": 6,
       "ga": 2,
       "cleanSheets": 2,
-      "possession": 65.3,
-      "yellowCards": 3,
-      "redCards": 0
+      "possession": 56.8,
+      "yellowCards": 7,
+      "redCards": 1
     },
     {
       "name": "Netherlands",
@@ -1572,7 +1572,7 @@
       "gf": 8,
       "ga": 7,
       "cleanSheets": 0,
-      "possession": 49.8,
+      "possession": 51.4,
       "yellowCards": 2,
       "redCards": 0
     },
