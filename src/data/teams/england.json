@@ -224,24 +224,24 @@
         "y": 130
       },
       {
-        "name": "Rice",
-        "shortName": "Rice",
+        "name": "Anderson",
+        "shortName": "Anderson",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "4",
+        "jersey": "8",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Anderson",
-        "shortName": "Anderson",
+        "name": "Rice",
+        "shortName": "Rice",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "4",
         "x": 289,
         "y": 215
       },
@@ -545,8 +545,8 @@
         "O'Reilly",
         "Quansah",
         "Bellingham",
-        "Rice",
         "Anderson",
+        "Rice",
         "Kane",
         "Gordon",
         "Saka"
