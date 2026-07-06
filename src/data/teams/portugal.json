@@ -181,20 +181,20 @@
         "y": 56
       },
       {
-        "name": "Mendes",
-        "shortName": "Mendes",
-        "position": "LB",
+        "name": "Veiga",
+        "shortName": "Veiga",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "13",
         "x": 63,
         "y": 130
       },
       {
         "name": "Dias",
         "shortName": "Dias",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -203,42 +203,42 @@
         "y": 130
       },
       {
-        "name": "Veiga",
-        "shortName": "Veiga",
-        "position": "CD-L",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 293,
-        "y": 130
-      },
-      {
         "name": "Cancelo",
         "shortName": "Cancelo",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Mendes",
+        "shortName": "Mendes",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "25",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Vitinha",
-        "shortName": "Vitinha",
-        "position": "LM",
+        "name": "Neto",
+        "shortName": "Neto",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "18",
         "x": 163,
         "y": 215
       },
       {
         "name": "Neves",
         "shortName": "Neves",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -247,20 +247,20 @@
         "y": 215
       },
       {
-        "name": "Leão",
-        "shortName": "Leão",
-        "position": "AM-L",
+        "name": "Vitinha",
+        "shortName": "Vitinha",
+        "position": "M",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "23",
         "x": 104,
         "y": 310
       },
       {
         "name": "Fernandes",
         "shortName": "Fernandes",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
@@ -269,13 +269,13 @@
         "y": 310
       },
       {
-        "name": "Neto",
-        "shortName": "Neto",
-        "position": "AM-R",
+        "name": "Félix",
+        "shortName": "Félix",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "18",
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -283,7 +283,7 @@
         "name": "Ronaldo",
         "shortName": "Ronaldo",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "7",
@@ -461,7 +461,7 @@
   ],
   "population": "10.3M",
   "location": "Southern Europe",
-  "pitchLabel": "Confirmed XI · Jul 2 vs Croatia",
+  "pitchLabel": "Confirmed XI · Jul 6 vs Spain",
   "matches": [
     {
       "eventId": "760435",
@@ -530,6 +530,24 @@
         "Ronaldo",
         "Leão",
         "Neto"
+      ]
+    },
+    {
+      "eventId": "760506",
+      "opponent": "Spain",
+      "date": "Jul 6",
+      "starters": [
+        "Costa",
+        "Veiga",
+        "Dias",
+        "Cancelo",
+        "Mendes",
+        "Neto",
+        "Neves",
+        "Vitinha",
+        "Fernandes",
+        "Félix",
+        "Ronaldo"
       ]
     }
   ]

@@ -179,101 +179,101 @@
         "y": 56
       },
       {
-        "name": "Cucurella",
-        "shortName": "Cucurella",
-        "position": "LB",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Cubarsí",
-        "shortName": "Cubarsí",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "22",
-        "x": 161,
-        "y": 130
-      },
-      {
         "name": "Laporte",
         "shortName": "Laporte",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 293,
+        "x": 63,
         "y": 130
       },
       {
         "name": "Porro",
         "shortName": "Porro",
-        "position": "RB",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "12",
+        "x": 161,
+        "y": 130
+      },
+      {
+        "name": "Cubarsí",
+        "shortName": "Cubarsí",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 293,
+        "y": 130
+      },
+      {
+        "name": "Cucurella",
+        "shortName": "Cucurella",
+        "position": "D",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Pedri",
-        "shortName": "Pedri",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Rodri",
-        "shortName": "Rodri",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "16",
-        "x": 289,
-        "y": 215
-      },
-      {
         "name": "Baena",
         "shortName": "Baena",
-        "position": "AM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 104,
-        "y": 310
+        "x": 163,
+        "y": 215
       },
       {
         "name": "Olmo",
         "shortName": "Olmo",
-        "position": "AM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 226,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Yamal",
         "shortName": "Yamal",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "19",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Pedri",
+        "shortName": "Pedri",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Rodri",
+        "shortName": "Rodri",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "16",
         "x": 348,
         "y": 310
       },
@@ -281,7 +281,7 @@
         "name": "Oyarzabal",
         "shortName": "Oyarzabal",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
@@ -457,7 +457,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 2 vs Austria",
+  "pitchLabel": "Confirmed XI · Jul 6 vs Portugal",
   "matches": [
     {
       "eventId": "760428",
@@ -526,6 +526,24 @@
         "Oyarzabal",
         "Baena",
         "Yamal"
+      ]
+    },
+    {
+      "eventId": "760506",
+      "opponent": "Portugal",
+      "date": "Jul 6",
+      "starters": [
+        "Simón",
+        "Laporte",
+        "Porro",
+        "Cubarsí",
+        "Cucurella",
+        "Baena",
+        "Olmo",
+        "Yamal",
+        "Pedri",
+        "Rodri",
+        "Oyarzabal"
       ]
     }
   ],
