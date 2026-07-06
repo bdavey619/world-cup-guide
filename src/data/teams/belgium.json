@@ -201,13 +201,13 @@
         "y": 130
       },
       {
-        "name": "Theate",
-        "shortName": "Theate",
+        "name": "Ngoy",
+        "shortName": "Ngoy",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 293,
         "y": 130
       },
@@ -223,57 +223,57 @@
         "y": 130
       },
       {
-        "name": "Vanaken",
-        "shortName": "Vanaken",
+        "name": "Onana",
+        "shortName": "Onana",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "24",
         "x": 163,
         "y": 215
       },
       {
-        "name": "Tielemans",
-        "shortName": "Tielemans",
+        "name": "Raskin",
+        "shortName": "Raskin",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "23",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Doku",
-        "shortName": "Doku",
+        "name": "Trossard",
+        "shortName": "Trossard",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "10",
         "x": 104,
         "y": 310
       },
       {
-        "name": "De Bruyne",
-        "shortName": "De Bruyne",
+        "name": "Tielemans",
+        "shortName": "Tielemans",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "7",
+        "jersey": "8",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Trossard",
-        "shortName": "Trossard",
+        "name": "Lukébakio",
+        "shortName": "Lukébakio",
         "position": "AM-R",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "10",
+        "jersey": "14",
         "x": 348,
         "y": 310
       },
@@ -457,7 +457,7 @@
       "jersey": "26"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 1 vs Senegal",
+  "pitchLabel": "Confirmed XI · Jul 6 vs United States",
   "matches": [
     {
       "eventId": "760426",
@@ -529,6 +529,24 @@
         "De Ketelaere",
         "Doku",
         "Trossard"
+      ]
+    },
+    {
+      "eventId": "760507",
+      "opponent": "United States",
+      "date": "Jul 6",
+      "starters": [
+        "Courtois",
+        "Ngoy",
+        "Mechele",
+        "De Cuyper",
+        "Castagne",
+        "Tielemans",
+        "Onana",
+        "Raskin",
+        "De Ketelaere",
+        "Trossard",
+        "Lukébakio"
       ]
     }
   ],

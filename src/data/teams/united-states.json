@@ -457,7 +457,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 1 vs Bosnia-Herzegovina",
+  "pitchLabel": "Confirmed XI · Jul 6 vs Belgium",
   "matches": [
     {
       "eventId": "760417",
@@ -517,6 +517,24 @@
       "eventId": "760494",
       "opponent": "Bosnia-Herzegovina",
       "date": "Jul 1",
+      "starters": [
+        "Freese",
+        "Ream",
+        "Richards",
+        "Robinson",
+        "Freeman",
+        "Adams",
+        "Tillman",
+        "McKennie",
+        "Balogun",
+        "Pulisic",
+        "Dest"
+      ]
+    },
+    {
+      "eventId": "760507",
+      "opponent": "Belgium",
+      "date": "Jul 6",
       "starters": [
         "Freese",
         "Ream",
