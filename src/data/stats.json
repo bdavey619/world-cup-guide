@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:11:01.026Z",
+  "updatedAt": "2026-07-06T05:22:42.495Z",
   "individual": {
     "goals": [
       {
@@ -28,7 +28,14 @@
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
-        "value": 5
+        "value": 6
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 4
       },
       {
         "name": "Ismael Saibari",
@@ -41,6 +48,13 @@
         "name": "Vinícius Júnior",
         "team": "Brazil",
         "flag": "🇧🇷",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 4
       },
@@ -66,7 +80,7 @@
         "value": 4
       },
       {
-        "name": "Julián Quiñones",
+        "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
         "position": "",
@@ -157,13 +171,6 @@
         "value": 3
       },
       {
-        "name": "Raúl Jiménez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Cyle Larin",
         "team": "Canada",
         "flag": "🇨🇦",
@@ -251,13 +258,6 @@
         "name": "Marko Arnautovic",
         "team": "Austria",
         "flag": "🇦🇹",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 2
       },
