@@ -16,7 +16,7 @@
     "lastWCResult": "R16 '18",
     "manager": "Néstor Lorenzo",
     "managerTenure": "2022–present",
-    "formation": "4-3-3",
+    "formation": "4-4-1-1",
     "winPct": 2,
     "advancePct": 89
   },
@@ -176,7 +176,7 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Sánchez",
@@ -187,7 +187,7 @@
         "isCaptain": false,
         "jersey": "23",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Lucumí",
@@ -198,7 +198,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Muñoz",
@@ -209,29 +209,40 @@
         "isCaptain": false,
         "jersey": "2",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Puerta",
-        "shortName": "Puerta",
+        "name": "Díaz",
+        "shortName": "Díaz",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "14",
-        "x": 104,
-        "y": 256
+        "jersey": "7",
+        "x": 63,
+        "y": 215
       },
       {
         "name": "Lerma",
         "shortName": "Lerma",
-        "position": "CM",
+        "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "16",
-        "x": 226,
-        "y": 256
+        "x": 161,
+        "y": 215
+      },
+      {
+        "name": "Puerta",
+        "shortName": "Puerta",
+        "position": "CM-L",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 293,
+        "y": 215
       },
       {
         "name": "Arias",
@@ -241,41 +252,30 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 348,
-        "y": 256
+        "x": 389,
+        "y": 215
       },
       {
-        "name": "Díaz",
-        "shortName": "Díaz",
-        "position": "LF",
-        "role": "att",
+        "name": "Rodríguez",
+        "shortName": "Rodríguez",
+        "position": "RCF",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "7",
-        "x": 104,
-        "y": 375
+        "jersey": "10",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "Suárez",
         "shortName": "Suárez",
         "position": "F",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "25",
         "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Rodríguez",
-        "shortName": "Rodríguez",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 348,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -514,11 +514,11 @@
         "Sánchez",
         "Mojica",
         "Muñoz",
-        "Lerma",
         "Puerta",
+        "Lerma",
+        "Díaz",
         "Arias",
         "Suárez",
-        "Díaz",
         "Rodríguez"
       ]
     }
