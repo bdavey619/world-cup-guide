@@ -16,7 +16,7 @@
     "lastWCResult": "Won '22",
     "manager": "Lionel Scaloni",
     "managerTenure": "2018–present",
-    "formation": "4-4-2",
+    "formation": "4-1-3-2",
     "winPct": 10,
     "advancePct": 96
   },
@@ -180,15 +180,15 @@
         "y": 56
       },
       {
-        "name": "Medina",
-        "shortName": "Medina",
+        "name": "Tagliafico",
+        "shortName": "Tagliafico",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "3",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Romero",
@@ -199,7 +199,7 @@
         "isCaptain": false,
         "jersey": "13",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Martínez",
@@ -210,7 +210,7 @@
         "isCaptain": false,
         "jersey": "6",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Molina",
@@ -221,40 +221,40 @@
         "isCaptain": false,
         "jersey": "26",
         "x": 389,
-        "y": 148
+        "y": 130
       },
       {
-        "name": "Almada",
-        "shortName": "Almada",
-        "position": "LM",
+        "name": "Paredes",
+        "shortName": "Paredes",
+        "position": "SW",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "16",
-        "x": 63,
-        "y": 256
-      },
-      {
-        "name": "Mac Allister",
-        "shortName": "Mac Allister",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "20",
-        "x": 161,
-        "y": 256
+        "jersey": "5",
+        "x": 226,
+        "y": 215
       },
       {
         "name": "Fernández",
         "shortName": "Fernández",
-        "position": "CM-L",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "24",
-        "x": 293,
-        "y": 256
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Mac Allister",
+        "shortName": "Mac Allister",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "20",
+        "x": 226,
+        "y": 310
       },
       {
         "name": "De Paul",
@@ -264,30 +264,30 @@
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "7",
-        "x": 389,
-        "y": 256
+        "x": 348,
+        "y": 310
       },
       {
         "name": "Messi",
         "shortName": "Messi",
         "position": "CF-R",
-        "role": "att",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
         "x": 163,
-        "y": 375
+        "y": 385
       },
       {
-        "name": "Martínez",
-        "shortName": "Martínez",
+        "name": "Álvarez",
+        "shortName": "Álvarez",
         "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": false,
+        "role": "mid",
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "9",
         "x": 289,
-        "y": 375
+        "y": 385
       }
     ]
   },
@@ -454,7 +454,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jul 3 vs Cape Verde",
+  "pitchLabel": "Confirmed XI · Jul 7 vs Egypt",
   "matches": [
     {
       "eventId": "760433",
@@ -525,6 +525,24 @@
         "Almada",
         "De Paul",
         "Martínez",
+        "Messi"
+      ]
+    },
+    {
+      "eventId": "760509",
+      "opponent": "Egypt",
+      "date": "Jul 7",
+      "starters": [
+        "Martínez",
+        "Martínez",
+        "Romero",
+        "Paredes",
+        "Tagliafico",
+        "Molina",
+        "Mac Allister",
+        "Fernández",
+        "De Paul",
+        "Álvarez",
         "Messi"
       ]
     }

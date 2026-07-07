@@ -187,24 +187,24 @@
         "y": 148
       },
       {
-        "name": "Marmoush",
-        "shortName": "Marmoush",
+        "name": "Ashour",
+        "shortName": "Ashour",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "8",
         "x": 63,
         "y": 256
       },
       {
-        "name": "Fathy",
-        "shortName": "Fathy",
+        "name": "Lashin",
+        "shortName": "Lashin",
         "position": "CM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "17",
         "x": 161,
         "y": 256
       },
@@ -220,13 +220,13 @@
         "y": 256
       },
       {
-        "name": "Ashour",
-        "shortName": "Ashour",
+        "name": "Hassan",
+        "shortName": "Hassan",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "8",
+        "jersey": "12",
         "x": 389,
         "y": 256
       },
@@ -421,7 +421,7 @@
       "jersey": "9"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 3 vs Australia",
+  "pitchLabel": "Confirmed XI · Jul 7 vs Argentina",
   "matches": [
     {
       "eventId": "760426",
@@ -491,6 +491,24 @@
         "Fathy",
         "Marmoush",
         "Ashour",
+        "Zico",
+        "Salah"
+      ]
+    },
+    {
+      "eventId": "760509",
+      "opponent": "Argentina",
+      "date": "Jul 7",
+      "starters": [
+        "Shoubir",
+        "Rabia",
+        "Ibrahim",
+        "Hafez",
+        "Hany",
+        "Attia",
+        "Lashin",
+        "Ashour",
+        "Hassan",
         "Zico",
         "Salah"
       ]
