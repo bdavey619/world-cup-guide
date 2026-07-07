@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:44:17.977Z",
+  "updatedAt": "2026-07-07T23:37:30.762Z",
   "individual": {
     "goals": [
       {
@@ -123,6 +123,13 @@
       },
       {
         "name": "Johan Manzambi",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Rubén Vargas",
         "team": "Switzerland",
         "flag": "🇨🇭",
         "position": "",
@@ -276,9 +283,16 @@
         "value": 2
       },
       {
-        "name": "Rubén Vargas",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
+        "name": "Luis Díaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Jáminton Campaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
         "position": "",
         "value": 2
       },
@@ -286,6 +300,13 @@
         "name": "Ermin Mahmic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Granit Xhaka",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 2
       },
@@ -612,20 +633,6 @@
         "value": 1
       },
       {
-        "name": "Luis Díaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jáminton Campaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Michal Sadílek",
         "team": "Czechia",
         "flag": "🇨🇿",
@@ -636,13 +643,6 @@
         "name": "Teboho Mokoena",
         "team": "South Africa",
         "flag": "🇿🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Granit Xhaka",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
@@ -1259,6 +1259,27 @@
         "name": "Enzo Fernández",
         "team": "Argentina",
         "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Juan Fernando Quintero",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Zeki Amdouni",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Cedric Itten",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       }
