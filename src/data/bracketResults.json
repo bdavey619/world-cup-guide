@@ -155,7 +155,10 @@
   },
   "71": {
     "awayId": "egypt",
-    "homeId": "argentina"
+    "homeId": "argentina",
+    "homeGoals": 3,
+    "awayGoals": 2,
+    "winnerId": "argentina"
   },
   "72": {
     "homeId": "switzerland",
@@ -172,5 +175,8 @@
   "75": {
     "homeId": "spain",
     "awayId": "belgium"
+  },
+  "76": {
+    "homeId": "argentina"
   }
 }

@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-07-07T16:09:51.961Z",
+  "updatedAt": "2026-07-07T18:17:16.035Z",
   "individual": {
     "goals": [
+      {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 8
+      },
       {
         "name": "Kylian Mbappé",
         "team": "France",
@@ -13,13 +20,6 @@
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
-        "position": "",
-        "value": 7
-      },
-      {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
         "position": "",
         "value": 7
       },
@@ -307,6 +307,13 @@
         "name": "Ayase Ueda",
         "team": "Japan",
         "flag": "🇯🇵",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Mostafa Zico",
+        "team": "Egypt",
+        "flag": "🇪🇬",
         "position": "",
         "value": 2
       },
@@ -706,13 +713,6 @@
         "name": "Finn Surman",
         "team": "New Zealand",
         "flag": "🇳🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mostafa Zico",
-        "team": "Egypt",
-        "flag": "🇪🇬",
         "position": "",
         "value": 1
       },
@@ -1238,6 +1238,27 @@
         "name": "Hans Vanaken",
         "team": "Belgium",
         "flag": "🇧🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Yasser Ibrahim",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Cristian Romero",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Enzo Fernández",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "",
         "value": 1
       }
