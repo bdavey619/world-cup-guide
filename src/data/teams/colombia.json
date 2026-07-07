@@ -212,13 +212,13 @@
         "y": 148
       },
       {
-        "name": "Arias",
-        "shortName": "Arias",
+        "name": "Puerta",
+        "shortName": "Puerta",
         "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "14",
         "x": 104,
         "y": 256
       },
@@ -234,13 +234,13 @@
         "y": 256
       },
       {
-        "name": "Puerta",
-        "shortName": "Puerta",
+        "name": "Arias",
+        "shortName": "Arias",
         "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "11",
         "x": 348,
         "y": 256
       },
@@ -256,13 +256,13 @@
         "y": 375
       },
       {
-        "name": "Córdoba",
-        "shortName": "Córdoba",
+        "name": "Suárez",
+        "shortName": "Suárez",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "25",
         "x": 226,
         "y": 375
       },
@@ -448,7 +448,7 @@
   ],
   "population": "52.2M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jul 3 vs Ghana",
+  "pitchLabel": "Confirmed XI · Jul 7 vs Switzerland",
   "matches": [
     {
       "eventId": "760459",
@@ -500,6 +500,24 @@
         "Arias",
         "Puerta",
         "Córdoba",
+        "Díaz",
+        "Rodríguez"
+      ]
+    },
+    {
+      "eventId": "760508",
+      "opponent": "Switzerland",
+      "date": "Jul 7",
+      "starters": [
+        "Vargas",
+        "Lucumí",
+        "Sánchez",
+        "Mojica",
+        "Muñoz",
+        "Lerma",
+        "Puerta",
+        "Arias",
+        "Suárez",
         "Díaz",
         "Rodríguez"
       ]

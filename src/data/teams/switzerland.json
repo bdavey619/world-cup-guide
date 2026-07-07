@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Murat Yakin",
     "managerTenure": "2021–present",
-    "formation": "4-2-3-1",
+    "formation": "4-3-3",
     "winPct": 1,
     "advancePct": 94
   },
@@ -187,7 +187,7 @@
         "isCaptain": false,
         "jersey": "13",
         "x": 63,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Elvedi",
@@ -198,7 +198,7 @@
         "isCaptain": false,
         "jersey": "4",
         "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Akanji",
@@ -209,7 +209,7 @@
         "isCaptain": false,
         "jersey": "5",
         "x": 293,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Zakaria",
@@ -220,18 +220,29 @@
         "isCaptain": false,
         "jersey": "6",
         "x": 389,
-        "y": 130
+        "y": 148
+      },
+      {
+        "name": "Jashari",
+        "shortName": "Jashari",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "14",
+        "x": 104,
+        "y": 256
       },
       {
         "name": "Xhaka",
         "shortName": "Xhaka",
-        "position": "LM",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 163,
-        "y": 215
+        "x": 226,
+        "y": 256
       },
       {
         "name": "Freuler",
@@ -241,41 +252,19 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Vargas",
-        "shortName": "Vargas",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "17",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Manzambi",
-        "shortName": "Manzambi",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 226,
-        "y": 310
+        "x": 348,
+        "y": 256
       },
       {
         "name": "Ndoye",
         "shortName": "Ndoye",
-        "position": "AM-R",
-        "role": "mid",
+        "position": "LF",
+        "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "11",
-        "x": 348,
-        "y": 310
+        "x": 104,
+        "y": 375
       },
       {
         "name": "Embolo",
@@ -286,7 +275,18 @@
         "isCaptain": false,
         "jersey": "7",
         "x": 226,
-        "y": 385
+        "y": 375
+      },
+      {
+        "name": "Rieder",
+        "shortName": "Rieder",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
+        "x": 348,
+        "y": 375
       }
     ]
   },
@@ -457,7 +457,7 @@
       "jersey": "23"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 2 vs Algeria",
+  "pitchLabel": "Confirmed XI · Jul 7 vs Colombia",
   "matches": [
     {
       "eventId": "760420",
@@ -529,6 +529,24 @@
         "Embolo",
         "Vargas",
         "Ndoye"
+      ]
+    },
+    {
+      "eventId": "760508",
+      "opponent": "Colombia",
+      "date": "Jul 7",
+      "starters": [
+        "Kobel",
+        "Akanji",
+        "Elvedi",
+        "Rodríguez",
+        "Zakaria",
+        "Xhaka",
+        "Jashari",
+        "Freuler",
+        "Embolo",
+        "Ndoye",
+        "Rieder"
       ]
     }
   ],
