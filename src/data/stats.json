@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T01:29:18.288Z",
+  "updatedAt": "2026-07-07T05:39:40.312Z",
   "individual": {
     "goals": [
       {
@@ -167,6 +167,13 @@
         "name": "Soufiane Rahimi",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 3
       },
@@ -346,13 +353,6 @@
         "value": 2
       },
       {
-        "name": "Romelu Lukaku",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Riyad Mahrez",
         "team": "Algeria",
         "flag": "🇩🇿",
@@ -367,9 +367,23 @@
         "value": 2
       },
       {
+        "name": "Malik Tillman",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Azzedine Ounahi",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 2
       },
@@ -1123,13 +1137,6 @@
         "value": 1
       },
       {
-        "name": "Malik Tillman",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Pedro Porro",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -1224,6 +1231,13 @@
         "name": "Mikel Merino",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hans Vanaken",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 1
       }
