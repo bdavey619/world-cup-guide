@@ -181,13 +181,13 @@
         "y": 56
       },
       {
-        "name": "Mazraoui",
-        "shortName": "Mazraoui",
+        "name": "Salah-Eddine",
+        "shortName": "Salah-Eddine",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "26",
         "x": 63,
         "y": 130
       },
@@ -203,13 +203,13 @@
         "y": 130
       },
       {
-        "name": "Halhal",
-        "shortName": "Halhal",
+        "name": "Mazraoui",
+        "shortName": "Mazraoui",
         "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "3",
         "x": 293,
         "y": 130
       },
@@ -247,13 +247,13 @@
         "y": 215
       },
       {
-        "name": "El Khannouss",
-        "shortName": "El Khannouss",
+        "name": "Talbi",
+        "shortName": "Talbi",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "23",
+        "jersey": "7",
         "x": 104,
         "y": 310
       },
@@ -280,13 +280,13 @@
         "y": 310
       },
       {
-        "name": "Saibari",
-        "shortName": "Saibari",
+        "name": "El Khannouss",
+        "shortName": "El Khannouss",
         "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "11",
+        "jersey": "23",
         "x": 226,
         "y": 385
       }
@@ -459,7 +459,7 @@
       "jersey": "21"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 4 vs Canada",
+  "pitchLabel": "Confirmed XI · Jul 9 vs France",
   "matches": [
     {
       "eventId": "760419",
@@ -548,6 +548,24 @@
         "Bouaddi",
         "Saibari",
         "El Khannouss",
+        "Díaz"
+      ]
+    },
+    {
+      "eventId": "760510",
+      "opponent": "France",
+      "date": "Jul 9",
+      "starters": [
+        "Bounou",
+        "Mazraoui",
+        "Diop",
+        "Salah-Eddine",
+        "Hakimi",
+        "Ounahi",
+        "El Aynaoui",
+        "Bouaddi",
+        "El Khannouss",
+        "Talbi",
         "Díaz"
       ]
     }

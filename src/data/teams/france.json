@@ -253,13 +253,13 @@
         "y": 215
       },
       {
-        "name": "Barcola",
-        "shortName": "Barcola",
+        "name": "Doué",
+        "shortName": "Doué",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "12",
+        "jersey": "20",
         "x": 104,
         "y": 310
       },
@@ -467,7 +467,7 @@
   ],
   "population": "68.4M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jul 4 vs Paraguay",
+  "pitchLabel": "Confirmed XI · Jul 9 vs Morocco",
   "matches": [
     {
       "eventId": "760432",
@@ -556,6 +556,24 @@
         "Koné",
         "Mbappé",
         "Barcola",
+        "Dembélé"
+      ]
+    },
+    {
+      "eventId": "760510",
+      "opponent": "Morocco",
+      "date": "Jul 9",
+      "starters": [
+        "Maignan",
+        "Saliba",
+        "Upamecano",
+        "Digne",
+        "Koundé",
+        "Olise",
+        "Rabiot",
+        "Koné",
+        "Mbappé",
+        "Doué",
         "Dembélé"
       ]
     }
