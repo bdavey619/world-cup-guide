@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-09T21:49:59.749Z",
+  "updatedAt": "2026-07-09T22:58:24.583Z",
   "individual": {
     "goals": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 8
+      },
       {
         "name": "Lionel Messi",
         "team": "Argentina",
         "flag": "🇦🇷",
         "position": "",
         "value": 8
-      },
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 7
       },
       {
         "name": "Erling Haaland",
@@ -29,6 +29,13 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 6
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 5
       },
       {
         "name": "Julián Quiñones",
@@ -62,13 +69,6 @@
         "name": "Mikel Oyarzabal",
         "team": "Spain",
         "flag": "🇪🇸",
-        "position": "",
-        "value": 4
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "",
         "value": 4
       },
