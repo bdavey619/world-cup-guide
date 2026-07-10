@@ -169,7 +169,10 @@
   },
   "73": {
     "homeId": "morocco",
-    "awayId": "france"
+    "awayId": "france",
+    "homeGoals": 0,
+    "awayGoals": 2,
+    "winnerId": "france"
   },
   "74": {
     "homeId": "spain",
