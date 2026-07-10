@@ -203,21 +203,25 @@ async function updateBracket() {
       const awaySlug = NAME_TO_SLUG[away.team.displayName]
       if (!homeSlug || !awaySlug) continue
 
+      // Try both orientations — ESPN home/away may not match bracketResults orientation
       const matchNum = pairLookup[`${homeSlug}|${awaySlug}`]
+                    ?? pairLookup[`${awaySlug}|${homeSlug}`]
       if (!matchNum) continue
 
       const match = results[matchNum]
       if (!match) continue
 
-      const homeGoals = parseInt(home.score ?? 0)
-      const awayGoals = parseInt(away.score ?? 0)
+      // Resolve scores relative to bracketResults orientation (not ESPN's home/away)
+      const homeIsHome = match.homeId === homeSlug
+      const homeGoals = parseInt((homeIsHome ? home : away).score ?? 0)
+      const awayGoals = parseInt((homeIsHome ? away : home).score ?? 0)
 
       // ESPN sets competitor.winner = true for the advancing team,
       // which correctly handles penalties (FT score stays as-is, e.g. 1-1)
       const winnerComp = comp.competitors.find(c => c.winner)
       const winnerId = winnerComp
         ? NAME_TO_SLUG[winnerComp.team.displayName]
-        : (homeGoals > awayGoals ? homeSlug : awaySlug)
+        : (homeGoals > awayGoals ? match.homeId : match.awayId)
 
       if (match.homeGoals === homeGoals && match.awayGoals === awayGoals && match.winnerId === winnerId) continue
 
