@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T20:07:56.034Z",
+  "updatedAt": "2026-07-10T21:17:50.443Z",
   "individual": {
     "goals": [
       {
@@ -179,6 +179,13 @@
       },
       {
         "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Charles De Ketelaere",
         "team": "Belgium",
         "flag": "🇧🇪",
         "position": "",
@@ -409,9 +416,9 @@
         "value": 2
       },
       {
-        "name": "Charles De Ketelaere",
-        "team": "Belgium",
-        "flag": "🇧🇪",
+        "name": "Mikel Merino",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 2
       },
@@ -1228,13 +1235,6 @@
         "value": 1
       },
       {
-        "name": "Mikel Merino",
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Hans Vanaken",
         "team": "Belgium",
         "flag": "🇧🇪",
@@ -1280,6 +1280,13 @@
         "name": "Cedric Itten",
         "team": "Switzerland",
         "flag": "🇨🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Fabián Ruiz",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 1
       }
