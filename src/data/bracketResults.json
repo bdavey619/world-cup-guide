@@ -172,12 +172,12 @@
     "awayId": "france"
   },
   "74": {
-    "homeId": "norway",
-    "awayId": "england"
-  },
-  "75": {
     "homeId": "spain",
     "awayId": "belgium"
+  },
+  "75": {
+    "homeId": "norway",
+    "awayId": "england"
   },
   "76": {
     "homeId": "argentina",

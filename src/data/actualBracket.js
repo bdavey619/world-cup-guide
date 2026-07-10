@@ -30,8 +30,8 @@ const MATCH_INFO = {
   71: { time: '12PM ET',   venue: 'Mercedes-Benz Stadium',   city: 'Atlanta'      },
   72: { time: '4PM ET',    venue: 'BC Place',                city: 'Vancouver'    },
   73: { time: '5PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
-  74: { time: '5PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
-  75: { time: '1PM ET',    venue: 'SoFi Stadium',            city: 'Los Angeles'  },
+  74: { time: '3PM ET',    venue: 'SoFi Stadium',            city: 'Los Angeles'  },
+  75: { time: '5PM ET',    venue: 'MetLife Stadium',         city: 'New York'     },
   76: { time: '5PM ET',    venue: 'Arrowhead Stadium',       city: 'Kansas City'  },
   77: { time: '8PM ET',    venue: 'AT&T Stadium',            city: 'Dallas'       },
   78: { time: '8PM ET',    venue: 'Mercedes-Benz Stadium',   city: 'Atlanta'      },
@@ -88,8 +88,8 @@ export const actualR16 = [
 // Quarter-finals — Jul 9–11
 export const actualQF = [
   m(73, 'W65', 'W66', 'Jul 9'),
-  m(74, 'W67', 'W68', 'Jul 10'),
-  m(75, 'W69', 'W70', 'Jul 11'),
+  m(74, 'W69', 'W70', 'Jul 10'),
+  m(75, 'W67', 'W68', 'Jul 11'),
   m(76, 'W71', 'W72', 'Jul 11'),
 ]
 
