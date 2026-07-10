@@ -223,13 +223,13 @@
         "y": 130
       },
       {
-        "name": "Pedri",
-        "shortName": "Pedri",
+        "name": "Ruiz",
+        "shortName": "Ruiz",
         "position": "LM",
         "role": "mid",
-        "isKeyPlayer": true,
+        "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "8",
         "x": 163,
         "y": 215
       },
@@ -457,7 +457,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 6 vs Portugal",
+  "pitchLabel": "Confirmed XI · Jul 10 vs Belgium",
   "matches": [
     {
       "eventId": "760428",
@@ -540,6 +540,24 @@
         "Porro",
         "Olmo",
         "Pedri",
+        "Rodri",
+        "Oyarzabal",
+        "Baena",
+        "Yamal"
+      ]
+    },
+    {
+      "eventId": "760511",
+      "opponent": "Belgium",
+      "date": "Jul 10",
+      "starters": [
+        "Simón",
+        "Laporte",
+        "Cubarsí",
+        "Cucurella",
+        "Porro",
+        "Olmo",
+        "Ruiz",
         "Rodri",
         "Oyarzabal",
         "Baena",
