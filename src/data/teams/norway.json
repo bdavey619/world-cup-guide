@@ -149,20 +149,20 @@
         "y": 56
       },
       {
-        "name": "Ryerson",
-        "shortName": "Ryerson",
-        "position": "D",
+        "name": "Møller Wolfe",
+        "shortName": "Møller Wolfe",
+        "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "5",
         "x": 63,
         "y": 148
       },
       {
         "name": "Ajer",
         "shortName": "Ajer",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -173,7 +173,7 @@
       {
         "name": "Heggem",
         "shortName": "Heggem",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -182,69 +182,58 @@
         "y": 148
       },
       {
-        "name": "Møller Wolfe",
-        "shortName": "Møller Wolfe",
-        "position": "D",
+        "name": "Ryerson",
+        "shortName": "Ryerson",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "26",
         "x": 389,
         "y": 148
       },
       {
+        "name": "Berg",
+        "shortName": "Berg",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
+        "x": 104,
+        "y": 256
+      },
+      {
         "name": "Berge",
         "shortName": "Berge",
-        "position": "M",
+        "position": "CM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 104,
+        "x": 226,
         "y": 256
       },
       {
         "name": "Ødegaard",
         "shortName": "Ødegaard",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 226,
-        "y": 256
-      },
-      {
-        "name": "Berg",
-        "shortName": "Berg",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
         "x": 348,
         "y": 256
       },
       {
         "name": "Schjelderup",
         "shortName": "Schjelderup",
-        "position": "F",
+        "position": "LF",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "21",
         "x": 104,
-        "y": 375
-      },
-      {
-        "name": "Sørloth",
-        "shortName": "Sørloth",
-        "position": "F",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
-        "x": 226,
         "y": 375
       },
       {
@@ -255,6 +244,17 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
+        "x": 226,
+        "y": 375
+      },
+      {
+        "name": "Sørloth",
+        "shortName": "Sørloth",
+        "position": "RF",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -527,16 +527,16 @@
       "date": "Jul 11",
       "starters": [
         "Nyland",
-        "Ryerson",
-        "Ajer",
         "Heggem",
+        "Ajer",
         "Møller Wolfe",
+        "Ryerson",
         "Berge",
-        "Ødegaard",
         "Berg",
+        "Ødegaard",
+        "Haaland",
         "Schjelderup",
-        "Sørloth",
-        "Haaland"
+        "Sørloth"
       ]
     }
   ]
