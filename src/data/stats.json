@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T23:27:19.040Z",
+  "updatedAt": "2026-07-11T00:55:32.855Z",
   "individual": {
     "goals": [
       {
@@ -2001,26 +2001,21 @@
   ],
   "records": {
     "highestScoring": {
-      "goals": 5,
+      "goals": 4,
       "teams": [
         {
-          "team": "Senegal",
-          "label": "Senegal 5–0 Iraq",
-          "date": "Jun 26"
-        },
-        {
           "team": "Belgium",
-          "label": "New Zealand 1–5 Belgium",
-          "date": "Jun 26"
+          "label": "United States 1–4 Belgium",
+          "date": "Jul 6"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "Senegal 5–0 Iraq",
-      "loser": "Iraq",
-      "winner": "Senegal",
-      "margin": 5,
-      "date": "Jun 26"
+      "label": "France 3–0 Sweden",
+      "loser": "Sweden",
+      "winner": "France",
+      "margin": 3,
+      "date": "Jun 30"
     }
   }
 }
