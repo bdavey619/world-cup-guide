@@ -149,20 +149,20 @@
         "y": 56
       },
       {
-        "name": "Møller Wolfe",
-        "shortName": "Møller Wolfe",
-        "position": "LB",
+        "name": "Ryerson",
+        "shortName": "Ryerson",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "26",
         "x": 63,
         "y": 148
       },
       {
         "name": "Ajer",
         "shortName": "Ajer",
-        "position": "CD-R",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -173,7 +173,7 @@
       {
         "name": "Heggem",
         "shortName": "Heggem",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -182,58 +182,69 @@
         "y": 148
       },
       {
-        "name": "Ryerson",
-        "shortName": "Ryerson",
-        "position": "RB",
+        "name": "Møller Wolfe",
+        "shortName": "Møller Wolfe",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
+        "jersey": "5",
         "x": 389,
         "y": 148
       },
       {
-        "name": "Berg",
-        "shortName": "Berg",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "6",
-        "x": 104,
-        "y": 256
-      },
-      {
         "name": "Berge",
         "shortName": "Berge",
-        "position": "CM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "8",
-        "x": 226,
+        "x": 104,
         "y": 256
       },
       {
         "name": "Ødegaard",
         "shortName": "Ødegaard",
-        "position": "RM",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
+        "x": 226,
+        "y": 256
+      },
+      {
+        "name": "Berg",
+        "shortName": "Berg",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "6",
         "x": 348,
         "y": 256
       },
       {
-        "name": "Nusa",
-        "shortName": "Nusa",
-        "position": "LF",
+        "name": "Schjelderup",
+        "shortName": "Schjelderup",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "21",
         "x": 104,
+        "y": 375
+      },
+      {
+        "name": "Sørloth",
+        "shortName": "Sørloth",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "7",
+        "x": 226,
         "y": 375
       },
       {
@@ -244,17 +255,6 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "9",
-        "x": 226,
-        "y": 375
-      },
-      {
-        "name": "Sørloth",
-        "shortName": "Sørloth",
-        "position": "RF",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "7",
         "x": 348,
         "y": 375
       }
@@ -429,7 +429,7 @@
   ],
   "population": "5.5M",
   "location": "Northern Europe",
-  "pitchLabel": "Confirmed XI · Jul 5 vs Brazil",
+  "pitchLabel": "Confirmed XI · Jul 11 vs England",
   "matches": [
     {
       "eventId": "760430",
@@ -519,6 +519,24 @@
         "Haaland",
         "Nusa",
         "Sørloth"
+      ]
+    },
+    {
+      "eventId": "760512",
+      "opponent": "England",
+      "date": "Jul 11",
+      "starters": [
+        "Nyland",
+        "Ryerson",
+        "Ajer",
+        "Heggem",
+        "Møller Wolfe",
+        "Berge",
+        "Ødegaard",
+        "Berg",
+        "Schjelderup",
+        "Sørloth",
+        "Haaland"
       ]
     }
   ]
