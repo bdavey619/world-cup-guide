@@ -256,24 +256,24 @@
         "y": 310
       },
       {
-        "name": "Jashari",
-        "shortName": "Jashari",
+        "name": "Rieder",
+        "shortName": "Rieder",
         "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "14",
+        "jersey": "22",
         "x": 226,
         "y": 310
       },
       {
-        "name": "Rieder",
-        "shortName": "Rieder",
+        "name": "Sow",
+        "shortName": "Sow",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "22",
+        "jersey": "15",
         "x": 348,
         "y": 310
       },
@@ -457,7 +457,7 @@
       "jersey": "23"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 7 vs Colombia",
+  "pitchLabel": "Confirmed XI · Jul 11 vs Argentina",
   "matches": [
     {
       "eventId": "760420",
@@ -547,6 +547,24 @@
         "Embolo",
         "Ndoye",
         "Rieder"
+      ]
+    },
+    {
+      "eventId": "760513",
+      "opponent": "Argentina",
+      "date": "Jul 11",
+      "starters": [
+        "Kobel",
+        "Akanji",
+        "Elvedi",
+        "Rodríguez",
+        "Zakaria",
+        "Rieder",
+        "Xhaka",
+        "Freuler",
+        "Embolo",
+        "Ndoye",
+        "Sow"
       ]
     }
   ],

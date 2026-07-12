@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:41:39.738Z",
+  "updatedAt": "2026-07-12T01:12:13.977Z",
   "individual": {
     "goals": [
       {
@@ -31,18 +31,18 @@
         "value": 6
       },
       {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 6
+      },
+      {
         "name": "Ousmane Dembélé",
         "team": "France",
         "flag": "🇫🇷",
         "position": "",
         "value": 5
-      },
-      {
-        "name": "Julián Quiñones",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 4
       },
       {
         "name": "Ismael Saibari",
@@ -59,13 +59,6 @@
         "value": 4
       },
       {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 4
-      },
-      {
         "name": "Mikel Oyarzabal",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -78,13 +71,6 @@
         "flag": "🇸🇳",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Raúl Jiménez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Folarin Balogun",
@@ -174,6 +160,13 @@
         "name": "Soufiane Rahimi",
         "team": "Morocco",
         "flag": "🇲🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
         "position": "",
         "value": 3
       },
@@ -395,6 +388,13 @@
         "value": 2
       },
       {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Youri Tielemans",
         "team": "Belgium",
         "flag": "🇧🇪",
@@ -421,27 +421,6 @@
         "flag": "🇪🇸",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Ladislav Krejcí",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Hwang In-Beom",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Oh Hyeon-Gyu",
-        "team": "South Korea",
-        "flag": "🇰🇷",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Jovo Lukic",
@@ -1287,6 +1266,13 @@
         "name": "Fabián Ruiz",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Andreas Schjelderup",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 1
       }

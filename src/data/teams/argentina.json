@@ -235,24 +235,24 @@
         "y": 215
       },
       {
-        "name": "Fernández",
-        "shortName": "Fernández",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 104,
-        "y": 310
-      },
-      {
         "name": "Mac Allister",
         "shortName": "Mac Allister",
-        "position": "CM",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
+        "x": 104,
+        "y": 310
+      },
+      {
+        "name": "Fernández",
+        "shortName": "Fernández",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 226,
         "y": 310
       },
@@ -454,7 +454,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jul 7 vs Egypt",
+  "pitchLabel": "Confirmed XI · Jul 11 vs Switzerland",
   "matches": [
     {
       "eventId": "760433",
@@ -541,6 +541,24 @@
         "Molina",
         "Mac Allister",
         "Fernández",
+        "De Paul",
+        "Álvarez",
+        "Messi"
+      ]
+    },
+    {
+      "eventId": "760513",
+      "opponent": "Switzerland",
+      "date": "Jul 11",
+      "starters": [
+        "Martínez",
+        "Martínez",
+        "Romero",
+        "Paredes",
+        "Tagliafico",
+        "Molina",
+        "Fernández",
+        "Mac Allister",
         "De Paul",
         "Álvarez",
         "Messi"
