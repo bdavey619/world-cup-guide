@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:12:13.977Z",
+  "updatedAt": "2026-07-12T04:37:35.073Z",
   "individual": {
     "goals": [
       {
@@ -388,6 +388,13 @@
         "value": 2
       },
       {
+        "name": "Lautaro Martínez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
@@ -405,6 +412,13 @@
         "name": "Malik Tillman",
         "team": "United States",
         "flag": "🇺🇸",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Dan Ndoye",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 2
       },
@@ -1004,13 +1018,6 @@
         "value": 1
       },
       {
-        "name": "Lautaro Martínez",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Mousa Al-Tamari",
         "team": "Jordan",
         "flag": "🇯🇴",
@@ -1144,13 +1151,6 @@
         "value": 1
       },
       {
-        "name": "Dan Ndoye",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Jackson Irvine",
         "team": "Australia",
         "flag": "🇦🇺",
@@ -1273,6 +1273,20 @@
         "name": "Andreas Schjelderup",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Julián Álvarez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "",
         "value": 1
       }

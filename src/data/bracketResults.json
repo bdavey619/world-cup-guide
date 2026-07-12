@@ -190,13 +190,17 @@
   },
   "76": {
     "homeId": "argentina",
-    "awayId": "switzerland"
+    "awayId": "switzerland",
+    "homeGoals": 3,
+    "awayGoals": 1,
+    "winnerId": "argentina"
   },
   "77": {
     "homeId": "france",
     "awayId": "england"
   },
   "78": {
-    "homeId": "spain"
+    "homeId": "spain",
+    "awayId": "argentina"
   }
 }
