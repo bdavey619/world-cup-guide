@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T23:55:55.759Z",
+  "updatedAt": "2026-07-13T02:00:57.150Z",
   "individual": {
     "goals": [
       {
@@ -71,13 +71,6 @@
         "flag": "🇸🇳",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Folarin Balogun",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Kai Havertz",
@@ -183,20 +176,6 @@
         "flag": "🇧🇪",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Cyle Larin",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Maurício",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Breel Embolo",
@@ -437,20 +416,6 @@
         "value": 2
       },
       {
-        "name": "Jovo Lukic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Giovanni Reyna",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "John McGinn",
         "team": "Scotland",
         "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -643,6 +608,13 @@
         "name": "Teboho Mokoena",
         "team": "South Africa",
         "flag": "🇿🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
         "position": "",
         "value": 1
       },
@@ -1060,6 +1032,13 @@
         "value": 1
       },
       {
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Joshua Kimmich",
         "team": "Germany",
         "flag": "🇩🇪",
@@ -1126,6 +1105,13 @@
         "name": "Brian Cipenga",
         "team": "DR Congo",
         "flag": "🇨🇩",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "",
         "value": 1
       },
