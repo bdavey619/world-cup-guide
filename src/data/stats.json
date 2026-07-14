@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:44:30.041Z",
+  "updatedAt": "2026-07-14T21:38:29.760Z",
   "individual": {
     "goals": [
       {
@@ -38,18 +38,18 @@
         "value": 6
       },
       {
+        "name": "Mikel Oyarzabal",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 5
+      },
+      {
         "name": "Ousmane Dembélé",
         "team": "France",
         "flag": "🇫🇷",
         "position": "",
         "value": 5
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "position": "",
-        "value": 4
       },
       {
         "name": "Ismaïla Sarr",
@@ -384,6 +384,13 @@
         "name": "Malik Tillman",
         "team": "United States",
         "flag": "🇺🇸",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Pedro Porro",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 2
       },
@@ -1098,13 +1105,6 @@
         "name": "Folarin Balogun",
         "team": "United States",
         "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Pedro Porro",
-        "team": "Spain",
-        "flag": "🇪🇸",
         "position": "",
         "value": 1
       },
