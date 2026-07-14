@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T23:28:20.503Z",
+  "updatedAt": "2026-07-14T00:52:31.973Z",
   "individual": {
     "goals": [
       {
@@ -43,20 +43,6 @@
         "flag": "🇫🇷",
         "position": "",
         "value": 5
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 4
-      },
-      {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "",
-        "value": 4
       },
       {
         "name": "Mikel Oyarzabal",
@@ -122,7 +108,21 @@
         "value": 3
       },
       {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 3
+      },
+      {
         "name": "Matheus Cunha",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Vinícius Júnior",
         "team": "Brazil",
         "flag": "🇧🇷",
         "position": "",
@@ -176,13 +176,6 @@
         "flag": "🇧🇪",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Breel Embolo",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Jamal Musiala",
@@ -414,13 +407,6 @@
         "flag": "🇪🇸",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "John McGinn",
-        "team": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Nestory Irankunda",
@@ -1133,6 +1119,13 @@
         "name": "Gonçalo Ramos",
         "team": "Portugal",
         "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
