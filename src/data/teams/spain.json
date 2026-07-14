@@ -457,7 +457,7 @@
       "jersey": "25"
     }
   ],
-  "pitchLabel": "Confirmed XI · Jul 10 vs Belgium",
+  "pitchLabel": "Confirmed XI · Jul 14 vs France",
   "matches": [
     {
       "eventId": "760428",
@@ -550,6 +550,24 @@
       "eventId": "760511",
       "opponent": "Belgium",
       "date": "Jul 10",
+      "starters": [
+        "Simón",
+        "Laporte",
+        "Cubarsí",
+        "Cucurella",
+        "Porro",
+        "Olmo",
+        "Ruiz",
+        "Rodri",
+        "Oyarzabal",
+        "Baena",
+        "Yamal"
+      ]
+    },
+    {
+      "eventId": "760514",
+      "opponent": "France",
+      "date": "Jul 14",
       "starters": [
         "Simón",
         "Laporte",

@@ -242,24 +242,24 @@
         "y": 215
       },
       {
-        "name": "Koné",
-        "shortName": "Koné",
+        "name": "Tchouaméni",
+        "shortName": "Tchouaméni",
         "position": "RM",
         "role": "mid",
-        "isKeyPlayer": false,
+        "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "6",
+        "jersey": "8",
         "x": 289,
         "y": 215
       },
       {
-        "name": "Doué",
-        "shortName": "Doué",
+        "name": "Barcola",
+        "shortName": "Barcola",
         "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "12",
         "x": 104,
         "y": 310
       },
@@ -467,7 +467,7 @@
   ],
   "population": "68.4M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jul 9 vs Morocco",
+  "pitchLabel": "Confirmed XI · Jul 14 vs Spain",
   "matches": [
     {
       "eventId": "760432",
@@ -574,6 +574,24 @@
         "Koné",
         "Mbappé",
         "Doué",
+        "Dembélé"
+      ]
+    },
+    {
+      "eventId": "760514",
+      "opponent": "Spain",
+      "date": "Jul 14",
+      "starters": [
+        "Maignan",
+        "Saliba",
+        "Upamecano",
+        "Digne",
+        "Koundé",
+        "Olise",
+        "Rabiot",
+        "Tchouaméni",
+        "Mbappé",
+        "Barcola",
         "Dembélé"
       ]
     }
