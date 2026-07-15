@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T07:53:38.063Z",
+  "updatedAt": "2026-07-15T09:44:29.647Z",
   "individual": {
     "goals": [
       {
@@ -1258,16 +1258,30 @@
         "value": 3
       },
       {
-        "name": "Achraf Hakimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
+        "name": "Marc Cucurella",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "D",
         "value": 2
       },
       {
-        "name": "Marc Cucurella",
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Dani Olmo",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Achraf Hakimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "D",
         "value": 2
       },
@@ -1289,13 +1303,6 @@
         "name": "Breel Embolo",
         "team": "Switzerland",
         "flag": "🇨🇭",
-        "position": "F",
-        "value": 2
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "F",
         "value": 2
       },
@@ -1347,13 +1354,6 @@
         "flag": "🇸🇪",
         "position": "F",
         "value": 2
-      },
-      {
-        "name": "Joshua Kimmich",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "M",
-        "value": 2
       }
     ]
   },
@@ -1364,9 +1364,9 @@
       "gp": 3,
       "gf": 5,
       "ga": 0,
-      "cleanSheets": 5,
-      "possession": 64.8,
-      "yellowCards": 5,
+      "cleanSheets": 6,
+      "possession": 63.1,
+      "yellowCards": 6,
       "redCards": 0
     },
     {
@@ -1618,8 +1618,8 @@
       "gf": 10,
       "ga": 2,
       "cleanSheets": 4,
-      "possession": 60.4,
-      "yellowCards": 4,
+      "possession": 59.9,
+      "yellowCards": 6,
       "redCards": 0
     },
     {
