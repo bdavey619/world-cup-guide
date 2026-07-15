@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:44:31.440Z",
+  "updatedAt": "2026-07-15T21:39:54.597Z",
   "individual": {
     "goals": [
       {
@@ -153,6 +153,13 @@
         "name": "Romelu Lukaku",
         "team": "Belgium",
         "flag": "🇧🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "",
         "value": 3
       },
@@ -318,13 +325,6 @@
         "value": 2
       },
       {
-        "name": "Lautaro Martínez",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
@@ -370,6 +370,13 @@
         "name": "Mikel Merino",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Enzo Fernández",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "",
         "value": 2
       },
@@ -1123,13 +1130,6 @@
         "value": 1
       },
       {
-        "name": "Enzo Fernández",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Juan Fernando Quintero",
         "team": "Colombia",
         "flag": "🇨🇴",
@@ -1175,6 +1175,13 @@
         "name": "Julián Álvarez",
         "team": "Argentina",
         "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Anthony Gordon",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 1
       }
