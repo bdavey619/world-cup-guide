@@ -180,13 +180,13 @@
         "y": 56
       },
       {
-        "name": "O'Reilly",
-        "shortName": "O'Reilly",
+        "name": "Spence",
+        "shortName": "Spence",
         "position": "LB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "25",
         "x": 63,
         "y": 130
       },
@@ -213,13 +213,13 @@
         "y": 130
       },
       {
-        "name": "Konsa",
-        "shortName": "Konsa",
+        "name": "James",
+        "shortName": "James",
         "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "2",
+        "jersey": "24",
         "x": 389,
         "y": 130
       },
@@ -268,13 +268,13 @@
         "y": 310
       },
       {
-        "name": "Madueke",
-        "shortName": "Madueke",
+        "name": "Rogers",
+        "shortName": "Rogers",
         "position": "AM-R",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "20",
+        "jersey": "17",
         "x": 348,
         "y": 310
       },
@@ -460,7 +460,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jul 11 vs Norway",
+  "pitchLabel": "Confirmed XI · Jul 15 vs Argentina",
   "matches": [
     {
       "eventId": "760437",
@@ -568,6 +568,24 @@
         "Kane",
         "Gordon",
         "Madueke"
+      ]
+    },
+    {
+      "eventId": "760515",
+      "opponent": "Argentina",
+      "date": "Jul 15",
+      "starters": [
+        "Pickford",
+        "Guéhi",
+        "Stones",
+        "Spence",
+        "James",
+        "Bellingham",
+        "Anderson",
+        "Rice",
+        "Kane",
+        "Gordon",
+        "Rogers"
       ]
     }
   ]
