@@ -16,7 +16,7 @@
     "lastWCResult": "Won '22",
     "manager": "Lionel Scaloni",
     "managerTenure": "2018–present",
-    "formation": "4-4-2",
+    "formation": "4-1-4-1",
     "winPct": 10,
     "advancePct": 96
   },
@@ -188,7 +188,7 @@
         "isCaptain": false,
         "jersey": "3",
         "x": 63,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Romero",
@@ -199,7 +199,7 @@
         "isCaptain": false,
         "jersey": "13",
         "x": 161,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Martínez",
@@ -210,7 +210,7 @@
         "isCaptain": false,
         "jersey": "6",
         "x": 293,
-        "y": 148
+        "y": 130
       },
       {
         "name": "Molina",
@@ -221,29 +221,40 @@
         "isCaptain": false,
         "jersey": "26",
         "x": 389,
-        "y": 148
-      },
-      {
-        "name": "Fernández",
-        "shortName": "Fernández",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 63,
-        "y": 256
+        "y": 130
       },
       {
         "name": "Paredes",
         "shortName": "Paredes",
-        "position": "CM-R",
+        "position": "DM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "5",
+        "x": 226,
+        "y": 215
+      },
+      {
+        "name": "Álvarez",
+        "shortName": "Álvarez",
+        "position": "LM",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 63,
+        "y": 310
+      },
+      {
+        "name": "Fernández",
+        "shortName": "Fernández",
+        "position": "CM-R",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "24",
         "x": 161,
-        "y": 256
+        "y": 310
       },
       {
         "name": "Mac Allister",
@@ -254,7 +265,7 @@
         "isCaptain": false,
         "jersey": "20",
         "x": 293,
-        "y": 256
+        "y": 310
       },
       {
         "name": "Simeone",
@@ -265,29 +276,18 @@
         "isCaptain": false,
         "jersey": "17",
         "x": 389,
-        "y": 256
+        "y": 310
       },
       {
         "name": "Messi",
         "shortName": "Messi",
-        "position": "CF-R",
+        "position": "F",
         "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 163,
-        "y": 375
-      },
-      {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
-        "position": "CF-L",
-        "role": "att",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 289,
-        "y": 375
+        "x": 226,
+        "y": 385
       }
     ]
   },
@@ -572,13 +572,13 @@
         "Martínez",
         "Martínez",
         "Romero",
+        "Paredes",
         "Tagliafico",
         "Molina",
         "Mac Allister",
-        "Paredes",
         "Fernández",
-        "Simeone",
         "Álvarez",
+        "Simeone",
         "Messi"
       ]
     }
