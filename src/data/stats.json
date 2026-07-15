@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T23:28:15.239Z",
+  "updatedAt": "2026-07-15T00:13:10.611Z",
   "individual": {
     "goals": [
       {
@@ -57,20 +57,6 @@
         "flag": "🇸🇳",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Kai Havertz",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Deniz Undav",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Elijah Just",
@@ -178,41 +164,6 @@
         "value": 3
       },
       {
-        "name": "Jamal Musiala",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Crysencio Summerville",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Daichi Kamada",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Amad Diallo",
-        "team": "Ivory Coast",
-        "flag": "🇨🇮",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Yasin Ayari",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Emam Ashour",
         "team": "Egypt",
         "flag": "🇪🇬",
@@ -293,6 +244,13 @@
         "name": "Anthony Elanga",
         "team": "Sweden",
         "flag": "🇸🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
         "position": "",
         "value": 2
       },
@@ -414,90 +372,6 @@
         "flag": "🇪🇸",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Nestory Irankunda",
-        "team": "Australia",
-        "flag": "🇦🇺",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Connor Metcalfe",
-        "team": "Australia",
-        "flag": "🇦🇺",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Felix Nmecha",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Livano Comenencia",
-        "team": "Curaçao",
-        "flag": "🇨🇼",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nico Schlotterbeck",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nathaniel Brown",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Virgil van Dijk",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Keito Nakamura",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Alexander Isak",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Omar Rekik",
-        "team": "Tunisia",
-        "flag": "🇹🇳",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Viktor Gyökeres",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mattias Svanberg",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Abdulelah Al-Amri",
@@ -633,9 +507,23 @@
         "value": 1
       },
       {
+        "name": "Crysencio Summerville",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Franck Kessié",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Daichi Kamada",
+        "team": "Japan",
+        "flag": "🇯🇵",
         "position": "",
         "value": 1
       },
@@ -1025,6 +913,13 @@
         "value": 1
       },
       {
+        "name": "Kai Havertz",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Maurício",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -1042,6 +937,13 @@
         "name": "Gustavo Gómez",
         "team": "Paraguay",
         "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jamal Musiala",
+        "team": "Germany",
+        "flag": "🇩🇪",
         "position": "",
         "value": 1
       },
@@ -1091,6 +993,13 @@
         "name": "Antonio Nusa",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Amad Diallo",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
         "position": "",
         "value": 1
       },
@@ -1990,11 +1899,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "France 3–0 Sweden",
-      "loser": "Sweden",
-      "winner": "France",
+      "label": "Spain 3–0 Austria",
+      "loser": "Austria",
+      "winner": "Spain",
       "margin": 3,
-      "date": "Jun 30"
+      "date": "Jul 2"
     }
   }
 }
