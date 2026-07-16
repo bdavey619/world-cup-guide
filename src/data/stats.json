@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T06:33:35.606Z",
+  "updatedAt": "2026-07-16T08:56:34.990Z",
   "individual": {
     "goals": [
       {
@@ -1181,6 +1181,13 @@
         "value": 5
       },
       {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "F",
+        "value": 4
+      },
+      {
         "name": "Brahim Díaz",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -1209,6 +1216,13 @@
         "value": 3
       },
       {
+        "name": "Anthony Gordon",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "F",
+        "value": 3
+      },
+      {
         "name": "Bukayo Saka",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -1226,13 +1240,6 @@
         "name": "Roberto Alvarado",
         "team": "Mexico",
         "flag": "🇲🇽",
-        "position": "F",
-        "value": 3
-      },
-      {
-        "name": "Anthony Gordon",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "F",
         "value": 3
       },
@@ -1276,13 +1283,6 @@
         "team": "Morocco",
         "flag": "🇲🇦",
         "position": "D",
-        "value": 2
-      },
-      {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "F",
         "value": 2
       },
       {
@@ -1369,8 +1369,8 @@
       "gf": 8,
       "ga": 1,
       "cleanSheets": 2,
-      "possession": 65.4,
-      "yellowCards": 6,
+      "possession": 63.1,
+      "yellowCards": 9,
       "redCards": 0
     },
     {
@@ -1457,8 +1457,8 @@
       "gf": 6,
       "ga": 2,
       "cleanSheets": 2,
-      "possession": 57.1,
-      "yellowCards": 7,
+      "possession": 53.7,
+      "yellowCards": 8,
       "redCards": 1
     },
     {
