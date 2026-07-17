@@ -1,28 +1,7 @@
 {
-  "updatedAt": "2026-07-16T23:12:37.930Z",
+  "updatedAt": "2026-07-17T00:11:45.749Z",
   "individual": {
     "goals": [
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 8
-      },
-      {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 8
-      },
-      {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 7
-      },
       {
         "name": "Harry Kane",
         "team": "England",
@@ -38,6 +17,13 @@
         "value": 6
       },
       {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 6
+      },
+      {
         "name": "Mikel Oyarzabal",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -45,9 +31,23 @@
         "value": 5
       },
       {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 5
+      },
+      {
         "name": "Ousmane Dembélé",
         "team": "France",
         "flag": "🇫🇷",
+        "position": "",
+        "value": 5
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 5
       },
@@ -162,13 +162,6 @@
         "flag": "🇧🇪",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Bradley Barcola",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Marko Arnautovic",
@@ -351,27 +344,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Ibrahim Mbaye",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Aymen Hussein",
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Leo Østigard",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Romano Schmid",
@@ -986,6 +958,13 @@
         "name": "Amad Diallo",
         "team": "Ivory Coast",
         "flag": "🇨🇮",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 1
       },
@@ -1892,11 +1871,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "Spain 3–0 Austria",
-      "loser": "Austria",
-      "winner": "Spain",
+      "label": "Canada 0–3 Morocco",
+      "loser": "Canada",
+      "winner": "Morocco",
       "margin": 3,
-      "date": "Jul 2"
+      "date": "Jul 4"
     }
   }
 }
