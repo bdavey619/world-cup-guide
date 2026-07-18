@@ -187,101 +187,101 @@
         "y": 56
       },
       {
+        "name": "Hernández",
+        "shortName": "Hernández",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "19",
+        "x": 63,
+        "y": 130
+      },
+      {
         "name": "Konaté",
         "shortName": "Konaté",
-        "position": "D",
+        "position": "CD-R",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "15",
-        "x": 63,
+        "x": 161,
         "y": 130
       },
       {
         "name": "Lacroix",
         "shortName": "Lacroix",
-        "position": "D",
+        "position": "CD-L",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "26",
-        "x": 161,
+        "x": 293,
         "y": 130
       },
       {
         "name": "Gusto",
         "shortName": "Gusto",
-        "position": "D",
+        "position": "RB",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "2",
-        "x": 293,
-        "y": 130
-      },
-      {
-        "name": "Hernández",
-        "shortName": "Hernández",
-        "position": "D",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "19",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Olise",
-        "shortName": "Olise",
-        "position": "M",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "11",
-        "x": 163,
-        "y": 215
-      },
-      {
         "name": "Rabiot",
         "shortName": "Rabiot",
-        "position": "M",
+        "position": "LM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "14",
-        "x": 289,
+        "x": 163,
         "y": 215
       },
       {
         "name": "Zaïre-Emery",
         "shortName": "Zaïre-Emery",
-        "position": "M",
+        "position": "RM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "18",
-        "x": 104,
-        "y": 310
+        "x": 289,
+        "y": 215
       },
       {
         "name": "Doué",
         "shortName": "Doué",
-        "position": "M",
+        "position": "AM-L",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
-        "x": 226,
+        "x": 104,
         "y": 310
       },
       {
         "name": "Cherki",
         "shortName": "Cherki",
-        "position": "M",
+        "position": "AM",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "24",
+        "x": 226,
+        "y": 310
+      },
+      {
+        "name": "Olise",
+        "shortName": "Olise",
+        "position": "AM-R",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
         "x": 348,
         "y": 310
       },
@@ -289,7 +289,7 @@
         "name": "Mbappé",
         "shortName": "Mbappé",
         "position": "F",
-        "role": "mid",
+        "role": "att",
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
@@ -601,16 +601,16 @@
       "date": "Jul 18",
       "starters": [
         "Maignan",
-        "Konaté",
         "Lacroix",
-        "Gusto",
+        "Konaté",
         "Hernández",
-        "Olise",
+        "Gusto",
+        "Cherki",
         "Rabiot",
         "Zaïre-Emery",
+        "Mbappé",
         "Doué",
-        "Cherki",
-        "Mbappé"
+        "Olise"
       ]
     }
   ]
