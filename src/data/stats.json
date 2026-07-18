@@ -1,21 +1,7 @@
 {
-  "updatedAt": "2026-07-17T23:08:18.164Z",
+  "updatedAt": "2026-07-18T00:04:47.250Z",
   "individual": {
     "goals": [
-      {
-        "name": "Harry Kane",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 6
-      },
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 6
-      },
       {
         "name": "Kylian Mbappé",
         "team": "France",
@@ -52,6 +38,13 @@
         "value": 5
       },
       {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 5
+      },
+      {
         "name": "Ismaïla Sarr",
         "team": "Senegal",
         "flag": "🇸🇳",
@@ -59,11 +52,11 @@
         "value": 4
       },
       {
-        "name": "Yoane Wissa",
-        "team": "DR Congo",
-        "flag": "🇨🇩",
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
-        "value": 3
+        "value": 4
       },
       {
         "name": "Johan Manzambi",
@@ -164,34 +157,6 @@
         "value": 3
       },
       {
-        "name": "Marko Arnautovic",
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Daniel Muñoz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Luis Díaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Jáminton Campaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Ermin Mahmic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
@@ -283,6 +248,13 @@
         "value": 2
       },
       {
+        "name": "Yoane Wissa",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Riyad Mahrez",
         "team": "Algeria",
         "flag": "🇩🇿",
@@ -344,62 +316,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Romano Schmid",
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ali Olwan",
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "João Neves",
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Martin Baturina",
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Petar Musa",
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Marcus Rashford",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Caleb Yirenkyi",
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Abbosbek Fayzullaev",
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Michal Sadílek",
@@ -566,6 +482,13 @@
         "name": "Ante Budimir",
         "team": "Croatia",
         "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Daniel Muñoz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
         "position": "",
         "value": 1
       },
@@ -797,6 +720,13 @@
         "name": "Fiston Mayele",
         "team": "DR Congo",
         "flag": "🇨🇩",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marko Arnautovic",
+        "team": "Austria",
+        "flag": "🇦🇹",
         "position": "",
         "value": 1
       },
@@ -1109,9 +1039,23 @@
         "value": 1
       },
       {
+        "name": "Jáminton Campaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Cedric Itten",
         "team": "Switzerland",
         "flag": "🇨🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Luis Díaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
         "position": "",
         "value": 1
       },
