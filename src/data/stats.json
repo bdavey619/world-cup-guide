@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-07-18T22:10:35.155Z",
+  "updatedAt": "2026-07-18T23:07:26.849Z",
   "individual": {
     "goals": [
       {
         "name": "Kylian Mbappé",
         "team": "France",
         "flag": "🇫🇷",
+        "position": "",
+        "value": 8
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 6
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 6
       },
@@ -24,23 +38,9 @@
         "value": 5
       },
       {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 5
-      },
-      {
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
-        "position": "",
-        "value": 5
-      },
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 5
       },
@@ -157,6 +157,13 @@
         "value": 3
       },
       {
+        "name": "Bukayo Saka",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 3
+      },
+      {
         "name": "Ermin Mahmic",
         "team": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
@@ -258,6 +265,13 @@
         "name": "Riyad Mahrez",
         "team": "Algeria",
         "flag": "🇩🇿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 2
       },
@@ -892,13 +906,6 @@
         "value": 1
       },
       {
-        "name": "Bradley Barcola",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Brian Cipenga",
         "team": "DR Congo",
         "flag": "🇨🇩",
@@ -1089,6 +1096,20 @@
       },
       {
         "name": "Anthony Gordon",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Declan Rice",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ezri Konsa",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
@@ -1805,12 +1826,12 @@
   ],
   "records": {
     "highestScoring": {
-      "goals": 4,
+      "goals": 6,
       "teams": [
         {
-          "team": "Belgium",
-          "label": "United States 1–4 Belgium",
-          "date": "Jul 6"
+          "team": "England",
+          "label": "France 4–6 England",
+          "date": "Jul 18"
         }
       ]
     },
