@@ -16,7 +16,7 @@
     "lastWCResult": "QF '22",
     "manager": "Thomas Tuchel",
     "managerTenure": "2024–present",
-    "formation": "4-2-3-1",
+    "formation": "4-1-4-1",
     "winPct": 10,
     "advancePct": 96
   },
@@ -169,42 +169,42 @@
   "pitch": {
     "players": [
       {
-        "name": "Pickford",
-        "shortName": "Pickford",
+        "name": "Henderson",
+        "shortName": "Henderson",
         "position": "G",
         "role": "gk",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "1",
+        "jersey": "13",
         "x": 226,
         "y": 56
       },
       {
-        "name": "Spence",
-        "shortName": "Spence",
-        "position": "LB",
+        "name": "Quansah",
+        "shortName": "Quansah",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "25",
+        "jersey": "26",
         "x": 63,
         "y": 130
       },
       {
-        "name": "Stones",
-        "shortName": "Stones",
-        "position": "CD-R",
+        "name": "Spence",
+        "shortName": "Spence",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
+        "jersey": "25",
         "x": 161,
         "y": 130
       },
       {
         "name": "Guéhi",
         "shortName": "Guéhi",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
@@ -213,79 +213,79 @@
         "y": 130
       },
       {
-        "name": "James",
-        "shortName": "James",
-        "position": "RB",
+        "name": "Konsa",
+        "shortName": "Konsa",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "24",
+        "jersey": "2",
         "x": 389,
         "y": 130
       },
       {
-        "name": "Anderson",
-        "shortName": "Anderson",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "8",
-        "x": 163,
-        "y": 215
-      },
-      {
-        "name": "Rice",
-        "shortName": "Rice",
-        "position": "RM",
-        "role": "mid",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "4",
-        "x": 289,
-        "y": 215
-      },
-      {
-        "name": "Gordon",
-        "shortName": "Gordon",
-        "position": "AM-L",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "18",
-        "x": 104,
-        "y": 310
-      },
-      {
-        "name": "Bellingham",
-        "shortName": "Bellingham",
-        "position": "AM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "10",
-        "x": 226,
-        "y": 310
-      },
-      {
         "name": "Rogers",
         "shortName": "Rogers",
-        "position": "AM-R",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "17",
-        "x": 348,
+        "x": 226,
+        "y": 215
+      },
+      {
+        "name": "Rashford",
+        "shortName": "Rashford",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "11",
+        "x": 63,
         "y": 310
       },
       {
-        "name": "Kane",
-        "shortName": "Kane",
-        "position": "F",
-        "role": "att",
+        "name": "Eze",
+        "shortName": "Eze",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "21",
+        "x": 161,
+        "y": 310
+      },
+      {
+        "name": "Saka",
+        "shortName": "Saka",
+        "position": "M",
+        "role": "mid",
         "isKeyPlayer": true,
         "isCaptain": false,
-        "jersey": "9",
+        "jersey": "7",
+        "x": 293,
+        "y": 310
+      },
+      {
+        "name": "Rice",
+        "shortName": "Rice",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "4",
+        "x": 389,
+        "y": 310
+      },
+      {
+        "name": "Toney",
+        "shortName": "Toney",
+        "position": "F",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "22",
         "x": 226,
         "y": 385
       }
@@ -460,7 +460,7 @@
   ],
   "population": "56.5M",
   "location": "Western Europe",
-  "pitchLabel": "Confirmed XI · Jul 15 vs Argentina",
+  "pitchLabel": "Confirmed XI · Jul 18 vs France",
   "matches": [
     {
       "eventId": "760437",
@@ -586,6 +586,24 @@
         "Kane",
         "Gordon",
         "Rogers"
+      ]
+    },
+    {
+      "eventId": "760516",
+      "opponent": "France",
+      "date": "Jul 18",
+      "starters": [
+        "Henderson",
+        "Quansah",
+        "Spence",
+        "Guéhi",
+        "Konsa",
+        "Rogers",
+        "Rashford",
+        "Eze",
+        "Saka",
+        "Rice",
+        "Toney"
       ]
     }
   ]
