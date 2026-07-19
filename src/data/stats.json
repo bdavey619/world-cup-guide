@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:07:26.849Z",
+  "updatedAt": "2026-07-19T00:04:41.019Z",
   "individual": {
     "goals": [
       {
@@ -57,27 +57,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Johan Manzambi",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Rubén Vargas",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Jonathan David",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Ismael Saibari",
@@ -164,20 +143,6 @@
         "value": 3
       },
       {
-        "name": "Ermin Mahmic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Granit Xhaka",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Matías Galarza",
         "team": "Paraguay",
         "flag": "🇵🇾",
@@ -216,6 +181,13 @@
         "name": "Mohamed Salah",
         "team": "Egypt",
         "flag": "🇪🇬",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Rubén Vargas",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 2
       },
@@ -330,41 +302,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Michal Sadílek",
-        "team": "Czechia",
-        "flag": "🇨🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Teboho Mokoena",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Cyle Larin",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nathan Saliba",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Luis Romo",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Alex Freeman",
@@ -517,6 +454,20 @@
         "name": "Hassan Al-Haydos",
         "team": "Qatar",
         "flag": "🇶🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ermin Mahmic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Johan Manzambi",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
@@ -1035,6 +986,13 @@
         "name": "Juan Fernando Quintero",
         "team": "Colombia",
         "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Granit Xhaka",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
@@ -1836,11 +1794,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "Canada 0–3 Morocco",
-      "loser": "Canada",
-      "winner": "Morocco",
+      "label": "United States 1–4 Belgium",
+      "loser": "United States",
+      "winner": "Belgium",
       "margin": 3,
-      "date": "Jul 4"
+      "date": "Jul 6"
     }
   }
 }
