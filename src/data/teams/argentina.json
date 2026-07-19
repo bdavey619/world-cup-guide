@@ -16,7 +16,7 @@
     "lastWCResult": "Won '22",
     "manager": "Lionel Scaloni",
     "managerTenure": "2018–present",
-    "formation": "4-1-4-1",
+    "formation": "4-4-2",
     "winPct": 10,
     "advancePct": 96
   },
@@ -180,103 +180,103 @@
         "y": 56
       },
       {
-        "name": "Tagliafico",
-        "shortName": "Tagliafico",
-        "position": "LB",
+        "name": "Montiel",
+        "shortName": "Montiel",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "3",
+        "jersey": "4",
         "x": 63,
-        "y": 130
-      },
-      {
-        "name": "Romero",
-        "shortName": "Romero",
-        "position": "CD-R",
-        "role": "def",
-        "isKeyPlayer": false,
-        "isCaptain": false,
-        "jersey": "13",
-        "x": 161,
-        "y": 130
+        "y": 148
       },
       {
         "name": "Martínez",
         "shortName": "Martínez",
-        "position": "CD-L",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "6",
-        "x": 293,
-        "y": 130
+        "x": 161,
+        "y": 148
       },
       {
-        "name": "Molina",
-        "shortName": "Molina",
-        "position": "RB",
+        "name": "Tagliafico",
+        "shortName": "Tagliafico",
+        "position": "D",
         "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "26",
-        "x": 389,
-        "y": 130
+        "jersey": "3",
+        "x": 293,
+        "y": 148
       },
       {
-        "name": "Paredes",
-        "shortName": "Paredes",
-        "position": "DM",
-        "role": "mid",
+        "name": "Romero",
+        "shortName": "Romero",
+        "position": "D",
+        "role": "def",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "5",
-        "x": 226,
-        "y": 215
-      },
-      {
-        "name": "Álvarez",
-        "shortName": "Álvarez",
-        "position": "LM",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "9",
-        "x": 63,
-        "y": 310
-      },
-      {
-        "name": "Fernández",
-        "shortName": "Fernández",
-        "position": "CM-R",
-        "role": "mid",
-        "isKeyPlayer": true,
-        "isCaptain": false,
-        "jersey": "24",
-        "x": 161,
-        "y": 310
+        "jersey": "13",
+        "x": 389,
+        "y": 148
       },
       {
         "name": "Mac Allister",
         "shortName": "Mac Allister",
-        "position": "CM-L",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
         "jersey": "20",
-        "x": 293,
-        "y": 310
+        "x": 63,
+        "y": 256
       },
       {
-        "name": "Simeone",
-        "shortName": "Simeone",
-        "position": "RM",
+        "name": "González",
+        "shortName": "González",
+        "position": "M",
         "role": "mid",
         "isKeyPlayer": false,
         "isCaptain": false,
-        "jersey": "17",
+        "jersey": "15",
+        "x": 161,
+        "y": 256
+      },
+      {
+        "name": "Fernández",
+        "shortName": "Fernández",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "24",
+        "x": 293,
+        "y": 256
+      },
+      {
+        "name": "De Paul",
+        "shortName": "De Paul",
+        "position": "M",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "jersey": "7",
         "x": 389,
-        "y": 310
+        "y": 256
+      },
+      {
+        "name": "Álvarez",
+        "shortName": "Álvarez",
+        "position": "F",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": false,
+        "jersey": "9",
+        "x": 163,
+        "y": 375
       },
       {
         "name": "Messi",
@@ -286,8 +286,8 @@
         "isKeyPlayer": true,
         "isCaptain": false,
         "jersey": "10",
-        "x": 226,
-        "y": 385
+        "x": 289,
+        "y": 375
       }
     ]
   },
@@ -454,7 +454,7 @@
   ],
   "population": "45.8M",
   "location": "South America",
-  "pitchLabel": "Confirmed XI · Jul 15 vs England",
+  "pitchLabel": "Confirmed XI · Jul 19 vs Spain",
   "matches": [
     {
       "eventId": "760433",
@@ -579,6 +579,24 @@
         "Fernández",
         "Álvarez",
         "Simeone",
+        "Messi"
+      ]
+    },
+    {
+      "eventId": "760517",
+      "opponent": "Spain",
+      "date": "Jul 19",
+      "starters": [
+        "Martínez",
+        "Montiel",
+        "Martínez",
+        "Tagliafico",
+        "Romero",
+        "Mac Allister",
+        "González",
+        "Fernández",
+        "De Paul",
+        "Álvarez",
         "Messi"
       ]
     }
