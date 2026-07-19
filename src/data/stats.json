@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T21:24:41.922Z",
+  "updatedAt": "2026-07-19T22:13:28.273Z",
   "individual": {
     "goals": [
       {
@@ -1070,6 +1070,13 @@
         "name": "Ezri Konsa",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ferran Torres",
+        "team": "Spain",
+        "flag": "🇪🇸",
         "position": "",
         "value": 1
       }
