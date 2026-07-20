@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T06:53:55.470Z",
+  "updatedAt": "2026-07-20T09:48:03.174Z",
   "individual": {
     "goals": [
       {
@@ -1083,16 +1083,16 @@
         "value": 7
       },
       {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "F",
         "value": 4
       },
       {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "F",
         "value": 4
       },
@@ -1160,13 +1160,6 @@
         "value": 3
       },
       {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "F",
-        "value": 2
-      },
-      {
         "name": "Marc Cucurella",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -1174,16 +1167,23 @@
         "value": 2
       },
       {
-        "name": "Declan Rice",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "M",
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
         "value": 2
       },
       {
         "name": "Dani Olmo",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Declan Rice",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "M",
         "value": 2
       },
@@ -1259,8 +1259,8 @@
       "gp": 3,
       "gf": 5,
       "ga": 0,
-      "cleanSheets": 6,
-      "possession": 63.1,
+      "cleanSheets": 7,
+      "possession": 62.7,
       "yellowCards": 6,
       "redCards": 0
     },
@@ -1271,9 +1271,9 @@
       "gf": 8,
       "ga": 1,
       "cleanSheets": 2,
-      "possession": 63.1,
-      "yellowCards": 9,
-      "redCards": 0
+      "possession": 57.5,
+      "yellowCards": 13,
+      "redCards": 1
     },
     {
       "name": "Mexico",
