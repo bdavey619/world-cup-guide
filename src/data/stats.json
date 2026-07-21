@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T23:13:57.830Z",
+  "updatedAt": "2026-07-21T00:09:14.929Z",
   "individual": {
     "goals": [
       {
@@ -59,20 +59,6 @@
         "value": 4
       },
       {
-        "name": "Brian Brobbey",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Cody Gakpo",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 3
-      },
-      {
         "name": "Cristiano Ronaldo",
         "team": "Portugal",
         "flag": "🇵🇹",
@@ -120,20 +106,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Anthony Elanga",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Deniz Undav",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Ayase Ueda",
@@ -288,20 +260,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Crysencio Summerville",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Franck Kessié",
-        "team": "Ivory Coast",
-        "flag": "🇨🇮",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Daichi Kamada",
@@ -531,6 +489,20 @@
         "name": "Daizen Maeda",
         "team": "Japan",
         "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Anthony Elanga",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Brian Brobbey",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "",
         "value": 1
       },
@@ -804,6 +776,13 @@
         "name": "José Canale",
         "team": "Paraguay",
         "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Cody Gakpo",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
         "position": "",
         "value": 1
       },
@@ -1794,11 +1773,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "United States 1–4 Belgium",
-      "loser": "United States",
-      "winner": "Belgium",
-      "margin": 3,
-      "date": "Jul 6"
+      "label": "France 2–0 Morocco",
+      "loser": "Morocco",
+      "winner": "France",
+      "margin": 2,
+      "date": "Jul 9"
     }
   }
 }
