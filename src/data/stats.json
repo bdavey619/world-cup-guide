@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T23:13:18.030Z",
+  "updatedAt": "2026-07-22T00:06:25.408Z",
   "individual": {
     "goals": [
       {
@@ -22,13 +22,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 6
-      },
-      {
-        "name": "Mikel Oyarzabal",
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "position": "",
-        "value": 5
       },
       {
         "name": "Lionel Messi",
@@ -94,6 +87,13 @@
         "value": 3
       },
       {
+        "name": "Mikel Oyarzabal",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 3
+      },
+      {
         "name": "Charles De Ketelaere",
         "team": "Belgium",
         "flag": "🇧🇪",
@@ -106,27 +106,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Ayase Ueda",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Mostafa Zico",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Mohamed Salah",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Rubén Vargas",
@@ -260,69 +239,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Daichi Kamada",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Junya Ito",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Lamine Yamal",
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Kevin Pina",
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Maxi Araújo",
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Agustín Canobbio",
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Hélio Varela",
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Finn Surman",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Trézéguet",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Marcus Holmgren Pedersen",
@@ -892,6 +808,13 @@
         "value": 1
       },
       {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Hossam Abdelmaguid",
         "team": "Egypt",
         "flag": "🇪🇬",
@@ -942,6 +865,13 @@
       },
       {
         "name": "Yasser Ibrahim",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mostafa Zico",
         "team": "Egypt",
         "flag": "🇪🇬",
         "position": "",
