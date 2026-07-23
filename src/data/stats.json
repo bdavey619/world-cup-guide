@@ -1,21 +1,7 @@
 {
-  "updatedAt": "2026-07-22T23:44:02.964Z",
+  "updatedAt": "2026-07-23T01:13:08.768Z",
   "individual": {
     "goals": [
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 8
-      },
-      {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 6
-      },
       {
         "name": "Jude Bellingham",
         "team": "England",
@@ -24,25 +10,18 @@
         "value": 6
       },
       {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
-        "value": 5
+        "value": 6
       },
       {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 5
-      },
-      {
-        "name": "Ismaïla Sarr",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 4
       },
       {
         "name": "Harry Kane",
@@ -83,6 +62,20 @@
         "name": "Lautaro Martínez",
         "team": "Argentina",
         "flag": "🇦🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
         "position": "",
         "value": 3
       },
@@ -137,6 +130,13 @@
       },
       {
         "name": "Habib Diarra",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ismaïla Sarr",
         "team": "Senegal",
         "flag": "🇸🇳",
         "position": "",
@@ -239,34 +239,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Marcus Holmgren Pedersen",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nizar Al-Rashdan",
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nadhir Benbouali",
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Amine Gouiri",
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Nuno Mendes",
