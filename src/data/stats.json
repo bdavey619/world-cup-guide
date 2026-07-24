@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T23:31:43.081Z",
+  "updatedAt": "2026-07-24T00:58:28.650Z",
   "individual": {
     "goals": [
       {
@@ -29,13 +29,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Cristiano Ronaldo",
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Soufiane Rahimi",
@@ -239,34 +232,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Nuno Mendes",
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Rafael Leão",
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ante Budimir",
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Daniel Muñoz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Kerim Alajbegovic",
@@ -734,6 +699,13 @@
         "name": "Ivan Perisic",
         "team": "Croatia",
         "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "flag": "🇵🇹",
         "position": "",
         "value": 1
       },
@@ -1675,11 +1647,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "France 2–0 Morocco",
-      "loser": "Morocco",
-      "winner": "France",
+      "label": "Argentina 3–1 Switzerland",
+      "loser": "Switzerland",
+      "winner": "Argentina",
       "margin": 2,
-      "date": "Jul 9"
+      "date": "Jul 11"
     }
   }
 }
