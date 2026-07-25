@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T23:28:21.567Z",
+  "updatedAt": "2026-07-25T01:02:13.455Z",
   "individual": {
     "goals": [
       {
@@ -29,20 +29,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Soufiane Rahimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Julián Quiñones",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Romelu Lukaku",
@@ -92,27 +78,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Rubén Vargas",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Vinícius Júnior",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Nicolas Pépé",
@@ -171,9 +136,23 @@
         "value": 2
       },
       {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Bradley Barcola",
         "team": "France",
         "flag": "🇫🇷",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
         "position": "",
         "value": 2
       },
@@ -232,90 +211,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Kerim Alajbegovic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Hassan Al-Haydos",
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ermin Mahmic",
-        "team": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Johan Manzambi",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Promise David",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Achraf Hakimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Wilson Isidor",
-        "team": "Haiti",
-        "flag": "🇭🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Gessime Yassine",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Matheus Cunha",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mateo Chávez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Álvaro Fidalgo",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Thapelo Maseko",
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Leroy Sané",
@@ -668,6 +563,13 @@
         "value": 1
       },
       {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Antonio Nusa",
         "team": "Norway",
         "flag": "🇳🇴",
@@ -867,6 +769,13 @@
         "name": "Luis Díaz",
         "team": "Colombia",
         "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Rubén Vargas",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
