@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T23:12:36.956Z",
+  "updatedAt": "2026-07-26T00:12:44.811Z",
   "individual": {
     "goals": [
       {
@@ -78,13 +78,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Nicolas Pépé",
-        "team": "Ivory Coast",
-        "flag": "🇨🇮",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Habib Diarra",
@@ -211,97 +204,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Leroy Sané",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nilson Angulo",
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Gonzalo Plata",
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Daizen Maeda",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Anthony Elanga",
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Brian Brobbey",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Hazem Mastouri",
-        "team": "Tunisia",
-        "flag": "🇹🇳",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jan Paul van Hecke",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Auston Trusty",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Arda Güler",
-        "team": "Türkiye",
-        "flag": "🇹🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Baris Alper Yilmaz",
-        "team": "Türkiye",
-        "flag": "🇹🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Sebastian Berhalter",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Kaan Ayhan",
-        "team": "Türkiye",
-        "flag": "🇹🇷",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Thelo Aasgaard",
@@ -1556,11 +1458,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "Argentina 3–1 Switzerland",
-      "loser": "Switzerland",
-      "winner": "Argentina",
+      "label": "France 0–2 Spain",
+      "loser": "France",
+      "winner": "Spain",
       "margin": 2,
-      "date": "Jul 11"
+      "date": "Jul 14"
     }
   }
 }
