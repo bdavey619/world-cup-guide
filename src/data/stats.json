@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:34:34.397Z",
+  "updatedAt": "2026-07-27T01:12:58.717Z",
   "individual": {
     "goals": [
       {
@@ -17,25 +17,11 @@
         "value": 6
       },
       {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 5
-      },
-      {
         "name": "Harry Kane",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 4
-      },
-      {
-        "name": "Romelu Lukaku",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 3
       },
       {
         "name": "Lautaro Martínez",
@@ -80,41 +66,6 @@
         "value": 3
       },
       {
-        "name": "Habib Diarra",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Ismaïla Sarr",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Pape Gueye",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Mahmoud Saber",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Leandro Trossard",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Yoane Wissa",
         "team": "DR Congo",
         "flag": "🇨🇩",
@@ -153,6 +104,13 @@
         "name": "Raúl Jiménez",
         "team": "Mexico",
         "flag": "🇲🇽",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
         "position": "",
         "value": 2
       },
@@ -206,60 +164,11 @@
         "value": 2
       },
       {
-        "name": "Thelo Aasgaard",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Désiré Doué",
+        "name": "Ousmane Dembélé",
         "team": "France",
         "flag": "🇫🇷",
         "position": "",
-        "value": 1
-      },
-      {
-        "name": "Iliman Ndiaye",
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Álex Baena",
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ramin Rezaeian",
-        "team": "Iran",
-        "flag": "🇮🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Kevin De Bruyne",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Elijah Just",
-        "team": "New Zealand",
-        "flag": "🇳🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Alexis Saelemaekers",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 1
+        "value": 2
       },
       {
         "name": "Petar Sucic",
@@ -493,6 +402,20 @@
         "value": 1
       },
       {
+        "name": "Habib Diarra",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Folarin Balogun",
         "team": "United States",
         "flag": "🇺🇸",
@@ -529,6 +452,13 @@
       },
       {
         "name": "Emam Ashour",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mahmoud Saber",
         "team": "Egypt",
         "flag": "🇪🇬",
         "position": "",
