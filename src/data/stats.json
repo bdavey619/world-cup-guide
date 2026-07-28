@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T04:24:05.288Z",
+  "updatedAt": "2026-07-28T06:45:37.867Z",
   "individual": {
     "goals": [
       {
@@ -577,9 +577,714 @@
         "value": 1
       }
     ],
-    "assists": []
+    "assists": [
+      {
+        "name": "Michael Olise",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "M",
+        "value": 7
+      },
+      {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "F",
+        "value": 4
+      },
+      {
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
+        "value": 4
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "M",
+        "value": 4
+      },
+      {
+        "name": "Martin Ødegaard",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "M",
+        "value": 4
+      },
+      {
+        "name": "Bruno Guimarães",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "M",
+        "value": 4
+      },
+      {
+        "name": "Bukayo Saka",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Anthony Gordon",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Andreas Schjelderup",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Roberto Alvarado",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "M",
+        "value": 3
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "F",
+        "value": 3
+      },
+      {
+        "name": "Marc Cucurella",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Dani Olmo",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Declan Rice",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Achraf Hakimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "D",
+        "value": 2
+      },
+      {
+        "name": "Leandro Trossard",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Patrick Berg",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Nicolas Raskin",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Hans Vanaken",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Mohamed Salah",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "F",
+        "value": 2
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "M",
+        "value": 2
+      },
+      {
+        "name": "Denzel Dumfries",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "D",
+        "value": 2
+      }
+    ]
   },
-  "teams": [],
+  "teams": [
+    {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "gp": 3,
+      "gf": 5,
+      "ga": 0,
+      "cleanSheets": 7,
+      "possession": 62.7,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "gp": 3,
+      "gf": 8,
+      "ga": 1,
+      "cleanSheets": 2,
+      "possession": 57.5,
+      "yellowCards": 13,
+      "redCards": 1
+    },
+    {
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "gp": 3,
+      "gf": 6,
+      "ga": 0,
+      "cleanSheets": 4,
+      "possession": 50.6,
+      "yellowCards": 4,
+      "redCards": 1
+    },
+    {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "gp": 3,
+      "gf": 7,
+      "ga": 1,
+      "cleanSheets": 2,
+      "possession": 53.3,
+      "yellowCards": 8,
+      "redCards": 0
+    },
+    {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "gp": 3,
+      "gf": 8,
+      "ga": 3,
+      "cleanSheets": 2,
+      "possession": 52.4,
+      "yellowCards": 11,
+      "redCards": 0
+    },
+    {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "gp": 3,
+      "gf": 4,
+      "ga": 1,
+      "cleanSheets": 4,
+      "possession": 56.8,
+      "yellowCards": 8,
+      "redCards": 0
+    },
+    {
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 1,
+      "possession": 55.6,
+      "yellowCards": 8,
+      "redCards": 1
+    },
+    {
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "gp": 3,
+      "gf": 2,
+      "ga": 4,
+      "cleanSheets": 2,
+      "possession": 30.5,
+      "yellowCards": 9,
+      "redCards": 1
+    },
+    {
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "gp": 3,
+      "gf": 3,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": 58,
+      "yellowCards": 5,
+      "redCards": 1
+    },
+    {
+      "name": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "gp": 3,
+      "gf": 6,
+      "ga": 2,
+      "cleanSheets": 2,
+      "possession": 54.1,
+      "yellowCards": 8,
+      "redCards": 1
+    },
+    {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "gp": 3,
+      "gf": 10,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": 59.1,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Czechia",
+      "flag": "🇨🇿",
+      "gp": 3,
+      "gf": 2,
+      "ga": 6,
+      "cleanSheets": 0,
+      "possession": 41.8,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "gp": 3,
+      "gf": 2,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": 62.3,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "Bosnia-Herzegovina",
+      "flag": "🇧🇦",
+      "gp": 3,
+      "gf": 5,
+      "ga": 6,
+      "cleanSheets": 0,
+      "possession": 48.6,
+      "yellowCards": 7,
+      "redCards": 1
+    },
+    {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "gp": 3,
+      "gf": 6,
+      "ga": 2,
+      "cleanSheets": 1,
+      "possession": 51.1,
+      "yellowCards": 6,
+      "redCards": 1
+    },
+    {
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "gp": 3,
+      "gf": 8,
+      "ga": 7,
+      "cleanSheets": 0,
+      "possession": 52.2,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "gp": 3,
+      "gf": 3,
+      "ga": 5,
+      "cleanSheets": 0,
+      "possession": 67.3,
+      "yellowCards": 2,
+      "redCards": 0
+    },
+    {
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "gp": 3,
+      "gf": 7,
+      "ga": 7,
+      "cleanSheets": 0,
+      "possession": 47,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "gp": 3,
+      "gf": 2,
+      "ga": 3,
+      "cleanSheets": 1,
+      "possession": 47.8,
+      "yellowCards": 5,
+      "redCards": 2
+    },
+    {
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "gp": 3,
+      "gf": 3,
+      "ga": 3,
+      "cleanSheets": 1,
+      "possession": 41.4,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "gp": 3,
+      "gf": 6,
+      "ga": 6,
+      "cleanSheets": 0,
+      "possession": 51.1,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "gp": 3,
+      "gf": 7,
+      "ga": 3,
+      "cleanSheets": 2,
+      "possession": 54.2,
+      "yellowCards": 6,
+      "redCards": 1
+    },
+    {
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "gp": 3,
+      "gf": 5,
+      "ga": 5,
+      "cleanSheets": 1,
+      "possession": 51,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "France",
+      "flag": "🇫🇷",
+      "gp": 3,
+      "gf": 10,
+      "ga": 2,
+      "cleanSheets": 4,
+      "possession": 59.2,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "gp": 3,
+      "gf": 10,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": 63.8,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "gp": 3,
+      "gf": 6,
+      "ga": 1,
+      "cleanSheets": 2,
+      "possession": 53.5,
+      "yellowCards": 7,
+      "redCards": 0
+    },
+    {
+      "name": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "gp": 3,
+      "gf": 1,
+      "ga": 4,
+      "cleanSheets": 1,
+      "possession": 44.9,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "gp": 3,
+      "gf": 5,
+      "ga": 7,
+      "cleanSheets": 0,
+      "possession": 62.5,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "gp": 3,
+      "gf": 7,
+      "ga": 3,
+      "cleanSheets": 1,
+      "possession": 48.4,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 2,
+      "possession": 41,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "gp": 3,
+      "gf": 8,
+      "ga": 6,
+      "cleanSheets": 1,
+      "possession": 60,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "gp": 3,
+      "gf": 1,
+      "ga": 5,
+      "cleanSheets": 1,
+      "possession": 37.1,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "gp": 3,
+      "gf": 2,
+      "ga": 12,
+      "cleanSheets": 0,
+      "possession": 42.3,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "gp": 3,
+      "gf": 8,
+      "ga": 4,
+      "cleanSheets": 2,
+      "possession": 55.2,
+      "yellowCards": 7,
+      "redCards": 1
+    },
+    {
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "gp": 3,
+      "gf": 2,
+      "ga": 11,
+      "cleanSheets": 0,
+      "possession": 38.4,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "Cape Verde",
+      "flag": "🇨🇻",
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 2,
+      "possession": 41.6,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "gp": 3,
+      "gf": 5,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": 55.3,
+      "yellowCards": 12,
+      "redCards": 0
+    },
+    {
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "gp": 3,
+      "gf": 2,
+      "ga": 8,
+      "cleanSheets": 0,
+      "possession": 45.4,
+      "yellowCards": 7,
+      "redCards": 0
+    },
+    {
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "gp": 3,
+      "gf": 0,
+      "ga": 4,
+      "cleanSheets": 0,
+      "possession": 49.7,
+      "yellowCards": 5,
+      "redCards": 0
+    },
+    {
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "gp": 3,
+      "gf": 4,
+      "ga": 10,
+      "cleanSheets": 0,
+      "possession": 48.2,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "DR Congo",
+      "flag": "🇨🇩",
+      "gp": 3,
+      "gf": 4,
+      "ga": 3,
+      "cleanSheets": 0,
+      "possession": 45.7,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "gp": 3,
+      "gf": 6,
+      "ga": 3,
+      "cleanSheets": 2,
+      "possession": 63,
+      "yellowCards": 7,
+      "redCards": 0
+    },
+    {
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "gp": 3,
+      "gf": 3,
+      "ga": 8,
+      "cleanSheets": 0,
+      "possession": 32,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "gp": 3,
+      "gf": 1,
+      "ga": 12,
+      "cleanSheets": 0,
+      "possession": 38.1,
+      "yellowCards": 4,
+      "redCards": 1
+    },
+    {
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "gp": 3,
+      "gf": 2,
+      "ga": 10,
+      "cleanSheets": 0,
+      "possession": 32.6,
+      "yellowCards": 4,
+      "redCards": 2
+    },
+    {
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "gp": 3,
+      "gf": 2,
+      "ga": 2,
+      "cleanSheets": 2,
+      "possession": 36.9,
+      "yellowCards": 6,
+      "redCards": 0
+    },
+    {
+      "name": "Ivory Coast",
+      "flag": "🇨🇮",
+      "gp": 3,
+      "gf": 4,
+      "ga": 2,
+      "cleanSheets": 2,
+      "possession": 49.8,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    {
+      "name": "Curaçao",
+      "flag": "🇨🇼",
+      "gp": 3,
+      "gf": 1,
+      "ga": 9,
+      "cleanSheets": 1,
+      "possession": 33.5,
+      "yellowCards": 7,
+      "redCards": 0
+    }
+  ],
   "records": {
     "highestScoring": {
       "goals": 6,
