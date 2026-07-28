@@ -1,14 +1,7 @@
 {
-  "updatedAt": "2026-07-27T23:46:11.327Z",
+  "updatedAt": "2026-07-28T01:06:54.840Z",
   "individual": {
     "goals": [
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 6
-      },
       {
         "name": "Kylian Mbappé",
         "team": "France",
@@ -17,30 +10,23 @@
         "value": 6
       },
       {
-        "name": "Harry Kane",
+        "name": "Jude Bellingham",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
-        "value": 4
-      },
-      {
-        "name": "Lautaro Martínez",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 3
-      },
-      {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 3
+        "value": 5
       },
       {
         "name": "Erling Haaland",
         "team": "Norway",
         "flag": "🇳🇴",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
       },
@@ -64,20 +50,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Yoane Wissa",
-        "team": "DR Congo",
-        "flag": "🇨🇩",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Riyad Mahrez",
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Soufiane Rahimi",
@@ -143,6 +115,13 @@
         "value": 2
       },
       {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Azzedine Ounahi",
         "team": "Morocco",
         "flag": "🇲🇦",
@@ -171,81 +150,11 @@
         "value": 2
       },
       {
-        "name": "Petar Sucic",
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Derrick Luckassen",
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nikola Vlasic",
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Eldor Shomurodov",
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Fiston Mayele",
-        "team": "DR Congo",
-        "flag": "🇨🇩",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Marko Arnautovic",
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Rafik Belghali",
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Marcel Sabitzer",
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Sasa Kalajdzic",
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Giovani Lo Celso",
+        "name": "Lautaro Martínez",
         "team": "Argentina",
         "flag": "🇦🇷",
         "position": "",
-        "value": 1
-      },
-      {
-        "name": "Mousa Al-Tamari",
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "position": "",
-        "value": 1
+        "value": 2
       },
       {
         "name": "Stephen Eustáquio",
