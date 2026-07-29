@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T23:14:43.995Z",
+  "updatedAt": "2026-07-29T00:09:36.914Z",
   "individual": {
     "goals": [
       {
@@ -155,13 +155,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Stephen Eustáquio",
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Kaishu Sano",
@@ -1297,11 +1290,11 @@
       ]
     },
     "biggestDefeat": {
-      "label": "France 0–2 Spain",
+      "label": "France 4–6 England",
       "loser": "France",
-      "winner": "Spain",
+      "winner": "England",
       "margin": 2,
-      "date": "Jul 14"
+      "date": "Jul 18"
     }
   }
 }
