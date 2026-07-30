@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:11:23.238Z",
+  "updatedAt": "2026-07-30T00:09:08.861Z",
   "individual": {
     "goals": [
       {
@@ -50,13 +50,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Soufiane Rahimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Bradley Barcola",
@@ -155,132 +148,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Kaishu Sano",
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Casemiro",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Gabriel Martinelli",
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Julio Enciso",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Kai Havertz",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Maurício",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Joshua Kimmich",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Gustavo Gómez",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jamal Musiala",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Matías Galarza",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Nadiem Amiri",
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "José Canale",
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Cody Gakpo",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Issa Diop",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Teun Koopmeiners",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Wout Weghorst",
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Chemsdine Talbi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Ismael Saibari",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Antonio Nusa",
@@ -426,6 +293,13 @@
         "name": "Jhon Arias",
         "team": "Colombia",
         "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
         "position": "",
         "value": 1
       },
