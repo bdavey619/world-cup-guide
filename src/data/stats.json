@@ -1,14 +1,7 @@
 {
-  "updatedAt": "2026-07-30T23:40:18.045Z",
+  "updatedAt": "2026-07-31T01:11:12.848Z",
   "individual": {
     "goals": [
-      {
-        "name": "Kylian Mbappé",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 6
-      },
       {
         "name": "Jude Bellingham",
         "team": "England",
@@ -17,11 +10,11 @@
         "value": 5
       },
       {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
+        "name": "Kylian Mbappé",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
-        "value": 3
+        "value": 4
       },
       {
         "name": "Harry Kane",
@@ -50,27 +43,6 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 3
-      },
-      {
-        "name": "Bradley Barcola",
-        "team": "France",
-        "flag": "🇫🇷",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Julián Quiñones",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Raúl Jiménez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 2
       },
       {
         "name": "Romelu Lukaku",
@@ -122,6 +94,13 @@
         "value": 2
       },
       {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Mikel Merino",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -148,20 +127,6 @@
         "flag": "🇦🇷",
         "position": "",
         "value": 2
-      },
-      {
-        "name": "Antonio Nusa",
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Amad Diallo",
-        "team": "Ivory Coast",
-        "flag": "🇨🇮",
-        "position": "",
-        "value": 1
       },
       {
         "name": "Brian Cipenga",
@@ -311,6 +276,20 @@
         "value": 1
       },
       {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 1
+      },
+      {
         "name": "Hans Vanaken",
         "team": "Belgium",
         "flag": "🇧🇪",
@@ -433,6 +412,13 @@
         "name": "Ezri Konsa",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
         "position": "",
         "value": 1
       },
