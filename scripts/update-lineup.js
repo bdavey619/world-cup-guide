@@ -221,9 +221,13 @@ function formatMatchDate(dateStr) {
 
 // ─── HTTP fetch ───────────────────────────────────────────────────────────────
 
+// ESPN's edge rejects both bare token and browser-spoofing User-Agents with a
+// 403; including a contact URL passes. Keep the contact URL if you change this.
+const USER_AGENT = 'world-cup-guide/1.0 (+https://github.com/bdavey619/bdavey619.github.io)'
+
 function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, res => {
       let body = ''
       res.on('data', c => body += c)
       res.on('end', () => {

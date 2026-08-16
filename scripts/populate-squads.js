@@ -43,9 +43,13 @@ const ESPN_NAME_OVERRIDES = {
   'democratic republic of congo': 'dr-congo',
 }
 
+// ESPN's edge rejects both bare token and browser-spoofing User-Agents with a
+// 403; including a contact URL passes. Keep the contact URL if you change this.
+const USER_AGENT = 'world-cup-guide/1.0 (+https://github.com/bdavey619/bdavey619.github.io)'
+
 function fetchJSON(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+    https.get(url, { headers: { 'User-Agent': USER_AGENT } }, res => {
       let body = ''
       res.on('data', c => body += c)
       res.on('end', () => {
