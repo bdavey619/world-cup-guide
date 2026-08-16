@@ -16,6 +16,10 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
+// ESPN's edge rejects bare token User-Agents with a 403; including a contact
+// URL passes. Keep the contact URL if you change this string.
+const USER_AGENT = 'world-cup-guide/1.0 (+https://github.com/bdavey619/bdavey619.github.io)'
+
 const NAME_TO_SLUG = {
   'Algeria':                       'algeria',
   'Argentina':                     'argentina',
@@ -57,7 +61,10 @@ const NAME_TO_SLUG = {
   'USA':                           'united-states',
 }
 
-// Bracket tree: match winner goes to the specified slot in the next match
+// Bracket tree: match winner goes to the specified slot in the next match.
+// Must stay in sync with the slot labels in src/data/actualBracket.js — if the
+// two disagree, a real fixture matches no seeded pair here and is skipped
+// silently, and a later round lands in the wrong slot.
 const WINNER_ADVANCES = {
   49: { next: 65, side: 'home' },
   52: { next: 65, side: 'away' },
@@ -77,10 +84,10 @@ const WINNER_ADVANCES = {
   64: { next: 72, side: 'away' },
   65: { next: 73, side: 'home' },
   66: { next: 73, side: 'away' },
-  67: { next: 74, side: 'home' },
-  68: { next: 74, side: 'away' },
-  69: { next: 75, side: 'home' },
-  70: { next: 75, side: 'away' },
+  69: { next: 74, side: 'home' },
+  70: { next: 74, side: 'away' },
+  67: { next: 75, side: 'home' },
+  68: { next: 75, side: 'away' },
   71: { next: 76, side: 'home' },
   72: { next: 76, side: 'away' },
   73: { next: 77, side: 'home' },
@@ -99,7 +106,7 @@ const LOSER_ADVANCES = {
 
 function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, res => {
       let data = ''
       res.on('data', chunk => data += chunk)
       res.on('end', () => {
@@ -181,12 +188,13 @@ async function updateBracket() {
   }
 
   let updated = 0
+  let fetchFailures = 0
   const seenEvents = new Set()
 
   for (const dateStr of dates) {
     let board
     try { board = await fetchJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`) }
-    catch { continue }
+    catch { fetchFailures++; continue }
 
     for (const event of (board.events ?? [])) {
       if (seenEvents.has(event.id)) continue
@@ -228,7 +236,9 @@ async function updateBracket() {
       match.homeGoals = homeGoals
       match.awayGoals = awayGoals
       match.winnerId  = winnerId
-      console.log(`  ✓ Match ${matchNum}: ${homeSlug} ${homeGoals}–${awayGoals} ${awaySlug} → ${winnerId}`)
+      // Log in bracketResults orientation — goals above are resolved to it, and
+      // ESPN's home/away may be reversed.
+      console.log(`  ✓ Match ${matchNum}: ${match.homeId} ${homeGoals}–${awayGoals} ${match.awayId} → ${winnerId}`)
 
       propagateId(results, matchNum, winnerId)
       const loserId = homeSlug === winnerId ? awaySlug : homeSlug
@@ -238,6 +248,12 @@ async function updateBracket() {
       pairLookup = buildPairLookup(results)
       updated++
     }
+  }
+
+  // Every date failing means the API is unreachable, not that there's no news.
+  // Fail loudly so the workflow surfaces it instead of reporting "nothing new".
+  if (fetchFailures === dates.length) {
+    throw new Error(`All ${dates.length} scoreboard fetches failed — ESPN API unreachable.`)
   }
 
   if (updated > 0) {

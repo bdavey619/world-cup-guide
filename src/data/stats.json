@@ -1,25 +1,186 @@
 {
-  "updatedAt": "2026-08-01T01:11:58.758Z",
+  "updatedAt": "2026-08-16T03:32:59.075Z",
   "individual": {
     "goals": [
-      {
-        "name": "Jude Bellingham",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 5
-      },
       {
         "name": "Kylian Mbappé",
         "team": "France",
         "flag": "🇫🇷",
         "position": "",
-        "value": 4
+        "value": 10
+      },
+      {
+        "name": "Lionel Messi",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 8
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 7
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 7
+      },
+      {
+        "name": "Harry Kane",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "position": "",
+        "value": 6
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 6
       },
       {
         "name": "Mikel Oyarzabal",
         "team": "Spain",
         "flag": "🇪🇸",
+        "position": "",
+        "value": 5
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 4
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Kai Havertz",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Deniz Undav",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Elijah Just",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Johan Manzambi",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Jonathan David",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Matheus Cunha",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Brian Brobbey",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Cody Gakpo",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Romelu Lukaku",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 3
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "Argentina",
+        "flag": "🇦🇷",
         "position": "",
         "value": 3
       },
@@ -38,6 +199,174 @@
         "value": 3
       },
       {
+        "name": "Cyle Larin",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Crysencio Summerville",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Daichi Kamada",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Amad Diallo",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Yasin Ayari",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Emam Ashour",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Maxi Araújo",
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ramin Rezaeian",
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Marko Arnautovic",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Daniel Muñoz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Rubén Vargas",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ermin Mahmic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Anthony Elanga",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Ayase Ueda",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Mostafa Zico",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Nicolas Pépé",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Habib Diarra",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Pape Gueye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Leandro Trossard",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Riyad Mahrez",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Youri Tielemans",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 2
+      },
+      {
+        "name": "Malik Tillman",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 2
+      },
+      {
         "name": "Pedro Porro",
         "team": "Spain",
         "flag": "🇪🇸",
@@ -52,23 +381,9 @@
         "value": 2
       },
       {
-        "name": "Lionel Messi",
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "position": "",
-        "value": 2
-      },
-      {
         "name": "Azzedine Ounahi",
         "team": "Morocco",
         "flag": "🇲🇦",
-        "position": "",
-        "value": 2
-      },
-      {
-        "name": "Erling Haaland",
-        "team": "Norway",
-        "flag": "🇳🇴",
         "position": "",
         "value": 2
       },
@@ -87,79 +402,345 @@
         "value": 2
       },
       {
-        "name": "Ousmane Dembélé",
-        "team": "France",
-        "flag": "🇫🇷",
+        "name": "Ladislav Krejcí",
+        "team": "Czechia",
+        "flag": "🇨🇿",
         "position": "",
-        "value": 2
+        "value": 1
       },
       {
-        "name": "Lautaro Martínez",
-        "team": "Argentina",
-        "flag": "🇦🇷",
+        "name": "Hwang In-Beom",
+        "team": "South Korea",
+        "flag": "🇰🇷",
         "position": "",
-        "value": 2
+        "value": 1
       },
       {
-        "name": "Ivan Perisic",
+        "name": "Oh Hyeon-Gyu",
+        "team": "South Korea",
+        "flag": "🇰🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jovo Lukic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Maurício",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Giovanni Reyna",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "John McGinn",
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nestory Irankunda",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Connor Metcalfe",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Felix Nmecha",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Livano Comenencia",
+        "team": "Curaçao",
+        "flag": "🇨🇼",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jamal Musiala",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nathaniel Brown",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Virgil van Dijk",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Keito Nakamura",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Omar Rekik",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mattias Svanberg",
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mohammad Mohebbi",
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ibrahim Mbaye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Aymen Hussein",
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Leo Østigard",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Romano Schmid",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ali Olwan",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "João Neves",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Martin Baturina",
         "team": "Croatia",
         "flag": "🇭🇷",
         "position": "",
         "value": 1
       },
       {
-        "name": "Cristiano Ronaldo",
-        "team": "Portugal",
-        "flag": "🇵🇹",
+        "name": "Petar Musa",
+        "team": "Croatia",
+        "flag": "🇭🇷",
         "position": "",
         "value": 1
       },
       {
-        "name": "Gonçalo Ramos",
-        "team": "Portugal",
-        "flag": "🇵🇹",
+        "name": "Marcus Rashford",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "position": "",
         "value": 1
       },
       {
-        "name": "Breel Embolo",
+        "name": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Luis Díaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jáminton Campaz",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Michal Sadílek",
+        "team": "Czechia",
+        "flag": "🇨🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Teboho Mokoena",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Granit Xhaka",
         "team": "Switzerland",
         "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
       {
-        "name": "Emam Ashour",
-        "team": "Egypt",
-        "flag": "🇪🇬",
+        "name": "Nathan Saliba",
+        "team": "Canada",
+        "flag": "🇨🇦",
         "position": "",
         "value": 1
       },
       {
-        "name": "Mahmoud Saber",
-        "team": "Egypt",
-        "flag": "🇪🇬",
+        "name": "Luis Romo",
+        "team": "Mexico",
+        "flag": "🇲🇽",
         "position": "",
         "value": 1
       },
       {
-        "name": "Jackson Irvine",
-        "team": "Australia",
-        "flag": "🇦🇺",
+        "name": "Alex Freeman",
+        "team": "United States",
+        "flag": "🇺🇸",
         "position": "",
         "value": 1
       },
       {
-        "name": "Ramy Rabia",
-        "team": "Egypt",
-        "flag": "🇪🇬",
+        "name": "Matías Galarza",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
         "position": "",
         "value": 1
       },
       {
-        "name": "Awer Mabil",
-        "team": "Australia",
-        "flag": "🇦🇺",
+        "name": "Franck Kessié",
+        "team": "Ivory Coast",
+        "flag": "🇨🇮",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Junya Ito",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kevin Pina",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Agustín Canobbio",
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hélio Varela",
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Finn Surman",
+        "team": "New Zealand",
+        "flag": "🇳🇿",
         "position": "",
         "value": 1
       },
@@ -171,9 +752,387 @@
         "value": 1
       },
       {
-        "name": "Hossam Abdelmaguid",
+        "name": "Trézéguet",
         "team": "Egypt",
         "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marcus Holmgren Pedersen",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nizar Al-Rashdan",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nadhir Benbouali",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Amine Gouiri",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nuno Mendes",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Rafael Leão",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ante Budimir",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kerim Alajbegovic",
+        "team": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hassan Al-Haydos",
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Promise David",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Achraf Hakimi",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Wilson Isidor",
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gessime Yassine",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mateo Chávez",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Thapelo Maseko",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Leroy Sané",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nilson Angulo",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gonzalo Plata",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Daizen Maeda",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Hazem Mastouri",
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Auston Trusty",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Arda Güler",
+        "team": "Türkiye",
+        "flag": "🇹🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Baris Alper Yilmaz",
+        "team": "Türkiye",
+        "flag": "🇹🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Sebastian Berhalter",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kaan Ayhan",
+        "team": "Türkiye",
+        "flag": "🇹🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Thelo Aasgaard",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Désiré Doué",
+        "team": "France",
+        "flag": "🇫🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Álex Baena",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mahmoud Saber",
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Petar Sucic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Derrick Luckassen",
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Nikola Vlasic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Fiston Mayele",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Rafik Belghali",
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Sasa Kalajdzic",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Mousa Al-Tamari",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Stephen Eustáquio",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Kaishu Sano",
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Casemiro",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Issa Diop",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Antonio Nusa",
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Brian Cipenga",
+        "team": "DR Congo",
+        "flag": "🇨🇩",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Ivan Perisic",
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "position": "",
+        "value": 1
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "team": "Portugal",
+        "flag": "🇵🇹",
         "position": "",
         "value": 1
       },
@@ -206,13 +1165,6 @@
         "value": 1
       },
       {
-        "name": "Soufiane Rahimi",
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Neymar",
         "team": "Brazil",
         "flag": "🇧🇷",
@@ -220,42 +1172,7 @@
         "value": 1
       },
       {
-        "name": "Julián Quiñones",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Harry Kane",
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Raúl Jiménez",
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Malik Tillman",
-        "team": "United States",
-        "flag": "🇺🇸",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Hans Vanaken",
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Romelu Lukaku",
         "team": "Belgium",
         "flag": "🇧🇪",
         "position": "",
@@ -269,65 +1186,9 @@
         "value": 1
       },
       {
-        "name": "Mostafa Zico",
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "position": "",
-        "value": 1
-      },
-      {
         "name": "Cristian Romero",
         "team": "Argentina",
         "flag": "🇦🇷",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Juan Fernando Quintero",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Granit Xhaka",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Zeki Amdouni",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Jáminton Campaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Cedric Itten",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Luis Díaz",
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Rubén Vargas",
-        "team": "Switzerland",
-        "flag": "🇨🇭",
         "position": "",
         "value": 1
       },
@@ -377,13 +1238,6 @@
         "name": "Ezri Konsa",
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "position": "",
-        "value": 1
-      },
-      {
-        "name": "Bradley Barcola",
-        "team": "France",
-        "flag": "🇫🇷",
         "position": "",
         "value": 1
       },
@@ -577,9 +1431,9 @@
     {
       "name": "Spain",
       "flag": "🇪🇸",
-      "gp": 3,
-      "gf": 5,
-      "ga": 0,
+      "gp": 8,
+      "gf": 14,
+      "ga": 1,
       "cleanSheets": 7,
       "possession": 62.7,
       "yellowCards": 6,
@@ -588,9 +1442,9 @@
     {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "gp": 3,
-      "gf": 8,
-      "ga": 1,
+      "gp": 8,
+      "gf": 19,
+      "ga": 8,
       "cleanSheets": 2,
       "possession": 57.5,
       "yellowCards": 13,
@@ -599,9 +1453,9 @@
     {
       "name": "Mexico",
       "flag": "🇲🇽",
-      "gp": 3,
-      "gf": 6,
-      "ga": 0,
+      "gp": 5,
+      "gf": 10,
+      "ga": 3,
       "cleanSheets": 4,
       "possession": 50.6,
       "yellowCards": 4,
@@ -610,9 +1464,9 @@
     {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "gp": 3,
-      "gf": 7,
-      "ga": 1,
+      "gp": 5,
+      "gf": 10,
+      "ga": 4,
       "cleanSheets": 2,
       "possession": 53.3,
       "yellowCards": 8,
@@ -621,9 +1475,9 @@
     {
       "name": "Canada",
       "flag": "🇨🇦",
-      "gp": 3,
-      "gf": 8,
-      "ga": 3,
+      "gp": 5,
+      "gf": 9,
+      "ga": 6,
       "cleanSheets": 2,
       "possession": 52.4,
       "yellowCards": 11,
@@ -632,8 +1486,8 @@
     {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "gp": 3,
-      "gf": 4,
+      "gp": 5,
+      "gf": 5,
       "ga": 1,
       "cleanSheets": 4,
       "possession": 56.8,
@@ -643,9 +1497,9 @@
     {
       "name": "Ecuador",
       "flag": "🇪🇨",
-      "gp": 3,
+      "gp": 4,
       "gf": 2,
-      "ga": 2,
+      "ga": 4,
       "cleanSheets": 1,
       "possession": 55.6,
       "yellowCards": 8,
@@ -654,9 +1508,9 @@
     {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "gp": 3,
-      "gf": 2,
-      "ga": 4,
+      "gp": 5,
+      "gf": 3,
+      "ga": 6,
       "cleanSheets": 2,
       "possession": 30.5,
       "yellowCards": 9,
@@ -676,9 +1530,9 @@
     {
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "gp": 3,
-      "gf": 6,
-      "ga": 2,
+      "gp": 8,
+      "gf": 20,
+      "ga": 12,
       "cleanSheets": 2,
       "possession": 54.1,
       "yellowCards": 8,
@@ -687,9 +1541,9 @@
     {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "gp": 3,
-      "gf": 10,
-      "ga": 4,
+      "gp": 4,
+      "gf": 11,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 59.1,
       "yellowCards": 3,
@@ -720,9 +1574,9 @@
     {
       "name": "Bosnia-Herzegovina",
       "flag": "🇧🇦",
-      "gp": 3,
+      "gp": 4,
       "gf": 5,
-      "ga": 6,
+      "ga": 8,
       "cleanSheets": 0,
       "possession": 48.6,
       "yellowCards": 7,
@@ -731,9 +1585,9 @@
     {
       "name": "Belgium",
       "flag": "🇧🇪",
-      "gp": 3,
-      "gf": 6,
-      "ga": 2,
+      "gp": 6,
+      "gf": 14,
+      "ga": 7,
       "cleanSheets": 1,
       "possession": 51.1,
       "yellowCards": 6,
@@ -742,9 +1596,9 @@
     {
       "name": "Norway",
       "flag": "🇳🇴",
-      "gp": 3,
-      "gf": 8,
-      "ga": 7,
+      "gp": 6,
+      "gf": 13,
+      "ga": 11,
       "cleanSheets": 0,
       "possession": 52.2,
       "yellowCards": 3,
@@ -764,9 +1618,9 @@
     {
       "name": "Sweden",
       "flag": "🇸🇪",
-      "gp": 3,
+      "gp": 4,
       "gf": 7,
-      "ga": 7,
+      "ga": 10,
       "cleanSheets": 0,
       "possession": 47,
       "yellowCards": 5,
@@ -775,9 +1629,9 @@
     {
       "name": "South Africa",
       "flag": "🇿🇦",
-      "gp": 3,
+      "gp": 4,
       "gf": 2,
-      "ga": 3,
+      "ga": 4,
       "cleanSheets": 1,
       "possession": 47.8,
       "yellowCards": 5,
@@ -797,9 +1651,9 @@
     {
       "name": "Austria",
       "flag": "🇦🇹",
-      "gp": 3,
+      "gp": 4,
       "gf": 6,
-      "ga": 6,
+      "ga": 9,
       "cleanSheets": 0,
       "possession": 51.1,
       "yellowCards": 5,
@@ -808,9 +1662,9 @@
     {
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "gp": 3,
-      "gf": 7,
-      "ga": 3,
+      "gp": 6,
+      "gf": 10,
+      "ga": 6,
       "cleanSheets": 2,
       "possession": 54.2,
       "yellowCards": 6,
@@ -819,9 +1673,9 @@
     {
       "name": "Croatia",
       "flag": "🇭🇷",
-      "gp": 3,
-      "gf": 5,
-      "ga": 5,
+      "gp": 4,
+      "gf": 6,
+      "ga": 7,
       "cleanSheets": 1,
       "possession": 51,
       "yellowCards": 4,
@@ -830,9 +1684,9 @@
     {
       "name": "France",
       "flag": "🇫🇷",
-      "gp": 3,
-      "gf": 10,
-      "ga": 2,
+      "gp": 8,
+      "gf": 20,
+      "ga": 10,
       "cleanSheets": 4,
       "possession": 59.2,
       "yellowCards": 6,
@@ -841,9 +1695,9 @@
     {
       "name": "Germany",
       "flag": "🇩🇪",
-      "gp": 3,
-      "gf": 10,
-      "ga": 4,
+      "gp": 4,
+      "gf": 11,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 63.8,
       "yellowCards": 3,
@@ -852,9 +1706,9 @@
     {
       "name": "Portugal",
       "flag": "🇵🇹",
-      "gp": 3,
-      "gf": 6,
-      "ga": 1,
+      "gp": 5,
+      "gf": 8,
+      "ga": 3,
       "cleanSheets": 2,
       "possession": 53.5,
       "yellowCards": 7,
@@ -874,9 +1728,9 @@
     {
       "name": "Algeria",
       "flag": "🇩🇿",
-      "gp": 3,
+      "gp": 4,
       "gf": 5,
-      "ga": 7,
+      "ga": 9,
       "cleanSheets": 0,
       "possession": 62.5,
       "yellowCards": 3,
@@ -885,9 +1739,9 @@
     {
       "name": "Japan",
       "flag": "🇯🇵",
-      "gp": 3,
-      "gf": 7,
-      "ga": 3,
+      "gp": 4,
+      "gf": 8,
+      "ga": 5,
       "cleanSheets": 1,
       "possession": 48.4,
       "yellowCards": 4,
@@ -896,9 +1750,9 @@
     {
       "name": "Australia",
       "flag": "🇦🇺",
-      "gp": 3,
-      "gf": 2,
-      "ga": 2,
+      "gp": 4,
+      "gf": 3,
+      "ga": 3,
       "cleanSheets": 2,
       "possession": 41,
       "yellowCards": 5,
@@ -907,9 +1761,9 @@
     {
       "name": "Senegal",
       "flag": "🇸🇳",
-      "gp": 3,
-      "gf": 8,
-      "ga": 6,
+      "gp": 4,
+      "gf": 10,
+      "ga": 9,
       "cleanSheets": 1,
       "possession": 60,
       "yellowCards": 3,
@@ -940,9 +1794,9 @@
     {
       "name": "United States",
       "flag": "🇺🇸",
-      "gp": 3,
-      "gf": 8,
-      "ga": 4,
+      "gp": 5,
+      "gf": 11,
+      "ga": 8,
       "cleanSheets": 2,
       "possession": 55.2,
       "yellowCards": 7,
@@ -962,9 +1816,9 @@
     {
       "name": "Cape Verde",
       "flag": "🇨🇻",
-      "gp": 3,
-      "gf": 2,
-      "ga": 2,
+      "gp": 4,
+      "gf": 4,
+      "ga": 5,
       "cleanSheets": 2,
       "possession": 41.6,
       "yellowCards": 5,
@@ -973,9 +1827,9 @@
     {
       "name": "Egypt",
       "flag": "🇪🇬",
-      "gp": 3,
-      "gf": 5,
-      "ga": 3,
+      "gp": 5,
+      "gf": 8,
+      "ga": 7,
       "cleanSheets": 0,
       "possession": 55.3,
       "yellowCards": 12,
@@ -1017,9 +1871,9 @@
     {
       "name": "DR Congo",
       "flag": "🇨🇩",
-      "gp": 3,
-      "gf": 4,
-      "ga": 3,
+      "gp": 4,
+      "gf": 5,
+      "ga": 5,
       "cleanSheets": 0,
       "possession": 45.7,
       "yellowCards": 6,
@@ -1028,9 +1882,9 @@
     {
       "name": "Morocco",
       "flag": "🇲🇦",
-      "gp": 3,
-      "gf": 6,
-      "ga": 3,
+      "gp": 6,
+      "gf": 10,
+      "ga": 6,
       "cleanSheets": 2,
       "possession": 63,
       "yellowCards": 7,
@@ -1072,9 +1926,9 @@
     {
       "name": "Ghana",
       "flag": "🇬🇭",
-      "gp": 3,
+      "gp": 4,
       "gf": 2,
-      "ga": 2,
+      "ga": 3,
       "cleanSheets": 2,
       "possession": 36.9,
       "yellowCards": 6,
@@ -1083,9 +1937,9 @@
     {
       "name": "Ivory Coast",
       "flag": "🇨🇮",
-      "gp": 3,
-      "gf": 4,
-      "ga": 2,
+      "gp": 4,
+      "gf": 5,
+      "ga": 4,
       "cleanSheets": 2,
       "possession": 49.8,
       "yellowCards": 4,
@@ -1105,21 +1959,21 @@
   ],
   "records": {
     "highestScoring": {
-      "goals": 6,
+      "goals": 7,
       "teams": [
         {
-          "team": "England",
-          "label": "France 4–6 England",
-          "date": "Jul 18"
+          "team": "Germany",
+          "label": "Germany 7–1 Curaçao",
+          "date": "Jun 14"
         }
       ]
     },
     "biggestDefeat": {
-      "label": "France 4–6 England",
-      "loser": "France",
-      "winner": "England",
-      "margin": 2,
-      "date": "Jul 18"
+      "label": "Germany 7–1 Curaçao",
+      "loser": "Curaçao",
+      "winner": "Germany",
+      "margin": 6,
+      "date": "Jun 14"
     }
   }
 }

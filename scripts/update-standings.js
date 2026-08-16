@@ -16,6 +16,30 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
+// ESPN's edge rejects bare token User-Agents with a 403; including a contact
+// URL passes. Keep the contact URL if you change this string.
+const USER_AGENT = 'world-cup-guide/1.0 (+https://github.com/bdavey619/bdavey619.github.io)'
+
+// Scan the whole tournament, not a window relative to today — a rolling window
+// silently drops matches off the back as time passes.
+// End is one day past the final: ESPN buckets events by UTC date, so a
+// midnight-ET kickoff lands under the following day.
+const TOURNAMENT_START = '2026-06-11'
+const TOURNAMENT_END   = '2026-07-20'
+
+function tournamentDates() {
+  // Cap at tomorrow so mid-tournament runs don't fetch dates that haven't happened.
+  const tomorrow = new Date(Date.now() + 86400000)
+  const end = new Date(`${TOURNAMENT_END}T12:00:00Z`)
+  const last = end < tomorrow ? end : tomorrow
+
+  const dates = []
+  for (let d = new Date(`${TOURNAMENT_START}T12:00:00Z`); d <= last; d.setUTCDate(d.getUTCDate() + 1)) {
+    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
+  }
+  return dates
+}
+
 // ── ESPN team name → our JSON slug ───────────────────────────────────────────
 const NAME_TO_SLUG = {
   'Algeria':                  'algeria',
@@ -82,7 +106,7 @@ const TEAMS_DIR = path.join(__dirname, '../src/data/teams')
 
 function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, res => {
       let data = ''
       res.on('data', chunk => data += chunk)
       res.on('end', () => {
@@ -197,14 +221,7 @@ async function updateStandings() {
   // ── Match scores ────────────────────────────────────────────────────────────
   console.log('\nFetching completed match scores…')
 
-  // Look back 14 days and forward 1 day to catch any recently finished matches
-  const today = new Date()
-  const dates = []
-  for (let offset = -14; offset <= 1; offset++) {
-    const d = new Date(today)
-    d.setUTCDate(d.getUTCDate() + offset)
-    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
-  }
+  const dates = tournamentDates()
 
   const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 

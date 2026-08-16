@@ -327,6 +327,16 @@ export default function Bracket({ teams = [] }) {
   const allActualMatches = [...actualR32, ...actualR16, ...actualQF, ...actualSF, ...actualFinal, actual3rdPlace]
   const playedCount = allActualMatches.filter(m => m.winnerId).length
   const totalCount  = allActualMatches.length
+  const isComplete  = playedCount === totalCount
+
+  // Champion of the actual bracket — only known once the final is played
+  const actualChampion = teamById[actualFinal[0]?.winnerId]
+
+  // Third-place match — carries a score once played
+  const thirdHome   = teamById[actual3rdPlace.homeId]
+  const thirdAway   = teamById[actual3rdPlace.awayId]
+  const thirdPlayed = actual3rdPlace.homeGoals != null && actual3rdPlace.awayGoals != null
+  const thirdWinner = teamById[actual3rdPlace.winnerId]
 
   return (
     <div>
@@ -412,15 +422,21 @@ export default function Bracket({ teams = [] }) {
           <>
             <div>
               <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
-                Tournament underway
+                {isComplete && actualChampion
+                  ? `${actualChampion.flagEmoji} ${actualChampion.name} win the 2026 World Cup`
+                  : 'Tournament underway'}
               </div>
               <div style={{ fontSize: 10, color: 'var(--gray-500)', fontFamily: 'var(--font-sans)' }}>
-                Group stage: Jun 11 – Jun 27 · Knockout stage starts Jun 28
+                {isComplete
+                  ? 'Jun 11 – Jul 19, 2026 · Final at MetLife Stadium, New York'
+                  : 'Group stage: Jun 11 – Jun 27 · Knockout stage starts Jun 28'}
               </div>
             </div>
             <div style={{ marginLeft: 'auto' }}>
               <div style={{ fontSize: 10, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
-                Highlighted = match winner · italic slots = awaiting group stage
+                {isComplete
+                  ? 'Highlighted = match winner'
+                  : 'Highlighted = match winner · italic slots = awaiting group stage'}
               </div>
             </div>
           </>
@@ -467,10 +483,18 @@ export default function Bracket({ teams = [] }) {
               : 'Semi-final losers · TBD'}
           </div>
         ) : (
-          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 3, fontFamily: 'var(--font-sans)', fontStyle: 'italic' }}>
-            {actual3rdPlace.homeId || actual3rdPlace.awayId
-              ? `${teamById[actual3rdPlace.homeId]?.flagEmoji ?? ''} ${teamById[actual3rdPlace.homeId]?.name ?? actual3rdPlace.slotA} vs ${teamById[actual3rdPlace.awayId]?.flagEmoji ?? ''} ${teamById[actual3rdPlace.awayId]?.name ?? actual3rdPlace.slotB}`
-              : 'Semi-final losers · TBD'}
+          <div style={{
+            fontSize: 11,
+            color: thirdPlayed ? 'var(--gray-900)' : 'var(--gray-400)',
+            marginTop: 3,
+            fontFamily: 'var(--font-sans)',
+            fontStyle: thirdPlayed ? 'normal' : 'italic',
+          }}>
+            {!actual3rdPlace.homeId && !actual3rdPlace.awayId
+              ? 'Semi-final losers · TBD'
+              : thirdPlayed
+                ? `${thirdHome?.flagEmoji ?? ''} ${thirdHome?.name ?? actual3rdPlace.slotA} ${actual3rdPlace.homeGoals} – ${actual3rdPlace.awayGoals} ${thirdAway?.flagEmoji ?? ''} ${thirdAway?.name ?? actual3rdPlace.slotB}${thirdWinner ? ` · 🥉 ${thirdWinner.name}` : ''}`
+                : `${thirdHome?.flagEmoji ?? ''} ${thirdHome?.name ?? actual3rdPlace.slotA} vs ${thirdAway?.flagEmoji ?? ''} ${thirdAway?.name ?? actual3rdPlace.slotB}`}
           </div>
         )}
       </div>

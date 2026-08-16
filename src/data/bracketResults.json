@@ -175,18 +175,18 @@
     "winnerId": "france"
   },
   "74": {
-    "homeId": "norway",
-    "awayId": "england",
-    "homeGoals": 1,
-    "awayGoals": 2,
-    "winnerId": "england"
-  },
-  "75": {
     "homeId": "spain",
     "awayId": "belgium",
     "homeGoals": 2,
     "awayGoals": 1,
     "winnerId": "spain"
+  },
+  "75": {
+    "homeId": "norway",
+    "awayId": "england",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "winnerId": "england"
   },
   "76": {
     "homeId": "argentina",
@@ -197,24 +197,30 @@
   },
   "77": {
     "homeId": "france",
+    "awayId": "spain",
+    "homeGoals": 0,
+    "awayGoals": 2,
+    "winnerId": "spain"
+  },
+  "78": {
+    "homeId": "england",
+    "awayId": "argentina",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "winnerId": "argentina"
+  },
+  "79": {
+    "homeId": "france",
     "awayId": "england",
     "homeGoals": 4,
     "awayGoals": 6,
     "winnerId": "england"
   },
-  "78": {
+  "80": {
     "homeId": "spain",
     "awayId": "argentina",
     "homeGoals": 1,
     "awayGoals": 0,
     "winnerId": "spain"
-  },
-  "79": {
-    "homeId": "france",
-    "awayId": "argentina"
-  },
-  "80": {
-    "homeId": "england",
-    "awayId": "spain"
   }
 }

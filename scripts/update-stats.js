@@ -24,11 +24,36 @@ const LEADERS_URL   = 'https://sports.core.api.espn.com/v2/sports/soccer/leagues
 const STANDINGS_URL = 'https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings?season=2026'
 const MONTH_ABBR    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
+// ESPN's edge rejects bare token User-Agents with a 403; including a contact
+// URL passes. Keep the contact URL if you change this string.
+const USER_AGENT = 'world-cup-guide/1.0 (+https://github.com/bdavey619/bdavey619.github.io)'
+
+// Scan the whole tournament, not a window relative to today. A rolling window
+// silently drops matches off the back as time passes — after the final, it
+// would eventually report totals from an empty date range.
+// End is one day past the final: ESPN buckets events by UTC date, so a
+// midnight-ET kickoff lands under the following day.
+const TOURNAMENT_START = '2026-06-11'
+const TOURNAMENT_END   = '2026-07-20'
+
+function tournamentDates() {
+  // Cap at tomorrow so mid-tournament runs don't fetch dates that haven't happened.
+  const tomorrow = new Date(Date.now() + 86400000)
+  const end = new Date(`${TOURNAMENT_END}T12:00:00Z`)
+  const last = end < tomorrow ? end : tomorrow
+
+  const dates = []
+  for (let d = new Date(`${TOURNAMENT_START}T12:00:00Z`); d <= last; d.setUTCDate(d.getUTCDate() + 1)) {
+    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
+  }
+  return dates
+}
+
 // ── Fetch helpers ─────────────────────────────────────────────────────────────
 
 function fetchJSONOnce(url, timeoutMs = 20000) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'world-cup-guide/1.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, res => {
       let data = ''
       res.on('data', c => data += c)
       res.on('end', () => {
@@ -122,13 +147,7 @@ async function fetchIndividualLeaders(flagMap) {
   console.log('Fetching individual stats…')
 
   // ── Goals: from scoreboard comp.details — covers every scorer for every team
-  const today = new Date()
-  const dates = []
-  for (let offset = -30; offset <= 1; offset++) {
-    const d = new Date(today)
-    d.setUTCDate(d.getUTCDate() + offset)
-    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
-  }
+  const dates = tournamentDates()
 
   const goalTotals = {}
   const seenEvents = new Set()
@@ -153,7 +172,10 @@ async function fetchIndividualLeaders(flagMap) {
 
       for (const detail of (comp.details ?? [])) {
         if (!detail.scoringPlay) continue
-        if ((detail.type?.text ?? '').toLowerCase().includes('own')) continue
+        // Shootout conversions settle the tie but are not goals — they don't
+        // appear in the final score and don't count toward the Golden Boot.
+        if (detail.shootout) continue
+        if (detail.ownGoal || (detail.type?.text ?? '').toLowerCase().includes('own')) continue
         const teamRef  = detail.team?.$ref ?? detail.team?.id ?? ''
         const teamName = teamByRef[teamRef] ?? ESPN_TO_NAME[detail.team?.displayName] ?? detail.team?.displayName ?? ''
         const scorerName = detail.athletesInvolved?.[0]?.displayName ?? detail.athletesInvolved?.[0]?.fullName ?? ''
@@ -215,8 +237,9 @@ async function fetchTeamStats(flagMap) {
 
       const stats = {}
       for (const s of (entry.stats ?? [])) stats[s.name] = s.value
+      // Standings cover the group stage only — they are the fallback for gp/gf/ga,
+      // with the per-team stats endpoint (which includes knockouts) preferred below.
       const gp = (stats.wins ?? 0) + (stats.ties ?? 0) + (stats.losses ?? 0)
-      // Use standings goals — more reliably updated than the per-team stats endpoint
       const gf = stats.pointsFor      ?? stats.GF ?? 0
       const ga = stats.pointsAgainst  ?? stats.GA ?? 0
 
@@ -249,12 +272,15 @@ async function fetchTeamStats(flagMap) {
       for (const stat of (cat.stats ?? [])) s[stat.name] = stat.value
     }
 
+    // Prefer the per-team endpoint: it spans the whole tournament, while the
+    // standings cover only the group stage. Keeping gf/ga on the standings
+    // would show group-stage goals next to full-tournament clean sheets and cards.
     teams.push({
       name:        meta.name,
       flag:        meta.flag,
-      gp:          meta.gp,
-      gf:          meta.gf,
-      ga:          meta.ga,
+      gp:          s.appearances      ?? meta.gp,
+      gf:          s.totalGoals       ?? meta.gf,
+      ga:          s.goalsConceded    ?? meta.ga,
       cleanSheets: s.cleanSheet       ?? 0,
       possession:  s.possessionPct    != null ? parseFloat(s.possessionPct.toFixed(1)) : null,
       yellowCards: s.yellowCards      ?? 0,
@@ -271,13 +297,7 @@ async function fetchTeamStats(flagMap) {
 async function fetchMatchRecords() {
   console.log('Scanning completed matches for records…')
 
-  const today = new Date()
-  const dates = []
-  for (let offset = -14; offset <= 1; offset++) {
-    const d = new Date(today)
-    d.setUTCDate(d.getUTCDate() + offset)
-    dates.push(d.toISOString().slice(0, 10).replace(/-/g, ''))
-  }
+  const dates = tournamentDates()
 
   const seenEvents = new Set()
   let highestScoring = null  // { goals, teams: [{ team, label, date }] }
